@@ -1,0 +1,153 @@
+.TH "FieldService.ViewModels.ViewModelBase" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.ViewModelBase \- 
+.PP
+Base class for all view models  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.Data\&.PropertyChangedBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.ViewModels\&.AssignmentViewModel\fP, \fBFieldService\&.ViewModels\&.DocumentViewModel\fP, \fBFieldService\&.ViewModels\&.ExpenseViewModel\fP, \fBFieldService\&.ViewModels\&.HistoryViewModel\fP, \fBFieldService\&.ViewModels\&.ItemViewModel\fP, \fBFieldService\&.ViewModels\&.LaborViewModel\fP, \fBFieldService\&.ViewModels\&.LoginViewModel\fP, \fBFieldService\&.ViewModels\&.MenuViewModel\fP, and \fBFieldService\&.ViewModels\&.PhotoViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBViewModelBase\fP ()"
+.br
+.RI "\fIDefault constructor \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBValidate\fP ()"
+.br
+.RI "\fIProtected method for validating the ViewModel \fP"
+.ti -1c
+.RI "virtual void \fBValidateProperty\fP (Func< bool > validate, string error)"
+.br
+.RI "\fIOther viewmodels should call this when overriding Validate, to validate each property \fP"
+.ti -1c
+.RI "virtual void \fBOnIsBusyChanged\fP ()"
+.br
+.RI "\fIOther viewmodels can override this if something should be done when busy \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBIsValid\fP\fC [get]\fP"
+.br
+.RI "\fIReturns true if the current state of the ViewModel is valid \fP"
+.ti -1c
+.RI "List< string > \fBErrors\fP\fC [get]\fP"
+.br
+.RI "\fIA list of errors if IsValid is false \fP"
+.ti -1c
+.RI "virtual string \fBError\fP\fC [get]\fP"
+.br
+.RI "\fIAn aggregated error message \fP"
+.ti -1c
+.RI "bool \fBIsBusy\fP\fC [get, set]\fP"
+.br
+.RI "\fIValue inidicating if a spinner should be shown \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler \fBIsBusyChanged\fP"
+.br
+.RI "\fIEvent for when IsBusy changes \fP"
+.ti -1c
+.RI "EventHandler \fBIsValidChanged\fP"
+.br
+.RI "\fIEvent for when IsValid changes \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Base class for all view models 
+
+
+.IP "\(bu" 2
+Implements INotifyPropertyChanged for \fBWinRT\fP
+.IP "\(bu" 2
+Implements some basic validation logic
+.IP "\(bu" 2
+Implements some IsBusy logic 
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.ViewModelBase\&.ViewModelBase ()"
+
+.PP
+Default constructor 
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void FieldService\&.ViewModels\&.ViewModelBase\&.OnIsBusyChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Other viewmodels can override this if something should be done when busy 
+.PP
+Reimplemented in \fBFieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\fP, and \fBFieldService\&.WinRT\&.ViewModels\&.LoginViewModel\fP\&.
+.SS "virtual void FieldService\&.ViewModels\&.ViewModelBase\&.Validate ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for validating the ViewModel 
+.IP "\(bu" 2
+Fires PropertyChanged for IsValid and Errors 
+.PP
+
+.PP
+Reimplemented in \fBFieldService\&.ViewModels\&.LoginViewModel\fP, and \fBFieldService\&.WinRT\&.ViewModels\&.LoginViewModel\fP\&.
+.SS "virtual void FieldService\&.ViewModels\&.ViewModelBase\&.ValidateProperty (Func< bool >validate, stringerror)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Other viewmodels should call this when overriding Validate, to validate each property 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvalidate\fP Func to determine if a value is valid
+.br
+\fIerror\fP The error message to use if not valid
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual string FieldService\&.ViewModels\&.ViewModelBase\&.Error\fC [get]\fP"
+
+.PP
+An aggregated error message 
+.SS "List<string> FieldService\&.ViewModels\&.ViewModelBase\&.Errors\fC [get]\fP, \fC [protected]\fP"
+
+.PP
+A list of errors if IsValid is false 
+.SS "bool FieldService\&.ViewModels\&.ViewModelBase\&.IsBusy\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Value inidicating if a spinner should be shown 
+.SS "bool FieldService\&.ViewModels\&.ViewModelBase\&.IsValid\fC [get]\fP"
+
+.PP
+Returns true if the current state of the ViewModel is valid 
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.ViewModels\&.ViewModelBase\&.IsBusyChanged"
+
+.PP
+Event for when IsBusy changes 
+.SS "EventHandler FieldService\&.ViewModels\&.ViewModelBase\&.IsValidChanged"
+
+.PP
+Event for when IsValid changes 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

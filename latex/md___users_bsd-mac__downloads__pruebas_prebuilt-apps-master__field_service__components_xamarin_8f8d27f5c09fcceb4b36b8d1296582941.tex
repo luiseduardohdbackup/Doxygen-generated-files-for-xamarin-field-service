@@ -1,0 +1,17 @@
+Xamarin.\+Mobile is an A\+P\+I for accessing common platform features, such as reading the user's address book and using the camera, across i\+O\+S, Android, and Windows Phone.
+
+The goal of Xamarin.\+Mobile is to decrease the amount of platform-\/specific code needed to perform common tasks in multiplatform apps, making development simpler and faster.
+
+\subsection*{Examples}
+
+To access the address book\+:
+
+```csharp var book = new Address\+Book (); foreach (Contact contact in book.\+Order\+By (c =$>$ c.\+Last\+Name)) \{ Console.\+Write\+Line (\char`\"{}\{0\} \{1\}\char`\"{}, contact.\+First\+Name, contact.\+Last\+Name); \} ```
+
+To get the user's location\+:
+
+```csharp var locator = new Geolocator \{ Desired\+Accuracy = 50 \}; locator.\+Get\+Position\+Async (timeout\+: 10000).Continue\+With (t =$>$ \{ Console.\+Write\+Line (\char`\"{}\+Position Status\+: \{0\}\char`\"{}, t.\+Result.\+Timestamp); Console.\+Write\+Line (\char`\"{}\+Position Latitude\+: \{0\}\char`\"{}, t.\+Result.\+Latitude); Console.\+Write\+Line (\char`\"{}\+Position Longitude\+: \{0\}\char`\"{}, t.\+Result.\+Longitude); \}); ```
+
+To take a photo\+:
+
+```csharp var picker = new Media\+Picker (); picker.\+Take\+Photo\+Async (new Store\+Camera\+Media\+Options \{ Name = \char`\"{}test.\+jpg\char`\"{}, Directory = \char`\"{}\+Media\+Picker\+Sample\char`\"{} \}).Continue\+With (t =$>$ \{ if (t.\+Is\+Canceled) \{ Console.\+Write\+Line (\char`\"{}\+User canceled\char`\"{}); return; \} Console.\+Write\+Line (t.\+Result.\+Path); \}); ``` 

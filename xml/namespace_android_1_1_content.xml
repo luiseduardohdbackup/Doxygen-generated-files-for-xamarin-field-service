@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_android_1_1_content" kind="namespace">
+    <compoundname>Android::Content</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

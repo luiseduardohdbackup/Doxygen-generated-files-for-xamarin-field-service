@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_split_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SplitController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1ab5e98ee182f75eb2ef7a01b575f44b8e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.SplitController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1ae1177b8ea7c9c7c4c7ff9f045c04386c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref></type>
+        <definition>MenuController FieldService.iOS.SplitController.menuController</definition>
+        <argsstring></argsstring>
+        <name>menuController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1a8efdaed02d4c927303cac10963d39bcd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller" kindref="compound">AssignmentDetailsController</ref></type>
+        <definition>AssignmentDetailsController FieldService.iOS.SplitController.detailsController</definition>
+        <argsstring></argsstring>
+        <name>detailsController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1a06f5b1c60e468ca8563b3c8c9553e0a1" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.SplitController.menu</definition>
+        <argsstring></argsstring>
+        <name>menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1a427afad8de580f915ee4e6047b5eff45" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.SplitController.hide</definition>
+        <argsstring></argsstring>
+        <name>hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1afc7e4b3862b1c991b312df3c1b187857" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SplitController.wasLandscape</definition>
+        <argsstring></argsstring>
+        <name>wasLandscape</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1aed02b5f12b37b65f7be494c8be557cf1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SplitController.masterPopoverShown</definition>
+        <argsstring></argsstring>
+        <name>masterPopoverShown</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1a18dcff2f811a082ff1fba441506de31c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SplitController.isHistory</definition>
+        <argsstring></argsstring>
+        <name>isHistory</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_split_controller_1a92225c7338872929342de759e86d362c" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float FieldService.iOS.SplitController.masterWidth</definition>
+        <argsstring></argsstring>
+        <name>masterWidth</name>
+        <initializer>= 321</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_split_controller_1a28c4dffa6429e4e11378c3bdf68cdf49" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIView</type>
+        <definition>MonoTouch.UIKit.UIView FieldService.iOS.SplitController.masterView</definition>
+        <argsstring></argsstring>
+        <name>masterView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_split_controller_1a24013a6078b8bc6c1987b5d647b8c2b8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIView</type>
+        <definition>MonoTouch.UIKit.UIView FieldService.iOS.SplitController.detailView</definition>
+        <argsstring></argsstring>
+        <name>detailView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a3e8fafe76cf844c4d3b969cf31b9bbcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.SplitController.SplitController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>SplitController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1aa16acbf67fb07d94586f5bda136b7e27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SplitController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="42" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a2a61f1f25f6ab2afa745f9d8af57f772" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SplitController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a4643170aea334fd59f9f273668318104" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SplitController.ViewWillDisappear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillDisappear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a5228e2219bf9050277abbcb2c6d14fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SplitController.WillRotate</definition>
+        <argsstring>(UIInterfaceOrientation toInterfaceOrientation, double duration)</argsstring>
+        <name>WillRotate</name>
+        <param>
+          <type>UIInterfaceOrientation</type>
+          <declname>toInterfaceOrientation</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="99" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a4b9a606ab07da57b08687831a54f973c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SplitController.ShowPopover</definition>
+        <argsstring>()</argsstring>
+        <name>ShowPopover</name>
+        <briefdescription>
+<para>Shows the popover. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="110" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1ac003e88566e895a387f43fa0de1c53c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SplitController.HidePopover</definition>
+        <argsstring>()</argsstring>
+        <name>HidePopover</name>
+        <briefdescription>
+<para>Hides the popover. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="126" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="126" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a7872b0e5ba4b27c34d878e9ea24b28a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SplitController.TouchesEnded</definition>
+        <argsstring>(NSSet touches, UIEvent evt)</argsstring>
+        <name>TouchesEnded</name>
+        <param>
+          <type>NSSet</type>
+          <declname>touches</declname>
+        </param>
+        <param>
+          <type>UIEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Dismiss the popover </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="243" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="243" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a0d40c3d6af2ff29d36fe74b6f03b351e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SplitController.AnimateMasterView</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>AnimateMasterView</name>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>Animates the master view for when the toolbar button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="142" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1a51ebbffa73369585516e32c6578f0094" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SplitController.SwitchOrientation</definition>
+        <argsstring>(UIInterfaceOrientation orientation, bool animated, double duration=.5)</argsstring>
+        <name>SwitchOrientation</name>
+        <param>
+          <type>UIInterfaceOrientation</type>
+          <declname>orientation</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>duration</declname>
+          <defval>.5</defval>
+        </param>
+        <briefdescription>
+<para>Performs the work for animating the orientation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="159" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="159" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_split_controller_1aa98a377a542a5480de0502fd80e65d9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SplitController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.designer.cs" bodystart="19" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The main split controller in the app, we couldn&apos;t use UISplitViewController because it must be the very root controller of the app NOTE: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3070">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="3071" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3069">
+        <label>FieldService.iOS.SplitController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_split_controller"/>
+        <childnode refid="3070" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3071">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3073">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="3074" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3072">
+        <label>FieldService.iOS.SplitController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_split_controller"/>
+        <childnode refid="3073" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3074">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SplitController.cs" bodystart="28" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a0d40c3d6af2ff29d36fe74b6f03b351e" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>AnimateMasterView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1ab5e98ee182f75eb2ef7a01b575f44b8e" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a8efdaed02d4c927303cac10963d39bcd" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>detailsController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a24013a6078b8bc6c1987b5d647b8c2b8" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>detailView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a427afad8de580f915ee4e6047b5eff45" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>hide</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1ac003e88566e895a387f43fa0de1c53c7" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>HidePopover</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a18dcff2f811a082ff1fba441506de31c" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>isHistory</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1aed02b5f12b37b65f7be494c8be557cf1" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>masterPopoverShown</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a28c4dffa6429e4e11378c3bdf68cdf49" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>masterView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a92225c7338872929342de759e86d362c" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>masterWidth</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a06f5b1c60e468ca8563b3c8c9553e0a1" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>menu</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1ae1177b8ea7c9c7c4c7ff9f045c04386c" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>menuController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::SplitController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1aa98a377a542a5480de0502fd80e65d9b" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a4b9a606ab07da57b08687831a54f973c" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ShowPopover</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a3e8fafe76cf844c4d3b969cf31b9bbcc" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>SplitController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a51ebbffa73369585516e32c6578f0094" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>SwitchOrientation</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a7872b0e5ba4b27c34d878e9ea24b28a2" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>TouchesEnded</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1aa16acbf67fb07d94586f5bda136b7e27" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a2a61f1f25f6ab2afa745f9d8af57f772" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ViewWillAppear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a4643170aea334fd59f9f273668318104" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>ViewWillDisappear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1afc7e4b3862b1c991b312df3c1b187857" prot="private" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>wasLandscape</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_split_controller_1a5228e2219bf9050277abbcb2c6d14fd7" prot="public" virt="non-virtual"><scope>FieldService::iOS::SplitController</scope><name>WillRotate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

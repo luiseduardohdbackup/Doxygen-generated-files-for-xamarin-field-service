@@ -1,0 +1,62 @@
+.TH "mono.MonoRuntimeProvider" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+mono.MonoRuntimeProvider \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ContentProvider\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMonoRuntimeProvider\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBonCreate\fP ()"
+.br
+.ti -1c
+.RI "void \fBattachInfo\fP (android\&.content\&.Context context, android\&.content\&.pm\&.ProviderInfo info)"
+.br
+.ti -1c
+.RI "android\&.database\&.Cursor \fBquery\fP (\fBandroid\&.net\&.Uri\fP uri, String[] projection, String selection, String[] selectionArgs, String sortOrder)"
+.br
+.ti -1c
+.RI "String \fBgetType\fP (\fBandroid\&.net\&.Uri\fP uri)"
+.br
+.ti -1c
+.RI "\fBandroid\&.net\&.Uri\fP \fBinsert\fP (\fBandroid\&.net\&.Uri\fP uri, android\&.content\&.ContentValues initialValues)"
+.br
+.ti -1c
+.RI "int \fBdelete\fP (\fBandroid\&.net\&.Uri\fP uri, String where, String[] whereArgs)"
+.br
+.ti -1c
+.RI "int \fBupdate\fP (\fBandroid\&.net\&.Uri\fP uri, android\&.content\&.ContentValues values, String where, String[] whereArgs)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "mono\&.MonoRuntimeProvider\&.MonoRuntimeProvider ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void mono\&.MonoRuntimeProvider\&.attachInfo (android\&.content\&.Contextcontext, android\&.content\&.pm\&.ProviderInfoinfo)"
+
+.SS "int mono\&.MonoRuntimeProvider\&.delete (\fBandroid\&.net\&.Uri\fPuri, Stringwhere, String[]whereArgs)"
+
+.SS "String mono\&.MonoRuntimeProvider\&.getType (\fBandroid\&.net\&.Uri\fPuri)"
+
+.SS "\fBandroid\&.net\&.Uri\fP mono\&.MonoRuntimeProvider\&.insert (\fBandroid\&.net\&.Uri\fPuri, android\&.content\&.ContentValuesinitialValues)"
+
+.SS "boolean mono\&.MonoRuntimeProvider\&.onCreate ()"
+
+.SS "android\&.database\&.Cursor mono\&.MonoRuntimeProvider\&.query (\fBandroid\&.net\&.Uri\fPuri, String[]projection, Stringselection, String[]selectionArgs, StringsortOrder)"
+
+.SS "int mono\&.MonoRuntimeProvider\&.update (\fBandroid\&.net\&.Uri\fPuri, android\&.content\&.ContentValuesvalues, Stringwhere, String[]whereArgs)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

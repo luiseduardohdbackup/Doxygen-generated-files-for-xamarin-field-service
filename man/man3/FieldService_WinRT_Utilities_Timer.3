@@ -1,0 +1,70 @@
+.TH "FieldService.WinRT.Utilities.Timer" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.Utilities.Timer \- 
+.PP
+This is a wrapper around DispatcherTimer for \fBWinRT\fP It is for exposing methods identical to System\&.Timers\&.Timer, to make code simpler in view models using it  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTimer\fP ()"
+.br
+.RI "\fIDefault constructor \fP"
+.ti -1c
+.RI "\fBTimer\fP (int interval)"
+.br
+.RI "\fIConstructor providing an interval of milliseconds \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBEnabled\fP\fC [get, set]\fP"
+.br
+.RI "\fICalls Start() and Stop() appropriately \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler \fBElapsed\fP"
+.br
+.RI "\fIEvent fired when Tick is fired \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is a wrapper around DispatcherTimer for \fBWinRT\fP It is for exposing methods identical to System\&.Timers\&.Timer, to make code simpler in view models using it 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.Utilities\&.Timer\&.Timer ()"
+
+.PP
+Default constructor 
+.SS "FieldService\&.WinRT\&.Utilities\&.Timer\&.Timer (intinterval)"
+
+.PP
+Constructor providing an interval of milliseconds 
+.SH "Property Documentation"
+.PP 
+.SS "bool FieldService\&.WinRT\&.Utilities\&.Timer\&.Enabled\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Calls Start() and Stop() appropriately 
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.WinRT\&.Utilities\&.Timer\&.Elapsed"
+
+.PP
+Event fired when Tick is fired 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

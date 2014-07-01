@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_r" kind="class" prot="public">
+    <compoundname>fieldservice::android::R</compoundname>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1attr" prot="public">fieldservice::android::R::attr</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1color" prot="public">fieldservice::android::R::color</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1drawable" prot="public">fieldservice::android::R::drawable</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1id" prot="public">fieldservice::android::R::id</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1layout" prot="public">fieldservice::android::R::layout</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1menu" prot="public">fieldservice::android::R::menu</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1string" prot="public">fieldservice::android::R::string</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1_r_1_1style" prot="public">fieldservice::android::R::style</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="10" bodyend="357"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

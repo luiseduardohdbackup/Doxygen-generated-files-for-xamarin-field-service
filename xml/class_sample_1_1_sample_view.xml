@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_sample_view" kind="class" prot="public">
+    <compoundname>Sample::SampleView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sample_1_1_sample_view_1a139d820a74477c1a591af7827dee4856" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SignaturePadView</type>
+        <definition>SignaturePadView Sample.SampleView.signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_1a1c8c4f56995166afb434145cfbcfa01c" prot="private" static="no" mutable="no">
+        <type>UIImageView</type>
+        <definition>UIImageView Sample.SampleView.imageView</definition>
+        <argsstring></argsstring>
+        <name>imageView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_1ac2b1620f503eb02fe10d30f1d519bea1" prot="private" static="no" mutable="no">
+        <type>UIButton</type>
+        <definition>UIButton Sample.SampleView.btnSave</definition>
+        <argsstring></argsstring>
+        <name>btnSave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_1a5f27ae5fff366fc19e9140be088c6e4c" prot="private" static="no" mutable="no">
+        <type>UIButton</type>
+        <definition>UIButton Sample.SampleView.btnLoad</definition>
+        <argsstring></argsstring>
+        <name>btnLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_1a5285335bd2cc0a891771603a525465f4" prot="private" static="no" mutable="no">
+        <type>PointF[]</type>
+        <definition>PointF [] Sample.SampleView.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sample_1_1_sample_view_1a1f1338d767bb88fe609b657d025abf50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.SampleView.SampleView</definition>
+        <argsstring>()</argsstring>
+        <name>SampleView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="22" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_1a49a8686c1724000eb42ce14096584ea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sample.SampleView.LayoutSubviews</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutSubviews</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Using different layouts for the iPhone and iPad, so setup device specific requirements here. </para>        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="79" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2978">
+        <label>Sample.SampleView</label>
+        <link refid="class_sample_1_1_sample_view"/>
+        <childnode refid="2979" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2979">
+        <label>UIView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2980">
+        <label>Sample.SampleView</label>
+        <link refid="class_sample_1_1_sample_view"/>
+        <childnode refid="2981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2981">
+        <label>UIView</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/SampleView.cs" bodystart="16" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_sample_view_1a5f27ae5fff366fc19e9140be088c6e4c" prot="private" virt="non-virtual"><scope>Sample::SampleView</scope><name>btnLoad</name></member>
+      <member refid="class_sample_1_1_sample_view_1ac2b1620f503eb02fe10d30f1d519bea1" prot="private" virt="non-virtual"><scope>Sample::SampleView</scope><name>btnSave</name></member>
+      <member refid="class_sample_1_1_sample_view_1a1c8c4f56995166afb434145cfbcfa01c" prot="private" virt="non-virtual"><scope>Sample::SampleView</scope><name>imageView</name></member>
+      <member refid="class_sample_1_1_sample_view_1a49a8686c1724000eb42ce14096584ea5" prot="public" virt="non-virtual"><scope>Sample::SampleView</scope><name>LayoutSubviews</name></member>
+      <member refid="class_sample_1_1_sample_view_1a5285335bd2cc0a891771603a525465f4" prot="private" virt="non-virtual"><scope>Sample::SampleView</scope><name>points</name></member>
+      <member refid="class_sample_1_1_sample_view_1a1f1338d767bb88fe609b657d025abf50" prot="public" virt="non-virtual"><scope>Sample::SampleView</scope><name>SampleView</name></member>
+      <member refid="class_sample_1_1_sample_view_1a139d820a74477c1a591af7827dee4856" prot="private" virt="non-virtual"><scope>Sample::SampleView</scope><name>signature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

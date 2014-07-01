@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_f47de295792bac9b82efe87935d9767c" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities</compoundname>
+    <innerfile refid="_data_extensions_8cs">DataExtensions.cs</innerfile>
+    <innerfile refid="_service_container_8cs">ServiceContainer.cs</innerfile>
+    <innerfile refid="_task_extensions_8cs">TaskExtensions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/"/>
+  </compounddef>
+</doxygen>

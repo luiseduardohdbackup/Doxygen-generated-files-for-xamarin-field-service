@@ -1,0 +1,500 @@
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service}{\section{Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service Class Reference}
+\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service}\index{Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service@{Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service}}
+}
+
+
+This is just a mock service to bypass the \hyperlink{namespace_s_q_lite}{S\+Q\+Lite} database for speed during test runs  
+
+
+
+
+Inheritance diagram for Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a68742aa4b2182799daa9fc1222fda800}{Get\+Assignments\+Async} (\hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a list of assignments \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_item}{Item} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4857593a175265468cab792ad1518012}{Get\+Items\+Async} (\hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a list of items \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_assignment_item}{Assignment\+Item} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a6f03c5da3c02efbb14ce194d52fa8908}{Get\+Items\+For\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a list of items for an assignment \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_labor}{Labor} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_acf4627b7a391bfd140188aebfd514a4b}{Get\+Labor\+For\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a list of labor hours for an assignment \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7f7a053533c01ec744134a0f2f7cd09c}{Get\+Expenses\+For\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a list of expenses for an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a5e500f280c2a04a6e33392f1df3351ba}{Save\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4410ae5454950312b9ce1d3025928c2b}{Save\+Assignment\+Item\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment_item}{Assignment\+Item} assignment\+Item, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves an assignment item \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2ae5c0f0569d8055e918e95070b78bd5}{Save\+Labor\+Async} (\hyperlink{class_field_service_1_1_data_1_1_labor}{Labor} labor, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves a labor entry \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7fcd8ae38940b504ebceaf035fa10036}{Save\+Expense\+Async} (\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} expense, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves an expense entry \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9dd8d2d8d85c91f2b38f50ad07d2fc1e}{Delete\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9985729aec2e1a3095a1cbf49b984f96}{Delete\+Assignment\+Item\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment_item}{Assignment\+Item} assignment\+Item, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes an assignment item \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a158f68336644c72064217c6d90b7c23b}{Delete\+Labor\+Async} (\hyperlink{class_field_service_1_1_data_1_1_labor}{Labor} labor, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes a labor entry \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0739fef17cd37e0e5973c5ee25e6cdc8}{Delete\+Expense\+Async} (\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} expense, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes an expense entry \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a63732bc78fb6e33479130295a5f3618d}{Save\+Timer\+Entry\+Async} (\hyperlink{class_field_service_1_1_data_1_1_timer_entry}{Timer\+Entry} entry, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves a timer entry to record an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a597928002e4546c7b25cb0cb37b04792}{Delete\+Timer\+Entry\+Async} (\hyperlink{class_field_service_1_1_data_1_1_timer_entry}{Timer\+Entry} entry, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes a timer entry to stop recording an assignment \end{DoxyCompactList}\item 
+Task$<$ \hyperlink{class_field_service_1_1_data_1_1_timer_entry}{Timer\+Entry} $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac059b00f06f385dc180e9ff99017f389}{Get\+Timer\+Entry\+Async} (\hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Retrieves the stored timer entry if there was one \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_photo}{Photo} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_aade7ccd217b9b7f237f2891719ff5a4c}{Get\+Photos\+For\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Retrieves all the photos for an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a10c72c1dc0eb6bb55f1af7f6b8dfee06}{Save\+Photo\+Async} (\hyperlink{class_field_service_1_1_data_1_1_photo}{Photo} photo, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves a photo for an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac32f98da0406ef3ac0173dcd80d97082}{Delete\+Photo\+Async} (\hyperlink{class_field_service_1_1_data_1_1_photo}{Photo} photo, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Deletes a photo \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_document}{Document} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0885f03ffa0da48989293db59983b651}{Get\+Documents\+Async} (\hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets the list of available documents \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_assignment_history}{Assignment\+History} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ad24c1e0a33fcb1e6a08b88bf541f8f91}{Get\+Assignment\+History\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets the history for an assignment \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_abac1de693ed19c9e8bbab3f9ded2933b}{Save\+Signature\+Async} (\hyperlink{class_field_service_1_1_data_1_1_signature}{Signature} signature, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\item 
+Task$<$ \hyperlink{class_field_service_1_1_data_1_1_signature}{Signature} $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ab78a29325b1035b317908639ef7515f9}{Get\+Signature\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets a signature for an assignment or null if none \end{DoxyCompactList}\item 
+Task$<$ int $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_afc281f5de453a4a4152cb6ff40912b57}{Save\+Expense\+Photo\+Async} (\hyperlink{class_field_service_1_1_data_1_1_expense_photo}{Expense\+Photo} photo, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Saves a photo for an expense \end{DoxyCompactList}\item 
+Task$<$ \hyperlink{class_field_service_1_1_data_1_1_expense_photo}{Expense\+Photo} $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a53136de44941f01def4fd3c68284b479}{Get\+Expense\+Photo\+Async} (\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} expense, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets an expense photo for an expense or null if there is none \end{DoxyCompactList}\item 
+Task$<$ List$<$ \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} $>$ $>$ \hyperlink{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2e09dd04ff09414886575397522e7d95}{Get\+Assignment\+From\+History} (\hyperlink{class_field_service_1_1_data_1_1_assignment_history}{Assignment\+History} assignment\+History, \hyperlink{_view_models_2_assignment_view_model_8cs_aba80ec766846c61f55644fd23860cb18}{Cancellation\+Token} cancellation\+Token)
+\begin{DoxyCompactList}\small\item\em Gets the past assignment \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is just a mock service to bypass the \hyperlink{namespace_s_q_lite}{S\+Q\+Lite} database for speed during test runs 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9dd8d2d8d85c91f2b38f50ad07d2fc1e}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Assignment\+Async@{Delete\+Assignment\+Async}}
+\index{Delete\+Assignment\+Async@{Delete\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9dd8d2d8d85c91f2b38f50ad07d2fc1e}
+
+
+Deletes an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a2852dea4a37ed70c41b2e8e997936eeb}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9985729aec2e1a3095a1cbf49b984f96}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Assignment\+Item\+Async@{Delete\+Assignment\+Item\+Async}}
+\index{Delete\+Assignment\+Item\+Async@{Delete\+Assignment\+Item\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Assignment\+Item\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Assignment\+Item\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment\+Item}}]{Assignment\+Item, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a9985729aec2e1a3095a1cbf49b984f96}
+
+
+Deletes an assignment item 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a15a28d08be1e14567bf7b9a0ba64528b}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0739fef17cd37e0e5973c5ee25e6cdc8}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Expense\+Async@{Delete\+Expense\+Async}}
+\index{Delete\+Expense\+Async@{Delete\+Expense\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Expense\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Expense\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Expense}}]{expense, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0739fef17cd37e0e5973c5ee25e6cdc8}
+
+
+Deletes an expense entry 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_aaa5c70766e6945cb7bae35660b7ccde8}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a158f68336644c72064217c6d90b7c23b}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Labor\+Async@{Delete\+Labor\+Async}}
+\index{Delete\+Labor\+Async@{Delete\+Labor\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Labor\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Labor\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Labor}}]{labor, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a158f68336644c72064217c6d90b7c23b}
+
+
+Deletes a labor entry 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a57066185843cd11c1adbf3f4ae483672}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac32f98da0406ef3ac0173dcd80d97082}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Photo\+Async@{Delete\+Photo\+Async}}
+\index{Delete\+Photo\+Async@{Delete\+Photo\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Photo\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Photo\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Photo}}]{photo, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac32f98da0406ef3ac0173dcd80d97082}
+
+
+Deletes a photo 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a0e60c3d22b9c7ce8109ad0846031107c}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a597928002e4546c7b25cb0cb37b04792}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Delete\+Timer\+Entry\+Async@{Delete\+Timer\+Entry\+Async}}
+\index{Delete\+Timer\+Entry\+Async@{Delete\+Timer\+Entry\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Delete\+Timer\+Entry\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Delete\+Timer\+Entry\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Timer\+Entry}}]{entry, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a597928002e4546c7b25cb0cb37b04792}
+
+
+Deletes a timer entry to stop recording an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a7e32c4c791c3ec37bc5acac9b913fc80}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2e09dd04ff09414886575397522e7d95}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Assignment\+From\+History@{Get\+Assignment\+From\+History}}
+\index{Get\+Assignment\+From\+History@{Get\+Assignment\+From\+History}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Assignment\+From\+History}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Assignment}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Assignment\+From\+History (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment\+History}}]{assignment\+History, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2e09dd04ff09414886575397522e7d95}
+
+
+Gets the past assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_ac0e1cf9d28486e8e9a7e4161fe048b9e}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ad24c1e0a33fcb1e6a08b88bf541f8f91}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Assignment\+History\+Async@{Get\+Assignment\+History\+Async}}
+\index{Get\+Assignment\+History\+Async@{Get\+Assignment\+History\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Assignment\+History\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Assignment\+History}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Assignment\+History\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ad24c1e0a33fcb1e6a08b88bf541f8f91}
+
+
+Gets the history for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a1a89f56c0847daa1d8d9e3f0bd630e23}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a68742aa4b2182799daa9fc1222fda800}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Assignments\+Async@{Get\+Assignments\+Async}}
+\index{Get\+Assignments\+Async@{Get\+Assignments\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Assignments\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Assignment}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Assignments\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a68742aa4b2182799daa9fc1222fda800}
+
+
+Gets a list of assignments 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a96a0c030ee4794c243f7b18e4b174a7a}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0885f03ffa0da48989293db59983b651}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Documents\+Async@{Get\+Documents\+Async}}
+\index{Get\+Documents\+Async@{Get\+Documents\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Documents\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Document}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Documents\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a0885f03ffa0da48989293db59983b651}
+
+
+Gets the list of available documents 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_aed0d547a58195aea1407e0bdb79f4078}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a53136de44941f01def4fd3c68284b479}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Expense\+Photo\+Async@{Get\+Expense\+Photo\+Async}}
+\index{Get\+Expense\+Photo\+Async@{Get\+Expense\+Photo\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Expense\+Photo\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Expense\+Photo}$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Expense\+Photo\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Expense}}]{expense, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a53136de44941f01def4fd3c68284b479}
+
+
+Gets an expense photo for an expense or null if there is none 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_afd6518a839fbe178de83044d30836c2c}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7f7a053533c01ec744134a0f2f7cd09c}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Expenses\+For\+Assignment\+Async@{Get\+Expenses\+For\+Assignment\+Async}}
+\index{Get\+Expenses\+For\+Assignment\+Async@{Get\+Expenses\+For\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Expenses\+For\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Expense}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Expenses\+For\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7f7a053533c01ec744134a0f2f7cd09c}
+
+
+Gets a list of expenses for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a58bbf53e8902cc8b5b2febe3f8d86a66}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4857593a175265468cab792ad1518012}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Items\+Async@{Get\+Items\+Async}}
+\index{Get\+Items\+Async@{Get\+Items\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Items\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Item}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Items\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4857593a175265468cab792ad1518012}
+
+
+Gets a list of items 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_aaaa7089a8b70a8ccb8910882cbfcbd69}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a6f03c5da3c02efbb14ce194d52fa8908}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Items\+For\+Assignment\+Async@{Get\+Items\+For\+Assignment\+Async}}
+\index{Get\+Items\+For\+Assignment\+Async@{Get\+Items\+For\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Items\+For\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Assignment\+Item}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Items\+For\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a6f03c5da3c02efbb14ce194d52fa8908}
+
+
+Gets a list of items for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a9e4b9011309a1ffbb9806d3db8c28ac3}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_acf4627b7a391bfd140188aebfd514a4b}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Labor\+For\+Assignment\+Async@{Get\+Labor\+For\+Assignment\+Async}}
+\index{Get\+Labor\+For\+Assignment\+Async@{Get\+Labor\+For\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Labor\+For\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Labor}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Labor\+For\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_acf4627b7a391bfd140188aebfd514a4b}
+
+
+Gets a list of labor hours for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_ac5dc739d70dee25a86e0107786a19ab6}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_aade7ccd217b9b7f237f2891719ff5a4c}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Photos\+For\+Assignment\+Async@{Get\+Photos\+For\+Assignment\+Async}}
+\index{Get\+Photos\+For\+Assignment\+Async@{Get\+Photos\+For\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Photos\+For\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<${\bf Photo}$>$ $>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Photos\+For\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_aade7ccd217b9b7f237f2891719ff5a4c}
+
+
+Retrieves all the photos for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a47a12db3d2463b82e94023b53667b6f7}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ab78a29325b1035b317908639ef7515f9}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Signature\+Async@{Get\+Signature\+Async}}
+\index{Get\+Signature\+Async@{Get\+Signature\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Signature\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Signature}$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Signature\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ab78a29325b1035b317908639ef7515f9}
+
+
+Gets a signature for an assignment or null if none 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a7852d89fcda603f58224f0957743f2dd}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac059b00f06f385dc180e9ff99017f389}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Get\+Timer\+Entry\+Async@{Get\+Timer\+Entry\+Async}}
+\index{Get\+Timer\+Entry\+Async@{Get\+Timer\+Entry\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Get\+Timer\+Entry\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Timer\+Entry}$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Get\+Timer\+Entry\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_ac059b00f06f385dc180e9ff99017f389}
+
+
+Retrieves the stored timer entry if there was one 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a4d63a502ce10e3206bd617216fcfa534}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a5e500f280c2a04a6e33392f1df3351ba}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Assignment\+Async@{Save\+Assignment\+Async}}
+\index{Save\+Assignment\+Async@{Save\+Assignment\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a5e500f280c2a04a6e33392f1df3351ba}
+
+
+Saves an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_ad9c79c58d246aea349ba9b7f022ff1ba}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4410ae5454950312b9ce1d3025928c2b}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Assignment\+Item\+Async@{Save\+Assignment\+Item\+Async}}
+\index{Save\+Assignment\+Item\+Async@{Save\+Assignment\+Item\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Assignment\+Item\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Assignment\+Item\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment\+Item}}]{assignment\+Item, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a4410ae5454950312b9ce1d3025928c2b}
+
+
+Saves an assignment item 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_ab2092c8146bdf27e85e71a53d3814124}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7fcd8ae38940b504ebceaf035fa10036}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Expense\+Async@{Save\+Expense\+Async}}
+\index{Save\+Expense\+Async@{Save\+Expense\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Expense\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Expense\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Expense}}]{expense, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a7fcd8ae38940b504ebceaf035fa10036}
+
+
+Saves an expense entry 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a3de5214ff7925731e8c265eff98c8c0e}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_afc281f5de453a4a4152cb6ff40912b57}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Expense\+Photo\+Async@{Save\+Expense\+Photo\+Async}}
+\index{Save\+Expense\+Photo\+Async@{Save\+Expense\+Photo\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Expense\+Photo\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Expense\+Photo\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Expense\+Photo}}]{photo, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_afc281f5de453a4a4152cb6ff40912b57}
+
+
+Saves a photo for an expense 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a8f9a4283536bb493635765d68e12f38b}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2ae5c0f0569d8055e918e95070b78bd5}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Labor\+Async@{Save\+Labor\+Async}}
+\index{Save\+Labor\+Async@{Save\+Labor\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Labor\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Labor\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Labor}}]{labor, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a2ae5c0f0569d8055e918e95070b78bd5}
+
+
+Saves a labor entry 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a1f51a353c2f1d218f4f35f57641e5b46}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a10c72c1dc0eb6bb55f1af7f6b8dfee06}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Photo\+Async@{Save\+Photo\+Async}}
+\index{Save\+Photo\+Async@{Save\+Photo\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Photo\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Photo\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Photo}}]{photo, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a10c72c1dc0eb6bb55f1af7f6b8dfee06}
+
+
+Saves a photo for an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_a26a5249b6660cf37841a1c251fdaa86f}{Field\+Service.\+I\+Assignment\+Service}.
+
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_abac1de693ed19c9e8bbab3f9ded2933b}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Signature\+Async@{Save\+Signature\+Async}}
+\index{Save\+Signature\+Async@{Save\+Signature\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Signature\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Signature\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Signature}}]{signature, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_abac1de693ed19c9e8bbab3f9ded2933b}
+\hypertarget{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a63732bc78fb6e33479130295a5f3618d}{\index{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}!Save\+Timer\+Entry\+Async@{Save\+Timer\+Entry\+Async}}
+\index{Save\+Timer\+Entry\+Async@{Save\+Timer\+Entry\+Async}!Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service@{Field\+Service\+::\+Tests\+::\+Mocks\+::\+Mock\+Assignment\+Service}}
+\subsubsection[{Save\+Timer\+Entry\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ Field\+Service.\+Tests.\+Mocks.\+Mock\+Assignment\+Service.\+Save\+Timer\+Entry\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Timer\+Entry}}]{entry, }
+\item[{{\bf Cancellation\+Token}}]{cancellation\+Token}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_a63732bc78fb6e33479130295a5f3618d}
+
+
+Saves a timer entry to record an assignment 
+
+
+
+Implements \hyperlink{interface_field_service_1_1_i_assignment_service_ab10e11786b78d7f21cf9a40482336109}{Field\+Service.\+I\+Assignment\+Service}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+Tests/\+Mocks/\hyperlink{_mock_assignment_service_8cs}{Mock\+Assignment\+Service.\+cs}\end{DoxyCompactItemize}

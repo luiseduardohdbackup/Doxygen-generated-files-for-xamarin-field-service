@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_app_delegate" kind="class" prot="public">
+    <compoundname>MediaPickerSample::AppDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIApplicationDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_app_delegate_1a0c57a3f551d3069971efdffe356307a2" prot="private" static="no" mutable="no">
+        <type>UIWindow</type>
+        <definition>UIWindow MediaPickerSample.AppDelegate.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_app_delegate_1a91f42144fbb7ad6ceb72a4a5d1e67159" prot="private" static="no" mutable="no">
+        <type><ref refid="class_media_picker_sample_1_1_media_picker_sample_view_controller" kindref="compound">MediaPickerSampleViewController</ref></type>
+        <definition>MediaPickerSampleViewController MediaPickerSample.AppDelegate.viewController</definition>
+        <argsstring></argsstring>
+        <name>viewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_delegate_1a352f555800c8bcf2620b8724750ba4d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MediaPickerSample.AppDelegate.FinishedLaunching</definition>
+        <argsstring>(UIApplication app, NSDictionary options)</argsstring>
+        <name>FinishedLaunching</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>NSDictionary</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1664">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1663">
+        <label>MediaPickerSample.AppDelegate</label>
+        <link refid="class_media_picker_sample_1_1_app_delegate"/>
+        <childnode refid="1664" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1666">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1665">
+        <label>MediaPickerSample.AppDelegate</label>
+        <link refid="class_media_picker_sample_1_1_app_delegate"/>
+        <childnode refid="1666" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/AppDelegate.cs" bodystart="13" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_app_delegate_1a352f555800c8bcf2620b8724750ba4d4" prot="public" virt="non-virtual"><scope>MediaPickerSample::AppDelegate</scope><name>FinishedLaunching</name></member>
+      <member refid="class_media_picker_sample_1_1_app_delegate_1a91f42144fbb7ad6ceb72a4a5d1e67159" prot="private" virt="non-virtual"><scope>MediaPickerSample::AppDelegate</scope><name>viewController</name></member>
+      <member refid="class_media_picker_sample_1_1_app_delegate_1a0c57a3f551d3069971efdffe356307a2" prot="private" virt="non-virtual"><scope>MediaPickerSample::AppDelegate</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

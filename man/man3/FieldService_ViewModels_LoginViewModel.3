@@ -1,0 +1,117 @@
+.TH "FieldService.ViewModels.LoginViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.LoginViewModel \- 
+.PP
+ViewModel class for the Login screen  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.LoginViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLoginViewModel\fP ()"
+.br
+.RI "\fIConstructor, requires an IService \fP"
+.ti -1c
+.RI "Task< bool > \fBLoginAsync\fP ()"
+.br
+.RI "\fIPerforms an asynchronous login \fP"
+.ti -1c
+.RI "void \fBResetInactiveTime\fP ()"
+.br
+.RI "\fIShould be called to reset the last inactive time, so on DidEnterBackground on \fBiOS\fP, for example \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBValidate\fP ()"
+.br
+.RI "\fIValidation logic \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBUsername\fP\fC [get, set]\fP"
+.br
+.RI "\fIUsername property \fP"
+.ti -1c
+.RI "string \fBPassword\fP\fC [get, set]\fP"
+.br
+.RI "\fIPassword property \fP"
+.ti -1c
+.RI "bool \fBIsInactive\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the login screen should be presented \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+ViewModel class for the Login screen 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.LoginViewModel\&.LoginViewModel ()"
+
+.PP
+Constructor, requires an IService 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIservice\fP IService implementation
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task<bool> FieldService\&.ViewModels\&.LoginViewModel\&.LoginAsync ()"
+
+.PP
+Performs an asynchronous login 
+.PP
+\fBReturns:\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "void FieldService\&.ViewModels\&.LoginViewModel\&.ResetInactiveTime ()"
+
+.PP
+Should be called to reset the last inactive time, so on DidEnterBackground on \fBiOS\fP, for example 
+.SS "override void FieldService\&.ViewModels\&.LoginViewModel\&.Validate ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Validation logic 
+.PP
+Reimplemented from \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Reimplemented in \fBFieldService\&.WinRT\&.ViewModels\&.LoginViewModel\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "bool FieldService\&.ViewModels\&.LoginViewModel\&.IsInactive\fC [get]\fP"
+
+.PP
+True if the login screen should be presented 
+.SS "string FieldService\&.ViewModels\&.LoginViewModel\&.Password\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Password property 
+.SS "string FieldService\&.ViewModels\&.LoginViewModel\&.Username\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Username property 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

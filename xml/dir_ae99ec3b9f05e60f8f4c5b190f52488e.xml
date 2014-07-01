@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_ae99ec3b9f05e60f8f4c5b190f52488e" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample</compoundname>
+    <innerdir refid="dir_ffe0b5a539ba5d97b88670a762817d70">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/Properties</innerdir>
+    <innerfile refid="_components_2sqlite-net-1_80_81_2samples_2_s_q_lite_8i_o_s_8_sample_2_app_delegate_8cs">AppDelegate.cs</innerfile>
+    <innerfile refid="_s_q_lite_8i_o_s_8_sample_2_list_8cs">List.cs</innerfile>
+    <innerfile refid="_s_q_lite_8i_o_s_8_sample_2_list_item_8cs">ListItem.cs</innerfile>
+    <innerfile refid="_components_2sqlite-net-1_80_81_2samples_2_s_q_lite_8i_o_s_8_sample_2_main_8cs">Main.cs</innerfile>
+    <innerfile refid="_task_lists_view_controller_8cs">TaskListsViewController.cs</innerfile>
+    <innerfile refid="_tasks_view_controller_8cs">TasksViewController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_0805646289996cbb3b1183dd0e85e636" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService</compoundname>
+    <innerdir refid="dir_0067da81e235f1f09c313ba45e438be5">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components</innerdir>
+    <innerdir refid="dir_95b12897037b9219d61be203a7e39dfc">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies</innerdir>
+    <innerdir refid="dir_d6d12e56df20a9ffb869f55afbd0c33f">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService</innerdir>
+    <innerdir refid="dir_ef14e26fbca687754eafab7a6d94a04f">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android</innerdir>
+    <innerdir refid="dir_a861066799b275723fc0b748017e67d6">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS</innerdir>
+    <innerdir refid="dir_4ded887711e1f40c198705be645d0a2a">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests</innerdir>
+    <innerdir refid="dir_8e2634b074d64f6926ba2adfc077cde1">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/"/>
+  </compounddef>
+</doxygen>

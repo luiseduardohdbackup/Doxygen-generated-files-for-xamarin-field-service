@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_database" kind="class" prot="public">
+    <compoundname>FieldService::Data::Database</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_database_1abf18c93ec3f9aeeda16275a552183391" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string FieldService.Data.Database.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <initializer>= System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), &quot;Database.db&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_database_1a458d5baa8942667f1ec93d7871ccdf3e" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Data.Database.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_database_1a5290a8a4cdc90aa3f88b17da6b150dfa" prot="private" static="yes" mutable="no">
+        <type>readonly Type[]</type>
+        <definition>readonly Type [] FieldService.Data.Database.tableTypes</definition>
+        <argsstring></argsstring>
+        <name>tableTypes</name>
+        <initializer>= new Type []
+        {
+            typeof(<ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_expense_photo" kindref="compound">ExpensePhoto</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref>),
+            typeof(<ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Signature</ref>),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_data_1_1_database_1a7c6377b268979c611053f696966a5aa5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FieldService.Data.Database.Initialize</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>For use within the app on startup, this will create the database </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_data_1_1_database_1a6b6ab61de33eeb757c3b5b444d279cf3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+        <definition>static SQLiteAsyncConnection FieldService.Data.Database.GetConnection</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>GetConnection</name>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Global way to grab a connection to the database, make sure to wrap in a using </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="65" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_data_1_1_database_1aeb179d8a7fe9e6b9c9435fe1935c94ec" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FieldService.Data.Database.CreateDatabase</definition>
+        <argsstring>(SQLiteAsyncConnection connection, CancellationToken cancellationToken)</argsstring>
+        <name>CreateDatabase</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="75" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A helper class for working with <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Database.cs" bodystart="29" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_database_1aeb179d8a7fe9e6b9c9435fe1935c94ec" prot="private" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>CreateDatabase</name></member>
+      <member refid="class_field_service_1_1_data_1_1_database_1a6b6ab61de33eeb757c3b5b444d279cf3" prot="public" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>GetConnection</name></member>
+      <member refid="class_field_service_1_1_data_1_1_database_1a7c6377b268979c611053f696966a5aa5" prot="public" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>Initialize</name></member>
+      <member refid="class_field_service_1_1_data_1_1_database_1a458d5baa8942667f1ec93d7871ccdf3e" prot="private" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>initialized</name></member>
+      <member refid="class_field_service_1_1_data_1_1_database_1abf18c93ec3f9aeeda16275a552183391" prot="private" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>Path</name></member>
+      <member refid="class_field_service_1_1_data_1_1_database_1a5290a8a4cdc90aa3f88b17da6b150dfa" prot="private" virt="non-virtual"><scope>FieldService::Data::Database</scope><name>tableTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

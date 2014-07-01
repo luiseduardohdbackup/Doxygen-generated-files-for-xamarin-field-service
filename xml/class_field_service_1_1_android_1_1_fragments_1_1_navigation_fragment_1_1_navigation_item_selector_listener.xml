@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener" kind="class" prot="private">
+    <compoundname>FieldService::Android::Fragments::NavigationFragment::NavigationItemSelectorListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnItemClickListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1ae8b6387100c385b9e076dc73f3d07cd3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment" kindref="compound">NavigationFragment</ref></type>
+        <definition>NavigationFragment FieldService.Android.Fragments.NavigationFragment.NavigationItemSelectorListener.fragment</definition>
+        <argsstring></argsstring>
+        <name>fragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" line="229" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1a013ab36ca7563e730a80d93ad17a2ac7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Fragments.NavigationFragment.NavigationItemSelectorListener.NavigationItemSelectorListener</definition>
+        <argsstring>(NavigationFragment fragment)</argsstring>
+        <name>NavigationItemSelectorListener</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment" kindref="compound">NavigationFragment</ref></type>
+          <declname>fragment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" line="230" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" bodystart="230" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1a55a829e6c251a1359d54d81a747d1036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.NavigationFragment.NavigationItemSelectorListener.OnItemClick</definition>
+        <argsstring>(AdapterView parent, View view, int position, long id)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>AdapterView</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" line="235" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" bodystart="235" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2826">
+        <label>AdapterView::IOnItemClickListener</label>
+      </node>
+      <node id="2825">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="2824">
+        <label>FieldService.Android.Fragments.NavigationFragment.NavigationItemSelectorListener</label>
+        <childnode refid="2825" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2826" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2829">
+        <label>AdapterView::IOnItemClickListener</label>
+      </node>
+      <node id="2828">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="2827">
+        <label>FieldService.Android.Fragments.NavigationFragment.NavigationItemSelectorListener</label>
+        <childnode refid="2828" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2829" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" line="227" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/NavigationFragment.cs" bodystart="227" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1ae8b6387100c385b9e076dc73f3d07cd3" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::NavigationFragment::NavigationItemSelectorListener</scope><name>fragment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1a013ab36ca7563e730a80d93ad17a2ac7" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::NavigationFragment::NavigationItemSelectorListener</scope><name>NavigationItemSelectorListener</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment_1_1_navigation_item_selector_listener_1a55a829e6c251a1359d54d81a747d1036" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::NavigationFragment::NavigationItemSelectorListener</scope><name>OnItemClick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

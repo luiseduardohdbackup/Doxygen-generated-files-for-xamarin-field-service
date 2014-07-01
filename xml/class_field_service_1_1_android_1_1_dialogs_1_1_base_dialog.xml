@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog" kind="class" prot="public">
+    <compoundname>FieldService::Android::Dialogs::BaseDialog</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Dialog</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.AddLaborDialog</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.ExpenseDialog</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.ItemsDialog</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_photo_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.PhotoDialog</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.SignatureDialog</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Dialogs.BaseDialog.BaseDialog</definition>
+        <argsstring>(Context context)</argsstring>
+        <name>BaseDialog</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/BaseDialog.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/BaseDialog.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base dialog class, mainly for setting the CustomDialogTheme </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1902">
+        <label>Dialog</label>
+      </node>
+      <node id="1903">
+        <label>FieldService.Android.Dialogs.AddLaborDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog"/>
+        <childnode refid="1901" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1906">
+        <label>FieldService.Android.Dialogs.PhotoDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_photo_dialog"/>
+        <childnode refid="1901" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1901">
+        <label>FieldService.Android.Dialogs.BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="1902" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1905">
+        <label>FieldService.Android.Dialogs.ItemsDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog"/>
+        <childnode refid="1901" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1904">
+        <label>FieldService.Android.Dialogs.ExpenseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog"/>
+        <childnode refid="1901" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1907">
+        <label>FieldService.Android.Dialogs.SignatureDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog"/>
+        <childnode refid="1901" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1909">
+        <label>Dialog</label>
+      </node>
+      <node id="1908">
+        <label>FieldService.Android.Dialogs.BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="1909" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/BaseDialog.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/BaseDialog.cs" bodystart="31" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::BaseDialog</scope><name>BaseDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

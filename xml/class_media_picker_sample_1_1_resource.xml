@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_resource" kind="class" prot="public">
+    <compoundname>MediaPickerSample::Resource</compoundname>
+    <innerclass refid="class_media_picker_sample_1_1_resource_1_1_attribute" prot="public">MediaPickerSample::Resource::Attribute</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_resource_1_1_drawable" prot="public">MediaPickerSample::Resource::Drawable</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_resource_1_1_id" prot="public">MediaPickerSample::Resource::Id</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_resource_1_1_layout" prot="public">MediaPickerSample::Resource::Layout</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_resource_1_1_string" prot="public">MediaPickerSample::Resource::String</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_resource_1ae0c7f50f00162f3dadfe69aeaf42a33c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MediaPickerSample.Resource.UpdateIdValues</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateIdValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="19" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_resource_1ae0c7f50f00162f3dadfe69aeaf42a33c" prot="public" virt="non-virtual"><scope>MediaPickerSample::Resource</scope><name>UpdateIdValues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

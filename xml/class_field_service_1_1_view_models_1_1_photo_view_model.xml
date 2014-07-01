@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_photo_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::PhotoViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.PhotoViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a89e09b7b0f508a3f0434dd8c04548aaf" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.PhotoViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_photo_view_model_1af9984aac231b992ad309a44da38a9b77" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> &gt;</type>
+        <definition>List&lt;Photo&gt; FieldService.ViewModels.PhotoViewModel.photos</definition>
+        <argsstring></argsstring>
+        <name>photos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a814b69cf011206348550a86aa7c7c611" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+        <definition>Photo FieldService.ViewModels.PhotoViewModel.selectedPhoto</definition>
+        <argsstring></argsstring>
+        <name>selectedPhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a3d36aff577b368fd3e2d21db285f2a67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> &gt;</type>
+        <definition>List&lt;Photo&gt; FieldService.ViewModels.PhotoViewModel.Photos</definition>
+        <argsstring></argsstring>
+        <name>Photos</name>
+        <briefdescription>
+<para>List of photos for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a2a9f8118255a37dffffdcd53e9528356" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+        <definition>virtual Photo FieldService.ViewModels.PhotoViewModel.SelectedPhoto</definition>
+        <argsstring></argsstring>
+        <name>SelectedPhoto</name>
+        <briefdescription>
+<para>The selected photo for use within the app </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_photo_view_model_1ad2b6156f9d51837a1435aa553063663b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.PhotoViewModel.PhotoViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>PhotoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a546f02701d6f88bdcdaa695b1240662b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.PhotoViewModel.LoadPhotosAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>LoadPhotosAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Loads all the photos for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_photo_view_model_1a25a70ad8238bd71d0b6f500b0cf82137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.PhotoViewModel.SavePhotoAsync</definition>
+        <argsstring>(Assignment assignment, Photo photo)</argsstring>
+        <name>SavePhotoAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <briefdescription>
+<para>Saves a photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="69" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_photo_view_model_1ac787c44907d8eb8d70c26ebe9aa6c379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.PhotoViewModel.DeletePhotoAsync</definition>
+        <argsstring>(Assignment assignment, Photo photo)</argsstring>
+        <name>DeletePhotoAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <briefdescription>
+<para>Deletes a photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="91" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewModel for working with photos </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2905">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2903">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2904" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2904">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2905" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2906">
+        <label>FieldService.WinRT.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="2902" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2902">
+        <label>FieldService.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="2903" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2910">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2908">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2909">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2910" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2907">
+        <label>FieldService.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="2908" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/PhotoViewModel.cs" bodystart="28" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1ac787c44907d8eb8d70c26ebe9aa6c379" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>DeletePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a546f02701d6f88bdcdaa695b1240662b" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>LoadPhotosAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a3d36aff577b368fd3e2d21db285f2a67" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>Photos</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1af9984aac231b992ad309a44da38a9b77" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>photos</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1ad2b6156f9d51837a1435aa553063663b" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>PhotoViewModel</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a25a70ad8238bd71d0b6f500b0cf82137" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>SavePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a2a9f8118255a37dffffdcd53e9528356" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>SelectedPhoto</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a814b69cf011206348550a86aa7c7c611" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>selectedPhoto</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_photo_view_model_1a89e09b7b0f508a3f0434dd8c04548aaf" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::PhotoViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

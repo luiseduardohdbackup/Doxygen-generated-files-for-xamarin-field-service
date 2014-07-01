@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke" kind="class" prot="public">
+    <compoundname>FieldService::Android::Utilities::SynchronizeInvoke</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ISynchronizeInvoke</basecompoundref>
+    <innerclass refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1_1_async_result" prot="private">FieldService::Android::Utilities::SynchronizeInvoke::AsyncResult</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1afa656fe4db3f4908b0517c4d5a296eb1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Activity</type>
+        <definition>Activity FieldService.Android.Utilities.SynchronizeInvoke.Activity</definition>
+        <argsstring></argsstring>
+        <name>Activity</name>
+        <briefdescription>
+<para>An activity is required for RunOnUiThread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1afb4df6b060fa656a49632baf90eae27b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Android.Utilities.SynchronizeInvoke.InvokeRequired</definition>
+        <argsstring></argsstring>
+        <name>InvokeRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1a6ac7c9b337a03a802014ca0ed8b83423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncResult</type>
+        <definition>IAsyncResult FieldService.Android.Utilities.SynchronizeInvoke.BeginInvoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>BeginInvoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="65" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1af4a1b944837edd6968661d0b851e2cd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.Android.Utilities.SynchronizeInvoke.EndInvoke</definition>
+        <argsstring>(IAsyncResult result)</argsstring>
+        <name>EndInvoke</name>
+        <param>
+          <type>IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="81" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1a94197460f949ed01ed55b8d6422a7f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.Android.Utilities.SynchronizeInvoke.Invoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="90" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_android" kindref="compound">Android</ref> implementation of ISynchronizeInvoke </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3176">
+        <label>FieldService.Android.Utilities.SynchronizeInvoke</label>
+        <link refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke"/>
+        <childnode refid="3177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3177">
+        <label>ISynchronizeInvoke</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3178">
+        <label>FieldService.Android.Utilities.SynchronizeInvoke</label>
+        <link refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke"/>
+        <childnode refid="3179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3179">
+        <label>ISynchronizeInvoke</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/SynchronizeInvoke.cs" bodystart="26" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1afa656fe4db3f4908b0517c4d5a296eb1" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::SynchronizeInvoke</scope><name>Activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1a6ac7c9b337a03a802014ca0ed8b83423" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::SynchronizeInvoke</scope><name>BeginInvoke</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1af4a1b944837edd6968661d0b851e2cd5" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::SynchronizeInvoke</scope><name>EndInvoke</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1a94197460f949ed01ed55b8d6422a7f55" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::SynchronizeInvoke</scope><name>Invoke</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_synchronize_invoke_1afb4df6b060fa656a49632baf90eae27b" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::SynchronizeInvoke</scope><name>InvokeRequired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

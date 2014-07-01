@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_e55a4b135850a1aef5ea9aeb9f4ae100" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters</compoundname>
+    <innerfile refid="_documents_adapter_8java">DocumentsAdapter.java</innerfile>
+    <innerfile refid="_history_list_adapter_8java">HistoryListAdapter.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/"/>
+  </compounddef>
+</doxygen>

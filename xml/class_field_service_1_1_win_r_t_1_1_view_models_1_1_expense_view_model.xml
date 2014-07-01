@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::ExpenseViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_expense_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.ExpenseViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a8c650e9f8f33774884eee772c6316d0e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.addExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>addExpenseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5e7cf854ce7af6506e521a440b0b7048" prot="private" static="no" mutable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.saveExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>saveExpenseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a4bd2966db0340c686abaed7bd7fc41f1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.deleteExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>deleteExpenseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5ee225ead15be2657a2ccb3d6ff1a11a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.cancelExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>cancelExpenseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6fe4db0fb3e73528790af357fbe0e569" prot="private" static="no" mutable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.addImageCommand</definition>
+        <argsstring></argsstring>
+        <name>addImageCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1adc00890fdb1d67d3d05ed1e9f7cac2c6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+        <definition>Expense FieldService.WinRT.ViewModels.ExpenseViewModel.selectedExpense</definition>
+        <argsstring></argsstring>
+        <name>selectedExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abd035fb399dd7d9499f541a99f121f2e" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref>[]</type>
+        <definition>ExpenseCategory [] FieldService.WinRT.ViewModels.ExpenseViewModel.expenseTypes</definition>
+        <argsstring></argsstring>
+        <name>expenseTypes</name>
+        <initializer>= new <ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref> [] { ExpenseCategory.Gas, ExpenseCategory.Food, ExpenseCategory.Supplies, ExpenseCategory.Other }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6dfcf0012df8264f7d350900ab0e07a5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ExpenseViewModel.expenseCost</definition>
+        <argsstring></argsstring>
+        <name>expenseCost</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ad2634b43df0b3a3b81ebec3855dd2a74" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ExpenseViewModel.addExpenseHeader</definition>
+        <argsstring></argsstring>
+        <name>addExpenseHeader</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1acb03de77390c146184981f4188a38739" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.ExpenseViewModel.canDelete</definition>
+        <argsstring></argsstring>
+        <name>canDelete</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abf8c43ccb13aecdcfbccaf1a1dd8f226" prot="private" static="no" mutable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.ExpenseViewModel.addExpensePopUp</definition>
+        <argsstring></argsstring>
+        <name>addExpensePopUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abce22290c4c8d4e406c76e1057f92b4c" prot="private" static="no" mutable="no">
+        <type>MediaPicker</type>
+        <definition>MediaPicker FieldService.WinRT.ViewModels.ExpenseViewModel.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a337208b0b9479e1e74ea075aea25288c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.WinRT.ViewModels.ExpenseViewModel.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1aa998c39272a08e2538c4af7b4c422834" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.ExpenseViewModel.ExpensePopUp</definition>
+        <argsstring></argsstring>
+        <name>ExpensePopUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="141" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ac31e0abc380d5e8fbc884f4fc85e4e78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ExpenseViewModel.AddExpenseHeader</definition>
+        <argsstring></argsstring>
+        <name>AddExpenseHeader</name>
+        <briefdescription>
+<para>header for the expense flyout </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1adcd1efdda8898666d897d80ede1a945e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.ExpenseViewModel.CanDelete</definition>
+        <argsstring></argsstring>
+        <name>CanDelete</name>
+        <briefdescription>
+<para>bool value for the delete being visible </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="158" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1aea2d33005afb90e6b423aeba4e1fab1e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.AddExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>AddExpenseCommand</name>
+        <briefdescription>
+<para>Command to show add expense flyout </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="167" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a2a1e4c02a121ff2e7fcb47f6415b8c51" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.DeleteExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>DeleteExpenseCommand</name>
+        <briefdescription>
+<para>Command to delete expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="175" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ae299e63006f07f92dce92d6a65e6a0fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.SaveExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>SaveExpenseCommand</name>
+        <briefdescription>
+<para>Command to save expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="183" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a601008e2d8e9993799deb6154247281f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.CancelExpenseCommand</definition>
+        <argsstring></argsstring>
+        <name>CancelExpenseCommand</name>
+        <briefdescription>
+<para>Command to hide add expense flyout </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="191" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a81683be600c43401f03d224d6d956752" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ExpenseViewModel.AddImageCommand</definition>
+        <argsstring></argsstring>
+        <name>AddImageCommand</name>
+        <briefdescription>
+<para>Command to get an image for the expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="199" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5dd8925c60ea704bcf6b8888b9ec8961" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> &gt;</type>
+        <definition>IEnumerable&lt;Expense&gt; FieldService.WinRT.ViewModels.ExpenseViewModel.TopExpenses</definition>
+        <argsstring></argsstring>
+        <name>TopExpenses</name>
+        <briefdescription>
+<para>list of top 5 labor hour items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="207" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a8afd09433c89eeb7d5f2e9d59d474647" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+        <definition>override Expense FieldService.WinRT.ViewModels.ExpenseViewModel.SelectedExpense</definition>
+        <argsstring></argsstring>
+        <name>SelectedExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="218" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a39a14e1279b45629f67ee3c030688de2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref>[]</type>
+        <definition>ExpenseCategory [] FieldService.WinRT.ViewModels.ExpenseViewModel.ExpenseTypes</definition>
+        <argsstring></argsstring>
+        <name>ExpenseTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="232" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a1f76ed2d290b6dd031e1930378083adf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ExpenseViewModel.ExpenseCost</definition>
+        <argsstring></argsstring>
+        <name>ExpenseCost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="237" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abea68423100673b08ba3a680180cbfea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.ExpenseViewModel.IsNotReadonly</definition>
+        <argsstring></argsstring>
+        <name>IsNotReadonly</name>
+        <briefdescription>
+<para>Value for not is history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="246" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ab29a523322238fbe68a4be2a60103a48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.ViewModels.ExpenseViewModel.ExpenseViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>ExpenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="43" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6bf375b7117515d88f91a24d40917db1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.ExpenseViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplements refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2">OnPropertyChanged</reimplements>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="251" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="251" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2213">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2210">
+        <label>FieldService::ViewModels::ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2211">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2212">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2209">
+        <label>FieldService.WinRT.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2218">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2215">
+        <label>FieldService::ViewModels::ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2216" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2216">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2217">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2218" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2214">
+        <label>FieldService.WinRT.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2215" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ExpenseViewModel.cs" bodystart="32" bodyend="260"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a8c650e9f8f33774884eee772c6316d0e" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>addExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1aea2d33005afb90e6b423aeba4e1fab1e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>AddExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ad2634b43df0b3a3b81ebec3855dd2a74" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>addExpenseHeader</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ac31e0abc380d5e8fbc884f4fc85e4e78" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>AddExpenseHeader</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abf8c43ccb13aecdcfbccaf1a1dd8f226" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>addExpensePopUp</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6fe4db0fb3e73528790af357fbe0e569" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>addImageCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a81683be600c43401f03d224d6d956752" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>AddImageCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a337208b0b9479e1e74ea075aea25288c" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a601008e2d8e9993799deb6154247281f" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>CancelExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5ee225ead15be2657a2ccb3d6ff1a11a" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>cancelExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1adcd1efdda8898666d897d80ede1a945e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>CanDelete</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1acb03de77390c146184981f4188a38739" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>canDelete</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1a5233da6b54528f3196856226dbcb3621" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>DeleteExpenseAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a2a1e4c02a121ff2e7fcb47f6415b8c51" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>DeleteExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a4bd2966db0340c686abaed7bd7fc41f1" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>deleteExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6dfcf0012df8264f7d350900ab0e07a5" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>expenseCost</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a1f76ed2d290b6dd031e1930378083adf" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ExpenseCost</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1aa998c39272a08e2538c4af7b4c422834" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ExpensePopUp</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1a53d14dbc33c8e46b1bacf134a51884f2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>Expenses</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a39a14e1279b45629f67ee3c030688de2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ExpenseTypes</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abd035fb399dd7d9499f541a99f121f2e" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>expenseTypes</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ab29a523322238fbe68a4be2a60103a48" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ExpenseViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abea68423100673b08ba3a680180cbfea" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>IsNotReadonly</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1a0a503e1b11f0490cfac4849681ddbf9b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>LoadExpensesAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1ae5fd2a7b65fa43f4014c3f7ea4ad1a79" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>LoadPhotoAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6bf375b7117515d88f91a24d40917db1" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1aa7bc8598a79bd22dfa19f9f91efd97b5" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>Photo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1abce22290c4c8d4e406c76e1057f92b4c" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>picker</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1adb3cf56d6796474ca8f8efffeb94fbc9" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>SaveExpenseAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1ae299e63006f07f92dce92d6a65e6a0fc" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>SaveExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5e7cf854ce7af6506e521a440b0b7048" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>saveExpenseCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_expense_view_model_1a7ba76bda4a7b05127f24e5f21b0dc77f" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>SavePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a8afd09433c89eeb7d5f2e9d59d474647" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>SelectedExpense</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1adc00890fdb1d67d3d05ed1e9f7cac2c6" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>selectedExpense</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a5dd8925c60ea704bcf6b8888b9ec8961" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>TopExpenses</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ExpenseViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

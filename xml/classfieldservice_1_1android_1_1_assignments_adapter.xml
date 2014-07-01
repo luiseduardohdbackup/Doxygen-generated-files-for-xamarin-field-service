@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_assignments_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::AssignmentsAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnClickListener</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnItemSelectedListener</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_assignments_adapter_1ab6ae6afae424c1059c9ed6dd26e04c5a" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.AssignmentsAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_assignments_adapter_1a4bd999cdf2dd47571d26bb81950e8c21" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.AssignmentsAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a32dadd1b1fada450f6990ed9b434427a" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="11" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1aed64b493e12bc2611d0b9c866f71e4bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a856de2053e4799909bb937ae1c34e08b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a6efc828188bcc1550f1a205ade7e9478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a013d8a7b65a21b056c2554c59b9c6721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a30e3b5fe3f8cd04c6ec3a7cd80c95e84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a8b09eadb9125cb0bde7a1182d6bf7d7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentsAdapter.AssignmentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>AssignmentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1aad2d63ef93c61b5e7379111ec522ad90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.AssignmentsAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a0d30397221c41840c0c2180314631134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentsAdapter.onClick</definition>
+        <argsstring>(android.view.View p0)</argsstring>
+        <name>onClick</name>
+        <param>
+          <type>android.view.View</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a79892bf8b176bc256ef0b305a625d87e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentsAdapter.onItemSelected</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>onItemSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a9b80f3a4f80152d11c89b574cb05fc12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentsAdapter.onNothingSelected</definition>
+        <argsstring>(android.widget.AdapterView p0)</argsstring>
+        <name>onNothingSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a9e258f1dff01e5bb4d12fdbdf83f6f86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentsAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="103" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a112c76ab279f046b4534308756a4c6f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentsAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="110" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1ac380436656181b52da193db83134deee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.AssignmentsAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a9b366d88c1539e246e84e6870458dc0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.AssignmentsAdapter.n_onClick</definition>
+        <argsstring>(android.view.View p0)</argsstring>
+        <name>n_onClick</name>
+        <param>
+          <type>android.view.View</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a31767e5b2c1bd96d3e337f7241169370" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.AssignmentsAdapter.n_onItemSelected</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>n_onItemSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignments_adapter_1a7dfa0d6baac9adc5bf474c9a952291a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.AssignmentsAdapter.n_onNothingSelected</definition>
+        <argsstring>(android.widget.AdapterView p0)</argsstring>
+        <name>n_onNothingSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="100" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1757">
+        <label>fieldservice.android.AssignmentsAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_assignments_adapter"/>
+        <childnode refid="1758" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1759" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1760" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1761" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1760">
+        <label>OnClickListener</label>
+      </node>
+      <node id="1758">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="1761">
+        <label>OnItemSelectedListener</label>
+      </node>
+      <node id="1759">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1767">
+        <label>String</label>
+      </node>
+      <node id="1762">
+        <label>fieldservice.android.AssignmentsAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_assignments_adapter"/>
+        <childnode refid="1763" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1764" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1765" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1766" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1767" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="1765">
+        <label>OnClickListener</label>
+      </node>
+      <node id="1763">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="1766">
+        <label>OnItemSelectedListener</label>
+      </node>
+      <node id="1764">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentsAdapter.java" bodystart="4" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a32dadd1b1fada450f6990ed9b434427a" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1ab6ae6afae424c1059c9ed6dd26e04c5a" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1aed64b493e12bc2611d0b9c866f71e4bb" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a856de2053e4799909bb937ae1c34e08b" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a6efc828188bcc1550f1a205ade7e9478" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a013d8a7b65a21b056c2554c59b9c6721" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a30e3b5fe3f8cd04c6ec3a7cd80c95e84" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a8b09eadb9125cb0bde7a1182d6bf7d7d" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>AssignmentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1aad2d63ef93c61b5e7379111ec522ad90" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a9e258f1dff01e5bb4d12fdbdf83f6f86" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a112c76ab279f046b4534308756a4c6f1" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1ac380436656181b52da193db83134deee" prot="private" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a9b366d88c1539e246e84e6870458dc0f" prot="private" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>n_onClick</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a31767e5b2c1bd96d3e337f7241169370" prot="private" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>n_onItemSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a7dfa0d6baac9adc5bf474c9a952291a8" prot="private" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>n_onNothingSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a0d30397221c41840c0c2180314631134" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>onClick</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a79892bf8b176bc256ef0b305a625d87e" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>onItemSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a9b80f3a4f80152d11c89b574cb05fc12" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>onNothingSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignments_adapter_1a4bd999cdf2dd47571d26bb81950e8c21" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentsAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

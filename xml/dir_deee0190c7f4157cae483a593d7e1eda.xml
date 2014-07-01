@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_deee0190c7f4157cae483a593d7e1eda" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views</compoundname>
+    <innerfile refid="_assignment_cell_8cs">AssignmentCell.cs</innerfile>
+    <innerfile refid="_assignment_cell_8designer_8cs">AssignmentCell.designer.cs</innerfile>
+    <innerfile refid="_assignment_item_cell_8cs">AssignmentItemCell.cs</innerfile>
+    <innerfile refid="_assignment_item_cell_8designer_8cs">AssignmentItemCell.designer.cs</innerfile>
+    <innerfile refid="_assignment_status_sheet_8cs">AssignmentStatusSheet.cs</innerfile>
+    <innerfile refid="_complete_cell_8cs">CompleteCell.cs</innerfile>
+    <innerfile refid="_complete_cell_8designer_8cs">CompleteCell.designer.cs</innerfile>
+    <innerfile refid="_document_cell_8cs">DocumentCell.cs</innerfile>
+    <innerfile refid="_expense_category_sheet_8cs">ExpenseCategorySheet.cs</innerfile>
+    <innerfile refid="_expense_cell_8cs">ExpenseCell.cs</innerfile>
+    <innerfile refid="_expense_cell_8designer_8cs">ExpenseCell.designer.cs</innerfile>
+    <innerfile refid="_history_cell_8cs">HistoryCell.cs</innerfile>
+    <innerfile refid="_history_cell_8designer_8cs">HistoryCell.designer.cs</innerfile>
+    <innerfile refid="_hours_field_8cs">HoursField.cs</innerfile>
+    <innerfile refid="_labor_cell_8cs">LaborCell.cs</innerfile>
+    <innerfile refid="_labor_cell_8designer_8cs">LaborCell.designer.cs</innerfile>
+    <innerfile refid="_labor_type_text_field_8cs">LaborTypeTextField.cs</innerfile>
+    <innerfile refid="_photo_alert_sheet_8cs">PhotoAlertSheet.cs</innerfile>
+    <innerfile refid="_photo_cell_8cs">PhotoCell.cs</innerfile>
+    <innerfile refid="_photo_cell_8designer_8cs">PhotoCell.designer.cs</innerfile>
+    <innerfile refid="_placeholder_text_view_8cs">PlaceholderTextView.cs</innerfile>
+    <innerfile refid="_signature_cell_8cs">SignatureCell.cs</innerfile>
+    <innerfile refid="_signature_cell_8designer_8cs">SignatureCell.designer.cs</innerfile>
+    <innerfile refid="_status_button_8cs">StatusButton.cs</innerfile>
+    <innerfile refid="_status_button_8designer_8cs">StatusButton.designer.cs</innerfile>
+    <innerfile refid="_text_button_8cs">TextButton.cs</innerfile>
+    <innerfile refid="_text_button_8designer_8cs">TextButton.designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/"/>
+  </compounddef>
+</doxygen>

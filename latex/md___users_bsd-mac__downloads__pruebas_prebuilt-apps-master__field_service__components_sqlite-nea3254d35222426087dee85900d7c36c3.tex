@@ -1,0 +1,71 @@
+Please consult the Wiki for, ahem, \href{https://github.com/praeclarum/sqlite-net/wiki}{\tt complete documentation}.
+
+The library contains simple attributes that you can use to control the construction of tables. In a simple stock program, you might use\+:
+
+```csharp using \hyperlink{namespace_s_q_lite}{S\+Q\+Lite}; // ...
+
+public class Stock \{ \mbox{[}Primary\+Key, Auto\+Increment\mbox{]} public int Id \{ get; set; \} \mbox{[}Max\+Length(8)\mbox{]} public string Symbol \{ get; set; \} \}
+
+public class Valuation \{ \mbox{[}Primary\+Key, Auto\+Increment\mbox{]} public int Id \{ get; set; \} \mbox{[}Indexed\mbox{]} public int Stock\+Id \{ get; set; \} public Date\+Time Time \{ get; set; \} public decimal Price \{ get; set; \} \} ```
+
+Once you've defined the objects in your model you have a choice of A\+P\+Is. You can use the \char`\"{}synchronous A\+P\+I\char`\"{} where calls block one at a time, or you can use the \char`\"{}asynchronous A\+P\+I\char`\"{} where calls do not block. You may care to use the asynchronous A\+P\+I for mobile applications in order to increase reponsiveness.
+
+Both A\+P\+Is are explained in the two sections below.
+
+\subsection*{Synchronous A\+P\+I}
+
+Once you have defined your entity, you can automatically generate tables in your database by calling {\ttfamily Create\+Table}\+:
+
+```csharp string folder = Environment.\+Get\+Folder\+Path (Environment.\+Special\+Folder.\+Personal); var conn = new S\+Q\+Lite\+Connection (System.\+I\+O.\+Path.\+Combine (folder, \char`\"{}stocks.\+db\char`\"{})); conn.\+Create\+Table$<$\+Stock$>$(); conn.\+Create\+Table$<$\+Valuation$>$(); ```
+
+You can insert rows in the database using {\ttfamily Insert}. If the table contains an auto-\/incremented primary key, then the value for that key will be available to you after the insert\+:
+
+```csharp public static void Add\+Stock (S\+Q\+Lite\+Connection db, string symbol) \{ var s = new Stock \{ Symbol = symbol \}; db.\+Insert (s); Console.\+Write\+Line (\char`\"{}\{0\} == \{1\}\char`\"{}, s.\+Symbol, s.\+Id); \} ```
+
+Similar methods exist for {\ttfamily Update} and {\ttfamily Delete}.
+
+The most straightforward way to query for data is using the {\ttfamily Table} method. This can take predicates for constraining via W\+H\+E\+R\+E clauses and/or adding O\+R\+D\+E\+R B\+Y clauses\+:
+
+```csharp var query = conn.\+Table$<$\+Stock$>$().Where (v =$>$ v.\+Symbol.\+Starts\+With(\char`\"{}\+A\char`\"{}));
+
+foreach (var stock in query) Console.\+Write\+Line (\char`\"{}\+Stock\+: \char`\"{} + stock.\+Symbol); ```
+
+You can also query the database at a low-\/level using the {\ttfamily Query} method\+:
+
+```csharp public static I\+Enumerable$<$\+Valuation$>$ Query\+Valuations (S\+Q\+Lite\+Connection db, Stock stock) \{ return db.\+Query$<$\+Valuation$>$ (\char`\"{}select $\ast$ from Valuation where Stock\+Id = ?\char`\"{}, stock.\+Id); \} ```
+
+The generic parameter to the {\ttfamily Query} method specifies the type of object to create for each row. It can be one of your table classes, or any other class whose public properties match the column returned by the query. For instance, we could rewrite the above query as\+:
+
+```csharp public class Val \{ public decimal Money \{ get; set; \} public Date\+Time Date \{ get; set; \} \}
+
+public static I\+Enumerable$<$\+Val$>$ Query\+Vals (S\+Q\+Lite\+Connection db, Stock stock) \{ return db.\+Query$<$\+Val$>$ (\char`\"{}select '\+Price' as '\+Money', '\+Time' as '\+Date' from Valuation where Stock\+Id = ?\char`\"{}, stock.\+Id); \} ```
+
+You can perform low-\/level updates of the database using the {\ttfamily Execute} method.
+
+\subsection*{Asynchronous A\+P\+I}
+
+To use the asynchronous A\+P\+I, you'll create a {\ttfamily S\+Q\+Lite\+Async\+Connection} instead of {\ttfamily S\+Q\+Lite\+Connection}. {\ttfamily S\+Q\+Lite\+Async\+Connection} exposes asynchronous versions of the database A\+P\+Is providing you with {\ttfamily Task} to perform continuations on.
+
+Once you have defined your entity, you can automatically generate tables by calling {\ttfamily Create\+Table\+Async}\+:
+
+```csharp string folder = Environment.\+Get\+Folder\+Path (Environment.\+Special\+Folder.\+Personal); var conn = new S\+Q\+Lite\+Async\+Connection (System.\+I\+O.\+Path.\+Combine (folder, \char`\"{}stocks.\+db\char`\"{})); conn.\+Create\+Table\+Async$<$\+Stock$>$().Continue\+With (t =$>$ \{ Console.\+Write\+Line (\char`\"{}\+Table created!\char`\"{}); \}); ```
+
+You can insert rows in the database using {\ttfamily Insert}. If the table contains an auto-\/incremented primary key, then the value for that key will be available to you after the insert\+:
+
+```csharp Stock stock = new Stock \{ Symbol = \char`\"{}\+A\+A\+P\+L\char`\"{} \};
+
+conn.\+Insert\+Async (stock).Continue\+With (t =$>$ \{ Console.\+Write\+Line (\char`\"{}\+New customer I\+D\+: \{0\}\char`\"{}, stock.\+Id); \}); ```
+
+Similar methods exist for {\ttfamily Update\+Async} and {\ttfamily Delete\+Async}.
+
+Querying for data is most straightforwardly done using the {\ttfamily Table} method. This will return an {\ttfamily Async\+Table\+Query} instance back, whereupon you can add predictates for constraining via W\+H\+E\+R\+E clauses and/or adding O\+R\+D\+E\+R B\+Y. The database is not physically touched until one of the special retrieval methods -\/ {\ttfamily To\+List\+Async}, {\ttfamily First\+Async}, or {\ttfamily First\+Or\+Default\+Async} -\/ is called.
+
+```csharp var query = conn.\+Table$<$\+Stock$>$().Where (v =$>$ v.\+Symbol.\+Starts\+With (\char`\"{}\+A\char`\"{}));
+
+query.\+To\+List\+Async().Continue\+With (t =$>$ \{ foreach (var stock in t.\+Result) Console.\+Write\+Line (\char`\"{}\+Stock\+: \char`\"{} + stock.\+Symbol); \}); ```
+
+There are a number of low-\/level methods available. You can also query the database directly via the {\ttfamily Query\+Async} method. Over and above the change operations provided by {\ttfamily Insert\+Async} etc you can issue {\ttfamily Execute\+Async} methods to change sets of data directly within the database.
+
+Another helpful method is {\ttfamily Execute\+Scalar\+Async}. This allows you to return a scalar value from the database easily\+:
+
+```csharp conn.\+Execute\+Scalar\+Async$<$int$>$ (\char`\"{}select count($\ast$) from Stock\char`\"{}, null).Continue\+With (t =$>$ \{ Console.\+Write\+Line (string.\+Format(\char`\"{}\+Found '\{0\}' stock items.\char`\"{}, t.\+Result)); \}); ``` 

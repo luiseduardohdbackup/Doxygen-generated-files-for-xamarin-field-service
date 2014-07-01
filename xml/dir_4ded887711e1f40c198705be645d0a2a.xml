@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_4ded887711e1f40c198705be645d0a2a" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests</compoundname>
+    <innerdir refid="dir_49d5e77422e1780e56bc88b059369a00">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data</innerdir>
+    <innerdir refid="dir_944c970d33f3335b1922023c7b364e5a">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks</innerdir>
+    <innerdir refid="dir_98c48778878540cfb6ab72bda5e19fe7">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Properties</innerdir>
+    <innerdir refid="dir_cd512ce260bf813ff5323505c02f26ac">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_base_table_query_1_1_ordering" kind="class" prot="protected">
+    <compoundname>SQLite::BaseTableQuery::Ordering</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_base_table_query_1_1_ordering_1a4a73e6f27bb0b7b71672c2440f1e26d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.BaseTableQuery.Ordering.ColumnName</definition>
+        <argsstring></argsstring>
+        <name>ColumnName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2421" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_base_table_query_1_1_ordering_1a6ac459a921405f8a577c64f70e615359" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.BaseTableQuery.Ordering.Ascending</definition>
+        <argsstring></argsstring>
+        <name>Ascending</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2422" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2422" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2420" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2419" bodyend="2423"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_base_table_query_1_1_ordering_1a6ac459a921405f8a577c64f70e615359" prot="public" virt="non-virtual"><scope>SQLite::BaseTableQuery::Ordering</scope><name>Ascending</name></member>
+      <member refid="class_s_q_lite_1_1_base_table_query_1_1_ordering_1a4a73e6f27bb0b7b71672c2440f1e26d8" prot="public" virt="non-virtual"><scope>SQLite::BaseTableQuery::Ordering</scope><name>ColumnName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

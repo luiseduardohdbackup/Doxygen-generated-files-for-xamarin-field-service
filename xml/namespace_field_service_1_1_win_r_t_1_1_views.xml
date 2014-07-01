@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_win_r_t_1_1_views" kind="namespace">
+    <compoundname>FieldService::WinRT::Views</compoundname>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_expense_flyout_panel" prot="public">FieldService::WinRT::Views::AddExpenseFlyoutPanel</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel" prot="public">FieldService::WinRT::Views::AddItemFlyoutPanel</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel" prot="public">FieldService::WinRT::Views::AddLaborFlyoutPanel</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel" prot="public">FieldService::WinRT::Views::AddSignatureFlyoutPanel</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_control" prot="public">FieldService::WinRT::Views::AssignmentControl</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page" prot="public">FieldService::WinRT::Views::AssignmentHistoryPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_map_page" prot="public">FieldService::WinRT::Views::AssignmentMapPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_page" prot="public">FieldService::WinRT::Views::AssignmentPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page" prot="public">FieldService::WinRT::Views::AssignmentsPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page" prot="public">FieldService::WinRT::Views::ConfirmationsPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_documents_page" prot="public">FieldService::WinRT::Views::DocumentsPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page" prot="public">FieldService::WinRT::Views::ExpensesPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_images_page" prot="public">FieldService::WinRT::Views::ImagesPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page" prot="public">FieldService::WinRT::Views::ItemsPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page" prot="public">FieldService::WinRT::Views::LaborPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page" prot="public">FieldService::WinRT::Views::LoginPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page" prot="public">FieldService::WinRT::Views::MapPage</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_popup" prot="public">FieldService::WinRT::Views::MapPopup</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile" prot="public">FieldService::WinRT::Views::MapTile</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page" prot="public">FieldService::WinRT::Views::SnapPage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddExpenseFlyoutPanel.xaml.cs" line="22" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_cda86f8715afbc5ff594f4278d8c3453" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample</compoundname>
+    <innerdir refid="dir_013be19ce69188800ccfee951f8852d8">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Properties</innerdir>
+    <innerdir refid="dir_934f9eba6731e727c1db050cf93b7879">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources</innerdir>
+    <innerfile refid="xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8_android_8_samples_2_geolocation_sample_2_main_activity_8cs">MainActivity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::ExpenseFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a397ba5bdfc36253649cae16813519dfd" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Fragments.ExpenseFragment.expensesListView</definition>
+        <argsstring></argsstring>
+        <name>expensesListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a5e25a4bfa1516aa7cffb52096ce49050" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog" kindref="compound">ExpenseDialog</ref></type>
+        <definition>ExpenseDialog FieldService.Android.Fragments.ExpenseFragment.expenseDialog</definition>
+        <argsstring></argsstring>
+        <name>expenseDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a30693f453004ff8c601602705459de3f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>ExpenseViewModel FieldService.Android.Fragments.ExpenseFragment.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a36a612c9607ef8dc94562e5321f1405d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> &gt;</type>
+        <definition>List&lt;Expense&gt; FieldService.Android.Fragments.ExpenseFragment.Expenses</definition>
+        <argsstring></argsstring>
+        <name>Expenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a9f4d0d751e18f6c98b6266aadeea4e43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Fragments.ExpenseFragment.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>selected assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a4ca84adf640b495bb3c0bb7d673edfff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.ExpenseFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="54" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1ac85492bf40dba86aa02a6d3df4ba134c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ExpenseFragment.ReloadSingleListItem</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ReloadSingleListItem</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Reload the view in the listview by itself without calling to reload the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the list view item to reload</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="83" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="83" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a60019ecf4dc1185868a8249b874f1c67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ExpenseFragment.ReloadExpenseData</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadExpenseData</name>
+        <briefdescription>
+<para>Reloads the expenses from the view model </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="106" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="106" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a3be5337f4ddc94e5d3f66bc79995eed6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ExpenseFragment.ReloadExpenses</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadExpenses</name>
+        <briefdescription>
+<para>Reloads the expense in the list view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="96" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="96" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2172">
+        <label>FieldService.Android.Fragments.ExpenseFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment"/>
+        <childnode refid="2173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2173">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2174">
+        <label>FieldService.Android.Fragments.ExpenseFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment"/>
+        <childnode refid="2175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2175">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ExpenseFragment.cs" bodystart="34" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a9f4d0d751e18f6c98b6266aadeea4e43" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a5e25a4bfa1516aa7cffb52096ce49050" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>expenseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a36a612c9607ef8dc94562e5321f1405d" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>Expenses</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a397ba5bdfc36253649cae16813519dfd" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>expensesListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a30693f453004ff8c601602705459de3f" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a4ca84adf640b495bb3c0bb7d673edfff" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a60019ecf4dc1185868a8249b874f1c67" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>ReloadExpenseData</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1a3be5337f4ddc94e5d3f66bc79995eed6" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>ReloadExpenses</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment_1ac85492bf40dba86aa02a6d3df4ba134c" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ExpenseFragment</scope><name>ReloadSingleListItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

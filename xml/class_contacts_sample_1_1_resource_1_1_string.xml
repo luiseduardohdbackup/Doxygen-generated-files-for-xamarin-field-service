@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_resource_1_1_string" kind="class" prot="public">
+    <compoundname>ContactsSample::Resource::String</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_resource_1_1_string_1a36f5c1382e57f38c27c8c2805a00baa4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ContactsSample.Resource.String.ApplicationName</definition>
+        <argsstring></argsstring>
+        <name>ApplicationName</name>
+        <initializer>= 2130968577</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_resource_1_1_string_1a34bfa5c3f2980162b50b8798f01773dc" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ContactsSample.Resource.String.Hello</definition>
+        <argsstring></argsstring>
+        <name>Hello</name>
+        <initializer>= 2130968576</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_resource_1_1_string_1ad1a7a65db67a1a6bccfe3d812807293e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ContactsSample.Resource.String.String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="82" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="73" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_resource_1_1_string_1a36f5c1382e57f38c27c8c2805a00baa4" prot="public" virt="non-virtual"><scope>ContactsSample::Resource::String</scope><name>ApplicationName</name></member>
+      <member refid="class_contacts_sample_1_1_resource_1_1_string_1a34bfa5c3f2980162b50b8798f01773dc" prot="public" virt="non-virtual"><scope>ContactsSample::Resource::String</scope><name>Hello</name></member>
+      <member refid="class_contacts_sample_1_1_resource_1_1_string_1ad1a7a65db67a1a6bccfe3d812807293e" prot="private" virt="non-virtual"><scope>ContactsSample::Resource::String</scope><name>String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple.
+
+Adding a {\ttfamily Signature\+Pad\+View} to your i\+O\+S app\+:
+
+```csharp using Signature\+Pad; ...
+
+public override void View\+Did\+Load () \{ ... var signature = new Signature\+Pad\+View (View.\+Frame); View.\+Add\+Subview (signature); \} ```
+
+Adding a {\ttfamily Signature\+Pad\+View} to your Android app\+:
+
+```csharp using Signature\+Pad; ...
+
+protected override void On\+Create (Bundle bundle) \{ base.\+On\+Create (bundle);
+
+var signature = new Signature\+Pad\+View (this); Add\+Content\+View (signature, new View\+Group.\+Layout\+Params (View\+Group.\+Layout\+Params.\+Fill\+Parent, View\+Group.\+Layout\+Params.\+Fill\+Parent)); \} ```
+
+To capture the user's signature as an image\+:
+
+```csharp var image = signature.\+Get\+Image (); ```
+
+{\itshape Screenshot created with \href{http://placeit.breezi.com}{\tt Place\+It}.} 

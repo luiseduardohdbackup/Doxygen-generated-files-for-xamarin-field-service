@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list" kind="class" prot="public">
+    <compoundname>SQLite::iOS::Sample::List</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_1aa9d74a2c1fe6e98292894b076d64be4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.iOS.Sample.List.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" line="6" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_1a1651c37a4999116e15e47e475abe8af3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.iOS.Sample.List.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" line="4" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/List.cs" bodystart="3" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_1aa9d74a2c1fe6e98292894b076d64be4e" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::List</scope><name>Id</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_1a1651c37a4999116e15e47e475abe8af3" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::List</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

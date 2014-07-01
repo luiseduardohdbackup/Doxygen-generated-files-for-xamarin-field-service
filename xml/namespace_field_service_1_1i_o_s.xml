@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1i_o_s" kind="namespace">
+    <compoundname>FieldService::iOS</compoundname>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_expense_controller" prot="public">FieldService::iOS::AddExpenseController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_item_controller" prot="public">FieldService::iOS::AddItemController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_labor_controller" prot="public">FieldService::iOS::AddLaborController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_photo_controller" prot="public">FieldService::iOS::AddPhotoController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_app_delegate" prot="public">FieldService::iOS::AppDelegate</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_application" prot="public">FieldService::iOS::Application</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_assignment_cell" prot="public">FieldService::iOS::AssignmentCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller" prot="public">FieldService::iOS::AssignmentDetailsController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_assignment_item_cell" prot="public">FieldService::iOS::AssignmentItemCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_assignments_controller" prot="public">FieldService::iOS::AssignmentsController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_assignment_status_sheet" prot="public">FieldService::iOS::AssignmentStatusSheet</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public">FieldService::iOS::BaseController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller" prot="public">FieldService::iOS::BaseNavigationController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_clr_wrapper" prot="public">FieldService::iOS::ClrWrapper</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions" prot="public">FieldService::iOS::ClrWrapperExtensions</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_complete_cell" prot="public">FieldService::iOS::CompleteCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" prot="public">FieldService::iOS::ConfirmationController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_document_cell" prot="public">FieldService::iOS::DocumentCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_document_controller" prot="public">FieldService::iOS::DocumentController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet" prot="public">FieldService::iOS::ExpenseCategorySheet</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_expense_cell" prot="public">FieldService::iOS::ExpenseCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_expense_controller" prot="public">FieldService::iOS::ExpenseController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_history_cell" prot="public">FieldService::iOS::HistoryCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_history_controller" prot="public">FieldService::iOS::HistoryController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_hours_field" prot="public">FieldService::iOS::HoursField</innerclass>
+    <innerclass refid="interface_field_service_1_1i_o_s_1_1_i_search_source" prot="public">FieldService::iOS::ISearchSource</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_items_view_controller" prot="public">FieldService::iOS::ItemsViewController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_labor_cell" prot="public">FieldService::iOS::LaborCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_labor_controller" prot="public">FieldService::iOS::LaborController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field" prot="public">FieldService::iOS::LaborTypeTextField</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_login_controller" prot="public">FieldService::iOS::LoginController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_main_map_controller" prot="public">FieldService::iOS::MainMapController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_map_controller" prot="public">FieldService::iOS::MapController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_menu_controller" prot="public">FieldService::iOS::MenuController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_menu_event_args" prot="public">FieldService::iOS::MenuEventArgs</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet" prot="public">FieldService::iOS::PhotoAlertSheet</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_photo_cell" prot="public">FieldService::iOS::PhotoCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view" prot="public">FieldService::iOS::PlaceholderTextView</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_search_display" prot="public">FieldService::iOS::SearchDisplay</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_section_index" prot="public">FieldService::iOS::SectionIndex</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_signature_cell" prot="public">FieldService::iOS::SignatureCell</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_signature_controller" prot="public">FieldService::iOS::SignatureController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_split_controller" prot="public">FieldService::iOS::SplitController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_status_button" prot="public">FieldService::iOS::StatusButton</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_summary_controller" prot="public">FieldService::iOS::SummaryController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke" prot="public">FieldService::iOS::SynchronizeInvoke</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_tab_controller" prot="public">FieldService::iOS::TabController</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_text_button" prot="public">FieldService::iOS::TextButton</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_theme" prot="public">FieldService::iOS::Theme</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions" prot="public">FieldService::iOS::UIKitExtensions</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="26" column="1"/>
+  </compounddef>
+</doxygen>

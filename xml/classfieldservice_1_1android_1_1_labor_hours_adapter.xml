@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_labor_hours_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::LaborHoursAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnItemSelectedListener</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a62b0e896aacb797f8db43c59189173a2" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.LaborHoursAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a18c28b7c4c5bdea1eec611a27b8e4784" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.LaborHoursAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="92" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a9b074facf42bff2a849e26f0e7e5efc9" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1aea61b52d7fcf7e318e5a3b21ca0189e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a32c141846ce0f4b7e4fd786430e691bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a78528a94051b4be5fc3411957dca21da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1af1169e0ba455e8ac49f7876949807a92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a1f4cd83e1f6423adf35fb37a8b737c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1aa86f206931675a2dfcb48f12938f0364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a28a6e7b0f8ef16b255119b55be34c020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.LaborHoursAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a24db15d07168d2b58deade14a7c067d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LaborHoursAdapter.onItemSelected</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>onItemSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a47538661f1eb820f8d70add293b6578f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LaborHoursAdapter.onNothingSelected</definition>
+        <argsstring>(android.widget.AdapterView p0)</argsstring>
+        <name>onNothingSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="85" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1ae108aab8fec4c5799d5510b777d7b13b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LaborHoursAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="93" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1ad988c67110db52081e55b4ed30feeadb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LaborHoursAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="100" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1aa2e9529316756f55974181b61b69a2d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.LaborHoursAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a7bf9c703f7c7c428a3736e3e13ab5101" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.LaborHoursAdapter.n_onItemSelected</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>n_onItemSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_labor_hours_adapter_1a260a0ac1e8a8c0906bfb291ca8112a1a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.LaborHoursAdapter.n_onNothingSelected</definition>
+        <argsstring>(android.widget.AdapterView p0)</argsstring>
+        <name>n_onNothingSelected</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="90" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2463">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2465">
+        <label>android::widget::AdapterView::OnItemSelectedListener</label>
+      </node>
+      <node id="2462">
+        <label>fieldservice.android.LaborHoursAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_labor_hours_adapter"/>
+        <childnode refid="2463" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2464" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2464">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2470">
+        <label>String</label>
+      </node>
+      <node id="2467">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2469">
+        <label>android::widget::AdapterView::OnItemSelectedListener</label>
+      </node>
+      <node id="2466">
+        <label>fieldservice.android.LaborHoursAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_labor_hours_adapter"/>
+        <childnode refid="2467" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2468" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2469" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2470" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2468">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LaborHoursAdapter.java" bodystart="4" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a9b074facf42bff2a849e26f0e7e5efc9" prot="package" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a62b0e896aacb797f8db43c59189173a2" prot="package" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a28a6e7b0f8ef16b255119b55be34c020" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1aea61b52d7fcf7e318e5a3b21ca0189e5" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a32c141846ce0f4b7e4fd786430e691bb" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a78528a94051b4be5fc3411957dca21da" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1af1169e0ba455e8ac49f7876949807a92" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a1f4cd83e1f6423adf35fb37a8b737c60" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1aa86f206931675a2dfcb48f12938f0364" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1ae108aab8fec4c5799d5510b777d7b13b" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1ad988c67110db52081e55b4ed30feeadb" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1aa2e9529316756f55974181b61b69a2d8" prot="private" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a7bf9c703f7c7c428a3736e3e13ab5101" prot="private" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>n_onItemSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a260a0ac1e8a8c0906bfb291ca8112a1a" prot="private" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>n_onNothingSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a24db15d07168d2b58deade14a7c067d5" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>onItemSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a47538661f1eb820f8d70add293b6578f" prot="public" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>onNothingSelected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_labor_hours_adapter_1a18c28b7c4c5bdea1eec611a27b8e4784" prot="package" virt="non-virtual"><scope>fieldservice::android::LaborHoursAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

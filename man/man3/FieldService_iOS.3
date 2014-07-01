@@ -1,0 +1,211 @@
+.TH "FieldService.iOS" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBAddExpenseController\fP"
+.br
+.RI "\fIController for adding an expense report to an assignment \fP"
+.ti -1c
+.RI "class \fBAddItemController\fP"
+.br
+.RI "\fIModal view controller for adding items to an assignment \fP"
+.ti -1c
+.RI "class \fBAddLaborController\fP"
+.br
+.RI "\fIController for manually adding labor to an assignment \fP"
+.ti -1c
+.RI "class \fBAddPhotoController\fP"
+.br
+.RI "\fIController for adding a photo \fP"
+.ti -1c
+.RI "class \fBAppDelegate\fP"
+.br
+.RI "\fI\fBAppDelegate\fP, the main callback for application-level events in \fBiOS\fP \fP"
+.ti -1c
+.RI "class \fBApplication\fP"
+.br
+.ti -1c
+.RI "class \fBAssignmentCell\fP"
+.br
+.RI "\fITable cell for an assignment \fP"
+.ti -1c
+.RI "class \fBAssignmentDetailsController\fP"
+.br
+.RI "\fIController for the assignment summary page \fP"
+.ti -1c
+.RI "class \fBAssignmentItemCell\fP"
+.br
+.RI "\fITable cell for assignment items \fP"
+.ti -1c
+.RI "class \fBAssignmentsController\fP"
+.br
+.RI "\fIController for the main list of assignments \fP"
+.ti -1c
+.RI "class \fBAssignmentStatusSheet\fP"
+.br
+.RI "\fIA UIActionSheet that provides AssignmentStatus as a selection \fP"
+.ti -1c
+.RI "class \fBBaseController\fP"
+.br
+.RI "\fIBase controller for all controllers in application \fP"
+.ti -1c
+.RI "class \fBBaseNavigationController\fP"
+.br
+.RI "\fIBase navigation controller, used in a couple places throughout our Storyboard file \fP"
+.ti -1c
+.RI "class \fBClrWrapper\fP"
+.br
+.RI "\fIAn NSObject for holding CLR objects, for passing C# objects through NSDictionary, etc\&. \fP"
+.ti -1c
+.RI "class \fBClrWrapperExtensions\fP"
+.br
+.RI "\fIExtension methods for use in conjunction with \fBClrWrapper\fP \fP"
+.ti -1c
+.RI "class \fBCompleteCell\fP"
+.br
+.RI "\fIThe table cell to complete an assignment \fP"
+.ti -1c
+.RI "class \fBConfirmationController\fP"
+.br
+.RI "\fIController for the confirmation screen \fP"
+.ti -1c
+.RI "class \fBDocumentCell\fP"
+.br
+.RI "\fIThis is a cell used for documents, only subclassed so we could override LayoutSubviews and move things around \fP"
+.ti -1c
+.RI "class \fBDocumentController\fP"
+.br
+.ti -1c
+.RI "class \fBExpenseCategorySheet\fP"
+.br
+.ti -1c
+.RI "class \fBExpenseCell\fP"
+.br
+.ti -1c
+.RI "class \fBExpenseController\fP"
+.br
+.RI "\fIController for the expenses section \fP"
+.ti -1c
+.RI "class \fBHistoryCell\fP"
+.br
+.RI "\fIHistory table view cell \fP"
+.ti -1c
+.RI "class \fBHistoryController\fP"
+.br
+.RI "\fIController for the history section \fP"
+.ti -1c
+.RI "class \fBHoursField\fP"
+.br
+.RI "\fICustom view for entering hours \fP"
+.ti -1c
+.RI "interface \fBISearchSource\fP"
+.br
+.RI "\fIA simple interface for supplying UISearchBar interaction \fP"
+.ti -1c
+.RI "class \fBItemsViewController\fP"
+.br
+.RI "\fIController for the list of items \fP"
+.ti -1c
+.RI "class \fBLaborCell\fP"
+.br
+.RI "\fITable cell for labor hours \fP"
+.ti -1c
+.RI "class \fBLaborController\fP"
+.br
+.RI "\fIController for the labor section \fP"
+.ti -1c
+.RI "class \fBLaborTypeTextField\fP"
+.br
+.RI "\fICustom text field for choosing a labor type -> uses UIPickerView underneath \fP"
+.ti -1c
+.RI "class \fBLoginController\fP"
+.br
+.RI "\fIController for the login screen \fP"
+.ti -1c
+.RI "class \fBMainMapController\fP"
+.br
+.RI "\fIThe controller for the main map with all the assignments on it \fP"
+.ti -1c
+.RI "class \fBMapController\fP"
+.br
+.RI "\fIController for displaying the map for an assignment \fP"
+.ti -1c
+.RI "class \fBMenuController\fP"
+.br
+.RI "\fIThis controller holds the main menu for assignments \fP"
+.ti -1c
+.RI "class \fBMenuEventArgs\fP"
+.br
+.RI "\fIEventArgs used for when the selection changes in \fBMenuController\fP \fP"
+.ti -1c
+.RI "class \fBPhotoAlertSheet\fP"
+.br
+.RI "\fIAlert sheet for choosing a photo \fP"
+.ti -1c
+.RI "class \fBPhotoCell\fP"
+.br
+.RI "\fITable cell for a photo on an assignment \fP"
+.ti -1c
+.RI "class \fBPlaceholderTextView\fP"
+.br
+.RI "\fIA quick subclass of UITextView to enable placeholder text \fP"
+.ti -1c
+.RI "class \fBSearchDisplay\fP"
+.br
+.RI "\fIA really simple UISearchDisplayDelegate that could be used throughout the app on multiple UITableViews \fP"
+.ti -1c
+.RI "class \fBSectionIndex\fP"
+.br
+.RI "\fIStatic class for holding section indexes for \fBMenuController\fP \fP"
+.ti -1c
+.RI "class \fBSignatureCell\fP"
+.br
+.RI "\fIThe table cell for adding signatures to an assignment \fP"
+.ti -1c
+.RI "class \fBSignatureController\fP"
+.br
+.RI "\fIController for displaying the popover for signatures \fP"
+.ti -1c
+.RI "class \fBSplitController\fP"
+.br
+.RI "\fIThe main split controller in the app, we couldn't use UISplitViewController because it must be the very root controller of the app NOTE: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance \fP"
+.ti -1c
+.RI "class \fBStatusButton\fP"
+.br
+.RI "\fIStatus button for assignments \fP"
+.ti -1c
+.RI "class \fBSummaryController\fP"
+.br
+.RI "\fIController for displaying the summary about an assignment \fP"
+.ti -1c
+.RI "class \fBSynchronizeInvoke\fP"
+.br
+.RI "\fISynchronize invoke implementation for \fBiOS\fP \fP"
+.ti -1c
+.RI "class \fBTabController\fP"
+.br
+.RI "\fITab controller on the assignments page \fP"
+.ti -1c
+.RI "class \fBTextButton\fP"
+.br
+.RI "\fIThis is a button for providing 2 lines of text and a nice icon to the left \fP"
+.ti -1c
+.RI "class \fBTheme\fP"
+.br
+.RI "\fITheme class for appling UIAppearance to the app, and holding app level resources (colors and images) \fP"
+.ti -1c
+.RI "class \fBUIKitExtensions\fP"
+.br
+.RI "\fIHelper class with extension methods \fP"
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

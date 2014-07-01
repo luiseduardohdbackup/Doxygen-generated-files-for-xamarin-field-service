@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::BooleanToVisibilityConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1abfc5b01c9ba3db01a6aa7cfa6831e678" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.Utilities.BooleanToVisibilityConverter.IsReversed</definition>
+        <argsstring></argsstring>
+        <name>IsReversed</name>
+        <briefdescription>
+<para>If set to True, conversion is reversed: True will become Collapsed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1a418343b42e581a57397e76ba765be38b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.BooleanToVisibilityConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" bodystart="35" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1a4c5c57628081384acb1e1e08bc09ed9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.BooleanToVisibilityConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Converts a Boolean into a Visibility. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1947">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1946">
+        <label>FieldService.WinRT.Utilities.BooleanToVisibilityConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter"/>
+        <childnode refid="1947" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1949">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1948">
+        <label>FieldService.WinRT.Utilities.BooleanToVisibilityConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter"/>
+        <childnode refid="1949" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" bodystart="29" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1a418343b42e581a57397e76ba765be38b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::BooleanToVisibilityConverter</scope><name>Convert</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1a4c5c57628081384acb1e1e08bc09ed9e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::BooleanToVisibilityConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter_1abfc5b01c9ba3db01a6aa7cfa6831e678" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::BooleanToVisibilityConverter</scope><name>IsReversed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

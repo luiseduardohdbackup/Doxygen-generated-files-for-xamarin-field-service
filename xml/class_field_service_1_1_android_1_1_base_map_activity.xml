@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_base_map_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::BaseMapActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MapActivity</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_map_fragment_activity" prot="public" virt="non-virtual">FieldService.Android.MapFragmentActivity</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_map_view_activity" prot="public" virt="non-virtual">FieldService.Android.MapViewActivity</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_base_map_activity_1a7ba2d0b175af75f3e63b78ef747d7de0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.Android.BaseMapActivity.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <initializer>= ServiceContainer.Resolve&lt;<ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref>&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_base_map_activity_1a045d06e475e2fbad8de9344045e7f104" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool FieldService.Android.BaseMapActivity.IsRouteDisplayed</definition>
+        <argsstring></argsstring>
+        <name>IsRouteDisplayed</name>
+        <briefdescription>
+<para>Required abstract member, we don&apos;t need to display routes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_base_map_activity_1af84e0668330717ea3b6a99371e135f19" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.BaseMapActivity.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" bodystart="23" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_base_map_activity_1a6d6aea5274d6650c19c188fcb9ba516b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.BaseMapActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base activity for all &quot;map&quot; activities, handles global OnPause/OnResume </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1925">
+        <label>FieldService.Android.MapViewActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_map_view_activity"/>
+        <childnode refid="1922" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1922">
+        <label>FieldService.Android.BaseMapActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_map_activity"/>
+        <childnode refid="1923" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1923">
+        <label>MapActivity</label>
+      </node>
+      <node id="1924">
+        <label>FieldService.Android.MapFragmentActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_map_fragment_activity"/>
+        <childnode refid="1922" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1926">
+        <label>FieldService.Android.BaseMapActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_map_activity"/>
+        <childnode refid="1927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1927">
+        <label>MapActivity</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseMapActivity.cs" bodystart="20" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_base_map_activity_1a045d06e475e2fbad8de9344045e7f104" prot="protected" virt="non-virtual"><scope>FieldService::Android::BaseMapActivity</scope><name>IsRouteDisplayed</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_map_activity_1a7ba2d0b175af75f3e63b78ef747d7de0" prot="private" virt="non-virtual"><scope>FieldService::Android::BaseMapActivity</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_map_activity_1af84e0668330717ea3b6a99371e135f19" prot="protected" virt="non-virtual"><scope>FieldService::Android::BaseMapActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_map_activity_1a6d6aea5274d6650c19c188fcb9ba516b" prot="protected" virt="non-virtual"><scope>FieldService::Android::BaseMapActivity</scope><name>OnResume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::LoginPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1ae0cf7a2e0137a6efbcdf0c788cc4e4e6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.Views.LoginPage.navigatedTo</definition>
+        <argsstring></argsstring>
+        <name>navigatedTo</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a0ddd66aaa997a06711053d2056cad724" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.WinRT.Views.LoginPage.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a4604ee8b4d9031b711a3c6d06ce45222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.LoginPage.LoginPage</definition>
+        <argsstring>()</argsstring>
+        <name>LoginPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="32" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1ae98f673114190c837924da69715d0c46" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.LoginPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1afc278ebe46f569194be6bec2b88a78e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.LoginPage.OnNavigatedFrom</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedFrom</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a0ddce1f9a7a9e40a677338521e9f7ee6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.LoginPage.OnKeyDown</definition>
+        <argsstring>(KeyRoutedEventArgs e)</argsstring>
+        <name>OnKeyDown</name>
+        <param>
+          <type>KeyRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Used for hooking up enter key to login </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="80" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The initial login page </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2577">
+        <label>Page</label>
+      </node>
+      <node id="2576">
+        <label>FieldService.WinRT.Views.LoginPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page"/>
+        <childnode refid="2577" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2579">
+        <label>Page</label>
+      </node>
+      <node id="2578">
+        <label>FieldService.WinRT.Views.LoginPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page"/>
+        <childnode refid="2579" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LoginPage.xaml.cs" bodystart="28" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a4604ee8b4d9031b711a3c6d06ce45222" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>LoginPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a0ddd66aaa997a06711053d2056cad724" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1ae0cf7a2e0137a6efbcdf0c788cc4e4e6" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>navigatedTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1a0ddce1f9a7a9e40a677338521e9f7ee6" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>OnKeyDown</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1afc278ebe46f569194be6bec2b88a78e8" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>OnNavigatedFrom</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_login_page_1ae98f673114190c837924da69715d0c46" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::LoginPage</scope><name>OnNavigatedTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1058 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_test_data" kind="class" prot="public">
+    <compoundname>FieldService::Data::TestData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1aec77fe095328bef31d0bbc87dde8a100" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Data.TestData.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>= &quot;This is the desription created for this specific assignment. It would include helpful information related to the assignment, and you would probably want to read it.  Important information would be here, like which tools to use and what needs to be done for the assignment.&quot;</initializer>
+        <briefdescription>
+<para>This is just a test description, we just put it on all the assignments for now </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a8e71e6c62703cc6c8c1cda17f30faae7" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment1</definition>
+        <argsstring></argsstring>
+        <name>Assignment1</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 1,
+            Priority = 1,
+            JobNumber = &quot;2001&quot;,
+            CompanyName = &quot;GC Mechanical&quot;,
+            Description = Description,
+            ContactName = &quot;Joseph Grimes&quot;,
+            ContactPhone = &quot;414-367-4348&quot;,
+            Address = &quot;2030 Judah St&quot;,
+            City = &quot;San Francisco&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94122&quot;,
+            Latitude = 37.761402f,
+            Longitude = -122.484182f,
+            Status = AssignmentStatus.Active,
+            StartDate = DateTime.Now,
+            EndDate = DateTime.Now.AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a152fda80667be6364ed5c83347b25bb2" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment2</definition>
+        <argsstring></argsstring>
+        <name>Assignment2</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 2,
+            Priority = 2,
+            JobNumber = &quot;2002&quot;,
+            CompanyName = &quot;Calcom Logistics&quot;,
+            Description = Description,
+            ContactName = &quot;Monica Green&quot;,
+            ContactPhone = &quot;925-353-8029&quot;,
+            Address = &quot;231 3rd Ave&quot;,
+            City = &quot;San Francisco&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94118&quot;,
+            Latitude = 37.783839f,
+            Longitude = -122.461592f,
+            Status = AssignmentStatus.Hold,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a58daaafca633dbec40c74a0086c033aa" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment3</definition>
+        <argsstring></argsstring>
+        <name>Assignment3</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 3,
+            Priority = 3,
+            JobNumber = &quot;3113&quot;,
+            CompanyName = &quot;St. Francis Hospitals&quot;,
+            Description = Description,
+            ContactName = &quot;Christopher Joyner&quot;,
+            ContactPhone = &quot;979-943-0937&quot;,
+            Address = &quot;400 Grant Ave&quot;,
+            City = &quot;San Fancisco&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94108&quot;,
+            Latitude = 37.790786f,
+            Longitude = -122.405412f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2012, 10, 4),
+            EndDate = new DateTime(2012, 12, 6),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ab934e6dceaf3986898e7fcdbb57ac361" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment4</definition>
+        <argsstring></argsstring>
+        <name>Assignment4</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 4,
+            Priority = 4,
+            JobNumber = &quot;3114&quot;,
+            CompanyName = &quot;Bay Unified School District&quot;,
+            Description = Description,
+            ContactName = &quot;Joan Marcum&quot;,
+            ContactPhone = &quot;914-870-7670&quot;,
+            Address = &quot;448 Grand Ave&quot;,
+            City = &quot;South San Francisco&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94080&quot;,
+            Latitude = 37.656103f,
+            Longitude = -122.414271f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a4ead9105a507a570d03d5f1daba1a931" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment5</definition>
+        <argsstring></argsstring>
+        <name>Assignment5</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 5,
+            Priority = 5,
+            JobNumber = &quot;4445&quot;,
+            CompanyName = &quot;Redwood City Medical Group&quot;,
+            Description = Description,
+            ContactName = &quot;Margaret Cargill&quot;,
+            ContactPhone = &quot;208-816-9793&quot;,
+            Address = &quot;1037 Middlefield Rd&quot;,
+            City = &quot;Redwood City&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94063&quot;,
+            Latitude = 37.484513f,
+            Longitude = -122.227647f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1aefc7a677cc5ca10197c9d60c7ea55f00" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment6</definition>
+        <argsstring></argsstring>
+        <name>Assignment6</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 6,
+            Priority = 6,
+            JobNumber = &quot;4446&quot;,
+            CompanyName = &quot;JG Manufacturing&quot;,
+            Description = Description,
+            ContactName = &quot;Benjamin Jones&quot;,
+            ContactPhone = &quot;505-562-3086&quot;,
+            Address = &quot;2901 Cowper St&quot;,
+            City = &quot;Palo Alto&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94306&quot;,
+            Latitude = 37.429546f,
+            Longitude = -122.129313f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="120" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a7cdb27ec14f64d835a38e67d33a1329c" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment7</definition>
+        <argsstring></argsstring>
+        <name>Assignment7</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 7,
+            Priority = 7,
+            JobNumber = &quot;5677&quot;,
+            CompanyName = &quot;Pacific Cabinetry&quot;,
+            Description = Description,
+            ContactName = &quot;Alvin Gray&quot;,
+            ContactPhone = &quot;720-344-7823&quot;,
+            Address = &quot;1773 Lincoln St&quot;,
+            City = &quot;Santa Clara&quot;,
+            Zip = &quot;95050&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.355546f,
+            Longitude = -121.955441f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 7, 5),
+            EndDate = new DateTime(2013, 8, 12),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a471c763fb3186a577a4991c4f978138a" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment8</definition>
+        <argsstring></argsstring>
+        <name>Assignment8</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 8,
+            Priority = 8,
+            JobNumber = &quot;5678&quot;,
+            CompanyName = &quot;Evergreen Mechanical&quot;,
+            Description = Description,
+            ContactName = &quot;Michelle Wilson&quot;,
+            ContactPhone = &quot;917-245-7975&quot;,
+            Address = &quot;208 Jackson St&quot;,
+            City = &quot;San Jose&quot;,
+            Zip = &quot;95112&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.349005f,
+            Longitude = -121.894038f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="160" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a36f4b24768f1ce13ae99a2fc17943b07" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment9</definition>
+        <argsstring></argsstring>
+        <name>Assignment9</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 9,
+            Priority = 9,
+            JobNumber = &quot;7809&quot;,
+            CompanyName = &quot;Peninsula University&quot;,
+            Description = Description,
+            ContactName = &quot;Jennifer Gillespie&quot;,
+            ContactPhone = &quot;831-427-6746&quot;,
+            Address = &quot;10002 N De Anza Blvd&quot;,
+            City = &quot;Cupertino&quot;,
+            Zip = &quot;95014&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.323387f,
+            Longitude = -122.031769f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="180" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a8c381b2d5bbd696b7bcf6ea6cf9ad481" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment10</definition>
+        <argsstring></argsstring>
+        <name>Assignment10</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 10,
+            Priority = 10,
+            JobNumber = &quot;7810&quot;,
+            CompanyName = &quot;Creative Automotive Group&quot;,
+            Description = Description,
+            ContactName = &quot;Thomas White&quot;,
+            ContactPhone = &quot;214-865-0771&quot;,
+            Address = &quot;1181 Linda Mar Blvd&quot;,
+            City = &quot;Pacifica&quot;,
+            Zip = &quot;94044&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 38.585774f,
+            Longitude = -122.488545f,
+            Status = AssignmentStatus.New,
+            StartDate = DateTime.Now.AddDays(1),
+            EndDate = DateTime.Now.AddDays(1).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="200" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ad9cf62c9551755475c9e164138d5f6bf" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment11</definition>
+        <argsstring></argsstring>
+        <name>Assignment11</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 11,
+            Priority = 11,
+            JobNumber = &quot;7531&quot;,
+            CompanyName = &quot;XYZ Robotics&quot;,
+            Description = Description,
+            ContactName = &quot;Ivan Diaz&quot;,
+            ContactPhone = &quot;406-496-8774&quot;,
+            Address = &quot;1960 Mandela Pkwy&quot;,
+            City = &quot;Oakland&quot;,
+            Zip = &quot;94607&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.814795f,
+            Longitude = -122.289854f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 8, 27),
+            EndDate = new DateTime(2013, 8, 30),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="220" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a0bd6d1708bdec0bc085cc70b2be55324" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment12</definition>
+        <argsstring></argsstring>
+        <name>Assignment12</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 12,
+            Priority = 12,
+            JobNumber = &quot;1680&quot;,
+            CompanyName = &quot;MMSRI, Inc&quot;,
+            Description = Description,
+            ContactName = &quot;Eric Grant&quot;,
+            ContactPhone = &quot;360-693-2388&quot;,
+            Address = &quot;2043 Martin Luther King Jr Way&quot;,
+            City = &quot;Berkeley&quot;,
+            Zip = &quot;94704&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.871118f,
+            Longitude = -122.272942f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 9, 18),
+            EndDate = new DateTime(2013, 9, 30),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="240" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ac71c526a186a465de4ea3531eca28b2b" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment13</definition>
+        <argsstring></argsstring>
+        <name>Assignment13</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 13,
+            Priority = 13,
+            JobNumber = &quot;3052&quot;,
+            CompanyName = &quot;Global Manufacturing&quot;,
+            Description = Description,
+            ContactName = &quot;Stacey Valdovinos&quot;,
+            ContactPhone = &quot;440-243-7987&quot;,
+            Address = &quot;98 Udayakavi Ln&quot;,
+            City = &quot;Danville&quot;,
+            Zip = &quot;94526&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.842446f,
+            Longitude = -122.005243f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 10, 24),
+            EndDate = new DateTime(2013, 11, 15),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="260" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ac21ed4e3bf5b0438b15d5bfc0f420ad6" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment14</definition>
+        <argsstring></argsstring>
+        <name>Assignment14</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 14,
+            Priority = 14,
+            JobNumber = &quot;9610&quot;,
+            CompanyName = &quot;Pacific Marine Supply&quot;,
+            Description = Description,
+            ContactName = &quot;Jesus Cardella &quot;,
+            ContactPhone = &quot;410-745-5521&quot;,
+            Address = &quot;1008 Rachele Rd&quot;,
+            City = &quot;Walnut Creek&quot;,
+            Zip = &quot;94597&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.913775f,
+            Longitude = -122.079070f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 12, 24),
+            EndDate = new DateTime(2013, 12, 25),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="280" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1afd3ec19f98173ad2e7ef36cab6685b5e" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment15</definition>
+        <argsstring></argsstring>
+        <name>Assignment15</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 15,
+            Priority = 15,
+            JobNumber = &quot;4873&quot;,
+            CompanyName = &quot;Mission School District&quot;,
+            Description = Description,
+            ContactName = &quot;Wilma Woolley&quot;,
+            ContactPhone = &quot;940-696-1852&quot;,
+            Address = &quot;7277 Moeser Ln&quot;,
+            City = &quot;El Cerrito&quot;,
+            Zip = &quot;94530&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.914458f,
+            Longitude = -122.301514f,
+            Status = AssignmentStatus.New,
+            StartDate = new DateTime(2013, 4, 10),
+            EndDate = new DateTime(2013, 4, 17),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="300" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a1a07626b65fa8236b08dcf1c1078e758" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment16</definition>
+        <argsstring></argsstring>
+        <name>Assignment16</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 16,
+            Priority = 1,
+            JobNumber = &quot;2016&quot;,
+            CompanyName = &quot;City of Redmond&quot;,
+            Description = Description,
+            ContactName = &quot;Evan Armstead&quot;,
+            ContactPhone = &quot;415-336-2228&quot;,
+            Address = &quot;398 23rd St&quot;,
+            City = &quot;Richmond&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94804&quot;,
+            Latitude = 37.936871f,
+            Longitude = -122.347516f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-30),
+            EndDate = DateTime.Now.AddDays(-30).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="324" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1af70f1b11faf99e627c6b132f4bdbc5c9" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment17</definition>
+        <argsstring></argsstring>
+        <name>Assignment17</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 17,
+            Priority = 2,
+            JobNumber = &quot;2017&quot;,
+            CompanyName = &quot;BayTech Credit Union&quot;,
+            Description = Description,
+            ContactName = &quot;Douglas Greenly&quot;,
+            ContactPhone = &quot;201-929-0094&quot;,
+            Address = &quot;2267 Alameda Ave&quot;,
+            City = &quot;Alameda&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94501&quot;,
+            Latitude = 37.764955f,
+            Longitude = -122.245887f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="344" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a4a03e1c31797bfcab4689a6b452d6f2f" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment18</definition>
+        <argsstring></argsstring>
+        <name>Assignment18</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 18,
+            Priority = 3,
+            JobNumber = &quot;3118&quot;,
+            CompanyName = &quot;East Bay Commercial Bank&quot;,
+            Description = Description,
+            ContactName = &quot;James Jones&quot;,
+            ContactPhone = &quot;313-248-9644&quot;,
+            Address = &quot;4501 Pleasanton Ave&quot;,
+            City = &quot;Pleasanton&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94556&quot;,
+            Latitude = 37.661690f,
+            Longitude = -121.887367f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="364" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a826555273bd4e4a58d200660cead4f86" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment19</definition>
+        <argsstring></argsstring>
+        <name>Assignment19</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 19,
+            Priority = 4,
+            JobNumber = &quot;3119&quot;,
+            CompanyName = &quot;Rockridge Hotel&quot;,
+            Description = Description,
+            ContactName = &quot;Brent Mason&quot;,
+            ContactPhone = &quot;940-482-7759&quot;,
+            Address = &quot;1960 Mandela Pkwy&quot;,
+            City = &quot;Oakland&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94607&quot;,
+            Latitude = 37.814778f,
+            Longitude = -122.288597f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="384" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a31051a913750f9c8f6f64fccb6028067" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment20</definition>
+        <argsstring></argsstring>
+        <name>Assignment20</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 20,
+            Priority = 5,
+            JobNumber = &quot;4420&quot;,
+            CompanyName = &quot;Marin Luxury Senior Living&quot;,
+            Description = Description,
+            ContactName = &quot;Richard Hogan&quot;,
+            ContactPhone = &quot;978-658-7545&quot;,
+            Address = &quot;674 Tiburon Blvd&quot;,
+            City = &quot;Belvedere Tiburon&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94920&quot;,
+            Latitude = 37.890050f,
+            Longitude = -122.478655f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="404" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a328c39ae0a5249bd2969ee9ffa2c7c4c" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment21</definition>
+        <argsstring></argsstring>
+        <name>Assignment21</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 21,
+            Priority = 6,
+            JobNumber = &quot;4421&quot;,
+            CompanyName = &quot;Cityview Consulting&quot;,
+            Description = Description,
+            ContactName = &quot;Daniel Granville&quot;,
+            ContactPhone = &quot;330-616-7467&quot;,
+            Address = &quot;300 Spencer Ave&quot;,
+            City = &quot;Saulsalito&quot;,
+            State = &quot;CA&quot;,
+            Zip = &quot;94965&quot;,
+            Latitude = 37.852171f,
+            Longitude = -122.490258f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="424" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1abec7f585c0f99d42ae26b2c33bc1a249" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment22</definition>
+        <argsstring></argsstring>
+        <name>Assignment22</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 22,
+            Priority = 7,
+            JobNumber = &quot;5622&quot;,
+            CompanyName = &quot;Marin Cultural Center&quot;,
+            Description = Description,
+            ContactName = &quot;Margaret Kidd&quot;,
+            ContactPhone = &quot;406-784-0602&quot;,
+            Address = &quot;106 Throckmorton Ave&quot;,
+            City = &quot;Mill Valley&quot;,
+            Zip = &quot;94941&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.906189f,
+            Longitude = -122.548484f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="444" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ac9bb970e90402bb5ef81019a974269d4" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment23</definition>
+        <argsstring></argsstring>
+        <name>Assignment23</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 23,
+            Priority = 8,
+            JobNumber = &quot;5623&quot;,
+            CompanyName = &quot;San Rafael Chambers of Commerce&quot;,
+            Description = Description,
+            ContactName = &quot;Leo Parsons&quot;,
+            ContactPhone = &quot;773-991-5214&quot;,
+            Address = &quot;199 Clorinda Ave&quot;,
+            City = &quot;San Rafael&quot;,
+            Zip = &quot;94901&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.967382f,
+            Longitude = -122.539084f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="464" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a26da6b29cf0ac9e6f96f092dbf7e2a82" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment24</definition>
+        <argsstring></argsstring>
+        <name>Assignment24</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 24,
+            Priority = 9,
+            JobNumber = &quot;7824&quot;,
+            CompanyName = &quot;Millenium Mortgage&quot;,
+            Description = Description,
+            ContactName = &quot;Raymond Denson&quot;,
+            ContactPhone = &quot;253-594-5757&quot;,
+            Address = &quot;1612 Center Rd&quot;,
+            City = &quot;Novato&quot;,
+            Zip = &quot;94947&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 38.101042f,
+            Longitude = -122.576288f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="484" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a00d27f1048b4e34c52e7b9268aa38c91" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment25</definition>
+        <argsstring></argsstring>
+        <name>Assignment25</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 25,
+            Priority = 10,
+            JobNumber = &quot;7825&quot;,
+            CompanyName = &quot;Northern CA Agricultural Assoc&quot;,
+            Description = Description,
+            ContactName = &quot;Mary Fraser&quot;,
+            ContactPhone = &quot;850-221-7352&quot;,
+            Address = &quot;1998 Caulfield Ln&quot;,
+            City = &quot;Petaluma&quot;,
+            Zip = &quot;94954&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 38.251013f,
+            Longitude = -122.606438f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="504" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a92bd62e40a3ac5fd6bdd5c5246447134" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment26</definition>
+        <argsstring></argsstring>
+        <name>Assignment26</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 26,
+            Priority = 11,
+            JobNumber = &quot;7526&quot;,
+            CompanyName = &quot;Bay Area Casualty and Life&quot;,
+            Description = Description,
+            ContactName = &quot;Michael Scott&quot;,
+            ContactPhone = &quot;484-597-9853&quot;,
+            Address = &quot;1098 Lombard St&quot;,
+            City = &quot;San Francisco&quot;,
+            Zip = &quot;94133&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.802019f,
+            Longitude = -122.419669f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="524" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ad6d197bfc24aa5ceb6d31a8a1d60c2f1" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment27</definition>
+        <argsstring></argsstring>
+        <name>Assignment27</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 27,
+            Priority = 12,
+            JobNumber = &quot;1627&quot;,
+            CompanyName = &quot;Marsh Media Group&quot;,
+            Description = Description,
+            ContactName = &quot;Gerald Becker&quot;,
+            ContactPhone = &quot;408-583-8482&quot;,
+            Address = &quot;821 Larchmont Dr&quot;,
+            City = &quot;Daly City&quot;,
+            Zip = &quot;94015&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.692275f,
+            Longitude = -122.485992f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="544" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ad549276f5e6c6d1003a789c993ca2954" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment28</definition>
+        <argsstring></argsstring>
+        <name>Assignment28</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 28,
+            Priority = 13,
+            JobNumber = &quot;3028&quot;,
+            CompanyName = &quot;Port of Oakland&quot;,
+            Description = Description,
+            ContactName = &quot;Victor Allen&quot;,
+            ContactPhone = &quot;610-361-8981&quot;,
+            Address = &quot;10854 Edes Ave&quot;,
+            City = &quot;Oakland&quot;,
+            Zip = &quot;94603&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.731547f,
+            Longitude = -122.176006f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="564" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a3bc03ced6ac3727c617f75156863931f" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment29</definition>
+        <argsstring></argsstring>
+        <name>Assignment29</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 29,
+            Priority = 14,
+            JobNumber = &quot;9629&quot;,
+            CompanyName = &quot;Westfield Enterprises&quot;,
+            Description = Description,
+            ContactName = &quot;Alice Dominguez&quot;,
+            ContactPhone = &quot;540-510-6123&quot;,
+            Address = &quot;1720 Mt Diablo Blvd&quot;,
+            City = &quot;Walnut Creek&quot;,
+            Zip = &quot;94596&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.897384f,
+            Longitude = -122.063812f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="584" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1a1776e9d27626a637d8818ef2585d5131" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>readonly Assignment FieldService.Data.TestData.Assignment30</definition>
+        <argsstring></argsstring>
+        <name>Assignment30</name>
+        <initializer>= new <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref>
+        {
+            Id = 30,
+            Priority = 15,
+            JobNumber = &quot;4830&quot;,
+            CompanyName = &quot;Center of the Performing Arts&quot;,
+            Description = Description,
+            ContactName = &quot;Sterling Conner&quot;,
+            ContactPhone = &quot;267-795-6664&quot;,
+            Address = &quot;1815 Lincoln Ave&quot;,
+            City = &quot;San Jose&quot;,
+            Zip = &quot;95125&quot;,
+            State = &quot;CA&quot;,
+            Latitude = 37.296562f,
+            Longitude = -122.892831f,
+            Status = AssignmentStatus.Complete,
+            StartDate = DateTime.Now.AddDays(-31),
+            EndDate = DateTime.Now.AddDays(-31).AddHours(2),
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="604" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_test_data_1ac55bb14063a17a3b90adedf5f9712d57" prot="public" static="yes" mutable="no">
+        <type>object[]</type>
+        <definition>object [] FieldService.Data.TestData.All</definition>
+        <argsstring></argsstring>
+        <name>All</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="626" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="626" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Static class for holding all test data within the app </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3278">
+        <label>FieldService.Data.Assignment</label>
+        <link refid="class_field_service_1_1_data_1_1_assignment"/>
+      </node>
+      <node id="3277">
+        <label>FieldService.Data.TestData</label>
+        <childnode refid="3278" relation="usage">
+          <edgelabel>Assignment26</edgelabel>
+          <edgelabel>Assignment15</edgelabel>
+          <edgelabel>Assignment8</edgelabel>
+          <edgelabel>Assignment27</edgelabel>
+          <edgelabel>Assignment16</edgelabel>
+          <edgelabel>Assignment9</edgelabel>
+          <edgelabel>Assignment28</edgelabel>
+          <edgelabel>Assignment17</edgelabel>
+          <edgelabel>Assignment29</edgelabel>
+          <edgelabel>Assignment18</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TestData.cs" bodystart="11" bodyend="1395"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ac55bb14063a17a3b90adedf5f9712d57" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>All</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a8e71e6c62703cc6c8c1cda17f30faae7" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment1</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a8c381b2d5bbd696b7bcf6ea6cf9ad481" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment10</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ad9cf62c9551755475c9e164138d5f6bf" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment11</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a0bd6d1708bdec0bc085cc70b2be55324" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment12</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ac71c526a186a465de4ea3531eca28b2b" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment13</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ac21ed4e3bf5b0438b15d5bfc0f420ad6" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment14</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1afd3ec19f98173ad2e7ef36cab6685b5e" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment15</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a1a07626b65fa8236b08dcf1c1078e758" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment16</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1af70f1b11faf99e627c6b132f4bdbc5c9" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment17</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a4a03e1c31797bfcab4689a6b452d6f2f" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment18</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a826555273bd4e4a58d200660cead4f86" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment19</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a152fda80667be6364ed5c83347b25bb2" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment2</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a31051a913750f9c8f6f64fccb6028067" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment20</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a328c39ae0a5249bd2969ee9ffa2c7c4c" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment21</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1abec7f585c0f99d42ae26b2c33bc1a249" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment22</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ac9bb970e90402bb5ef81019a974269d4" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment23</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a26da6b29cf0ac9e6f96f092dbf7e2a82" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment24</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a00d27f1048b4e34c52e7b9268aa38c91" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment25</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a92bd62e40a3ac5fd6bdd5c5246447134" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment26</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ad6d197bfc24aa5ceb6d31a8a1d60c2f1" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment27</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ad549276f5e6c6d1003a789c993ca2954" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment28</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a3bc03ced6ac3727c617f75156863931f" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment29</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a58daaafca633dbec40c74a0086c033aa" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment3</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a1776e9d27626a637d8818ef2585d5131" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment30</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1ab934e6dceaf3986898e7fcdbb57ac361" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment4</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a4ead9105a507a570d03d5f1daba1a931" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment5</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1aefc7a677cc5ca10197c9d60c7ea55f00" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment6</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a7cdb27ec14f64d835a38e67d33a1329c" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment7</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a471c763fb3186a577a4991c4f978138a" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment8</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1a36f4b24768f1ce13ae99a2fc17943b07" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Assignment9</name></member>
+      <member refid="class_field_service_1_1_data_1_1_test_data_1aec77fe095328bef31d0bbc87dde8a100" prot="public" virt="non-virtual"><scope>FieldService::Data::TestData</scope><name>Description</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_sample_login_service" kind="class" prot="public">
+    <compoundname>FieldService::Data::SampleLoginService</compoundname>
+    <basecompoundref refid="interface_field_service_1_1_i_login_service" prot="public" virt="non-virtual">FieldService.ILoginService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_data_1_1_sample_login_service_1a9a8436c3bbb8cab41b2e32d0d49bfce3" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Data.SampleLoginService.Sleep</definition>
+        <argsstring></argsstring>
+        <name>Sleep</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_data_1_1_sample_login_service_1a4287327af7e61c567acf1a6a806a17d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; bool &gt;</type>
+        <definition>Task&lt;bool&gt; FieldService.Data.SampleLoginService.LoginAsync</definition>
+        <argsstring>(string username, string password, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>LoginAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_login_service_1a1e82d7033555800002f016ddb020f6df">LoginAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Asynchronous login </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" bodystart="33" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Default IService implementation </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>uses a fake sleep, to emulate network interaction </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2974">
+        <label>FieldService.Data.SampleLoginService</label>
+        <link refid="class_field_service_1_1_data_1_1_sample_login_service"/>
+        <childnode refid="2975" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2975">
+        <label>ILoginService</label>
+        <link refid="interface_field_service_1_1_i_login_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2976">
+        <label>FieldService.Data.SampleLoginService</label>
+        <link refid="class_field_service_1_1_data_1_1_sample_login_service"/>
+        <childnode refid="2977" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2977">
+        <label>ILoginService</label>
+        <link refid="interface_field_service_1_1_i_login_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/SampleLoginService.cs" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_sample_login_service_1a4287327af7e61c567acf1a6a806a17d4" prot="public" virt="non-virtual"><scope>FieldService::Data::SampleLoginService</scope><name>LoginAsync</name></member>
+      <member refid="class_field_service_1_1_data_1_1_sample_login_service_1a9a8436c3bbb8cab41b2e32d0d49bfce3" prot="private" virt="non-virtual"><scope>FieldService::Data::SampleLoginService</scope><name>Sleep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

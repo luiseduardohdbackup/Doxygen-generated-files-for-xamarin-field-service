@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_android_1_1_adapters" kind="namespace">
+    <compoundname>FieldService::Android::Adapters</compoundname>
+    <innerclass refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter" prot="public">FieldService::Android::Adapters::DocumentsAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter" prot="public">FieldService::Android::Adapters::HistoryListAdapter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="30" column="1"/>
+  </compounddef>
+</doxygen>

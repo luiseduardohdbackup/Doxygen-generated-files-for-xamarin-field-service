@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::MapFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a6e84c91fb926d8643e0cb2481a7b75c7" prot="private" static="no" mutable="no">
+        <type>LocalActivityManager</type>
+        <definition>LocalActivityManager FieldService.Android.Fragments.MapFragment.localManager</definition>
+        <argsstring></argsstring>
+        <name>localManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1ae0790dc1bc85469dfd384400c1212f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.MapFragment.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a85552d56f6e71db6118cc76fc3687a8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.MapFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="39" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a3ec342e2c4e15db2f18f2b5e51ce3716" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.MapFragment.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+<para>Resume the LocalActivityManager </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1abd7b00092fd02e69584922b390a5792e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.MapFragment.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>Pause the LocalActivityManager </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a66a01bd2327b59c791035075ce5137a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.MapFragment.OnStop</definition>
+        <argsstring>()</argsstring>
+        <name>OnStop</name>
+        <briefdescription>
+<para>Stop the LocalActivityManager </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="72" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="72" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragment for the maps section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2670">
+        <label>Fragment</label>
+      </node>
+      <node id="2669">
+        <label>FieldService.Android.Fragments.MapFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment"/>
+        <childnode refid="2670" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2672">
+        <label>Fragment</label>
+      </node>
+      <node id="2671">
+        <label>FieldService.Android.Fragments.MapFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment"/>
+        <childnode refid="2672" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/MapFragment.cs" bodystart="26" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a6e84c91fb926d8643e0cb2481a7b75c7" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>localManager</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1ae0790dc1bc85469dfd384400c1212f4b" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a85552d56f6e71db6118cc76fc3687a8d" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1abd7b00092fd02e69584922b390a5792e" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a3ec342e2c4e15db2f18f2b5e51ce3716" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment_1a66a01bd2327b59c791035075ce5137a7" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::MapFragment</scope><name>OnStop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

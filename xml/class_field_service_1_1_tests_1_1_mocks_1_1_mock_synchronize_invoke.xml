@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke" kind="class" prot="public">
+    <compoundname>FieldService::Tests::Mocks::MockSynchronizeInvoke</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ISynchronizeInvoke</basecompoundref>
+    <innerclass refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1_1_async_result" prot="private">FieldService::Tests::Mocks::MockSynchronizeInvoke::AsyncResult</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a002e05360e98904721d2e3cc65630cfe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Tests.Mocks.MockSynchronizeInvoke.InvokeRequired</definition>
+        <argsstring></argsstring>
+        <name>InvokeRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1acbef03a706f8ee264f2f07fa5095d1dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncResult</type>
+        <definition>IAsyncResult FieldService.Tests.Mocks.MockSynchronizeInvoke.BeginInvoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>BeginInvoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" bodystart="42" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a4de17a99f634e89155e7d4d679258678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.Tests.Mocks.MockSynchronizeInvoke.EndInvoke</definition>
+        <argsstring>(IAsyncResult result)</argsstring>
+        <name>EndInvoke</name>
+        <param>
+          <type>IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a433524a29c9add94135c1f8277d1cec0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.Tests.Mocks.MockSynchronizeInvoke.Invoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simple implementation of ISynchronizeInvoke for testing </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2780">
+        <label>FieldService.Tests.Mocks.MockSynchronizeInvoke</label>
+        <link refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke"/>
+        <childnode refid="2781" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2781">
+        <label>ISynchronizeInvoke</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2782">
+        <label>FieldService.Tests.Mocks.MockSynchronizeInvoke</label>
+        <link refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke"/>
+        <childnode refid="2783" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2783">
+        <label>ISynchronizeInvoke</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockSynchronizeInvoke.cs" bodystart="12" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1acbef03a706f8ee264f2f07fa5095d1dc" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockSynchronizeInvoke</scope><name>BeginInvoke</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a4de17a99f634e89155e7d4d679258678" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockSynchronizeInvoke</scope><name>EndInvoke</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a433524a29c9add94135c1f8277d1cec0" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockSynchronizeInvoke</scope><name>Invoke</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_synchronize_invoke_1a002e05360e98904721d2e3cc65630cfe" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockSynchronizeInvoke</scope><name>InvokeRequired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

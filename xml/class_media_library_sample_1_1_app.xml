@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_library_sample_1_1_app" kind="class" prot="public">
+    <compoundname>MediaLibrarySample::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_library_sample_1_1_app_1a80e579826fe83d7b9f215538ba62c128" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>PhoneApplicationFrame</type>
+        <definition>PhoneApplicationFrame MediaLibrarySample.App.RootFrame</definition>
+        <argsstring></argsstring>
+        <name>RootFrame</name>
+        <briefdescription>
+<para>Provides easy access to the root frame of the Phone Application. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The root frame of the Phone Application.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_library_sample_1_1_app_1add6ef6648ec349588b43f487086be651" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MediaLibrarySample.App.phoneApplicationInitialized</definition>
+        <argsstring></argsstring>
+        <name>phoneApplicationInitialized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1a5a43c324f5a7ca436bea1154b044fe7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaLibrarySample.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Constructor for the Application object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="29" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1a355717d4c2005707ae2ecdc4fef2654f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.Application_Launching</definition>
+        <argsstring>(object sender, LaunchingEventArgs e)</argsstring>
+        <name>Application_Launching</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>LaunchingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1af08e1f1a4711e10bcf1d7004f52dfd86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.Application_Activated</definition>
+        <argsstring>(object sender, ActivatedEventArgs e)</argsstring>
+        <name>Application_Activated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ActivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1a6fa369d30c870d9c4a608a3b6ae3dd09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.Application_Deactivated</definition>
+        <argsstring>(object sender, DeactivatedEventArgs e)</argsstring>
+        <name>Application_Deactivated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DeactivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1ad80b06233acd50888f647ce76d657dce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.Application_Closing</definition>
+        <argsstring>(object sender, ClosingEventArgs e)</argsstring>
+        <name>Application_Closing</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ClosingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1ae7b9ce56922f822cc47e3e4d6a31a778" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.RootFrame_NavigationFailed</definition>
+        <argsstring>(object sender, NavigationFailedEventArgs e)</argsstring>
+        <name>RootFrame_NavigationFailed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationFailedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1ad52882d6bfd03edd3e1ffdcdcd02b7b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.Application_UnhandledException</definition>
+        <argsstring>(object sender, ApplicationUnhandledExceptionEventArgs e)</argsstring>
+        <name>Application_UnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ApplicationUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1ae26f570fab31af298a0a813c3a765ba0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.InitializePhoneApplication</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePhoneApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="112" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_library_sample_1_1_app_1a533433953d31786bde5120b9266766b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaLibrarySample.App.CompleteInitializePhoneApplication</definition>
+        <argsstring>(object sender, NavigationEventArgs e)</argsstring>
+        <name>CompleteInitializePhoneApplication</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1639">
+        <label>MediaLibrarySample.App</label>
+        <link refid="class_media_library_sample_1_1_app"/>
+        <childnode refid="1640" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1641">
+        <label>MediaLibrarySample.App</label>
+        <link refid="class_media_library_sample_1_1_app"/>
+        <childnode refid="1642" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1642">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaLibrarySample/App.xaml.cs" bodystart="18" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_media_library_sample_1_1_app_1a5a43c324f5a7ca436bea1154b044fe7c" prot="public" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>App</name></member>
+      <member refid="class_media_library_sample_1_1_app_1af08e1f1a4711e10bcf1d7004f52dfd86" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>Application_Activated</name></member>
+      <member refid="class_media_library_sample_1_1_app_1ad80b06233acd50888f647ce76d657dce" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>Application_Closing</name></member>
+      <member refid="class_media_library_sample_1_1_app_1a6fa369d30c870d9c4a608a3b6ae3dd09" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>Application_Deactivated</name></member>
+      <member refid="class_media_library_sample_1_1_app_1a355717d4c2005707ae2ecdc4fef2654f" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>Application_Launching</name></member>
+      <member refid="class_media_library_sample_1_1_app_1ad52882d6bfd03edd3e1ffdcdcd02b7b9" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>Application_UnhandledException</name></member>
+      <member refid="class_media_library_sample_1_1_app_1a533433953d31786bde5120b9266766b0" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>CompleteInitializePhoneApplication</name></member>
+      <member refid="class_media_library_sample_1_1_app_1ae26f570fab31af298a0a813c3a765ba0" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>InitializePhoneApplication</name></member>
+      <member refid="class_media_library_sample_1_1_app_1add6ef6648ec349588b43f487086be651" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>phoneApplicationInitialized</name></member>
+      <member refid="class_media_library_sample_1_1_app_1a80e579826fe83d7b9f215538ba62c128" prot="public" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>RootFrame</name></member>
+      <member refid="class_media_library_sample_1_1_app_1ae7b9ce56922f822cc47e3e4d6a31a778" prot="private" virt="non-virtual"><scope>MediaLibrarySample::App</scope><name>RootFrame_NavigationFailed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

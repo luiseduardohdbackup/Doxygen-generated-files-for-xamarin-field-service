@@ -1,0 +1,215 @@
+.TH "FieldService.ViewModels.AssignmentViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.AssignmentViewModel \- 
+.PP
+View model for assignments list  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignmentViewModel\fP ()"
+.br
+.ti -1c
+.RI "Task \fBLoadAssignmentsAsync\fP ()"
+.br
+.RI "\fILoads the assignments asynchronously \fP"
+.ti -1c
+.RI "Task \fBLoadTimerEntryAsync\fP ()"
+.br
+.RI "\fILoads the timer entry \fP"
+.ti -1c
+.RI "Task \fBSaveAssignmentAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fISaves an assignment, and applies any needed changes to the active one \fP"
+.ti -1c
+.RI "Task \fBSaveSignatureAsync\fP ()"
+.br
+.RI "\fISaves the current signature \fP"
+.ti -1c
+.RI "Task \fBLoadSignatureAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fILoads the signature for an assignment \fP"
+.ti -1c
+.RI "Task \fBRecordAsync\fP ()"
+.br
+.RI "\fIStarts timer \fP"
+.ti -1c
+.RI "Task \fBPauseAsync\fP ()"
+.br
+.RI "\fIPauses timer \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnRecordingChanged\fP ()"
+.br
+.RI "\fICalled when Recording changes \fP"
+.ti -1c
+.RI "virtual void \fBOnHoursChanged\fP ()"
+.br
+.RI "\fICalled when Hours changes \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBAssignment\fP \fBSelectedAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fISelected assignment \fP"
+.ti -1c
+.RI "\fBAssignment\fP \fBLastAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe 'last' assignment, used for when switching between history \fP"
+.ti -1c
+.RI "\fBAssignmentStatus\fP[] \fBAvailableStatuses\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of available statuses an assignment can be set to \fP"
+.ti -1c
+.RI "bool \fBRecording\fP\fC [get, set]\fP"
+.br
+.RI "\fITrue if the active assignment is recording hours \fP"
+.ti -1c
+.RI "TimeSpan \fBCurrentHours\fP\fC [get, set]\fP"
+.br
+.RI "\fINumber of hours for the current record session on the active assignment \fP"
+.ti -1c
+.RI "TimeSpan \fBHours\fP\fC [get, set]\fP"
+.br
+.RI "\fINumber of accumulated hours on the active assignment \fP"
+.ti -1c
+.RI "\fBAssignment\fP \fBActiveAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe current active assignment, this can be null \fP"
+.ti -1c
+.RI "List< \fBAssignment\fP > \fBAssignments\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of assignments \fP"
+.ti -1c
+.RI "\fBData\&.Signature\fP \fBSignature\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe current signature \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler \fBHoursChanged\fP"
+.br
+.RI "\fIEvent when Hours is updated \fP"
+.ti -1c
+.RI "EventHandler \fBRecordingChanged\fP"
+.br
+.RI "\fIEvent when Recording is changed \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+View model for assignments list 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.AssignmentViewModel\&.AssignmentViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.LoadAssignmentsAsync ()"
+
+.PP
+Loads the assignments asynchronously 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.LoadSignatureAsync (\fBAssignment\fPassignment)"
+
+.PP
+Loads the signature for an assignment 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.LoadTimerEntryAsync ()"
+
+.PP
+Loads the timer entry 
+.SS "virtual void FieldService\&.ViewModels\&.AssignmentViewModel\&.OnHoursChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Called when Hours changes 
+.PP
+Reimplemented in \fBFieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\fP\&.
+.SS "virtual void FieldService\&.ViewModels\&.AssignmentViewModel\&.OnRecordingChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Called when Recording changes 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.PauseAsync ()"
+
+.PP
+Pauses timer 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.RecordAsync ()"
+
+.PP
+Starts timer 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.SaveAssignmentAsync (\fBAssignment\fPassignment)"
+
+.PP
+Saves an assignment, and applies any needed changes to the active one 
+.SS "Task FieldService\&.ViewModels\&.AssignmentViewModel\&.SaveSignatureAsync ()"
+
+.PP
+Saves the current signature 
+.SH "Property Documentation"
+.PP 
+.SS "\fBAssignment\fP FieldService\&.ViewModels\&.AssignmentViewModel\&.ActiveAssignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The current active assignment, this can be null 
+.SS "List<\fBAssignment\fP> FieldService\&.ViewModels\&.AssignmentViewModel\&.Assignments\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of assignments 
+.SS "\fBAssignmentStatus\fP [] FieldService\&.ViewModels\&.AssignmentViewModel\&.AvailableStatuses\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of available statuses an assignment can be set to 
+.SS "TimeSpan FieldService\&.ViewModels\&.AssignmentViewModel\&.CurrentHours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Number of hours for the current record session on the active assignment 
+.SS "TimeSpan FieldService\&.ViewModels\&.AssignmentViewModel\&.Hours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Number of accumulated hours on the active assignment 
+.SS "\fBAssignment\fP FieldService\&.ViewModels\&.AssignmentViewModel\&.LastAssignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The 'last' assignment, used for when switching between history 
+.SS "bool FieldService\&.ViewModels\&.AssignmentViewModel\&.Recording\fC [get]\fP, \fC [set]\fP"
+
+.PP
+True if the active assignment is recording hours 
+.SS "virtual \fBAssignment\fP FieldService\&.ViewModels\&.AssignmentViewModel\&.SelectedAssignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Selected assignment 
+.SS "\fBData\&.Signature\fP FieldService\&.ViewModels\&.AssignmentViewModel\&.Signature\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The current signature 
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.ViewModels\&.AssignmentViewModel\&.HoursChanged"
+
+.PP
+Event when Hours is updated 
+.SS "EventHandler FieldService\&.ViewModels\&.AssignmentViewModel\&.RecordingChanged"
+
+.PP
+Event when Recording is changed 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

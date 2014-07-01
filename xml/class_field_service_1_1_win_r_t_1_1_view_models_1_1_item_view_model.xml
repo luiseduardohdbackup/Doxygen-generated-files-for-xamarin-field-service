@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::ItemViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_item_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.ItemViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1aaf00d9b73d137d5bfd749352ed26454e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.ViewModels.ItemViewModel.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1acef2e1db2aa0fd50b46d627e3bc61c99" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.saveAssignmentItemCommand</definition>
+        <argsstring></argsstring>
+        <name>saveAssignmentItemCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a810626fd1108024f48cbb6a39ff97604" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.searchItemsCommand</definition>
+        <argsstring></argsstring>
+        <name>searchItemsCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a6fcea576d56a688c90e730f48bcfb351" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.addItemCommand</definition>
+        <argsstring></argsstring>
+        <name>addItemCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a8d2df71e74d97d21d50c178670d88934" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.cancelAddItemCommand</definition>
+        <argsstring></argsstring>
+        <name>cancelAddItemCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ada76ba9d20db58a362d6e11408fd9451" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.deleteItemCommand</definition>
+        <argsstring></argsstring>
+        <name>deleteItemCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a86c372245ad17db2ca01f37b717c76c7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ItemViewModel.searchText</definition>
+        <argsstring></argsstring>
+        <name>searchText</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ada9ca99909e4a020ef13187567871e62" prot="private" static="no" mutable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.ItemViewModel.addItemPopUp</definition>
+        <argsstring></argsstring>
+        <name>addItemPopUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a41933e41acf2e9d46451fa2f99f84a82" prot="private" static="no" mutable="no">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>IEnumerable&lt;Item&gt; FieldService.WinRT.ViewModels.ItemViewModel.searchItems</definition>
+        <argsstring></argsstring>
+        <name>searchItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ad82a2663cb9ffe960f71de31ffd5c3c9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+        <definition>AssignmentItem FieldService.WinRT.ViewModels.ItemViewModel.selectedItem</definition>
+        <argsstring></argsstring>
+        <name>selectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a977e3475b1019da37ada16e88e3bd782" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.ItemViewModel.ItemPopUp</definition>
+        <argsstring></argsstring>
+        <name>ItemPopUp</name>
+        <briefdescription>
+<para>Flyout panel for adding an item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ac399ed01d675799ad752a3625ba1d081" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.SaveAssignmentItemCommand</definition>
+        <argsstring></argsstring>
+        <name>SaveAssignmentItemCommand</name>
+        <briefdescription>
+<para>Command for saving the assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a734e04598cac278dba23037f54b3606d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.SearchItemsCommand</definition>
+        <argsstring></argsstring>
+        <name>SearchItemsCommand</name>
+        <briefdescription>
+<para>Command for searching the through the list of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a6f11bb8ed063036b5287741972a719f2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.AddItemCommand</definition>
+        <argsstring></argsstring>
+        <name>AddItemCommand</name>
+        <briefdescription>
+<para>Command for opening the add item flyout panel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a76b6c0e2da55bfa24c198bc0a07df265" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.CancelAddItemCommand</definition>
+        <argsstring></argsstring>
+        <name>CancelAddItemCommand</name>
+        <briefdescription>
+<para>Command to cancel the flyout panel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="126" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a73505c947b8da01241226f0872812720" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.ItemViewModel.DeleteItemCommand</definition>
+        <argsstring></argsstring>
+        <name>DeleteItemCommand</name>
+        <briefdescription>
+<para>Command to delete an item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="134" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ab7102b2d5a560c04d60c258860604d10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt;</type>
+        <definition>IEnumerable&lt;AssignmentItem&gt; FieldService.WinRT.ViewModels.ItemViewModel.TopAssignmentItems</definition>
+        <argsstring></argsstring>
+        <name>TopAssignmentItems</name>
+        <briefdescription>
+<para>list of top assignment items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a7c3c506983eb0a7a8ece27ca2194d63b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.ItemViewModel.SearchText</definition>
+        <argsstring></argsstring>
+        <name>SearchText</name>
+        <briefdescription>
+<para>Search text property for searching throug list of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="155" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a0851c0b3fd82030cfe85b9e707a72c2b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>IEnumerable&lt;Item&gt; FieldService.WinRT.ViewModels.ItemViewModel.SearchItems</definition>
+        <argsstring></argsstring>
+        <name>SearchItems</name>
+        <briefdescription>
+<para>list of items that have search applied </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="164" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1abf02d1b69374e11165651c129d70e3af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.ItemViewModel.IsNotReadonly</definition>
+        <argsstring></argsstring>
+        <name>IsNotReadonly</name>
+        <briefdescription>
+<para>Value for not is history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="173" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a7e72b0d74c05b02e8b7ad134e6c93520" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+        <definition>AssignmentItem FieldService.WinRT.ViewModels.ItemViewModel.SelectedItem</definition>
+        <argsstring></argsstring>
+        <name>SelectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="178" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ad3f93d06d7aead0eb7ce80f266916941" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.ViewModels.ItemViewModel.ItemViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>ItemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="39" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a04f564001759402cb74031112a33636d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.ItemViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplements refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2">OnPropertyChanged</reimplements>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="184" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="184" bodyend="192"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> version of the <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>We setup ICommand here </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2431">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2429">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2427">
+        <label>FieldService.WinRT.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2428" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2430">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2431" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2428">
+        <label>FieldService::ViewModels::ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2429" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2436">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2434">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2432">
+        <label>FieldService.WinRT.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2435">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2433">
+        <label>FieldService::ViewModels::ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2434" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/ItemViewModel.cs" bodystart="31" bodyend="193"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a6fcea576d56a688c90e730f48bcfb351" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>addItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a6f11bb8ed063036b5287741972a719f2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>AddItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ada9ca99909e4a020ef13187567871e62" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>addItemPopUp</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1ac2cd5874b618e54115fc7977430d3804" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>AssignmentItems</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1aaf00d9b73d137d5bfd749352ed26454e" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a8d2df71e74d97d21d50c178670d88934" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>cancelAddItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a76b6c0e2da55bfa24c198bc0a07df265" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>CancelAddItemCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1aad9649f5286fa6a4bc3a4b14f6732fce" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>DeleteAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a73505c947b8da01241226f0872812720" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>DeleteItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ada76ba9d20db58a362d6e11408fd9451" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>deleteItemCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1abf02d1b69374e11165651c129d70e3af" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>IsNotReadonly</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a977e3475b1019da37ada16e88e3bd782" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>ItemPopUp</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a67045efde92e6b43b119ecf61951adda" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>Items</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ad3f93d06d7aead0eb7ce80f266916941" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>ItemViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a2a88d75ca999a85fe345fa2274bf68aa" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>LoadAssignmentItemsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1ac15c2d605619c52035a60f92edfbed8c" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>LoadItemsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a04f564001759402cb74031112a33636d" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a818404a48afb5afca1e4524ba9549056" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SaveAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1acef2e1db2aa0fd50b46d627e3bc61c99" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>saveAssignmentItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ac399ed01d675799ad752a3625ba1d081" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SaveAssignmentItemCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a0851c0b3fd82030cfe85b9e707a72c2b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SearchItems</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a41933e41acf2e9d46451fa2f99f84a82" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>searchItems</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a734e04598cac278dba23037f54b3606d" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SearchItemsCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a810626fd1108024f48cbb6a39ff97604" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>searchItemsCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a7c3c506983eb0a7a8ece27ca2194d63b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SearchText</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a86c372245ad17db2ca01f37b717c76c7" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>searchText</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ad82a2663cb9ffe960f71de31ffd5c3c9" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>selectedItem</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a7e72b0d74c05b02e8b7ad134e6c93520" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>SelectedItem</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1ab7102b2d5a560c04d60c258860604d10" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>TopAssignmentItems</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::ItemViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

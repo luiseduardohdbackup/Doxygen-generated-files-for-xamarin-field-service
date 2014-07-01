@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_a861066799b275723fc0b748017e67d6" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS</compoundname>
+    <innerdir refid="dir_aada69f01fc09b230a5a789b6891db38">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers</innerdir>
+    <innerdir refid="dir_d4193329ea29ebf6816b715740f5cdda">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities</innerdir>
+    <innerdir refid="dir_deee0190c7f4157cae483a593d7e1eda">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views</innerdir>
+    <innerfile refid="_field_service_8i_o_s_2_app_delegate_8cs">AppDelegate.cs</innerfile>
+    <innerfile refid="_field_service_8i_o_s_2_main_8cs">Main.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/"/>
+  </compounddef>
+</doxygen>

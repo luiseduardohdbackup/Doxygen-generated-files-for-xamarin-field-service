@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::ConfirmationController::PhotoTableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae7f3bdb48914f60cb49ff64bcc6a84dc" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.ConfirmationController.PhotoTableSource.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <initializer>= &quot;PhotoCell&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="148" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a00fe3936b9bc50f3884a3782f25da05e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>readonly PhotoViewModel FieldService.iOS.ConfirmationController.PhotoTableSource.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a992d4d860f1fd7095eea8bee792a4b1f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+        <definition>readonly ConfirmationController FieldService.iOS.ConfirmationController.PhotoTableSource.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="150" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1aa7cbcc81608d343949af4ca379f5e0e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.ConfirmationController.PhotoTableSource.PhotoTableSource</definition>
+        <argsstring>(ConfirmationController controller)</argsstring>
+        <name>PhotoTableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="152" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="152" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a43784785fa562a80b8347c95f348dc9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIView</type>
+        <definition>override UIView FieldService.iOS.ConfirmationController.PhotoTableSource.GetViewForHeader</definition>
+        <argsstring>(UITableView tableView, int section)</argsstring>
+        <name>GetViewForHeader</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="158" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae731c39e1e38358d8e0f7992ea5b3912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.ConfirmationController.PhotoTableSource.NumberOfSections</definition>
+        <argsstring>(UITableView tableView)</argsstring>
+        <name>NumberOfSections</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="163" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a40e44950395b006749d09e7c36ac211b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.ConfirmationController.PhotoTableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="168" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae4acde48b53bf452d3db59507871de44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.ConfirmationController.PhotoTableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="173" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="173" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ad6982cb60b88abedddb5c6d66cd97df2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ConfirmationController.PhotoTableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="180" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="180" bodyend="187"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table source for photos </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2885">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="2884">
+        <label>FieldService.iOS.ConfirmationController.PhotoTableSource</label>
+        <childnode refid="2885" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2887">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="2886">
+        <label>FieldService.iOS.ConfirmationController.PhotoTableSource</label>
+        <childnode refid="2887" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="146" bodyend="188"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a992d4d860f1fd7095eea8bee792a4b1f" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae4acde48b53bf452d3db59507871de44" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a43784785fa562a80b8347c95f348dc9a" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>GetViewForHeader</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae7f3bdb48914f60cb49ff64bcc6a84dc" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>Identifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ae731c39e1e38358d8e0f7992ea5b3912" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>NumberOfSections</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1aa7cbcc81608d343949af4ca379f5e0e8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>PhotoTableSource</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a00fe3936b9bc50f3884a3782f25da05e" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1ad6982cb60b88abedddb5c6d66cd97df2" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source_1a40e44950395b006749d09e7c36ac211b" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::PhotoTableSource</scope><name>RowsInSection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

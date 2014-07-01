@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::DocumentController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a4d27b8a010b4509ab5c0c12cb1f94b78" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_document_view_model" kindref="compound">DocumentViewModel</ref></type>
+        <definition>readonly DocumentViewModel FieldService.iOS.DocumentController.TableSource.documentViewModel</definition>
+        <argsstring></argsstring>
+        <name>documentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a9abec50ae22d85f4675f38a44b1b3a1e" prot="private" static="no" mutable="no">
+        <type>UIDocumentInteractionController</type>
+        <definition>UIDocumentInteractionController FieldService.iOS.DocumentController.TableSource.documentController</definition>
+        <argsstring></argsstring>
+        <name>documentController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a155c4ade097fb7425a63fc12098331f6" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.DocumentController.TableSource.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <initializer>= &quot;DocumentCell&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="96" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1aefe4b9dc21c30a31959e3be5a97440ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.DocumentController.TableSource.TableSource</definition>
+        <argsstring>(DocumentViewModel documentViewModel)</argsstring>
+        <name>TableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_view_models_1_1_document_view_model" kindref="compound">DocumentViewModel</ref></type>
+          <declname>documentViewModel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="98" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="98" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a20bc406f696849910d9e5fb11baf25a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.DocumentController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="104" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1af3de9691fc636daf0093fe5dd7e9b0ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.DocumentController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1af2920cf6ac58107c623e06a6d0c6b9ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.DocumentController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="115" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="115" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table source for expenses </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3245">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3244">
+        <label>FieldService.iOS.DocumentController.TableSource</label>
+        <childnode refid="3245" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3247">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3246">
+        <label>FieldService.iOS.DocumentController.TableSource</label>
+        <childnode refid="3247" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" line="93" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/DocumentController.cs" bodystart="92" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a9abec50ae22d85f4675f38a44b1b3a1e" prot="private" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>documentController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a4d27b8a010b4509ab5c0c12cb1f94b78" prot="private" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>documentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1af2920cf6ac58107c623e06a6d0c6b9ca" prot="public" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a155c4ade097fb7425a63fc12098331f6" prot="private" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>Identifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1af3de9691fc636daf0093fe5dd7e9b0ed" prot="public" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1a20bc406f696849910d9e5fb11baf25a6" prot="public" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_document_controller_1_1_table_source_1aefe4b9dc21c30a31959e3be5a97440ac" prot="public" virt="non-virtual"><scope>FieldService::iOS::DocumentController::TableSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

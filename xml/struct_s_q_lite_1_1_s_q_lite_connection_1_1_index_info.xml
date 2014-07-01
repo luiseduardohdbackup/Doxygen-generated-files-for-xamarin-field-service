@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info" kind="struct" prot="private">
+    <compoundname>SQLite::SQLiteConnection::IndexInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a8f92a1008d03261cc45e7915a12da39e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.IndexInfo.IndexName</definition>
+        <argsstring></argsstring>
+        <name>IndexName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="330" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a659b31115098c58f2b8ebee75bab7be5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.IndexInfo.TableName</definition>
+        <argsstring></argsstring>
+        <name>TableName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="331" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a74b7861242da090cb289ccb343c23cf8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection.IndexInfo.Unique</definition>
+        <argsstring></argsstring>
+        <name>Unique</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="332" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a46d3c170388311688fbf03f515426a80" prot="public" static="no" mutable="no">
+        <type>List&lt; IndexedColumn &gt;</type>
+        <definition>List&lt;IndexedColumn&gt; SQLite.SQLiteConnection.IndexInfo.Columns</definition>
+        <argsstring></argsstring>
+        <name>Columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="333" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="329" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="328" bodyend="334"/>
+    <listofallmembers>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a46d3c170388311688fbf03f515426a80" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexInfo</scope><name>Columns</name></member>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a8f92a1008d03261cc45e7915a12da39e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexInfo</scope><name>IndexName</name></member>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a659b31115098c58f2b8ebee75bab7be5" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexInfo</scope><name>TableName</name></member>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info_1a74b7861242da090cb289ccb343c23cf8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexInfo</scope><name>Unique</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

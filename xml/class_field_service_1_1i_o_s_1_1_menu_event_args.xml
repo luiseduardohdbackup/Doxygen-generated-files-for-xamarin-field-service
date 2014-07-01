@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_menu_event_args" kind="class" prot="public">
+    <compoundname>FieldService::iOS::MenuEventArgs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EventArgs</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_menu_event_args_1af70b20cb3ca66b80acdf7ac311920fe3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UITableView</type>
+        <definition>UITableView FieldService.iOS.MenuEventArgs.TableView</definition>
+        <argsstring></argsstring>
+        <name>TableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_menu_event_args_1a62d6c1e2192b1717ba25addde3d2efc4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>NSIndexPath</type>
+        <definition>NSIndexPath FieldService.iOS.MenuEventArgs.IndexPath</definition>
+        <argsstring></argsstring>
+        <name>IndexPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_menu_event_args_1ae9b905c7f2c0ace94f121602c4f503e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.MenuEventArgs.Animated</definition>
+        <argsstring></argsstring>
+        <name>Animated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_event_args_1a1ab6dc36ef7dd35b3fd36bb959a7484e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.MenuEventArgs.MenuEventArgs</definition>
+        <argsstring>()</argsstring>
+        <name>MenuEventArgs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>EventArgs used for when the selection changes in <ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2765">
+        <label>EventArgs</label>
+      </node>
+      <node id="2764">
+        <label>FieldService.iOS.MenuEventArgs</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_menu_event_args"/>
+        <childnode refid="2765" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2767">
+        <label>EventArgs</label>
+      </node>
+      <node id="2766">
+        <label>FieldService.iOS.MenuEventArgs</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_menu_event_args"/>
+        <childnode refid="2767" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/MenuEventArgs.cs" bodystart="24" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_event_args_1ae9b905c7f2c0ace94f121602c4f503e2" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuEventArgs</scope><name>Animated</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_event_args_1a62d6c1e2192b1717ba25addde3d2efc4" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuEventArgs</scope><name>IndexPath</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_event_args_1a1ab6dc36ef7dd35b3fd36bb959a7484e" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuEventArgs</scope><name>MenuEventArgs</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_event_args_1af70b20cb3ca66b80acdf7ac311920fe3" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuEventArgs</scope><name>TableView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

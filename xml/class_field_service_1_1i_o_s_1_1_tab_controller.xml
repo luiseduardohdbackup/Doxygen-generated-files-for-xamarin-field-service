@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_tab_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::TabController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITabBarController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a824130934a10823394ba619f12969a0c" prot="private" static="no" mutable="no">
+        <type>UIActionSheet</type>
+        <definition>UIActionSheet FieldService.iOS.TabController.actionSheet</definition>
+        <argsstring></argsstring>
+        <name>actionSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_tab_controller_1af6654488b7e144a64d28d55c3af9d117" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIBarButtonItem</type>
+        <definition>MonoTouch.UIKit.UIBarButtonItem FieldService.iOS.TabController.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1ae7fdf1e797a6e4d3202c74bb7d20190a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.TabController.TabController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>TabController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="29" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a59a0dca2733d971fb5ca0f491b80b303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.TabController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="47" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1ab983820415254b21edf0e29318fd0b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.TabController.ShouldAutorotate</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldAutorotate</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a12d0fcca2086e9f473987943e2528759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIInterfaceOrientationMask</type>
+        <definition>override UIInterfaceOrientationMask FieldService.iOS.TabController.GetSupportedInterfaceOrientations</definition>
+        <argsstring>()</argsstring>
+        <name>GetSupportedInterfaceOrientations</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="82" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a688517f50a2e32a1511c6b71c88c57dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.TabController.Settings</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>Settings</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event when the settings toolbar item is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="90" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a2762200186b60554bd559bbe7dca5de8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.TabController.Settings</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>Settings</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.designer.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_tab_controller_1a2a74cffd76b18e4f74f254af6b358902" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.TabController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.designer.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tab controller on the assignments page </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3192">
+        <label>FieldService.iOS.TabController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_tab_controller"/>
+        <childnode refid="3193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3193">
+        <label>UITabBarController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3194">
+        <label>FieldService.iOS.TabController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_tab_controller"/>
+        <childnode refid="3195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3195">
+        <label>UITabBarController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/TabController.cs" bodystart="25" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a824130934a10823394ba619f12969a0c" prot="private" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>actionSheet</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a12d0fcca2086e9f473987943e2528759" prot="public" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a2a74cffd76b18e4f74f254af6b358902" prot="private" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1af6654488b7e144a64d28d55c3af9d117" prot="private" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>settings</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a688517f50a2e32a1511c6b71c88c57dc" prot="private" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>Settings</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a2762200186b60554bd559bbe7dca5de8" prot="private" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>Settings</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1ab983820415254b21edf0e29318fd0b69" prot="public" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1ae7fdf1e797a6e4d3202c74bb7d20190a" prot="public" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>TabController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_tab_controller_1a59a0dca2733d971fb5ca0f491b80b303" prot="public" virt="non-virtual"><scope>FieldService::iOS::TabController</scope><name>ViewDidLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

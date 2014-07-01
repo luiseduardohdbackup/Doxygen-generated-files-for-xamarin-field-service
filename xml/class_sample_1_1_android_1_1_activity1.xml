@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_activity1" kind="class" prot="public">
+    <compoundname>Sample::Android::Activity1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_activity1_1a86570df1f437076a1feb4a630451de36" prot="private" static="no" mutable="no">
+        <type>System.Drawing.PointF[]</type>
+        <definition>System.Drawing.PointF [] Sample.Android.Activity1.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_activity1_1abfaeb0087202bef8556b00a80992d13e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sample.Android.Activity1.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" bodystart="18" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1573">
+        <label>Activity</label>
+      </node>
+      <node id="1572">
+        <label>Sample.Android.Activity1</label>
+        <link refid="class_sample_1_1_android_1_1_activity1"/>
+        <childnode refid="1573" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1575">
+        <label>Activity</label>
+      </node>
+      <node id="1574">
+        <label>Sample.Android.Activity1</label>
+        <link refid="class_sample_1_1_android_1_1_activity1"/>
+        <childnode refid="1575" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" bodystart="15" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_activity1_1abfaeb0087202bef8556b00a80992d13e" prot="protected" virt="non-virtual"><scope>Sample::Android::Activity1</scope><name>OnCreate</name></member>
+      <member refid="class_sample_1_1_android_1_1_activity1_1a86570df1f437076a1feb4a630451de36" prot="private" virt="non-virtual"><scope>Sample::Android::Activity1</scope><name>points</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

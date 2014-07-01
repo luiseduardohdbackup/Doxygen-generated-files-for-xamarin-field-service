@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature1860f4de8d266ba14ea2f467364e580f" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_Components_signature-pad-1.2_component_GettingStarted</compoundname>
+    <title>GettingStarted</title>
+    <detaileddescription>
+<para>Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple.</para><para><heading level="2">Examples</heading>
+</para><para><heading level="3">Displaying a signature pad</heading>
+</para><para>On iOS:</para><para>```csharp using SignaturePad; ...</para><para>public override void ViewDidLoad () { ... var signature = new SignaturePadView (View.Frame) { LineWidth = 3f }; View.AddSubview (signature); } ```</para><para>On Android:</para><para>```csharp using SignaturePad; ...</para><para>protected override void OnCreate (Bundle bundle) { base.OnCreate (bundle);</para><para>var signature = new SignaturePadView (this) { LineWidth = 3f }; AddContentView (signature, new ViewGroup.LayoutParams (ViewGroup.LayoutParams.FillParent, ViewGroup.LayoutParams.FillParent)); } ```</para><para><heading level="3">Getting the signature as an image</heading>
+</para><para>```csharp // on iOS: UIImage image = signature.GetImage ();</para><para>// on Android: Bitmap image = signature.GetImage (); ```</para><para><heading level="3">Getting the signature as a point array</heading>
+</para><para>```csharp // Discontinuous lines are separated by PointF.Empty PointF[] points = signature.Points; ```</para><para><heading level="3">Loading a signature from a point array</heading>
+</para><para>```csharp signature.LoadPoints (points); ``` </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

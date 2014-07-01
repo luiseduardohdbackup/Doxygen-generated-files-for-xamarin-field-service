@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item" kind="class" prot="public">
+    <compoundname>FieldService::Android::Utilities::MapOverlayItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ItemizedOverlay</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a40f1023346c84d5e65321c70363e8a9b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.Android.Utilities.MapOverlayItem.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a49273a7fb4ece857ccdc48a2194e62eb" prot="private" static="no" mutable="no">
+        <type>OverlayItem</type>
+        <definition>OverlayItem FieldService.Android.Utilities.MapOverlayItem.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ad660115a5f192c3ca0d33c0c3ffb9aa4" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context FieldService.Android.Utilities.MapOverlayItem.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1aa8c4e8f3411226f46eedf68ab3a60705" prot="private" static="no" mutable="no">
+        <type>MapView</type>
+        <definition>MapView FieldService.Android.Utilities.MapOverlayItem.mapView</definition>
+        <argsstring></argsstring>
+        <name>mapView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1affe5d3665b0258d435fe28c9ed153f40" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Android.Utilities.MapOverlayItem.getDirections</definition>
+        <argsstring></argsstring>
+        <name>getDirections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a42c320e8c6e39f80afb1227daff3fa93" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.Android.Utilities.MapOverlayItem.intentURI</definition>
+        <argsstring></argsstring>
+        <name>intentURI</name>
+        <initializer>= &quot;http://maps.google.com/maps?saddr={0}&amp;daddr={1}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1aac170dd1442e6067e0524800b9af4538" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GeoPoint</type>
+        <definition>GeoPoint FieldService.Android.Utilities.MapOverlayItem.Point</definition>
+        <argsstring></argsstring>
+        <name>Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1acbc19986d7e7b8271b32788477ace439" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Android.Utilities.MapOverlayItem.AssignmentIndex</definition>
+        <argsstring></argsstring>
+        <name>AssignmentIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a8af84df4362e8d2239a4687ce98d9dda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Utilities.MapOverlayItem.MapOverlayItem</definition>
+        <argsstring>(Context context, Drawable overlayDrawable, OverlayItem overlay, MapView mapView, bool canGetDirection=false)</argsstring>
+        <name>MapOverlayItem</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Drawable</type>
+          <declname>overlayDrawable</declname>
+        </param>
+        <param>
+          <type>OverlayItem</type>
+          <declname>overlay</declname>
+        </param>
+        <param>
+          <type>MapView</type>
+          <declname>mapView</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>canGetDirection</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="37" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ac7119a971e7237e307989e59247bf664" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.Android.Utilities.MapOverlayItem.Size</definition>
+        <argsstring>()</argsstring>
+        <name>Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a0e8139bf13dbb0cafd07ab68cdd7f583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Utilities.MapOverlayItem.AddressSelected</definition>
+        <argsstring>()</argsstring>
+        <name>AddressSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a8f9ffc2e176118c20c43a95d117d0d13" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Java.Lang.Object</type>
+        <definition>override Java.Lang.Object FieldService.Android.Utilities.MapOverlayItem.CreateItem</definition>
+        <argsstring>(int i)</argsstring>
+        <name>CreateItem</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ac23b15aaf081ad2ce94467feba7108f8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.Android.Utilities.MapOverlayItem.OnTap</definition>
+        <argsstring>(int index)</argsstring>
+        <name>OnTap</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>When tapped, show a popup bubble </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="80" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for creating pins in the Google Maps control, also creates a popup bubble when clicked </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2703">
+        <label>ItemizedOverlay</label>
+      </node>
+      <node id="2702">
+        <label>FieldService.Android.Utilities.MapOverlayItem</label>
+        <link refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item"/>
+        <childnode refid="2703" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2705">
+        <label>ItemizedOverlay</label>
+      </node>
+      <node id="2704">
+        <label>FieldService.Android.Utilities.MapOverlayItem</label>
+        <link refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item"/>
+        <childnode refid="2705" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/MapOverlayItem.cs" bodystart="29" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a0e8139bf13dbb0cafd07ab68cdd7f583" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>AddressSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1acbc19986d7e7b8271b32788477ace439" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>AssignmentIndex</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a40f1023346c84d5e65321c70363e8a9b" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ad660115a5f192c3ca0d33c0c3ffb9aa4" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>context</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a8f9ffc2e176118c20c43a95d117d0d13" prot="protected" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>CreateItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1affe5d3665b0258d435fe28c9ed153f40" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>getDirections</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a42c320e8c6e39f80afb1227daff3fa93" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>intentURI</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a49273a7fb4ece857ccdc48a2194e62eb" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>item</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1a8af84df4362e8d2239a4687ce98d9dda" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>MapOverlayItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1aa8c4e8f3411226f46eedf68ab3a60705" prot="private" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>mapView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ac23b15aaf081ad2ce94467feba7108f8" prot="protected" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>OnTap</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1aac170dd1442e6067e0524800b9af4538" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>Point</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_map_overlay_item_1ac7119a971e7237e307989e59247bf664" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::MapOverlayItem</scope><name>Size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

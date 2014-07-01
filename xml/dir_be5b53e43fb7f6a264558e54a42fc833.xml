@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_be5b53e43fb7f6a264558e54a42fc833" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters</compoundname>
+    <innerfile refid="_assignments_adapter_8cs">AssignmentsAdapter.cs</innerfile>
+    <innerfile refid="_documents_adapter_8cs">DocumentsAdapter.cs</innerfile>
+    <innerfile refid="_expenses_adapter_8cs">ExpensesAdapter.cs</innerfile>
+    <innerfile refid="_history_list_adapter_8cs">HistoryListAdapter.cs</innerfile>
+    <innerfile refid="_items_adapter_8cs">ItemsAdapter.cs</innerfile>
+    <innerfile refid="_items_search_adapter_8cs">ItemsSearchAdapter.cs</innerfile>
+    <innerfile refid="_labor_hours_adapter_8cs">LaborHoursAdapter.cs</innerfile>
+    <innerfile refid="_labor_type_spinner_adapter_8cs">LaborTypeSpinnerAdapter.cs</innerfile>
+    <innerfile refid="_navigation_adapter_8cs">NavigationAdapter.cs</innerfile>
+    <innerfile refid="_photos_adapter_8cs">PhotosAdapter.cs</innerfile>
+    <innerfile refid="_spinner_adapter_8cs">SpinnerAdapter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/"/>
+  </compounddef>
+</doxygen>

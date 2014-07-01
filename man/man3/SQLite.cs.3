@@ -1,0 +1,129 @@
+.TH "/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBSQLite\&.SQLiteException\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.NotNullConstraintViolationException\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.SQLiteConnection\fP"
+.br
+.RI "\fIRepresents an open connection to a \fBSQLite\fP database\&. \fP"
+.ti -1c
+.RI "class \fBSQLite\&.SQLiteConnection\&.ColumnInfo\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.NotifyTableChangedEventArgs\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.SQLiteConnectionString\fP"
+.br
+.RI "\fIRepresents a parsed connection string\&. \fP"
+.ti -1c
+.RI "class \fBSQLite\&.TableAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.ColumnAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.PrimaryKeyAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.AutoIncrementAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.IndexedAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.IgnoreAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.UniqueAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.MaxLengthAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.CollationAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.NotNullAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.TableMapping\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.TableMapping\&.Column\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.Orm\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.SQLiteCommand\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.PreparedSqlLiteInsertCommand\fP"
+.br
+.RI "\fISince the insert never changed, we only need to prepare once\&. \fP"
+.ti -1c
+.RI "class \fBSQLite\&.BaseTableQuery\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.BaseTableQuery\&.Ordering\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.TableQuery< T >\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite\&.SQLite3\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "package \fBSQLite\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "using \fBSqlite3DatabaseHandle\fP = System\&.IntPtr"
+.br
+.ti -1c
+.RI "using \fBSqlite3Statement\fP = System\&.IntPtr"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBSQLite\&.SQLiteOpenFlags\fP { \fBSQLite\&.SQLiteOpenFlags\&.ReadOnly\fP = 1, \fBSQLite\&.SQLiteOpenFlags\&.ReadWrite\fP = 2, \fBSQLite\&.SQLiteOpenFlags\&.Create\fP = 4, \fBSQLite\&.SQLiteOpenFlags\&.NoMutex\fP = 0x8000, \fBSQLite\&.SQLiteOpenFlags\&.FullMutex\fP = 0x10000, \fBSQLite\&.SQLiteOpenFlags\&.SharedCache\fP = 0x20000, \fBSQLite\&.SQLiteOpenFlags\&.PrivateCache\fP = 0x40000, \fBSQLite\&.SQLiteOpenFlags\&.ProtectionComplete\fP = 0x00100000, \fBSQLite\&.SQLiteOpenFlags\&.ProtectionCompleteUnlessOpen\fP = 0x00200000, \fBSQLite\&.SQLiteOpenFlags\&.ProtectionCompleteUntilFirstUserAuthentication\fP = 0x00300000, \fBSQLite\&.SQLiteOpenFlags\&.ProtectionNone\fP = 0x00400000 }"
+.br
+.ti -1c
+.RI "enum \fBSQLite\&.CreateFlags\fP { \fBSQLite\&.CreateFlags\&.None\fP = 0, \fBSQLite\&.CreateFlags\&.ImplicitPK\fP = 1, \fBSQLite\&.CreateFlags\&.ImplicitIndex\fP = 2, \fBSQLite\&.CreateFlags\&.AllImplicit\fP = 3, \fBSQLite\&.CreateFlags\&.AutoIncPK\fP = 4 }"
+.br
+.ti -1c
+.RI "enum \fBSQLite\&.NotifyTableChangedAction\fP { \fBSQLite\&.NotifyTableChangedAction\&.Insert\fP, \fBSQLite\&.NotifyTableChangedAction\&.Update\fP, \fBSQLite\&.NotifyTableChangedAction\&.Delete\fP }"
+.br
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "using \fBSqlite3DatabaseHandle\fP =  System\&.IntPtr"
+
+.SS "using \fBSqlite3Statement\fP =  System\&.IntPtr"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

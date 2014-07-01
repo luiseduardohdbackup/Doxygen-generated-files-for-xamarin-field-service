@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_sqlite-net-1_80_81_component__details" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_Components_sqlite-net-1.0.1_component_Details</compoundname>
+    <title>Details</title>
+    <detaileddescription>
+<para>SQLite.NET is an open source, minimal library to allow .NET and Mono applications to store data in <ulink url="http://www.sqlite.org">SQLite 3 databases</ulink>. SQLite.NET was designed as a quick and convenient database layer. Its design follows from these <emphasis>goals</emphasis>:</para><para><itemizedlist>
+<listitem><para>Very easy to integrate with existing projects and with Xamarin projects.</para></listitem><listitem><para>Thin wrapper over <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> and should be fast and efficient. (The library should not be the performance bottleneck of your queries.)</para></listitem><listitem><para>Very simple methods for executing CRUD operations and queries safely (using parameters) and for retrieving the results of those query in a strongly typed fashion.</para></listitem><listitem><para>Works with your data model without forcing you to change your classes. (Contains a small reflection-driven ORM layer.)</para></listitem></itemizedlist>
+</para><para><emphasis>Non-goals</emphasis> include:</para><para><itemizedlist>
+<listitem><para>Not an ADO.NET implementation. This is not a full <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> driver. If you need that, use <ulink url="http://www.mono-project.com/SQLite">Mono.Data.SQLite</ulink> or <ulink url="http://code.google.com/p/csharp-sqlite/">csharp-sqlite</ulink>.</para></listitem></itemizedlist>
+</para><para><heading level="2">Example</heading>
+</para><para>```csharp using <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref>; // ...</para><para>public class Note { [PrimaryKey, AutoIncrement] public int Id { get; set; } public string Message { get; set; } }</para><para>// Create our connection string folder = Environment.GetFolderPath (Environment.SpecialFolder.Personal); var db = new SQLiteConnection (System.IO.Path.Combine (folder, &quot;notes.db&quot;)); db.CreateTable&lt;Note&gt;();</para><para>// Insert note into the database var note = new Note { Message = &quot;Test Note&quot; }; db.Insert (note);</para><para>// Show the automatically set ID and message. Console.WriteLine (&quot;{0}: {1}&quot;, note.Id, note.Message); ``` </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

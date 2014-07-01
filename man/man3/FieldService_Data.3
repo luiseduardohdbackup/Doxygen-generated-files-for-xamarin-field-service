@@ -1,0 +1,188 @@
+.TH "FieldService.Data" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Data \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBAssignment\fP"
+.br
+.RI "\fIAn assignment is the 'thing' or 'job' the user is going to work on \fP"
+.ti -1c
+.RI "class \fBAssignmentHistory\fP"
+.br
+.RI "\fIA history record for an assignment \fP"
+.ti -1c
+.RI "class \fBAssignmentItem\fP"
+.br
+.RI "\fILink from an item to an assignment \fP"
+.ti -1c
+.RI "class \fBDatabase\fP"
+.br
+.RI "\fIA helper class for working with \fBSQLite\fP \fP"
+.ti -1c
+.RI "class \fBDocument\fP"
+.br
+.RI "\fIClass holding information about a document \fP"
+.ti -1c
+.RI "class \fBExpense\fP"
+.br
+.RI "\fIAn expense associated with an assignment \fP"
+.ti -1c
+.RI "class \fBExpensePhoto\fP"
+.br
+.ti -1c
+.RI "class \fBItem\fP"
+.br
+.RI "\fIAn item to be used on an assignment \fP"
+.ti -1c
+.RI "class \fBLabor\fP"
+.br
+.RI "\fI\fBLabor\fP to be performed on an assignment \fP"
+.ti -1c
+.RI "class \fBPhoto\fP"
+.br
+.RI "\fIHolds a photo for an assignment \fP"
+.ti -1c
+.RI "class \fBPropertyChangedBase\fP"
+.br
+.RI "\fIBase class for implementing INotifyPropertyChanged \fP"
+.ti -1c
+.RI "class \fBSampleAssignmentService\fP"
+.br
+.ti -1c
+.RI "class \fBSampleLoginService\fP"
+.br
+.RI "\fIDefault IService implementation \fP"
+.ti -1c
+.RI "class \fBSignature\fP"
+.br
+.ti -1c
+.RI "class \fBTestData\fP"
+.br
+.RI "\fIStatic class for holding all test data within the app \fP"
+.ti -1c
+.RI "class \fBTimerEntry\fP"
+.br
+.RI "\fIClass for holding a TimeStamp to persist the timer while the app is closed \fP"
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBAssignmentStatus\fP { \fBAssignmentStatus\&.New\fP = 0, \fBAssignmentStatus\&.Hold\fP = 1, \fBAssignmentStatus\&.Active\fP = 2, \fBAssignmentStatus\&.Complete\fP = 3, \fBAssignmentStatus\&.Declined\fP = 9999 }"
+.br
+.RI "\fIAn enumeration for Assignment status \fP"
+.ti -1c
+.RI "enum \fBLaborType\fP { \fBLaborType\&.Hourly\fP = 0, \fBLaborType\&.OverTime\fP = 1, \fBLaborType\&.HolidayTime\fP = 2 }"
+.br
+.RI "\fIAn enumeration for Labor types \fP"
+.ti -1c
+.RI "enum \fBExpenseCategory\fP { \fBExpenseCategory\&.Gas\fP = 0, \fBExpenseCategory\&.Food\fP = 1, \fBExpenseCategory\&.Supplies\fP = 2, \fBExpenseCategory\&.Other\fP = 3 }"
+.br
+.RI "\fIAn enumeration for Expense categories \fP"
+.ti -1c
+.RI "enum \fBDocumentType\fP { \fBDocumentType\&.Contract\fP = 0, \fBDocumentType\&.ServiceAgreement\fP = 1, \fBDocumentType\&.Specifications\fP = 2 }"
+.br
+.RI "\fIAn enumeration for different types of Documents \fP"
+.ti -1c
+.RI "enum \fBAssignmentHistoryType\fP { \fBAssignmentHistoryType\&.Assignment\fP, \fBAssignmentHistoryType\&.PhoneCall\fP }"
+.br
+.RI "\fIAn enumeration for different types of \fP"
+.in -1c
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBFieldService\&.Data\&.AssignmentHistoryType\fP"
+
+.PP
+An enumeration for different types of 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIAssignment \fP\fP
+History record represents an assignment 
+.TP
+\fB\fIPhoneCall \fP\fP
+History record represents a phone call 
+.SS "enum \fBFieldService\&.Data\&.AssignmentStatus\fP"
+
+.PP
+An enumeration for \fBAssignment\fP status 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINew \fP\fP
+The assignment is new, it has not been accepted yet 
+.TP
+\fB\fIHold \fP\fP
+The assignment has been accepted, but not started 
+.TP
+\fB\fIActive \fP\fP
+The user is enroute to the assignment 
+.TP
+\fB\fIComplete \fP\fP
+The user completed the assignment 
+.TP
+\fB\fIDeclined \fP\fP
+The assignment was declined by the user 
+.SS "enum \fBFieldService\&.Data\&.DocumentType\fP"
+
+.PP
+An enumeration for different types of Documents 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIContract \fP\fP
+A contract for the customer 
+.TP
+\fB\fIServiceAgreement \fP\fP
+SLA, or Service License Agreement 
+.TP
+\fB\fISpecifications \fP\fP
+A spec sheet 
+.SS "enum \fBFieldService\&.Data\&.ExpenseCategory\fP"
+
+.PP
+An enumeration for \fBExpense\fP categories 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIGas \fP\fP
+\fBExpense\fP for gas and travel 
+.TP
+\fB\fIFood \fP\fP
+\fBExpense\fP for meals and food 
+.TP
+\fB\fISupplies \fP\fP
+\fBExpense\fP for supplies 
+.TP
+\fB\fIOther \fP\fP
+Other expenses 
+.SS "enum \fBFieldService\&.Data\&.LaborType\fP"
+
+.PP
+An enumeration for \fBLabor\fP types 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIHourly \fP\fP
+The labor counts as standard hourly labor 
+.TP
+\fB\fIOverTime \fP\fP
+The labor counts as over time 
+.TP
+\fB\fIHolidayTime \fP\fP
+The labor counts as holiday time 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

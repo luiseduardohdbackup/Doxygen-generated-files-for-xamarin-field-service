@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_assignment_cell" kind="class" prot="public">
+    <compoundname>FieldService::iOS::AssignmentCell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewCell</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a92cc7f3bd9a8539152f6bfcd1d180d46" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.AssignmentCell.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a559a962d24c81e79e49268466b5c438b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_assignments_controller" kindref="compound">AssignmentsController</ref></type>
+        <definition>AssignmentsController FieldService.iOS.AssignmentCell.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7229079a75141fa209515e82b3d20717" prot="private" static="no" mutable="no">
+        <type>NSIndexPath</type>
+        <definition>NSIndexPath FieldService.iOS.AssignmentCell.indexPath</definition>
+        <argsstring></argsstring>
+        <name>indexPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1ac880cccad7af8bd08d62445bb310e551" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.iOS.AssignmentCell.assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a515fa4e8ea5d50bd3b079f2ff768b9e7" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView FieldService.iOS.AssignmentCell.alertView</definition>
+        <argsstring></argsstring>
+        <name>alertView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1aebec19d0a57250033976f178c123a6a4" prot="private" static="no" mutable="no">
+        <type>UIView</type>
+        <definition>UIView FieldService.iOS.AssignmentCell.statusView</definition>
+        <argsstring></argsstring>
+        <name>statusView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a0a59f3b9b9c9fe9680bd1669c9c8ceca" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.AssignmentCell.accept</definition>
+        <argsstring></argsstring>
+        <name>accept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a57b70c6d53679d943b00149f2c7be353" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.AssignmentCell.decline</definition>
+        <argsstring></argsstring>
+        <name>decline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1af647a56cbcab4756f8c4b62af2c1a649" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AssignmentCell.priorityBackground</definition>
+        <argsstring></argsstring>
+        <name>priorityBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1afa8b6f8a1349fa6a8e2040bc28b8bf05" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentCell.priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a45d70696e321e95ff3c578f4676f42c6" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentCell.numberAndDate</definition>
+        <argsstring></argsstring>
+        <name>numberAndDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1ab7b273313dbc8e68ed5e85b37b678828" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentCell.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a02bb1e54f79e9c1471f43baa56b317e7" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentCell.startAndEnd</definition>
+        <argsstring></argsstring>
+        <name>startAndEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6a1157b10588a186fbe8a66eff526e31" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_text_button" kindref="compound">FieldService.iOS.TextButton</ref></type>
+        <definition>FieldService.iOS.TextButton FieldService.iOS.AssignmentCell.contact</definition>
+        <argsstring></argsstring>
+        <name>contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7ab704aced169384b33fcee751945c09" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_text_button" kindref="compound">FieldService.iOS.TextButton</ref></type>
+        <definition>FieldService.iOS.TextButton FieldService.iOS.AssignmentCell.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1aa4d883f7c96ff909245e88caaf282498" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_status_button" kindref="compound">FieldService.iOS.StatusButton</ref></type>
+        <definition>FieldService.iOS.StatusButton FieldService.iOS.AssignmentCell.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a172b00debbabf1d92023f950d5a49380" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AssignmentCell.AssignmentCell</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>AssignmentCell</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a8178a058a3d553684d6d775a8606e809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentCell.AwakeFromNib</definition>
+        <argsstring>()</argsstring>
+        <name>AwakeFromNib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="46" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1aefb7c10b1d9aa895d917f27ab9bb7ad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentCell.SetAssignment</definition>
+        <argsstring>(AssignmentsController controller, Assignment assignment, NSIndexPath indexPath)</argsstring>
+        <name>SetAssignment</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_assignments_controller" kindref="compound">AssignmentsController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+<para>Sets up the assignment for the cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="135" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="135" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a626e21629b5ed224f0a991840f43cdd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentCell.SetHighlighted</definition>
+        <argsstring>(bool highlighted, bool animated)</argsstring>
+        <name>SetHighlighted</name>
+        <param>
+          <type>bool</type>
+          <declname>highlighted</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+<para>We override this to remove some highlighting behavior we don&apos;t want </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="261" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="261" bodyend="273"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6ded763a60bb68ac876cff981630afac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Accept</definition>
+        <argsstring>()</argsstring>
+        <name>Accept</name>
+        <briefdescription>
+<para>Event when the accept button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="200" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="200" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1ad3b2b0f64121b9b252a4e72e653f833c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Decline</definition>
+        <argsstring>()</argsstring>
+        <name>Decline</name>
+        <briefdescription>
+<para>Event when the decline button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="214" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="214" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a9004512cc5550c3a35d2ab92f82f2e98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Address</definition>
+        <argsstring>()</argsstring>
+        <name>Address</name>
+        <briefdescription>
+<para>Event when the address is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="233" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="233" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7e48581bd99e563acdf6a4e0a97319a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentCell.SaveAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignment</name>
+        <briefdescription>
+<para>Saves the assignment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="244" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="244" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6ded763a60bb68ac876cff981630afac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Accept</definition>
+        <argsstring>()</argsstring>
+        <name>Accept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1ad3b2b0f64121b9b252a4e72e653f833c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Decline</definition>
+        <argsstring>()</argsstring>
+        <name>Decline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1aee3613e7d9fa832d9cd4df316d0b2d01" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Contact</definition>
+        <argsstring>()</argsstring>
+        <name>Contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a9004512cc5550c3a35d2ab92f82f2e98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentCell.Address</definition>
+        <argsstring>()</argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1ab9cf08a65fa0dd5a6dea4c6d550d260c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentCell.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.designer.cs" bodystart="56" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_cell_1a22fce82572e2e3ed9c5fa160e35dcd3c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentCell.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="275" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="275" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table cell for an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1696">
+        <label>FieldService.iOS.AssignmentCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignment_cell"/>
+        <childnode refid="1697" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1697">
+        <label>UITableViewCell</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1698">
+        <label>FieldService.iOS.AssignmentCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignment_cell"/>
+        <childnode refid="1699" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1699">
+        <label>UITableViewCell</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/AssignmentCell.cs" bodystart="29" bodyend="281"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a0a59f3b9b9c9fe9680bd1669c9c8ceca" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6ded763a60bb68ac876cff981630afac" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6ded763a60bb68ac876cff981630afac" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a9004512cc5550c3a35d2ab92f82f2e98" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a9004512cc5550c3a35d2ab92f82f2e98" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7ab704aced169384b33fcee751945c09" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a515fa4e8ea5d50bd3b079f2ff768b9e7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>alertView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1ac880cccad7af8bd08d62445bb310e551" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>assignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a172b00debbabf1d92023f950d5a49380" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>AssignmentCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a92cc7f3bd9a8539152f6bfcd1d180d46" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a8178a058a3d553684d6d775a8606e809" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>AwakeFromNib</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1aee3613e7d9fa832d9cd4df316d0b2d01" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Contact</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a6a1157b10588a186fbe8a66eff526e31" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>contact</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a559a962d24c81e79e49268466b5c438b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a57b70c6d53679d943b00149f2c7be353" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1ad3b2b0f64121b9b252a4e72e653f833c" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1ad3b2b0f64121b9b252a4e72e653f833c" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a22fce82572e2e3ed9c5fa160e35dcd3c" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7229079a75141fa209515e82b3d20717" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>indexPath</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a45d70696e321e95ff3c578f4676f42c6" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>numberAndDate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1afa8b6f8a1349fa6a8e2040bc28b8bf05" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>priority</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1af647a56cbcab4756f8c4b62af2c1a649" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>priorityBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1ab9cf08a65fa0dd5a6dea4c6d550d260c" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a7e48581bd99e563acdf6a4e0a97319a3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>SaveAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1aefb7c10b1d9aa895d917f27ab9bb7ad7" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>SetAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a626e21629b5ed224f0a991840f43cdd5" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>SetHighlighted</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1a02bb1e54f79e9c1471f43baa56b317e7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>startAndEnd</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1aa4d883f7c96ff909245e88caaf282498" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>status</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1aebec19d0a57250033976f178c123a6a4" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>statusView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_cell_1ab7b273313dbc8e68ed5e85b37b678828" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentCell</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

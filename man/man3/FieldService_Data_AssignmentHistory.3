@@ -1,0 +1,210 @@
+.TH "FieldService.Data.AssignmentHistory" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Data.AssignmentHistory \- 
+.PP
+A history record for an assignment  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBId\fP\fC [get, set]\fP"
+.br
+.RI "\fI\fBAssignment\fP Id \fP"
+.ti -1c
+.RI "\fBAssignmentHistoryType\fP \fBType\fP\fC [get, set]\fP"
+.br
+.RI "\fIType of history record \fP"
+.ti -1c
+.RI "int \fBAssignmentId\fP\fC [get, set]\fP"
+.br
+.RI "\fILink to an assignment or zero if it were a phone call \fP"
+.ti -1c
+.RI "TimeSpan \fBCallLength\fP\fC [get, set]\fP"
+.br
+.RI "\fILength of the call \fP"
+.ti -1c
+.RI "long \fBCallLengthTicks\fP\fC [get, set]\fP"
+.br
+.RI "\fILength of the call in ticks \fP"
+.ti -1c
+.RI "string \fBCallDescription\fP\fC [get, set]\fP"
+.br
+.RI "\fIDescription of the call \fP"
+.ti -1c
+.RI "DateTime \fBDate\fP\fC [get, set]\fP"
+.br
+.RI "\fIDate of the record \fP"
+.ti -1c
+.RI "string \fBJobNumber\fP\fC [get, set]\fP"
+.br
+.RI "\fIA job number \fP"
+.ti -1c
+.RI "string \fBCompanyName\fP\fC [get, set]\fP"
+.br
+.RI "\fICompany Name for the job \fP"
+.ti -1c
+.RI "string \fBContactName\fP\fC [get, set]\fP"
+.br
+.RI "\fIName of the contact \fP"
+.ti -1c
+.RI "string \fBContactPhone\fP\fC [get, set]\fP"
+.br
+.RI "\fIPhone number for the contact \fP"
+.ti -1c
+.RI "string \fBAddress\fP\fC [get, set]\fP"
+.br
+.RI "\fIAddress for assignment \fP"
+.ti -1c
+.RI "string \fBCity\fP\fC [get, set]\fP"
+.br
+.RI "\fICity for the assignment \fP"
+.ti -1c
+.RI "string \fBState\fP\fC [get, set]\fP"
+.br
+.RI "\fIState of the assignment \fP"
+.ti -1c
+.RI "string \fBZip\fP\fC [get, set]\fP"
+.br
+.RI "\fIZip code for the assignment \fP"
+.ti -1c
+.RI "string \fBDescription\fP\fC [get, set]\fP"
+.br
+.RI "\fIDescription for the assignment \fP"
+.ti -1c
+.RI "DateTime \fBStartDate\fP\fC [get, set]\fP"
+.br
+.RI "\fIDate and time the assignment should start \fP"
+.ti -1c
+.RI "DateTime \fBEndDate\fP\fC [get, set]\fP"
+.br
+.RI "\fIDate and time the assignment should end \fP"
+.ti -1c
+.RI "string \fBJobNumberFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the job number for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBDateFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the start date for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBTimesFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the times for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBCallLengthFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the start date for \fBWinRT\fP \fP"
+.ti -1c
+.RI "bool \fBIsCall\fP\fC [get]\fP"
+.br
+.RI "\fIUi property for showing different icons \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+A history record for an assignment 
+
+
+.SH "Property Documentation"
+.PP 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.Address\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Address for assignment 
+.SS "int FieldService\&.Data\&.AssignmentHistory\&.AssignmentId\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Link to an assignment or zero if it were a phone call 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.CallDescription\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Description of the call 
+.SS "TimeSpan FieldService\&.Data\&.AssignmentHistory\&.CallLength\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Length of the call 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.CallLengthFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the start date for \fBWinRT\fP 
+.SS "long FieldService\&.Data\&.AssignmentHistory\&.CallLengthTicks\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Length of the call in ticks 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.City\fC [get]\fP, \fC [set]\fP"
+
+.PP
+City for the assignment 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.CompanyName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Company Name for the job 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.ContactName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Name of the contact 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.ContactPhone\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Phone number for the contact 
+.SS "DateTime FieldService\&.Data\&.AssignmentHistory\&.Date\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Date of the record 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.DateFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the start date for \fBWinRT\fP 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.Description\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Description for the assignment 
+.SS "DateTime FieldService\&.Data\&.AssignmentHistory\&.EndDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Date and time the assignment should end 
+.SS "int FieldService\&.Data\&.AssignmentHistory\&.Id\fC [get]\fP, \fC [set]\fP"
+
+.PP
+\fBAssignment\fP Id 
+.SS "bool FieldService\&.Data\&.AssignmentHistory\&.IsCall\fC [get]\fP"
+
+.PP
+Ui property for showing different icons 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.JobNumber\fC [get]\fP, \fC [set]\fP"
+
+.PP
+A job number 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.JobNumberFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the job number for \fBWinRT\fP 
+.SS "DateTime FieldService\&.Data\&.AssignmentHistory\&.StartDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Date and time the assignment should start 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.State\fC [get]\fP, \fC [set]\fP"
+
+.PP
+State of the assignment 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.TimesFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the times for \fBWinRT\fP 
+.SS "\fBAssignmentHistoryType\fP FieldService\&.Data\&.AssignmentHistory\&.Type\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Type of history record 
+.SS "string FieldService\&.Data\&.AssignmentHistory\&.Zip\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Zip code for the assignment 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

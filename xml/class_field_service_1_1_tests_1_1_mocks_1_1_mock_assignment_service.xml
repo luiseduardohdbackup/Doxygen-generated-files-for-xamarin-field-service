@@ -1,0 +1,622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service" kind="class" prot="public">
+    <compoundname>FieldService::Tests::Mocks::MockAssignmentService</compoundname>
+    <basecompoundref refid="interface_field_service_1_1_i_assignment_service" prot="public" virt="non-virtual">FieldService.IAssignmentService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a68742aa4b2182799daa9fc1222fda800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Assignment&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetAssignmentsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>GetAssignmentsAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a96a0c030ee4794c243f7b18e4b174a7a">GetAssignmentsAsync</reimplements>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a list of assignments </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="29" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4857593a175265468cab792ad1518012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Item&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetItemsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>GetItemsAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1aaaa7089a8b70a8ccb8910882cbfcbd69">GetItemsAsync</reimplements>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a list of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="52" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a6f03c5da3c02efbb14ce194d52fa8908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;AssignmentItem&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetItemsForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetItemsForAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a9e4b9011309a1ffbb9806d3db8c28ac3">GetItemsForAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a list of items for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="65" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1acf4627b7a391bfd140188aebfd514a4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Labor&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetLaborForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetLaborForAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1ac5dc739d70dee25a86e0107786a19ab6">GetLaborForAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a list of labor hours for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="78" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7f7a053533c01ec744134a0f2f7cd09c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Expense&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetExpensesForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetExpensesForAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a58bbf53e8902cc8b5b2febe3f8d86a66">GetExpensesForAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a list of expenses for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="93" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="93" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a5e500f280c2a04a6e33392f1df3351ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>SaveAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1ad9c79c58d246aea349ba9b7f022ff1ba">SaveAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="107" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4410ae5454950312b9ce1d3025928c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveAssignmentItemAsync</definition>
+        <argsstring>(AssignmentItem assignmentItem, CancellationToken cancellationToken)</argsstring>
+        <name>SaveAssignmentItemAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1ab2092c8146bdf27e85e71a53d3814124">SaveAssignmentItemAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>assignmentItem</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2ae5c0f0569d8055e918e95070b78bd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveLaborAsync</definition>
+        <argsstring>(Labor labor, CancellationToken cancellationToken)</argsstring>
+        <name>SaveLaborAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a1f51a353c2f1d218f4f35f57641e5b46">SaveLaborAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="117" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7fcd8ae38940b504ebceaf035fa10036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveExpenseAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken)</argsstring>
+        <name>SaveExpenseAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a3de5214ff7925731e8c265eff98c8c0e">SaveExpenseAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves an expense entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="122" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9dd8d2d8d85c91f2b38f50ad07d2fc1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeleteAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>DeleteAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a2852dea4a37ed70c41b2e8e997936eeb">DeleteAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="127" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9985729aec2e1a3095a1cbf49b984f96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeleteAssignmentItemAsync</definition>
+        <argsstring>(AssignmentItem assignmentItem, CancellationToken cancellationToken)</argsstring>
+        <name>DeleteAssignmentItemAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a15a28d08be1e14567bf7b9a0ba64528b">DeleteAssignmentItemAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>AssignmentItem</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="132" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a158f68336644c72064217c6d90b7c23b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeleteLaborAsync</definition>
+        <argsstring>(Labor labor, CancellationToken cancellationToken)</argsstring>
+        <name>DeleteLaborAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a57066185843cd11c1adbf3f4ae483672">DeleteLaborAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0739fef17cd37e0e5973c5ee25e6cdc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeleteExpenseAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken)</argsstring>
+        <name>DeleteExpenseAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1aaa5c70766e6945cb7bae35660b7ccde8">DeleteExpenseAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an expense entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a63732bc78fb6e33479130295a5f3618d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveTimerEntryAsync</definition>
+        <argsstring>(TimerEntry entry, CancellationToken cancellationToken)</argsstring>
+        <name>SaveTimerEntryAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1ab10e11786b78d7f21cf9a40482336109">SaveTimerEntryAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves a timer entry to record an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a597928002e4546c7b25cb0cb37b04792" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeleteTimerEntryAsync</definition>
+        <argsstring>(TimerEntry entry, CancellationToken cancellationToken)</argsstring>
+        <name>DeleteTimerEntryAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a7e32c4c791c3ec37bc5acac9b913fc80">DeleteTimerEntryAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes a timer entry to stop recording an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="152" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="152" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac059b00f06f385dc180e9ff99017f389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref> &gt;</type>
+        <definition>Task&lt;TimerEntry&gt; FieldService.Tests.Mocks.MockAssignmentService.GetTimerEntryAsync</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>GetTimerEntryAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a4d63a502ce10e3206bd617216fcfa534">GetTimerEntryAsync</reimplements>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the stored timer entry if there was one </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="157" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1aade7ccd217b9b7f237f2891719ff5a4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Photo&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetPhotosForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetPhotosForAssignmentAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a47a12db3d2463b82e94023b53667b6f7">GetPhotosForAssignmentAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves all the photos for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="162" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a10c72c1dc0eb6bb55f1af7f6b8dfee06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SavePhotoAsync</definition>
+        <argsstring>(Photo photo, CancellationToken cancellationToken)</argsstring>
+        <name>SavePhotoAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a26a5249b6660cf37841a1c251fdaa86f">SavePhotoAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves a photo for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="167" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac32f98da0406ef3ac0173dcd80d97082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.DeletePhotoAsync</definition>
+        <argsstring>(Photo photo, CancellationToken cancellationToken)</argsstring>
+        <name>DeletePhotoAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a0e60c3d22b9c7ce8109ad0846031107c">DeletePhotoAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Deletes a photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="172" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0885f03ffa0da48989293db59983b651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Document&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetDocumentsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken)</argsstring>
+        <name>GetDocumentsAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1aed0d547a58195aea1407e0bdb79f4078">GetDocumentsAsync</reimplements>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets the list of available documents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="177" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ad24c1e0a33fcb1e6a08b88bf541f8f91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;AssignmentHistory&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetAssignmentHistoryAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetAssignmentHistoryAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a1a89f56c0847daa1d8d9e3f0bd630e23">GetAssignmentHistoryAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets the history for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="182" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1abac1de693ed19c9e8bbab3f9ded2933b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveSignatureAsync</definition>
+        <argsstring>(Signature signature, CancellationToken cancellationToken)</argsstring>
+        <name>SaveSignatureAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Signature</ref></type>
+          <declname>signature</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="187" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="187" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ab78a29325b1035b317908639ef7515f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Signature</ref> &gt;</type>
+        <definition>Task&lt;Signature&gt; FieldService.Tests.Mocks.MockAssignmentService.GetSignatureAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken)</argsstring>
+        <name>GetSignatureAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a7852d89fcda603f58224f0957743f2dd">GetSignatureAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets a signature for an assignment or null if none </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="192" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1afc281f5de453a4a4152cb6ff40912b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.Tests.Mocks.MockAssignmentService.SaveExpensePhotoAsync</definition>
+        <argsstring>(ExpensePhoto photo, CancellationToken cancellationToken)</argsstring>
+        <name>SaveExpensePhotoAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1a8f9a4283536bb493635765d68e12f38b">SaveExpensePhotoAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense_photo" kindref="compound">ExpensePhoto</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Saves a photo for an expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="197" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="197" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a53136de44941f01def4fd3c68284b479" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_expense_photo" kindref="compound">ExpensePhoto</ref> &gt;</type>
+        <definition>Task&lt;ExpensePhoto&gt; FieldService.Tests.Mocks.MockAssignmentService.GetExpensePhotoAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken)</argsstring>
+        <name>GetExpensePhotoAsync</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1afd6518a839fbe178de83044d30836c2c">GetExpensePhotoAsync</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets an expense photo for an expense or null if there is none </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="202" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2e09dd04ff09414886575397522e7d95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Assignment&gt; &gt; FieldService.Tests.Mocks.MockAssignmentService.GetAssignmentFromHistory</definition>
+        <argsstring>(AssignmentHistory assignmentHistory, CancellationToken cancellationToken)</argsstring>
+        <name>GetAssignmentFromHistory</name>
+        <reimplements refid="interface_field_service_1_1_i_assignment_service_1ac0e1cf9d28486e8e9a7e4161fe048b9e">GetAssignmentFromHistory</reimplements>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+          <declname>assignmentHistory</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+        </param>
+        <briefdescription>
+<para>Gets the past assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="207" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="207" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is just a mock service to bypass the <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> database for speed during test runs </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2776">
+        <label>FieldService.Tests.Mocks.MockAssignmentService</label>
+        <link refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service"/>
+        <childnode refid="2777" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2777">
+        <label>IAssignmentService</label>
+        <link refid="interface_field_service_1_1_i_assignment_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2778">
+        <label>FieldService.Tests.Mocks.MockAssignmentService</label>
+        <link refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service"/>
+        <childnode refid="2779" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2779">
+        <label>IAssignmentService</label>
+        <link refid="interface_field_service_1_1_i_assignment_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Mocks/MockAssignmentService.cs" bodystart="28" bodyend="211"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9dd8d2d8d85c91f2b38f50ad07d2fc1e" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeleteAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9985729aec2e1a3095a1cbf49b984f96" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeleteAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0739fef17cd37e0e5973c5ee25e6cdc8" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeleteExpenseAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a158f68336644c72064217c6d90b7c23b" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeleteLaborAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac32f98da0406ef3ac0173dcd80d97082" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeletePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a597928002e4546c7b25cb0cb37b04792" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>DeleteTimerEntryAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2e09dd04ff09414886575397522e7d95" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetAssignmentFromHistory</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ad24c1e0a33fcb1e6a08b88bf541f8f91" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetAssignmentHistoryAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a68742aa4b2182799daa9fc1222fda800" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetAssignmentsAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0885f03ffa0da48989293db59983b651" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetDocumentsAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a53136de44941f01def4fd3c68284b479" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetExpensePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7f7a053533c01ec744134a0f2f7cd09c" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetExpensesForAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4857593a175265468cab792ad1518012" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetItemsAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a6f03c5da3c02efbb14ce194d52fa8908" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetItemsForAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1acf4627b7a391bfd140188aebfd514a4b" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetLaborForAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1aade7ccd217b9b7f237f2891719ff5a4c" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetPhotosForAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ab78a29325b1035b317908639ef7515f9" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetSignatureAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac059b00f06f385dc180e9ff99017f389" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>GetTimerEntryAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a5e500f280c2a04a6e33392f1df3351ba" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4410ae5454950312b9ce1d3025928c2b" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7fcd8ae38940b504ebceaf035fa10036" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveExpenseAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1afc281f5de453a4a4152cb6ff40912b57" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveExpensePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2ae5c0f0569d8055e918e95070b78bd5" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveLaborAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a10c72c1dc0eb6bb55f1af7f6b8dfee06" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SavePhotoAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1abac1de693ed19c9e8bbab3f9ded2933b" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveSignatureAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1aaf826d808c6a94f4695e8d971d6ac59a" prot="public" virt="non-virtual" ambiguityscope="FieldService::IAssignmentService."><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveSignatureAsync</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a63732bc78fb6e33479130295a5f3618d" prot="public" virt="non-virtual"><scope>FieldService::Tests::Mocks::MockAssignmentService</scope><name>SaveTimerEntryAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

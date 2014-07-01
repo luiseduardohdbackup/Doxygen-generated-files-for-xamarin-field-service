@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_37f127f694124a6d51211373337fbfee" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data</compoundname>
+    <innerfile refid="_assignment_8cs">Assignment.cs</innerfile>
+    <innerfile refid="_assignment_history_8cs">AssignmentHistory.cs</innerfile>
+    <innerfile refid="_assignment_item_8cs">AssignmentItem.cs</innerfile>
+    <innerfile refid="_database_8cs">Database.cs</innerfile>
+    <innerfile refid="_document_8cs">Document.cs</innerfile>
+    <innerfile refid="_enumerations_8cs">Enumerations.cs</innerfile>
+    <innerfile refid="_expense_8cs">Expense.cs</innerfile>
+    <innerfile refid="_expense_photo_8cs">ExpensePhoto.cs</innerfile>
+    <innerfile refid="_item_8cs">Item.cs</innerfile>
+    <innerfile refid="_labor_8cs">Labor.cs</innerfile>
+    <innerfile refid="_photo_8cs">Photo.cs</innerfile>
+    <innerfile refid="_property_changed_base_8cs">PropertyChangedBase.cs</innerfile>
+    <innerfile refid="_sample_assignment_service_8cs">SampleAssignmentService.cs</innerfile>
+    <innerfile refid="_sample_login_service_8cs">SampleLoginService.cs</innerfile>
+    <innerfile refid="_signature_8cs">Signature.cs</innerfile>
+    <innerfile refid="_test_data_8cs">TestData.cs</innerfile>
+    <innerfile refid="_timer_entry_8cs">TimerEntry.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/"/>
+  </compounddef>
+</doxygen>

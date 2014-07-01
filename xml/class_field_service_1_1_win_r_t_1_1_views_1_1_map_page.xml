@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::MapPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1afd46492542e2cadb84a81c04dc99518c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.Views.MapPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1ae063bbbd6f2039c5d2d73306f709e062" prot="private" static="no" mutable="no">
+        <type>readonly Geolocator</type>
+        <definition>readonly Geolocator FieldService.WinRT.Views.MapPage.locator</definition>
+        <argsstring></argsstring>
+        <name>locator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a5c1aa179e0555f8c106f05f7750cf002" prot="private" static="no" mutable="no">
+        <type>readonly Pushpin</type>
+        <definition>readonly Pushpin FieldService.WinRT.Views.MapPage.userPin</definition>
+        <argsstring></argsstring>
+        <name>userPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1ac9e0842b681c45cce13332db349c31da" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_popup" kindref="compound">MapPopup</ref></type>
+        <definition>readonly MapPopup FieldService.WinRT.Views.MapPage.popup</definition>
+        <argsstring></argsstring>
+        <name>popup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a5162b743d057a9b41b8db9256004ba0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.MapPage.MapPage</definition>
+        <argsstring>()</argsstring>
+        <name>MapPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="37" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a9d1217ee66fc814403f00a6e2a8e8bfa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.MapPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="58" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1aa9cd5eb462b093da1842196e5896003d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.MapPage.OnPinTapped</definition>
+        <argsstring>(object sender, TappedRoutedEventArgs e)</argsstring>
+        <name>OnPinTapped</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>TappedRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="95" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1af700be5322522d391733dc63626d268d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void FieldService.WinRT.Views.MapPage.UpdatePosition</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="116" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="116" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An empty page that can be used on its own or navigated to within a Frame. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2707">
+        <label>Page</label>
+      </node>
+      <node id="2706">
+        <label>FieldService.WinRT.Views.MapPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page"/>
+        <childnode refid="2707" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2709">
+        <label>Page</label>
+      </node>
+      <node id="2708">
+        <label>FieldService.WinRT.Views.MapPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page"/>
+        <childnode refid="2709" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapPage.xaml.cs" bodystart="31" bodyend="133"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1afd46492542e2cadb84a81c04dc99518c" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1ae063bbbd6f2039c5d2d73306f709e062" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>locator</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a5162b743d057a9b41b8db9256004ba0d" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>MapPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a9d1217ee66fc814403f00a6e2a8e8bfa" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>OnNavigatedTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1aa9cd5eb462b093da1842196e5896003d" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>OnPinTapped</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1ac9e0842b681c45cce13332db349c31da" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>popup</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1af700be5322522d391733dc63626d268d" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>UpdatePosition</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_page_1a5c1aa179e0555f8c106f05f7750cf002" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapPage</scope><name>userPin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

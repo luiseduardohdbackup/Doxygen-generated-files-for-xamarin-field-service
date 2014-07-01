@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_map_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::MapController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate" prot="private">FieldService::iOS::MapController::MapViewDelegate</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_map_controller_1a613d471c8ef4a600178028c29d9a77cb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.MapController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_map_controller_1ad72817d2372c1964be8507aafbfd93ec" prot="private" static="no" mutable="no">
+        <type>MKMapView</type>
+        <definition>MKMapView FieldService.iOS.MapController.mapView</definition>
+        <argsstring></argsstring>
+        <name>mapView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1ac6061fe1dd0663ace1548bcec002958a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.MapController.MapController</definition>
+        <argsstring>()</argsstring>
+        <name>MapController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1ad1198302417cd4950a5b1497cb0a7168" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MapController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="41" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1a820e0f8fa5edda26e227da2e744eb187" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MapController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="58" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for displaying the map for an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2658">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2659" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2659">
+        <label>UIViewController</label>
+      </node>
+      <node id="2657">
+        <label>FieldService.iOS.MapController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_map_controller"/>
+        <childnode refid="2658" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2661">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2662" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2662">
+        <label>UIViewController</label>
+      </node>
+      <node id="2660">
+        <label>FieldService.iOS.MapController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_map_controller"/>
+        <childnode refid="2661" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="31" bodyend="161"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1a613d471c8ef4a600178028c29d9a77cb" prot="private" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1ac6061fe1dd0663ace1548bcec002958a" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>MapController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1ad72817d2372c1964be8507aafbfd93ec" prot="private" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>mapView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::MapController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1ad1198302417cd4950a5b1497cb0a7168" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1a820e0f8fa5edda26e227da2e744eb187" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

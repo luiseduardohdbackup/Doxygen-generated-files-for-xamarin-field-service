@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_item" kind="class" prot="public">
+    <compoundname>FieldService::Data::Item</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_item_1a699fbf045073eef6b09e49134de98376" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Item.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Id of the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_item_1ac5a4663cda3b160a05d4d668b217fa9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Item.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Name of the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_item_1a4a33c93b28a729bced424fe39d0e1152" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Item.Number</definition>
+        <argsstring></argsstring>
+        <name>Number</name>
+        <briefdescription>
+<para>Number of the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_item_1a8c6fcfd07611bc4c3c3a6d6abb56d644" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Item.NumberName</definition>
+        <argsstring></argsstring>
+        <name>NumberName</name>
+        <briefdescription>
+<para>Number &amp; Name of <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An item to be used on an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Item.cs" bodystart="26" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_item_1a699fbf045073eef6b09e49134de98376" prot="public" virt="non-virtual"><scope>FieldService::Data::Item</scope><name>Id</name></member>
+      <member refid="class_field_service_1_1_data_1_1_item_1ac5a4663cda3b160a05d4d668b217fa9c" prot="public" virt="non-virtual"><scope>FieldService::Data::Item</scope><name>Name</name></member>
+      <member refid="class_field_service_1_1_data_1_1_item_1a4a33c93b28a729bced424fe39d0e1152" prot="public" virt="non-virtual"><scope>FieldService::Data::Item</scope><name>Number</name></member>
+      <member refid="class_field_service_1_1_data_1_1_item_1a8c6fcfd07611bc4c3c3a6d6abb56d644" prot="public" virt="non-virtual"><scope>FieldService::Data::Item</scope><name>NumberName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_media_picker_sample_view_controller" kind="class" prot="public">
+    <compoundname>MediaPickerSample::MediaPickerSampleViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a41225adccec194737f57c53d8056bb79" prot="private" static="no" mutable="no">
+        <type>MediaPicker</type>
+        <definition>MediaPicker MediaPickerSample.MediaPickerSampleViewController.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1afa32b60e351c5f19b7d6df2d28f1c353" prot="private" static="no" mutable="no">
+        <type>MPMoviePlayerViewController</type>
+        <definition>MPMoviePlayerViewController MediaPickerSample.MediaPickerSampleViewController.moviePlayer</definition>
+        <argsstring></argsstring>
+        <name>moviePlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a13a778f700a4859e07e7e856898c011f" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView MediaPickerSample.MediaPickerSampleViewController.errorAlert</definition>
+        <argsstring></argsstring>
+        <name>errorAlert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a8d3860ff5ce5e10e8450d55b1044cd74" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView MediaPickerSample.MediaPickerSampleViewController.imageView</definition>
+        <argsstring></argsstring>
+        <name>imageView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1af800a12c57f43c79be7750aadf4af328" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaPickerSample.MediaPickerSampleViewController.MediaPickerSampleViewController</definition>
+        <argsstring>()</argsstring>
+        <name>MediaPickerSampleViewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a4df17ce847100e8f01a522f30f69c673" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaPickerSample.MediaPickerSampleViewController.DidReceiveMemoryWarning</definition>
+        <argsstring>()</argsstring>
+        <name>DidReceiveMemoryWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="177" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="177" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a56786593aca394b5b3c5b2c5ec1dadb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaPickerSample.MediaPickerSampleViewController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="185" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="185" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a42a4ee16db74f0bc979f6a9cd0c3c861" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void MediaPickerSample.MediaPickerSampleViewController.ViewDidUnload</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidUnload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="192" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="192" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a5ef8c533cf7b4177ecf5b918adea30bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MediaPickerSample.MediaPickerSampleViewController.ShouldAutorotateToInterfaceOrientation</definition>
+        <argsstring>(UIInterfaceOrientation toInterfaceOrientation)</argsstring>
+        <name>ShouldAutorotateToInterfaceOrientation</name>
+        <param>
+          <type>UIInterfaceOrientation</type>
+          <declname>toInterfaceOrientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="200" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="200" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a62a446f93f022ede978c4aad33bff2a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.takePhotoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>takePhotoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event handler when the user clicks the Take a Photo button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="26" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1aec3ac55dfa0c707b958750274442a5bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.pickPhotoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>pickPhotoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event handler when the user clicks the Pick a Photo button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="64" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1acf11f8359c93a14dd2a8cb109b44cc57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.takeVideoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>takeVideoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event handler when the user clicks the Take a Video button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="98" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="98" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1abd02ed4ea9e8d8566dd8fe702116c46c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.pickVideoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>pickVideoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event handler when the user clicks the pick a video button </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sender </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="137" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a55560823db7ee13db4370ea07d352d46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.MediaPickerSampleViewController.ShowUnsupported</definition>
+        <argsstring>()</argsstring>
+        <name>ShowUnsupported</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="167" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="167" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a62a446f93f022ede978c4aad33bff2a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.takePhotoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>takePhotoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1aec3ac55dfa0c707b958750274442a5bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.pickPhotoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>pickPhotoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1acf11f8359c93a14dd2a8cb109b44cc57" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.takeVideoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>takeVideoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_media_picker_sample_view_controller_1abd02ed4ea9e8d8566dd8fe702116c46c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void MediaPickerSample.MediaPickerSampleViewController.pickVideoBtnClicked</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>pickVideoBtnClicked</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.designer.cs" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2752">
+        <label>MediaPickerSample.MediaPickerSampleViewController</label>
+        <link refid="class_media_picker_sample_1_1_media_picker_sample_view_controller"/>
+        <childnode refid="2753" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2753">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2754">
+        <label>MediaPickerSample.MediaPickerSampleViewController</label>
+        <link refid="class_media_picker_sample_1_1_media_picker_sample_view_controller"/>
+        <childnode refid="2755" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2755">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/MediaPickerSample/MediaPickerSampleViewController.cs" bodystart="10" bodyend="205"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a4df17ce847100e8f01a522f30f69c673" prot="public" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>DidReceiveMemoryWarning</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a13a778f700a4859e07e7e856898c011f" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>errorAlert</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a8d3860ff5ce5e10e8450d55b1044cd74" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>imageView</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1af800a12c57f43c79be7750aadf4af328" prot="public" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>MediaPickerSampleViewController</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1afa32b60e351c5f19b7d6df2d28f1c353" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>moviePlayer</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a41225adccec194737f57c53d8056bb79" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>picker</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1aec3ac55dfa0c707b958750274442a5bd" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>pickPhotoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1aec3ac55dfa0c707b958750274442a5bd" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>pickPhotoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1abd02ed4ea9e8d8566dd8fe702116c46c" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>pickVideoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1abd02ed4ea9e8d8566dd8fe702116c46c" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>pickVideoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a5ef8c533cf7b4177ecf5b918adea30bf" prot="public" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>ShouldAutorotateToInterfaceOrientation</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a55560823db7ee13db4370ea07d352d46" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>ShowUnsupported</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a62a446f93f022ede978c4aad33bff2a3" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>takePhotoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a62a446f93f022ede978c4aad33bff2a3" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>takePhotoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1acf11f8359c93a14dd2a8cb109b44cc57" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>takeVideoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1acf11f8359c93a14dd2a8cb109b44cc57" prot="private" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>takeVideoBtnClicked</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a56786593aca394b5b3c5b2c5ec1dadb3" prot="public" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_media_picker_sample_1_1_media_picker_sample_view_controller_1a42a4ee16db74f0bc979f6a9cd0c3c861" prot="public" virt="non-virtual"><scope>MediaPickerSample::MediaPickerSampleViewController</scope><name>ViewDidUnload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

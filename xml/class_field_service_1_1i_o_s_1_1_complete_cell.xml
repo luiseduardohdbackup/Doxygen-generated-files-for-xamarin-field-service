@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_complete_cell" kind="class" prot="public">
+    <compoundname>FieldService::iOS::CompleteCell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewCell</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_complete_cell_1aab720273b0ebdff92a9b2a80855e81a8" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.CompleteCell.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a498909319898cd5127d9fa88f7e0ec02" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+        <definition>ConfirmationController FieldService.iOS.CompleteCell.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a484ed467f145bc9d566c7d985dc42528" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.iOS.CompleteCell.assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_complete_cell_1aaf8eb0e8c1d60db4ab9a9b69529b85be" prot="private" static="no" mutable="no">
+        <type>UITableView</type>
+        <definition>UITableView FieldService.iOS.CompleteCell.tableView</definition>
+        <argsstring></argsstring>
+        <name>tableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a497d292fdc9c09f746719c27a3da1540" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView FieldService.iOS.CompleteCell.alertView</definition>
+        <argsstring></argsstring>
+        <name>alertView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_complete_cell_1af6b8dffd0bd366743507d2f24e86073b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.CompleteCell.completeButton</definition>
+        <argsstring></argsstring>
+        <name>completeButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1aa15ca065e74ae9eb855fc1f4adbea0b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.CompleteCell.CompleteCell</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>CompleteCell</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1ae9aa5c1f7d212166a09da17c33446428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.CompleteCell.AwakeFromNib</definition>
+        <argsstring>()</argsstring>
+        <name>AwakeFromNib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="41" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a7d962ac92112da25cdd8aadbf3714e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.CompleteCell.SetAssignment</definition>
+        <argsstring>(ConfirmationController controller, Assignment assignment, UITableView tableView)</argsstring>
+        <name>SetAssignment</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <briefdescription>
+<para>Sets the assignment for this cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="62" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a521eabd1558f8af23d98530c989059df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.CompleteCell.Complete</definition>
+        <argsstring>()</argsstring>
+        <name>Complete</name>
+        <briefdescription>
+<para>Event when complete is pressed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="74" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a521eabd1558f8af23d98530c989059df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.CompleteCell.Complete</definition>
+        <argsstring>()</argsstring>
+        <name>Complete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.designer.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_complete_cell_1a14357b6a807afe10967774e13b883a3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.CompleteCell.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.designer.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The table cell to complete an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1984">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="1983">
+        <label>FieldService.iOS.CompleteCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_complete_cell"/>
+        <childnode refid="1984" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1986">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="1985">
+        <label>FieldService.iOS.CompleteCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_complete_cell"/>
+        <childnode refid="1986" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/CompleteCell.cs" bodystart="28" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a497d292fdc9c09f746719c27a3da1540" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>alertView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a484ed467f145bc9d566c7d985dc42528" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>assignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1aab720273b0ebdff92a9b2a80855e81a8" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1ae9aa5c1f7d212166a09da17c33446428" prot="public" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>AwakeFromNib</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a521eabd1558f8af23d98530c989059df" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>Complete</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a521eabd1558f8af23d98530c989059df" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>Complete</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1af6b8dffd0bd366743507d2f24e86073b" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>completeButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1aa15ca065e74ae9eb855fc1f4adbea0b7" prot="public" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>CompleteCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a498909319898cd5127d9fa88f7e0ec02" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a14357b6a807afe10967774e13b883a3e" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1a7d962ac92112da25cdd8aadbf3714e17" prot="public" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>SetAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_complete_cell_1aaf8eb0e8c1d60db4ab9a9b69529b85be" prot="private" virt="non-virtual"><scope>FieldService::iOS::CompleteCell</scope><name>tableView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

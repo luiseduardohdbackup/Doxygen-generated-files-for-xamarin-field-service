@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="sqlite-net-1_80_81_2component_2_getting_started_8md" kind="file">
+    <compoundname>GettingStarted.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Please<sp/>consult<sp/>the<sp/>Wiki<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">,<sp/>ahem,<sp/>[complete<sp/>documentation](https:</highlight><highlight class="comment">//github.com/praeclarum/sqlite-net/wiki).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">The<sp/>library<sp/>contains<sp/>simple<sp/>attributes<sp/>that<sp/>you<sp/>can<sp/>use<sp/>to<sp/>control<sp/>the<sp/>construction<sp/>of<sp/>tables.<sp/>In<sp/>a<sp/>simple<sp/>stock<sp/>program,<sp/>you<sp/>might<sp/>use:</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><sp/>SQLite;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>...</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Stock</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[PrimaryKey,<sp/>AutoIncrement]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Id<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[MaxLength(8)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Symbol<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Valuation</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>[PrimaryKey,<sp/>AutoIncrement]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Id<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>[Indexed]</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>StockId<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DateTime<sp/>Time<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>decimal<sp/>Price<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">Once<sp/>you</highlight><highlight class="stringliteral">&apos;ve<sp/>defined<sp/>the<sp/>objects<sp/>in<sp/>your<sp/>model<sp/>you<sp/>have<sp/>a<sp/>choice<sp/>of<sp/>APIs.<sp/>You<sp/>can<sp/>use<sp/>the<sp/>&quot;synchronous<sp/>API&quot;<sp/>where<sp/>calls</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral">block<sp/>one<sp/>at<sp/>a<sp/>time,<sp/>or<sp/>you<sp/>can<sp/>use<sp/>the<sp/>&quot;asynchronous<sp/>API&quot;<sp/>where<sp/>calls<sp/>do<sp/>not<sp/>block.<sp/>You<sp/>may<sp/>care<sp/>to<sp/>use<sp/>the<sp/>asynchronous</highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">API<sp/>for<sp/>mobile<sp/>applications<sp/>in<sp/>order<sp/>to<sp/>increase<sp/>reponsiveness.</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral">Both<sp/>APIs<sp/>are<sp/>explained<sp/>in<sp/>the<sp/>two<sp/>sections<sp/>below.</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral">##<sp/>Synchronous<sp/>API</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral">Once<sp/>you<sp/>have<sp/>defined<sp/>your<sp/>entity,<sp/>you<sp/>can<sp/>automatically<sp/>generate<sp/>tables<sp/>in<sp/>your<sp/>database<sp/>by<sp/>calling<sp/>`CreateTable`:</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral">string<sp/>folder<sp/>=<sp/>Environment.GetFolderPath<sp/>(Environment.SpecialFolder.Personal);</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral">var<sp/>conn<sp/>=<sp/>new<sp/>SQLiteConnection<sp/>(System.IO.Path.Combine<sp/>(folder,<sp/>&quot;stocks.db&quot;));</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral">conn.CreateTable&lt;Stock&gt;();</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral">conn.CreateTable&lt;Valuation&gt;();</highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral">You<sp/>can<sp/>insert<sp/>rows<sp/>in<sp/>the<sp/>database<sp/>using<sp/>`Insert`.<sp/>If<sp/>the<sp/>table<sp/>contains<sp/>an<sp/>auto-incremented<sp/>primary<sp/>key,<sp/>then<sp/>the<sp/>value<sp/>for<sp/>that<sp/>key<sp/>will<sp/>be<sp/>available<sp/>to<sp/>you<sp/>after<sp/>the<sp/>insert:</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral">public<sp/>static<sp/>void<sp/>AddStock<sp/>(SQLiteConnection<sp/>db,<sp/>string<sp/>symbol)<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>var<sp/>s<sp/>=<sp/>new<sp/>Stock<sp/>{<sp/>Symbol<sp/>=<sp/>symbol<sp/>};</highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>db.Insert<sp/>(s);</highlight></codeline>
+<codeline lineno="51"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(&quot;{0}<sp/>==<sp/>{1}&quot;,<sp/>s.Symbol,<sp/>s.Id);</highlight></codeline>
+<codeline lineno="52"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="53"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral">Similar<sp/>methods<sp/>exist<sp/>for<sp/>`Update`<sp/>and<sp/>`Delete`.</highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral">The<sp/>most<sp/>straightforward<sp/>way<sp/>to<sp/>query<sp/>for<sp/>data<sp/>is<sp/>using<sp/>the<sp/>`Table`<sp/>method.<sp/>This<sp/>can<sp/>take<sp/>predicates<sp/>for<sp/>constraining<sp/>via<sp/>WHERE<sp/>clauses<sp/>and/or<sp/>adding<sp/>ORDER<sp/>BY<sp/>clauses:</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="59"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="60"><highlight class="stringliteral">var<sp/>query<sp/>=<sp/>conn.Table&lt;Stock&gt;().Where<sp/>(v<sp/>=&gt;<sp/>v.Symbol.StartsWith(&quot;A&quot;));</highlight></codeline>
+<codeline lineno="61"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="62"><highlight class="stringliteral">foreach<sp/>(var<sp/>stock<sp/>in<sp/>query)</highlight></codeline>
+<codeline lineno="63"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(&quot;Stock:<sp/>&quot;<sp/>+<sp/>stock.Symbol);</highlight></codeline>
+<codeline lineno="64"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral">You<sp/>can<sp/>also<sp/>query<sp/>the<sp/>database<sp/>at<sp/>a<sp/>low-level<sp/>using<sp/>the<sp/>`Query`<sp/>method:</highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral">public<sp/>static<sp/>IEnumerable&lt;Valuation&gt;<sp/>QueryValuations<sp/>(SQLiteConnection<sp/>db,<sp/>Stock<sp/>stock)</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>return<sp/>db.Query&lt;Valuation&gt;<sp/>(&quot;select<sp/>*<sp/>from<sp/>Valuation<sp/>where<sp/>StockId<sp/>=<sp/>?&quot;,<sp/>stock.Id);</highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral">The<sp/>generic<sp/>parameter<sp/>to<sp/>the<sp/>`Query`<sp/>method<sp/>specifies<sp/>the<sp/>type<sp/>of<sp/>object<sp/>to<sp/>create<sp/>for<sp/>each<sp/>row.<sp/>It<sp/>can<sp/>be<sp/>one<sp/>of<sp/>your<sp/>table<sp/>classes,<sp/>or<sp/>any<sp/>other<sp/>class<sp/>whose<sp/>public<sp/>properties<sp/>match<sp/>the<sp/>column<sp/>returned<sp/>by<sp/>the<sp/>query.<sp/>For<sp/>instance,<sp/>we<sp/>could<sp/>rewrite<sp/>the<sp/>above<sp/>query<sp/>as:</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral">public<sp/>class<sp/>Val<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>public<sp/>decimal<sp/>Money<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>public<sp/>DateTime<sp/>Date<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="82"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="83"><highlight class="stringliteral">public<sp/>static<sp/>IEnumerable&lt;Val&gt;<sp/>QueryVals<sp/>(SQLiteConnection<sp/>db,<sp/>Stock<sp/>stock)</highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral">{</highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>return<sp/>db.Query&lt;Val&gt;<sp/>(&quot;select<sp/>&apos;</highlight><highlight class="normal">Price</highlight><highlight class="stringliteral">&apos;<sp/>as<sp/>&apos;</highlight><highlight class="normal">Money</highlight><highlight class="stringliteral">&apos;,<sp/>&apos;</highlight><highlight class="normal">Time</highlight><highlight class="stringliteral">&apos;<sp/>as<sp/>&apos;</highlight><highlight class="normal">Date</highlight><highlight class="stringliteral">&apos;<sp/>from<sp/>Valuation<sp/>where<sp/>StockId<sp/>=<sp/>?&quot;,<sp/>stock.Id);</highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral">You<sp/>can<sp/>perform<sp/>low-level<sp/>updates<sp/>of<sp/>the<sp/>database<sp/>using<sp/>the<sp/>`Execute`<sp/>method.</highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral">##<sp/>Asynchronous<sp/>API</highlight></codeline>
+<codeline lineno="92"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="93"><highlight class="stringliteral">To<sp/>use<sp/>the<sp/>asynchronous<sp/>API,<sp/>you&apos;</highlight><highlight class="normal">ll<sp/>create<sp/>a<sp/>`SQLiteAsyncConnection`<sp/>instead<sp/>of<sp/>`SQLiteConnection`.<sp/>`SQLiteAsyncConnection`<sp/>exposes<sp/>asynchronous<sp/>versions<sp/>of<sp/>the<sp/>database<sp/>APIs<sp/>providing<sp/>you<sp/>with<sp/>`Task`<sp/>to<sp/>perform<sp/>continuations<sp/>on.</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">Once<sp/>you<sp/>have<sp/>defined<sp/>your<sp/>entity,<sp/>you<sp/>can<sp/>automatically<sp/>generate<sp/>tables<sp/>by<sp/>calling<sp/>`CreateTableAsync`:</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>folder<sp/>=<sp/><ref refid="sqlite-net-1_80_81_2samples_2_s_q_lite_8_android_8_sample_2_main_activity_8cs_1a282800ee7039b7c85bc875ffd01a01e3" kindref="member">Environment</ref>.GetFolderPath<sp/>(<ref refid="sqlite-net-1_80_81_2samples_2_s_q_lite_8_android_8_sample_2_main_activity_8cs_1a282800ee7039b7c85bc875ffd01a01e3" kindref="member">Environment</ref>.SpecialFolder.Personal);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">var<sp/>conn<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SQLiteAsyncConnection<sp/>(System.IO.Path.Combine<sp/>(folder,<sp/></highlight><highlight class="stringliteral">&quot;stocks.db&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">conn.CreateTableAsync&lt;Stock&gt;().ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;Table<sp/>created!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">You<sp/>can<sp/>insert<sp/>rows<sp/>in<sp/>the<sp/>database<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>`<ref refid="namespace_s_q_lite_1a75ed4e953251d63b64b7660b64e2cc65aa458be0f08b7e4ff3c0f633c100176c0" kindref="member">Insert</ref>`.<sp/>If<sp/>the<sp/>table<sp/>contains<sp/>an<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">-incremented<sp/>primary<sp/>key,<sp/>then<sp/>the<sp/>value<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>that<sp/>key<sp/>will<sp/>be<sp/>available<sp/>to<sp/>you<sp/>after<sp/>the<sp/>insert:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">Stock<sp/>stock<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Stock<sp/>{<sp/>Symbol<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;AAPL&quot;</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">conn.InsertAsync<sp/>(stock).ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;New<sp/>customer<sp/>ID:<sp/>{0}&quot;</highlight><highlight class="normal">,<sp/>stock.Id);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">Similar<sp/>methods<sp/>exist<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>`UpdateAsync`<sp/>and<sp/>`DeleteAsync`.</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">Querying<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>data<sp/>is<sp/>most<sp/>straightforwardly<sp/>done<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>the<sp/>`Table`<sp/>method.<sp/>This<sp/>will<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>an<sp/>`AsyncTableQuery`<sp/>instance<sp/>back,<sp/>whereupon</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">you<sp/>can<sp/>add<sp/>predictates<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>constraining<sp/>via<sp/>WHERE<sp/>clauses<sp/>and/or<sp/>adding<sp/>ORDER<sp/>BY.<sp/>The<sp/>database<sp/>is<sp/>not<sp/>physically<sp/>touched<sp/>until<sp/>one<sp/>of<sp/>the<sp/>special<sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">retrieval<sp/>methods<sp/>-<sp/>`ToListAsync`,<sp/>`FirstAsync`,<sp/>or<sp/>`FirstOrDefaultAsync`<sp/>-<sp/>is<sp/>called.</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">var<sp/>query<sp/>=<sp/>conn.Table&lt;Stock&gt;().Where<sp/>(v<sp/>=&gt;<sp/>v.Symbol.StartsWith<sp/>(</highlight><highlight class="stringliteral">&quot;A&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal">query.ToListAsync().ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>stock<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>t.Result)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;Stock:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>stock.Symbol);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">There<sp/>are<sp/>a<sp/>number<sp/>of<sp/>low-level<sp/>methods<sp/>available.<sp/>You<sp/>can<sp/>also<sp/>query<sp/>the<sp/>database<sp/>directly<sp/>via<sp/>the<sp/>`QueryAsync`<sp/>method.<sp/>Over<sp/>and<sp/>above<sp/>the<sp/>change<sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">operations<sp/>provided<sp/>by<sp/>`InsertAsync`<sp/>etc<sp/>you<sp/>can<sp/>issue<sp/>`ExecuteAsync`<sp/>methods<sp/>to<sp/>change<sp/>sets<sp/>of<sp/>data<sp/>directly<sp/>within<sp/>the<sp/>database.</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">Another<sp/>helpful<sp/>method<sp/>is<sp/>`ExecuteScalarAsync`.<sp/>This<sp/>allows<sp/>you<sp/>to<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>scalar<sp/>value<sp/>from<sp/>the<sp/>database<sp/>easily:</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">conn.ExecuteScalarAsync&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;<sp/>(</highlight><highlight class="stringliteral">&quot;select<sp/>count(*)<sp/>from<sp/>Stock&quot;</highlight><highlight class="normal">,<sp/>null).ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">.Format(</highlight><highlight class="stringliteral">&quot;Found<sp/>&apos;{0}&apos;<sp/>stock<sp/>items.&quot;</highlight><highlight class="normal">,<sp/>t.Result));</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">```</highlight></codeline>
+    </programlisting>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/component/GettingStarted.md"/>
+  </compounddef>
+</doxygen>

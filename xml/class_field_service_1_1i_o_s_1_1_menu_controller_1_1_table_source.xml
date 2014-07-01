@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::MenuController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1ab0058493a69b1aa128af636f85f3f63c" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.summaryCell</definition>
+        <argsstring></argsstring>
+        <name>summaryCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a57d9719687720b2b494c9e459d43a3cd" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.mapCell</definition>
+        <argsstring></argsstring>
+        <name>mapCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a0a2cb343e7c031551ecb83f41a26d0dd" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.itemsCell</definition>
+        <argsstring></argsstring>
+        <name>itemsCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a0a95ece8a52419b10139f69b51786f6c" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.laborCell</definition>
+        <argsstring></argsstring>
+        <name>laborCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aaeaf1ebbb4b5537e1723654d553f286f" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.expensesCell</definition>
+        <argsstring></argsstring>
+        <name>expensesCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a64f9a4443e7470c3757257c5e6c02caf" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.documentsCell</definition>
+        <argsstring></argsstring>
+        <name>documentsCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1af81f2f0f0404ca7c1fee4366318fd2f3" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.confirmationCell</definition>
+        <argsstring></argsstring>
+        <name>confirmationCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a8b53ecf34a28ff5e12d5891b8714c953" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.MenuController.TableSource.historyCell</definition>
+        <argsstring></argsstring>
+        <name>historyCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa2eafd4da545034ff48d64cce49e8d2a" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; UITableViewCell &gt;</type>
+        <definition>readonly List&lt;UITableViewCell&gt; FieldService.iOS.MenuController.TableSource.cells</definition>
+        <argsstring></argsstring>
+        <name>cells</name>
+        <initializer>= new List&lt;UITableViewCell&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="278" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a3350b2fa46f395446a8fa067fdb987ba" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref></type>
+        <definition>readonly MenuController FieldService.iOS.MenuController.TableSource.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="279" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1acc5e643dab08368751cb2254a4ff85a4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.MenuController.TableSource.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="280" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a1a7e79104688d3bf7365795674a91f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.MenuController.TableSource.TableSource</definition>
+        <argsstring>(MenuController controller)</argsstring>
+        <name>TableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="282" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="282" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a3826253033dd60c7f0c52cb9df14730c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float FieldService.iOS.MenuController.TableSource.GetHeightForHeader</definition>
+        <argsstring>(UITableView tableView, int section)</argsstring>
+        <name>GetHeightForHeader</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="353" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1af0c0004fd08ed44321f2b202d2149540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.MenuController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="359" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="359" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa25c06ad8e87a7302d8645070d72b07d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.MenuController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="371" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="371" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1ab643e13579585d5a500fd12f0d022f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MenuController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="376" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="376" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a5c37a4734c3a487c0404538d673f7744" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.MenuController.TableSource.SetupCell</definition>
+        <argsstring>(UITableViewCell cell, bool start=false, bool end=false)</argsstring>
+        <name>SetupCell</name>
+        <param>
+          <type>UITableViewCell</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>start</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>end</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="320" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="320" bodyend="351"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa3373ff2edc04f88f5dccd3f466ff679" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MenuController.TableSource.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="385" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="385" bodyend="393"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The table source - has static cells </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3208">
+        <label>FieldService.iOS.MenuController.TableSource</label>
+        <childnode refid="3209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3209">
+        <label>UITableViewSource</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3210">
+        <label>FieldService.iOS.MenuController.TableSource</label>
+        <childnode refid="3211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3211">
+        <label>UITableViewSource</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" line="276" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MenuController.cs" bodystart="275" bodyend="394"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1acc5e643dab08368751cb2254a4ff85a4" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa2eafd4da545034ff48d64cce49e8d2a" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>cells</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1af81f2f0f0404ca7c1fee4366318fd2f3" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>confirmationCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a3350b2fa46f395446a8fa067fdb987ba" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa3373ff2edc04f88f5dccd3f466ff679" prot="protected" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a64f9a4443e7470c3757257c5e6c02caf" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>documentsCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aaeaf1ebbb4b5537e1723654d553f286f" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>expensesCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1aa25c06ad8e87a7302d8645070d72b07d" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a3826253033dd60c7f0c52cb9df14730c" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>GetHeightForHeader</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a8b53ecf34a28ff5e12d5891b8714c953" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>historyCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a0a2cb343e7c031551ecb83f41a26d0dd" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>itemsCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a0a95ece8a52419b10139f69b51786f6c" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>laborCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a57d9719687720b2b494c9e459d43a3cd" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>mapCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1ab643e13579585d5a500fd12f0d022f66" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1af0c0004fd08ed44321f2b202d2149540" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a5c37a4734c3a487c0404538d673f7744" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>SetupCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1ab0058493a69b1aa128af636f85f3f63c" prot="private" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>summaryCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_menu_controller_1_1_table_source_1a1a7e79104688d3bf7365795674a91f12" prot="public" virt="non-virtual"><scope>FieldService::iOS::MenuController::TableSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

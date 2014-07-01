@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_xamarin_8bc6e5e5bbf7092518f3e7d3664ee7097" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_Components_xamarin.mobile-0.6.1_component_GettingStarted</compoundname>
+    <title>GettingStarted</title>
+    <detaileddescription>
+<para>Xamarin.Mobile is an API for accessing common platform features, such as reading the user&apos;s address book and using the camera, across iOS, Android, and Windows Phone.</para><para><heading level="2">Examples</heading>
+</para><para>To access the address book:</para><para>```csharp using Xamarin.Contacts; ...</para><para>var book = new AddressBook (); foreach (Contact contact in book.OrderBy (c =&gt; c.LastName)) { Console.WriteLine (&quot;{0} {1}&quot;, contact.FirstName, contact.LastName); } ```</para><para>To get the user&apos;s location:</para><para>```csharp using Xamarin.Geolocation; ...</para><para>var locator = new Geolocator { DesiredAccuracy = 50 }; locator.GetPositionAsync (timeout: 10000).ContinueWith (t =&gt; { Console.WriteLine (&quot;Position Status: {0}&quot;, t.Result.Timestamp); Console.WriteLine (&quot;Position Latitude: {0}&quot;, t.Result.Latitude); Console.WriteLine (&quot;Position Longitude: {0}&quot;, t.Result.Longitude); }); ```</para><para>To take a photo:</para><para>```csharp using Xamarin.Media; ...</para><para>var picker = new MediaPicker (); picker.TakePhotoAsync (new StoreCameraMediaOptions { Name = &quot;test.jpg&quot;, Directory = &quot;MediaPickerSample&quot; }).ContinueWith (t =&gt; { if (t.IsCanceled) { Console.WriteLine (&quot;User canceled&quot;); return; } Console.WriteLine (t.Result.Path); }); ``` </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

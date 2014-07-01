@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_labor" kind="class" prot="public">
+    <compoundname>FieldService::Data::Labor</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1aa814a8dca869d92e57e18fbbed42bd94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Labor.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Id of the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1a0a5112fedad80abd43a9f9179ae70639" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref></type>
+        <definition>LaborType FieldService.Data.Labor.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Type of labor performed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1affd6db8b708ec765161594626e22e875" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Labor.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>An extended description for the job </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1ab4ddefede34c7053b77e2232315a36c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Labor.AssignmentId</definition>
+        <argsstring></argsstring>
+        <name>AssignmentId</name>
+        <briefdescription>
+<para>Link to an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1a9e525f27f4946eb2346cc14edf524f3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.Data.Labor.Hours</definition>
+        <argsstring></argsstring>
+        <name>Hours</name>
+        <briefdescription>
+<para>The duration of this labor expressed in hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1a47ddd79856595414a77eca93b1f00716" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long FieldService.Data.Labor.Ticks</definition>
+        <argsstring></argsstring>
+        <name>Ticks</name>
+        <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> hours for the assignment (in ticks) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1a184db30b7e0d531260e740d6b705f327" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Labor.TypeAsString</definition>
+        <argsstring></argsstring>
+        <name>TypeAsString</name>
+        <briefdescription>
+<para>A nicely string formatted version of Type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_labor_1abeebb1b52562440896e8e7f13637bf11" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Labor.HoursFormatted</definition>
+        <argsstring></argsstring>
+        <name>HoursFormatted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> to be performed on an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Labor.cs" bodystart="23" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_labor_1ab4ddefede34c7053b77e2232315a36c9" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>AssignmentId</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1affd6db8b708ec765161594626e22e875" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>Description</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1a9e525f27f4946eb2346cc14edf524f3b" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>Hours</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1abeebb1b52562440896e8e7f13637bf11" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>HoursFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1aa814a8dca869d92e57e18fbbed42bd94" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>Id</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1a47ddd79856595414a77eca93b1f00716" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>Ticks</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1a0a5112fedad80abd43a9f9179ae70639" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>Type</name></member>
+      <member refid="class_field_service_1_1_data_1_1_labor_1a184db30b7e0d531260e740d6b705f327" prot="public" virt="non-virtual"><scope>FieldService::Data::Labor</scope><name>TypeAsString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

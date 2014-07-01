@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_aff3175ee0dbb5036db289d2f73b5cbf" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample</compoundname>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8i_o_s_8_samples_2_contacts_sample_2_app_delegate_8cs">AppDelegate.cs</innerfile>
+    <innerfile refid="_detail_contact_view_8cs">DetailContactView.cs</innerfile>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8i_o_s_8_samples_2_contacts_sample_2_main_8cs">Main.cs</innerfile>
+    <innerfile refid="_main_view_8cs">MainView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/"/>
+  </compounddef>
+</doxygen>

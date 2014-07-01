@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_photo_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::AddPhotoController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a612a7cf78072a1fce03a13b8bc7c06be" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.AddPhotoController.Dismissed</definition>
+        <argsstring></argsstring>
+        <name>Dismissed</name>
+        <briefdescription>
+<para>Occurs when dismissed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1abd0b6f735fc35fe01290f27f2dacafb3" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.AddPhotoController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ae365d15c7643564be7e18212243ff8ec" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>readonly PhotoViewModel FieldService.iOS.AddPhotoController.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a3baf41de8aa5a1aa3e186cd8af0afe50" prot="private" static="no" mutable="no">
+        <type>UIImage</type>
+        <definition>UIImage FieldService.iOS.AddPhotoController.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a93a1a6c2a99844925125344fc7199b97" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView FieldService.iOS.AddPhotoController.alertView</definition>
+        <argsstring></argsstring>
+        <name>alertView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a067a47ccdea00cbe6dbd4fbfa1191eec" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITextField</type>
+        <definition>MonoTouch.UIKit.UITextField FieldService.iOS.AddPhotoController.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a426a9124efa7db798df2783d50db4b9f" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.AddPhotoController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aec8fa40708bae15b73b4b1572c795340" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.AddPhotoController.deleteButton</definition>
+        <argsstring></argsstring>
+        <name>deleteButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1adb7cab6d8802697a9601b4465e1e30b7" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AddPhotoController.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a3eb3da5f7c3bf041c26e0f6d846a15ea" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AddPhotoController.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a5a12a4edd9d64aed85d208d596ffd2b9" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AddPhotoController.photo</definition>
+        <argsstring></argsstring>
+        <name>photo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a7484c889dca311f2893f99ad44903d5e" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AddPhotoController.photoFrame</definition>
+        <argsstring></argsstring>
+        <name>photoFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ab76e18661ea08afaf7a7996419a2050b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AddPhotoController.descriptionBackground</definition>
+        <argsstring></argsstring>
+        <name>descriptionBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a49795fd6b0d2d1f7e3ada465fe9cb35e" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIBarButtonItem</type>
+        <definition>MonoTouch.UIKit.UIBarButtonItem FieldService.iOS.AddPhotoController.cancel</definition>
+        <argsstring></argsstring>
+        <name>cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a9a6f2ffd465fc90c33d3575e98616230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddPhotoController.AddPhotoController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>AddPhotoController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a2313a818ff8f62192f5a27bec451f4b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddPhotoController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="46" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a0ffc0da9c8cbbf4fb154f580dc5a4d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddPhotoController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="95" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a8922af3b3adebaf687203014c0bec107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddPhotoController.ViewWillDisappear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillDisappear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="114" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aff25340e5f010586f27618bcc330833d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddPhotoController.ViewDidDisappear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewDidDisappear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="124" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="124" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aaa1b10d6b0b03fd4ee5154385a34fe5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AddPhotoController.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+<para>Called to save the photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="139" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a4a0426072344bd850c8f5207a1a7d0a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddPhotoController.DeletePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>DeletePhoto</name>
+        <briefdescription>
+<para>Event when the delete photo buttton is pressed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="159" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="159" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1af383e9b06a394b33b85d093b2776a9f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddPhotoController.Cancel</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>Cancel</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event for cancel button </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="181" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a4a0426072344bd850c8f5207a1a7d0a5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddPhotoController.DeletePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>DeletePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ae3716680b988a6b48ee3355f75ff5361" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddPhotoController.Cancel</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>Cancel</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aa576001057269753a44e67ae93f94baa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddPhotoController.Choose</definition>
+        <argsstring>()</argsstring>
+        <name>Choose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a5cec2453e82e14ebdb88b48c4cfd2574" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AddPhotoController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.designer.cs" bodystart="50" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for adding a photo </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1620">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1621" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1619">
+        <label>FieldService.iOS.AddPhotoController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_photo_controller"/>
+        <childnode refid="1620" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1621">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1623">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1624" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1622">
+        <label>FieldService.iOS.AddPhotoController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_photo_controller"/>
+        <childnode refid="1623" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1624">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddPhotoController.cs" bodystart="28" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a9a6f2ffd465fc90c33d3575e98616230" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>AddPhotoController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a93a1a6c2a99844925125344fc7199b97" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>alertView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1abd0b6f735fc35fe01290f27f2dacafb3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1af383e9b06a394b33b85d093b2776a9f7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>Cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ae3716680b988a6b48ee3355f75ff5361" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>Cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a49795fd6b0d2d1f7e3ada465fe9cb35e" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aa576001057269753a44e67ae93f94baa" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>Choose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a3eb3da5f7c3bf041c26e0f6d846a15ea" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>date</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aec8fa40708bae15b73b4b1572c795340" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>deleteButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a4a0426072344bd850c8f5207a1a7d0a5" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>DeletePhoto</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a4a0426072344bd850c8f5207a1a7d0a5" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>DeletePhoto</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a067a47ccdea00cbe6dbd4fbfa1191eec" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>description</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ab76e18661ea08afaf7a7996419a2050b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>descriptionBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a612a7cf78072a1fce03a13b8bc7c06be" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>Dismissed</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a3baf41de8aa5a1aa3e186cd8af0afe50" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>image</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a5a12a4edd9d64aed85d208d596ffd2b9" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>photo</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a7484c889dca311f2893f99ad44903d5e" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>photoFrame</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1ae365d15c7643564be7e18212243ff8ec" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a5cec2453e82e14ebdb88b48c4cfd2574" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aaa1b10d6b0b03fd4ee5154385a34fe5a" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>Save</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1adb7cab6d8802697a9601b4465e1e30b7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>time</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a426a9124efa7db798df2783d50db4b9f" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1aff25340e5f010586f27618bcc330833d" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ViewDidDisappear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a2313a818ff8f62192f5a27bec451f4b9" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a0ffc0da9c8cbbf4fb154f580dc5a4d20" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ViewWillAppear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_photo_controller_1a8922af3b3adebaf687203014c0bec107" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddPhotoController</scope><name>ViewWillDisappear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

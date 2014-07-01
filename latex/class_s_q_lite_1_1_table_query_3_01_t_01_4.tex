@@ -1,0 +1,218 @@
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4}{\section{S\+Q\+Lite.\+Table\+Query$<$ T $>$ Class Template Reference}
+\label{class_s_q_lite_1_1_table_query_3_01_t_01_4}\index{S\+Q\+Lite.\+Table\+Query$<$ T $>$@{S\+Q\+Lite.\+Table\+Query$<$ T $>$}}
+}
+
+
+Inheritance diagram for S\+Q\+Lite.\+Table\+Query$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_s_q_lite_1_1_table_query_3_01_t_01_4__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for S\+Q\+Lite.\+Table\+Query$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{class_s_q_lite_1_1_table_query_3_01_t_01_4__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a2e3874f45af10a8c44db821c7a848aab}{Table\+Query} (\hyperlink{class_s_q_lite_1_1_s_q_lite_connection}{S\+Q\+Lite\+Connection} conn)
+\item 
+Table\+Query$<$ U $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a744de6c9fda8bf39de015ae41c0b2cb3}{Clone$<$ U $>$} ()
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_aafcda8a0d85fc7708bc29cc1ae254be5}{Where} (Expression$<$ Func$<$ T, bool $>$$>$ pred\+Expr)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_abc1454c5581e01ee57873a8c59101d5c}{Take} (int n)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a4bf49d4c603ea8a6db6d65e51bdd6458}{Skip} (int n)
+\item 
+T \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1adf19dc2456239c4b4a900995b2794d}{Element\+At} (int index)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a158964fb1e56e6679ab94cf101dcc6b3}{Deferred} ()
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_ae35684d62851a521aac3419af0c565fb}{Order\+By$<$ U $>$} (Expression$<$ Func$<$ T, U $>$$>$ order\+Expr)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_aacf40c5e9162c7f25ebdb78a2811aec9}{Order\+By\+Descending$<$ U $>$} (Expression$<$ Func$<$ T, U $>$$>$ order\+Expr)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a8fd46c541dda61605ecdcada1684b9b7}{Then\+By$<$ U $>$} (Expression$<$ Func$<$ T, U $>$$>$ order\+Expr)
+\item 
+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a589fb8db3bbfe57b0f08aeea32e574ee}{Then\+By\+Descending$<$ U $>$} (Expression$<$ Func$<$ T, U $>$$>$ order\+Expr)
+\item 
+Table\+Query$<$ T\+Result $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a292ef3b90067c4393cf377c369d942a1}{Join$<$ T\+Inner, T\+Key, T\+Result $>$} (Table\+Query$<$ T\+Inner $>$ inner, Expression$<$ Func$<$ T, T\+Key $>$$>$ outer\+Key\+Selector, Expression$<$ Func$<$ T\+Inner, T\+Key $>$$>$ inner\+Key\+Selector, Expression$<$ Func$<$ T, T\+Inner, T\+Result $>$$>$ result\+Selector)
+\item 
+Table\+Query$<$ T\+Result $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3726c9bfa1bb9a0efa35f847a3d9d77e}{Select$<$ T\+Result $>$} (Expression$<$ Func$<$ T, T\+Result $>$$>$ selector)
+\item 
+int \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_afc74d6d1b8ca720c3a26d6a0c0ca6b86}{Count} ()
+\item 
+int \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_abe589a906a2c592fc25587d441acca33}{Count} (Expression$<$ Func$<$ T, bool $>$$>$ pred\+Expr)
+\item 
+I\+Enumerator$<$ T $>$ \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3929d540dd0a888291077626d4690202}{Get\+Enumerator} ()
+\item 
+T \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a5d9bc1e1c29e1da74671e17033f2badb}{First} ()
+\item 
+T \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a517c2275d7bd055d07f0b810cb8ae179}{First\+Or\+Default} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_q_lite_1_1_s_q_lite_connection}{S\+Q\+Lite\+Connection} \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1bd298971d8227cb1b0b57c2260a681a}{Connection}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\hyperlink{class_s_q_lite_1_1_table_mapping}{Table\+Mapping} \hyperlink{class_s_q_lite_1_1_table_query_3_01_t_01_4_a9ec80a11185abc4cc6766789d1723b4c}{Table}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a2e3874f45af10a8c44db821c7a848aab}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Table\+Query@{Table\+Query}}
+\index{Table\+Query@{Table\+Query}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Table\+Query}]{\setlength{\rightskip}{0pt plus 5cm}S\+Q\+Lite.\+Table\+Query$<$ T $>$.Table\+Query (
+\begin{DoxyParamCaption}
+\item[{{\bf S\+Q\+Lite\+Connection}}]{conn}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a2e3874f45af10a8c44db821c7a848aab}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a744de6c9fda8bf39de015ae41c0b2cb3}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Clone$<$ U $>$@{Clone$<$ U $>$}}
+\index{Clone$<$ U $>$@{Clone$<$ U $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Clone$<$ U $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$U$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Clone$<$ U $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a744de6c9fda8bf39de015ae41c0b2cb3}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_afc74d6d1b8ca720c3a26d6a0c0ca6b86}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Count@{Count}}
+\index{Count@{Count}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Count}]{\setlength{\rightskip}{0pt plus 5cm}int S\+Q\+Lite.\+Table\+Query$<$ T $>$.Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_afc74d6d1b8ca720c3a26d6a0c0ca6b86}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_abe589a906a2c592fc25587d441acca33}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Count@{Count}}
+\index{Count@{Count}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Count}]{\setlength{\rightskip}{0pt plus 5cm}int S\+Q\+Lite.\+Table\+Query$<$ T $>$.Count (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, bool $>$$>$}]{pred\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_abe589a906a2c592fc25587d441acca33}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a158964fb1e56e6679ab94cf101dcc6b3}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Deferred@{Deferred}}
+\index{Deferred@{Deferred}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Deferred}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Deferred (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a158964fb1e56e6679ab94cf101dcc6b3}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1adf19dc2456239c4b4a900995b2794d}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Element\+At@{Element\+At}}
+\index{Element\+At@{Element\+At}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Element\+At}]{\setlength{\rightskip}{0pt plus 5cm}T S\+Q\+Lite.\+Table\+Query$<$ T $>$.Element\+At (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1adf19dc2456239c4b4a900995b2794d}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a5d9bc1e1c29e1da74671e17033f2badb}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!First@{First}}
+\index{First@{First}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{First}]{\setlength{\rightskip}{0pt plus 5cm}T S\+Q\+Lite.\+Table\+Query$<$ T $>$.First (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a5d9bc1e1c29e1da74671e17033f2badb}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a517c2275d7bd055d07f0b810cb8ae179}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!First\+Or\+Default@{First\+Or\+Default}}
+\index{First\+Or\+Default@{First\+Or\+Default}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{First\+Or\+Default}]{\setlength{\rightskip}{0pt plus 5cm}T S\+Q\+Lite.\+Table\+Query$<$ T $>$.First\+Or\+Default (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a517c2275d7bd055d07f0b810cb8ae179}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3929d540dd0a888291077626d4690202}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Get\+Enumerator@{Get\+Enumerator}}
+\index{Get\+Enumerator@{Get\+Enumerator}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Get\+Enumerator}]{\setlength{\rightskip}{0pt plus 5cm}I\+Enumerator$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Get\+Enumerator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3929d540dd0a888291077626d4690202}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a292ef3b90067c4393cf377c369d942a1}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Join$<$ T\+Inner, T\+Key, T\+Result $>$@{Join$<$ T\+Inner, T\+Key, T\+Result $>$}}
+\index{Join$<$ T\+Inner, T\+Key, T\+Result $>$@{Join$<$ T\+Inner, T\+Key, T\+Result $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Join$<$ T\+Inner, T\+Key, T\+Result $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T\+Result$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Join$<$ T\+Inner, T\+Key, T\+Result $>$ (
+\begin{DoxyParamCaption}
+\item[{Table\+Query$<$ T\+Inner $>$}]{inner, }
+\item[{Expression$<$ Func$<$ T, T\+Key $>$$>$}]{outer\+Key\+Selector, }
+\item[{Expression$<$ Func$<$ T\+Inner, T\+Key $>$$>$}]{inner\+Key\+Selector, }
+\item[{Expression$<$ Func$<$ T, T\+Inner, T\+Result $>$$>$}]{result\+Selector}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a292ef3b90067c4393cf377c369d942a1}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_ae35684d62851a521aac3419af0c565fb}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Order\+By$<$ U $>$@{Order\+By$<$ U $>$}}
+\index{Order\+By$<$ U $>$@{Order\+By$<$ U $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Order\+By$<$ U $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Order\+By$<$ U $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, U $>$$>$}]{order\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_ae35684d62851a521aac3419af0c565fb}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_aacf40c5e9162c7f25ebdb78a2811aec9}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Order\+By\+Descending$<$ U $>$@{Order\+By\+Descending$<$ U $>$}}
+\index{Order\+By\+Descending$<$ U $>$@{Order\+By\+Descending$<$ U $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Order\+By\+Descending$<$ U $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Order\+By\+Descending$<$ U $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, U $>$$>$}]{order\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_aacf40c5e9162c7f25ebdb78a2811aec9}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3726c9bfa1bb9a0efa35f847a3d9d77e}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Select$<$ T\+Result $>$@{Select$<$ T\+Result $>$}}
+\index{Select$<$ T\+Result $>$@{Select$<$ T\+Result $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Select$<$ T\+Result $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T\+Result$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Select$<$ T\+Result $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, T\+Result $>$$>$}]{selector}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a3726c9bfa1bb9a0efa35f847a3d9d77e}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a4bf49d4c603ea8a6db6d65e51bdd6458}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Skip@{Skip}}
+\index{Skip@{Skip}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Skip}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Skip (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a4bf49d4c603ea8a6db6d65e51bdd6458}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_abc1454c5581e01ee57873a8c59101d5c}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Take@{Take}}
+\index{Take@{Take}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Take}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Take (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_abc1454c5581e01ee57873a8c59101d5c}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a8fd46c541dda61605ecdcada1684b9b7}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Then\+By$<$ U $>$@{Then\+By$<$ U $>$}}
+\index{Then\+By$<$ U $>$@{Then\+By$<$ U $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Then\+By$<$ U $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Then\+By$<$ U $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, U $>$$>$}]{order\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a8fd46c541dda61605ecdcada1684b9b7}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a589fb8db3bbfe57b0f08aeea32e574ee}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Then\+By\+Descending$<$ U $>$@{Then\+By\+Descending$<$ U $>$}}
+\index{Then\+By\+Descending$<$ U $>$@{Then\+By\+Descending$<$ U $>$}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Then\+By\+Descending$<$ U $>$}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Then\+By\+Descending$<$ U $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, U $>$$>$}]{order\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a589fb8db3bbfe57b0f08aeea32e574ee}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_aafcda8a0d85fc7708bc29cc1ae254be5}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Where@{Where}}
+\index{Where@{Where}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Where}]{\setlength{\rightskip}{0pt plus 5cm}Table\+Query$<$T$>$ S\+Q\+Lite.\+Table\+Query$<$ T $>$.Where (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, bool $>$$>$}]{pred\+Expr}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_aafcda8a0d85fc7708bc29cc1ae254be5}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1bd298971d8227cb1b0b57c2260a681a}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Connection@{Connection}}
+\index{Connection@{Connection}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Connection}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\+Q\+Lite\+Connection} S\+Q\+Lite.\+Table\+Query$<$ T $>$.Connection\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a1bd298971d8227cb1b0b57c2260a681a}
+\hypertarget{class_s_q_lite_1_1_table_query_3_01_t_01_4_a9ec80a11185abc4cc6766789d1723b4c}{\index{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}!Table@{Table}}
+\index{Table@{Table}!S\+Q\+Lite\+::\+Table\+Query$<$ T $>$@{S\+Q\+Lite\+::\+Table\+Query$<$ T $>$}}
+\subsubsection[{Table}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Table\+Mapping} S\+Q\+Lite.\+Table\+Query$<$ T $>$.Table\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_s_q_lite_1_1_table_query_3_01_t_01_4_a9ec80a11185abc4cc6766789d1723b4c}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Dependencies/sqlite-\/net/src/\hyperlink{_s_q_lite_8cs}{S\+Q\+Lite.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_labor_type_text_field" kind="class" prot="public">
+    <compoundname>FieldService::iOS::LaborTypeTextField</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITextField</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model" prot="private">FieldService::iOS::LaborTypeTextField::PickerModel</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a43887e745fb127c988ce8e3afe3e3a0d" prot="private" static="no" mutable="no">
+        <type>UIToolbar</type>
+        <definition>UIToolbar FieldService.iOS.LaborTypeTextField.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a3db643c0c799111fed54c3f0b51404de" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.LaborTypeTextField.done</definition>
+        <argsstring></argsstring>
+        <name>done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a058e832632d0aee0af57c01634184d44" prot="private" static="no" mutable="no">
+        <type>UIPickerView</type>
+        <definition>UIPickerView FieldService.iOS.LaborTypeTextField.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a3b5756b9833514c715939c6e75fe658d" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref></type>
+        <definition>LaborType FieldService.iOS.LaborTypeTextField.laborType</definition>
+        <argsstring></argsstring>
+        <name>laborType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ad1d3384d1d8d6d01798f89aee1bc4cb8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref></type>
+        <definition>LaborType FieldService.iOS.LaborTypeTextField.LaborType</definition>
+        <argsstring></argsstring>
+        <name>LaborType</name>
+        <briefdescription>
+<para>Gets or sets the current labor type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a90fd479edc36f53c20b4beaba0f4965a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LaborTypeTextField.LaborTypeTextField</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>LaborTypeTextField</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a03572dddfa1e9d5ddb53ad2d63b93b51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LaborTypeTextField.LaborTypeTextField</definition>
+        <argsstring>(RectangleF frame)</argsstring>
+        <name>LaborTypeTextField</name>
+        <param>
+          <type>RectangleF</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ac6020310be78db5f927753692efd3a4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LaborTypeTextField.LaborTypeTextField</definition>
+        <argsstring>()</argsstring>
+        <name>LaborTypeTextField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a7e40e820e6fa2db42281ee26917ef4d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LaborTypeTextField.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+<para>Sets up the text field, toolbar, input accessory view, etc. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="55" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ab6f8c6945e387169d8d69309c63ca2ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LaborTypeTextField.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>summary&gt; Sets up the &quot;delegate&quot; for the UIPickerView - not sure why Apple chose &quot;ViewModel&quot; as their wording here </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Custom text field for choosing a labor type -&gt; uses UIPickerView underneath </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2498">
+        <label>FieldService.iOS.LaborTypeTextField</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field"/>
+        <childnode refid="2499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2499">
+        <label>UITextField</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2500">
+        <label>FieldService.iOS.LaborTypeTextField</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field"/>
+        <childnode refid="2501" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2501">
+        <label>UITextField</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="28" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ab6f8c6945e387169d8d69309c63ca2ce" prot="protected" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a3db643c0c799111fed54c3f0b51404de" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>done</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a7e40e820e6fa2db42281ee26917ef4d8" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>Initialize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a3b5756b9833514c715939c6e75fe658d" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>laborType</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ad1d3384d1d8d6d01798f89aee1bc4cb8" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>LaborType</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a90fd479edc36f53c20b4beaba0f4965a" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>LaborTypeTextField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a03572dddfa1e9d5ddb53ad2d63b93b51" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>LaborTypeTextField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1ac6020310be78db5f927753692efd3a4f" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>LaborTypeTextField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a058e832632d0aee0af57c01634184d44" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>picker</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1a43887e745fb127c988ce8e3afe3e3a0d" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField</scope><name>toolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

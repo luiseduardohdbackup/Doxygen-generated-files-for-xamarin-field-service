@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_login_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::LoginController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_login_controller_1a2968ed8893aaea60be74cb401e49b55f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.iOS.LoginController.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_login_controller_1a473fcec2ea2406e53282810ea8a96570" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_tab_controller" kindref="compound">TabController</ref></type>
+        <definition>TabController FieldService.iOS.LoginController.tabController</definition>
+        <argsstring></argsstring>
+        <name>tabController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a11e5e7e6c78c42a8b87bbd2de93b0136" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.LoginController.HandlesKeyboardNotifications</definition>
+        <argsstring></argsstring>
+        <name>HandlesKeyboardNotifications</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1abad2c66dee0ba2e8aebf88e17046bc7b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.LoginController.box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a1ac201bf20cda4f637034af034f7657b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.LoginController.companyName</definition>
+        <argsstring></argsstring>
+        <name>companyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a9af6e4cb091b8201716329ee5fbcd600" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIView</type>
+        <definition>MonoTouch.UIKit.UIView FieldService.iOS.LoginController.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1aaebcfa291f11a3d3ccfd9e88c39515bf" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.LoginController.hexagons</definition>
+        <argsstring></argsstring>
+        <name>hexagons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a1739e1298e9e8d9fb5ba31920a75eac8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIActivityIndicatorView</type>
+        <definition>MonoTouch.UIKit.UIActivityIndicatorView FieldService.iOS.LoginController.indicator</definition>
+        <argsstring></argsstring>
+        <name>indicator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a607d6e5a619ec163608a08394a27447a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.LoginController.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1aaf0dfc1146923ac3a7490e3ffb489928" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.LoginController.logo</definition>
+        <argsstring></argsstring>
+        <name>logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1a617d1b786634103b1973319d7e833f3c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITextField</type>
+        <definition>MonoTouch.UIKit.UITextField FieldService.iOS.LoginController.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1ae36eb3064d6f5abd31e716a39a3763f1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.LoginController.questionMark</definition>
+        <argsstring></argsstring>
+        <name>questionMark</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_login_controller_1ac5942e6964f4eff24fa3c2825d6a6871" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITextField</type>
+        <definition>MonoTouch.UIKit.UITextField FieldService.iOS.LoginController.username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a1129421003c64566662f8d156f75d4ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LoginController.LoginController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>LoginController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1ac86aee5f609ce3d98eea0d92733b8876" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LoginController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="77" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a3350240076bc16dc969450b082a0b8e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LoginController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="179" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="179" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a635a1ce91543ea9cb484eb8cc9769e3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LoginController.OnIsBusyChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnIsBusyChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="42" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a2c69e03d984be0d1ae42be2549f63474" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LoginController.OnIsValidChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnIsValidChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a3841cc3f499183701184a0da1c290d3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.LoginController.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="192" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="192" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1adbc28c017d2b1e216c4d74a6308c1401" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.LoginController.Help</definition>
+        <argsstring>()</argsstring>
+        <name>Help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="209" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1adbc28c017d2b1e216c4d74a6308c1401" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.LoginController.Help</definition>
+        <argsstring>()</argsstring>
+        <name>Help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a3841cc3f499183701184a0da1c290d3b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.LoginController.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1ac4d5f73c2624ff52ce25fc03cb7736ac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LoginController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.designer.cs" bodystart="51" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1af7115d16096cf2eaf409749db6876abc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LoginController.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_login_controller_1a5071d7cae49acfa60a6c2fe6c78cf856" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LoginController.OnKeyboardChanged</definition>
+        <argsstring>(bool visible, float height)</argsstring>
+        <name>OnKeyboardChanged</name>
+        <reimplements refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9">OnKeyboardChanged</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Override this method to apply custom logic when the keyboard is shown/hidden </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the keyboard is visible </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Calculated height of the keyboard (width not generally needed here) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="214" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="214" bodyend="223"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for the login screen </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2571">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2572" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2570">
+        <label>FieldService.iOS.LoginController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_login_controller"/>
+        <childnode refid="2571" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2572">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2574">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2575" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2573">
+        <label>FieldService.iOS.LoginController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_login_controller"/>
+        <childnode refid="2574" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2575">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/LoginController.cs" bodystart="28" bodyend="224"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1abad2c66dee0ba2e8aebf88e17046bc7b" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>box</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a1ac201bf20cda4f637034af034f7657b" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>companyName</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a9af6e4cb091b8201716329ee5fbcd600" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>container</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1af7115d16096cf2eaf409749db6876abc" prot="protected" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a11e5e7e6c78c42a8b87bbd2de93b0136" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1adbc28c017d2b1e216c4d74a6308c1401" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>Help</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1adbc28c017d2b1e216c4d74a6308c1401" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>Help</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1aaebcfa291f11a3d3ccfd9e88c39515bf" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>hexagons</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a1739e1298e9e8d9fb5ba31920a75eac8" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>indicator</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a607d6e5a619ec163608a08394a27447a" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>login</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a3841cc3f499183701184a0da1c290d3b" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>Login</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a3841cc3f499183701184a0da1c290d3b" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>Login</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a1129421003c64566662f8d156f75d4ae" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>LoginController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a2968ed8893aaea60be74cb401e49b55f" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1aaf0dfc1146923ac3a7490e3ffb489928" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>logo</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a635a1ce91543ea9cb484eb8cc9769e3f" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a2c69e03d984be0d1ae42be2549f63474" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>OnIsValidChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a5071d7cae49acfa60a6c2fe6c78cf856" prot="protected" virt="virtual"><scope>FieldService::iOS::LoginController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a617d1b786634103b1973319d7e833f3c" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>password</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1ae36eb3064d6f5abd31e716a39a3763f1" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>questionMark</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1ac4d5f73c2624ff52ce25fc03cb7736ac" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a473fcec2ea2406e53282810ea8a96570" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>tabController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1ac5942e6964f4eff24fa3c2825d6a6871" prot="private" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>username</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1ac86aee5f609ce3d98eea0d92733b8876" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_login_controller_1a3350240076bc16dc969450b082a0b8e7" prot="public" virt="non-virtual"><scope>FieldService::iOS::LoginController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

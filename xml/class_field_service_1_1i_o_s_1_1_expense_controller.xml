@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_expense_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::ExpenseController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_expense_controller_1_1_table_source" prot="private">FieldService::iOS::ExpenseController::TableSource</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a39ee6350017892d638042bb2063d9497" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.ExpenseController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a3de93a40736b3eb0796699390f916eb1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>readonly ExpenseViewModel FieldService.iOS.ExpenseController.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1ab5d3e7011358531f5ff221cf19f01b45" prot="private" static="no" mutable="no">
+        <type>UILabel</type>
+        <definition>UILabel FieldService.iOS.ExpenseController.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1aa2951717b86211bb2aded69a4cde36fa" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.ExpenseController.titleButton</definition>
+        <argsstring></argsstring>
+        <name>titleButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1ad07af4e05b366f4845be44451798e621" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.ExpenseController.edit</definition>
+        <argsstring></argsstring>
+        <name>edit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1aa753f24648b880f53e02eb6484b7ef8f" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.ExpenseController.addItem</definition>
+        <argsstring></argsstring>
+        <name>addItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a6d12e4f260d9baf1d95a0ea1df88968a" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.ExpenseController.space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_expense_controller_1aeef2936f458b64872fe65d3a679c5e3a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITableView</type>
+        <definition>MonoTouch.UIKit.UITableView FieldService.iOS.ExpenseController.tableView</definition>
+        <argsstring></argsstring>
+        <name>tableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a326c0993d05b41a46cefa3cb2ec438a1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.ExpenseController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a72f03c69b07659780f8d95e2440b91a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.ExpenseController.ExpenseController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>ExpenseController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1aa148afd6d85a3f4186a66ff296a26aff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ExpenseController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="42" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a7d33ce3a8c1b9ef8f1a7d6ea3927e968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ExpenseController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a4481219fb32931b82c7dc85061694d60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ExpenseController.ViewWillDisappear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillDisappear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="89" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="89" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1ad3e74a759f1dbcc574f5852326535522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ExpenseController.ReloadExpenses</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadExpenses</name>
+        <briefdescription>
+<para>Reload the expenses </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="103" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1aa4cf636680156aa3048a962b3833e2eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ExpenseController.UpdateToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateToolbar</name>
+        <briefdescription>
+<para>Refreshes toolbar items and updates text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="121" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="121" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1ac5b66411a47046ba4a20ac69808677c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ExpenseController.OnAddExpense</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnAddExpense</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="149" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_controller_1a5b728b34df763b432e7b3f12fc0f4e41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ExpenseController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.designer.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for the expenses section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2144">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2145">
+        <label>UIViewController</label>
+      </node>
+      <node id="2143">
+        <label>FieldService.iOS.ExpenseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_expense_controller"/>
+        <childnode refid="2144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2147">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2148">
+        <label>UIViewController</label>
+      </node>
+      <node id="2146">
+        <label>FieldService.iOS.ExpenseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_expense_controller"/>
+        <childnode refid="2147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ExpenseController.cs" bodystart="29" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1aa753f24648b880f53e02eb6484b7ef8f" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>addItem</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a39ee6350017892d638042bb2063d9497" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1ad07af4e05b366f4845be44451798e621" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>edit</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a72f03c69b07659780f8d95e2440b91a7" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ExpenseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a3de93a40736b3eb0796699390f916eb1" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1ac5b66411a47046ba4a20ac69808677c9" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>OnAddExpense</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::ExpenseController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a5b728b34df763b432e7b3f12fc0f4e41" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1ad3e74a759f1dbcc574f5852326535522" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ReloadExpenses</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a6d12e4f260d9baf1d95a0ea1df88968a" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>space</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1aeef2936f458b64872fe65d3a679c5e3a" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>tableView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1ab5d3e7011358531f5ff221cf19f01b45" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>title</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1aa2951717b86211bb2aded69a4cde36fa" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>titleButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a326c0993d05b41a46cefa3cb2ec438a1" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1aa4cf636680156aa3048a962b3833e2eb" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>UpdateToolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1aa148afd6d85a3f4186a66ff296a26aff" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a7d33ce3a8c1b9ef8f1a7d6ea3927e968" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ViewWillAppear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_controller_1a4481219fb32931b82c7dc85061694d60" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseController</scope><name>ViewWillDisappear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

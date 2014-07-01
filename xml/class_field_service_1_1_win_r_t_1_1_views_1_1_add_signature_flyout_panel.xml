@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::AddSignatureFlyoutPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel_1a81032fb73c2074b214527d9c01d2c9cc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.WinRT.Views.AddSignatureFlyoutPanel.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel_1ac5a83aecf31e4f91e1aefd75d1620a36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.AddSignatureFlyoutPanel.AddSignatureFlyoutPanel</definition>
+        <argsstring>()</argsstring>
+        <name>AddSignatureFlyoutPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" bodystart="39" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Flyout panel for adding signature to the assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1626">
+        <label>UserControl</label>
+      </node>
+      <node id="1625">
+        <label>FieldService.WinRT.Views.AddSignatureFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel"/>
+        <childnode refid="1626" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1628">
+        <label>UserControl</label>
+      </node>
+      <node id="1627">
+        <label>FieldService.WinRT.Views.AddSignatureFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel"/>
+        <childnode refid="1628" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddSignatureFlyoutPanel.xaml.cs" bodystart="37" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel_1ac5a83aecf31e4f91e1aefd75d1620a36" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AddSignatureFlyoutPanel</scope><name>AddSignatureFlyoutPanel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_signature_flyout_panel_1a81032fb73c2074b214527d9c01d2c9cc" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AddSignatureFlyoutPanel</scope><name>assignmentViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

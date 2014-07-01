@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_resource_1_1_attribute" kind="class" prot="public">
+    <compoundname>FieldService::Android::Resource::Attribute</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_attribute_1aed1aeaf240fee0773aef9be04b3cbae7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FieldService.Android.Resource.Attribute.Attribute</definition>
+        <argsstring>()</argsstring>
+        <name>Attribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_attribute_1a65f329642cedd37c798eff2760dd03e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Resource.Attribute.Attribute</definition>
+        <argsstring>()</argsstring>
+        <name>Attribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="41" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="33" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_attribute_1aed1aeaf240fee0773aef9be04b3cbae7" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Attribute</scope><name>Attribute</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_attribute_1a65f329642cedd37c798eff2760dd03e6" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Attribute</scope><name>Attribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

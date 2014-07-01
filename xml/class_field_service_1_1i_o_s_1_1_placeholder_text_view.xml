@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_placeholder_text_view" kind="class" prot="public">
+    <compoundname>FieldService::iOS::PlaceholderTextView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITextView</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a1d0d8eaf2c61ef8fc99f4788c22a35d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.iOS.PlaceholderTextView.Placeholder</definition>
+        <argsstring></argsstring>
+        <name>Placeholder</name>
+        <briefdescription>
+<para>Gets or sets the placeholder to show prior to editing - doesn&apos;t exist on UITextView by default </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a0ea01bc625514b795128dc8d58c535ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.PlaceholderTextView.PlaceholderTextView</definition>
+        <argsstring>()</argsstring>
+        <name>PlaceholderTextView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a5c82751d2260399ba1fc90747e5e6024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.PlaceholderTextView.PlaceholderTextView</definition>
+        <argsstring>(RectangleF frame)</argsstring>
+        <name>PlaceholderTextView</name>
+        <param>
+          <type>RectangleF</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a4662b33788c911a197e3cc4db6786409" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.PlaceholderTextView.PlaceholderTextView</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>PlaceholderTextView</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1aeb71a82c488bc963bbfffb9a4eeae05b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.PlaceholderTextView.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="45" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A quick subclass of UITextView to enable placeholder text </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2918">
+        <label>UITextView</label>
+      </node>
+      <node id="2917">
+        <label>FieldService.iOS.PlaceholderTextView</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view"/>
+        <childnode refid="2918" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2920">
+        <label>UITextView</label>
+      </node>
+      <node id="2919">
+        <label>FieldService.iOS.PlaceholderTextView</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view"/>
+        <childnode refid="2920" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PlaceholderTextView.cs" bodystart="26" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1aeb71a82c488bc963bbfffb9a4eeae05b" prot="private" virt="non-virtual"><scope>FieldService::iOS::PlaceholderTextView</scope><name>Initialize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a1d0d8eaf2c61ef8fc99f4788c22a35d6" prot="public" virt="non-virtual"><scope>FieldService::iOS::PlaceholderTextView</scope><name>Placeholder</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a0ea01bc625514b795128dc8d58c535ea" prot="public" virt="non-virtual"><scope>FieldService::iOS::PlaceholderTextView</scope><name>PlaceholderTextView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a5c82751d2260399ba1fc90747e5e6024" prot="public" virt="non-virtual"><scope>FieldService::iOS::PlaceholderTextView</scope><name>PlaceholderTextView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view_1a4662b33788c911a197e3cc4db6786409" prot="public" virt="non-virtual"><scope>FieldService::iOS::PlaceholderTextView</scope><name>PlaceholderTextView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

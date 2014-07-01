@@ -1,0 +1,108 @@
+.TH "FieldService.WinRT.ViewModels.PhotoViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.PhotoViewModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.PhotoViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPhotoViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnPropertyChanged\fP (string propertyName)"
+.br
+.RI "\fIProtected method for firing PropertyChanged \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBPhotoSelectedCommand\fP\fC [get]\fP"
+.br
+.RI "\fIPhoto selected command \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBSavePhotoCommand\fP\fC [get]\fP"
+.br
+.RI "\fISaving photo command \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDeletePhotoCommand\fP\fC [get]\fP"
+.br
+.RI "\fIDeleting photo command \fP"
+.ti -1c
+.RI "override \fBPhoto\fP \fBSelectedPhoto\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBCanDelete\fP\fC [get]\fP"
+.br
+.RI "\fIbool value for showing delete button \fP"
+.ti -1c
+.RI "bool \fBCanSave\fP\fC [get]\fP"
+.br
+.RI "\fIbool value for showing save button \fP"
+.ti -1c
+.RI "bool \fBIsNotReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for not is history \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.PhotoViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.OnPropertyChanged (stringpropertyName)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for firing PropertyChanged 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpropertyName\fP The name of the property that changed
+.RE
+.PP
+
+.PP
+Reimplemented from \fBFieldService\&.Data\&.PropertyChangedBase\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.CanDelete\fC [get]\fP"
+
+.PP
+bool value for showing delete button 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.CanSave\fC [get]\fP"
+
+.PP
+bool value for showing save button 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.DeletePhotoCommand\fC [get]\fP"
+
+.PP
+Deleting photo command 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.IsNotReadonly\fC [get]\fP"
+
+.PP
+Value for not is history 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.PhotoSelectedCommand\fC [get]\fP"
+
+.PP
+Photo selected command 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.SavePhotoCommand\fC [get]\fP"
+
+.PP
+Saving photo command 
+.SS "override \fBPhoto\fP FieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\&.SelectedPhoto\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

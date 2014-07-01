@@ -1,0 +1,4 @@
+<map id="FieldService.ViewModels.HistoryViewModel" name="FieldService.ViewModels.HistoryViewModel">
+<area shape="rect" id="node2" href="$class_field_service_1_1_view_models_1_1_view_model_base.html" title="Base class for all view models " alt="" coords="34,155,149,181"/>
+<area shape="rect" id="node3" href="$class_field_service_1_1_data_1_1_property_changed_base.html" title="Base class for implementing INotifyPropertyChanged " alt="" coords="14,81,169,106"/>
+</map>

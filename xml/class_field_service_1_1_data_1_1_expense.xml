@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_expense" kind="class" prot="public">
+    <compoundname>FieldService::Data::Expense</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1aa52fab6bcef532f409acbc1b74efc8a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Expense.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Id of the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1adf4d52782e255df6159d3875107a36e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref></type>
+        <definition>ExpenseCategory FieldService.Data.Expense.Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <briefdescription>
+<para>A category to identify the expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1acc079177bac1716caa5d28df4e453a6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Expense.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>An extended description of the expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1ae348a76981516e1e6345edcd88ab1821" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal FieldService.Data.Expense.Cost</definition>
+        <argsstring></argsstring>
+        <name>Cost</name>
+        <briefdescription>
+<para>The cost of the expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1ab8f4a22623093af7fa54c2ac258a7eba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.Data.Expense.HasPhoto</definition>
+        <argsstring></argsstring>
+        <name>HasPhoto</name>
+        <briefdescription>
+<para>The expense has a photo attached to it </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1a2747ec9bcbc585b28707ab9d52205f93" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Expense.AssignmentId</definition>
+        <argsstring></argsstring>
+        <name>AssignmentId</name>
+        <briefdescription>
+<para>Link to an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1a25af4c85b63dfb53ef00e618c4967c4c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Expense.CategoryAsString</definition>
+        <argsstring></argsstring>
+        <name>CategoryAsString</name>
+        <briefdescription>
+<para>A nicely string formatted version of Type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_expense_1a220b3abc26e29c0adc432df6ba9ff993" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Expense.CostFormatted</definition>
+        <argsstring></argsstring>
+        <name>CostFormatted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An expense associated with an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Expense.cs" bodystart="27" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_expense_1a2747ec9bcbc585b28707ab9d52205f93" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>AssignmentId</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1adf4d52782e255df6159d3875107a36e9" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>Category</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1a25af4c85b63dfb53ef00e618c4967c4c" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>CategoryAsString</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1ae348a76981516e1e6345edcd88ab1821" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>Cost</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1a220b3abc26e29c0adc432df6ba9ff993" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>CostFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1acc079177bac1716caa5d28df4e453a6d" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>Description</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1ab8f4a22623093af7fa54c2ac258a7eba" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>HasPhoto</name></member>
+      <member refid="class_field_service_1_1_data_1_1_expense_1aa52fab6bcef532f409acbc1b74efc8a2" prot="public" virt="non-virtual"><scope>FieldService::Data::Expense</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

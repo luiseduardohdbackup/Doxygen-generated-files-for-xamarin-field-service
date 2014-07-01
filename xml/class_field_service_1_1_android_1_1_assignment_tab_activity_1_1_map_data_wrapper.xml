@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper" kind="class" prot="public">
+    <compoundname>FieldService::Android::AssignmentTabActivity::MapDataWrapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISerializable</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1ab671c8fd695d3f85cf790445df7d0b58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Android.AssignmentTabActivity.MapDataWrapper.Zoom</definition>
+        <argsstring></argsstring>
+        <name>Zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1a59a213f78bba253c62751e86954860fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>View</type>
+        <definition>View FieldService.Android.AssignmentTabActivity.MapDataWrapper.OverlayBubble</definition>
+        <argsstring></argsstring>
+        <name>OverlayBubble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="138" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1af6000fee7835fb43bdab26f6a83cf8ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GeoPoint</type>
+        <definition>GeoPoint FieldService.Android.AssignmentTabActivity.MapDataWrapper.OverlayPoint</definition>
+        <argsstring></argsstring>
+        <name>OverlayPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2664">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="2663">
+        <label>FieldService.Android.AssignmentTabActivity.MapDataWrapper</label>
+        <link refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper"/>
+        <childnode refid="2664" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2665">
+        <label>Java::IO::ISerializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2667">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="2666">
+        <label>FieldService.Android.AssignmentTabActivity.MapDataWrapper</label>
+        <link refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper"/>
+        <childnode refid="2667" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2668" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2668">
+        <label>Java::IO::ISerializable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="136" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="136" bodyend="140"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1a59a213f78bba253c62751e86954860fa" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity::MapDataWrapper</scope><name>OverlayBubble</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1af6000fee7835fb43bdab26f6a83cf8ea" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity::MapDataWrapper</scope><name>OverlayPoint</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper_1ab671c8fd695d3f85cf790445df7d0b58" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity::MapDataWrapper</scope><name>Zoom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

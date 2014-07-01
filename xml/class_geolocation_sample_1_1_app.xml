@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_app" kind="class" prot="public">
+    <compoundname>GeolocationSample::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_geolocation_sample_1_1_app_1a3abab21a0c44412a9986837630d0398a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>PhoneApplicationFrame</type>
+        <definition>PhoneApplicationFrame GeolocationSample.App.RootFrame</definition>
+        <argsstring></argsstring>
+        <name>RootFrame</name>
+        <briefdescription>
+<para>Provides easy access to the root frame of the Phone Application. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The root frame of the Phone Application.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_app_1ab9b44ce32d6468a51b19366fa951ef89" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GeolocationSample.App.phoneApplicationInitialized</definition>
+        <argsstring></argsstring>
+        <name>phoneApplicationInitialized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a8ca9f81d1e0700c208b07d1e4d389df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Constructor for the Application object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="29" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a4074bc0a353170a156560f00a84761d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.Application_Launching</definition>
+        <argsstring>(object sender, LaunchingEventArgs e)</argsstring>
+        <name>Application_Launching</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>LaunchingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1af56f756948335acd3ebcf32e0b141ac5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.Application_Activated</definition>
+        <argsstring>(object sender, ActivatedEventArgs e)</argsstring>
+        <name>Application_Activated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ActivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a49f1899cbe4d7ed955608999e27c251b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.Application_Deactivated</definition>
+        <argsstring>(object sender, DeactivatedEventArgs e)</argsstring>
+        <name>Application_Deactivated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DeactivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a6c275cdd4018e7873f72b43d1615eedb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.Application_Closing</definition>
+        <argsstring>(object sender, ClosingEventArgs e)</argsstring>
+        <name>Application_Closing</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ClosingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a1121f5738d911614036f4e5777d0a5f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.RootFrame_NavigationFailed</definition>
+        <argsstring>(object sender, NavigationFailedEventArgs e)</argsstring>
+        <name>RootFrame_NavigationFailed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationFailedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a41922e561747a50a0c2ffda182d47a51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.Application_UnhandledException</definition>
+        <argsstring>(object sender, ApplicationUnhandledExceptionEventArgs e)</argsstring>
+        <name>Application_UnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ApplicationUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a1e959e0bda8660a78de1416e31c998c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.InitializePhoneApplication</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePhoneApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="112" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_app_1a0b715c2d23db1b285026d79d1b9cfb53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.App.CompleteInitializePhoneApplication</definition>
+        <argsstring>(object sender, NavigationEventArgs e)</argsstring>
+        <name>CompleteInitializePhoneApplication</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1648">
+        <label>Application</label>
+      </node>
+      <node id="1647">
+        <label>GeolocationSample.App</label>
+        <link refid="class_geolocation_sample_1_1_app"/>
+        <childnode refid="1648" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1650">
+        <label>Application</label>
+      </node>
+      <node id="1649">
+        <label>GeolocationSample.App</label>
+        <link refid="class_geolocation_sample_1_1_app"/>
+        <childnode refid="1650" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/App.xaml.cs" bodystart="18" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_app_1a8ca9f81d1e0700c208b07d1e4d389df7" prot="public" virt="non-virtual"><scope>GeolocationSample::App</scope><name>App</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1af56f756948335acd3ebcf32e0b141ac5" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>Application_Activated</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a6c275cdd4018e7873f72b43d1615eedb" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>Application_Closing</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a49f1899cbe4d7ed955608999e27c251b" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>Application_Deactivated</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a4074bc0a353170a156560f00a84761d4" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>Application_Launching</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a41922e561747a50a0c2ffda182d47a51" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>Application_UnhandledException</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a0b715c2d23db1b285026d79d1b9cfb53" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>CompleteInitializePhoneApplication</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a1e959e0bda8660a78de1416e31c998c3" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>InitializePhoneApplication</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1ab9b44ce32d6468a51b19366fa951ef89" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>phoneApplicationInitialized</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a3abab21a0c44412a9986837630d0398a" prot="public" virt="non-virtual"><scope>GeolocationSample::App</scope><name>RootFrame</name></member>
+      <member refid="class_geolocation_sample_1_1_app_1a1121f5738d911614036f4e5777d0a5f8" prot="private" virt="non-virtual"><scope>GeolocationSample::App</scope><name>RootFrame_NavigationFailed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

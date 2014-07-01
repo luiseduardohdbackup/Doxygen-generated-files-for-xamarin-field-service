@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_document_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::DocumentViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.DocumentViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_document_view_model_1a36d506ea1f0e5580984fc0149395cfec" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.DocumentViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_document_view_model_1adb710ed956cd40b38f1b64cfdfeb3fff" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt;Document&gt; FieldService.ViewModels.DocumentViewModel.documents</definition>
+        <argsstring></argsstring>
+        <name>documents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_document_view_model_1a808fe9edb51b193c727cce909135ea7c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt;Document&gt; FieldService.ViewModels.DocumentViewModel.Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <briefdescription>
+<para>List of documents to display </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_document_view_model_1a604167c882b35aafc386b35aad6e197e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.DocumentViewModel.DocumentViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>DocumentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_document_view_model_1ae79f1abe88610667e547cfd5dd6f6f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.DocumentViewModel.LoadDocumentsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoadDocumentsAsync</name>
+        <briefdescription>
+<para>Gets the list of documents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewModel for managing documents </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2097">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2095">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2096" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2096">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2097" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2098">
+        <label>FieldService.WinRT.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2094" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2094">
+        <label>FieldService.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2095" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2102">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2100">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2101">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2099">
+        <label>FieldService.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/DocumentViewModel.cs" bodystart="14" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1adb710ed956cd40b38f1b64cfdfeb3fff" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>documents</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1a808fe9edb51b193c727cce909135ea7c" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>Documents</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1a604167c882b35aafc386b35aad6e197e" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>DocumentViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1ae79f1abe88610667e547cfd5dd6f6f9d" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>LoadDocumentsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1a36d506ea1f0e5580984fc0149395cfec" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::DocumentViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

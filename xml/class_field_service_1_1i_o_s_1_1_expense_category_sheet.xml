@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_expense_category_sheet" kind="class" prot="public">
+    <compoundname>FieldService::iOS::ExpenseCategorySheet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIActionSheet</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1a9b17085a3da93074c569e43c07344217" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref>[]</type>
+        <definition>readonly ExpenseCategory [] FieldService.iOS.ExpenseCategorySheet.categories</definition>
+        <argsstring></argsstring>
+        <name>categories</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1aa689555411d5756b1e3f50d2c085d9dc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref></type>
+        <definition>ExpenseCategory FieldService.iOS.ExpenseCategorySheet.Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <briefdescription>
+<para>The category the user selected, or null if none </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1a76a162888a9647f667a950cd2c250feb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.ExpenseCategorySheet.ExpenseCategorySheet</definition>
+        <argsstring>()</argsstring>
+        <name>ExpenseCategorySheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" bodystart="27" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2136">
+        <label>UIActionSheet</label>
+      </node>
+      <node id="2135">
+        <label>FieldService.iOS.ExpenseCategorySheet</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet"/>
+        <childnode refid="2136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2138">
+        <label>UIActionSheet</label>
+      </node>
+      <node id="2137">
+        <label>FieldService.iOS.ExpenseCategorySheet</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet"/>
+        <childnode refid="2138" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/ExpenseCategorySheet.cs" bodystart="23" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1a9b17085a3da93074c569e43c07344217" prot="private" virt="non-virtual"><scope>FieldService::iOS::ExpenseCategorySheet</scope><name>categories</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1aa689555411d5756b1e3f50d2c085d9dc" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseCategorySheet</scope><name>Category</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet_1a76a162888a9647f667a950cd2c250feb" prot="public" virt="non-virtual"><scope>FieldService::iOS::ExpenseCategorySheet</scope><name>ExpenseCategorySheet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

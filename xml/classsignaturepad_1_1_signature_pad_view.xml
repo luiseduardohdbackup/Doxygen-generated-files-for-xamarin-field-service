@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classsignaturepad_1_1_signature_pad_view" kind="class" prot="public">
+    <compoundname>signaturepad::SignaturePadView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FrameLayout</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classsignaturepad_1_1_signature_pad_view_1aa4579536c5bd3fbaad5e32860b2a66be" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String signaturepad.SignaturePadView.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsignaturepad_1_1_signature_pad_view_1ac6878888e9afdc845f1dad5cac67456c" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList signaturepad.SignaturePadView.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a5014a37c2bc70bc364e5dff684483528" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.SignaturePadView.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1aa7cf57f9db83213ff90f731f2903ecf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.SignaturePadView.SignaturePadView</definition>
+        <argsstring>(android.content.Context p0)</argsstring>
+        <name>SignaturePadView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a85e818056cb3914af8c18a261227ccea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.SignaturePadView.SignaturePadView</definition>
+        <argsstring>(android.content.Context p0, android.util.AttributeSet p1)</argsstring>
+        <name>SignaturePadView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.util.AttributeSet</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a9242c980b34ea13a40d54c5a1650dea1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.SignaturePadView.SignaturePadView</definition>
+        <argsstring>(android.content.Context p0, android.util.AttributeSet p1, int p2)</argsstring>
+        <name>SignaturePadView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.util.AttributeSet</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1ac1a86853cbef0491ef7298bc093b980b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean signaturepad.SignaturePadView.onTouchEvent</definition>
+        <argsstring>(android.view.MotionEvent p0)</argsstring>
+        <name>onTouchEvent</name>
+        <param>
+          <type>android.view.MotionEvent</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1ab4e8041fe6f1eb6f7f4b36c87d345717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.SignaturePadView.onDraw</definition>
+        <argsstring>(android.graphics.Canvas p0)</argsstring>
+        <name>onDraw</name>
+        <param>
+          <type>android.graphics.Canvas</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1aeafc1111f7082407b7039673a2138ac9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.SignaturePadView.onLayout</definition>
+        <argsstring>(boolean p0, int p1, int p2, int p3, int p4)</argsstring>
+        <name>onLayout</name>
+        <param>
+          <type>boolean</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a281f4fe8560e0715b8bbae2e119a13dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.SignaturePadView.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a6252c82205ae2a1d3eb27bd4b3b6699d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.SignaturePadView.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="75" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a266e62e9f7bed8363113c7e9ba583efc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native boolean</type>
+        <definition>native boolean signaturepad.SignaturePadView.n_onTouchEvent</definition>
+        <argsstring>(android.view.MotionEvent p0)</argsstring>
+        <name>n_onTouchEvent</name>
+        <param>
+          <type>android.view.MotionEvent</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1ad5578a03605030cdce97054954fe8300" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void signaturepad.SignaturePadView.n_onDraw</definition>
+        <argsstring>(android.graphics.Canvas p0)</argsstring>
+        <name>n_onDraw</name>
+        <param>
+          <type>android.graphics.Canvas</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_signature_pad_view_1a0db0f91f33b6148f6abe13d37f6b9a2e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void signaturepad.SignaturePadView.n_onLayout</definition>
+        <argsstring>(boolean p0, int p1, int p2, int p3, int p4)</argsstring>
+        <name>n_onLayout</name>
+        <param>
+          <type>boolean</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3038">
+        <label>android::widget::FrameLayout</label>
+      </node>
+      <node id="3037">
+        <label>signaturepad.SignaturePadView</label>
+        <link refid="classsignaturepad_1_1_signature_pad_view"/>
+        <childnode refid="3038" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3039" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3039">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3041">
+        <label>android::widget::FrameLayout</label>
+      </node>
+      <node id="3043">
+        <label>String</label>
+      </node>
+      <node id="3040">
+        <label>signaturepad.SignaturePadView</label>
+        <link refid="classsignaturepad_1_1_signature_pad_view"/>
+        <childnode refid="3041" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3042" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3043" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="3042">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/SignaturePadView.java" bodystart="4" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a5014a37c2bc70bc364e5dff684483528" prot="package" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>[static initializer]</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1aa4579536c5bd3fbaad5e32860b2a66be" prot="package" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>__md_methods</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a281f4fe8560e0715b8bbae2e119a13dc" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>monodroidAddReference</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a6252c82205ae2a1d3eb27bd4b3b6699d" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>monodroidClearReferences</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1ad5578a03605030cdce97054954fe8300" prot="private" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>n_onDraw</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a0db0f91f33b6148f6abe13d37f6b9a2e" prot="private" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>n_onLayout</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a266e62e9f7bed8363113c7e9ba583efc" prot="private" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>n_onTouchEvent</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1ab4e8041fe6f1eb6f7f4b36c87d345717" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>onDraw</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1aeafc1111f7082407b7039673a2138ac9" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>onLayout</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1ac1a86853cbef0491ef7298bc093b980b" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>onTouchEvent</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1ac6878888e9afdc845f1dad5cac67456c" prot="package" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>refList</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1aa7cf57f9db83213ff90f731f2903ecf1" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>SignaturePadView</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a85e818056cb3914af8c18a261227ccea" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>SignaturePadView</name></member>
+      <member refid="classsignaturepad_1_1_signature_pad_view_1a9242c980b34ea13a40d54c5a1650dea1" prot="public" virt="non-virtual"><scope>signaturepad::SignaturePadView</scope><name>SignaturePadView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

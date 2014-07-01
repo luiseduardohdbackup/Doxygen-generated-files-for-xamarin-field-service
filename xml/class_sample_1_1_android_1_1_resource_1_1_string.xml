@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_resource_1_1_string" kind="class" prot="public">
+    <compoundname>Sample::Android::Resource::String</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_string_1a1f77a376b01bf3a295b6872a5b630a13" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.String.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <initializer>= 2130968576</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1_1_string_1a55844221bf1420076052dd460f6d5c14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.Android.Resource.String.String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="84" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="84" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="78" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_string_1a1f77a376b01bf3a295b6872a5b630a13" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::String</scope><name>app_name</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_string_1a55844221bf1420076052dd460f6d5c14" prot="private" virt="non-virtual"><scope>Sample::Android::Resource::String</scope><name>String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

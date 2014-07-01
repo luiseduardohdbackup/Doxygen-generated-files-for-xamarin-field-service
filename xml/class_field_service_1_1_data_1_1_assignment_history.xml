@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_assignment_history" kind="class" prot="public">
+    <compoundname>FieldService::Data::AssignmentHistory</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1af535237bdf038d26650fe0ccf7bb5259" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.AssignmentHistory.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> Id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a4fc66110defa0c09b59329131891e9d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1adab81adc38635c82c27eb6518365aa95" kindref="member">AssignmentHistoryType</ref></type>
+        <definition>AssignmentHistoryType FieldService.Data.AssignmentHistory.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>Type of history record </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a12ccf3b4e75cfaf489f74366bacd081b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.AssignmentHistory.AssignmentId</definition>
+        <argsstring></argsstring>
+        <name>AssignmentId</name>
+        <briefdescription>
+<para>Link to an assignment or zero if it were a phone call </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a6219469fd9d6a9de6db09e6119dcf084" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.Data.AssignmentHistory.CallLength</definition>
+        <argsstring></argsstring>
+        <name>CallLength</name>
+        <briefdescription>
+<para>Length of the call </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a8b0716160be52900e6a30d7dac22f881" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long FieldService.Data.AssignmentHistory.CallLengthTicks</definition>
+        <argsstring></argsstring>
+        <name>CallLengthTicks</name>
+        <briefdescription>
+<para>Length of the call in ticks </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1acfc6023f6c278717e003965eec5e6796" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.CallDescription</definition>
+        <argsstring></argsstring>
+        <name>CallDescription</name>
+        <briefdescription>
+<para>Description of the call </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a3cb0d9bf3982881b97c5a5e9a7893e31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.AssignmentHistory.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+<para>Date of the record </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1aab7d91362df0bd7ba10cc38e4f1453f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.JobNumber</definition>
+        <argsstring></argsstring>
+        <name>JobNumber</name>
+        <briefdescription>
+<para>A job number </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1ad75d099fa3d245cdca1e777836813883" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.CompanyName</definition>
+        <argsstring></argsstring>
+        <name>CompanyName</name>
+        <briefdescription>
+<para>Company Name for the job </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a192e1512d2555e0b51f83a3406f834d1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.ContactName</definition>
+        <argsstring></argsstring>
+        <name>ContactName</name>
+        <briefdescription>
+<para>Name of the contact </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a3604f8248bc1fe213653c223a3ae660e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.ContactPhone</definition>
+        <argsstring></argsstring>
+        <name>ContactPhone</name>
+        <briefdescription>
+<para>Phone number for the contact </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a5720ed97ec12bfcc619225b25e559074" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+<para>Address for assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1aa8b6487e70fa9f2fc46e25ce101c8e10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <briefdescription>
+<para>City for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="85" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a7ee8042b0318061d9411f0cdf6ac319f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+<para>State of the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a634f6264e5bc1fbb9d9f59ec7785934e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.Zip</definition>
+        <argsstring></argsstring>
+        <name>Zip</name>
+        <briefdescription>
+<para>Zip code for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a36b09d038bd956bc43707627a9b27527" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>Description for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a39f1120335a45caf7d9a87fde2bed323" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.AssignmentHistory.StartDate</definition>
+        <argsstring></argsstring>
+        <name>StartDate</name>
+        <briefdescription>
+<para>Date and time the assignment should start </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1aa08c504502577cf98c7dcaaa75484660" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.AssignmentHistory.EndDate</definition>
+        <argsstring></argsstring>
+        <name>EndDate</name>
+        <briefdescription>
+<para>Date and time the assignment should end </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a4ad7d1dfbe64a441168a4b2564d4a32e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.JobNumberFormatted</definition>
+        <argsstring></argsstring>
+        <name>JobNumberFormatted</name>
+        <briefdescription>
+<para>A formatted version of the job number for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a9dfa58e8e679688e455eabb8491b239e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.DateFormatted</definition>
+        <argsstring></argsstring>
+        <name>DateFormatted</name>
+        <briefdescription>
+<para>A formatted version of the start date for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="131" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a84096ce95d07372d223f20c1be34549f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.TimesFormatted</definition>
+        <argsstring></argsstring>
+        <name>TimesFormatted</name>
+        <briefdescription>
+<para>A formatted version of the times for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1addfdb67fdeb889866e1d3ad658ffda0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.AssignmentHistory.CallLengthFormatted</definition>
+        <argsstring></argsstring>
+        <name>CallLengthFormatted</name>
+        <briefdescription>
+<para>A formatted version of the start date for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="157" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_history_1a2475740ab558970e304fe82f78a822d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Data.AssignmentHistory.IsCall</definition>
+        <argsstring></argsstring>
+        <name>IsCall</name>
+        <briefdescription>
+<para>Ui property for showing different icons </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="168" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A history record for an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/AssignmentHistory.cs" bodystart="12" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a5720ed97ec12bfcc619225b25e559074" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a12ccf3b4e75cfaf489f74366bacd081b" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>AssignmentId</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1acfc6023f6c278717e003965eec5e6796" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>CallDescription</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a6219469fd9d6a9de6db09e6119dcf084" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>CallLength</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1addfdb67fdeb889866e1d3ad658ffda0e" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>CallLengthFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a8b0716160be52900e6a30d7dac22f881" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>CallLengthTicks</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1aa8b6487e70fa9f2fc46e25ce101c8e10" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>City</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1ad75d099fa3d245cdca1e777836813883" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>CompanyName</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a192e1512d2555e0b51f83a3406f834d1" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>ContactName</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a3604f8248bc1fe213653c223a3ae660e" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>ContactPhone</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a3cb0d9bf3982881b97c5a5e9a7893e31" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Date</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a9dfa58e8e679688e455eabb8491b239e" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>DateFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a36b09d038bd956bc43707627a9b27527" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Description</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1aa08c504502577cf98c7dcaaa75484660" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>EndDate</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1af535237bdf038d26650fe0ccf7bb5259" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Id</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a2475740ab558970e304fe82f78a822d5" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>IsCall</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1aab7d91362df0bd7ba10cc38e4f1453f9" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>JobNumber</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a4ad7d1dfbe64a441168a4b2564d4a32e" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>JobNumberFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a39f1120335a45caf7d9a87fde2bed323" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>StartDate</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a7ee8042b0318061d9411f0cdf6ac319f" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>State</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a84096ce95d07372d223f20c1be34549f" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>TimesFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a4fc66110defa0c09b59329131891e9d3" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Type</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_history_1a634f6264e5bc1fbb9d9f59ec7785934e" prot="public" virt="non-virtual"><scope>FieldService::Data::AssignmentHistory</scope><name>Zip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

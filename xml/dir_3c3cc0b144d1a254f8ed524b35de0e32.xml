@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_3c3cc0b144d1a254f8ed524b35de0e32" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views</compoundname>
+    <innerfile refid="_sample_view_8cs">SampleView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_4945f338967b1019e548898f4a9000f0" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/geolocation</compoundname>
+    <innerfile refid="_geolocation_continuous_listener_8java">GeolocationContinuousListener.java</innerfile>
+    <innerfile refid="_geolocation_single_listener_8java">GeolocationSingleListener.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/geolocation/"/>
+  </compounddef>
+</doxygen>

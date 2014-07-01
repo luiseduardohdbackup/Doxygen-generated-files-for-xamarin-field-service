@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_assignment_tab_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::AssignmentTabActivity</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_base_activity" prot="public" virt="non-virtual">FieldService.Android.BaseActivity</basecompoundref>
+    <innerclass refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper" prot="public">FieldService::Android::AssignmentTabActivity::MapDataWrapper</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a138dcb906d7289631c19a3cc884e22eb" prot="private" static="no" mutable="no">
+        <type>LocalActivityManager</type>
+        <definition>LocalActivityManager FieldService.Android.AssignmentTabActivity.localManger</definition>
+        <argsstring></argsstring>
+        <name>localManger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1ad34294112c03db9eed6c67abce487310" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a7ffe46f2a76590c548c545e11a375fcb" kindref="member">TabHost</ref></type>
+        <definition>TabHost FieldService.Android.AssignmentTabActivity.tabHost</definition>
+        <argsstring></argsstring>
+        <name>tabHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a7ffe46f2a76590c548c545e11a375fcb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>TabHost</type>
+        <definition>TabHost FieldService.Android.AssignmentTabActivity.TabHost</definition>
+        <argsstring></argsstring>
+        <name>TabHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="96" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a3e356c26ab2592fc60ad32d2cc5ac010" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper" kindref="compound">MapDataWrapper</ref></type>
+        <definition>MapDataWrapper FieldService.Android.AssignmentTabActivity.MapData</definition>
+        <argsstring></argsstring>
+        <name>MapData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="101" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1afe089153f9bd511be6ea7d3c3f7007c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.AssignmentTabActivity.AssignmentTabActivity</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentTabActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a5848301cb8458d9cf695717831172815" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentTabActivity.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="43" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a1804077a17d30444e95247bf5a5eb1fe" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentTabActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="107" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="107" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1afabb5b1145cb228bbc6cb500b33b6409" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentTabActivity.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="114" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="114" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a64f126db3b19f9f196ea2ee665cd2845" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentTabActivity.OnStop</definition>
+        <argsstring>()</argsstring>
+        <name>OnStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="121" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignment_tab_activity_1a5da219c3c8f04276b4dd357465c9aed7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentTabActivity.OnSaveInstanceState</definition>
+        <argsstring>(Bundle outState)</argsstring>
+        <name>OnSaveInstanceState</name>
+        <param>
+          <type>Bundle</type>
+          <declname>outState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="128" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="128" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Activity for the tab bar between &quot;Assignments&quot; and &quot;Map Overview&quot; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1783">
+        <label>BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1784" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1784">
+        <label>Activity</label>
+      </node>
+      <node id="1782">
+        <label>FieldService.Android.AssignmentTabActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignment_tab_activity"/>
+        <childnode refid="1783" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1786">
+        <label>BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1787" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1787">
+        <label>Activity</label>
+      </node>
+      <node id="1785">
+        <label>FieldService.Android.AssignmentTabActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignment_tab_activity"/>
+        <childnode refid="1786" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentTabActivity.cs" bodystart="35" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1afe089153f9bd511be6ea7d3c3f7007c7" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>AssignmentTabActivity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a138dcb906d7289631c19a3cc884e22eb" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>localManger</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a3e356c26ab2592fc60ad32d2cc5ac010" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>MapData</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a5848301cb8458d9cf695717831172815" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1afabb5b1145cb228bbc6cb500b33b6409" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a1804077a17d30444e95247bf5a5eb1fe" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a5da219c3c8f04276b4dd357465c9aed7" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>OnSaveInstanceState</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a64f126db3b19f9f196ea2ee665cd2845" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>OnStop</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1a7ffe46f2a76590c548c545e11a375fcb" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>TabHost</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1ad34294112c03db9eed6c67abce487310" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentTabActivity</scope><name>tabHost</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

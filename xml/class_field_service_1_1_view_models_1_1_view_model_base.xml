@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_view_model_base" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::ViewModelBase</compoundname>
+    <basecompoundref refid="class_field_service_1_1_data_1_1_property_changed_base" prot="public" virt="non-virtual">FieldService.Data.PropertyChangedBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.AssignmentViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_document_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.DocumentViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_expense_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.ExpenseViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_history_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.HistoryViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_item_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.ItemViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_labor_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.LaborViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_login_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.LoginViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_menu_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.MenuViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_photo_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.PhotoViewModel</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.ViewModels.ViewModelBase.IsBusyChanged</definition>
+        <argsstring></argsstring>
+        <name>IsBusyChanged</name>
+        <briefdescription>
+<para>Event for when IsBusy changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.ViewModels.ViewModelBase.IsValidChanged</definition>
+        <argsstring></argsstring>
+        <name>IsValidChanged</name>
+        <briefdescription>
+<para>Event for when IsValid changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_view_model_base_1a03a1f4c8461397b7c2ad710b5f4dfdec" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; string &gt;</type>
+        <definition>readonly List&lt;string&gt; FieldService.ViewModels.ViewModelBase.errors</definition>
+        <argsstring></argsstring>
+        <name>errors</name>
+        <initializer>= new List&lt;string&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_view_model_base_1ae78836ca45b97934e94d88248ad8ab26" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.ViewModels.ViewModelBase.isBusy</definition>
+        <argsstring></argsstring>
+        <name>isBusy</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.ViewModels.ViewModelBase.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+<para>Returns true if the current state of the ViewModel is valid </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.ViewModels.ViewModelBase.Errors</definition>
+        <argsstring></argsstring>
+        <name>Errors</name>
+        <briefdescription>
+<para>A list of errors if IsValid is false </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>virtual string FieldService.ViewModels.ViewModelBase.Error</definition>
+        <argsstring></argsstring>
+        <name>Error</name>
+        <briefdescription>
+<para>An aggregated error message </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.ViewModels.ViewModelBase.IsBusy</definition>
+        <argsstring></argsstring>
+        <name>IsBusy</name>
+        <briefdescription>
+<para>Value inidicating if a spinner should be shown </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="113" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.ViewModelBase.ViewModelBase</definition>
+        <argsstring>()</argsstring>
+        <name>ViewModelBase</name>
+        <briefdescription>
+<para>Default constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="48" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.ViewModels.ViewModelBase.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac068dc643a7e4c7b80b1668a69da6733">Validate</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_view_models_1_1_login_view_model_1af979634e56bc7c5da542d0a1e38c7344">Validate</reimplementedby>
+        <briefdescription>
+<para>Protected method for validating the ViewModel </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Fires PropertyChanged for IsValid and Errors </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="85" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.ViewModels.ViewModelBase.ValidateProperty</definition>
+        <argsstring>(Func&lt; bool &gt; validate, string error)</argsstring>
+        <name>ValidateProperty</name>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>validate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+        </param>
+        <briefdescription>
+<para>Other viewmodels should call this when overriding Validate, to validate each property </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>validate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Func to determine if a value is valid</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The error message to use if not valid</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="100" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.ViewModels.ViewModelBase.OnIsBusyChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnIsBusyChanged</name>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac1775d35d062112b2537bdbf7e895ddd">OnIsBusyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model_1a777f81b7d56eabe3d582822b1584b4fe">OnIsBusyChanged</reimplementedby>
+        <briefdescription>
+<para>Other viewmodels can override this if something should be done when busy </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="130" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for all view models </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>Implements INotifyPropertyChanged for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref></para></listitem><listitem><para>Implements some basic validation logic</para></listitem><listitem><para>Implements some IsBusy logic </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3308">
+        <label>FieldService.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3315">
+        <label>FieldService.WinRT.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="3314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3303">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3304">
+        <label>FieldService.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3314">
+        <label>FieldService.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3310">
+        <label>FieldService.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3301">
+        <label>FieldService.ViewModels.ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="3302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3311">
+        <label>FieldService.WinRT.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="3310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3313">
+        <label>FieldService.WinRT.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="3312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3305">
+        <label>FieldService.WinRT.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="3304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3316">
+        <label>FieldService.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3302">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="3303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3318">
+        <label>FieldService.ViewModels.MenuViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_menu_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3309">
+        <label>FieldService.WinRT.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="3308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3307">
+        <label>FieldService.WinRT.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="3306" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3320">
+        <label>FieldService.WinRT.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="3319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3306">
+        <label>FieldService.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3317">
+        <label>FieldService.WinRT.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="3316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3319">
+        <label>FieldService.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3312">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="3301" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3323">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3321">
+        <label>FieldService.ViewModels.ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="3322" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3322">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="3323" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ViewModelBase.cs" bodystart="30" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a03a1f4c8461397b7c2ad710b5f4dfdec" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ae78836ca45b97934e94d88248ad8ab26" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>isBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ViewModelBase</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

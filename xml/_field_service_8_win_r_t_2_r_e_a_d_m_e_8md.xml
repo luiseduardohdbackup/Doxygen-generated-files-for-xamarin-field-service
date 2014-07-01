@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="_field_service_8_win_r_t_2_r_e_a_d_m_e_8md" kind="file">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#<sp/>Field<sp/>Service<sp/>-<sp/>WinRT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">We<sp/>are<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>a<sp/>Beta<sp/>of<sp/>the<sp/>Bing<sp/>Maps<sp/>SDK,<sp/>install<sp/>here:<sp/>http:</highlight><highlight class="comment">//visualstudiogallery.msdn.microsoft.com/ebc98390-5320-4088-a2b5-8f276e4530f9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">Instructions<sp/>here:<sp/>http:</highlight><highlight class="comment">//msdn.microsoft.com/en-us/library/hh855146.aspx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">You<sp/>will<sp/>need<sp/>a<sp/>bing<sp/>maps<sp/>key<sp/>here:<sp/>http:</highlight><highlight class="comment">//msdn.microsoft.com/en-us/library/ff428642.aspx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">One<sp/>thing<sp/>to<sp/>note,<sp/>is<sp/>that<sp/>we<sp/>were<sp/>no<sp/>longer<sp/>able<sp/>to<sp/>put<sp/></highlight><highlight class="stringliteral">&quot;Any<sp/>CPU&quot;</highlight><highlight class="normal"><sp/>as<sp/>our<sp/>target.<sp/><sp/>I<sp/>changed<sp/>it<sp/>to<sp/>x86<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>now,<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>WinRT<sp/>devices,<sp/>change<sp/>it<sp/>to<sp/>ARM,<sp/>and<sp/>ARM<sp/>will<sp/>not<sp/>work<sp/>with<sp/>Debug<sp/>builds,<sp/>must<sp/>run<sp/>it<sp/>in<sp/>Release.</highlight></codeline>
+    </programlisting>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/README.md"/>
+  </compounddef>
+</doxygen>

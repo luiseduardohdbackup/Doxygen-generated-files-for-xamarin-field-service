@@ -1,0 +1,53 @@
+.TH "SQLite.SQLiteConnectionPool" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.SQLiteConnectionPool \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSQLiteConnectionWithLock\fP \fBGetConnection\fP (\fBSQLiteConnectionString\fP connectionString, \fBSQLiteOpenFlags\fP openFlags)"
+.br
+.ti -1c
+.RI "void \fBReset\fP ()"
+.br
+.RI "\fICloses all connections managed by this pool\&. \fP"
+.ti -1c
+.RI "void \fBApplicationSuspended\fP ()"
+.br
+.RI "\fICall this method when the application is suspended\&. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static \fBSQLiteConnectionPool\fP \fBShared\fP\fC [get]\fP"
+.br
+.RI "\fIGets the singleton instance of the connection tool\&. \fP"
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void SQLite\&.SQLiteConnectionPool\&.ApplicationSuspended ()"
+
+.PP
+Call this method when the application is suspended\&. Behaviour here is to close any open connections\&.
+.SS "\fBSQLiteConnectionWithLock\fP SQLite\&.SQLiteConnectionPool\&.GetConnection (\fBSQLiteConnectionString\fPconnectionString, \fBSQLiteOpenFlags\fPopenFlags)"
+
+.SS "void SQLite\&.SQLiteConnectionPool\&.Reset ()"
+
+.PP
+Closes all connections managed by this pool\&. 
+.SH "Property Documentation"
+.PP 
+.SS "\fBSQLiteConnectionPool\fP SQLite\&.SQLiteConnectionPool\&.Shared\fC [static]\fP, \fC [get]\fP"
+
+.PP
+Gets the singleton instance of the connection tool\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

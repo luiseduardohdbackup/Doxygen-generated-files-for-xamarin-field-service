@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_8e2634b074d64f6926ba2adfc077cde1" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT</compoundname>
+    <innerdir refid="dir_3978c6fe5bcce141867b30c57ba3162f">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Properties</innerdir>
+    <innerdir refid="dir_251848efddba12ed0784eaf2cbb6b583">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities</innerdir>
+    <innerdir refid="dir_7baf241eb3b102e3934ef536802365f0">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels</innerdir>
+    <innerdir refid="dir_4396d67101849e52a0994f3033ea648d">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views</innerdir>
+    <innerfile refid="_field_service_8_win_r_t_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_resource_1_1_drawable" kind="class" prot="public">
+    <compoundname>GeolocationSample::Resource::Drawable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_drawable_1abae9dea592c50a86b890a56720b844f8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Drawable.Icon</definition>
+        <argsstring></argsstring>
+        <name>Icon</name>
+        <initializer>= 2130837504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_resource_1_1_drawable_1a55dce8cd41d2f9b4076ced4e8224d724" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.Resource.Drawable.Drawable</definition>
+        <argsstring>()</argsstring>
+        <name>Drawable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="40" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="34" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_drawable_1a55dce8cd41d2f9b4076ced4e8224d724" prot="private" virt="non-virtual"><scope>GeolocationSample::Resource::Drawable</scope><name>Drawable</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_drawable_1abae9dea592c50a86b890a56720b844f8" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Drawable</scope><name>Icon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

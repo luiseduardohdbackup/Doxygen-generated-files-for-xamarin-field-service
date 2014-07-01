@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_e5f5a172e6c3fff728b42644fb9fd1ae" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples</compoundname>
+    <innerdir refid="dir_56dc2986552121c525e48f15403ea96b">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample</innerdir>
+    <innerdir refid="dir_ae99ec3b9f05e60f8f4c5b190f52488e">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/"/>
+  </compounddef>
+</doxygen>

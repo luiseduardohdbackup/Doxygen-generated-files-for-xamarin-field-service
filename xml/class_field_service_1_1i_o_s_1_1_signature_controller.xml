@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_signature_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SignatureController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIPopoverController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_signature_controller_1_1_content_controller" prot="private">FieldService::iOS::SignatureController::ContentController</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_signature_controller_1a7b88e8b82f9abc9e83c11c27bdb7591f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.SignatureController.Dismissed</definition>
+        <argsstring></argsstring>
+        <name>Dismissed</name>
+        <briefdescription>
+<para>Occurs when dismissed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_controller_1ac317bd1de1743ac879ca891ac6632ded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.SignatureController.SignatureController</definition>
+        <argsstring>()</argsstring>
+        <name>SignatureController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_controller_1a380692479e7e5e50b4c36c6d031d6f89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SignatureController.Dismiss</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>Dismiss</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for displaying the popover for signatures </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3018">
+        <label>FieldService.iOS.SignatureController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_signature_controller"/>
+        <childnode refid="3019" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3019">
+        <label>UIPopoverController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3020">
+        <label>FieldService.iOS.SignatureController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_signature_controller"/>
+        <childnode refid="3021" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3021">
+        <label>UIPopoverController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SignatureController.cs" bodystart="29" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_controller_1a380692479e7e5e50b4c36c6d031d6f89" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureController</scope><name>Dismiss</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_controller_1a7b88e8b82f9abc9e83c11c27bdb7591f" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureController</scope><name>Dismissed</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_controller_1ac317bd1de1743ac879ca891ac6632ded" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureController</scope><name>SignatureController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

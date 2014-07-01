@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::AddItemFlyoutPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1aef9d479092608cd11407c7bee01de6d9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>ItemViewModel FieldService.WinRT.Views.AddItemFlyoutPanel.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a6586969e57de9089c7889527bcf1f838" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.WinRT.Views.AddItemFlyoutPanel.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1ab8baff333d0860320a685f80f8d2412e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.AddItemFlyoutPanel.AddItemFlyoutPanel</definition>
+        <argsstring>()</argsstring>
+        <name>AddItemFlyoutPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a83da209549b87233ec9cbd0fa9a72bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void FieldService.WinRT.Views.AddItemFlyoutPanel.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>List view item click event </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="60" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a95c1db41274c354e3637ceba0d41463b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.AddItemFlyoutPanel.OnKeyDown</definition>
+        <argsstring>(KeyRoutedEventArgs e)</argsstring>
+        <name>OnKeyDown</name>
+        <param>
+          <type>KeyRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Used for hooking up enter key to search </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="78" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Add item flyout panel </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1590">
+        <label>FieldService.WinRT.Views.AddItemFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel"/>
+        <childnode refid="1591" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1591">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1592">
+        <label>FieldService.WinRT.Views.AddItemFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel"/>
+        <childnode refid="1593" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddItemFlyoutPanel.xaml.cs" bodystart="37" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1ab8baff333d0860320a685f80f8d2412e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AddItemFlyoutPanel</scope><name>AddItemFlyoutPanel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a6586969e57de9089c7889527bcf1f838" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AddItemFlyoutPanel</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1aef9d479092608cd11407c7bee01de6d9" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AddItemFlyoutPanel</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a83da209549b87233ec9cbd0fa9a72bbd" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AddItemFlyoutPanel</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_item_flyout_panel_1a95c1db41274c354e3637ceba0d41463b" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::AddItemFlyoutPanel</scope><name>OnKeyDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

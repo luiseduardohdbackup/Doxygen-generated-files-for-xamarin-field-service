@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_navigation_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::NavigationAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_navigation_adapter_1a728056f4fd7927884ba63d0ec1e8987c" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.NavigationAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_navigation_adapter_1a5b97139f6459361b446a1b9ab201de22" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.NavigationAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1ad322ea874459e779726113fa5218d1e6" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a9783bd37015cb48dda132a1d1a982ffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a9978e8d3c75f98babec8b58a8eaf60de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1ae8ad64b04daab96ae76728c9d6c2b8e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1aedaa475e30e99d16d431dbad6dabb2ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a69c911bb3b28391d5b2a0c6c9bfebaa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a11ee44b5d5cbf5e618a14ab25cd320a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a17aa234f5ff9f1124c3844f92337afec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.NavigationAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1ab6286240eee67621162326c5a380fb8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.NavigationAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a994fd1be6d9c9b47618c933ab2c0e7cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.NavigationAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="81" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_navigation_adapter_1a9d05b2e5234b67ee158b33a44acb5b8a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.NavigationAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2797">
+        <label>fieldservice.android.NavigationAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_navigation_adapter"/>
+        <childnode refid="2798" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2799" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2798">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2799">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2803">
+        <label>String</label>
+      </node>
+      <node id="2800">
+        <label>fieldservice.android.NavigationAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_navigation_adapter"/>
+        <childnode refid="2801" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2802" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2803" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2801">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2802">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/NavigationAdapter.java" bodystart="4" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1ad322ea874459e779726113fa5218d1e6" prot="package" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a728056f4fd7927884ba63d0ec1e8987c" prot="package" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a17aa234f5ff9f1124c3844f92337afec" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1ab6286240eee67621162326c5a380fb8c" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a994fd1be6d9c9b47618c933ab2c0e7cb" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a9d05b2e5234b67ee158b33a44acb5b8a" prot="private" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a9783bd37015cb48dda132a1d1a982ffd" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a9978e8d3c75f98babec8b58a8eaf60de" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1ae8ad64b04daab96ae76728c9d6c2b8e9" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1aedaa475e30e99d16d431dbad6dabb2ca" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a69c911bb3b28391d5b2a0c6c9bfebaa1" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a11ee44b5d5cbf5e618a14ab25cd320a5" prot="public" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_navigation_adapter_1a5b97139f6459361b446a1b9ab201de22" prot="package" virt="non-virtual"><scope>fieldservice::android::NavigationAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_catalog" kind="class" prot="public">
+    <compoundname>FieldService::Catalog</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_catalog_1ab100e1f5309e4acb7266f31969048343" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Catalog.UsernameValidation</definition>
+        <argsstring></argsstring>
+        <name>UsernameValidation</name>
+        <initializer>= &quot;Please enter a username.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_catalog_1a7bcb3b10119951285059a9e22f3b9524" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Catalog.PasswordValidation</definition>
+        <argsstring></argsstring>
+        <name>PasswordValidation</name>
+        <initializer>= &quot;Please enter a password.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_catalog_1a6abaccb050b87bc2781dce3e706dff93" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Catalog.LaborTypeHourly</definition>
+        <argsstring></argsstring>
+        <name>LaborTypeHourly</name>
+        <initializer>= &quot;Hourly&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_catalog_1aaefe9ec5ddc1e2598ebcd1968eda3165" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Catalog.LaborTypeOverTime</definition>
+        <argsstring></argsstring>
+        <name>LaborTypeOverTime</name>
+        <initializer>= &quot;Over Time&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_catalog_1a7a7fd9b9899c58fa1403a2c8fcd37768" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Catalog.LaborTypeHolidayTime</definition>
+        <argsstring></argsstring>
+        <name>LaborTypeHolidayTime</name>
+        <initializer>= &quot;Holiday Time&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_catalog_1a462878caf7e031e16023c04ae55c5a7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FieldService.Catalog.GetString</definition>
+        <argsstring>(string key, string comment=null)</argsstring>
+        <name>GetString</name>
+        <param>
+          <type>string</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>comment</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="35" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Static class containing strings used throughout the app </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>a developer could replace this with *.resx supporting globalization if desired </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" bodystart="27" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_catalog_1a462878caf7e031e16023c04ae55c5a7d" prot="public" virt="non-virtual"><scope>FieldService::Catalog</scope><name>GetString</name></member>
+      <member refid="class_field_service_1_1_catalog_1a7a7fd9b9899c58fa1403a2c8fcd37768" prot="private" virt="non-virtual"><scope>FieldService::Catalog</scope><name>LaborTypeHolidayTime</name></member>
+      <member refid="class_field_service_1_1_catalog_1a6abaccb050b87bc2781dce3e706dff93" prot="private" virt="non-virtual"><scope>FieldService::Catalog</scope><name>LaborTypeHourly</name></member>
+      <member refid="class_field_service_1_1_catalog_1aaefe9ec5ddc1e2598ebcd1968eda3165" prot="private" virt="non-virtual"><scope>FieldService::Catalog</scope><name>LaborTypeOverTime</name></member>
+      <member refid="class_field_service_1_1_catalog_1a7bcb3b10119951285059a9e22f3b9524" prot="private" virt="non-virtual"><scope>FieldService::Catalog</scope><name>PasswordValidation</name></member>
+      <member refid="class_field_service_1_1_catalog_1ab100e1f5309e4acb7266f31969048343" prot="private" virt="non-virtual"><scope>FieldService::Catalog</scope><name>UsernameValidation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter" kind="class" prot="private">
+    <compoundname>SQLite::Android::Sample::ListFragment::ListItemsAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseAdapter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1aa52960d9e322d733a6980cdde1bda86a" prot="private" static="no" mutable="no">
+        <type>readonly Activity</type>
+        <definition>readonly Activity SQLite.Android.Sample.ListFragment.ListItemsAdapter.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a24c688e1bacd950babe50cfd0beeb0c4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item" kindref="compound">ListItem</ref>[]</type>
+        <definition>ListItem [] SQLite.Android.Sample.ListFragment.ListItemsAdapter.listItems</definition>
+        <argsstring></argsstring>
+        <name>listItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a19ad4536ce1f97cac304c64b018a42d1" prot="private" static="no" mutable="no">
+        <type>readonly TaskScheduler</type>
+        <definition>readonly TaskScheduler SQLite.Android.Sample.ListFragment.ListItemsAdapter.uiScheduler</definition>
+        <argsstring></argsstring>
+        <name>uiScheduler</name>
+        <initializer>= TaskScheduler.FromCurrentSynchronizationContext()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1ac527609b2ae58048339e5c0d0d1f2fd3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int SQLite.Android.Sample.ListFragment.ListItemsAdapter.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a845ae7512066d4b1fb1fed8589286c7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.Android.Sample.ListFragment.ListItemsAdapter.ListItemsAdapter</definition>
+        <argsstring>(Activity activity, IEnumerable&lt; ListItem &gt; listItems)</argsstring>
+        <name>ListItemsAdapter</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; <ref refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item" kindref="compound">ListItem</ref> &gt;</type>
+          <declname>listItems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1adadd87fa9431a1a2531b543f21047155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Java.Lang.Object</type>
+        <definition>override Java.Lang.Object SQLite.Android.Sample.ListFragment.ListItemsAdapter.GetItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="92" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a9c5f3174966316242044a70e4561e07b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long SQLite.Android.Sample.ListFragment.ListItemsAdapter.GetItemId</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItemId</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1ae3e98bab18b2e8d0b0602cafbac79956" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View SQLite.Android.Sample.ListFragment.ListItemsAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="102" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a7ad891cabd4a4e239bec471a4db3b7bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.ListFragment.ListItemsAdapter.OnChecked</definition>
+        <argsstring>(object sender, CompoundButton.CheckedChangeEventArgs e)</argsstring>
+        <name>OnChecked</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CompoundButton.CheckedChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="119" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="119" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2547">
+        <label>SQLite.Android.Sample.ListFragment.ListItemsAdapter</label>
+        <childnode refid="2548" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2548">
+        <label>BaseAdapter</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2549">
+        <label>SQLite.Android.Sample.ListFragment.ListItemsAdapter</label>
+        <childnode refid="2550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2550">
+        <label>BaseAdapter</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListFragment.cs" bodystart="74" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1aa52960d9e322d733a6980cdde1bda86a" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>activity</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1ac527609b2ae58048339e5c0d0d1f2fd3" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>Count</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1adadd87fa9431a1a2531b543f21047155" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>GetItem</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a9c5f3174966316242044a70e4561e07b" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>GetItemId</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1ae3e98bab18b2e8d0b0602cafbac79956" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>GetView</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a24c688e1bacd950babe50cfd0beeb0c4" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>listItems</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a845ae7512066d4b1fb1fed8589286c7e" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>ListItemsAdapter</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a7ad891cabd4a4e239bec471a4db3b7bb" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>OnChecked</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment_1_1_list_items_adapter_1a19ad4536ce1f97cac304c64b018a42d1" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::ListFragment::ListItemsAdapter</scope><name>uiScheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

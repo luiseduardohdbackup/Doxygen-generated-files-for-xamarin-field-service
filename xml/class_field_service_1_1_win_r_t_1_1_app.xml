@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_app" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_app_1af108ba4c4c60c53b32d343686357cd37" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object FieldService.WinRT.App.lastPage</definition>
+        <argsstring></argsstring>
+        <name>lastPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_app_1ab340cb29d8ab9f479b01b8318ead1298" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.WinRT.App.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_app_1a7aff3419366a72cc8b50c835befb7aea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Frame</type>
+        <definition>Frame FieldService.WinRT.App.RootFrame</definition>
+        <argsstring></argsstring>
+        <name>RootFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_app_1ac7793189b86e63a4062856394c916143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Initializes the singleton application object. This is the first line of authored code executed, and as such is the logical equivalent of main() or WinMain(). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="38" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_app_1a3a511b26330b61a656f8df07413d56df" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.App.OnLaunched</definition>
+        <argsstring>(LaunchActivatedEventArgs args)</argsstring>
+        <name>OnLaunched</name>
+        <param>
+          <type>LaunchActivatedEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when the application is launched normally by the end user. Other entry points will be used when the application is launched to open a specific file, to display search results, and so forth. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Details about the launch request and process.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="74" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_app_1a3abafa72b12b2fd75c7e31433f0809e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.App.OnVisibilityChanged</definition>
+        <argsstring>(object sender, VisibilityChangedEventArgs e)</argsstring>
+        <name>OnVisibilityChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>VisibilityChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Event when the visibility is changed on the main window </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="91" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_app_1a27050495e0726f27a8ff667afca645e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.App.OnSizeChanged</definition>
+        <argsstring>(CoreWindow sender, WindowSizeChangedEventArgs args)</argsstring>
+        <name>OnSizeChanged</name>
+        <param>
+          <type>CoreWindow</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>WindowSizeChangedEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="104" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="104" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides application-specific behavior to supplement the default Application class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1635">
+        <label>FieldService.WinRT.App</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_app"/>
+        <childnode refid="1636" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1636">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1637">
+        <label>FieldService.WinRT.App</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_app"/>
+        <childnode refid="1638" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1638">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" bodystart="30" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1ac7793189b86e63a4062856394c916143" prot="public" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>App</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1af108ba4c4c60c53b32d343686357cd37" prot="private" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>lastPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1ab340cb29d8ab9f479b01b8318ead1298" prot="private" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1a3a511b26330b61a656f8df07413d56df" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>OnLaunched</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1a27050495e0726f27a8ff667afca645e6" prot="private" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>OnSizeChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1a3abafa72b12b2fd75c7e31433f0809e2" prot="private" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>OnVisibilityChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_app_1a7aff3419366a72cc8b50c835befb7aea" prot="public" virt="non-virtual"><scope>FieldService::WinRT::App</scope><name>RootFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

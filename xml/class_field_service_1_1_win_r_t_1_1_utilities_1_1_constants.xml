@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::Constants</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1ae6959bc6a725ef6501ea68f1b5922628" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.WinRT.Utilities.Constants.BingMapsKey</definition>
+        <argsstring></argsstring>
+        <name>BingMapsKey</name>
+        <initializer>= &quot;AkYxOiGClaK4Y1LhPhtgFD173aE7EJj3eF1nDtOnAvGBpgM3bE9ZHHUAk3JlZmj9&quot;</initializer>
+        <briefdescription>
+<para>A working key for Bing Maps NOTE: Change this key to a valid one <ulink url="http://msdn.microsoft.com/en-us/library/ff428642.aspx">http://msdn.microsoft.com/en-us/library/ff428642.aspx</ulink> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1a80fbfe8bdb78275edea434f04b4efffa" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.WinRT.Utilities.Constants.PopUpWidth</definition>
+        <argsstring></argsstring>
+        <name>PopUpWidth</name>
+        <initializer>= 485</initializer>
+        <briefdescription>
+<para>Width for the flyoutpanels </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1a53817e616086588055bbd3845b2d4f44" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.WinRT.Utilities.Constants.SignaturePopUpWidth</definition>
+        <argsstring></argsstring>
+        <name>SignaturePopUpWidth</name>
+        <initializer>= 930</initializer>
+        <briefdescription>
+<para>Width for the flyoutpanels signature </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Holds constant values for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Constants.cs" bodystart="26" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1ae6959bc6a725ef6501ea68f1b5922628" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Constants</scope><name>BingMapsKey</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1a80fbfe8bdb78275edea434f04b4efffa" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Constants</scope><name>PopUpWidth</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants_1a53817e616086588055bbd3845b2d4f44" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Constants</scope><name>SignaturePopUpWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

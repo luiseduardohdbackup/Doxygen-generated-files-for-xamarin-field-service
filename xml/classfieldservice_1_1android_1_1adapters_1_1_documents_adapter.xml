@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::adapters::DocumentsAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a8b4bc15cfa3c9cb883270a446e31297e" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.adapters.DocumentsAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a8e2cde7b0fedb8bbbebbe5db73c08475" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.adapters.DocumentsAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a9baa6ece1849efea41d39802d6c71d9e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1ae61ecbc18b7ad9bec9f24f14cd77f6a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a4e0264d3cd606f1f1ef228d4e0b19815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a3d4edce2a6b3d7d90744bf2ae926dd40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a3ba9240842b26ffbdd2ddd91daf9fbe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a7bff822b9e383ba3ac27d1b0294adf14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a56ff69d9f573ac8ac51d55d764531cfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1af73b71f728b7aa957aad4e74f1a68004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.adapters.DocumentsAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1adc6176241fc8434d91fbddc1735f0cc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.adapters.DocumentsAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a4f8a6931ee9a1e3a4c2147d132d4cff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.adapters.DocumentsAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="81" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1afd99e0645d48df086551774adbf11ef7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.adapters.DocumentsAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2075">
+        <label>fieldservice.android.adapters.DocumentsAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter"/>
+        <childnode refid="2076" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2076">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2077">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2081">
+        <label>String</label>
+      </node>
+      <node id="2078">
+        <label>fieldservice.android.adapters.DocumentsAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter"/>
+        <childnode refid="2079" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2080" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2081" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2079">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2080">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/DocumentsAdapter.java" bodystart="4" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a9baa6ece1849efea41d39802d6c71d9e" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a8b4bc15cfa3c9cb883270a446e31297e" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1ae61ecbc18b7ad9bec9f24f14cd77f6a4" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a4e0264d3cd606f1f1ef228d4e0b19815" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a3d4edce2a6b3d7d90744bf2ae926dd40" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a3ba9240842b26ffbdd2ddd91daf9fbe3" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a7bff822b9e383ba3ac27d1b0294adf14" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a56ff69d9f573ac8ac51d55d764531cfb" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1af73b71f728b7aa957aad4e74f1a68004" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1adc6176241fc8434d91fbddc1735f0cc4" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a4f8a6931ee9a1e3a4c2147d132d4cff3" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1afd99e0645d48df086551774adbf11ef7" prot="private" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_documents_adapter_1a8e2cde7b0fedb8bbbebbe5db73c08475" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::DocumentsAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

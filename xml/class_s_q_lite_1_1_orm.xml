@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_orm" kind="class" prot="public">
+    <compoundname>SQLite::Orm</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_orm_1a8125a8e7629bbfc0e6daa8f6c2f51f74" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SQLite.Orm.DefaultMaxStringLength</definition>
+        <argsstring></argsstring>
+        <name>DefaultMaxStringLength</name>
+        <initializer>= 140</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1899" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_orm_1aee31d4f7bb25d5ec199081a89b94fd5e" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string SQLite.Orm.ImplicitPkName</definition>
+        <argsstring></argsstring>
+        <name>ImplicitPkName</name>
+        <initializer>= &quot;Id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1900" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_orm_1a08fd1bc9dbb9c8df5a14e249abc74328" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string SQLite.Orm.ImplicitIndexSuffix</definition>
+        <argsstring></argsstring>
+        <name>ImplicitIndexSuffix</name>
+        <initializer>= &quot;Id&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1901" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1901" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1adb6d510f2918202a99622c34f8b2636c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.Orm.SqlDecl</definition>
+        <argsstring>(TableMapping.Column p, bool storeDateTimeAsTicks)</argsstring>
+        <name>SqlDecl</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">TableMapping.Column</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1903" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1903" bodyend="1921"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1a5243e3a4791a06448b358116676d8e98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.Orm.SqlType</definition>
+        <argsstring>(TableMapping.Column p, bool storeDateTimeAsTicks)</argsstring>
+        <name>SqlType</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">TableMapping.Column</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1923" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1923" bodyend="1958"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1ad270c1798dba02b61e14c2039070eeee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SQLite.Orm.IsPK</definition>
+        <argsstring>(MemberInfo p)</argsstring>
+        <name>IsPK</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1960" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1960" bodyend="1968"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1a57da9f36b0a6b357dc1cec41b855b637" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.Orm.Collation</definition>
+        <argsstring>(MemberInfo p)</argsstring>
+        <name>Collation</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1970" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1970" bodyend="1983"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1a895ae223b0511768682d43379fcf2f3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SQLite.Orm.IsAutoInc</definition>
+        <argsstring>(MemberInfo p)</argsstring>
+        <name>IsAutoInc</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1985" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1985" bodyend="1993"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1a6dc5a789752e31c8d928d554e3256fca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_s_q_lite_1_1_indexed_attribute" kindref="compound">IndexedAttribute</ref> &gt;</type>
+        <definition>static IEnumerable&lt;IndexedAttribute&gt; SQLite.Orm.GetIndices</definition>
+        <argsstring>(MemberInfo p)</argsstring>
+        <name>GetIndices</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1995" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1995" bodyend="1999"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1a51f2ca22f2399618082849f30a699efd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.Orm.MaxStringLength</definition>
+        <argsstring>(PropertyInfo p)</argsstring>
+        <name>MaxStringLength</name>
+        <param>
+          <type>PropertyInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2001" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2001" bodyend="2013"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_orm_1abcfd299b8fffb8e18ed7233d9288e005" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SQLite.Orm.IsMarkedNotNull</definition>
+        <argsstring>(MemberInfo p)</argsstring>
+        <name>IsMarkedNotNull</name>
+        <param>
+          <type>MemberInfo</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2015" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2015" bodyend="2023"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1898" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1897" bodyend="2024"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_orm_1a57da9f36b0a6b357dc1cec41b855b637" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>Collation</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a8125a8e7629bbfc0e6daa8f6c2f51f74" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>DefaultMaxStringLength</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a6dc5a789752e31c8d928d554e3256fca" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>GetIndices</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a08fd1bc9dbb9c8df5a14e249abc74328" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>ImplicitIndexSuffix</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1aee31d4f7bb25d5ec199081a89b94fd5e" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>ImplicitPkName</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a895ae223b0511768682d43379fcf2f3e" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>IsAutoInc</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1abcfd299b8fffb8e18ed7233d9288e005" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>IsMarkedNotNull</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1ad270c1798dba02b61e14c2039070eeee" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>IsPK</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a51f2ca22f2399618082849f30a699efd" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>MaxStringLength</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1adb6d510f2918202a99622c34f8b2636c" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>SqlDecl</name></member>
+      <member refid="class_s_q_lite_1_1_orm_1a5243e3a4791a06448b358116676d8e98" prot="public" virt="non-virtual"><scope>SQLite::Orm</scope><name>SqlType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

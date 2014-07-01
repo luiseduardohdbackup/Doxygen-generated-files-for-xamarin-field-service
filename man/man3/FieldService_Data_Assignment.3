@@ -1,0 +1,274 @@
+.TH "FieldService.Data.Assignment" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Data.Assignment \- 
+.PP
+An assignment is the 'thing' or 'job' the user is going to work on  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBId\fP\fC [get, set]\fP"
+.br
+.RI "\fI\fBAssignment\fP Id \fP"
+.ti -1c
+.RI "\fBAssignmentStatus\fP \fBStatus\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe assignment's status \fP"
+.ti -1c
+.RI "string \fBJobNumber\fP\fC [get, set]\fP"
+.br
+.RI "\fIA job number \fP"
+.ti -1c
+.RI "string \fBCompanyName\fP\fC [get, set]\fP"
+.br
+.RI "\fICompany Name for the job \fP"
+.ti -1c
+.RI "int \fBPriority\fP\fC [get, set]\fP"
+.br
+.RI "\fIPriority for the assignment \fP"
+.ti -1c
+.RI "string \fBDescription\fP\fC [get, set]\fP"
+.br
+.RI "\fIAn extended description for the job \fP"
+.ti -1c
+.RI "DateTime \fBStartDate\fP\fC [get, set]\fP"
+.br
+.RI "\fIDate and time the assignment should start \fP"
+.ti -1c
+.RI "DateTime \fBEndDate\fP\fC [get, set]\fP"
+.br
+.RI "\fIDate and time the assignment should end \fP"
+.ti -1c
+.RI "string \fBContactName\fP\fC [get, set]\fP"
+.br
+.RI "\fIName of the contact \fP"
+.ti -1c
+.RI "string \fBContactPhone\fP\fC [get, set]\fP"
+.br
+.RI "\fIPhone number for the contact \fP"
+.ti -1c
+.RI "string \fBAddress\fP\fC [get, set]\fP"
+.br
+.RI "\fIAddress for assignment \fP"
+.ti -1c
+.RI "string \fBCity\fP\fC [get, set]\fP"
+.br
+.RI "\fICity for the assignment \fP"
+.ti -1c
+.RI "string \fBState\fP\fC [get, set]\fP"
+.br
+.RI "\fIState of the assignment \fP"
+.ti -1c
+.RI "string \fBZip\fP\fC [get, set]\fP"
+.br
+.RI "\fIZip code for the assignment \fP"
+.ti -1c
+.RI "float \fBLatitude\fP\fC [get, set]\fP"
+.br
+.RI "\fILatitude of assignment \fP"
+.ti -1c
+.RI "float \fBLongitude\fP\fC [get, set]\fP"
+.br
+.RI "\fILongitude of assignment \fP"
+.ti -1c
+.RI "TimeSpan \fBTotalHours\fP\fC [get, set]\fP"
+.br
+.RI "\fITotal labor hours for the assignment \fP"
+.ti -1c
+.RI "long \fBTotalTicks\fP\fC [get, set]\fP"
+.br
+.RI "\fITotal labor hours for the assignment (in ticks) \fP"
+.ti -1c
+.RI "int \fBTotalItems\fP\fC [get, set]\fP"
+.br
+.RI "\fITotal number of items \fP"
+.ti -1c
+.RI "decimal \fBTotalExpenses\fP\fC [get, set]\fP"
+.br
+.RI "\fITotal cost of expenses \fP"
+.ti -1c
+.RI "bool \fBIsHistory\fP\fC [get, set]\fP"
+.br
+.RI "\fIIf true, this is an assignment history record that is readonly \fP"
+.ti -1c
+.RI "string \fBJobNumberFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the job number for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBStartDateFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the start date for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBTimesFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the times for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBStartTimeFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the start time for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBEndTimeFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the end time for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBAddressFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIA formatted version of the address for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBTotalHoursFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIFormatted version of total hours for \fBWinRT\fP \fP"
+.ti -1c
+.RI "string \fBTotalExpensesFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIFormatted version of expenses for \fBWinRT\fP \fP"
+.ti -1c
+.RI "bool \fBIsReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIIf true, this assignment is not editable - it is complete or a history record \fP"
+.ti -1c
+.RI "bool \fBCanComplete\fP\fC [get]\fP"
+.br
+.RI "\fIIf true, it's ok to complete this assignment \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+An assignment is the 'thing' or 'job' the user is going to work on 
+
+
+.SH "Property Documentation"
+.PP 
+.SS "string FieldService\&.Data\&.Assignment\&.Address\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Address for assignment 
+.SS "string FieldService\&.Data\&.Assignment\&.AddressFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the address for \fBWinRT\fP 
+.SS "bool FieldService\&.Data\&.Assignment\&.CanComplete\fC [get]\fP"
+
+.PP
+If true, it's ok to complete this assignment 
+.SS "string FieldService\&.Data\&.Assignment\&.City\fC [get]\fP, \fC [set]\fP"
+
+.PP
+City for the assignment 
+.SS "string FieldService\&.Data\&.Assignment\&.CompanyName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Company Name for the job 
+.SS "string FieldService\&.Data\&.Assignment\&.ContactName\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Name of the contact 
+.SS "string FieldService\&.Data\&.Assignment\&.ContactPhone\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Phone number for the contact 
+.SS "string FieldService\&.Data\&.Assignment\&.Description\fC [get]\fP, \fC [set]\fP"
+
+.PP
+An extended description for the job 
+.SS "DateTime FieldService\&.Data\&.Assignment\&.EndDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Date and time the assignment should end 
+.SS "string FieldService\&.Data\&.Assignment\&.EndTimeFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the end time for \fBWinRT\fP 
+.SS "int FieldService\&.Data\&.Assignment\&.Id\fC [get]\fP, \fC [set]\fP"
+
+.PP
+\fBAssignment\fP Id 
+.SS "bool FieldService\&.Data\&.Assignment\&.IsHistory\fC [get]\fP, \fC [set]\fP"
+
+.PP
+If true, this is an assignment history record that is readonly 
+.SS "bool FieldService\&.Data\&.Assignment\&.IsReadonly\fC [get]\fP"
+
+.PP
+If true, this assignment is not editable - it is complete or a history record 
+.SS "string FieldService\&.Data\&.Assignment\&.JobNumber\fC [get]\fP, \fC [set]\fP"
+
+.PP
+A job number 
+.SS "string FieldService\&.Data\&.Assignment\&.JobNumberFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the job number for \fBWinRT\fP 
+.SS "float FieldService\&.Data\&.Assignment\&.Latitude\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Latitude of assignment 
+.SS "float FieldService\&.Data\&.Assignment\&.Longitude\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Longitude of assignment 
+.SS "int FieldService\&.Data\&.Assignment\&.Priority\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Priority for the assignment 
+.SS "DateTime FieldService\&.Data\&.Assignment\&.StartDate\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Date and time the assignment should start 
+.SS "string FieldService\&.Data\&.Assignment\&.StartDateFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the start date for \fBWinRT\fP 
+.SS "string FieldService\&.Data\&.Assignment\&.StartTimeFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the start time for \fBWinRT\fP 
+.SS "string FieldService\&.Data\&.Assignment\&.State\fC [get]\fP, \fC [set]\fP"
+
+.PP
+State of the assignment 
+.SS "\fBAssignmentStatus\fP FieldService\&.Data\&.Assignment\&.Status\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The assignment's status 
+.SS "string FieldService\&.Data\&.Assignment\&.TimesFormatted\fC [get]\fP"
+
+.PP
+A formatted version of the times for \fBWinRT\fP 
+.SS "decimal FieldService\&.Data\&.Assignment\&.TotalExpenses\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Total cost of expenses 
+.SS "string FieldService\&.Data\&.Assignment\&.TotalExpensesFormatted\fC [get]\fP"
+
+.PP
+Formatted version of expenses for \fBWinRT\fP 
+.SS "TimeSpan FieldService\&.Data\&.Assignment\&.TotalHours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Total labor hours for the assignment 
+.SS "string FieldService\&.Data\&.Assignment\&.TotalHoursFormatted\fC [get]\fP"
+
+.PP
+Formatted version of total hours for \fBWinRT\fP 
+.SS "int FieldService\&.Data\&.Assignment\&.TotalItems\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Total number of items 
+.SS "long FieldService\&.Data\&.Assignment\&.TotalTicks\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Total labor hours for the assignment (in ticks) 
+.SS "string FieldService\&.Data\&.Assignment\&.Zip\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Zip code for the assignment 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

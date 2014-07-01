@@ -1,0 +1,167 @@
+\hypertarget{namespace_field_service_1_1_data}{\section{Package Field\+Service.\+Data}
+\label{namespace_field_service_1_1_data}\index{Field\+Service.\+Data@{Field\+Service.\+Data}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment}
+\begin{DoxyCompactList}\small\item\em An assignment is the \char`\"{}thing\char`\"{} or \char`\"{}job\char`\"{} the user is going to work on \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_assignment_history}{Assignment\+History}
+\begin{DoxyCompactList}\small\item\em A history record for an assignment \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_assignment_item}{Assignment\+Item}
+\begin{DoxyCompactList}\small\item\em Link from an item to an assignment \end{DoxyCompactList}\item 
+class {\bfseries Database}
+\begin{DoxyCompactList}\small\item\em A helper class for working with \hyperlink{namespace_s_q_lite}{S\+Q\+Lite} \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_document}{Document}
+\begin{DoxyCompactList}\small\item\em Class holding information about a document \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_expense}{Expense}
+\begin{DoxyCompactList}\small\item\em An expense associated with an assignment \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_expense_photo}{Expense\+Photo}
+\item 
+class \hyperlink{class_field_service_1_1_data_1_1_item}{Item}
+\begin{DoxyCompactList}\small\item\em An item to be used on an assignment \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_labor}{Labor}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_field_service_1_1_data_1_1_labor}{Labor} to be performed on an assignment \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_photo}{Photo}
+\begin{DoxyCompactList}\small\item\em Holds a photo for an assignment \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_property_changed_base}{Property\+Changed\+Base}
+\begin{DoxyCompactList}\small\item\em Base class for implementing I\+Notify\+Property\+Changed \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_sample_assignment_service}{Sample\+Assignment\+Service}
+\item 
+class \hyperlink{class_field_service_1_1_data_1_1_sample_login_service}{Sample\+Login\+Service}
+\begin{DoxyCompactList}\small\item\em Default I\+Service implementation \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_signature}{Signature}
+\item 
+class {\bfseries Test\+Data}
+\begin{DoxyCompactList}\small\item\em Static class for holding all test data within the app \end{DoxyCompactList}\item 
+class \hyperlink{class_field_service_1_1_data_1_1_timer_entry}{Timer\+Entry}
+\begin{DoxyCompactList}\small\item\em Class for holding a Time\+Stamp to persist the timer while the app is closed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263}{Assignment\+Status} \{ \\*
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a03c2e7e41ffc181a4e84080b4710e81e}{Assignment\+Status.\+New} = 0, 
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263abcd8db575b47c838e5d551e3973db4ac}{Assignment\+Status.\+Hold} = 1, 
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a4d3d769b812b6faa6b76e1a8abaece2d}{Assignment\+Status.\+Active} = 2, 
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263aae94f80b3ce82062a5dd7815daa04f9d}{Assignment\+Status.\+Complete} = 3, 
+\\*
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a616b5940be86c327aaa5090f50c061f5}{Assignment\+Status.\+Declined} = 9999
+ \}
+\begin{DoxyCompactList}\small\item\em An enumeration for Assignment status \end{DoxyCompactList}\item 
+enum \hyperlink{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6}{Labor\+Type} \{ \hyperlink{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a769cb50c95fd3a43c659aa73aba99e5b}{Labor\+Type.\+Hourly} = 0, 
+\hyperlink{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a9afbbb6a5bfc89df3c34abd06946765f}{Labor\+Type.\+Over\+Time} = 1, 
+\hyperlink{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a3ad31d3472bf5241edd2aa17ff1375dc}{Labor\+Type.\+Holiday\+Time} = 2
+ \}
+\begin{DoxyCompactList}\small\item\em An enumeration for Labor types \end{DoxyCompactList}\item 
+enum \hyperlink{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163}{Expense\+Category} \{ \hyperlink{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a635459702f9817de29e608fa3395637c}{Expense\+Category.\+Gas} = 0, 
+\hyperlink{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a0a38e7286ebbb560354992b3ce62be67}{Expense\+Category.\+Food} = 1, 
+\hyperlink{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a4fe81faeb707a537f2d4318aee43f241}{Expense\+Category.\+Supplies} = 2, 
+\hyperlink{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a6311ae17c1ee52b36e68aaf4ad066387}{Expense\+Category.\+Other} = 3
+ \}
+\begin{DoxyCompactList}\small\item\em An enumeration for Expense categories \end{DoxyCompactList}\item 
+enum \hyperlink{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72}{Document\+Type} \{ \hyperlink{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72af49498143b94e78415d06029763412b9}{Document\+Type.\+Contract} = 0, 
+\hyperlink{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ae2faf90818994741cfebee72269afb8f}{Document\+Type.\+Service\+Agreement} = 1, 
+\hyperlink{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ab36d2184563e1bcc51472085da9e4a72}{Document\+Type.\+Specifications} = 2
+ \}
+\begin{DoxyCompactList}\small\item\em An enumeration for different types of Documents \end{DoxyCompactList}\item 
+enum \hyperlink{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95}{Assignment\+History\+Type} \{ \hyperlink{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95af3b92fc0f97f128818cfb44321376bca}{Assignment\+History\+Type.\+Assignment}, 
+\hyperlink{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95a4936f47a195c357f6fb0045499a229c6}{Assignment\+History\+Type.\+Phone\+Call}
+ \}
+\begin{DoxyCompactList}\small\item\em An enumeration for different types of \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95}{\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Assignment\+History\+Type@{Assignment\+History\+Type}}
+\index{Assignment\+History\+Type@{Assignment\+History\+Type}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}
+\subsubsection[{Assignment\+History\+Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Field\+Service.\+Data.\+Assignment\+History\+Type}}}\label{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95}
+
+
+An enumeration for different types of 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Assignment@{Assignment}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Assignment@{Assignment}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95af3b92fc0f97f128818cfb44321376bca}{Assignment}\label{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95af3b92fc0f97f128818cfb44321376bca}
+}]History record represents an assignment \index{Phone\+Call@{Phone\+Call}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Phone\+Call@{Phone\+Call}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95a4936f47a195c357f6fb0045499a229c6}{Phone\+Call}\label{namespace_field_service_1_1_data_adab81adc38635c82c27eb6518365aa95a4936f47a195c357f6fb0045499a229c6}
+}]History record represents a phone call \end{description}
+\end{Desc}
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263}{\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Assignment\+Status@{Assignment\+Status}}
+\index{Assignment\+Status@{Assignment\+Status}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}
+\subsubsection[{Assignment\+Status}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Field\+Service.\+Data.\+Assignment\+Status}}}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263}
+
+
+An enumeration for \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} status 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{New@{New}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!New@{New}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a03c2e7e41ffc181a4e84080b4710e81e}{New}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a03c2e7e41ffc181a4e84080b4710e81e}
+}]The assignment is new, it has not been accepted yet \index{Hold@{Hold}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Hold@{Hold}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263abcd8db575b47c838e5d551e3973db4ac}{Hold}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263abcd8db575b47c838e5d551e3973db4ac}
+}]The assignment has been accepted, but not started \index{Active@{Active}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Active@{Active}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a4d3d769b812b6faa6b76e1a8abaece2d}{Active}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a4d3d769b812b6faa6b76e1a8abaece2d}
+}]The user is enroute to the assignment \index{Complete@{Complete}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Complete@{Complete}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263aae94f80b3ce82062a5dd7815daa04f9d}{Complete}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263aae94f80b3ce82062a5dd7815daa04f9d}
+}]The user completed the assignment \index{Declined@{Declined}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Declined@{Declined}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a616b5940be86c327aaa5090f50c061f5}{Declined}\label{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263a616b5940be86c327aaa5090f50c061f5}
+}]The assignment was declined by the user \end{description}
+\end{Desc}
+\hypertarget{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72}{\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Document\+Type@{Document\+Type}}
+\index{Document\+Type@{Document\+Type}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}
+\subsubsection[{Document\+Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Field\+Service.\+Data.\+Document\+Type}}}\label{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72}
+
+
+An enumeration for different types of Documents 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Contract@{Contract}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Contract@{Contract}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72af49498143b94e78415d06029763412b9}{Contract}\label{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72af49498143b94e78415d06029763412b9}
+}]A contract for the customer \index{Service\+Agreement@{Service\+Agreement}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Service\+Agreement@{Service\+Agreement}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ae2faf90818994741cfebee72269afb8f}{Service\+Agreement}\label{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ae2faf90818994741cfebee72269afb8f}
+}]S\+L\+A, or Service License Agreement \index{Specifications@{Specifications}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Specifications@{Specifications}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ab36d2184563e1bcc51472085da9e4a72}{Specifications}\label{namespace_field_service_1_1_data_a3f59e9016ae4f76b12fee13c8594ca72ab36d2184563e1bcc51472085da9e4a72}
+}]A spec sheet \end{description}
+\end{Desc}
+\hypertarget{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163}{\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Expense\+Category@{Expense\+Category}}
+\index{Expense\+Category@{Expense\+Category}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}
+\subsubsection[{Expense\+Category}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Field\+Service.\+Data.\+Expense\+Category}}}\label{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163}
+
+
+An enumeration for \hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} categories 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Gas@{Gas}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Gas@{Gas}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a635459702f9817de29e608fa3395637c}{Gas}\label{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a635459702f9817de29e608fa3395637c}
+}]\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} for gas and travel \index{Food@{Food}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Food@{Food}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a0a38e7286ebbb560354992b3ce62be67}{Food}\label{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a0a38e7286ebbb560354992b3ce62be67}
+}]\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} for meals and food \index{Supplies@{Supplies}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Supplies@{Supplies}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a4fe81faeb707a537f2d4318aee43f241}{Supplies}\label{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a4fe81faeb707a537f2d4318aee43f241}
+}]\hyperlink{class_field_service_1_1_data_1_1_expense}{Expense} for supplies \index{Other@{Other}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Other@{Other}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a6311ae17c1ee52b36e68aaf4ad066387}{Other}\label{namespace_field_service_1_1_data_a6565a839d23a4c941ba4a771c1e22163a6311ae17c1ee52b36e68aaf4ad066387}
+}]Other expenses \end{description}
+\end{Desc}
+\hypertarget{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6}{\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Labor\+Type@{Labor\+Type}}
+\index{Labor\+Type@{Labor\+Type}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}
+\subsubsection[{Labor\+Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Field\+Service.\+Data.\+Labor\+Type}}}\label{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6}
+
+
+An enumeration for \hyperlink{class_field_service_1_1_data_1_1_labor}{Labor} types 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Hourly@{Hourly}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Hourly@{Hourly}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a769cb50c95fd3a43c659aa73aba99e5b}{Hourly}\label{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a769cb50c95fd3a43c659aa73aba99e5b}
+}]The labor counts as standard hourly labor \index{Over\+Time@{Over\+Time}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Over\+Time@{Over\+Time}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a9afbbb6a5bfc89df3c34abd06946765f}{Over\+Time}\label{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a9afbbb6a5bfc89df3c34abd06946765f}
+}]The labor counts as over time \index{Holiday\+Time@{Holiday\+Time}!Field\+Service\+::\+Data@{Field\+Service\+::\+Data}}\index{Field\+Service\+::\+Data@{Field\+Service\+::\+Data}!Holiday\+Time@{Holiday\+Time}}\item[{\em 
+\hypertarget{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a3ad31d3472bf5241edd2aa17ff1375dc}{Holiday\+Time}\label{namespace_field_service_1_1_data_a20c89d9b67c465f840b3ef27a026afd6a3ad31d3472bf5241edd2aa17ff1375dc}
+}]The labor counts as holiday time \end{description}
+\end{Desc}

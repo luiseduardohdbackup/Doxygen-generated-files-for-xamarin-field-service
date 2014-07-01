@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_tests_1_1_data" kind="namespace">
+    <compoundname>FieldService::Tests::Data</compoundname>
+    <innerclass refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests" prot="public">FieldService::Tests::Data::SampleAssignmentServiceTests</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="26" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::AddItemController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a91a7799306b0093f296322fe866a3e4e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.AddItemController.TableSource.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <initializer>= &quot;ItemCell&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a9da750497931027300ad403361b6217b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_add_item_controller" kindref="compound">AddItemController</ref></type>
+        <definition>readonly AddItemController FieldService.iOS.AddItemController.TableSource.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="104" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1aa22804b01a9eee7f2fa529db920fb860" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.AddItemController.TableSource.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1adee1369922a735aac1218c3fbf954905" prot="protected" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>readonly ItemViewModel FieldService.iOS.AddItemController.TableSource.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="106" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1af8e081c961a0ccb41cfa743d6632590f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddItemController.TableSource.TableSource</definition>
+        <argsstring>(AddItemController controller)</argsstring>
+        <name>TableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_add_item_controller" kindref="compound">AddItemController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="108" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a53c8b7bd6f5f9c88798abbd878d127a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddItemController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="115" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab7f4344b2295aada6fe8f62089abfbb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.AddItemController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="120" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="120" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab36623374610bbe9911f771411d4374b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddItemController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="132" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="132" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ae267d9392b0c6447a83bfd4a425040cd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref></type>
+        <definition>virtual Item FieldService.iOS.AddItemController.TableSource.GetItem</definition>
+        <argsstring>(NSIndexPath indexPath)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="148" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table source for the list of items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3232">
+        <label>FieldService.iOS.AddItemController.TableSource</label>
+        <childnode refid="3233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3233">
+        <label>UITableViewSource</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3234">
+        <label>FieldService.iOS.AddItemController.TableSource</label>
+        <childnode refid="3235" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3236" relation="usage">
+          <edgelabel>itemViewModel</edgelabel>
+        </childnode>
+      </node>
+      <node id="3235">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3239">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="3237">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="3238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3238">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="3239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3236">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="3237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="101" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1aa22804b01a9eee7f2fa529db920fb860" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a9da750497931027300ad403361b6217b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab7f4344b2295aada6fe8f62089abfbb5" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ae267d9392b0c6447a83bfd4a425040cd" prot="protected" virt="virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>GetItem</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a91a7799306b0093f296322fe866a3e4e" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>Identifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1adee1369922a735aac1218c3fbf954905" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab36623374610bbe9911f771411d4374b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1a53c8b7bd6f5f9c88798abbd878d127a5" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1af8e081c961a0ccb41cfa743d6632590f" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::TableSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

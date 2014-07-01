@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_android" kind="namespace">
+    <compoundname>FieldService::Android</compoundname>
+    <innerclass refid="class_field_service_1_1_android_1_1_application" prot="public">FieldService::Android::Application</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_assignments_activity" prot="public">FieldService::Android::AssignmentsActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_assignments_adapter" prot="public">FieldService::Android::AssignmentsAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_assignment_tab_activity" prot="public">FieldService::Android::AssignmentTabActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_base_activity" prot="public">FieldService::Android::BaseActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_base_map_activity" prot="public">FieldService::Android::BaseMapActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_expenses_adapter" prot="public">FieldService::Android::ExpensesAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_items_adapter" prot="public">FieldService::Android::ItemsAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_items_search_adapter" prot="public">FieldService::Android::ItemsSearchAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_labor_hours_adapter" prot="public">FieldService::Android::LaborHoursAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter" prot="public">FieldService::Android::LaborTypeSpinnerAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_login_activity" prot="public">FieldService::Android::LoginActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_map_fragment_activity" prot="public">FieldService::Android::MapFragmentActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_map_view_activity" prot="public">FieldService::Android::MapViewActivity</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_navigation_adapter" prot="public">FieldService::Android::NavigationAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_photos_adapter" prot="public">FieldService::Android::PhotosAdapter</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_resource" prot="public">FieldService::Android::Resource</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4" prot="public">FieldService::Android::SpinnerAdapter&lt; T &gt;</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_summary_activity" prot="public">FieldService::Android::SummaryActivity</innerclass>
+    <innernamespace refid="namespace_field_service_1_1_android_1_1_activities">FieldService::Android::Activities</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_android_1_1_adapters">FieldService::Android::Adapters</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_android_1_1_dialogs">FieldService::Android::Dialogs</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_android_1_1_fragments">FieldService::Android::Fragments</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_android_1_1_utilities">FieldService::Android::Utilities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="30" column="1"/>
+  </compounddef>
+</doxygen>

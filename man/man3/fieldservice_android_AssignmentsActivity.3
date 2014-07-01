@@ -1,0 +1,75 @@
+.TH "FieldService.Android.AssignmentsActivity" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Android.AssignmentsActivity \- 
+.PP
+Activity for the list of assignments  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.Android\&.BaseActivity\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignmentsActivity\fP ()"
+.br
+.ti -1c
+.RI "void \fBReloadAssignments\fP ()"
+.br
+.RI "\fImanual refreshing assignments list \fP"
+.ti -1c
+.RI "void \fBReloadSingleListItem\fP (int index)"
+.br
+.RI "\fIReload the view in the listview by itself without calling to reload the list\&. \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnCreate\fP (Bundle bundle)"
+.br
+.ti -1c
+.RI "override void \fBOnResume\fP ()"
+.br
+.RI "\fIOverrides resume so we can refresh the list when the activity is loaded\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Activity for the list of assignments 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.Android\&.AssignmentsActivity\&.AssignmentsActivity ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.Android\&.AssignmentsActivity\&.OnCreate (Bundlebundle)\fC [protected]\fP"
+
+.SS "override void FieldService\&.Android\&.AssignmentsActivity\&.OnResume ()\fC [protected]\fP"
+
+.PP
+Overrides resume so we can refresh the list when the activity is loaded\&. 
+.SS "void FieldService\&.Android\&.AssignmentsActivity\&.ReloadAssignments ()"
+
+.PP
+manual refreshing assignments list 
+.SS "void FieldService\&.Android\&.AssignmentsActivity\&.ReloadSingleListItem (intindex)"
+
+.PP
+Reload the view in the listview by itself without calling to reload the list\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindex\fP index of the list view item to reload
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

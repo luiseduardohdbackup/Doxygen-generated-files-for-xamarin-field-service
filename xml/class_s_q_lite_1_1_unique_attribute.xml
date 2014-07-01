@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_unique_attribute" kind="class" prot="public">
+    <compoundname>SQLite::UniqueAttribute</compoundname>
+    <basecompoundref refid="class_s_q_lite_1_1_indexed_attribute" prot="public" virt="non-virtual">SQLite.IndexedAttribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_unique_attribute_1a7be9750f13a84999b4a53c45b1f84250" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool SQLite.UniqueAttribute.Unique</definition>
+        <argsstring></argsstring>
+        <name>Unique</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1637" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1637" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3297">
+        <label>Attribute</label>
+      </node>
+      <node id="3295">
+        <label>SQLite.UniqueAttribute</label>
+        <link refid="class_s_q_lite_1_1_unique_attribute"/>
+        <childnode refid="3296" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3296">
+        <label>IndexedAttribute</label>
+        <link refid="class_s_q_lite_1_1_indexed_attribute"/>
+        <childnode refid="3297" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3300">
+        <label>Attribute</label>
+      </node>
+      <node id="3298">
+        <label>SQLite.UniqueAttribute</label>
+        <link refid="class_s_q_lite_1_1_unique_attribute"/>
+        <childnode refid="3299" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3299">
+        <label>IndexedAttribute</label>
+        <link refid="class_s_q_lite_1_1_indexed_attribute"/>
+        <childnode refid="3300" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1636" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1635" bodyend="1641"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_indexed_attribute_1a4c01c07e1c18a6d4743316c5f0760a34" prot="public" virt="non-virtual"><scope>SQLite::UniqueAttribute</scope><name>IndexedAttribute</name></member>
+      <member refid="class_s_q_lite_1_1_indexed_attribute_1a6d43155fc211d6c76d27326c66c39752" prot="public" virt="non-virtual"><scope>SQLite::UniqueAttribute</scope><name>IndexedAttribute</name></member>
+      <member refid="class_s_q_lite_1_1_indexed_attribute_1a55689d97d0aca7c218c9677b2ddf2dd0" prot="public" virt="non-virtual"><scope>SQLite::UniqueAttribute</scope><name>Name</name></member>
+      <member refid="class_s_q_lite_1_1_indexed_attribute_1a5d6a42950339c3ae6060c1065467277a" prot="public" virt="non-virtual"><scope>SQLite::UniqueAttribute</scope><name>Order</name></member>
+      <member refid="class_s_q_lite_1_1_unique_attribute_1a7be9750f13a84999b4a53c45b1f84250" prot="public" virt="non-virtual"><scope>SQLite::UniqueAttribute</scope><name>Unique</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

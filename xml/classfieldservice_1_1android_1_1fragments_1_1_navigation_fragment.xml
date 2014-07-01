@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::NavigationFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a646a9afd17a9f7cd881125c68f24326c" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.NavigationFragment.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a49ad07b55961df0969d872ac6c6d44af" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.NavigationFragment.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a85a4324647ed04e32384aa17f3388543" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.NavigationFragment.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a86b103fd14f7e06096cda09a540a1925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.NavigationFragment.NavigationFragment</definition>
+        <argsstring>()</argsstring>
+        <name>NavigationFragment</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="21" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac5d372f153e90c3d8572eb3216c94d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a8d9852fa2c64ab6206b8629c57380976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.NavigationFragment.onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a420e5ae9da3bc26ce8f0a17654e04a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment.onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a90648d9c3c40f4344f03f12a27d5bad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac274f76ca209a33702acbc8fcb76e5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac3a1df1f3bc8de6c88f580e8fd21c666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="68" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1aeb7dfceebb576c33f9ae8738e6367a48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.NavigationFragment.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a08ecade755b605d2d9e5fd665b95ca84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.NavigationFragment.n_onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>n_onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a7ce1d284ae2e11508588ed93be38f3aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.NavigationFragment.n_onPause</definition>
+        <argsstring>()</argsstring>
+        <name>n_onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1af9fede2c54da1b99df53231657b6b570" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.NavigationFragment.n_onResume</definition>
+        <argsstring>()</argsstring>
+        <name>n_onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2808">
+        <label>fieldservice.android.fragments.NavigationFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment"/>
+        <childnode refid="2809" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2809">
+        <label>Fragment</label>
+      </node>
+      <node id="2810">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2814">
+        <label>String</label>
+      </node>
+      <node id="2811">
+        <label>fieldservice.android.fragments.NavigationFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment"/>
+        <childnode refid="2812" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2813" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2814" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2812">
+        <label>Fragment</label>
+      </node>
+      <node id="2813">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment.java" bodystart="4" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a85a4324647ed04e32384aa17f3388543" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a646a9afd17a9f7cd881125c68f24326c" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac274f76ca209a33702acbc8fcb76e5d8" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac3a1df1f3bc8de6c88f580e8fd21c666" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1aeb7dfceebb576c33f9ae8738e6367a48" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a08ecade755b605d2d9e5fd665b95ca84" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>n_onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a7ce1d284ae2e11508588ed93be38f3aa" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>n_onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1af9fede2c54da1b99df53231657b6b570" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>n_onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a86b103fd14f7e06096cda09a540a1925" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>NavigationFragment</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1ac5d372f153e90c3d8572eb3216c94d52" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a8d9852fa2c64ab6206b8629c57380976" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a420e5ae9da3bc26ce8f0a17654e04a05" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a90648d9c3c40f4344f03f12a27d5bad4" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment_1a49ad07b55961df0969d872ac6c6d44af" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

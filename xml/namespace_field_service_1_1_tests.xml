@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_tests" kind="namespace">
+    <compoundname>FieldService::Tests</compoundname>
+    <innernamespace refid="namespace_field_service_1_1_tests_1_1_data">FieldService::Tests::Data</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_tests_1_1_mocks">FieldService::Tests::Mocks</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_tests_1_1_view_models">FieldService::Tests::ViewModels</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

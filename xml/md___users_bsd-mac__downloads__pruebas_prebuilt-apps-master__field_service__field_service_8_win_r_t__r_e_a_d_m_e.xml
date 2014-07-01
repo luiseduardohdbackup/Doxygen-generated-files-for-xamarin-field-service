@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__field_service_8_win_r_t__r_e_a_d_m_e" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_FieldService.WinRT_README</compoundname>
+    <title>Field Service - WinRT</title>
+    <detaileddescription>
+<para>We are using a Beta of the Bing Maps SDK, install here: <ulink url="http://visualstudiogallery.msdn.microsoft.com/ebc98390-5320-4088-a2b5-8f276e4530f9">http://visualstudiogallery.msdn.microsoft.com/ebc98390-5320-4088-a2b5-8f276e4530f9</ulink></para><para>Instructions here: <ulink url="http://msdn.microsoft.com/en-us/library/hh855146.aspx">http://msdn.microsoft.com/en-us/library/hh855146.aspx</ulink></para><para>You will need a bing maps key here: <ulink url="http://msdn.microsoft.com/en-us/library/ff428642.aspx">http://msdn.microsoft.com/en-us/library/ff428642.aspx</ulink></para><para>One thing to note, is that we were no longer able to put &quot;Any CPU&quot; as our target. I changed it to x86 for now, for WinRT devices, change it to ARM, and ARM will not work with Debug builds, must run it in Release. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

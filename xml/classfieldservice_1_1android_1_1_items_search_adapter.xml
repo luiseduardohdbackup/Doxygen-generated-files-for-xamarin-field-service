@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_items_search_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::ItemsSearchAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_items_search_adapter_1a0d4232699b2f0be6384c0100ea6900a1" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.ItemsSearchAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_items_search_adapter_1a588041140f85b1329cba141a2dce6a52" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.ItemsSearchAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1ab045307a92258730fdd48895735a1daa" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a6504e372282aa8f2e28ccc6924df30fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1afd66fb28b635b9745ad77af8100b7b28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a8b47304e5608d8a9a43e65313d004f5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a4aa71ff4335e6491eee38d51c21c2b8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1ab9fb5e32aa9563677add21657e8e96d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a44a2075ccf11a8a26766f8d4730bff20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1aa4c1b5da76d113bf612ee29f7f996c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int fieldservice.android.ItemsSearchAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a78abd16e15580d1020469f35fb5ea2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.ItemsSearchAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a9afc6778c995133af43168c744772285" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.ItemsSearchAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="83" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a769942d89bdca4f4a79b39d53e529585" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.ItemsSearchAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="90" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a930c50b6c313c187a65817bce2ef21bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native int</type>
+        <definition>native int fieldservice.android.ItemsSearchAdapter.n_getCount</definition>
+        <argsstring>()</argsstring>
+        <name>n_getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_items_search_adapter_1a60e7ef5896f86ed4deaec7031bbba439" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.ItemsSearchAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2405">
+        <label>fieldservice.android.ItemsSearchAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_items_search_adapter"/>
+        <childnode refid="2406" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2407" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2406">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2407">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2411">
+        <label>String</label>
+      </node>
+      <node id="2408">
+        <label>fieldservice.android.ItemsSearchAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1_items_search_adapter"/>
+        <childnode refid="2409" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2410" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2411" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2409">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2410">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/ItemsSearchAdapter.java" bodystart="4" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1ab045307a92258730fdd48895735a1daa" prot="package" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a0d4232699b2f0be6384c0100ea6900a1" prot="package" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1aa4c1b5da76d113bf612ee29f7f996c01" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>getCount</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a78abd16e15580d1020469f35fb5ea2f0" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a6504e372282aa8f2e28ccc6924df30fa" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1afd66fb28b635b9745ad77af8100b7b28" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a8b47304e5608d8a9a43e65313d004f5f" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a4aa71ff4335e6491eee38d51c21c2b8b" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1ab9fb5e32aa9563677add21657e8e96d6" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a44a2075ccf11a8a26766f8d4730bff20" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a9afc6778c995133af43168c744772285" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a769942d89bdca4f4a79b39d53e529585" prot="public" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a930c50b6c313c187a65817bce2ef21bc" prot="private" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>n_getCount</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a60e7ef5896f86ed4deaec7031bbba439" prot="private" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1_items_search_adapter_1a588041140f85b1329cba141a2dce6a52" prot="package" virt="non-virtual"><scope>fieldservice::android::ItemsSearchAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

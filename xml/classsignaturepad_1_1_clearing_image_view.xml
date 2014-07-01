@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classsignaturepad_1_1_clearing_image_view" kind="class" prot="public">
+    <compoundname>signaturepad::ClearingImageView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ImageView</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classsignaturepad_1_1_clearing_image_view_1aa2a1c36c6c3fcce0c7b7178ac8e1c06e" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String signaturepad.ClearingImageView.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classsignaturepad_1_1_clearing_image_view_1ad217585f6cbe408b2ff92083676e7a00" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList signaturepad.ClearingImageView.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a38fd1b102f5fda00d65f870d00ac92a4" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.ClearingImageView.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1ad9fa6939ec7674f4d5405799c7c16430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.ClearingImageView.ClearingImageView</definition>
+        <argsstring>(android.content.Context p0)</argsstring>
+        <name>ClearingImageView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a2fffeb6f74c097164fd552694ef43afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.ClearingImageView.ClearingImageView</definition>
+        <argsstring>(android.content.Context p0, android.util.AttributeSet p1)</argsstring>
+        <name>ClearingImageView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.util.AttributeSet</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a31b6f13ff4aa80d49b320af3bc873213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>signaturepad.ClearingImageView.ClearingImageView</definition>
+        <argsstring>(android.content.Context p0, android.util.AttributeSet p1, int p2)</argsstring>
+        <name>ClearingImageView</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.util.AttributeSet</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a4e4f7490c50af97a57ac1ce93cfd9f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.ClearingImageView.setImageBitmap</definition>
+        <argsstring>(android.graphics.Bitmap p0)</argsstring>
+        <name>setImageBitmap</name>
+        <param>
+          <type>android.graphics.Bitmap</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a01af4280ae864dc6d70a7050ca833cb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.ClearingImageView.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1a268f57988cd04a7b35e265f52729a523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void signaturepad.ClearingImageView.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classsignaturepad_1_1_clearing_image_view_1ab79615c48756461cc18ef1f80f8ca8ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void signaturepad.ClearingImageView.n_setImageBitmap</definition>
+        <argsstring>(android.graphics.Bitmap p0)</argsstring>
+        <name>n_setImageBitmap</name>
+        <param>
+          <type>android.graphics.Bitmap</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1953">
+        <label>android::widget::ImageView</label>
+      </node>
+      <node id="1952">
+        <label>signaturepad.ClearingImageView</label>
+        <link refid="classsignaturepad_1_1_clearing_image_view"/>
+        <childnode refid="1953" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1954" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1954">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1958">
+        <label>String</label>
+      </node>
+      <node id="1956">
+        <label>android::widget::ImageView</label>
+      </node>
+      <node id="1955">
+        <label>signaturepad.ClearingImageView</label>
+        <link refid="classsignaturepad_1_1_clearing_image_view"/>
+        <childnode refid="1956" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1957" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1958" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="1957">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/signaturepad/ClearingImageView.java" bodystart="4" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a38fd1b102f5fda00d65f870d00ac92a4" prot="package" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>[static initializer]</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1aa2a1c36c6c3fcce0c7b7178ac8e1c06e" prot="package" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>__md_methods</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1ad9fa6939ec7674f4d5405799c7c16430" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>ClearingImageView</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a2fffeb6f74c097164fd552694ef43afa" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>ClearingImageView</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a31b6f13ff4aa80d49b320af3bc873213" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>ClearingImageView</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a01af4280ae864dc6d70a7050ca833cb9" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>monodroidAddReference</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a268f57988cd04a7b35e265f52729a523" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>monodroidClearReferences</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1ab79615c48756461cc18ef1f80f8ca8ac" prot="private" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>n_setImageBitmap</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1ad217585f6cbe408b2ff92083676e7a00" prot="package" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>refList</name></member>
+      <member refid="classsignaturepad_1_1_clearing_image_view_1a4e4f7490c50af97a57ac1ce93cfd9f95" prot="public" virt="non-virtual"><scope>signaturepad::ClearingImageView</scope><name>setImageBitmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

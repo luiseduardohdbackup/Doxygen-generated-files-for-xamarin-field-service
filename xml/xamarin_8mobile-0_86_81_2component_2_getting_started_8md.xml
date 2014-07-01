@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="xamarin_8mobile-0_86_81_2component_2_getting_started_8md" kind="file">
+    <compoundname>GettingStarted.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">Xamarin.Mobile<sp/>is<sp/>an<sp/>API<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>accessing<sp/>common<sp/>platform<sp/>features,<sp/>such<sp/>as</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">reading<sp/>the<sp/>user</highlight><highlight class="stringliteral">&apos;s<sp/>address<sp/>book<sp/>and<sp/>using<sp/>the<sp/>camera,<sp/>across<sp/>iOS,</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral">Android,<sp/>and<sp/>Windows<sp/>Phone.</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral">##<sp/>Examples</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">To<sp/>access<sp/>the<sp/>address<sp/>book:</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">```csharp</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">using<sp/>Xamarin.Contacts;</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">...</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">var<sp/>book<sp/>=<sp/>new<sp/>AddressBook<sp/>();</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">foreach<sp/>(Contact<sp/>contact<sp/>in<sp/>book.OrderBy<sp/>(c<sp/>=&gt;<sp/>c.LastName))<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(&quot;{0}<sp/>{1}&quot;,<sp/>contact.FirstName,<sp/>contact.LastName);</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">}</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">```</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">To<sp/>get<sp/>the<sp/>user&apos;</highlight><highlight class="normal">s<sp/>location:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Xamarin.Geolocation;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">...</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">var<sp/>locator<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Geolocator<sp/>{<sp/>DesiredAccuracy<sp/>=<sp/>50<sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">locator.GetPositionAsync<sp/>(timeout:<sp/>10000).ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;Position<sp/>Status:<sp/>{0}&quot;</highlight><highlight class="normal">,<sp/>t.Result.Timestamp);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;Position<sp/>Latitude:<sp/>{0}&quot;</highlight><highlight class="normal">,<sp/>t.Result.Latitude);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;Position<sp/>Longitude:<sp/>{0}&quot;</highlight><highlight class="normal">,<sp/>t.Result.Longitude);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">To<sp/>take<sp/>a<sp/>photo:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">```csharp</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Xamarin.Media;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">...</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">var<sp/>picker<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>MediaPicker<sp/>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">picker.TakePhotoAsync<sp/>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>StoreCameraMediaOptions<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>Name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;test.jpg&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>Directory<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MediaPickerSample&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}).ContinueWith<sp/>(t<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t.IsCanceled)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(</highlight><highlight class="stringliteral">&quot;User<sp/>canceled&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>Console.WriteLine<sp/>(t.Result.Path);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">```</highlight></codeline>
+    </programlisting>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/component/GettingStarted.md"/>
+  </compounddef>
+</doxygen>

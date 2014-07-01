@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_resource_1_1_id" kind="class" prot="public">
+    <compoundname>Sample::Android::Resource::Id</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_id_1a873e8ab856b0b0c4d9ee293f6cca389c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.Id.btnLoad</definition>
+        <argsstring></argsstring>
+        <name>btnLoad</name>
+        <initializer>= 2131034114</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_id_1a31c70aa1efe666f624c7b87afccd24be" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.Id.btnSave</definition>
+        <argsstring></argsstring>
+        <name>btnSave</name>
+        <initializer>= 2131034113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_id_1af6df959e12d198ba5375f6c40205c226" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.Id.signatureView</definition>
+        <argsstring></argsstring>
+        <name>signatureView</name>
+        <initializer>= 2131034112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1_1_id_1a59e2d77dc90c1df5e0851ce6104a1c67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.Android.Resource.Id.Id</definition>
+        <argsstring>()</argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="62" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="50" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_id_1a873e8ab856b0b0c4d9ee293f6cca389c" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::Id</scope><name>btnLoad</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_id_1a31c70aa1efe666f624c7b87afccd24be" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::Id</scope><name>btnSave</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_id_1a59e2d77dc90c1df5e0851ce6104a1c67" prot="private" virt="non-virtual"><scope>Sample::Android::Resource::Id</scope><name>Id</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_id_1af6df959e12d198ba5375f6c40205c226" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::Id</scope><name>signatureView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

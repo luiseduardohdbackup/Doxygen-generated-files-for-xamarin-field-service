@@ -1,0 +1,26 @@
+.TH "md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1.2_component__details" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1.2_component__details \- Details 
+Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple\&.
+.PP
+Adding a \fCSignaturePadView\fP to your iOS app:
+.PP
+```csharp using SignaturePad; \&.\&.\&.
+.PP
+public override void ViewDidLoad () { \&.\&.\&. var signature = new SignaturePadView (View\&.Frame); View\&.AddSubview (signature); } ```
+.PP
+Adding a \fCSignaturePadView\fP to your Android app:
+.PP
+```csharp using SignaturePad; \&.\&.\&.
+.PP
+protected override void OnCreate (Bundle bundle) { base\&.OnCreate (bundle);
+.PP
+var signature = new SignaturePadView (this); AddContentView (signature, new ViewGroup\&.LayoutParams (ViewGroup\&.LayoutParams\&.FillParent, ViewGroup\&.LayoutParams\&.FillParent)); } ```
+.PP
+To capture the user's signature as an image:
+.PP
+```csharp var image = signature\&.GetImage (); ```
+.PP
+\fIScreenshot created with \fCPlaceIt\fP\&.\fP 

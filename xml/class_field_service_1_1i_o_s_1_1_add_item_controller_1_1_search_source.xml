@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::AddItemController::SearchSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FieldService.iOS.AddItemController.TableSource</basecompoundref>
+    <basecompoundref refid="interface_field_service_1_1i_o_s_1_1_i_search_source" prot="public" virt="non-virtual">FieldService.iOS.ISearchSource</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a7aede48478d54fbf810484fe4550f0ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.iOS.AddItemController.SearchSource.SearchText</definition>
+        <argsstring></argsstring>
+        <name>SearchText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="165" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a27dc78557957243b6a9710fd68fa87c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddItemController.SearchSource.SearchSource</definition>
+        <argsstring>(AddItemController controller)</argsstring>
+        <name>SearchSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_add_item_controller" kindref="compound">AddItemController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="159" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a747e5d03d82a81be196240cb8cafcf87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddItemController.SearchSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="171" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="171" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a33ccea842867faa1572a8d69de051a43" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref></type>
+        <definition>override Item FieldService.iOS.AddItemController.SearchSource.GetItem</definition>
+        <argsstring>(NSIndexPath indexPath)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="176" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="176" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a4c4434d3735fdb6c2c6343b7d3ed87f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.AddItemController.SearchSource.Filter</definition>
+        <argsstring>(Item item)</argsstring>
+        <name>Filter</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="181" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="181" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Search source for the list of items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2991">
+        <label>TableSource</label>
+        <childnode refid="2992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2992">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="2990">
+        <label>FieldService.iOS.AddItemController.SearchSource</label>
+        <childnode refid="2991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2993" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2993">
+        <label>ISearchSource</label>
+        <link refid="interface_field_service_1_1i_o_s_1_1_i_search_source"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2995">
+        <label>TableSource</label>
+        <childnode refid="2996" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2997" relation="usage">
+          <edgelabel>itemViewModel</edgelabel>
+        </childnode>
+      </node>
+      <node id="2996">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3000">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2994">
+        <label>FieldService.iOS.AddItemController.SearchSource</label>
+        <childnode refid="2995" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3001" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2998">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2999" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3001">
+        <label>ISearchSource</label>
+        <link refid="interface_field_service_1_1i_o_s_1_1_i_search_source"/>
+      </node>
+      <node id="2999">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="3000" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2997">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2998" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="158" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="157" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a4c4434d3735fdb6c2c6343b7d3ed87f3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>Filter</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab7f4344b2295aada6fe8f62089abfbb5" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a33ccea842867faa1572a8d69de051a43" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>GetItem</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1adee1369922a735aac1218c3fbf954905" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1ab36623374610bbe9911f771411d4374b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a747e5d03d82a81be196240cb8cafcf87" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a27dc78557957243b6a9710fd68fa87c4" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>SearchSource</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source_1a7aede48478d54fbf810484fe4550f0ab" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>SearchText</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source_1af8e081c961a0ccb41cfa743d6632590f" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController::SearchSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

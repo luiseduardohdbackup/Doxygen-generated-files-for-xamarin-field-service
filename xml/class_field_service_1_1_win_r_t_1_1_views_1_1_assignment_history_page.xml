@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::AssignmentHistoryPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1a2b6d17acf08d2c20ae1842e7d6668b8a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model" kindref="compound">HistoryViewModel</ref></type>
+        <definition>HistoryViewModel FieldService.WinRT.Views.AssignmentHistoryPage.historyViewModel</definition>
+        <argsstring></argsstring>
+        <name>historyViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1ab90b8b648f74e3c369621cde237ec03a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.WinRT.Views.AssignmentHistoryPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1aaf1b1206fdb02a3d160eef85a0327436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.AssignmentHistoryPage.AssignmentHistoryPage</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentHistoryPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1abd2c64e83ca033d74f148b07e0965e89" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.AssignmentHistoryPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="58" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1a7ca9f36e8d6fd22cb6d59452405796a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void FieldService.WinRT.Views.AssignmentHistoryPage.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>History list view item click </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="65" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>History Page for viewing all history items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1713">
+        <label>Page</label>
+      </node>
+      <node id="1712">
+        <label>FieldService.WinRT.Views.AssignmentHistoryPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page"/>
+        <childnode refid="1713" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1715">
+        <label>Page</label>
+      </node>
+      <node id="1714">
+        <label>FieldService.WinRT.Views.AssignmentHistoryPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page"/>
+        <childnode refid="1715" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentHistoryPage.xaml.cs" bodystart="38" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1aaf1b1206fdb02a3d160eef85a0327436" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentHistoryPage</scope><name>AssignmentHistoryPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1ab90b8b648f74e3c369621cde237ec03a" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentHistoryPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1a2b6d17acf08d2c20ae1842e7d6668b8a" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentHistoryPage</scope><name>historyViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1a7ca9f36e8d6fd22cb6d59452405796a1" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentHistoryPage</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignment_history_page_1abd2c64e83ca033d74f148b07e0965e89" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentHistoryPage</scope><name>OnNavigatedTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

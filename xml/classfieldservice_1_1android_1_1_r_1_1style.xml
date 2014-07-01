@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_r_1_1style" kind="class" prot="public">
+    <compoundname>fieldservice::android::R::style</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1style_1a9df1c1178c7d0fa2ba6e7c20585f5d1c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.style::CustomDialogTheme</definition>
+        <argsstring></argsstring>
+        <name>CustomDialogTheme</name>
+        <initializer>=0x7f060001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="353" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1style_1ae094e1ca76f7d9a6237099db596917e6" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.style::CustomHoloTheme</definition>
+        <argsstring></argsstring>
+        <name>CustomHoloTheme</name>
+        <initializer>=0x7f060000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="354" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1style_1ab9cc298f5bb3b661170ae40f4c2baa7b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.style::Mono_Android_Theme_Splash</definition>
+        <argsstring></argsstring>
+        <name>Mono_Android_Theme_Splash</name>
+        <initializer>=0x7f060002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="355" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="352" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="352" bodyend="356"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1style_1a9df1c1178c7d0fa2ba6e7c20585f5d1c" prot="public" virt="non-virtual"><scope>fieldservice::android::R::style</scope><name>CustomDialogTheme</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1style_1ae094e1ca76f7d9a6237099db596917e6" prot="public" virt="non-virtual"><scope>fieldservice::android::R::style</scope><name>CustomHoloTheme</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1style_1ab9cc298f5bb3b661170ae40f4c2baa7b" prot="public" virt="non-virtual"><scope>fieldservice::android::R::style</scope><name>Mono_Android_Theme_Splash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

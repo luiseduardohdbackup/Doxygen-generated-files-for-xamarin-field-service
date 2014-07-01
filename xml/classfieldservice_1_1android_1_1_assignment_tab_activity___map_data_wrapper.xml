@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper" kind="class" prot="public">
+    <compoundname>fieldservice::android::AssignmentTabActivity_MapDataWrapper</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a941c6d2953e590d2e5bf618d552a560c" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.AssignmentTabActivity_MapDataWrapper.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a588ea4b124bdf3b13f74ad4f0b254631" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.AssignmentTabActivity_MapDataWrapper.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1ab5e463dc1c0a820962a8825cf4bef212" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentTabActivity_MapDataWrapper.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a108ad8847188392f03808eddc2c0d5cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.AssignmentTabActivity_MapDataWrapper.AssignmentTabActivity_MapDataWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentTabActivity_MapDataWrapper</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1aab3c8ab608a8f72a3879661fa742bd27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentTabActivity_MapDataWrapper.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a17c96aee4151956020b0a4ea30952884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.AssignmentTabActivity_MapDataWrapper.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="33" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1798">
+        <label>Object</label>
+      </node>
+      <node id="1797">
+        <label>fieldservice.android.AssignmentTabActivity_MapDataWrapper</label>
+        <link refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper"/>
+        <childnode refid="1798" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1799" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1800" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1800">
+        <label>java::io::Serializable</label>
+      </node>
+      <node id="1799">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1805">
+        <label>String</label>
+      </node>
+      <node id="1802">
+        <label>Object</label>
+      </node>
+      <node id="1801">
+        <label>fieldservice.android.AssignmentTabActivity_MapDataWrapper</label>
+        <link refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper"/>
+        <childnode refid="1802" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1803" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1804" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1805" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="1804">
+        <label>java::io::Serializable</label>
+      </node>
+      <node id="1803">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/AssignmentTabActivity_MapDataWrapper.java" bodystart="4" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1ab5e463dc1c0a820962a8825cf4bef212" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a941c6d2953e590d2e5bf618d552a560c" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a108ad8847188392f03808eddc2c0d5cb" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>AssignmentTabActivity_MapDataWrapper</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1aab3c8ab608a8f72a3879661fa742bd27" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a17c96aee4151956020b0a4ea30952884" prot="public" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_assignment_tab_activity___map_data_wrapper_1a588ea4b124bdf3b13f74ad4f0b254631" prot="package" virt="non-virtual"><scope>fieldservice::android::AssignmentTabActivity_MapDataWrapper</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

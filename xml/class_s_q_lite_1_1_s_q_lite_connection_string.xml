@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection_string" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteConnectionString</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_string_1aeafe2630ba2871c730f2ea6b7cbcc15a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnectionString.ConnectionString</definition>
+        <argsstring></argsstring>
+        <name>ConnectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1558" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_string_1aa5fb18dd049e2f5ca930f9023525734d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnectionString.DatabasePath</definition>
+        <argsstring></argsstring>
+        <name>DatabasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1559" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_string_1a1736975db702ccd8375cc77949511ff3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnectionString.StoreDateTimeAsTicks</definition>
+        <argsstring></argsstring>
+        <name>StoreDateTimeAsTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1560" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1560" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_string_1ae5ec4b3dabdbb7c581d0931382fb06ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnectionString.SQLiteConnectionString</definition>
+        <argsstring>(string databasePath, bool storeDateTimeAsTicks)</argsstring>
+        <name>SQLiteConnectionString</name>
+        <param>
+          <type>string</type>
+          <declname>databasePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1566" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1566" bodyend="1576"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a parsed connection string. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1557" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1556" bodyend="1577"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_string_1aeafe2630ba2871c730f2ea6b7cbcc15a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionString</scope><name>ConnectionString</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_string_1aa5fb18dd049e2f5ca930f9023525734d" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionString</scope><name>DatabasePath</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_string_1ae5ec4b3dabdbb7c581d0931382fb06ef" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionString</scope><name>SQLiteConnectionString</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_string_1a1736975db702ccd8375cc77949511ff3" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionString</scope><name>StoreDateTimeAsTicks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

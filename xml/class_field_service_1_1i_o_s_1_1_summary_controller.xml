@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_summary_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SummaryController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_summary_controller_1ab3ef0af01e4123467ecc86bf392add4b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.SummaryController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_summary_controller_1ac125fff344c71e7c1e77743a9d7e8f74" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.SummaryController.viewHistory</definition>
+        <argsstring></argsstring>
+        <name>viewHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a28fde5635c87a6f925728bd8991abfc4" prot="private" static="no" mutable="no">
+        <type>UIBarButtonItem</type>
+        <definition>UIBarButtonItem FieldService.iOS.SummaryController.descriptionButton</definition>
+        <argsstring></argsstring>
+        <name>descriptionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a27971360f7effdf5d6aee09643472487" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.itemsLabel</definition>
+        <argsstring></argsstring>
+        <name>itemsLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1aff8c6aa0ddde2c7a138b7d4bf4cc8f42" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.hoursLabel</definition>
+        <argsstring></argsstring>
+        <name>hoursLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a61695c7e05f7113011f0112239a450a8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.expensesLabel</definition>
+        <argsstring></argsstring>
+        <name>expensesLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a70a59a3a7e7c3351449c6b6782efcdb8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.SummaryController.itemsBackground</definition>
+        <argsstring></argsstring>
+        <name>itemsBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a128c5626f473f6415d2fd7e7e8cb1b30" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.SummaryController.hoursBackground</definition>
+        <argsstring></argsstring>
+        <name>hoursBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a8bfc198c747240e7b7bb51b26c898d96" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.SummaryController.expensesBackground</definition>
+        <argsstring></argsstring>
+        <name>expensesBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1ae935e89c0cfece0fea3d6641c442759c" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a68cbc57724a03e28d4a3d683ea114f1b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a7ac66616f44723777c4fddc91c2c8835" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.expenses</definition>
+        <argsstring></argsstring>
+        <name>expenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1adac4a827c7ec9fea9b94f10a23a4a1c8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1aa66abfb5033f105a93a815659d93eb3a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.SummaryController.descriptionTitle</definition>
+        <argsstring></argsstring>
+        <name>descriptionTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a7fed567f1fd43f9ffc5b9bfb4e1501ad" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.SummaryController.descriptionBackground</definition>
+        <argsstring></argsstring>
+        <name>descriptionBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_summary_controller_1aa16d7f2383f61d595e359975d6b4d0c0" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.SummaryController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a00a9c1540a975c01ff9c11ca3356deaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.SummaryController.SummaryController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>SummaryController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a46f56a375c29ba9ae9130a7f145484d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SummaryController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="37" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a2436b319a4e0b9670d0f75e879808ea5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SummaryController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="121" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="121" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_summary_controller_1a79a6254f55d3914cf119ce0124047bf2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SummaryController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.designer.cs" bodystart="53" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for displaying the summary about an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3145">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="3146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3146">
+        <label>UIViewController</label>
+      </node>
+      <node id="3144">
+        <label>FieldService.iOS.SummaryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_summary_controller"/>
+        <childnode refid="3145" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3148">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="3149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3149">
+        <label>UIViewController</label>
+      </node>
+      <node id="3147">
+        <label>FieldService.iOS.SummaryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_summary_controller"/>
+        <childnode refid="3148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/SummaryController.cs" bodystart="27" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1ab3ef0af01e4123467ecc86bf392add4b" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1adac4a827c7ec9fea9b94f10a23a4a1c8" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>description</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a7fed567f1fd43f9ffc5b9bfb4e1501ad" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>descriptionBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a28fde5635c87a6f925728bd8991abfc4" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>descriptionButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1aa66abfb5033f105a93a815659d93eb3a" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>descriptionTitle</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a7ac66616f44723777c4fddc91c2c8835" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>expenses</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a8bfc198c747240e7b7bb51b26c898d96" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>expensesBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a61695c7e05f7113011f0112239a450a8" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>expensesLabel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a68cbc57724a03e28d4a3d683ea114f1b" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>hours</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a128c5626f473f6415d2fd7e7e8cb1b30" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>hoursBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1aff8c6aa0ddde2c7a138b7d4bf4cc8f42" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>hoursLabel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1ae935e89c0cfece0fea3d6641c442759c" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>items</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a70a59a3a7e7c3351449c6b6782efcdb8" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>itemsBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a27971360f7effdf5d6aee09643472487" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>itemsLabel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::SummaryController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a79a6254f55d3914cf119ce0124047bf2" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a00a9c1540a975c01ff9c11ca3356deaf" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>SummaryController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1aa16d7f2383f61d595e359975d6b4d0c0" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a46f56a375c29ba9ae9130a7f145484d1" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1ac125fff344c71e7c1e77743a9d7e8f74" prot="private" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>viewHistory</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_summary_controller_1a2436b319a4e0b9670d0f75e879808ea5" prot="public" virt="non-virtual"><scope>FieldService::iOS::SummaryController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,527 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_resource_1_1_layout" kind="class" prot="public">
+    <compoundname>FieldService::Android::Resource::Layout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a17631cd13938ee34adf8e733bc4c5ef8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AddExpensePopUpLayout</definition>
+        <argsstring></argsstring>
+        <name>AddExpensePopUpLayout</name>
+        <initializer>= 2130903040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="830" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a81f229b7f8b7504874da42e9290bb2b4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AddLaborPopUpLayout</definition>
+        <argsstring></argsstring>
+        <name>AddLaborPopUpLayout</name>
+        <initializer>= 2130903041</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="833" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a5ee23337c70f3ecb37e15eefb4f01511" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AddPhotoPopUpLayout</definition>
+        <argsstring></argsstring>
+        <name>AddPhotoPopUpLayout</name>
+        <initializer>= 2130903042</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="836" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a95ac6423af9b0d268a9bbeb469dcfe1f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AddSignatureLayout</definition>
+        <argsstring></argsstring>
+        <name>AddSignatureLayout</name>
+        <initializer>= 2130903043</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="839" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a09d9b05d6d49f88f46ac348b0408e98a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AssignmentHistoryLayout</definition>
+        <argsstring></argsstring>
+        <name>AssignmentHistoryLayout</name>
+        <initializer>= 2130903044</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="842" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a92ff42b6a17be5c3ae47db81f3ea121b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AssignmentItemLayout</definition>
+        <argsstring></argsstring>
+        <name>AssignmentItemLayout</name>
+        <initializer>= 2130903045</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="845" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a9128efe08a2a29508331250b598d03d6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AssignmentsLayout</definition>
+        <argsstring></argsstring>
+        <name>AssignmentsLayout</name>
+        <initializer>= 2130903046</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="848" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae1cc1c7c40f7effa0efb20c714db7398" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.AssignmentsTabsLayout</definition>
+        <argsstring></argsstring>
+        <name>AssignmentsTabsLayout</name>
+        <initializer>= 2130903047</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="851" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a1920e436edbb92c2e063d957459b36ec" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ConfirmationsLayout</definition>
+        <argsstring></argsstring>
+        <name>ConfirmationsLayout</name>
+        <initializer>= 2130903048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="854" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1aa9435584714a00d2019621f3c2864db8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.DocumentFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>DocumentFragmentLayout</name>
+        <initializer>= 2130903049</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="857" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a8bbaf9ddc36b108a2dc12a39463cb369" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.DocumentListItemLayout</definition>
+        <argsstring></argsstring>
+        <name>DocumentListItemLayout</name>
+        <initializer>= 2130903050</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="860" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ad876cdc11db0e8daa6ed04cc1bcf301f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ExpenseListItemLayout</definition>
+        <argsstring></argsstring>
+        <name>ExpenseListItemLayout</name>
+        <initializer>= 2130903051</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="863" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a9367732583e77b34cbfa0260ae05ef59" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ExpensesFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>ExpensesFragmentLayout</name>
+        <initializer>= 2130903052</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="866" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a87d4bbd52c8b739661bc809d984cd94d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.HistoryFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>HistoryFragmentLayout</name>
+        <initializer>= 2130903053</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="869" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae52b22815ba21cbbc867c2d3766ac45f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.HistoryItemLayout</definition>
+        <argsstring></argsstring>
+        <name>HistoryItemLayout</name>
+        <initializer>= 2130903054</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="872" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae7f0a7e46827734f17a2bfec57f965fd" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.HistoryTabs</definition>
+        <argsstring></argsstring>
+        <name>HistoryTabs</name>
+        <initializer>= 2130903055</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="875" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="875" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae6472a8242d6dbb9ee5c22c1b0bafa1b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ItemLayout</definition>
+        <argsstring></argsstring>
+        <name>ItemLayout</name>
+        <initializer>= 2130903056</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="878" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a59dcfa1e0bdcd1bdba5f958f7e3d2c91" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ItemSearchListItemLayout</definition>
+        <argsstring></argsstring>
+        <name>ItemSearchListItemLayout</name>
+        <initializer>= 2130903057</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="881" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="881" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a115eb089f293590ae36b4577e7826ba9" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ItemsFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>ItemsFragmentLayout</name>
+        <initializer>= 2130903058</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="884" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a2df5a1a77eddde7de92eab15abe90d9c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.ItemsPopUpLayout</definition>
+        <argsstring></argsstring>
+        <name>ItemsPopUpLayout</name>
+        <initializer>= 2130903059</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="887" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a6412a95407713f468195cbdc6b298dd4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.LaborHoursLayout</definition>
+        <argsstring></argsstring>
+        <name>LaborHoursLayout</name>
+        <initializer>= 2130903060</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="890" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a8b3aa65341edae0d892b1f6a8f7d0832" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.LaborHoursListItemLayout</definition>
+        <argsstring></argsstring>
+        <name>LaborHoursListItemLayout</name>
+        <initializer>= 2130903061</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="893" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a94b1b8b92cf828b7be9d163108c2d730" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.LoginLayout</definition>
+        <argsstring></argsstring>
+        <name>LoginLayout</name>
+        <initializer>= 2130903062</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="896" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1ad5fc540e8437f7add12be0ce530d2d80" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.MapFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>MapFragmentLayout</name>
+        <initializer>= 2130903063</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="899" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="899" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a6057a04d37f74fc36366704e061ab92d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.MapOverlayLayout</definition>
+        <argsstring></argsstring>
+        <name>MapOverlayLayout</name>
+        <initializer>= 2130903064</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="902" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1aa106426a966e27551d3f188333d174fc" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.MapViewLayout</definition>
+        <argsstring></argsstring>
+        <name>MapViewLayout</name>
+        <initializer>= 2130903065</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="905" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a249bd28dcbcefd893dc25aacebfd45bd" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.NavigationLayout</definition>
+        <argsstring></argsstring>
+        <name>NavigationLayout</name>
+        <initializer>= 2130903066</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="908" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a494c67baf3fa6b282f2e4f6676d2645e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.NavigationListItemLayout</definition>
+        <argsstring></argsstring>
+        <name>NavigationListItemLayout</name>
+        <initializer>= 2130903067</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="911" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a5b53d6c04993d213559475d704daa150" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.PhotoItemLayout</definition>
+        <argsstring></argsstring>
+        <name>PhotoItemLayout</name>
+        <initializer>= 2130903068</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="914" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1aec5d828257e632e6314fca6b7ad7de99" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.SimpleSpinnerItem</definition>
+        <argsstring></argsstring>
+        <name>SimpleSpinnerItem</name>
+        <initializer>= 2130903069</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="917" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a95e07a4fbce9ce87d850ee490e99426f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.SummaryFragmentLayout</definition>
+        <argsstring></argsstring>
+        <name>SummaryFragmentLayout</name>
+        <initializer>= 2130903070</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="920" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a3ed0e2cf2787430c31abf7748af24809" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Layout.SummaryLayout</definition>
+        <argsstring></argsstring>
+        <name>SummaryLayout</name>
+        <initializer>= 2130903071</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="923" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="923" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a3f595f696b369f6c08c5e0db2106075f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FieldService.Android.Resource.Layout.Layout</definition>
+        <argsstring>()</argsstring>
+        <name>Layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="925" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="925" bodyend="928"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_layout_1a567597b07388559cbf19bd75e45ef3da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Resource.Layout.Layout</definition>
+        <argsstring>()</argsstring>
+        <name>Layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="930" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="930" bodyend="932"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="827" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="826" bodyend="933"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a17631cd13938ee34adf8e733bc4c5ef8" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AddExpensePopUpLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a81f229b7f8b7504874da42e9290bb2b4" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AddLaborPopUpLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a5ee23337c70f3ecb37e15eefb4f01511" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AddPhotoPopUpLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a95ac6423af9b0d268a9bbeb469dcfe1f" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AddSignatureLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a09d9b05d6d49f88f46ac348b0408e98a" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AssignmentHistoryLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a92ff42b6a17be5c3ae47db81f3ea121b" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AssignmentItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a9128efe08a2a29508331250b598d03d6" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AssignmentsLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae1cc1c7c40f7effa0efb20c714db7398" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>AssignmentsTabsLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a1920e436edbb92c2e063d957459b36ec" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ConfirmationsLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1aa9435584714a00d2019621f3c2864db8" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>DocumentFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a8bbaf9ddc36b108a2dc12a39463cb369" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>DocumentListItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ad876cdc11db0e8daa6ed04cc1bcf301f" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ExpenseListItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a9367732583e77b34cbfa0260ae05ef59" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ExpensesFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a87d4bbd52c8b739661bc809d984cd94d" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>HistoryFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae52b22815ba21cbbc867c2d3766ac45f" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>HistoryItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae7f0a7e46827734f17a2bfec57f965fd" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>HistoryTabs</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ae6472a8242d6dbb9ee5c22c1b0bafa1b" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a59dcfa1e0bdcd1bdba5f958f7e3d2c91" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ItemSearchListItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a115eb089f293590ae36b4577e7826ba9" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ItemsFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a2df5a1a77eddde7de92eab15abe90d9c" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>ItemsPopUpLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a6412a95407713f468195cbdc6b298dd4" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>LaborHoursLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a8b3aa65341edae0d892b1f6a8f7d0832" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>LaborHoursListItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a3f595f696b369f6c08c5e0db2106075f" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>Layout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a567597b07388559cbf19bd75e45ef3da" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>Layout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a94b1b8b92cf828b7be9d163108c2d730" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>LoginLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1ad5fc540e8437f7add12be0ce530d2d80" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>MapFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a6057a04d37f74fc36366704e061ab92d" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>MapOverlayLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1aa106426a966e27551d3f188333d174fc" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>MapViewLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a249bd28dcbcefd893dc25aacebfd45bd" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>NavigationLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a494c67baf3fa6b282f2e4f6676d2645e" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>NavigationListItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a5b53d6c04993d213559475d704daa150" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>PhotoItemLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1aec5d828257e632e6314fca6b7ad7de99" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>SimpleSpinnerItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a95e07a4fbce9ce87d850ee490e99426f" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>SummaryFragmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_layout_1a3ed0e2cf2787430c31abf7748af24809" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Layout</scope><name>SummaryLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

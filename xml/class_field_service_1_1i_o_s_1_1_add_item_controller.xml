@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_item_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::AddItemController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_search_source" prot="private">FieldService::iOS::AddItemController::SearchSource</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1_1_table_source" prot="private">FieldService::iOS::AddItemController::TableSource</innerclass>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a980e00b203141f92a82c4c2166b84ac2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.AddItemController.Dismissed</definition>
+        <argsstring></argsstring>
+        <name>Dismissed</name>
+        <briefdescription>
+<para>Occurs when dismissed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a63870c6dd19e0865ccd178da30b496af" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>readonly ItemViewModel FieldService.iOS.AddItemController.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1ab876e607b8f590349787d28f42d7e583" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIBarButtonItem</type>
+        <definition>MonoTouch.UIKit.UIBarButtonItem FieldService.iOS.AddItemController.cancel</definition>
+        <argsstring></argsstring>
+        <name>cancel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a1d505e77e337b1a60f24744560fc2123" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.AddItemController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a3ba1d60e2827f640544d1a93e0e4ba97" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITableView</type>
+        <definition>MonoTouch.UIKit.UITableView FieldService.iOS.AddItemController.tableView</definition>
+        <argsstring></argsstring>
+        <name>tableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a0944717610334d890f822507b2da625a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddItemController.AddItemController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>AddItemController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1aec460c4aee12e5666060a45bbf34bc34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddItemController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="43" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a87d94a2f28527bcdcbf4702c57c26eae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddItemController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="72" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a20f40e456c496014fdd6286674832767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddItemController.ViewWillDisappear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillDisappear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="80" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a62c28229ce06ab8e6970525973514fe6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddItemController.Cancel</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>Cancel</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+<para>Event when cancel button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="93" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a940d757c2daa25d653004896ed33b129" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AddItemController.Cancel</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>Cancel</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_item_controller_1a5b5d7420ecad1e9e6ef7bfcda5b43bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AddItemController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.designer.cs" bodystart="26" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Modal view controller for adding items to an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1586">
+        <label>FieldService.iOS.AddItemController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_item_controller"/>
+        <childnode refid="1587" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1587">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1588">
+        <label>FieldService.iOS.AddItemController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_item_controller"/>
+        <childnode refid="1589" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddItemController.cs" bodystart="29" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a0944717610334d890f822507b2da625a" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>AddItemController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a62c28229ce06ab8e6970525973514fe6" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>Cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a940d757c2daa25d653004896ed33b129" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>Cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1ab876e607b8f590349787d28f42d7e583" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>cancel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a980e00b203141f92a82c4c2166b84ac2" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>Dismissed</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a63870c6dd19e0865ccd178da30b496af" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a5b5d7420ecad1e9e6ef7bfcda5b43bba" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a3ba1d60e2827f640544d1a93e0e4ba97" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>tableView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a1d505e77e337b1a60f24744560fc2123" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1aec460c4aee12e5666060a45bbf34bc34" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a87d94a2f28527bcdcbf4702c57c26eae" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>ViewWillAppear</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_item_controller_1a20f40e456c496014fdd6286674832767" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddItemController</scope><name>ViewWillDisappear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

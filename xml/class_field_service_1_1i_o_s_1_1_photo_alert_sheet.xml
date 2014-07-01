@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet" kind="class" prot="public">
+    <compoundname>FieldService::iOS::PhotoAlertSheet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIActionSheet</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a7da172d7b3246799eaa9f5be7a2b0eca" prot="private" static="no" mutable="no">
+        <type>readonly MediaPicker</type>
+        <definition>readonly MediaPicker FieldService.iOS.PhotoAlertSheet.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a1d1622d08aca2f57aea67787358549c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SizeF</type>
+        <definition>SizeF FieldService.iOS.PhotoAlertSheet.DesiredSize</definition>
+        <argsstring></argsstring>
+        <name>DesiredSize</name>
+        <briefdescription>
+<para>Gets or sets the size to scale the image to, SizeF.Zero turns off sizing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a765b9f7e442861e11108bdd8877438e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Action&lt; UIImage &gt;</type>
+        <definition>Action&lt;UIImage&gt; FieldService.iOS.PhotoAlertSheet.Callback</definition>
+        <argsstring></argsstring>
+        <name>Callback</name>
+        <briefdescription>
+<para>Gets or sets the callback for when an image is selected and resized </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a27e3245a1b6fbeb6024022b9cdb46a95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.PhotoAlertSheet.PhotoAlertSheet</definition>
+        <argsstring>()</argsstring>
+        <name>PhotoAlertSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="33" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a9df2cca6bfd55d26a5e93bb2b284cee8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.PhotoAlertSheet.SetImage</definition>
+        <argsstring>(Stream stream)</argsstring>
+        <name>SetImage</name>
+        <param>
+          <type>Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to read the stream coming back from Xamarin.Mobile </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="90" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Alert sheet for choosing a photo </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2851">
+        <label>UIActionSheet</label>
+      </node>
+      <node id="2850">
+        <label>FieldService.iOS.PhotoAlertSheet</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet"/>
+        <childnode refid="2851" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2853">
+        <label>UIActionSheet</label>
+      </node>
+      <node id="2852">
+        <label>FieldService.iOS.PhotoAlertSheet</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet"/>
+        <childnode refid="2853" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/PhotoAlertSheet.cs" bodystart="29" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a765b9f7e442861e11108bdd8877438e8" prot="public" virt="non-virtual"><scope>FieldService::iOS::PhotoAlertSheet</scope><name>Callback</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a1d1622d08aca2f57aea67787358549c8" prot="public" virt="non-virtual"><scope>FieldService::iOS::PhotoAlertSheet</scope><name>DesiredSize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a27e3245a1b6fbeb6024022b9cdb46a95" prot="public" virt="non-virtual"><scope>FieldService::iOS::PhotoAlertSheet</scope><name>PhotoAlertSheet</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a7da172d7b3246799eaa9f5be7a2b0eca" prot="private" virt="non-virtual"><scope>FieldService::iOS::PhotoAlertSheet</scope><name>picker</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet_1a9df2cca6bfd55d26a5e93bb2b284cee8" prot="private" virt="non-virtual"><scope>FieldService::iOS::PhotoAlertSheet</scope><name>SetImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

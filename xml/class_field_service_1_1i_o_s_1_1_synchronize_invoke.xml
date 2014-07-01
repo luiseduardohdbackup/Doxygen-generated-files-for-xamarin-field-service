@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_synchronize_invoke" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SynchronizeInvoke</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NSObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISynchronizeInvoke</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result" prot="private">FieldService::iOS::SynchronizeInvoke::AsyncResult</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1aa4a7dffc956118db80b131031c8bcfb8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SynchronizeInvoke.InvokeRequired</definition>
+        <argsstring></argsstring>
+        <name>InvokeRequired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1af9a61af9fdb32c283f288b29c865e750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IAsyncResult</type>
+        <definition>IAsyncResult FieldService.iOS.SynchronizeInvoke.BeginInvoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>BeginInvoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="55" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1aeae2a5e8950ed73517f5a7b8f3231c8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.iOS.SynchronizeInvoke.EndInvoke</definition>
+        <argsstring>(IAsyncResult result)</argsstring>
+        <name>EndInvoke</name>
+        <param>
+          <type>IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1a01ed537dd1e5dffeae169dc85ec06ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.iOS.SynchronizeInvoke.Invoke</definition>
+        <argsstring>(Delegate method, object[] args)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>Delegate</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="78" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Synchronize invoke implementation for <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3180">
+        <label>FieldService.iOS.SynchronizeInvoke</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke"/>
+        <childnode refid="3181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3182">
+        <label>ISynchronizeInvoke</label>
+      </node>
+      <node id="3181">
+        <label>NSObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3183">
+        <label>FieldService.iOS.SynchronizeInvoke</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke"/>
+        <childnode refid="3184" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3185" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3185">
+        <label>ISynchronizeInvoke</label>
+      </node>
+      <node id="3184">
+        <label>NSObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="25" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1af9a61af9fdb32c283f288b29c865e750" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke</scope><name>BeginInvoke</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1aeae2a5e8950ed73517f5a7b8f3231c8f" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke</scope><name>EndInvoke</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1a01ed537dd1e5dffeae169dc85ec06ae3" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke</scope><name>Invoke</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1aa4a7dffc956118db80b131031c8bcfb8" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke</scope><name>InvokeRequired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_assignment_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::AssignmentViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.AssignmentViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ab53c8d50d9a3fdbf23ccd51d04324868" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.AssignmentViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ad080d1999477b7ae689bb1cd4e25b56f" prot="private" static="no" mutable="no">
+        <type>readonly Timer</type>
+        <definition>readonly Timer FieldService.ViewModels.AssignmentViewModel.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a5cd1da50051914889d873e1dd93c0d62" prot="private" static="no" mutable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.ViewModels.AssignmentViewModel.hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <initializer>= TimeSpan.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1afdd0d0c8088b9d0b145f80afc55b27cd" prot="private" static="no" mutable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.ViewModels.AssignmentViewModel.currentHours</definition>
+        <argsstring></argsstring>
+        <name>currentHours</name>
+        <initializer>= TimeSpan.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a170642c07bce340abe82db85878819c9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt;</type>
+        <definition>List&lt;Assignment&gt; FieldService.ViewModels.AssignmentViewModel.assignments</definition>
+        <argsstring></argsstring>
+        <name>assignments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1aaffac26b2439e116ef4afae69960ef0f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.AssignmentViewModel.activeAssignment</definition>
+        <argsstring></argsstring>
+        <name>activeAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1aa8e77fb95bfd3c2d5c7af6cf6e3490c5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.AssignmentViewModel.selectedAssignment</definition>
+        <argsstring></argsstring>
+        <name>selectedAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a4e57b53703a33d62169aec3929d8f1dd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.AssignmentViewModel.lastAssignment</definition>
+        <argsstring></argsstring>
+        <name>lastAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a97bec7839f89380eaf3fd15d0499244b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Data.Signature</ref></type>
+        <definition>Data.Signature FieldService.ViewModels.AssignmentViewModel.signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ab89aa8e354d9d6a6448d1c5499c70947" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref></type>
+        <definition>TimerEntry FieldService.ViewModels.AssignmentViewModel.timerEntry</definition>
+        <argsstring></argsstring>
+        <name>timerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a842d1b418c92a8060edea574f510db80" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.ViewModels.AssignmentViewModel.HoursChanged</definition>
+        <argsstring></argsstring>
+        <name>HoursChanged</name>
+        <briefdescription>
+<para>Event when Hours is updated </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a68b2f44613d0793c8ad78c3b196f3745" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.ViewModels.AssignmentViewModel.RecordingChanged</definition>
+        <argsstring></argsstring>
+        <name>RecordingChanged</name>
+        <briefdescription>
+<para>Event when Recording is changed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a5bbbd8f4c5594233117d7b9a3726940c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>virtual Assignment FieldService.ViewModels.AssignmentViewModel.SelectedAssignment</definition>
+        <argsstring></argsstring>
+        <name>SelectedAssignment</name>
+        <briefdescription>
+<para>Selected assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a8e4b3bebf707937794a039f0bf7431b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.AssignmentViewModel.LastAssignment</definition>
+        <argsstring></argsstring>
+        <name>LastAssignment</name>
+        <briefdescription>
+<para>The &quot;last&quot; assignment, used for when switching between history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ac4318df5ceb0e9bce053310d5cdd0e55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263" kindref="member">AssignmentStatus</ref>[]</type>
+        <definition>AssignmentStatus [] FieldService.ViewModels.AssignmentViewModel.AvailableStatuses</definition>
+        <argsstring></argsstring>
+        <name>AvailableStatuses</name>
+        <briefdescription>
+<para>List of available statuses an assignment can be set to </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a869d106839c37753e8996fffffddfe0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.ViewModels.AssignmentViewModel.Recording</definition>
+        <argsstring></argsstring>
+        <name>Recording</name>
+        <briefdescription>
+<para>True if the active assignment is recording hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1af2ad8f0c8191aac2a29adb3dae4981c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.ViewModels.AssignmentViewModel.CurrentHours</definition>
+        <argsstring></argsstring>
+        <name>CurrentHours</name>
+        <briefdescription>
+<para>Number of hours for the current record session on the active assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="129" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a8c4cf62fb86d4dd82675479cd5735ed3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.ViewModels.AssignmentViewModel.Hours</definition>
+        <argsstring></argsstring>
+        <name>Hours</name>
+        <briefdescription>
+<para>Number of accumulated hours on the active assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="138" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a22d0c91898b0b8b2813c3d842df0c2b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.AssignmentViewModel.ActiveAssignment</definition>
+        <argsstring></argsstring>
+        <name>ActiveAssignment</name>
+        <briefdescription>
+<para>The current active assignment, this can be null </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="159" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1afdc84c2b2c77fd5dd1c7d27b8fb7f5fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt;</type>
+        <definition>List&lt;Assignment&gt; FieldService.ViewModels.AssignmentViewModel.Assignments</definition>
+        <argsstring></argsstring>
+        <name>Assignments</name>
+        <briefdescription>
+<para>List of assignments </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="168" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ad24077c9d1898c16468350c01b4fe5f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Data.Signature</ref></type>
+        <definition>Data.Signature FieldService.ViewModels.AssignmentViewModel.Signature</definition>
+        <argsstring></argsstring>
+        <name>Signature</name>
+        <briefdescription>
+<para>The current signature </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="177" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a9cb65487d776beaa6b358bae1912bb44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.AssignmentViewModel.AssignmentViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="56" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a90e64bf6cd2a0a7925670d029e248c9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.LoadAssignmentsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAssignmentsAsync</name>
+        <briefdescription>
+<para>Loads the assignments asynchronously </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="186" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="186" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1ac7215fe40870675e8a614e592549e0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.LoadTimerEntryAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoadTimerEntryAsync</name>
+        <briefdescription>
+<para>Loads the timer entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="202" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="202" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a32d10eedcb209fcfef586eecc30b081d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.SaveAssignmentAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>SaveAssignmentAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Saves an assignment, and applies any needed changes to the active one </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="221" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="221" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a912829fefd8d65c7961b124acf978260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.SaveSignatureAsync</definition>
+        <argsstring>()</argsstring>
+        <name>SaveSignatureAsync</name>
+        <briefdescription>
+<para>Saves the current signature </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="258" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a49f98c2a456c5e68fad8a0ef5babd299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.LoadSignatureAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>LoadSignatureAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Loads the signature for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="266" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="266" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1acbb68867f8c73a3bd5f2314a61faaf72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.RecordAsync</definition>
+        <argsstring>()</argsstring>
+        <name>RecordAsync</name>
+        <briefdescription>
+<para>Starts timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="274" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="274" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a7fb4d1dd3b7f6ffb6e0d99dc3a9b738b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.AssignmentViewModel.PauseAsync</definition>
+        <argsstring>()</argsstring>
+        <name>PauseAsync</name>
+        <briefdescription>
+<para>Pauses timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="294" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="294" bodyend="316"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a9305af75c7777c8e9955b9f8326ed5ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.ViewModels.AssignmentViewModel.OnRecordingChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnRecordingChanged</name>
+        <briefdescription>
+<para>Called when Recording changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="118" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_assignment_view_model_1a714185393fd4448a94bbcafc3a2c9638" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.ViewModels.AssignmentViewModel.OnHoursChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnHoursChanged</name>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model_1a9c33381d84cb09938ac3c7f5434b9ff7">OnHoursChanged</reimplementedby>
+        <briefdescription>
+<para>Called when Hours changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="147" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>View model for assignments list </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1809">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1806">
+        <label>FieldService.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="1807" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1807">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="1808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1810">
+        <label>FieldService.WinRT.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="1806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1808">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="1809" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1814">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1811">
+        <label>FieldService.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="1812" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1812">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="1813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1813">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="1814" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/AssignmentViewModel.cs" bodystart="36" bodyend="317"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1aaffac26b2439e116ef4afae69960ef0f" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>activeAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a22d0c91898b0b8b2813c3d842df0c2b3" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>ActiveAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1afdc84c2b2c77fd5dd1c7d27b8fb7f5fd" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Assignments</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a170642c07bce340abe82db85878819c9" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>assignments</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a9cb65487d776beaa6b358bae1912bb44" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>AssignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ac4318df5ceb0e9bce053310d5cdd0e55" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>AvailableStatuses</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1afdd0d0c8088b9d0b145f80afc55b27cd" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>currentHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1af2ad8f0c8191aac2a29adb3dae4981c5" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>CurrentHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a8c4cf62fb86d4dd82675479cd5735ed3" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Hours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a5cd1da50051914889d873e1dd93c0d62" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>hours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a842d1b418c92a8060edea574f510db80" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>HoursChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a4e57b53703a33d62169aec3929d8f1dd" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>lastAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a8e4b3bebf707937794a039f0bf7431b5" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>LastAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a90e64bf6cd2a0a7925670d029e248c9b" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>LoadAssignmentsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a49f98c2a456c5e68fad8a0ef5babd299" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>LoadSignatureAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ac7215fe40870675e8a614e592549e0d5" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>LoadTimerEntryAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a714185393fd4448a94bbcafc3a2c9638" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>OnHoursChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a9305af75c7777c8e9955b9f8326ed5ce" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>OnRecordingChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a7fb4d1dd3b7f6ffb6e0d99dc3a9b738b" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>PauseAsync</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1acbb68867f8c73a3bd5f2314a61faaf72" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>RecordAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a869d106839c37753e8996fffffddfe0a" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Recording</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a68b2f44613d0793c8ad78c3b196f3745" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>RecordingChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a32d10eedcb209fcfef586eecc30b081d" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>SaveAssignmentAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a912829fefd8d65c7961b124acf978260" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>SaveSignatureAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1aa8e77fb95bfd3c2d5c7af6cf6e3490c5" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>selectedAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a5bbbd8f4c5594233117d7b9a3726940c" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>SelectedAssignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ab53c8d50d9a3fdbf23ccd51d04324868" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ad24077c9d1898c16468350c01b4fe5f5" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Signature</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1a97bec7839f89380eaf3fd15d0499244b" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>signature</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ad080d1999477b7ae689bb1cd4e25b56f" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>timer</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_assignment_view_model_1ab89aa8e354d9d6a6448d1c5499c70947" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>timerEntry</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::AssignmentViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_a8e9d8c6add4e07458a7eb2d474cfa68" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Properties</compoundname>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8_android_8_samples_2_media_pic9c1a35bad1ebb71d2b2b812d8b3ad73c">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Properties/"/>
+  </compounddef>
+</doxygen>

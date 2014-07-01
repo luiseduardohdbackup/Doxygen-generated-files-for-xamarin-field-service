@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>FieldService::Android::SpinnerAdapter&lt; T &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISpinnerAdapter</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a2bb5b8b00db967b19a66cefb826870ea" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.Android.SpinnerAdapter&lt; T &gt;.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a07347093c78f8fd4c8f1f5dbc590da08" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context FieldService.Android.SpinnerAdapter&lt; T &gt;.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a3de34028f9786e044cfad0bcabb2dbc7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.SpinnerAdapter&lt; T &gt;.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a7c3b6905d5485342af38739eb3a6368c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int FieldService.Android.SpinnerAdapter&lt; T &gt;.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1adcdd717eea6385eab23eab4134e1ffc5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color FieldService.Android.SpinnerAdapter&lt; T &gt;.TextColor</definition>
+        <argsstring></argsstring>
+        <name>TextColor</name>
+        <briefdescription>
+<para>Text color for the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a2d71d5572363e04858b91d4e7534c283" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color FieldService.Android.SpinnerAdapter&lt; T &gt;.Background</definition>
+        <argsstring></argsstring>
+        <name>Background</name>
+        <briefdescription>
+<para>Background color of the text view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1abfffe0c1975287603d2d93ef5ded1d58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.SpinnerAdapter&lt; T &gt;.SpinnerAdapter</definition>
+        <argsstring>(T[] items, Context context, int resourceId)</argsstring>
+        <name>SpinnerAdapter</name>
+        <param>
+          <type>T[]</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a142b213345453015f60f6424d0d017fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Java.Lang.Object</type>
+        <definition>override Java.Lang.Object FieldService.Android.SpinnerAdapter&lt; T &gt;.GetItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a8f946e7099baec8a354a2fb0757a437e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long FieldService.Android.SpinnerAdapter&lt; T &gt;.GetItemId</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItemId</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1ab4eb9fc7225950c765e219e982d9be2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.SpinnerAdapter&lt; T &gt;.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="79" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a1255a3bc65251fc5242619c19c10702f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.SpinnerAdapter&lt; T &gt;.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="126" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="126" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generic adapter for Spinners throughout the app </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3054">
+        <label>ISpinnerAdapter</label>
+      </node>
+      <node id="3052">
+        <label>FieldService.Android.SpinnerAdapter&lt; T &gt;</label>
+        <link refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4"/>
+        <childnode refid="3053" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3054" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3053">
+        <label>BaseAdapter</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3057">
+        <label>ISpinnerAdapter</label>
+      </node>
+      <node id="3055">
+        <label>FieldService.Android.SpinnerAdapter&lt; T &gt;</label>
+        <link refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4"/>
+        <childnode refid="3056" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3057" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3056">
+        <label>BaseAdapter</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/SpinnerAdapter.cs" bodystart="31" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a2d71d5572363e04858b91d4e7534c283" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>Background</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a07347093c78f8fd4c8f1f5dbc590da08" prot="private" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>context</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a7c3b6905d5485342af38739eb3a6368c" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>Count</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a1255a3bc65251fc5242619c19c10702f" prot="protected" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a142b213345453015f60f6424d0d017fb" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>GetItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a8f946e7099baec8a354a2fb0757a437e" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>GetItemId</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1ab4eb9fc7225950c765e219e982d9be2d" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a2bb5b8b00db967b19a66cefb826870ea" prot="private" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1a3de34028f9786e044cfad0bcabb2dbc7" prot="private" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>resourceId</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1abfffe0c1975287603d2d93ef5ded1d58" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>SpinnerAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_spinner_adapter_3_01_t_01_4_1adcdd717eea6385eab23eab4134e1ffc5" prot="public" virt="non-virtual"><scope>FieldService::Android::SpinnerAdapter&lt; T &gt;</scope><name>TextColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

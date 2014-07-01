@@ -1,0 +1,81 @@
+.TH "FieldService.Android.Fragments.NavigationFragment" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Android.Fragments.NavigationFragment \- 
+.PP
+Fragment for the navigation menu as well as the active assignment's timer  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Fragment\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnCreate\fP (Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "override View \fBOnCreateView\fP (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBSetNavigation\fP (int index)"
+.br
+.RI "\fISets the selected navigation item \fP"
+.ti -1c
+.RI "override void \fBOnPause\fP ()"
+.br
+.RI "\fIClear out the assignment \fP"
+.ti -1c
+.RI "override void \fBOnResume\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignment\fP \fBAssignment\fP hh\\:mm\\:ss'\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler< EventArgs< int > > \fBNavigationSelected\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Fragment for the navigation menu as well as the active assignment's timer 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.Android\&.Fragments\&.NavigationFragment\&.OnCreate (BundlesavedInstanceState)"
+
+.SS "override View FieldService\&.Android\&.Fragments\&.NavigationFragment\&.OnCreateView (LayoutInflaterinflater, ViewGroupcontainer, BundlesavedInstanceState)"
+
+.SS "override void FieldService\&.Android\&.Fragments\&.NavigationFragment\&.OnPause ()"
+
+.PP
+Clear out the assignment 
+.SS "override void FieldService\&.Android\&.Fragments\&.NavigationFragment\&.OnResume ()"
+
+.SS "void FieldService\&.Android\&.Fragments\&.NavigationFragment\&.SetNavigation (intindex)"
+
+.PP
+Sets the selected navigation item 
+.SH "Property Documentation"
+.PP 
+.SS "\fBAssignment\fP FieldService\&.Android\&.Fragments\&.NavigationFragment\&.Assignment hh\\:mm\\:ss'\fC [get]\fP, \fC [set]\fP"
+
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler<EventArgs<int> > FieldService\&.Android\&.Fragments\&.NavigationFragment\&.NavigationSelected"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

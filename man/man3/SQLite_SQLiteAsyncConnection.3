@@ -1,0 +1,208 @@
+.TH "SQLite.SQLiteAsyncConnection" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.SQLiteAsyncConnection \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSQLiteAsyncConnection\fP (string databasePath, bool storeDateTimeAsTicks=false)"
+.br
+.ti -1c
+.RI "\fBSQLiteAsyncConnection\fP (string databasePath, \fBSQLiteOpenFlags\fP openFlags, bool storeDateTimeAsTicks=false)"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTableAsync< T >\fP ()"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTablesAsync< T, T2 >\fP ()"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTablesAsync< T, T2, T3 >\fP ()"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTablesAsync< T, T2, T3, T4 >\fP ()"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTablesAsync< T, T2, T3, T4, T5 >\fP ()"
+.br
+.ti -1c
+.RI "Task< \fBCreateTablesResult\fP > \fBCreateTablesAsync\fP (params Type[] types)"
+.br
+.ti -1c
+.RI "Task< int > \fBDropTableAsync< T >\fP ()"
+.br
+.ti -1c
+.RI "Task< int > \fBInsertAsync\fP (object item)"
+.br
+.ti -1c
+.RI "Task< int > \fBUpdateAsync\fP (object item)"
+.br
+.ti -1c
+.RI "Task< int > \fBDeleteAsync\fP (object item)"
+.br
+.ti -1c
+.RI "Task< T > \fBGetAsync< T >\fP (object pk)"
+.br
+.ti -1c
+.RI "Task< T > \fBFindAsync< T >\fP (object pk)"
+.br
+.ti -1c
+.RI "Task< T > \fBGetAsync< T >\fP (Expression< Func< T, bool >> predicate)"
+.br
+.ti -1c
+.RI "Task< T > \fBFindAsync< T >\fP (Expression< Func< T, bool >> predicate)"
+.br
+.ti -1c
+.RI "Task< int > \fBExecuteAsync\fP (string query, params object[] args)"
+.br
+.ti -1c
+.RI "Task< int > \fBInsertAllAsync\fP (IEnumerable items)"
+.br
+.ti -1c
+.RI "Task< int > \fBUpdateAllAsync\fP (IEnumerable items)"
+.br
+.ti -1c
+.RI "Task \fBRunInTransactionAsync\fP (Action< \fBSQLiteAsyncConnection\fP > action)"
+.br
+.ti -1c
+.RI "Task \fBRunInTransactionAsync\fP (Action< \fBSQLiteConnection\fP > action)"
+.br
+.ti -1c
+.RI "AsyncTableQuery< T > \fBTable< T >\fP ()"
+.br
+.ti -1c
+.RI "Task< T > \fBExecuteScalarAsync< T >\fP (string sql, params object[] args)"
+.br
+.ti -1c
+.RI "Task< List< T > > \fBQueryAsync< T >\fP (string sql, params object[] args)"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SQLite\&.SQLiteAsyncConnection\&.SQLiteAsyncConnection (stringdatabasePath, boolstoreDateTimeAsTicks = \fCfalse\fP)"
+
+.SS "SQLite\&.SQLiteAsyncConnection\&.SQLiteAsyncConnection (stringdatabasePath, \fBSQLiteOpenFlags\fPopenFlags, boolstoreDateTimeAsTicks = \fCfalse\fP)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task<\fBCreateTablesResult\fP> SQLite\&.SQLiteAsyncConnection\&.CreateTableAsync< T > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task<\fBCreateTablesResult\fP> SQLite\&.SQLiteAsyncConnection\&.CreateTablesAsync (params Type[]types)"
+
+.SS "Task<\fBCreateTablesResult\fP> \fBSQLite\&.SQLiteAsyncConnection\&.CreateTablesAsync\fP< T, T2 > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.TP
+\fIT2\fP : \fInew\fP
+.SS "Task<\fBCreateTablesResult\fP> \fBSQLite\&.SQLiteAsyncConnection\&.CreateTablesAsync\fP< T, T2, T3 > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.TP
+\fIT2\fP : \fInew\fP
+.TP
+\fIT3\fP : \fInew\fP
+.SS "Task<\fBCreateTablesResult\fP> \fBSQLite\&.SQLiteAsyncConnection\&.CreateTablesAsync\fP< T, T2, T3, T4 > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.TP
+\fIT2\fP : \fInew\fP
+.TP
+\fIT3\fP : \fInew\fP
+.TP
+\fIT4\fP : \fInew\fP
+.SS "Task<\fBCreateTablesResult\fP> \fBSQLite\&.SQLiteAsyncConnection\&.CreateTablesAsync\fP< T, T2, T3, T4, T5 > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.TP
+\fIT2\fP : \fInew\fP
+.TP
+\fIT3\fP : \fInew\fP
+.TP
+\fIT4\fP : \fInew\fP
+.TP
+\fIT5\fP : \fInew\fP
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.DeleteAsync (objectitem)"
+
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.DropTableAsync< T > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.ExecuteAsync (stringquery, params object[]args)"
+
+.SS "Task<T> SQLite\&.SQLiteAsyncConnection\&.ExecuteScalarAsync< T > (stringsql, params object[]args)"
+
+.SS "Task<T> SQLite\&.SQLiteAsyncConnection\&.FindAsync< T > (objectpk)"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task<T> SQLite\&.SQLiteAsyncConnection\&.FindAsync< T > (Expression< Func< T, bool >>predicate)"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task<T> SQLite\&.SQLiteAsyncConnection\&.GetAsync< T > (objectpk)"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "Task<T> SQLite\&.SQLiteAsyncConnection\&.GetAsync< T > (Expression< Func< T, bool >>predicate)"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.InsertAllAsync (IEnumerableitems)"
+
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.InsertAsync (objectitem)"
+
+.SS "Task<List<T> > SQLite\&.SQLiteAsyncConnection\&.QueryAsync< T > (stringsql, params object[]args)"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task SQLite\&.SQLiteAsyncConnection\&.RunInTransactionAsync (Action< \fBSQLiteAsyncConnection\fP >action)"
+
+.SS "Task SQLite\&.SQLiteAsyncConnection\&.RunInTransactionAsync (Action< \fBSQLiteConnection\fP >action)"
+
+.SS "AsyncTableQuery<T> SQLite\&.SQLiteAsyncConnection\&.Table< T > ()"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.UpdateAllAsync (IEnumerableitems)"
+
+.SS "Task<int> SQLite\&.SQLiteAsyncConnection\&.UpdateAsync (objectitem)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

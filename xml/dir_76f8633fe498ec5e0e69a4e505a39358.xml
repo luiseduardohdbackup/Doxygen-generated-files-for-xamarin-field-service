@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_76f8633fe498ec5e0e69a4e505a39358" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono</compoundname>
+    <innerdir refid="dir_4a5b655cbdb663ef84f12437f0594fa9">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/android</innerdir>
+    <innerdir refid="dir_39c3a5b4f7e8b4d7ba2f77832efa361a">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/com</innerdir>
+    <innerfile refid="_mono_package_manager_8java">MonoPackageManager.java</innerfile>
+    <innerfile refid="_mono_runtime_provider_8java">MonoRuntimeProvider.java</innerfile>
+    <innerfile refid="_trial_splash_screen_8java">TrialSplashScreen.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/"/>
+  </compounddef>
+</doxygen>

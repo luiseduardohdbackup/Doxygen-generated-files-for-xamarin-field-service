@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::PhotoToImageConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter_1ae4d3d62a452cb813b8146b8537dbdf61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.PhotoToImageConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" bodystart="21" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter_1a2f1891b182d73e828b8ec85ec9115658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.PhotoToImageConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2889">
+        <label>IValueConverter</label>
+      </node>
+      <node id="2888">
+        <label>FieldService.WinRT.Utilities.PhotoToImageConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter"/>
+        <childnode refid="2889" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2891">
+        <label>IValueConverter</label>
+      </node>
+      <node id="2890">
+        <label>FieldService.WinRT.Utilities.PhotoToImageConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter"/>
+        <childnode refid="2891" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/PhotoToImageConverter.cs" bodystart="20" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter_1ae4d3d62a452cb813b8146b8537dbdf61" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::PhotoToImageConverter</scope><name>Convert</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter_1a2f1891b182d73e828b8ec85ec9115658" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::PhotoToImageConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

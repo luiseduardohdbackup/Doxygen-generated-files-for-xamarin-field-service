@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_win_r_t_1_1_utilities" kind="namespace">
+    <compoundname>FieldService::WinRT::Utilities</compoundname>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_boolean_to_visibility_converter" prot="public">FieldService::WinRT::Utilities::BooleanToVisibilityConverter</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_constants" prot="public">FieldService::WinRT::Utilities::Constants</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_subheader_color_converter" prot="public">FieldService::WinRT::Utilities::DocumentSubheaderColorConverter</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter" prot="public">FieldService::WinRT::Utilities::DocumentTypeToColorConverter</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers" prot="public">FieldService::WinRT::Utilities::Helpers</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_photo_to_image_converter" prot="public">FieldService::WinRT::Utilities::PhotoToImageConverter</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter" prot="public">FieldService::WinRT::Utilities::StatusToColorConverter</innerclass>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer" prot="public">FieldService::WinRT::Utilities::Timer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/BooleanToVisibilityConverter.cs" line="24" column="1"/>
+  </compounddef>
+</doxygen>

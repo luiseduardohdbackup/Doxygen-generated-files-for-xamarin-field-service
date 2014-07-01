@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classmono_1_1_mono_package_manager" kind="class" prot="public">
+    <compoundname>mono::MonoPackageManager</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classmono_1_1_mono_package_manager_1a4d06b1faa61973f874252c5de3f42ce3" prot="package" static="yes" mutable="no">
+        <type>Object</type>
+        <definition>Object mono.MonoPackageManager.lock</definition>
+        <argsstring></argsstring>
+        <name>lock</name>
+        <initializer>= new Object ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmono_1_1_mono_package_manager_1af696e39741e83da48e302adfa1cf119a" prot="package" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean mono.MonoPackageManager.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmono_1_1_mono_package_manager_1aa35d518f63e12fb23466da9e2531f447" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void mono.MonoPackageManager.LoadApplication</definition>
+        <argsstring>(Context context, String runtimeDataDir, String[] apks)</argsstring>
+        <name>LoadApplication</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>runtimeDataDir</declname>
+        </param>
+        <param>
+          <type>String[]</type>
+          <declname>apks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="20" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classmono_1_1_mono_package_manager_1a4db80b0afa9fab894e267e09bc3da334" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>static String [] mono.MonoPackageManager.getAssemblies</definition>
+        <argsstring>()</argsstring>
+        <name>getAssemblies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classmono_1_1_mono_package_manager_1a708931514353feff12f2cc9d99865a9e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String[]</type>
+        <definition>static String [] mono.MonoPackageManager.getDependencies</definition>
+        <argsstring>()</argsstring>
+        <name>getDependencies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classmono_1_1_mono_package_manager_1a009d16dedf56862f4a23ee05e180e028" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String mono.MonoPackageManager.getApiPackageName</definition>
+        <argsstring>()</argsstring>
+        <name>getApiPackageName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/MonoPackageManager.java" bodystart="15" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classmono_1_1_mono_package_manager_1a009d16dedf56862f4a23ee05e180e028" prot="public" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>getApiPackageName</name></member>
+      <member refid="classmono_1_1_mono_package_manager_1a4db80b0afa9fab894e267e09bc3da334" prot="public" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>getAssemblies</name></member>
+      <member refid="classmono_1_1_mono_package_manager_1a708931514353feff12f2cc9d99865a9e" prot="public" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>getDependencies</name></member>
+      <member refid="classmono_1_1_mono_package_manager_1af696e39741e83da48e302adfa1cf119a" prot="package" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>initialized</name></member>
+      <member refid="classmono_1_1_mono_package_manager_1aa35d518f63e12fb23466da9e2531f447" prot="public" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>LoadApplication</name></member>
+      <member refid="classmono_1_1_mono_package_manager_1a4d06b1faa61973f874252c5de3f42ce3" prot="package" virt="non-virtual"><scope>mono::MonoPackageManager</scope><name>lock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

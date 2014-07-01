@@ -1,0 +1,152 @@
+.TH "FieldService.WinRT.ViewModels.ItemViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.ItemViewModel \- 
+.PP
+\fBWinRT\fP version of the \fBItemViewModel\fP  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ItemViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBItemViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnPropertyChanged\fP (string propertyName)"
+.br
+.RI "\fIProtected method for firing PropertyChanged \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Popup \fBItemPopUp\fP\fC [get]\fP"
+.br
+.RI "\fIFlyout panel for adding an item \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBSaveAssignmentItemCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for saving the assignment item \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBSearchItemsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for searching the through the list of items \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAddItemCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for opening the add item flyout panel \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBCancelAddItemCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to cancel the flyout panel \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDeleteItemCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to delete an item \fP"
+.ti -1c
+.RI "IEnumerable< \fBAssignmentItem\fP > \fBTopAssignmentItems\fP\fC [get]\fP"
+.br
+.RI "\fIlist of top assignment items \fP"
+.ti -1c
+.RI "string \fBSearchText\fP\fC [get, set]\fP"
+.br
+.RI "\fISearch text property for searching throug list of items \fP"
+.ti -1c
+.RI "IEnumerable< \fBItem\fP > \fBSearchItems\fP\fC [get, set]\fP"
+.br
+.RI "\fIlist of items that have search applied \fP"
+.ti -1c
+.RI "bool \fBIsNotReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for not is history \fP"
+.ti -1c
+.RI "\fBAssignmentItem\fP \fBSelectedItem\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+\fBWinRT\fP version of the \fBItemViewModel\fP 
+
+
+.IP "\(bu" 2
+We setup ICommand here 
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.ItemViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.OnPropertyChanged (stringpropertyName)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for firing PropertyChanged 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpropertyName\fP The name of the property that changed
+.RE
+.PP
+
+.PP
+Reimplemented from \fBFieldService\&.Data\&.PropertyChangedBase\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.AddItemCommand\fC [get]\fP"
+
+.PP
+Command for opening the add item flyout panel 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.CancelAddItemCommand\fC [get]\fP"
+
+.PP
+Command to cancel the flyout panel 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.DeleteItemCommand\fC [get]\fP"
+
+.PP
+Command to delete an item 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.IsNotReadonly\fC [get]\fP"
+
+.PP
+Value for not is history 
+.SS "Popup FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.ItemPopUp\fC [get]\fP"
+
+.PP
+Flyout panel for adding an item 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.SaveAssignmentItemCommand\fC [get]\fP"
+
+.PP
+Command for saving the assignment item 
+.SS "IEnumerable<\fBItem\fP> FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.SearchItems\fC [get]\fP, \fC [set]\fP"
+
+.PP
+list of items that have search applied 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.SearchItemsCommand\fC [get]\fP"
+
+.PP
+Command for searching the through the list of items 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.SearchText\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Search text property for searching throug list of items 
+.SS "\fBAssignmentItem\fP FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.SelectedItem\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<\fBAssignmentItem\fP> FieldService\&.WinRT\&.ViewModels\&.ItemViewModel\&.TopAssignmentItems\fC [get]\fP"
+
+.PP
+list of top assignment items 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

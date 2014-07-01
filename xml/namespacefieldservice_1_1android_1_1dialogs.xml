@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespacefieldservice_1_1android_1_1dialogs" kind="namespace">
+    <compoundname>fieldservice::android::dialogs</compoundname>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_add_labor_dialog" prot="public">fieldservice::android::dialogs::AddLaborDialog</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog" prot="public">fieldservice::android::dialogs::BaseDialog</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_expense_dialog" prot="public">fieldservice::android::dialogs::ExpenseDialog</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog" prot="public">fieldservice::android::dialogs::ItemsDialog</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_photo_dialog" prot="public">fieldservice::android::dialogs::PhotoDialog</innerclass>
+    <innerclass refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog" prot="public">fieldservice::android::dialogs::SignatureDialog</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/AddLaborDialog.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

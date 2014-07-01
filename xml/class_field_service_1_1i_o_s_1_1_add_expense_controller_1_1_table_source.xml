@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::AddExpenseController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5791a44b2e9a4855abc1ece217ceaedb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>readonly ExpenseViewModel FieldService.iOS.AddExpenseController.TableSource.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="138" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1aeccdec27abd1ade2bfcc1c4a667a5fad" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddExpenseController.TableSource.categoryCell</definition>
+        <argsstring></argsstring>
+        <name>categoryCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1afc5ac40fc60d4c52cf1c79ff827ea6b8" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddExpenseController.TableSource.costCell</definition>
+        <argsstring></argsstring>
+        <name>costCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a273c12523c3363fbb4b64ed933de9a41" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddExpenseController.TableSource.descriptionCell</definition>
+        <argsstring></argsstring>
+        <name>descriptionCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a0c5732db28b2173d9d25260a38056267" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddExpenseController.TableSource.photoCell</definition>
+        <argsstring></argsstring>
+        <name>photoCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1af62b0d0d0a8f039dc67753eb6cac8312" prot="private" static="no" mutable="no">
+        <type>readonly UILabel</type>
+        <definition>readonly UILabel FieldService.iOS.AddExpenseController.TableSource.category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a97810046837ba0264aa74b264323372e" prot="private" static="no" mutable="no">
+        <type>readonly UITextField</type>
+        <definition>readonly UITextField FieldService.iOS.AddExpenseController.TableSource.cost</definition>
+        <argsstring></argsstring>
+        <name>cost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="141" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1abb014396d8e6270b13137458ed68188e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view" kindref="compound">PlaceholderTextView</ref></type>
+        <definition>readonly PlaceholderTextView FieldService.iOS.AddExpenseController.TableSource.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1adeb644e80f5f1c5274a6a056e92cf18d" prot="private" static="no" mutable="no">
+        <type>readonly UIButton</type>
+        <definition>readonly UIButton FieldService.iOS.AddExpenseController.TableSource.photoButton</definition>
+        <argsstring></argsstring>
+        <name>photoButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="143" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a44a341f610b6e331a1feb007a2f67dc8" prot="private" static="no" mutable="no">
+        <type>readonly UIImageView</type>
+        <definition>readonly UIImageView FieldService.iOS.AddExpenseController.TableSource.photo</definition>
+        <argsstring></argsstring>
+        <name>photo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="144" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a1a4a64ebf07224a9f0dde31348dc4406" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_expense_category_sheet" kindref="compound">ExpenseCategorySheet</ref></type>
+        <definition>ExpenseCategorySheet FieldService.iOS.AddExpenseController.TableSource.expenseSheet</definition>
+        <argsstring></argsstring>
+        <name>expenseSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="145" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a870f48a88ec7d198181ae8db121f69ea" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet" kindref="compound">PhotoAlertSheet</ref></type>
+        <definition>PhotoAlertSheet FieldService.iOS.AddExpenseController.TableSource.photoSheet</definition>
+        <argsstring></argsstring>
+        <name>photoSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="146" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5791053bd21ab227af1b61a67c911b55" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.AddExpenseController.TableSource.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1aaaedee15c86639675121ab3ba687e0f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddExpenseController.TableSource.TableSource</definition>
+        <argsstring>()</argsstring>
+        <name>TableSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="149" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a89de78be2fa51fdbcce5da316a69b6ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AddExpenseController.TableSource.Load</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="239" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="239" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1acb188412b4a93e4cc529e46dcc7b77ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float FieldService.iOS.AddExpenseController.TableSource.GetHeightForRow</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetHeightForRow</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="271" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="271" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a56f4f70d5e821616181dadbf7b0b07f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddExpenseController.TableSource.NumberOfSections</definition>
+        <argsstring>(UITableView tableView)</argsstring>
+        <name>NumberOfSections</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="283" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a418ab624b0ebefed0de88015a126bb7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddExpenseController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="288" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="288" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1afc0f10f55eaf02753db506340c6707dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddExpenseController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="293" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="293" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5abff8ff32d21c95b016ef3cecddbb77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.AddExpenseController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="323" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="323" bodyend="332"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1acecf1d0bc51c7d268655d6e34137eed4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddExpenseController.TableSource.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="334" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="334" bodyend="347"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The table source - has static cells </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3249">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3248">
+        <label>FieldService.iOS.AddExpenseController.TableSource</label>
+        <childnode refid="3249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3251">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3250">
+        <label>FieldService.iOS.AddExpenseController.TableSource</label>
+        <childnode refid="3251" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddExpenseController.cs" bodystart="136" bodyend="348"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1af62b0d0d0a8f039dc67753eb6cac8312" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>category</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1aeccdec27abd1ade2bfcc1c4a667a5fad" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>categoryCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a97810046837ba0264aa74b264323372e" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>cost</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1afc5ac40fc60d4c52cf1c79ff827ea6b8" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>costCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1abb014396d8e6270b13137458ed68188e" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>description</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a273c12523c3363fbb4b64ed933de9a41" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>descriptionCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1acecf1d0bc51c7d268655d6e34137eed4" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5791053bd21ab227af1b61a67c911b55" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>enabled</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a1a4a64ebf07224a9f0dde31348dc4406" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>expenseSheet</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5791a44b2e9a4855abc1ece217ceaedb" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a5abff8ff32d21c95b016ef3cecddbb77" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1acb188412b4a93e4cc529e46dcc7b77ad" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>GetHeightForRow</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a89de78be2fa51fdbcce5da316a69b6ef" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>Load</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a56f4f70d5e821616181dadbf7b0b07f5" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>NumberOfSections</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a44a341f610b6e331a1feb007a2f67dc8" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>photo</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1adeb644e80f5f1c5274a6a056e92cf18d" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>photoButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a0c5732db28b2173d9d25260a38056267" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>photoCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a870f48a88ec7d198181ae8db121f69ea" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>photoSheet</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1afc0f10f55eaf02753db506340c6707dd" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1a418ab624b0ebefed0de88015a126bb7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_expense_controller_1_1_table_source_1aaaedee15c86639675121ab3ba687e0f2" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddExpenseController::TableSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

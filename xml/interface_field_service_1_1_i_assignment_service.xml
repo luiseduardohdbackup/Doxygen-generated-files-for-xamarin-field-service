@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="interface_field_service_1_1_i_assignment_service" kind="interface" prot="public">
+    <compoundname>FieldService::IAssignmentService</compoundname>
+    <derivedcompoundref refid="class_field_service_1_1_data_1_1_sample_assignment_service" prot="public" virt="non-virtual">FieldService.Data.SampleAssignmentService</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service" prot="public" virt="non-virtual">FieldService.Tests.Mocks.MockAssignmentService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a96a0c030ee4794c243f7b18e4b174a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Assignment&gt; &gt; FieldService.IAssignmentService.GetAssignmentsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetAssignmentsAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a5bb18ced159187fc6eed77fa9c9a043d">GetAssignmentsAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a68742aa4b2182799daa9fc1222fda800">GetAssignmentsAsync</reimplementedby>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a list of assignments </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1aaaa7089a8b70a8ccb8910882cbfcbd69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Item&gt; &gt; FieldService.IAssignmentService.GetItemsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetItemsAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a8b659dc7519b081133fc3f56abdb0fd0">GetItemsAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4857593a175265468cab792ad1518012">GetItemsAsync</reimplementedby>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a list of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a9e4b9011309a1ffbb9806d3db8c28ac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;AssignmentItem&gt; &gt; FieldService.IAssignmentService.GetItemsForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetItemsForAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a4708e2ceb558374a3e61ba07da6ae38d">GetItemsForAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a6f03c5da3c02efbb14ce194d52fa8908">GetItemsForAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a list of items for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1ac5dc739d70dee25a86e0107786a19ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Labor&gt; &gt; FieldService.IAssignmentService.GetLaborForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetLaborForAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a0f4d7cf9022074d8100f285441fdb3b6">GetLaborForAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1acf4627b7a391bfd140188aebfd514a4b">GetLaborForAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a list of labor hours for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a58bbf53e8902cc8b5b2febe3f8d86a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Expense&gt; &gt; FieldService.IAssignmentService.GetExpensesForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetExpensesForAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1ab51f31e7868ba97761cb07d71330563e">GetExpensesForAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7f7a053533c01ec744134a0f2f7cd09c">GetExpensesForAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a list of expenses for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1ad9c79c58d246aea349ba9b7f022ff1ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1aa59289802cf0f7378e37cf17c5ee583e">SaveAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a5e500f280c2a04a6e33392f1df3351ba">SaveAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1aaf826d808c6a94f4695e8d971d6ac59a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveSignatureAsync</definition>
+        <argsstring>(Data.Signature signature, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveSignatureAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Data.Signature</ref></type>
+          <declname>signature</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves a signature for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a7852d89fcda603f58224f0957743f2dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Data.Signature</ref> &gt;</type>
+        <definition>Task&lt;Data.Signature&gt; FieldService.IAssignmentService.GetSignatureAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetSignatureAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1af0171122c64c201f6ef56157f372f4db">GetSignatureAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ab78a29325b1035b317908639ef7515f9">GetSignatureAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets a signature for an assignment or null if none </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1ab2092c8146bdf27e85e71a53d3814124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveAssignmentItemAsync</definition>
+        <argsstring>(AssignmentItem assignmentItem, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveAssignmentItemAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a6136f09aa1135bf6e5bdfa9b62ac73c4">SaveAssignmentItemAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a4410ae5454950312b9ce1d3025928c2b">SaveAssignmentItemAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>assignmentItem</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a1f51a353c2f1d218f4f35f57641e5b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveLaborAsync</definition>
+        <argsstring>(Labor labor, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveLaborAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2ae5c0f0569d8055e918e95070b78bd5">SaveLaborAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a8a1b798e7de83506a7919571786a64d4">SaveLaborAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a3de5214ff7925731e8c265eff98c8c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveExpenseAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveExpenseAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a7fcd8ae38940b504ebceaf035fa10036">SaveExpenseAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a50e16b32152afc2df3a24784a13d9d03">SaveExpenseAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves an expense entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a8f9a4283536bb493635765d68e12f38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveExpensePhotoAsync</definition>
+        <argsstring>(ExpensePhoto photo, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveExpensePhotoAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1afc281f5de453a4a4152cb6ff40912b57">SaveExpensePhotoAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a8c48b09e431e65ced2e0f6ee7624745f">SaveExpensePhotoAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense_photo" kindref="compound">ExpensePhoto</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves a photo for an expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1afd6518a839fbe178de83044d30836c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_expense_photo" kindref="compound">ExpensePhoto</ref> &gt;</type>
+        <definition>Task&lt;ExpensePhoto&gt; FieldService.IAssignmentService.GetExpensePhotoAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetExpensePhotoAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a53136de44941f01def4fd3c68284b479">GetExpensePhotoAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a08b661fdcc91ea6c6ce09b85140ec485">GetExpensePhotoAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets an expense photo for an expense or null if there is none </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a2852dea4a37ed70c41b2e8e997936eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeleteAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeleteAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9dd8d2d8d85c91f2b38f50ad07d2fc1e">DeleteAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1aff0f9b0a08bb148d8068a42c90f8ef35">DeleteAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a15a28d08be1e14567bf7b9a0ba64528b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeleteAssignmentItemAsync</definition>
+        <argsstring>(AssignmentItem AssignmentItem, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeleteAssignmentItemAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a9985729aec2e1a3095a1cbf49b984f96">DeleteAssignmentItemAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a7b77e5c259b671c6197dee3c71e7831c">DeleteAssignmentItemAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>AssignmentItem</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a57066185843cd11c1adbf3f4ae483672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeleteLaborAsync</definition>
+        <argsstring>(Labor labor, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeleteLaborAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a158f68336644c72064217c6d90b7c23b">DeleteLaborAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a13b41d67f5d74696fac4832c98b394f5">DeleteLaborAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1aaa5c70766e6945cb7bae35660b7ccde8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeleteExpenseAsync</definition>
+        <argsstring>(Expense expense, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeleteExpenseAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0739fef17cd37e0e5973c5ee25e6cdc8">DeleteExpenseAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a2dffdde870612a161468a31644a061ac">DeleteExpenseAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+          <declname>expense</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes an expense entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1ab10e11786b78d7f21cf9a40482336109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SaveTimerEntryAsync</definition>
+        <argsstring>(TimerEntry entry, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SaveTimerEntryAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a63732bc78fb6e33479130295a5f3618d">SaveTimerEntryAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1acfaa9c42802ecc8bd65e1c4b5c7b3fdf">SaveTimerEntryAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves a timer entry to record an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a7e32c4c791c3ec37bc5acac9b913fc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeleteTimerEntryAsync</definition>
+        <argsstring>(TimerEntry entry, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeleteTimerEntryAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a597928002e4546c7b25cb0cb37b04792">DeleteTimerEntryAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a6850d968047b81d3be77437d140cc896">DeleteTimerEntryAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes a timer entry to stop recording an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a4d63a502ce10e3206bd617216fcfa534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_field_service_1_1_data_1_1_timer_entry" kindref="compound">TimerEntry</ref> &gt;</type>
+        <definition>Task&lt;TimerEntry&gt; FieldService.IAssignmentService.GetTimerEntryAsync</definition>
+        <argsstring>(CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetTimerEntryAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac059b00f06f385dc180e9ff99017f389">GetTimerEntryAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1ada066507e249195499a043fe2b12c35a">GetTimerEntryAsync</reimplementedby>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Retrieves the stored timer entry if there was one </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a47a12db3d2463b82e94023b53667b6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Photo&gt; &gt; FieldService.IAssignmentService.GetPhotosForAssignmentAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetPhotosForAssignmentAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a959b5cf6fd8467641c5ae73dc511839e">GetPhotosForAssignmentAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1aade7ccd217b9b7f237f2891719ff5a4c">GetPhotosForAssignmentAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Retrieves all the photos for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a26a5249b6660cf37841a1c251fdaa86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.SavePhotoAsync</definition>
+        <argsstring>(Photo photo, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>SavePhotoAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1ad323006946fd86667fe6e8f0c08bb7f6">SavePhotoAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a10c72c1dc0eb6bb55f1af7f6b8dfee06">SavePhotoAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Saves a photo for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a0e60c3d22b9c7ce8109ad0846031107c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; FieldService.IAssignmentService.DeletePhotoAsync</definition>
+        <argsstring>(Photo photo, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>DeletePhotoAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1a66e517e85d234be35d074d0111aa93b7">DeletePhotoAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ac32f98da0406ef3ac0173dcd80d97082">DeletePhotoAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref></type>
+          <declname>photo</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Deletes a photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1aed0d547a58195aea1407e0bdb79f4078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Document&gt; &gt; FieldService.IAssignmentService.GetDocumentsAsync</definition>
+        <argsstring>(CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetDocumentsAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a0885f03ffa0da48989293db59983b651">GetDocumentsAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1aa62795761f40466e30590ceda142f257">GetDocumentsAsync</reimplementedby>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets the list of available documents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1a1a89f56c0847daa1d8d9e3f0bd630e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;AssignmentHistory&gt; &gt; FieldService.IAssignmentService.GetAssignmentHistoryAsync</definition>
+        <argsstring>(Assignment assignment, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetAssignmentHistoryAsync</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1ad24c1e0a33fcb1e6a08b88bf541f8f91">GetAssignmentHistoryAsync</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1ab64836471b95bd1e0055ff124c4f22a9">GetAssignmentHistoryAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets the history for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="152" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_field_service_1_1_i_assignment_service_1ac0e1cf9d28486e8e9a7e4161fe048b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> &gt; &gt;</type>
+        <definition>Task&lt;List&lt;Assignment&gt; &gt; FieldService.IAssignmentService.GetAssignmentFromHistory</definition>
+        <argsstring>(AssignmentHistory assignmentHistory, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>GetAssignmentFromHistory</name>
+        <reimplementedby refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service_1a2e09dd04ff09414886575397522e7d95">GetAssignmentFromHistory</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_assignment_service_1aef9d519c2e35704cb3d94e1831ab4c01">GetAssignmentFromHistory</reimplementedby>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+          <declname>assignmentHistory</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Gets the past assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="157" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Service for returning and saving assignment information </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2307">
+        <label>FieldService.IAssignmentService</label>
+        <link refid="interface_field_service_1_1_i_assignment_service"/>
+      </node>
+      <node id="2309">
+        <label>FieldService.Tests.Mocks.MockAssignmentService</label>
+        <link refid="class_field_service_1_1_tests_1_1_mocks_1_1_mock_assignment_service"/>
+        <childnode refid="2307" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2308">
+        <label>FieldService.Data.SampleAssignmentService</label>
+        <link refid="class_field_service_1_1_data_1_1_sample_assignment_service"/>
+        <childnode refid="2307" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/IAssignmentService.cs" bodystart="28" bodyend="158"/>
+    <listofallmembers>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a2852dea4a37ed70c41b2e8e997936eeb" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeleteAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a15a28d08be1e14567bf7b9a0ba64528b" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeleteAssignmentItemAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1aaa5c70766e6945cb7bae35660b7ccde8" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeleteExpenseAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a57066185843cd11c1adbf3f4ae483672" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeleteLaborAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a0e60c3d22b9c7ce8109ad0846031107c" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeletePhotoAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a7e32c4c791c3ec37bc5acac9b913fc80" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>DeleteTimerEntryAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1ac0e1cf9d28486e8e9a7e4161fe048b9e" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetAssignmentFromHistory</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a1a89f56c0847daa1d8d9e3f0bd630e23" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetAssignmentHistoryAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a96a0c030ee4794c243f7b18e4b174a7a" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetAssignmentsAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1aed0d547a58195aea1407e0bdb79f4078" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetDocumentsAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1afd6518a839fbe178de83044d30836c2c" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetExpensePhotoAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a58bbf53e8902cc8b5b2febe3f8d86a66" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetExpensesForAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1aaaa7089a8b70a8ccb8910882cbfcbd69" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetItemsAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a9e4b9011309a1ffbb9806d3db8c28ac3" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetItemsForAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1ac5dc739d70dee25a86e0107786a19ab6" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetLaborForAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a47a12db3d2463b82e94023b53667b6f7" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetPhotosForAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a7852d89fcda603f58224f0957743f2dd" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetSignatureAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a4d63a502ce10e3206bd617216fcfa534" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>GetTimerEntryAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1ad9c79c58d246aea349ba9b7f022ff1ba" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveAssignmentAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1ab2092c8146bdf27e85e71a53d3814124" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveAssignmentItemAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a3de5214ff7925731e8c265eff98c8c0e" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveExpenseAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a8f9a4283536bb493635765d68e12f38b" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveExpensePhotoAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a1f51a353c2f1d218f4f35f57641e5b46" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveLaborAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1a26a5249b6660cf37841a1c251fdaa86f" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SavePhotoAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1aaf826d808c6a94f4695e8d971d6ac59a" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveSignatureAsync</name></member>
+      <member refid="interface_field_service_1_1_i_assignment_service_1ab10e11786b78d7f21cf9a40482336109" prot="public" virt="non-virtual"><scope>FieldService::IAssignmentService</scope><name>SaveTimerEntryAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

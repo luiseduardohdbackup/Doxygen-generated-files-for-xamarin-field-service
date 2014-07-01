@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_async_connection" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteAsyncConnection</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_async_connection_1af00b8f2c0310a58215d19b5248705dda" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_string" kindref="compound">SQLiteConnectionString</ref></type>
+        <definition>SQLiteConnectionString SQLite.SQLiteAsyncConnection._connectionString</definition>
+        <argsstring></argsstring>
+        <name>_connectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a4e0eb35e732bb24adf8d4f3d83416d41" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+        <definition>SQLiteOpenFlags SQLite.SQLiteAsyncConnection._openFlags</definition>
+        <argsstring></argsstring>
+        <name>_openFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a6b26a70d833ede366339dcdf0ac4ddec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteAsyncConnection.SQLiteAsyncConnection</definition>
+        <argsstring>(string databasePath, bool storeDateTimeAsTicks=false)</argsstring>
+        <name>SQLiteAsyncConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databasePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1abf2621d98094e8cc5702655eec267cec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteAsyncConnection.SQLiteAsyncConnection</definition>
+        <argsstring>(string databasePath, SQLiteOpenFlags openFlags, bool storeDateTimeAsTicks=false)</argsstring>
+        <name>SQLiteAsyncConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databasePath</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+          <declname>openFlags</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a120dc02c80780a01f9158aa2dc4110e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTableAsync&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTableAsync&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a1911c2250387bf7db96a05d4ab73bfe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTablesAsync&lt; T, T2 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTablesAsync&lt; T, T2 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a0d18028757d84c1d5ef6b4f0a2f31bf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTablesAsync&lt; T, T2, T3 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTablesAsync&lt; T, T2, T3 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a36ed358566d4c64e0bf524c7d8c681a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTablesAsync&lt; T, T2, T3, T4 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTablesAsync&lt; T, T2, T3, T4 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a9b3c8584432d04508c89aebbbb1fedea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTablesAsync&lt; T, T2, T3, T4, T5 &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTablesAsync&lt; T, T2, T3, T4, T5 &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="84" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1af98ef3fd9628a9cda7b2b0532291f04b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_s_q_lite_1_1_create_tables_result" kindref="compound">CreateTablesResult</ref> &gt;</type>
+        <definition>Task&lt;CreateTablesResult&gt; SQLite.SQLiteAsyncConnection.CreateTablesAsync</definition>
+        <argsstring>(params Type[] types)</argsstring>
+        <name>CreateTablesAsync</name>
+        <param>
+          <type>params Type[]</type>
+          <declname>types</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="94" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a6781339fb664cde6494460e686f5cb60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.DropTableAsync&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>DropTableAsync&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="109" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a7c621805c4f3185e9b064288b2b47d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.InsertAsync</definition>
+        <argsstring>(object item)</argsstring>
+        <name>InsertAsync</name>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="120" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="120" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a3950c4feb7a8d2964a42167d8a4516a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.UpdateAsync</definition>
+        <argsstring>(object item)</argsstring>
+        <name>UpdateAsync</name>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1ac34ee6c331f35dc8cbb73a0373315fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.DeleteAsync</definition>
+        <argsstring>(object item)</argsstring>
+        <name>DeleteAsync</name>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="140" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a59792569de902bd2e87b967a35154d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.SQLiteAsyncConnection.GetAsync&lt; T &gt;</definition>
+        <argsstring>(object pk)</argsstring>
+        <name>GetAsync&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>pk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="150" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="150" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a4e09e6aacf646853516ab1befea4ac4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.SQLiteAsyncConnection.FindAsync&lt; T &gt;</definition>
+        <argsstring>(object pk)</argsstring>
+        <name>FindAsync&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>pk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="163" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="163" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1ad3e092c3fee0a61611570e8e86dbb88e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.SQLiteAsyncConnection.GetAsync&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate)</argsstring>
+        <name>GetAsync&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="174" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="174" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1ab3ee9b32ac49766e4ac20fa697e91f99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.SQLiteAsyncConnection.FindAsync&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate)</argsstring>
+        <name>FindAsync&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="187" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="187" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1aa61f9b65944e23c32cac8b0e2c39d597" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.ExecuteAsync</definition>
+        <argsstring>(string query, params object[] args)</argsstring>
+        <name>ExecuteAsync</name>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="198" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a8caf48d01bf96785143e71ee6a12b6a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.InsertAllAsync</definition>
+        <argsstring>(IEnumerable items)</argsstring>
+        <name>InsertAllAsync</name>
+        <param>
+          <type>IEnumerable</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="208" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="208" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a42b8f062eb54f8649a2ccff9984b536e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.SQLiteAsyncConnection.UpdateAllAsync</definition>
+        <argsstring>(IEnumerable items)</argsstring>
+        <name>UpdateAllAsync</name>
+        <param>
+          <type>IEnumerable</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="218" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="218" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1affd521039f3a7da49746af600522c809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task SQLite.SQLiteAsyncConnection.RunInTransactionAsync</definition>
+        <argsstring>(Action&lt; SQLiteAsyncConnection &gt; action)</argsstring>
+        <name>RunInTransactionAsync</name>
+        <param>
+          <type>Action&lt; <ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="229" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="229" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a0d8abe01ee8f0afe93b6a38423d77029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task SQLite.SQLiteAsyncConnection.RunInTransactionAsync</definition>
+        <argsstring>(Action&lt; SQLiteConnection &gt; action)</argsstring>
+        <name>RunInTransactionAsync</name>
+        <param>
+          <type>Action&lt; <ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="247" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="247" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1ae222dcdcc5033294c43c9cef1b16fbe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AsyncTableQuery&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.SQLiteAsyncConnection.Table&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>Table&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="269" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="269" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1adae67f753b244b754cc33be48cafbf67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.SQLiteAsyncConnection.ExecuteScalarAsync&lt; T &gt;</definition>
+        <argsstring>(string sql, params object[] args)</argsstring>
+        <name>ExecuteScalarAsync&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>sql</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="280" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="280" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a8a81a54a5769d761562d9a3ce18b0f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; T &gt; &gt;</type>
+        <definition>Task&lt;List&lt;T&gt; &gt; SQLite.SQLiteAsyncConnection.QueryAsync&lt; T &gt;</definition>
+        <argsstring>(string sql, params object[] args)</argsstring>
+        <name>QueryAsync&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>sql</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="291" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="291" bodyend="300"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_async_connection_1a46f7573ef57f951c42c38991a2f935c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock" kindref="compound">SQLiteConnectionWithLock</ref></type>
+        <definition>SQLiteConnectionWithLock SQLite.SQLiteAsyncConnection.GetConnection</definition>
+        <argsstring>()</argsstring>
+        <name>GetConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="33" bodyend="301"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1af00b8f2c0310a58215d19b5248705dda" prot="private" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>_connectionString</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a4e0eb35e732bb24adf8d4f3d83416d41" prot="private" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>_openFlags</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a120dc02c80780a01f9158aa2dc4110e3" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTableAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1af98ef3fd9628a9cda7b2b0532291f04b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTablesAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a1911c2250387bf7db96a05d4ab73bfe7" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTablesAsync&lt; T, T2 &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a0d18028757d84c1d5ef6b4f0a2f31bf8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTablesAsync&lt; T, T2, T3 &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a36ed358566d4c64e0bf524c7d8c681a4" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTablesAsync&lt; T, T2, T3, T4 &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a9b3c8584432d04508c89aebbbb1fedea" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>CreateTablesAsync&lt; T, T2, T3, T4, T5 &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1ac34ee6c331f35dc8cbb73a0373315fb0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>DeleteAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a6781339fb664cde6494460e686f5cb60" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>DropTableAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1aa61f9b65944e23c32cac8b0e2c39d597" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>ExecuteAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1adae67f753b244b754cc33be48cafbf67" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>ExecuteScalarAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a4e09e6aacf646853516ab1befea4ac4b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>FindAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1ab3ee9b32ac49766e4ac20fa697e91f99" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>FindAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a59792569de902bd2e87b967a35154d4c" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>GetAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1ad3e092c3fee0a61611570e8e86dbb88e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>GetAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a46f7573ef57f951c42c38991a2f935c5" prot="private" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>GetConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a8caf48d01bf96785143e71ee6a12b6a0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>InsertAllAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a7c621805c4f3185e9b064288b2b47d4a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>InsertAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a8a81a54a5769d761562d9a3ce18b0f57" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>QueryAsync&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1affd521039f3a7da49746af600522c809" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>RunInTransactionAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a0d8abe01ee8f0afe93b6a38423d77029" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>RunInTransactionAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a6b26a70d833ede366339dcdf0ac4ddec" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>SQLiteAsyncConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1abf2621d98094e8cc5702655eec267cec" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>SQLiteAsyncConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1ae222dcdcc5033294c43c9cef1b16fbe1" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>Table&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a42b8f062eb54f8649a2ccff9984b536e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>UpdateAllAsync</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_async_connection_1a3950c4feb7a8d2964a42167d8a4516a0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteAsyncConnection</scope><name>UpdateAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

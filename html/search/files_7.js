@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['iassignmentservice_2ecs',['IAssignmentService.cs',['../_i_assignment_service_8cs.html',1,'']]],
+  ['iloginservice_2ecs',['ILoginService.cs',['../_i_login_service_8cs.html',1,'']]],
+  ['imagespage_2examl_2ecs',['ImagesPage.xaml.cs',['../_images_page_8xaml_8cs.html',1,'']]],
+  ['isearchsource_2ecs',['ISearchSource.cs',['../_i_search_source_8cs.html',1,'']]],
+  ['item_2ecs',['Item.cs',['../_item_8cs.html',1,'']]],
+  ['itemfragment_2ecs',['ItemFragment.cs',['../_item_fragment_8cs.html',1,'']]],
+  ['itemfragment_2ejava',['ItemFragment.java',['../_item_fragment_8java.html',1,'']]],
+  ['itemizedoverlay_5fonfocuschangelistenerimplementor_2ejava',['ItemizedOverlay_OnFocusChangeListenerImplementor.java',['../_itemized_overlay___on_focus_change_listener_implementor_8java.html',1,'']]],
+  ['itemsadapter_2ecs',['ItemsAdapter.cs',['../_items_adapter_8cs.html',1,'']]],
+  ['itemsadapter_2ejava',['ItemsAdapter.java',['../_items_adapter_8java.html',1,'']]],
+  ['itemsdialog_2ecs',['ItemsDialog.cs',['../_items_dialog_8cs.html',1,'']]],
+  ['itemsdialog_2ejava',['ItemsDialog.java',['../_items_dialog_8java.html',1,'']]],
+  ['itemspage_2examl_2ecs',['ItemsPage.xaml.cs',['../_items_page_8xaml_8cs.html',1,'']]],
+  ['itemssearchadapter_2ecs',['ItemsSearchAdapter.cs',['../_items_search_adapter_8cs.html',1,'']]],
+  ['itemssearchadapter_2ejava',['ItemsSearchAdapter.java',['../_items_search_adapter_8java.html',1,'']]],
+  ['itemsviewcontroller_2ecs',['ItemsViewController.cs',['../_items_view_controller_8cs.html',1,'']]],
+  ['itemsviewcontroller_2edesigner_2ecs',['ItemsViewController.designer.cs',['../_items_view_controller_8designer_8cs.html',1,'']]],
+  ['itemviewmodel_2ecs',['ItemViewModel.cs',['../_view_models_2_item_view_model_8cs.html',1,'']]],
+  ['itemviewmodel_2ecs',['ItemViewModel.cs',['../_win_r_t_2_view_models_2_item_view_model_8cs.html',1,'']]],
+  ['itemviewmodeltests_2ecs',['ItemViewModelTests.cs',['../_item_view_model_tests_8cs.html',1,'']]]
+];

@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::ConfirmationFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aa42fa38a7e70b2933c04c7172bbd4a0f" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.ConfirmationFragment.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a77dfae42dd155ab507451215167acd77" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.ConfirmationFragment.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a760f3acf3ee760598a63a4a305410ed3" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.ConfirmationFragment.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a49e478f9e799e8e645667f96a5be9e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.ConfirmationFragment.ConfirmationFragment</definition>
+        <argsstring>()</argsstring>
+        <name>ConfirmationFragment</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a090b958ec03e8808de4798878e280fe5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ConfirmationFragment.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a2d2ef36614b4e62fab4948d8696a06d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.ConfirmationFragment.onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aadafabaa4e82e1ead3be677383918ef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ConfirmationFragment.onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aed6222cd03a018fe519f8565c0b40d72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ConfirmationFragment.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1adcfa833f74f7e0b003af38a385e3b425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ConfirmationFragment.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="59" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1ad8dfe396653d429960dafaf2e5fbbd96" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.ConfirmationFragment.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1adcc00af0d695edb398f09d8f63fae996" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.ConfirmationFragment.n_onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>n_onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a9cb1c184b6d056882e1d1d0da8a2e51f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.ConfirmationFragment.n_onPause</definition>
+        <argsstring>()</argsstring>
+        <name>n_onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1997">
+        <label>fieldservice.android.fragments.ConfirmationFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment"/>
+        <childnode refid="1998" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1999" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1998">
+        <label>Fragment</label>
+      </node>
+      <node id="1999">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2003">
+        <label>String</label>
+      </node>
+      <node id="2000">
+        <label>fieldservice.android.fragments.ConfirmationFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment"/>
+        <childnode refid="2001" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2002" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2003" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2001">
+        <label>Fragment</label>
+      </node>
+      <node id="2002">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ConfirmationFragment.java" bodystart="4" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a760f3acf3ee760598a63a4a305410ed3" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aa42fa38a7e70b2933c04c7172bbd4a0f" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a49e478f9e799e8e645667f96a5be9e17" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>ConfirmationFragment</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aed6222cd03a018fe519f8565c0b40d72" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1adcfa833f74f7e0b003af38a385e3b425" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1ad8dfe396653d429960dafaf2e5fbbd96" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1adcc00af0d695edb398f09d8f63fae996" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>n_onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a9cb1c184b6d056882e1d1d0da8a2e51f" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>n_onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a090b958ec03e8808de4798878e280fe5" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a2d2ef36614b4e62fab4948d8696a06d5" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1aadafabaa4e82e1ead3be677383918ef5" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_confirmation_fragment_1a77dfae42dd155ab507451215167acd77" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ConfirmationFragment</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

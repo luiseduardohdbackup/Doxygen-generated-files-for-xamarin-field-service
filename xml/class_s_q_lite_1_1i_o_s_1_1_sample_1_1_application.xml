@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_application" kind="class" prot="public">
+    <compoundname>SQLite::iOS::Sample::Application</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_application_1ad76ae0ed80057d4f8eaf693b08d69824" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SQLite.iOS.Sample.Application.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/Main.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/Main.cs" bodystart="13" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/Main.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/Main.cs" bodystart="10" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_application_1ad76ae0ed80057d4f8eaf693b08d69824" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::Application</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

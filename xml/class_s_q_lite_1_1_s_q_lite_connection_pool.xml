@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection_pool" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteConnectionPool</compoundname>
+    <innerclass refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry" prot="private">SQLite::SQLiteConnectionPool::Entry</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1a8a8e4254d94b07c38fa9f06e34072933" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; string, Entry &gt;</type>
+        <definition>readonly Dictionary&lt;string, Entry&gt; SQLite.SQLiteConnectionPool._entries</definition>
+        <argsstring></argsstring>
+        <name>_entries</name>
+        <initializer>= new Dictionary&lt;string, Entry&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="418" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1a95e82c095bcb85fcf450d4cb83b1bacc" prot="private" static="no" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object SQLite.SQLiteConnectionPool._entriesLock</definition>
+        <argsstring></argsstring>
+        <name>_entriesLock</name>
+        <initializer>= new object ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="419" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1afc6072311eb7d3048c8ea95bff4713a3" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_s_q_lite_1_1_s_q_lite_connection_pool" kindref="compound">SQLiteConnectionPool</ref></type>
+        <definition>readonly SQLiteConnectionPool SQLite.SQLiteConnectionPool._shared</definition>
+        <argsstring></argsstring>
+        <name>_shared</name>
+        <initializer>= new <ref refid="class_s_q_lite_1_1_s_q_lite_connection_pool" kindref="compound">SQLiteConnectionPool</ref> ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="421" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1aaa23c37a087e3e04c4af6a69ce7cfb97" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_pool" kindref="compound">SQLiteConnectionPool</ref></type>
+        <definition>SQLiteConnectionPool SQLite.SQLiteConnectionPool.Shared</definition>
+        <argsstring></argsstring>
+        <name>Shared</name>
+        <briefdescription>
+<para>Gets the singleton instance of the connection tool. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="426" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1a956aa90143a106ef4344ac2a77bfeefc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock" kindref="compound">SQLiteConnectionWithLock</ref></type>
+        <definition>SQLiteConnectionWithLock SQLite.SQLiteConnectionPool.GetConnection</definition>
+        <argsstring>(SQLiteConnectionString connectionString, SQLiteOpenFlags openFlags)</argsstring>
+        <name>GetConnection</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_string" kindref="compound">SQLiteConnectionString</ref></type>
+          <declname>connectionString</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+          <declname>openFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="434" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="434" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1a06bf58eb2050f2bb058c5bbfe76fab5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnectionPool.Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Closes all connections managed by this pool. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="452" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="452" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1a1ad83ea08efbe20c5f596d82977fffe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnectionPool.ApplicationSuspended</definition>
+        <argsstring>()</argsstring>
+        <name>ApplicationSuspended</name>
+        <briefdescription>
+<para>Call this method when the application is suspended. </para>        </briefdescription>
+        <detaileddescription>
+<para>Behaviour here is to close any open connections.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="466" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="466" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="399" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="398" bodyend="470"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1a8a8e4254d94b07c38fa9f06e34072933" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>_entries</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1a95e82c095bcb85fcf450d4cb83b1bacc" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>_entriesLock</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1afc6072311eb7d3048c8ea95bff4713a3" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>_shared</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1a1ad83ea08efbe20c5f596d82977fffe9" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>ApplicationSuspended</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1a956aa90143a106ef4344ac2a77bfeefc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>GetConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1a06bf58eb2050f2bb058c5bbfe76fab5e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>Reset</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1aaa23c37a087e3e04c4af6a69ce7cfb97" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool</scope><name>Shared</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

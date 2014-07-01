@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::ExpenseFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a6ded7d3d87d229dd900ca103777fcd19" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.ExpenseFragment.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a16d8388e147fdaecdea701f0220c494e" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.ExpenseFragment.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1ac1a7ef812ae7eaf337aa98d8a7bd0324" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.ExpenseFragment.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a913124ac3ac136bd56378c731a1d6c33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.ExpenseFragment.ExpenseFragment</definition>
+        <argsstring>()</argsstring>
+        <name>ExpenseFragment</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1aba40b7476c37d640fe58a6cb9378690e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.ExpenseFragment.onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a2696bfa12e5c3eeeecb08ec487e46568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ExpenseFragment.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1ada2b500296ea4fb29a563c57047c59f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.ExpenseFragment.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a4986016e00b70975e328fb4a39c764c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.ExpenseFragment.n_onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>n_onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2176">
+        <label>fieldservice.android.fragments.ExpenseFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment"/>
+        <childnode refid="2177" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2177">
+        <label>Fragment</label>
+      </node>
+      <node id="2178">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2182">
+        <label>String</label>
+      </node>
+      <node id="2179">
+        <label>fieldservice.android.fragments.ExpenseFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment"/>
+        <childnode refid="2180" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2182" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2180">
+        <label>Fragment</label>
+      </node>
+      <node id="2181">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/ExpenseFragment.java" bodystart="4" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1ac1a7ef812ae7eaf337aa98d8a7bd0324" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a6ded7d3d87d229dd900ca103777fcd19" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a913124ac3ac136bd56378c731a1d6c33" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>ExpenseFragment</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a2696bfa12e5c3eeeecb08ec487e46568" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1ada2b500296ea4fb29a563c57047c59f3" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a4986016e00b70975e328fb4a39c764c4" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>n_onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1aba40b7476c37d640fe58a6cb9378690e" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_expense_fragment_1a16d8388e147fdaecdea701f0220c494e" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::ExpenseFragment</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

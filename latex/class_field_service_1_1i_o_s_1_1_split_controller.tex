@@ -1,0 +1,135 @@
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller}{\section{Field\+Service.\+i\+O\+S.\+Split\+Controller Class Reference}
+\label{class_field_service_1_1i_o_s_1_1_split_controller}\index{Field\+Service.\+i\+O\+S.\+Split\+Controller@{Field\+Service.\+i\+O\+S.\+Split\+Controller}}
+}
+
+
+The main split controller in the app, we couldn't use U\+I\+Split\+View\+Controller because it must be the very root controller of the app N\+O\+T\+E\+: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance  
+
+
+
+
+Inheritance diagram for Field\+Service.\+i\+O\+S.\+Split\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_field_service_1_1i_o_s_1_1_split_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+i\+O\+S.\+Split\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_field_service_1_1i_o_s_1_1_split_controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a3e8fafe76cf844c4d3b969cf31b9bbcc}{Split\+Controller} (Int\+Ptr handle)
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_aa16acbf67fb07d94586f5bda136b7e27}{View\+Did\+Load} ()
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a2a61f1f25f6ab2afa745f9d8af57f772}{View\+Will\+Appear} (bool animated)
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a4643170aea334fd59f9f273668318104}{View\+Will\+Disappear} (bool animated)
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a5228e2219bf9050277abbcb2c6d14fd7}{Will\+Rotate} (U\+I\+Interface\+Orientation to\+Interface\+Orientation, double duration)
+\item 
+void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a4b9a606ab07da57b08687831a54f973c}{Show\+Popover} ()
+\begin{DoxyCompactList}\small\item\em Shows the popover. \end{DoxyCompactList}\item 
+void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_ac003e88566e895a387f43fa0de1c53c7}{Hide\+Popover} ()
+\begin{DoxyCompactList}\small\item\em Hides the popover. \end{DoxyCompactList}\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_split_controller_a7872b0e5ba4b27c34d878e9ea24b28a2}{Touches\+Ended} (N\+S\+Set touches, U\+I\+Event evt)
+\begin{DoxyCompactList}\small\item\em Dismiss the popover \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The main split controller in the app, we couldn't use U\+I\+Split\+View\+Controller because it must be the very root controller of the app N\+O\+T\+E\+: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a3e8fafe76cf844c4d3b969cf31b9bbcc}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!Split\+Controller@{Split\+Controller}}
+\index{Split\+Controller@{Split\+Controller}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{Split\+Controller}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+i\+O\+S.\+Split\+Controller.\+Split\+Controller (
+\begin{DoxyParamCaption}
+\item[{Int\+Ptr}]{handle}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a3e8fafe76cf844c4d3b969cf31b9bbcc}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_ac003e88566e895a387f43fa0de1c53c7}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!Hide\+Popover@{Hide\+Popover}}
+\index{Hide\+Popover@{Hide\+Popover}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{Hide\+Popover}]{\setlength{\rightskip}{0pt plus 5cm}void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+Hide\+Popover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_ac003e88566e895a387f43fa0de1c53c7}
+
+
+Hides the popover. 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a4b9a606ab07da57b08687831a54f973c}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!Show\+Popover@{Show\+Popover}}
+\index{Show\+Popover@{Show\+Popover}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{Show\+Popover}]{\setlength{\rightskip}{0pt plus 5cm}void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+Show\+Popover (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a4b9a606ab07da57b08687831a54f973c}
+
+
+Shows the popover. 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a7872b0e5ba4b27c34d878e9ea24b28a2}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!Touches\+Ended@{Touches\+Ended}}
+\index{Touches\+Ended@{Touches\+Ended}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{Touches\+Ended}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+Touches\+Ended (
+\begin{DoxyParamCaption}
+\item[{N\+S\+Set}]{touches, }
+\item[{U\+I\+Event}]{evt}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a7872b0e5ba4b27c34d878e9ea24b28a2}
+
+
+Dismiss the popover 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_aa16acbf67fb07d94586f5bda136b7e27}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!View\+Did\+Load@{View\+Did\+Load}}
+\index{View\+Did\+Load@{View\+Did\+Load}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{View\+Did\+Load}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+View\+Did\+Load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_aa16acbf67fb07d94586f5bda136b7e27}
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a2a61f1f25f6ab2afa745f9d8af57f772}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!View\+Will\+Appear@{View\+Will\+Appear}}
+\index{View\+Will\+Appear@{View\+Will\+Appear}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{View\+Will\+Appear}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+View\+Will\+Appear (
+\begin{DoxyParamCaption}
+\item[{bool}]{animated}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a2a61f1f25f6ab2afa745f9d8af57f772}
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a4643170aea334fd59f9f273668318104}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!View\+Will\+Disappear@{View\+Will\+Disappear}}
+\index{View\+Will\+Disappear@{View\+Will\+Disappear}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{View\+Will\+Disappear}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+View\+Will\+Disappear (
+\begin{DoxyParamCaption}
+\item[{bool}]{animated}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a4643170aea334fd59f9f273668318104}
+\hypertarget{class_field_service_1_1i_o_s_1_1_split_controller_a5228e2219bf9050277abbcb2c6d14fd7}{\index{Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}!Will\+Rotate@{Will\+Rotate}}
+\index{Will\+Rotate@{Will\+Rotate}!Field\+Service\+::i\+O\+S\+::\+Split\+Controller@{Field\+Service\+::i\+O\+S\+::\+Split\+Controller}}
+\subsubsection[{Will\+Rotate}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Split\+Controller.\+Will\+Rotate (
+\begin{DoxyParamCaption}
+\item[{U\+I\+Interface\+Orientation}]{to\+Interface\+Orientation, }
+\item[{double}]{duration}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_split_controller_a5228e2219bf9050277abbcb2c6d14fd7}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+i\+O\+S/\+Controllers/\hyperlink{_split_controller_8cs}{Split\+Controller.\+cs}\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+i\+O\+S/\+Controllers/\hyperlink{_split_controller_8designer_8cs}{Split\+Controller.\+designer.\+cs}\end{DoxyCompactItemize}

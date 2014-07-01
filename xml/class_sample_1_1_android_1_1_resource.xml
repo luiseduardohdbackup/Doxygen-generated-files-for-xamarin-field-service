@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_resource" kind="class" prot="public">
+    <compoundname>Sample::Android::Resource</compoundname>
+    <innerclass refid="class_sample_1_1_android_1_1_resource_1_1_attribute" prot="public">Sample::Android::Resource::Attribute</innerclass>
+    <innerclass refid="class_sample_1_1_android_1_1_resource_1_1_drawable" prot="public">Sample::Android::Resource::Drawable</innerclass>
+    <innerclass refid="class_sample_1_1_android_1_1_resource_1_1_id" prot="public">Sample::Android::Resource::Id</innerclass>
+    <innerclass refid="class_sample_1_1_android_1_1_resource_1_1_layout" prot="public">Sample::Android::Resource::Layout</innerclass>
+    <innerclass refid="class_sample_1_1_android_1_1_resource_1_1_string" prot="public">Sample::Android::Resource::String</innerclass>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1a2452dd33ec1eafcaafd486b920e77b80" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.Android.Resource.Resource</definition>
+        <argsstring>()</argsstring>
+        <name>Resource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1a5501c35628b9471ec2ba46585c154c1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sample.Android.Resource.UpdateIdValues</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateIdValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="19" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_resource_1a2452dd33ec1eafcaafd486b920e77b80" prot="private" virt="non-virtual"><scope>Sample::Android::Resource</scope><name>Resource</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1a5501c35628b9471ec2ba46585c154c1f" prot="public" virt="non-virtual"><scope>Sample::Android::Resource</scope><name>UpdateIdValues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

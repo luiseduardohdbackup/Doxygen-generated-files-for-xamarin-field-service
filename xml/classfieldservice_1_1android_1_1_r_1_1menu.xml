@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_r_1_1menu" kind="class" prot="public">
+    <compoundname>fieldservice::android::R::menu</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1menu_1a032d756e5308ce23c973f6ca26a1e154" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.menu::fragmentnavigationmenu</definition>
+        <argsstring></argsstring>
+        <name>fragmentnavigationmenu</name>
+        <initializer>=0x7f070000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="301" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1menu_1a2cd5e326af9cefba4b5ce3d2c64a6c2a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.menu::summarymenu</definition>
+        <argsstring></argsstring>
+        <name>summarymenu</name>
+        <initializer>=0x7f070001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="302" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="300" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="300" bodyend="303"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1menu_1a032d756e5308ce23c973f6ca26a1e154" prot="public" virt="non-virtual"><scope>fieldservice::android::R::menu</scope><name>fragmentnavigationmenu</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1menu_1a2cd5e326af9cefba4b5ce3d2c64a6c2a" prot="public" virt="non-virtual"><scope>fieldservice::android::R::menu</scope><name>summarymenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

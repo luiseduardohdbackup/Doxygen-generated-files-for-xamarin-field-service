@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_table_mapping_1_1_column" kind="class" prot="public">
+    <compoundname>SQLite::TableMapping::Column</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_mapping_1_1_column_1aeaa4520cd995311bc2f7406de197de1b" prot="private" static="no" mutable="no">
+        <type>PropertyInfo</type>
+        <definition>PropertyInfo SQLite.TableMapping.Column._prop</definition>
+        <argsstring></argsstring>
+        <name>_prop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1833" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1833" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a95c3ae2c8502cb3074751fbfee766bb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.TableMapping.Column.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1835" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1af4b9a6b1eddbba6a9ec9dc2f9a8b6820" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string SQLite.TableMapping.Column.PropertyName</definition>
+        <argsstring></argsstring>
+        <name>PropertyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1837" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1afb3b922b5b0eb59eb826bb26b9838d61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Type</type>
+        <definition>Type SQLite.TableMapping.Column.ColumnType</definition>
+        <argsstring></argsstring>
+        <name>ColumnType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1839" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a6d8ba39bedd7336a17c5271479c7bb5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.TableMapping.Column.Collation</definition>
+        <argsstring></argsstring>
+        <name>Collation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1841" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a8cdcb1406f9ef7472b829f34c1f96360" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.TableMapping.Column.IsAutoInc</definition>
+        <argsstring></argsstring>
+        <name>IsAutoInc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1843" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a5775c9a99e9b3ee8dd8f34b162b1e4ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.TableMapping.Column.IsAutoGuid</definition>
+        <argsstring></argsstring>
+        <name>IsAutoGuid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1844" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a74b6f353e1632310fa12414e36407c50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.TableMapping.Column.IsPK</definition>
+        <argsstring></argsstring>
+        <name>IsPK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1846" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a5153b02c01f808c46d83f1bccc23aa40" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IEnumerable&lt; <ref refid="class_s_q_lite_1_1_indexed_attribute" kindref="compound">IndexedAttribute</ref> &gt;</type>
+        <definition>IEnumerable&lt;IndexedAttribute&gt; SQLite.TableMapping.Column.Indices</definition>
+        <argsstring></argsstring>
+        <name>Indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1848" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a2ff8d12dcf449ca9407c4c3222521c96" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.TableMapping.Column.IsNullable</definition>
+        <argsstring></argsstring>
+        <name>IsNullable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1850" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a762d97a3a799c0f7a31b034eb0f3db71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.TableMapping.Column.MaxStringLength</definition>
+        <argsstring></argsstring>
+        <name>MaxStringLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1852" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1852" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a404e36f92ab57bcc8f903a78dc47badf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.TableMapping.Column.Column</definition>
+        <argsstring>(PropertyInfo prop, CreateFlags createFlags=CreateFlags.None)</argsstring>
+        <name>Column</name>
+        <param>
+          <type>PropertyInfo</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a5ada328810363319c85c3e0c28c67479" kindref="member">CreateFlags</ref></type>
+          <declname>createFlags</declname>
+          <defval>CreateFlags.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1854" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1854" bodyend="1883"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1_1_column_1a0f57d48181580599bd9b4aa6db68687c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.TableMapping.Column.SetValue</definition>
+        <argsstring>(object obj, object val)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1885" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1885" bodyend="1888"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1_1_column_1ac2e9f8110d390d1fa630ebb0d345c293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object SQLite.TableMapping.Column.GetValue</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1890" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1890" bodyend="1893"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1832" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1831" bodyend="1894"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1aeaa4520cd995311bc2f7406de197de1b" prot="private" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>_prop</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a6d8ba39bedd7336a17c5271479c7bb5a" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>Collation</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a404e36f92ab57bcc8f903a78dc47badf" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>Column</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1afb3b922b5b0eb59eb826bb26b9838d61" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>ColumnType</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1ac2e9f8110d390d1fa630ebb0d345c293" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>GetValue</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a5153b02c01f808c46d83f1bccc23aa40" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>Indices</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a5775c9a99e9b3ee8dd8f34b162b1e4ab" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>IsAutoGuid</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a8cdcb1406f9ef7472b829f34c1f96360" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>IsAutoInc</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a2ff8d12dcf449ca9407c4c3222521c96" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>IsNullable</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a74b6f353e1632310fa12414e36407c50" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>IsPK</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a762d97a3a799c0f7a31b034eb0f3db71" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>MaxStringLength</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a95c3ae2c8502cb3074751fbfee766bb0" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>Name</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1af4b9a6b1eddbba6a9ec9dc2f9a8b6820" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>PropertyName</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1_1_column_1a0f57d48181580599bd9b4aa6db68687c" prot="public" virt="non-virtual"><scope>SQLite::TableMapping::Column</scope><name>SetValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

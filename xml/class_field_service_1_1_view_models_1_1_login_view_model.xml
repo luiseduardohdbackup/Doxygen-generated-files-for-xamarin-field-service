@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_login_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::LoginViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.LoginViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_login_view_model_1a6b06b558b43f51e6bf622fb7394447e6" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_login_service" kindref="compound">ILoginService</ref></type>
+        <definition>readonly ILoginService FieldService.ViewModels.LoginViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_login_view_model_1a386cc92d9dd494bba521e6200be2d3ee" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.ViewModels.LoginViewModel.username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_login_view_model_1a0a632677ecd3cb2263b00e7b33c9baa9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.ViewModels.LoginViewModel.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_login_view_model_1a2051b7ba22d4d6f5a173664d9d8946da" prot="private" static="no" mutable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.ViewModels.LoginViewModel.autoLogoutTime</definition>
+        <argsstring></argsstring>
+        <name>autoLogoutTime</name>
+        <initializer>= TimeSpan.FromMinutes(2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_login_view_model_1a1f53d49d6ea4fb86950528095bfffdd0" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.ViewModels.LoginViewModel.dateInactive</definition>
+        <argsstring></argsstring>
+        <name>dateInactive</name>
+        <initializer>= DateTime.Now</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_login_view_model_1aba35afcb0fde385ffebc5bb8267e4218" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.ViewModels.LoginViewModel.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+<para>Username property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_login_view_model_1a1da03b3071aef0fcaea92f6c8f9518fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.ViewModels.LoginViewModel.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+<para>Password property </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_login_view_model_1a896ce645e14190629e0feefb1a33b7e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.ViewModels.LoginViewModel.IsInactive</definition>
+        <argsstring></argsstring>
+        <name>IsInactive</name>
+        <briefdescription>
+<para>True if the login screen should be presented </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="92" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_login_view_model_1a7e651c456cfb677706542a0948d81d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.LoginViewModel.LoginViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>LoginViewModel</name>
+        <briefdescription>
+<para>Constructor, requires an IService </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>IService implementation</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_login_view_model_1a0ae178c7e04dfbfcb641a2c164e2fb0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; bool &gt;</type>
+        <definition>Task&lt;bool&gt; FieldService.ViewModels.LoginViewModel.LoginAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoginAsync</name>
+        <briefdescription>
+<para>Performs an asynchronous login </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_login_view_model_1ab3244c476ac9cb58ced4ffe86b4b4ad6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.ViewModels.LoginViewModel.ResetInactiveTime</definition>
+        <argsstring>()</argsstring>
+        <name>ResetInactiveTime</name>
+        <briefdescription>
+<para>Should be called to reset the last inactive time, so on DidEnterBackground on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref>, for example </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_login_view_model_1af979634e56bc7c5da542d0a1e38c7344" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.ViewModels.LoginViewModel.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <reimplements refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8">Validate</reimplements>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac068dc643a7e4c7b80b1668a69da6733">Validate</reimplementedby>
+        <briefdescription>
+<para>Validation logic </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="108" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="108" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewModel class for the Login screen </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2583">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2581">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2580">
+        <label>FieldService.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2582">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2583" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2584">
+        <label>FieldService.WinRT.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2588">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2586">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2587" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2585">
+        <label>FieldService.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2586" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2587">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2588" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LoginViewModel.cs" bodystart="30" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a2051b7ba22d4d6f5a173664d9d8946da" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>autoLogoutTime</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a1f53d49d6ea4fb86950528095bfffdd0" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>dateInactive</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a896ce645e14190629e0feefb1a33b7e2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>IsInactive</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a0ae178c7e04dfbfcb641a2c164e2fb0f" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>LoginAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a7e651c456cfb677706542a0948d81d5c" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>LoginViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a0a632677ecd3cb2263b00e7b33c9baa9" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>password</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a1da03b3071aef0fcaea92f6c8f9518fe" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>Password</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1ab3244c476ac9cb58ced4ffe86b4b4ad6" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>ResetInactiveTime</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a6b06b558b43f51e6bf622fb7394447e6" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1aba35afcb0fde385ffebc5bb8267e4218" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>Username</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a386cc92d9dd494bba521e6200be2d3ee" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>username</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1af979634e56bc7c5da542d0a1e38c7344" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LoginViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

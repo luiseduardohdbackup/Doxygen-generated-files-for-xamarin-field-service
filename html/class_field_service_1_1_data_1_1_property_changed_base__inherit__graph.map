@@ -1,0 +1,21 @@
+<map id="FieldService.Data.PropertyChangedBase" name="FieldService.Data.PropertyChangedBase">
+<area shape="rect" id="node3" href="$class_field_service_1_1_data_1_1_assignment_item.html" title="Link from an item to an assignment " alt="" coords="448,206,674,231"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_view_models_1_1_view_model_base.html" title="Base class for all view models " alt="" coords="474,255,648,294"/>
+<area shape="rect" id="node5" href="$class_field_service_1_1_view_models_1_1_assignment_view_model.html" title="View model for assignments list " alt="" coords="722,5,896,43"/>
+<area shape="rect" id="node7" href="$class_field_service_1_1_view_models_1_1_document_view_model.html" title="ViewModel for managing documents " alt="" coords="722,67,896,106"/>
+<area shape="rect" id="node9" href="$class_field_service_1_1_view_models_1_1_expense_view_model.html" title="ViewModel for expense " alt="" coords="722,130,896,169"/>
+<area shape="rect" id="node11" href="$class_field_service_1_1_view_models_1_1_history_view_model.html" title="ViewModel for assignment history " alt="" coords="722,193,896,231"/>
+<area shape="rect" id="node13" href="$class_field_service_1_1_view_models_1_1_item_view_model.html" title="ViewModel for working with items " alt="" coords="722,255,896,294"/>
+<area shape="rect" id="node15" href="$class_field_service_1_1_view_models_1_1_labor_view_model.html" title="View model for labor hours " alt="" coords="722,318,896,357"/>
+<area shape="rect" id="node17" href="$class_field_service_1_1_view_models_1_1_login_view_model.html" title="ViewModel class for the Login screen " alt="" coords="722,381,896,419"/>
+<area shape="rect" id="node19" href="$class_field_service_1_1_view_models_1_1_menu_view_model.html" title="A simple ViewModel for coordinating menu changes within the app " alt="" coords="722,443,896,482"/>
+<area shape="rect" id="node20" href="$class_field_service_1_1_view_models_1_1_photo_view_model.html" title="ViewModel for working with photos " alt="" coords="722,506,896,545"/>
+<area shape="rect" id="node6" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model.html" title="FieldService.WinRT.ViewModels.\lAssignmentViewModel" alt="" coords="944,5,1160,43"/>
+<area shape="rect" id="node8" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model.html" title="FieldService.WinRT.ViewModels.\lDocumentViewModel" alt="" coords="944,67,1160,106"/>
+<area shape="rect" id="node10" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model.html" title="FieldService.WinRT.ViewModels.\lExpenseViewModel" alt="" coords="944,130,1160,169"/>
+<area shape="rect" id="node12" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model.html" title="FieldService.WinRT.ViewModels.\lHistoryViewModel" alt="" coords="944,193,1160,231"/>
+<area shape="rect" id="node14" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model.html" title="WinRT version of the ItemViewModel " alt="" coords="944,255,1160,294"/>
+<area shape="rect" id="node16" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model.html" title="WinRT version of the LaborViewModel " alt="" coords="944,318,1160,357"/>
+<area shape="rect" id="node18" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model.html" title="WinRT version of the LoginViewModel " alt="" coords="944,381,1160,419"/>
+<area shape="rect" id="node21" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model.html" title="FieldService.WinRT.ViewModels.\lPhotoViewModel" alt="" coords="944,506,1160,545"/>
+</map>

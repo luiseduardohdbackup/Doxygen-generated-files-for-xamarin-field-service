@@ -1,0 +1,2093 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteConnection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock" prot="public" virt="non-virtual">SQLite.SQLiteConnectionWithLock</derivedcompoundref>
+    <innerclass refid="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info" prot="public">SQLite::SQLiteConnection::ColumnInfo</innerclass>
+    <innerclass refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column" prot="private">SQLite::SQLiteConnection::IndexedColumn</innerclass>
+    <innerclass refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_index_info" prot="private">SQLite::SQLiteConnection::IndexInfo</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1ad7decd8e63b60c06233a36a6423048f9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection._open</definition>
+        <argsstring></argsstring>
+        <name>_open</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1aa7ae65b1cb6162bcb62ce44640e5a8af" prot="private" static="no" mutable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan SQLite.SQLiteConnection._busyTimeout</definition>
+        <argsstring></argsstring>
+        <name>_busyTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1a0e9f9add27611365c6c0059dd5a647f9" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> &gt;</type>
+        <definition>Dictionary&lt;string, TableMapping&gt; SQLite.SQLiteConnection._mappings</definition>
+        <argsstring></argsstring>
+        <name>_mappings</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="141" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1abc9d98d9a71da01ecd409d6f70e26c9e" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> &gt;</type>
+        <definition>Dictionary&lt;string, TableMapping&gt; SQLite.SQLiteConnection._tables</definition>
+        <argsstring></argsstring>
+        <name>_tables</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1a5f7339c347b78db9d4ac045f9a48c1a8" prot="private" static="no" mutable="no">
+        <type>System.Diagnostics.Stopwatch</type>
+        <definition>System.Diagnostics.Stopwatch SQLite.SQLiteConnection._sw</definition>
+        <argsstring></argsstring>
+        <name>_sw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="143" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1a232c223edac3b9b63aa5244323bd1019" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long SQLite.SQLiteConnection._elapsedMilliseconds</definition>
+        <argsstring></argsstring>
+        <name>_elapsedMilliseconds</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="144" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1aba21043e43e606480eb49a37bc6032a3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection._transactionDepth</definition>
+        <argsstring></argsstring>
+        <name>_transactionDepth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="146" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1ae522365b96ed7ea4e3aa9bd35f15e8a8" prot="private" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random SQLite.SQLiteConnection._rand</definition>
+        <argsstring></argsstring>
+        <name>_rand</name>
+        <initializer>= new Random ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1a504b348bb83df3b51fb49937db4d7804" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="_s_q_lite_8cs_1a0137d4c5059675164f7580c64441f40c" kindref="member">Sqlite3DatabaseHandle</ref></type>
+        <definition>Sqlite3DatabaseHandle SQLite.SQLiteConnection.Handle</definition>
+        <argsstring></argsstring>
+        <name>Handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1a18b410ed380268c16bb9bdb47b5ad44b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.DatabasePath</definition>
+        <argsstring></argsstring>
+        <name>DatabasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="152" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1af925b9fddec261394ab29fbbaa25d9a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection.TimeExecution</definition>
+        <argsstring></argsstring>
+        <name>TimeExecution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="154" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1af9e92ae222dba65b2ab761139531118a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection.Trace</definition>
+        <argsstring></argsstring>
+        <name>Trace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="156" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1a1c24728cf622f060629aac155e2afcaa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection.StoreDateTimeAsTicks</definition>
+        <argsstring></argsstring>
+        <name>StoreDateTimeAsTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="158" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1abb2b70df282aa2f1af07789db65db1dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan SQLite.SQLiteConnection.BusyTimeout</definition>
+        <argsstring></argsstring>
+        <name>BusyTimeout</name>
+        <briefdescription>
+<para>Sets a busy handler to sleep the specified amount of time when a table is locked. The handler will sleep multiple times until a total time of <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1abb2b70df282aa2f1af07789db65db1dd" kindref="member">BusyTimeout</ref> has accumulated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="264" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1ac0c3b1e8f8060ef9777fac08751d159e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> &gt;</type>
+        <definition>IEnumerable&lt;TableMapping&gt; SQLite.SQLiteConnection.TableMappings</definition>
+        <argsstring></argsstring>
+        <name>TableMappings</name>
+        <briefdescription>
+<para>Returns the mappings from types to tables that the connection currently understands. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="278" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1a9450dfedb603c08eb75f57f36db41d9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool SQLite.SQLiteConnection.IsInTransaction</definition>
+        <argsstring></argsstring>
+        <name>IsInTransaction</name>
+        <briefdescription>
+<para>Whether <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref> has been called and the database is waiting for a <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" kindref="member">Commit</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="862" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="862" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_1ada41a64830e77a1cdf870ae3d1416d8c" prot="package" static="yes" mutable="no">
+        <type>readonly <ref refid="_s_q_lite_8cs_1a0137d4c5059675164f7580c64441f40c" kindref="member">Sqlite3DatabaseHandle</ref></type>
+        <definition>readonly Sqlite3DatabaseHandle SQLite.SQLiteConnection.NullHandle</definition>
+        <argsstring></argsstring>
+        <name>NullHandle</name>
+        <initializer>= default(<ref refid="_s_q_lite_8cs_1a0137d4c5059675164f7580c64441f40c" kindref="member">Sqlite3DatabaseHandle</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="150" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_s_q_lite_1_1_s_q_lite_connection_1a17fd06674a40bf6bf7630b65503eafa9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_s_q_lite_1_1_notify_table_changed_event_args" kindref="compound">NotifyTableChangedEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;NotifyTableChangedEventArgs&gt; SQLite.SQLiteConnection.TableChanged</definition>
+        <argsstring></argsstring>
+        <name>TableChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1531" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1531" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a21204da14d0e2a44039f3395bb4ff12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnection.SQLiteConnection</definition>
+        <argsstring>(string databasePath, bool storeDateTimeAsTicks=false)</argsstring>
+        <name>SQLiteConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databasePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref> and opens a <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> database specified by databasePath. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>databasePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies the path to the database file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>storeDateTimeAsTicks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies whether to store DateTime properties as ticks (true) or strings (false). You absolutely do want to store them as Ticks in all new projects. The default of false is only here for backwards compatibility. There is a <emphasis>significant</emphasis> speed advantage, with no down sides, when setting storeDateTimeAsTicks = true. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="172" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a5d0deb6299d3f479e53cf81899023457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnection.SQLiteConnection</definition>
+        <argsstring>(string databasePath, SQLiteOpenFlags openFlags, bool storeDateTimeAsTicks=false)</argsstring>
+        <name>SQLiteConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databasePath</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+          <declname>openFlags</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref> and opens a <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> database specified by databasePath. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>databasePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies the path to the database file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>storeDateTimeAsTicks</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies whether to store DateTime properties as ticks (true) or strings (false). You absolutely do want to store them as Ticks in all new projects. The default of false is only here for backwards compatibility. There is a <emphasis>significant</emphasis> speed advantage, with no down sides, when setting storeDateTimeAsTicks = true. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="189" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="189" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ae9cb05b6c85322d73dd70688182edb01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.EnableLoadExtension</definition>
+        <argsstring>(int onoff)</argsstring>
+        <name>EnableLoadExtension</name>
+        <param>
+          <type>int</type>
+          <declname>onoff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="240" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="240" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a0c0db552a653e0797cf772706148eb41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+        <definition>TableMapping SQLite.SQLiteConnection.GetMapping</definition>
+        <argsstring>(Type type, CreateFlags createFlags=CreateFlags.None)</argsstring>
+        <name>GetMapping</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a5ada328810363319c85c3e0c28c67479" kindref="member">CreateFlags</ref></type>
+          <declname>createFlags</declname>
+          <defval>CreateFlags.None</defval>
+        </param>
+        <briefdescription>
+<para>Retrieves the mapping that is automatically generated for the given type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type whose mapping to the database is returned. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>createFlags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional flags allowing implicit PK and indexes based on naming conventions </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The mapping represents the schema of the columns of the database and contains methods to set and get properties of objects. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="297" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="297" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1adf0ed08567e1ca36e4fda72c94ede544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+        <definition>TableMapping SQLite.SQLiteConnection.GetMapping&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetMapping&lt; T &gt;</name>
+        <briefdescription>
+<para>Retrieves the mapping that is automatically generated for the given type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The mapping represents the schema of the columns of the database and contains methods to set and get properties of objects. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="317" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a783032226b2db2ebd6417f21abe9cd5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.DropTable&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>DropTable&lt; T &gt;</name>
+        <briefdescription>
+<para>Executes a &quot;drop table&quot; on the database. This is non-recoverable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="339" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="339" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1abc8fda93774fb74dd2f97e9549eb46b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateTable&lt; T &gt;</definition>
+        <argsstring>(CreateFlags createFlags=CreateFlags.None)</argsstring>
+        <name>CreateTable&lt; T &gt;</name>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a5ada328810363319c85c3e0c28c67479" kindref="member">CreateFlags</ref></type>
+          <declname>createFlags</declname>
+          <defval>CreateFlags.None</defval>
+        </param>
+        <briefdescription>
+<para>Executes a &quot;create table if not exists&quot; on the database. It also creates any specified indexes on the columns of the table. It uses a schema automatically generated from the specified type. You can later access this schema by calling GetMapping. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of entries added to the database schema. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="357" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="357" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1abfd7ba959c93db259983427b5e7ee05a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateTable</definition>
+        <argsstring>(Type ty, CreateFlags createFlags=CreateFlags.None)</argsstring>
+        <name>CreateTable</name>
+        <param>
+          <type>Type</type>
+          <declname>ty</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a5ada328810363319c85c3e0c28c67479" kindref="member">CreateFlags</ref></type>
+          <declname>createFlags</declname>
+          <defval>CreateFlags.None</defval>
+        </param>
+        <briefdescription>
+<para>Executes a &quot;create table if not exists&quot; on the database. It also creates any specified indexes on the columns of the table. It uses a schema automatically generated from the specified type. You can later access this schema by calling GetMapping. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ty</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type to reflect to a database table.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>createFlags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Optional flags allowing implicit PK and indexes based on naming conventions.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of entries added to the database schema. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="373" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="373" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a006cda01a29a2f202be1659cbf3810a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateIndex</definition>
+        <argsstring>(string indexName, string tableName, string[] columnNames, bool unique=false)</argsstring>
+        <name>CreateIndex</name>
+        <param>
+          <type>string</type>
+          <declname>indexName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tableName</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>columnNames</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Creates an index for the specified table and columns. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>indexName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the index to create</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the database table</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>columnNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of column names to index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the index should be unique</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="438" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="438" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a41bc451f0fed96a6cb79ae2d61ab3a11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateIndex</definition>
+        <argsstring>(string indexName, string tableName, string columnName, bool unique=false)</argsstring>
+        <name>CreateIndex</name>
+        <param>
+          <type>string</type>
+          <declname>indexName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>columnName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Creates an index for the specified table and column. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>indexName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the index to create</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the database table</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>columnName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the column to index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the index should be unique</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="452" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="452" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a91adc40b863214a5efc495b33ec9a351" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateIndex</definition>
+        <argsstring>(string tableName, string columnName, bool unique=false)</argsstring>
+        <name>CreateIndex</name>
+        <param>
+          <type>string</type>
+          <declname>tableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>columnName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Creates an index for the specified table and column. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the database table</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>columnName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the column to index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the index should be unique</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="463" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="463" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a30996f7f4a91d17d719ef4dd582b4cee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.CreateIndex</definition>
+        <argsstring>(string tableName, string[] columnNames, bool unique=false)</argsstring>
+        <name>CreateIndex</name>
+        <param>
+          <type>string</type>
+          <declname>tableName</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>columnNames</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Creates an index for the specified table and columns. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tableName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the database table</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>columnNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An array of column names to index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the index should be unique</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="474" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="474" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a7283c295b89b54728d7201e0812ccaac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.CreateIndex&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, object &gt;&gt; property, bool unique=false)</argsstring>
+        <name>CreateIndex&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, object &gt;&gt;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Creates an index for the specified object property. e.g. CreateIndex&lt;Client&gt;(c =&gt; c.Name); </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type to reflect to a database table.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property to index</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unique</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the index should be unique</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="486" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="486" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a695bad5670f4d38a9aae39e4aec85329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info" kindref="compound">ColumnInfo</ref> &gt;</type>
+        <definition>List&lt;ColumnInfo&gt; SQLite.SQLiteConnection.GetTableInfo</definition>
+        <argsstring>(string tableName)</argsstring>
+        <name>GetTableInfo</name>
+        <param>
+          <type>string</type>
+          <declname>tableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="533" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="533" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a112ac999fccd302bda742992f044f3ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref></type>
+        <definition>SQLiteCommand SQLite.SQLiteConnection.CreateCommand</definition>
+        <argsstring>(string cmdText, params object[] ps)</argsstring>
+        <name>CreateCommand</name>
+        <param>
+          <type>string</type>
+          <declname>cmdText</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text with arguments. Place a &apos;?&apos; in the command text for each of the arguments. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cmdText</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the command text. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="585" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="585" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a5fbb3e385d21cfbee95e4a2a71a3043b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Execute</definition>
+        <argsstring>(string query, params object[] args)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text (SQL) with arguments. Place a &apos;?&apos; in the command text for each of the arguments and then executes that command. Use this method instead of Query when you don&apos;t expect rows back. Such cases include INSERTs, UPDATEs, and DELETEs. You can set the Trace or TimeExecution properties of the connection to profile execution. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the query. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows modified in the database as a result of this execution. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="615" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="615" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1af88acbe7da213c81875c3a35a5d61337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteConnection.ExecuteScalar&lt; T &gt;</definition>
+        <argsstring>(string query, params object[] args)</argsstring>
+        <name>ExecuteScalar&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="638" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="638" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ade363948abe65a6b97fe8574f943db91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt;T&gt; SQLite.SQLiteConnection.Query&lt; T &gt;</definition>
+        <argsstring>(string query, params object[] args)</argsstring>
+        <name>Query&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text (SQL) with arguments. Place a &apos;?&apos; in the command text for each of the arguments and then executes that command. It returns each row of the result using the mapping automatically generated for the given type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the query. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An enumerable with one result for each row returned by the query. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="676" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="676" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a334b139ead4620ad13b5e1d54e8077af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>IEnumerable&lt;T&gt; SQLite.SQLiteConnection.DeferredQuery&lt; T &gt;</definition>
+        <argsstring>(string query, params object[] args)</argsstring>
+        <name>DeferredQuery&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text (SQL) with arguments. Place a &apos;?&apos; in the command text for each of the arguments and then executes that command. It returns each row of the result using the mapping automatically generated for the given type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the query. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An enumerable with one result for each row returned by the query. The enumerator will call sqlite3_step on each call to MoveNext, so the database connection must remain open for the lifetime of the enumerator. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="699" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="699" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1aeac8a5ef1be5cfabc5bbf33f1fec01b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; object &gt;</type>
+        <definition>List&lt;object&gt; SQLite.SQLiteConnection.Query</definition>
+        <argsstring>(TableMapping map, string query, params object[] args)</argsstring>
+        <name>Query</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text (SQL) with arguments. Place a &apos;?&apos; in the command text for each of the arguments and then executes that command. It returns each row of the result using the specified mapping. This function is only used by libraries in order to query the database via introspection. It is normally not used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> to use to convert the resulting rows into objects. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the query. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An enumerable with one result for each row returned by the query. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="725" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="725" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab359d97e7938a573e0a565d2c46aa401" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; object &gt;</type>
+        <definition>IEnumerable&lt;object&gt; SQLite.SQLiteConnection.DeferredQuery</definition>
+        <argsstring>(TableMapping map, string query, params object[] args)</argsstring>
+        <name>DeferredQuery</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type>params object[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref> given the command text (SQL) with arguments. Place a &apos;?&apos; in the command text for each of the arguments and then executes that command. It returns each row of the result using the specified mapping. This function is only used by libraries in order to query the database via introspection. It is normally not used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> to use to convert the resulting rows into objects. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>query</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fully escaped SQL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arguments to substitute for the occurences of &apos;?&apos; in the query. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An enumerable with one result for each row returned by the query. The enumerator will call sqlite3_step on each call to MoveNext, so the database connection must remain open for the lifetime of the enumerator. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="753" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="753" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab44d5100216c3cdcea76e45c6f7d6246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.SQLiteConnection.Table&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>Table&lt; T &gt;</name>
+        <briefdescription>
+<para>Returns a queryable interface to the table represented by the given type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A queryable object that is able to translate Where, OrderBy, and Take queries into native SQL. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="766" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="766" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a17fdec8364635853d573e84530e1ab48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteConnection.Get&lt; T &gt;</definition>
+        <argsstring>(object pk)</argsstring>
+        <name>Get&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>pk</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to retrieve an object with the given primary key from the table associated with the specified type. Use of this method requires that the given type have a designated PrimaryKey (using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The primary key. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object with the given primary key. Throws a not found exception if the object is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="783" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="783" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a4034d4b62385b2ab7451c5404ffb5efa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteConnection.Get&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate)</argsstring>
+        <name>Get&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to retrieve the first object that matches the predicate from the table associated with the specified type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A predicate for which object to find. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object that matches the given predicate. Throws a not found exception if the object is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="800" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="800" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1adfe66fe8c304aca8575f07fc1c05d9f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteConnection.Find&lt; T &gt;</definition>
+        <argsstring>(object pk)</argsstring>
+        <name>Find&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>pk</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to retrieve an object with the given primary key from the table associated with the specified type. Use of this method requires that the given type have a designated PrimaryKey (using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The primary key. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object with the given primary key or null if the object is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="817" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="817" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a95729c5ebf5fad75631109db91e7c14b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object SQLite.SQLiteConnection.Find</definition>
+        <argsstring>(object pk, TableMapping map)</argsstring>
+        <name>Find</name>
+        <param>
+          <type>object</type>
+          <declname>pk</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to retrieve an object with the given primary key from the table associated with the specified type. Use of this method requires that the given type have a designated PrimaryKey (using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The primary key. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref> used to identify the object type. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object with the given primary key or null if the object is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="838" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="838" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1aeba2ae3cf5c1ffcb0c7eec7f8ccc64ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteConnection.Find&lt; T &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predicate)</argsstring>
+        <name>Find&lt; T &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+<para>Attempts to retrieve the first object that matches the predicate from the table associated with the specified type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>predicate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A predicate for which object to find. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The object that matches the given predicate or null if the object is not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="854" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="854" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.BeginTransaction</definition>
+        <argsstring>()</argsstring>
+        <name>BeginTransaction</name>
+        <briefdescription>
+<para>Begins a new transaction. Call <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" kindref="member">Commit</ref> to end the transaction. </para>        </briefdescription>
+        <detaileddescription>
+<para>Throws if a transaction has already begun.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="870" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="870" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.SaveTransactionPoint</definition>
+        <argsstring>()</argsstring>
+        <name>SaveTransactionPoint</name>
+        <briefdescription>
+<para>Creates a savepoint in the database at the current point in the transaction timeline. Begins a new transaction if one is not in progress. </para>        </briefdescription>
+        <detaileddescription>
+<para>Call <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a94674fbf861328e85a249dd8c14ef6ea" kindref="member">RollbackTo</ref> to undo transactions since the returned savepoint. Call <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a6813c9dd152354284ccdc96353bcfbdd" kindref="member">Release</ref> to commit transactions after the savepoint returned here. Call <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" kindref="member">Commit</ref> to end the transaction, committing all changes. </para><para><simplesect kind="return"><para>A string naming the savepoint.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="919" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="919" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a70cfe1d5799d71ce3a0a62c244bb7ea8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.Rollback</definition>
+        <argsstring>()</argsstring>
+        <name>Rollback</name>
+        <briefdescription>
+<para>Rolls back the transaction that was begun by <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref> or <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" kindref="member">SaveTransactionPoint</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="954" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="954" bodyend="957"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a94674fbf861328e85a249dd8c14ef6ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.RollbackTo</definition>
+        <argsstring>(string savepoint)</argsstring>
+        <name>RollbackTo</name>
+        <param>
+          <type>string</type>
+          <declname>savepoint</declname>
+        </param>
+        <briefdescription>
+<para>Rolls back the savepoint created by <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref> or SaveTransactionPoint. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>savepoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the savepoint to roll back to, as returned by <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" kindref="member">SaveTransactionPoint</ref>. If savepoint is null or empty, this method is equivalent to a call to <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a70cfe1d5799d71ce3a0a62c244bb7ea8" kindref="member">Rollback</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="963" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="963" bodyend="966"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a6813c9dd152354284ccdc96353bcfbdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.Release</definition>
+        <argsstring>(string savepoint)</argsstring>
+        <name>Release</name>
+        <param>
+          <type>string</type>
+          <declname>savepoint</declname>
+        </param>
+        <briefdescription>
+<para>Releases a savepoint returned from <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" kindref="member">SaveTransactionPoint</ref>. Releasing a savepoint makes changes since that savepoint permanent if the savepoint began the transaction, or otherwise the changes are permanent pending a call to <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" kindref="member">Commit</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The RELEASE command is like a COMMIT for a SAVEPOINT. </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>savepoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the savepoint to release. The string should be the result of a call to <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" kindref="member">SaveTransactionPoint</ref></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1000" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1000" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.Commit</definition>
+        <argsstring>()</argsstring>
+        <name>Commit</name>
+        <briefdescription>
+<para>Commits the transaction that was begun by <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1033" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1033" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a9132bae9e577ae479ddc6b919547759f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.RunInTransaction</definition>
+        <argsstring>(Action action)</argsstring>
+        <name>RunInTransaction</name>
+        <param>
+          <type>Action</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Executes <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>within a (possibly nested) transaction by wrapping it in a SAVEPOINT. If an exception occurs the whole transaction is rolled back, not just the current savepoint. The exception is rethrown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Action to perform within a transaction. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>can contain any number of operations on the connection but should never call <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref> or <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" kindref="member">Commit</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1051" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1051" bodyend="1061"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a920c3f7421ad1c967730228abb5915fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.InsertAll</definition>
+        <argsstring>(System.Collections.IEnumerable objects)</argsstring>
+        <name>InsertAll</name>
+        <param>
+          <type>System.Collections.IEnumerable</type>
+          <declname>objects</declname>
+        </param>
+        <briefdescription>
+<para>Inserts all specified objects. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An IEnumerable of the objects to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1072" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1072" bodyend="1081"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a62b62415941ce6486f7dfa219a69f1f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.InsertAll</definition>
+        <argsstring>(System.Collections.IEnumerable objects, string extra)</argsstring>
+        <name>InsertAll</name>
+        <param>
+          <type>System.Collections.IEnumerable</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+<para>Inserts all specified objects. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An IEnumerable of the objects to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Literal SQL code that gets placed into the command. INSERT {extra} INTO ... </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1095" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1095" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a08e03803dd01aa67ee56a8e6d184c9d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.InsertAll</definition>
+        <argsstring>(System.Collections.IEnumerable objects, Type objType)</argsstring>
+        <name>InsertAll</name>
+        <param>
+          <type>System.Collections.IEnumerable</type>
+          <declname>objects</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objType</declname>
+        </param>
+        <briefdescription>
+<para>Inserts all specified objects. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An IEnumerable of the objects to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1118" bodyend="1127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a937382b36e6726d12fe6d09f7bfb0ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Insert</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1139" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a1c16c3dda43037326b7f2afc6c822abd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.InsertOrReplace</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>InsertOrReplace</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows modified. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1160" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1160" bodyend="1166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a19576a29af1c0891a646ff3e904f2cdc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Insert</definition>
+        <argsstring>(object obj, Type objType)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objType</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1181" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1181" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a812215a88043259b6a107994756000ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.InsertOrReplace</definition>
+        <argsstring>(object obj, Type objType)</argsstring>
+        <name>InsertOrReplace</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objType</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows modified. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1202" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1202" bodyend="1205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a3ab0fde4b10c4b492b2f5f64535c6d66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Insert</definition>
+        <argsstring>(object obj, string extra)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Literal SQL code that gets placed into the command. INSERT {extra} INTO ... </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1220" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1220" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab88782cd2d5c77bb14d6a17baf7c49bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Insert</definition>
+        <argsstring>(object obj, string extra, Type objType)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objType</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given object and retrieves its auto incremented primary key if it has one. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to insert. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>extra</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Literal SQL code that gets placed into the command. INSERT {extra} INTO ... </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows added to the table. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1244" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1244" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ae4effee772569a47256bcb5f8764eabc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Update</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Updates all of the columns of a table using the specified object except for its primary key. The object is required to have a primary key. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to update. It must have a primary key designated using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows updated. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1331" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1331" bodyend="1337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab474a534faebfec1288672ef4e4f2140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Update</definition>
+        <argsstring>(object obj, Type objType)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objType</declname>
+        </param>
+        <briefdescription>
+<para>Updates all of the columns of a table using the specified object except for its primary key. The object is required to have a primary key. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to update. It must have a primary key designated using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows updated. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1353" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1353" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a1a95399fe5d61f8bbb56e36eac38d467" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.UpdateAll</definition>
+        <argsstring>(System.Collections.IEnumerable objects)</argsstring>
+        <name>UpdateAll</name>
+        <param>
+          <type>System.Collections.IEnumerable</type>
+          <declname>objects</declname>
+        </param>
+        <briefdescription>
+<para>Updates all specified objects. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objects</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An IEnumerable of the objects to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows modified. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1405" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1405" bodyend="1414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a55234164e36bc4abcb086e197f25e436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Delete</definition>
+        <argsstring>(object objectToDelete)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>object</type>
+          <declname>objectToDelete</declname>
+        </param>
+        <briefdescription>
+<para>Deletes the given object from the database using its primary key. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>objectToDelete</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The object to delete. It must have a primary key designated using the <ref refid="class_s_q_lite_1_1_primary_key_attribute" kindref="compound">PrimaryKeyAttribute</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of rows deleted. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1425" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1425" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a0d4046198236b8c96b0bf50593f592a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.Delete&lt; T &gt;</definition>
+        <argsstring>(object primaryKey)</argsstring>
+        <name>Delete&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>primaryKey</declname>
+        </param>
+        <briefdescription>
+<para>Deletes the object with the specified primary key. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>primaryKey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The primary key of the object to delete. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The number of objects deleted. </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of object. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1451" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1451" bodyend="1463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1abed406a2cd17e1e360b79924a749b67c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.DeleteAll&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAll&lt; T &gt;</name>
+        <briefdescription>
+<para>Deletes all the objects from the specified table. WARNING WARNING: Let me repeat. It deletes ALL the objects from the specified table. Do you really want to do that? </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of objects deleted. </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of objects to delete. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1476" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1476" bodyend="1484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ad9e1e281245e83dbe9c5303eaefe95f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1491" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1491" bodyend="1495"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a74160304a4a218b7508220106eeb10d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1502" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1502" bodyend="1522"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a609dd78cd1bd8236abda376aa03a4f73" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] SQLite.SQLiteConnection.GetNullTerminatedUtf8</definition>
+        <argsstring>(string s)</argsstring>
+        <name>GetNullTerminatedUtf8</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="251" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="251" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a1f5dcd511358cacdb1c3ad70a7144eab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.MigrateTable</definition>
+        <argsstring>(TableMapping map)</argsstring>
+        <name>MigrateTable</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="539" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="539" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a8f83bf9f35f63efc14426cb1b40fc1fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.RollbackTo</definition>
+        <argsstring>(string savepoint, bool noThrow)</argsstring>
+        <name>RollbackTo</name>
+        <param>
+          <type>string</type>
+          <declname>savepoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>noThrow</declname>
+        </param>
+        <briefdescription>
+<para>Rolls back the transaction that was begun by <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" kindref="member">BeginTransaction</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>noThrow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true to avoid throwing exceptions, false otherwise</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="972" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="972" bodyend="990"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a224537baed74ab1e184e3a3b63efcbf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.DoSavePointExecute</definition>
+        <argsstring>(string savepoint, string cmd)</argsstring>
+        <name>DoSavePointExecute</name>
+        <param>
+          <type>string</type>
+          <declname>savepoint</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1005" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1005" bodyend="1028"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1aef77ec2cef0f089253a123f1a2d489de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnection.~SQLiteConnection</definition>
+        <argsstring>()</argsstring>
+        <name>~SQLiteConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1486" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1486" bodyend="1489"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab0ee69f667e45af4e17abb22d70b51de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnection.OnTableChanged</definition>
+        <argsstring>(TableMapping table, NotifyTableChangedAction action)</argsstring>
+        <name>OnTableChanged</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a75ed4e953251d63b64b7660b64e2cc65" kindref="member">NotifyTableChangedAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1524" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1524" bodyend="1529"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1a7535db6cca83fcde078fa4340b32e982" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref></type>
+        <definition>virtual SQLiteCommand SQLite.SQLiteConnection.NewCommand</definition>
+        <argsstring>()</argsstring>
+        <name>NewCommand</name>
+        <briefdescription>
+<para>Creates a new <ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref>. Can be overridden to provide a sub-class. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_s_q_lite_1_1_s_q_lite_command_1a4761647a6b02f398aa1d7bbd1f090828" kindref="member">SQLiteCommand.OnInstanceCreated</ref></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="567" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="567" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1ab5e33e84b34867c48d1578d2890ff7e7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SQLite.SQLiteConnection.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1497" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1497" bodyend="1500"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents an open connection to a <ref refid="namespace_s_q_lite" kindref="compound">SQLite</ref> database. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3082">
+        <label>IDisposable</label>
+      </node>
+      <node id="3081">
+        <label>SQLite.SQLiteConnection</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection"/>
+        <childnode refid="3082" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3083">
+        <label>SQLite.SQLiteConnectionWithLock</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock"/>
+        <childnode refid="3081" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3085">
+        <label>IDisposable</label>
+      </node>
+      <node id="3084">
+        <label>SQLite.SQLiteConnection</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection"/>
+        <childnode refid="3085" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="138" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="137" bodyend="1532"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aa7ae65b1cb6162bcb62ce44640e5a8af" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_busyTimeout</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a232c223edac3b9b63aa5244323bd1019" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_elapsedMilliseconds</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a0e9f9add27611365c6c0059dd5a647f9" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_mappings</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ad7decd8e63b60c06233a36a6423048f9" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_open</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ae522365b96ed7ea4e3aa9bd35f15e8a8" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_rand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a5f7339c347b78db9d4ac045f9a48c1a8" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_sw</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abc9d98d9a71da01ecd409d6f70e26c9e" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_tables</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aba21043e43e606480eb49a37bc6032a3" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>_transactionDepth</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>BeginTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abb2b70df282aa2f1af07789db65db1dd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>BusyTimeout</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a74160304a4a218b7508220106eeb10d0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Close</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Commit</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a112ac999fccd302bda742992f044f3ee" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateCommand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a006cda01a29a2f202be1659cbf3810a8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a41bc451f0fed96a6cb79ae2d61ab3a11" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a91adc40b863214a5efc495b33ec9a351" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a30996f7f4a91d17d719ef4dd582b4cee" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a7283c295b89b54728d7201e0812ccaac" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateIndex&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abfd7ba959c93db259983427b5e7ee05a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateTable</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abc8fda93774fb74dd2f97e9549eb46b5" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>CreateTable&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a18b410ed380268c16bb9bdb47b5ad44b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DatabasePath</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab359d97e7938a573e0a565d2c46aa401" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DeferredQuery</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a334b139ead4620ad13b5e1d54e8077af" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DeferredQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a55234164e36bc4abcb086e197f25e436" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Delete</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a0d4046198236b8c96b0bf50593f592a6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Delete&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abed406a2cd17e1e360b79924a749b67c" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DeleteAll&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ad9e1e281245e83dbe9c5303eaefe95f6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab5e33e84b34867c48d1578d2890ff7e7" prot="protected" virt="virtual"><scope>SQLite::SQLiteConnection</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a224537baed74ab1e184e3a3b63efcbf8" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DoSavePointExecute</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a783032226b2db2ebd6417f21abe9cd5a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>DropTable&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ae9cb05b6c85322d73dd70688182edb01" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>EnableLoadExtension</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a5fbb3e385d21cfbee95e4a2a71a3043b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Execute</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af88acbe7da213c81875c3a35a5d61337" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>ExecuteScalar&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a95729c5ebf5fad75631109db91e7c14b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Find</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1adfe66fe8c304aca8575f07fc1c05d9f5" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Find&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aeba2ae3cf5c1ffcb0c7eec7f8ccc64ca" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Find&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a17fdec8364635853d573e84530e1ab48" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a4034d4b62385b2ab7451c5404ffb5efa" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a0c0db552a653e0797cf772706148eb41" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>GetMapping</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1adf0ed08567e1ca36e4fda72c94ede544" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>GetMapping&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a609dd78cd1bd8236abda376aa03a4f73" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>GetNullTerminatedUtf8</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a695bad5670f4d38a9aae39e4aec85329" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>GetTableInfo</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a504b348bb83df3b51fb49937db4d7804" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Handle</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a937382b36e6726d12fe6d09f7bfb0ab6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a19576a29af1c0891a646ff3e904f2cdc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a3ab0fde4b10c4b492b2f5f64535c6d66" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab88782cd2d5c77bb14d6a17baf7c49bc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a920c3f7421ad1c967730228abb5915fc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a62b62415941ce6486f7dfa219a69f1f1" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a08e03803dd01aa67ee56a8e6d184c9d9" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1c16c3dda43037326b7f2afc6c822abd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>InsertOrReplace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a812215a88043259b6a107994756000ae" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>InsertOrReplace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a9450dfedb603c08eb75f57f36db41d9b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>IsInTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1f5dcd511358cacdb1c3ad70a7144eab" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>MigrateTable</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a7535db6cca83fcde078fa4340b32e982" prot="protected" virt="virtual"><scope>SQLite::SQLiteConnection</scope><name>NewCommand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ada41a64830e77a1cdf870ae3d1416d8c" prot="package" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>NullHandle</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab0ee69f667e45af4e17abb22d70b51de" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>OnTableChanged</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aeac8a5ef1be5cfabc5bbf33f1fec01b0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Query</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ade363948abe65a6b97fe8574f943db91" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Query&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a6813c9dd152354284ccdc96353bcfbdd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Release</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a70cfe1d5799d71ce3a0a62c244bb7ea8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Rollback</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a94674fbf861328e85a249dd8c14ef6ea" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>RollbackTo</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a8f83bf9f35f63efc14426cb1b40fc1fc" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>RollbackTo</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a9132bae9e577ae479ddc6b919547759f" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>RunInTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>SaveTransactionPoint</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a21204da14d0e2a44039f3395bb4ff12d" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>SQLiteConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a5d0deb6299d3f479e53cf81899023457" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>SQLiteConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1c24728cf622f060629aac155e2afcaa" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>StoreDateTimeAsTicks</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab44d5100216c3cdcea76e45c6f7d6246" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Table&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a17fd06674a40bf6bf7630b65503eafa9" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>TableChanged</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ac0c3b1e8f8060ef9777fac08751d159e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>TableMappings</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af925b9fddec261394ab29fbbaa25d9a0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>TimeExecution</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af9e92ae222dba65b2ab761139531118a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Trace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ae4effee772569a47256bcb5f8764eabc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Update</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab474a534faebfec1288672ef4e4f2140" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>Update</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1a95399fe5d61f8bbb56e36eac38d467" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>UpdateAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aef77ec2cef0f089253a123f1a2d489de" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnection</scope><name>~SQLiteConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_items_search_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::ItemsSearchAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter&lt; Item &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_items_search_adapter_1a4c1705c685bd36ff0cbae6172e1ae4ba" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>IList&lt;Item&gt; FieldService.Android.ItemsSearchAdapter.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_items_search_adapter_1a950c3dec96d2e44c79cbacbe8e2681dc" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>IList&lt;Item&gt; FieldService.Android.ItemsSearchAdapter.non_filtered</definition>
+        <argsstring></argsstring>
+        <name>non_filtered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_items_search_adapter_1ae89e9f494e11aafac3ca6becb08c7e34" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.ItemsSearchAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_items_search_adapter_1a6374e8104b50f4a24c637404774a109b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int FieldService.Android.ItemsSearchAdapter.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_items_search_adapter_1a2cd2c0c5d4af5f6bd38f3ea0e3b892fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.ItemsSearchAdapter.ItemsSearchAdapter</definition>
+        <argsstring>(Context context, int resourceId, IList&lt; Item &gt; items)</argsstring>
+        <name>ItemsSearchAdapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>IList&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_items_search_adapter_1ac8957fbe613513ac304b4bf97061c609" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.ItemsSearchAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="42" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_items_search_adapter_1ace4d94df90aa4456eadfb810253f1e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.ItemsSearchAdapter.FilterItems</definition>
+        <argsstring>(string filter)</argsstring>
+        <name>FilterItems</name>
+        <param>
+          <type>string</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="68" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_items_search_adapter_1a8f79210676f0b7149ab3f15c733184a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref></type>
+        <definition>Item FieldService.Android.ItemsSearchAdapter.GetAssignmentItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetAssignmentItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adapter for searching through a list of items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2402">
+        <label>ArrayAdapter&lt; Item &gt;</label>
+      </node>
+      <node id="2401">
+        <label>FieldService.Android.ItemsSearchAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_items_search_adapter"/>
+        <childnode refid="2402" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2404">
+        <label>ArrayAdapter&lt; Item &gt;</label>
+      </node>
+      <node id="2403">
+        <label>FieldService.Android.ItemsSearchAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_items_search_adapter"/>
+        <childnode refid="2404" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/ItemsSearchAdapter.cs" bodystart="28" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1a6374e8104b50f4a24c637404774a109b" prot="public" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>Count</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1ace4d94df90aa4456eadfb810253f1e5e" prot="public" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>FilterItems</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1a8f79210676f0b7149ab3f15c733184a0" prot="public" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>GetAssignmentItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1ac8957fbe613513ac304b4bf97061c609" prot="public" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1a4c1705c685bd36ff0cbae6172e1ae4ba" prot="private" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1a2cd2c0c5d4af5f6bd38f3ea0e3b892fe" prot="public" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>ItemsSearchAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1a950c3dec96d2e44c79cbacbe8e2681dc" prot="private" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>non_filtered</name></member>
+      <member refid="class_field_service_1_1_android_1_1_items_search_adapter_1ae89e9f494e11aafac3ca6becb08c7e34" prot="private" virt="non-virtual"><scope>FieldService::Android::ItemsSearchAdapter</scope><name>resourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

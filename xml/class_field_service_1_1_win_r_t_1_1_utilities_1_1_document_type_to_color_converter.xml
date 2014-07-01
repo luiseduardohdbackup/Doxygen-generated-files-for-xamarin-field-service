@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::DocumentTypeToColorConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter_1ae83db1b6f60a83c33963a2fefb8b7481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.DocumentTypeToColorConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" bodystart="28" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter_1ac915023b82b5627177510e5e81fa1d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.DocumentTypeToColorConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2091">
+        <label>IValueConverter</label>
+      </node>
+      <node id="2090">
+        <label>FieldService.WinRT.Utilities.DocumentTypeToColorConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter"/>
+        <childnode refid="2091" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2093">
+        <label>IValueConverter</label>
+      </node>
+      <node id="2092">
+        <label>FieldService.WinRT.Utilities.DocumentTypeToColorConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter"/>
+        <childnode refid="2093" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/DocumentTypeToColorConverter.cs" bodystart="27" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter_1ae83db1b6f60a83c33963a2fefb8b7481" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::DocumentTypeToColorConverter</scope><name>Convert</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_document_type_to_color_converter_1ac915023b82b5627177510e5e81fa1d65" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::DocumentTypeToColorConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

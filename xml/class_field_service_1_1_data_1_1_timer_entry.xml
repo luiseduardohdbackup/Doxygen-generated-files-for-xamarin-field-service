@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_timer_entry" kind="class" prot="public">
+    <compoundname>FieldService::Data::TimerEntry</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_timer_entry_1ab9e04cf51877fe4262e32bf902341049" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.TimerEntry.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_timer_entry_1acb69cc10e714c981b493c81715c900c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.TimerEntry.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+<para>The time the entry was started </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for holding a TimeStamp to persist the timer while the app is closed </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/TimerEntry.cs" bodystart="11" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_timer_entry_1acb69cc10e714c981b493c81715c900c3" prot="public" virt="non-virtual"><scope>FieldService::Data::TimerEntry</scope><name>Date</name></member>
+      <member refid="class_field_service_1_1_data_1_1_timer_entry_1ab9e04cf51877fe4262e32bf902341049" prot="public" virt="non-virtual"><scope>FieldService::Data::TimerEntry</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

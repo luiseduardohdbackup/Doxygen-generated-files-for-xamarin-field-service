@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_3692fde4db76bf9260f4a00b43cf3e7b" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation</compoundname>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8i_o_s_8_samples_2_geolocation_2_app_delegate_8cs">AppDelegate.cs</innerfile>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8i_o_s_8_samples_2_geolocation_2_main_8cs">Main.cs</innerfile>
+    <innerfile refid="_sample_view_controller_8cs">SampleViewController.cs</innerfile>
+    <innerfile refid="_sample_view_controller_8designer_8cs">SampleViewController.designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>SQLite::Android::Sample::TabListener&lt; T &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ITabListener</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a49819f987c20a40b2b88f101fd537ada" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>T</type>
+        <definition>T SQLite.Android.Sample.TabListener&lt; T &gt;.Fragment</definition>
+        <argsstring></argsstring>
+        <name>Fragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a4d89909bc9bf7961a023adfc3c1f6d3f" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T SQLite.Android.Sample.TabListener&lt; T &gt;.fragment</definition>
+        <argsstring></argsstring>
+        <name>fragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a869cf83f24b5405c75d39fd3c00da591" prot="private" static="no" mutable="no">
+        <type>readonly Context</type>
+        <definition>readonly Context SQLite.Android.Sample.TabListener&lt; T &gt;.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a9215bd6ae76cbbb2643966a3a25d9ad1" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string SQLite.Android.Sample.TabListener&lt; T &gt;.tag</definition>
+        <argsstring></argsstring>
+        <name>tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1ac33401c5cfb831c6925b4db620e0a1dd" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string SQLite.Android.Sample.TabListener&lt; T &gt;.fragmentName</definition>
+        <argsstring></argsstring>
+        <name>fragmentName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a6dc53595826e30b53cefe742e3cb91e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.Android.Sample.TabListener&lt; T &gt;.TabListener</definition>
+        <argsstring>(Context listenerContext)</argsstring>
+        <name>TabListener</name>
+        <param>
+          <type>Context</type>
+          <declname>listenerContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a551e82a619bcb314511039c2d4164abd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.Android.Sample.TabListener&lt; T &gt;.TabListener</definition>
+        <argsstring>(Context listenerContext, string tag, T existingFragment=null)</argsstring>
+        <name>TabListener</name>
+        <param>
+          <type>Context</type>
+          <declname>listenerContext</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>existingFragment</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="20" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1ad5ef151ae7fd3d998e109313498c8d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.TabListener&lt; T &gt;.OnTabReselected</definition>
+        <argsstring>(ActionBar.Tab tab, FragmentTransaction ft)</argsstring>
+        <name>OnTabReselected</name>
+        <param>
+          <type>ActionBar.Tab</type>
+          <declname>tab</declname>
+        </param>
+        <param>
+          <type>FragmentTransaction</type>
+          <declname>ft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a0aea1f5fafbbdd3bff08ce279b749b17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.TabListener&lt; T &gt;.OnTabSelected</definition>
+        <argsstring>(ActionBar.Tab tab, FragmentTransaction ft)</argsstring>
+        <name>OnTabSelected</name>
+        <param>
+          <type>ActionBar.Tab</type>
+          <declname>tab</declname>
+        </param>
+        <param>
+          <type>FragmentTransaction</type>
+          <declname>ft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="39" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a586a4d8b8309471062fe322e6a64e106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.TabListener&lt; T &gt;.OnTabUnselected</definition>
+        <argsstring>(ActionBar.Tab tab, FragmentTransaction ft)</argsstring>
+        <name>OnTabUnselected</name>
+        <param>
+          <type>ActionBar.Tab</type>
+          <declname>tab</declname>
+        </param>
+        <param>
+          <type>FragmentTransaction</type>
+          <declname>ft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="53" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1aab29b8446ffce1d81a7307cd26b669d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SQLite.Android.Sample.TabListener&lt; T &gt;.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3260">
+        <label>SQLite.Android.Sample.TabListener&lt; T &gt;</label>
+        <link refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4"/>
+        <childnode refid="3261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3261">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="3262">
+        <label>ActionBar::ITabListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3263">
+        <label>SQLite.Android.Sample.TabListener&lt; T &gt;</label>
+        <link refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4"/>
+        <childnode refid="3264" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3264">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="3265">
+        <label>ActionBar::ITabListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/TabListener.cs" bodystart="7" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a869cf83f24b5405c75d39fd3c00da591" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>context</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1aab29b8446ffce1d81a7307cd26b669d0" prot="protected" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a4d89909bc9bf7961a023adfc3c1f6d3f" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>fragment</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a49819f987c20a40b2b88f101fd537ada" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>Fragment</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1ac33401c5cfb831c6925b4db620e0a1dd" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>fragmentName</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1ad5ef151ae7fd3d998e109313498c8d17" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>OnTabReselected</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a0aea1f5fafbbdd3bff08ce279b749b17" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>OnTabSelected</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a586a4d8b8309471062fe322e6a64e106" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>OnTabUnselected</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a6dc53595826e30b53cefe742e3cb91e4" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>TabListener</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a551e82a619bcb314511039c2d4164abd" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>TabListener</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4_1a9215bd6ae76cbbb2643966a3a25d9ad1" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::TabListener&lt; T &gt;</scope><name>tag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions" kind="class" prot="public">
+    <compoundname>FieldService::iOS::ClrWrapperExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions_1a2e8d101dbeb0e3b92e864ce4d2da3ad8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_clr_wrapper" kindref="compound">ClrWrapper</ref></type>
+        <definition>static ClrWrapper FieldService.iOS.ClrWrapperExtensions.WrapObject</definition>
+        <argsstring>(this object value)</argsstring>
+        <name>WrapObject</name>
+        <param>
+          <type>this object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Wraps the CLR object for use as an NSObject </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions_1a1a0a94276414c99f4a48bb80a29a6ca5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FieldService.iOS.ClrWrapperExtensions.UnwrapObject&lt; T &gt;</definition>
+        <argsstring>(this NSObject obj)</argsstring>
+        <name>UnwrapObject&lt; T &gt;</name>
+        <param>
+          <type>this NSObject</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Unwraps a <ref refid="class_field_service_1_1i_o_s_1_1_clr_wrapper" kindref="compound">ClrWrapper</ref> to return the underlying CLR object </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Extension methods for use in conjunction with <ref refid="class_field_service_1_1i_o_s_1_1_clr_wrapper" kindref="compound">ClrWrapper</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ClrWrapper.cs" bodystart="36" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions_1a1a0a94276414c99f4a48bb80a29a6ca5" prot="public" virt="non-virtual"><scope>FieldService::iOS::ClrWrapperExtensions</scope><name>UnwrapObject&lt; T &gt;</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_clr_wrapper_extensions_1a2e8d101dbeb0e3b92e864ce4d2da3ad8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ClrWrapperExtensions</scope><name>WrapObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::ItemsPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a56a05610d6a146546b0d95a1d91f540d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.Views.ItemsPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a8c9fd79ab4d3aaeddea9fc6c025cbdac" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>readonly ItemViewModel FieldService.WinRT.Views.ItemsPage.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1ad0052782e4bfb7bca5d4b1cffbe9aeca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.ItemsPage.ItemsPage</definition>
+        <argsstring>()</argsstring>
+        <name>ItemsPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="32" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a7407d86a1540d3d0118e2b0c31264a97" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.ItemsPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a8025b9e08ace5df384dccc88687d5a2f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.ItemsPage.OnNavigatedFrom</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedFrom</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is unloaded. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1ab1edd8bae2204727638a00d1bcae9275" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.ItemsPage.ItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>ItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a188a7fc71d94790a5dd3f8fead85bcac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.ItemsPage.Delete_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Delete_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="86" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The page for the items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2398">
+        <label>Page</label>
+      </node>
+      <node id="2397">
+        <label>FieldService.WinRT.Views.ItemsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page"/>
+        <childnode refid="2398" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2400">
+        <label>Page</label>
+      </node>
+      <node id="2399">
+        <label>FieldService.WinRT.Views.ItemsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page"/>
+        <childnode refid="2400" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ItemsPage.xaml.cs" bodystart="28" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a56a05610d6a146546b0d95a1d91f540d" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a188a7fc71d94790a5dd3f8fead85bcac" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>Delete_Click</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1ab1edd8bae2204727638a00d1bcae9275" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>ItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1ad0052782e4bfb7bca5d4b1cffbe9aeca" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>ItemsPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a8c9fd79ab4d3aaeddea9fc6c025cbdac" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a8025b9e08ace5df384dccc88687d5a2f" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>OnNavigatedFrom</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_items_page_1a7407d86a1540d3d0118e2b0c31264a97" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::ItemsPage</scope><name>OnNavigatedTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

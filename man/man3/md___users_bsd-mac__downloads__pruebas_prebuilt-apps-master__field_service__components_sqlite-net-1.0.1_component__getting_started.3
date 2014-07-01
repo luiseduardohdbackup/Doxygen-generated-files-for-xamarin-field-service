@@ -1,0 +1,76 @@
+.TH "md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_sqlite-net-1.0.1_component__getting_started" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_sqlite-net-1.0.1_component__getting_started \- GettingStarted 
+Please consult the Wiki for, ahem, \fCcomplete documentation\fP\&.
+.PP
+The library contains simple attributes that you can use to control the construction of tables\&. In a simple stock program, you might use:
+.PP
+```csharp using \fBSQLite\fP; // \&.\&.\&.
+.PP
+public class Stock { [PrimaryKey, AutoIncrement] public int Id { get; set; } [MaxLength(8)] public string Symbol { get; set; } }
+.PP
+public class Valuation { [PrimaryKey, AutoIncrement] public int Id { get; set; } [Indexed] public int StockId { get; set; } public DateTime Time { get; set; } public decimal Price { get; set; } } ```
+.PP
+Once you've defined the objects in your model you have a choice of APIs\&. You can use the 'synchronous API' where calls block one at a time, or you can use the 'asynchronous API' where calls do not block\&. You may care to use the asynchronous API for mobile applications in order to increase reponsiveness\&.
+.PP
+Both APIs are explained in the two sections below\&.
+.PP
+.SS "Synchronous API"
+.PP
+Once you have defined your entity, you can automatically generate tables in your database by calling \fCCreateTable\fP:
+.PP
+```csharp string folder = Environment\&.GetFolderPath (Environment\&.SpecialFolder\&.Personal); var conn = new SQLiteConnection (System\&.IO\&.Path\&.Combine (folder, 'stocks\&.db')); conn\&.CreateTable<Stock>(); conn\&.CreateTable<Valuation>(); ```
+.PP
+You can insert rows in the database using \fCInsert\fP\&. If the table contains an auto-incremented primary key, then the value for that key will be available to you after the insert:
+.PP
+```csharp public static void AddStock (SQLiteConnection db, string symbol) { var s = new Stock { Symbol = symbol }; db\&.Insert (s); Console\&.WriteLine ('{0} == {1}', s\&.Symbol, s\&.Id); } ```
+.PP
+Similar methods exist for \fCUpdate\fP and \fCDelete\fP\&.
+.PP
+The most straightforward way to query for data is using the \fCTable\fP method\&. This can take predicates for constraining via WHERE clauses and/or adding ORDER BY clauses:
+.PP
+```csharp var query = conn\&.Table<Stock>()\&.Where (v => v\&.Symbol\&.StartsWith('A'));
+.PP
+foreach (var stock in query) Console\&.WriteLine ('Stock: ' + stock\&.Symbol); ```
+.PP
+You can also query the database at a low-level using the \fCQuery\fP method:
+.PP
+```csharp public static IEnumerable<Valuation> QueryValuations (SQLiteConnection db, Stock stock) { return db\&.Query<Valuation> ('select * from Valuation where StockId = ?', stock\&.Id); } ```
+.PP
+The generic parameter to the \fCQuery\fP method specifies the type of object to create for each row\&. It can be one of your table classes, or any other class whose public properties match the column returned by the query\&. For instance, we could rewrite the above query as:
+.PP
+```csharp public class Val { public decimal Money { get; set; } public DateTime Date { get; set; } }
+.PP
+public static IEnumerable<Val> QueryVals (SQLiteConnection db, Stock stock) { return db\&.Query<Val> ('select 'Price' as 'Money', 'Time' as 'Date' from Valuation where StockId = ?', stock\&.Id); } ```
+.PP
+You can perform low-level updates of the database using the \fCExecute\fP method\&.
+.PP
+.SS "Asynchronous API"
+.PP
+To use the asynchronous API, you'll create a \fCSQLiteAsyncConnection\fP instead of \fCSQLiteConnection\fP\&. \fCSQLiteAsyncConnection\fP exposes asynchronous versions of the database APIs providing you with \fCTask\fP to perform continuations on\&.
+.PP
+Once you have defined your entity, you can automatically generate tables by calling \fCCreateTableAsync\fP:
+.PP
+```csharp string folder = Environment\&.GetFolderPath (Environment\&.SpecialFolder\&.Personal); var conn = new SQLiteAsyncConnection (System\&.IO\&.Path\&.Combine (folder, 'stocks\&.db')); conn\&.CreateTableAsync<Stock>()\&.ContinueWith (t => { Console\&.WriteLine ('Table created!'); }); ```
+.PP
+You can insert rows in the database using \fCInsert\fP\&. If the table contains an auto-incremented primary key, then the value for that key will be available to you after the insert:
+.PP
+```csharp Stock stock = new Stock { Symbol = 'AAPL' };
+.PP
+conn\&.InsertAsync (stock)\&.ContinueWith (t => { Console\&.WriteLine ('New customer ID: {0}', stock\&.Id); }); ```
+.PP
+Similar methods exist for \fCUpdateAsync\fP and \fCDeleteAsync\fP\&.
+.PP
+Querying for data is most straightforwardly done using the \fCTable\fP method\&. This will return an \fCAsyncTableQuery\fP instance back, whereupon you can add predictates for constraining via WHERE clauses and/or adding ORDER BY\&. The database is not physically touched until one of the special retrieval methods - \fCToListAsync\fP, \fCFirstAsync\fP, or \fCFirstOrDefaultAsync\fP - is called\&.
+.PP
+```csharp var query = conn\&.Table<Stock>()\&.Where (v => v\&.Symbol\&.StartsWith ('A'));
+.PP
+query\&.ToListAsync()\&.ContinueWith (t => { foreach (var stock in t\&.Result) Console\&.WriteLine ('Stock: ' + stock\&.Symbol); }); ```
+.PP
+There are a number of low-level methods available\&. You can also query the database directly via the \fCQueryAsync\fP method\&. Over and above the change operations provided by \fCInsertAsync\fP etc you can issue \fCExecuteAsync\fP methods to change sets of data directly within the database\&.
+.PP
+Another helpful method is \fCExecuteScalarAsync\fP\&. This allows you to return a scalar value from the database easily:
+.PP
+```csharp conn\&.ExecuteScalarAsync<int> ('select count(*) from Stock', null)\&.ContinueWith (t => { Console\&.WriteLine (string\&.Format('Found '{0}' stock items\&.', t\&.Result)); }); ``` 

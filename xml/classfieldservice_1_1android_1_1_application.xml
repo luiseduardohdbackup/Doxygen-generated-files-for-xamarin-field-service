@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_application" kind="class" prot="public">
+    <compoundname>fieldservice::android::Application</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_application_1a9c7dcb2c742cc7077ecf94716ff54445" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.Application.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_application_1a81094ea7d0cdd55be4135c5e7a48c720" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.Application.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1af1a042fb4a5d487565d938892d4b5c2c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.Application.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1a95d801ee3d2c4e143fb2eb78249bba43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.Application.Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1a7e051c769d8f493408a9c752d06b9fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.Application.onCreate</definition>
+        <argsstring>()</argsstring>
+        <name>onCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1a5feddda550408ceaba506584c28f1daf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.Application.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="31" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1a28570aa126f4492084f0b3b14ce315e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.Application.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="38" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_application_1a8c491362bcd4995377db21cd28d7e4b5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.Application.n_onCreate</definition>
+        <argsstring>()</argsstring>
+        <name>n_onCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1681">
+        <label>fieldservice.android.Application</label>
+        <link refid="classfieldservice_1_1android_1_1_application"/>
+        <childnode refid="1682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1683" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1682">
+        <label>mono::android::app::Application</label>
+      </node>
+      <node id="1683">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1687">
+        <label>String</label>
+      </node>
+      <node id="1684">
+        <label>fieldservice.android.Application</label>
+        <link refid="classfieldservice_1_1android_1_1_application"/>
+        <childnode refid="1685" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1686" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1687" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="1685">
+        <label>mono::android::app::Application</label>
+      </node>
+      <node id="1686">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/Application.java" bodystart="4" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_application_1af1a042fb4a5d487565d938892d4b5c2c" prot="package" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a9c7dcb2c742cc7077ecf94716ff54445" prot="package" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a95d801ee3d2c4e143fb2eb78249bba43" prot="public" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>Application</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a5feddda550408ceaba506584c28f1daf" prot="public" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a28570aa126f4492084f0b3b14ce315e1" prot="public" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a8c491362bcd4995377db21cd28d7e4b5" prot="private" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a7e051c769d8f493408a9c752d06b9fc0" prot="public" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_application_1a81094ea7d0cdd55be4135c5e7a48c720" prot="package" virt="non-virtual"><scope>fieldservice::android::Application</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

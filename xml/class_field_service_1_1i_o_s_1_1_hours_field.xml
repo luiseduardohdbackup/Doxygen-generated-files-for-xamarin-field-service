@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_hours_field" kind="class" prot="public">
+    <compoundname>FieldService::iOS::HoursField</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIView</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_hours_field_1a2ab1701d0a2ab1cef57a57cb4315c2c6" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.HoursField.Spacing</definition>
+        <argsstring></argsstring>
+        <name>Spacing</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_hours_field_1aab5ea874966017765218e467e07e783b" prot="private" static="no" mutable="no">
+        <type>UITextField</type>
+        <definition>UITextField FieldService.iOS.HoursField.textField</definition>
+        <argsstring></argsstring>
+        <name>textField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_hours_field_1ac1e5d30015faeb01f13a8cd0c1b46eb5" prot="private" static="no" mutable="no">
+        <type>UIStepper</type>
+        <definition>UIStepper FieldService.iOS.HoursField.stepper</definition>
+        <argsstring></argsstring>
+        <name>stepper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_hours_field_1a3b5cae99a7e98b9be64bddf5bee9e442" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FieldService.iOS.HoursField.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_hours_field_1a1b3eb8c8e2e81458356899b6857dedbc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.HoursField.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_hours_field_1a620f38523cb743ebced6cc01bc13fc74" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.HoursField.EditingDidBegin</definition>
+        <argsstring></argsstring>
+        <name>EditingDidBegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_hours_field_1a1a7138f210603946fc7a0f39470d8ab7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.HoursField.EditingDidEnd</definition>
+        <argsstring></argsstring>
+        <name>EditingDidEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_hours_field_1ac70fa977a4123616aeabfcf938ef7d52" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.HoursField.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_hours_field_1a6e425d3081b5e375bba019332a4516bb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UIColor</type>
+        <definition>UIColor FieldService.iOS.HoursField.TextColor</definition>
+        <argsstring></argsstring>
+        <name>TextColor</name>
+        <briefdescription>
+<para>Gets or sets the TextColor for the underlying UITextField </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="72" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_hours_field_1a18e5c93c4287d0a5653c391b92c540b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double FieldService.iOS.HoursField.Step</definition>
+        <argsstring></argsstring>
+        <name>Step</name>
+        <briefdescription>
+<para>Gets or sets the step at which the up/down arrows work </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_hours_field_1a4a5f0dbd5b98c259770858e31d4c7a78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.HoursField.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+<para>Gets or sets a value indicating whether this <ref refid="class_field_service_1_1i_o_s_1_1_hours_field" kindref="compound">FieldService.iOS.HoursField</ref> is enabled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_hours_field_1abae39462b0927207acb20d319bace78c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double FieldService.iOS.HoursField.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+<para>Gets or sets the hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1aa32e94b37587c04d42fee2d8cd6a5c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.HoursField.HoursField</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>HoursField</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1a93bdf6e6d852f5466906cbf82d603d84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.HoursField.HoursField</definition>
+        <argsstring>()</argsstring>
+        <name>HoursField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1a6b2059472bacae0e5f1348d342f93ff1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.HoursField.HoursField</definition>
+        <argsstring>(RectangleF frame)</argsstring>
+        <name>HoursField</name>
+        <param>
+          <type>RectangleF</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1aecf4b98f69c8a6e58b9460e0e3748543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.HoursField.BecomeFirstResponder</definition>
+        <argsstring>()</argsstring>
+        <name>BecomeFirstResponder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1aff34f627519f4766c645be0fc3e656da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.HoursField.ResignFirstResponder</definition>
+        <argsstring>()</argsstring>
+        <name>ResignFirstResponder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1a7254b8ebc13d2e879a0c3600d8833ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.HoursField.LayoutSubviews</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutSubviews</name>
+        <briefdescription>
+<para>We&apos;ve overridden this to auto-size the textField and stepper </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="161" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="161" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_hours_field_1ab96e99b0b45745299d4b617ed6c09995" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.HoursField.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+<para>Called by all constructor overloads </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="125" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="125" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Custom view for entering hours </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2304">
+        <label>UIView</label>
+      </node>
+      <node id="2303">
+        <label>FieldService.iOS.HoursField</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_hours_field"/>
+        <childnode refid="2304" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2306">
+        <label>UIView</label>
+      </node>
+      <node id="2305">
+        <label>FieldService.iOS.HoursField</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_hours_field"/>
+        <childnode refid="2306" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/HoursField.cs" bodystart="28" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1aecf4b98f69c8a6e58b9460e0e3748543" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>BecomeFirstResponder</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a620f38523cb743ebced6cc01bc13fc74" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>EditingDidBegin</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a1a7138f210603946fc7a0f39470d8ab7" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>EditingDidEnd</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a1b3eb8c8e2e81458356899b6857dedbc" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>enabled</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a4a5f0dbd5b98c259770858e31d4c7a78" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>Enabled</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1aa32e94b37587c04d42fee2d8cd6a5c8c" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>HoursField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a93bdf6e6d852f5466906cbf82d603d84" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>HoursField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a6b2059472bacae0e5f1348d342f93ff1" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>HoursField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1ab96e99b0b45745299d4b617ed6c09995" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>Initialize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a7254b8ebc13d2e879a0c3600d8833ff9" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>LayoutSubviews</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1aff34f627519f4766c645be0fc3e656da" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>ResignFirstResponder</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a2ab1701d0a2ab1cef57a57cb4315c2c6" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>Spacing</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a18e5c93c4287d0a5653c391b92c540b1" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>Step</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1ac1e5d30015faeb01f13a8cd0c1b46eb5" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>stepper</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a6e425d3081b5e375bba019332a4516bb" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>TextColor</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1aab5ea874966017765218e467e07e783b" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>textField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1a3b5cae99a7e98b9be64bddf5bee9e442" prot="private" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>value</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1abae39462b0927207acb20d319bace78c" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>Value</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_hours_field_1ac70fa977a4123616aeabfcf938ef7d52" prot="public" virt="non-virtual"><scope>FieldService::iOS::HoursField</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

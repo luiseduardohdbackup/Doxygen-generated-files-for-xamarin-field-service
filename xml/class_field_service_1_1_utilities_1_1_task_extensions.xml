@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_utilities_1_1_task_extensions" kind="class" prot="public">
+    <compoundname>FieldService::Utilities::TaskExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_task_extensions_1ad0498ed936d056561b3a339a6cc65858" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FieldService.Utilities.TaskExtensions.ContinueOnCurrentThread</definition>
+        <argsstring>(this Task task, Action&lt; Task &gt; callback)</argsstring>
+        <name>ContinueOnCurrentThread</name>
+        <param>
+          <type>this Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>Action&lt; Task &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attaches a continuation on a task on the UI Thread </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_task_extensions_1a31240af8da067018682f2fa0f5727a1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>static Task&lt;T&gt; FieldService.Utilities.TaskExtensions.ContinueOnCurrentThread&lt; T &gt;</definition>
+        <argsstring>(this Task&lt; T &gt; task, Func&lt; Task&lt; T &gt;, T &gt; callback)</argsstring>
+        <name>ContinueOnCurrentThread&lt; T &gt;</name>
+        <param>
+          <type>this Task&lt; T &gt;</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>Func&lt; Task&lt; T &gt;, T &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Attaches a continuation on a task on the UI Thread </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>callback</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_task_extensions_1abca58f37aa9b70c7dd554d074a2bcbe3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>static Task FieldService.Utilities.TaskExtensions.ContinueWith</definition>
+        <argsstring>(this Task task, Task continuation)</argsstring>
+        <name>ContinueWith</name>
+        <param>
+          <type>this Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>Task</type>
+          <declname>continuation</declname>
+        </param>
+        <briefdescription>
+<para>A quick helper to be able to chain 2 tasks together </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_task_extensions_1a624038fc55d9f748134b041a7e4f1e61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>static Task&lt;T&gt; FieldService.Utilities.TaskExtensions.ContinueWith&lt; T &gt;</definition>
+        <argsstring>(this Task task, Task&lt; T &gt; continuation)</argsstring>
+        <name>ContinueWith&lt; T &gt;</name>
+        <param>
+          <type>this Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>Task&lt; T &gt;</type>
+          <declname>continuation</declname>
+        </param>
+        <briefdescription>
+<para>A quick helper to be able to chain 2 tasks together </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class containing helper extension methods </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/TaskExtensions.cs" bodystart="26" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_utilities_1_1_task_extensions_1ad0498ed936d056561b3a339a6cc65858" prot="public" virt="non-virtual"><scope>FieldService::Utilities::TaskExtensions</scope><name>ContinueOnCurrentThread</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_task_extensions_1a31240af8da067018682f2fa0f5727a1b" prot="public" virt="non-virtual"><scope>FieldService::Utilities::TaskExtensions</scope><name>ContinueOnCurrentThread&lt; T &gt;</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_task_extensions_1abca58f37aa9b70c7dd554d074a2bcbe3" prot="public" virt="non-virtual"><scope>FieldService::Utilities::TaskExtensions</scope><name>ContinueWith</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_task_extensions_1a624038fc55d9f748134b041a7e4f1e61" prot="public" virt="non-virtual"><scope>FieldService::Utilities::TaskExtensions</scope><name>ContinueWith&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

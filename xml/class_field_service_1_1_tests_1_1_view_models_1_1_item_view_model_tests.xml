@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::ItemViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1ac566c3707ae4d6490a377f299fee643f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>ItemViewModel FieldService.Tests.ViewModels.ItemViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1ae87f58f130484ffe8c64b32e85c30421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ItemViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1aa3a0da2a33669dc7084f3f163cd6d38e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ItemViewModelTests.LoadAssignmentItems</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAssignmentItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1aa7dca65cb8d9e647d50005f29576d640" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ItemViewModelTests.LoadItems</definition>
+        <argsstring>()</argsstring>
+        <name>LoadItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1a29f062b8ce6e16cf627256e6125a2c45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ItemViewModelTests.SaveAssignmentItem</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignmentItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1a41a607e69940ae48a25f2db31202316e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ItemViewModelTests.DeleteAssignmentItem</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAssignmentItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="58" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ItemViewModelTests.cs" bodystart="13" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1a41a607e69940ae48a25f2db31202316e" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>DeleteAssignmentItem</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1aa3a0da2a33669dc7084f3f163cd6d38e" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>LoadAssignmentItems</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1aa7dca65cb8d9e647d50005f29576d640" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>LoadItems</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1a29f062b8ce6e16cf627256e6125a2c45" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>SaveAssignmentItem</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1ae87f58f130484ffe8c64b32e85c30421" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests_1ac566c3707ae4d6490a377f299fee643f" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ItemViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,745 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_table_query_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>SQLite::TableQuery&lt; T &gt;</compoundname>
+    <basecompoundref refid="class_s_q_lite_1_1_base_table_query" prot="public" virt="non-virtual">SQLite.BaseTableQuery</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEnumerable&lt; T &gt;</basecompoundref>
+    <innerclass refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1_1_compile_result" prot="private">SQLite::TableQuery&lt; T &gt;::CompileResult</innerclass>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a1bd298971d8227cb1b0b57c2260a681a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+        <definition>SQLiteConnection SQLite.TableQuery&lt; T &gt;.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2428" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a9ec80a11185abc4cc6766789d1723b4c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+        <definition>TableMapping SQLite.TableQuery&lt; T &gt;.Table</definition>
+        <argsstring></argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2430" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2430" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1adf739d72f93badc6bdebdb0091be4cf6" prot="private" static="no" mutable="no">
+        <type>Expression</type>
+        <definition>Expression SQLite.TableQuery&lt; T &gt;._where</definition>
+        <argsstring></argsstring>
+        <name>_where</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2432" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a4bce9ecc8997fe7b6ce841719c644e94" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_s_q_lite_1_1_base_table_query_1_1_ordering" kindref="compound">Ordering</ref> &gt;</type>
+        <definition>List&lt;Ordering&gt; SQLite.TableQuery&lt; T &gt;._orderBys</definition>
+        <argsstring></argsstring>
+        <name>_orderBys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2433" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a23e1c73caa70f020b74d073ba9fdc459" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SQLite.TableQuery&lt; T &gt;._limit</definition>
+        <argsstring></argsstring>
+        <name>_limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2434" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a8678a556a29006a0f7bcca098f3607f4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SQLite.TableQuery&lt; T &gt;._offset</definition>
+        <argsstring></argsstring>
+        <name>_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2435" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5137328c7154ac2cdc603ae3f467bee3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_base_table_query" kindref="compound">BaseTableQuery</ref></type>
+        <definition>BaseTableQuery SQLite.TableQuery&lt; T &gt;._joinInner</definition>
+        <argsstring></argsstring>
+        <name>_joinInner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2437" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a78e5e8ef631183d4883872db4bf4830a" prot="private" static="no" mutable="no">
+        <type>Expression</type>
+        <definition>Expression SQLite.TableQuery&lt; T &gt;._joinInnerKeySelector</definition>
+        <argsstring></argsstring>
+        <name>_joinInnerKeySelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2438" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aceb2f31d86f194d49fe874bde98a4f42" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_base_table_query" kindref="compound">BaseTableQuery</ref></type>
+        <definition>BaseTableQuery SQLite.TableQuery&lt; T &gt;._joinOuter</definition>
+        <argsstring></argsstring>
+        <name>_joinOuter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2439" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1ab219fc8fdc83ff3df91494cc69a6d910" prot="private" static="no" mutable="no">
+        <type>Expression</type>
+        <definition>Expression SQLite.TableQuery&lt; T &gt;._joinOuterKeySelector</definition>
+        <argsstring></argsstring>
+        <name>_joinOuterKeySelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2440" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a75f7571e3c54cbac2dc6e7d2b4100d11" prot="private" static="no" mutable="no">
+        <type>Expression</type>
+        <definition>Expression SQLite.TableQuery&lt; T &gt;._joinSelector</definition>
+        <argsstring></argsstring>
+        <name>_joinSelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2441" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1af0fe64e6d4f0a712147d96e2479c9f0c" prot="private" static="no" mutable="no">
+        <type>Expression</type>
+        <definition>Expression SQLite.TableQuery&lt; T &gt;._selector</definition>
+        <argsstring></argsstring>
+        <name>_selector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2443" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a0e67405990cf154d81e9ed717d0c40fa" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SQLite.TableQuery&lt; T &gt;._deferred</definition>
+        <argsstring></argsstring>
+        <name>_deferred</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2508" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2508" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1af5a7dcca14ffcb7b2527009d52214f7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.TableQuery&lt; T &gt;.TableQuery</definition>
+        <argsstring>(SQLiteConnection conn, TableMapping table)</argsstring>
+        <name>TableQuery</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2445" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2445" bodyend="2449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aa0e304964d5a3cf022d411f6a9df4818" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.AddOrderBy&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr, bool asc)</argsstring>
+        <name>AddOrderBy&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>asc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2536" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2536" bodyend="2567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a377d68dd2746a7e328acbf983fff2e84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.TableQuery&lt; T &gt;.AddWhere</definition>
+        <argsstring>(Expression pred)</argsstring>
+        <name>AddWhere</name>
+        <param>
+          <type>Expression</type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2569" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2569" bodyend="2576"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a9da303d80abc3f3314f67c2ebde3b56e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_command" kindref="compound">SQLiteCommand</ref></type>
+        <definition>SQLiteCommand SQLite.TableQuery&lt; T &gt;.GenerateCommand</definition>
+        <argsstring>(string selectionList)</argsstring>
+        <name>GenerateCommand</name>
+        <param>
+          <type>string</type>
+          <declname>selectionList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2601" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2601" bodyend="2628"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aa94a2d5a5355ff6e04464775f43254f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>CompileResult</type>
+        <definition>CompileResult SQLite.TableQuery&lt; T &gt;.CompileExpr</definition>
+        <argsstring>(Expression expr, List&lt; object &gt; queryArgs)</argsstring>
+        <name>CompileExpr</name>
+        <param>
+          <type>Expression</type>
+          <declname>expr</declname>
+        </param>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>queryArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2637" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2637" bodyend="2797"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5d6344e43e1743203aaeb4489ababe75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SQLite.TableQuery&lt; T &gt;.CompileNullBinaryExpression</definition>
+        <argsstring>(BinaryExpression expression, CompileResult parameter)</argsstring>
+        <name>CompileNullBinaryExpression</name>
+        <param>
+          <type>BinaryExpression</type>
+          <declname>expression</declname>
+        </param>
+        <param>
+          <type>CompileResult</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Compiles a BinaryExpression where one of the parameters is null. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The non-null parameter</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2815" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2815" bodyend="2823"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a76d9f9bdf48870276ba8ee975276db2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SQLite.TableQuery&lt; T &gt;.GetSqlName</definition>
+        <argsstring>(Expression expr)</argsstring>
+        <name>GetSqlName</name>
+        <param>
+          <type>Expression</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2825" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2825" bodyend="2850"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a946281dd97c25a83b088593e66a3341e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.IEnumerator System.Collections.IEnumerable.</type>
+        <definition>System.Collections.IEnumerator System.Collections.IEnumerable. SQLite.TableQuery&lt; T &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2870" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2870" bodyend="2873"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a2e3874f45af10a8c44db821c7a848aab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.TableQuery&lt; T &gt;.TableQuery</definition>
+        <argsstring>(SQLiteConnection conn)</argsstring>
+        <name>TableQuery</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2451" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2451" bodyend="2455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a744de6c9fda8bf39de015ae41c0b2cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; U &gt;</type>
+        <definition>TableQuery&lt;U&gt; SQLite.TableQuery&lt; T &gt;.Clone&lt; U &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>Clone&lt; U &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2457" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2457" bodyend="2474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aafcda8a0d85fc7708bc29cc1ae254be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.Where</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predExpr)</argsstring>
+        <name>Where</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2476" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2476" bodyend="2487"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1abc1454c5581e01ee57873a8c59101d5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.Take</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Take</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2489" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2489" bodyend="2494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a4bf49d4c603ea8a6db6d65e51bdd6458" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.Skip</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Skip</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2496" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2496" bodyend="2501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a1adf19dc2456239c4b4a900995b2794d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.TableQuery&lt; T &gt;.ElementAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ElementAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2503" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2503" bodyend="2506"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a158964fb1e56e6679ab94cf101dcc6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.Deferred</definition>
+        <argsstring>()</argsstring>
+        <name>Deferred</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2509" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2509" bodyend="2514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1ae35684d62851a521aac3419af0c565fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.OrderBy&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>OrderBy&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2516" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2516" bodyend="2519"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aacf40c5e9162c7f25ebdb78a2811aec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.OrderByDescending&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>OrderByDescending&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2521" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2521" bodyend="2524"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a8fd46c541dda61605ecdcada1684b9b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.ThenBy&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>ThenBy&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2526" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2526" bodyend="2529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a589fb8db3bbfe57b0f08aeea32e574ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.TableQuery&lt; T &gt;.ThenByDescending&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>ThenByDescending&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2531" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2531" bodyend="2534"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a292ef3b90067c4393cf377c369d942a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; TResult &gt;</type>
+        <definition>TableQuery&lt;TResult&gt; SQLite.TableQuery&lt; T &gt;.Join&lt; TInner, TKey, TResult &gt;</definition>
+        <argsstring>(TableQuery&lt; TInner &gt; inner, Expression&lt; Func&lt; T, TKey &gt;&gt; outerKeySelector, Expression&lt; Func&lt; TInner, TKey &gt;&gt; innerKeySelector, Expression&lt; Func&lt; T, TInner, TResult &gt;&gt; resultSelector)</argsstring>
+        <name>Join&lt; TInner, TKey, TResult &gt;</name>
+        <param>
+          <type>TableQuery&lt; TInner &gt;</type>
+          <declname>inner</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; T, TKey &gt;&gt;</type>
+          <declname>outerKeySelector</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; TInner, TKey &gt;&gt;</type>
+          <declname>innerKeySelector</declname>
+        </param>
+        <param>
+          <type>Expression&lt; Func&lt; T, TInner, TResult &gt;&gt;</type>
+          <declname>resultSelector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2578" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2578" bodyend="2592"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a3726c9bfa1bb9a0efa35f847a3d9d77e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TableQuery&lt; TResult &gt;</type>
+        <definition>TableQuery&lt;TResult&gt; SQLite.TableQuery&lt; T &gt;.Select&lt; TResult &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, TResult &gt;&gt; selector)</argsstring>
+        <name>Select&lt; TResult &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, TResult &gt;&gt;</type>
+          <declname>selector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2594" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2594" bodyend="2599"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1afc74d6d1b8ca720c3a26d6a0c0ca6b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.TableQuery&lt; T &gt;.Count</definition>
+        <argsstring>()</argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2852" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2852" bodyend="2855"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1abe589a906a2c592fc25587d441acca33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.TableQuery&lt; T &gt;.Count</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predExpr)</argsstring>
+        <name>Count</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2857" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2857" bodyend="2860"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a3929d540dd0a888291077626d4690202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator&lt; T &gt;</type>
+        <definition>IEnumerator&lt;T&gt; SQLite.TableQuery&lt; T &gt;.GetEnumerator</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnumerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2862" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2862" bodyend="2868"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5d9bc1e1c29e1da74671e17033f2badb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.TableQuery&lt; T &gt;.First</definition>
+        <argsstring>()</argsstring>
+        <name>First</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2875" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2875" bodyend="2879"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a517c2275d7bd055d07f0b810cb8ae179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.TableQuery&lt; T &gt;.FirstOrDefault</definition>
+        <argsstring>()</argsstring>
+        <name>FirstOrDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2881" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2881" bodyend="2885"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a58d69c4bb4ac0782b2b16b5c5a28b814" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object SQLite.TableQuery&lt; T &gt;.ConvertTo</definition>
+        <argsstring>(object obj, Type t)</argsstring>
+        <name>ConvertTo</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2799" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2799" bodyend="2809"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3203">
+        <label>BaseTableQuery</label>
+        <link refid="class_s_q_lite_1_1_base_table_query"/>
+      </node>
+      <node id="3202">
+        <label>SQLite.TableQuery&lt; T &gt;</label>
+        <link refid="class_s_q_lite_1_1_table_query_3_01_t_01_4"/>
+        <childnode refid="3203" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3204" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3204">
+        <label>IEnumerable&lt; T &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3206">
+        <label>BaseTableQuery</label>
+        <link refid="class_s_q_lite_1_1_base_table_query"/>
+      </node>
+      <node id="3205">
+        <label>SQLite.TableQuery&lt; T &gt;</label>
+        <link refid="class_s_q_lite_1_1_table_query_3_01_t_01_4"/>
+        <childnode refid="3206" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3207">
+        <label>IEnumerable&lt; T &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2427" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2426" bodyend="2886"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a0e67405990cf154d81e9ed717d0c40fa" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_deferred</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5137328c7154ac2cdc603ae3f467bee3" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_joinInner</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a78e5e8ef631183d4883872db4bf4830a" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_joinInnerKeySelector</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aceb2f31d86f194d49fe874bde98a4f42" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_joinOuter</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1ab219fc8fdc83ff3df91494cc69a6d910" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_joinOuterKeySelector</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a75f7571e3c54cbac2dc6e7d2b4100d11" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_joinSelector</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a23e1c73caa70f020b74d073ba9fdc459" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_limit</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a8678a556a29006a0f7bcca098f3607f4" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_offset</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a4bce9ecc8997fe7b6ce841719c644e94" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_orderBys</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1af0fe64e6d4f0a712147d96e2479c9f0c" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_selector</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1adf739d72f93badc6bdebdb0091be4cf6" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>_where</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aa0e304964d5a3cf022d411f6a9df4818" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>AddOrderBy&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a377d68dd2746a7e328acbf983fff2e84" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>AddWhere</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a744de6c9fda8bf39de015ae41c0b2cb3" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Clone&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aa94a2d5a5355ff6e04464775f43254f8" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>CompileExpr</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5d6344e43e1743203aaeb4489ababe75" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>CompileNullBinaryExpression</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a1bd298971d8227cb1b0b57c2260a681a" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Connection</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a58d69c4bb4ac0782b2b16b5c5a28b814" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>ConvertTo</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1afc74d6d1b8ca720c3a26d6a0c0ca6b86" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Count</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1abe589a906a2c592fc25587d441acca33" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Count</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a158964fb1e56e6679ab94cf101dcc6b3" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Deferred</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a1adf19dc2456239c4b4a900995b2794d" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>ElementAt</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a5d9bc1e1c29e1da74671e17033f2badb" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>First</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a517c2275d7bd055d07f0b810cb8ae179" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>FirstOrDefault</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a9da303d80abc3f3314f67c2ebde3b56e" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>GenerateCommand</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a3929d540dd0a888291077626d4690202" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>GetEnumerator</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a946281dd97c25a83b088593e66a3341e" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>GetEnumerator</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a76d9f9bdf48870276ba8ee975276db2e" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>GetSqlName</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a292ef3b90067c4393cf377c369d942a1" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Join&lt; TInner, TKey, TResult &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1ae35684d62851a521aac3419af0c565fb" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>OrderBy&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aacf40c5e9162c7f25ebdb78a2811aec9" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>OrderByDescending&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a3726c9bfa1bb9a0efa35f847a3d9d77e" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Select&lt; TResult &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a4bf49d4c603ea8a6db6d65e51bdd6458" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Skip</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a9ec80a11185abc4cc6766789d1723b4c" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Table</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1af5a7dcca14ffcb7b2527009d52214f7d" prot="private" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>TableQuery</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a2e3874f45af10a8c44db821c7a848aab" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>TableQuery</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1abc1454c5581e01ee57873a8c59101d5c" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Take</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a8fd46c541dda61605ecdcada1684b9b7" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>ThenBy&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1a589fb8db3bbfe57b0f08aeea32e574ee" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>ThenByDescending&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_table_query_3_01_t_01_4_1aafcda8a0d85fc7708bc29cc1ae254be5" prot="public" virt="non-virtual"><scope>SQLite::TableQuery&lt; T &gt;</scope><name>Where</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

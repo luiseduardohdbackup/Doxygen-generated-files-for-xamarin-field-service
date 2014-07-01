@@ -1,0 +1,96 @@
+.TH "SQLite.SQLiteCommand" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.SQLiteCommand \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBExecuteNonQuery\fP ()"
+.br
+.ti -1c
+.RI "IEnumerable< T > \fBExecuteDeferredQuery< T >\fP ()"
+.br
+.ti -1c
+.RI "List< T > \fBExecuteQuery< T >\fP ()"
+.br
+.ti -1c
+.RI "List< T > \fBExecuteQuery< T >\fP (\fBTableMapping\fP map)"
+.br
+.ti -1c
+.RI "IEnumerable< T > \fBExecuteDeferredQuery< T >\fP (\fBTableMapping\fP map)"
+.br
+.ti -1c
+.RI "T \fBExecuteScalar< T >\fP ()"
+.br
+.ti -1c
+.RI "void \fBBind\fP (string name, object val)"
+.br
+.ti -1c
+.RI "void \fBBind\fP (object val)"
+.br
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnInstanceCreated\fP (object obj)"
+.br
+.RI "\fIInvoked every time an instance is loaded from the database\&. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBCommandText\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "void SQLite\&.SQLiteCommand\&.Bind (stringname, objectval)"
+
+.SS "void SQLite\&.SQLiteCommand\&.Bind (objectval)"
+
+.SS "IEnumerable<T> SQLite\&.SQLiteCommand\&.ExecuteDeferredQuery< T > ()"
+
+.SS "IEnumerable<T> SQLite\&.SQLiteCommand\&.ExecuteDeferredQuery< T > (\fBTableMapping\fPmap)"
+
+.SS "int SQLite\&.SQLiteCommand\&.ExecuteNonQuery ()"
+
+.SS "List<T> SQLite\&.SQLiteCommand\&.ExecuteQuery< T > ()"
+
+.SS "List<T> SQLite\&.SQLiteCommand\&.ExecuteQuery< T > (\fBTableMapping\fPmap)"
+
+.SS "T SQLite\&.SQLiteCommand\&.ExecuteScalar< T > ()"
+
+.SS "virtual void SQLite\&.SQLiteCommand\&.OnInstanceCreated (objectobj)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Invoked every time an instance is loaded from the database\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The newly created object\&. 
+.RE
+.PP
+.PP
+This can be overridden in combination with the \fBSQLiteConnection\&.NewCommand\fP method to hook into the life-cycle of objects\&.
+.PP
+Type safety is not possible because MonoTouch does not support virtual generic methods\&. 
+.SS "override string SQLite\&.SQLiteCommand\&.ToString ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "string SQLite\&.SQLiteCommand\&.CommandText\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

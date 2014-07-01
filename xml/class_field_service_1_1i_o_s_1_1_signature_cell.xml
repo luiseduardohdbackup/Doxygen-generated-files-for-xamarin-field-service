@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_signature_cell" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SignatureCell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewCell</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_signature_cell_1ae50a5d54df3747b467d77870ce1ebd1d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+        <definition>ConfirmationController FieldService.iOS.SignatureCell.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_signature_cell_1a9eed0f580c1d00085b55e3b854f757db" prot="private" static="no" mutable="no">
+        <type>UIImage</type>
+        <definition>UIImage FieldService.iOS.SignatureCell.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_signature_cell_1abcba1d3d901c469c411495bd3282dd44" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.SignatureCell.addSignature</definition>
+        <argsstring></argsstring>
+        <name>addSignature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_signature_cell_1a0ddd50fa35b035de53b6dda9aa779e94" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.SignatureCell.signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1ad932b9c69d8823280ab69571b7e03ef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.SignatureCell.SignatureCell</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>SignatureCell</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1a74b0ecce4137a2b5fa8e8654e919ee99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SignatureCell.AwakeFromNib</definition>
+        <argsstring>()</argsstring>
+        <name>AwakeFromNib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="34" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1adc17ebea9be5da093e3b23a64bfd2d59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SignatureCell.SetSignature</definition>
+        <argsstring>(ConfirmationController controller, Assignment assignment, Data.Signature signature)</argsstring>
+        <name>SetSignature</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_signature" kindref="compound">Data.Signature</ref></type>
+          <declname>signature</declname>
+        </param>
+        <briefdescription>
+<para>Set the signature for this cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="58" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1adefab77eadf77c51fd09f48b5525c0cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.SignatureCell.AddSignature</definition>
+        <argsstring>()</argsstring>
+        <name>AddSignature</name>
+        <briefdescription>
+<para>Event for adding a signature </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="98" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1adefab77eadf77c51fd09f48b5525c0cb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.SignatureCell.AddSignature</definition>
+        <argsstring>()</argsstring>
+        <name>AddSignature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1afb9db00997d50a208af41af7bcf1c714" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.SignatureCell.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.designer.cs" bodystart="23" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_signature_cell_1a976e65b523330aa2c5bf015890593214" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.SignatureCell.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="105" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The table cell for adding signatures to an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3015">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="3014">
+        <label>FieldService.iOS.SignatureCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_signature_cell"/>
+        <childnode refid="3015" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3017">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="3016">
+        <label>FieldService.iOS.SignatureCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_signature_cell"/>
+        <childnode refid="3017" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/SignatureCell.cs" bodystart="27" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1abcba1d3d901c469c411495bd3282dd44" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>addSignature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1adefab77eadf77c51fd09f48b5525c0cb" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>AddSignature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1adefab77eadf77c51fd09f48b5525c0cb" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>AddSignature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1a74b0ecce4137a2b5fa8e8654e919ee99" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>AwakeFromNib</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1ae50a5d54df3747b467d77870ce1ebd1d" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1a976e65b523330aa2c5bf015890593214" prot="protected" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1a9eed0f580c1d00085b55e3b854f757db" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>image</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1afb9db00997d50a208af41af7bcf1c714" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1adc17ebea9be5da093e3b23a64bfd2d59" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>SetSignature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1a0ddd50fa35b035de53b6dda9aa779e94" prot="private" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>signature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_signature_cell_1ad932b9c69d8823280ab69571b7e03ef0" prot="public" virt="non-virtual"><scope>FieldService::iOS::SignatureCell</scope><name>SignatureCell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

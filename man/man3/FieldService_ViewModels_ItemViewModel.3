@@ -1,0 +1,92 @@
+.TH "FieldService.ViewModels.ItemViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.ItemViewModel \- 
+.PP
+ViewModel for working with items  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.ItemViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBItemViewModel\fP ()"
+.br
+.ti -1c
+.RI "Task \fBLoadItemsAsync\fP ()"
+.br
+.RI "\fILoads all the available items \fP"
+.ti -1c
+.RI "Task \fBLoadAssignmentItemsAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fILoads a list of items for an assignment \fP"
+.ti -1c
+.RI "Task \fBSaveAssignmentItemAsync\fP (\fBAssignment\fP assignment, \fBAssignmentItem\fP item)"
+.br
+.RI "\fISaves an assignment item \fP"
+.ti -1c
+.RI "Task \fBDeleteAssignmentItemAsync\fP (\fBAssignment\fP assignment, \fBAssignmentItem\fP item)"
+.br
+.RI "\fIDeletes an assignment item \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "List< \fBAssignmentItem\fP > \fBAssignmentItems\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of items with an assignment \fP"
+.ti -1c
+.RI "List< \fBItem\fP > \fBItems\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of items \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+ViewModel for working with items 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.ItemViewModel\&.ItemViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task FieldService\&.ViewModels\&.ItemViewModel\&.DeleteAssignmentItemAsync (\fBAssignment\fPassignment, \fBAssignmentItem\fPitem)"
+
+.PP
+Deletes an assignment item 
+.SS "Task FieldService\&.ViewModels\&.ItemViewModel\&.LoadAssignmentItemsAsync (\fBAssignment\fPassignment)"
+
+.PP
+Loads a list of items for an assignment 
+.SS "Task FieldService\&.ViewModels\&.ItemViewModel\&.LoadItemsAsync ()"
+
+.PP
+Loads all the available items 
+.SS "Task FieldService\&.ViewModels\&.ItemViewModel\&.SaveAssignmentItemAsync (\fBAssignment\fPassignment, \fBAssignmentItem\fPitem)"
+
+.PP
+Saves an assignment item 
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBAssignmentItem\fP> FieldService\&.ViewModels\&.ItemViewModel\&.AssignmentItems\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of items with an assignment 
+.SS "List<\fBItem\fP> FieldService\&.ViewModels\&.ItemViewModel\&.Items\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of items 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

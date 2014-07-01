@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_resource_1_1_style" kind="class" prot="public">
+    <compoundname>FieldService::Android::Resource::Style</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_style_1a8ed455243f47bd73840e300741db381a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Style.CustomDialogTheme</definition>
+        <argsstring></argsstring>
+        <name>CustomDialogTheme</name>
+        <initializer>= 2131099649</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1097" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1097" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_style_1a5269f996725bdb13cdf593536d44d1c8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Style.CustomHoloTheme</definition>
+        <argsstring></argsstring>
+        <name>CustomHoloTheme</name>
+        <initializer>= 2131099648</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_style_1a66234800aac2bbaf1d499ae029a484b4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Style.Mono_Android_Theme_Splash</definition>
+        <argsstring></argsstring>
+        <name>Mono_Android_Theme_Splash</name>
+        <initializer>= 2131099650</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_style_1aad2aa702d61d0fb326046bd5fe63452f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FieldService.Android.Resource.Style.Style</definition>
+        <argsstring>()</argsstring>
+        <name>Style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1105" bodyend="1108"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_style_1ad8fde9d4bc934076e96785cf3a6e289c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Resource.Style.Style</definition>
+        <argsstring>()</argsstring>
+        <name>Style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1110" bodyend="1112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="1094" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="1093" bodyend="1113"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_style_1a8ed455243f47bd73840e300741db381a" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Style</scope><name>CustomDialogTheme</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_style_1a5269f996725bdb13cdf593536d44d1c8" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Style</scope><name>CustomHoloTheme</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_style_1a66234800aac2bbaf1d499ae029a484b4" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Style</scope><name>Mono_Android_Theme_Splash</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_style_1aad2aa702d61d0fb326046bd5fe63452f" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Style</scope><name>Style</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_style_1ad8fde9d4bc934076e96785cf3a6e289c" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Style</scope><name>Style</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

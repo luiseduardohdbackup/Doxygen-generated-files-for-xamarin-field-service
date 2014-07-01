@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model" kind="class" prot="private">
+    <compoundname>FieldService::iOS::LaborTypeTextField::PickerModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIPickerViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a6d2405a2ff942aff6309ecc9541535e1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field" kindref="compound">LaborTypeTextField</ref></type>
+        <definition>readonly LaborTypeTextField FieldService.iOS.LaborTypeTextField.PickerModel.textField</definition>
+        <argsstring></argsstring>
+        <name>textField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="108" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a8f51854fccc7377df026bd071e03cfd2" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+        <definition>readonly LaborType [] FieldService.iOS.LaborTypeTextField.PickerModel.types</definition>
+        <argsstring></argsstring>
+        <name>types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a6e4405621a01b6b59f011551641ccee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LaborTypeTextField.PickerModel.PickerModel</definition>
+        <argsstring>(LaborTypeTextField textField)</argsstring>
+        <name>PickerModel</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field" kindref="compound">LaborTypeTextField</ref></type>
+          <declname>textField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="111" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a72a4189ccc9bc083011234960178b960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.LaborTypeTextField.PickerModel.GetComponentCount</definition>
+        <argsstring>(UIPickerView picker)</argsstring>
+        <name>GetComponentCount</name>
+        <param>
+          <type>UIPickerView</type>
+          <declname>picker</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="117" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1af9f6df60c65276ec1e58d870d4b10ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.LaborTypeTextField.PickerModel.GetRowsInComponent</definition>
+        <argsstring>(UIPickerView picker, int component)</argsstring>
+        <name>GetRowsInComponent</name>
+        <param>
+          <type>UIPickerView</type>
+          <declname>picker</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="122" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a552123480358eb6c518ec5c187c445e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string FieldService.iOS.LaborTypeTextField.PickerModel.GetTitle</definition>
+        <argsstring>(UIPickerView picker, int row, int component)</argsstring>
+        <name>GetTitle</name>
+        <param>
+          <type>UIPickerView</type>
+          <declname>picker</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="127" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a2f513f99fbfb5896074011e0710c8ae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LaborTypeTextField.PickerModel.Selected</definition>
+        <argsstring>(UIPickerView picker, int row, int component)</argsstring>
+        <name>Selected</name>
+        <param>
+          <type>UIPickerView</type>
+          <declname>picker</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>component</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="132" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="132" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2914">
+        <label>UIPickerViewModel</label>
+      </node>
+      <node id="2913">
+        <label>FieldService.iOS.LaborTypeTextField.PickerModel</label>
+        <childnode refid="2914" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2916">
+        <label>UIPickerViewModel</label>
+      </node>
+      <node id="2915">
+        <label>FieldService.iOS.LaborTypeTextField.PickerModel</label>
+        <childnode refid="2916" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" line="107" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborTypeTextField.cs" bodystart="106" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a72a4189ccc9bc083011234960178b960" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>GetComponentCount</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1af9f6df60c65276ec1e58d870d4b10ecc" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>GetRowsInComponent</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a552123480358eb6c518ec5c187c445e1" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>GetTitle</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a6e4405621a01b6b59f011551641ccee4" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>PickerModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a2f513f99fbfb5896074011e0710c8ae2" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>Selected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a6d2405a2ff942aff6309ecc9541535e1" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>textField</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field_1_1_picker_model_1a8f51854fccc7377df026bd071e03cfd2" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborTypeTextField::PickerModel</scope><name>types</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

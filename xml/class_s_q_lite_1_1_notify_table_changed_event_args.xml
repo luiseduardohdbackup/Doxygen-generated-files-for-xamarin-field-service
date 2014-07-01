@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_notify_table_changed_event_args" kind="class" prot="public">
+    <compoundname>SQLite::NotifyTableChangedEventArgs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EventArgs</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_notify_table_changed_event_args_1ad46678388a789010e9517a8cb1348a20" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+        <definition>TableMapping SQLite.NotifyTableChangedEventArgs.Table</definition>
+        <argsstring></argsstring>
+        <name>Table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1536" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_notify_table_changed_event_args_1a16ae425a42440111c97e1d5246f111af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_s_q_lite_1a75ed4e953251d63b64b7660b64e2cc65" kindref="member">NotifyTableChangedAction</ref></type>
+        <definition>NotifyTableChangedAction SQLite.NotifyTableChangedEventArgs.Action</definition>
+        <argsstring></argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1537" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1537" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_notify_table_changed_event_args_1a530778550d4332cd4cfcd10aa1267600" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.NotifyTableChangedEventArgs.NotifyTableChangedEventArgs</definition>
+        <argsstring>(TableMapping table, NotifyTableChangedAction action)</argsstring>
+        <name>NotifyTableChangedEventArgs</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a75ed4e953251d63b64b7660b64e2cc65" kindref="member">NotifyTableChangedAction</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1539" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1539" bodyend="1543"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2830">
+        <label>SQLite.NotifyTableChangedEventArgs</label>
+        <link refid="class_s_q_lite_1_1_notify_table_changed_event_args"/>
+        <childnode refid="2831" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2831">
+        <label>EventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2832">
+        <label>SQLite.NotifyTableChangedEventArgs</label>
+        <link refid="class_s_q_lite_1_1_notify_table_changed_event_args"/>
+        <childnode refid="2833" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2833">
+        <label>EventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1535" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1534" bodyend="1544"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_notify_table_changed_event_args_1a16ae425a42440111c97e1d5246f111af" prot="public" virt="non-virtual"><scope>SQLite::NotifyTableChangedEventArgs</scope><name>Action</name></member>
+      <member refid="class_s_q_lite_1_1_notify_table_changed_event_args_1a530778550d4332cd4cfcd10aa1267600" prot="public" virt="non-virtual"><scope>SQLite::NotifyTableChangedEventArgs</scope><name>NotifyTableChangedEventArgs</name></member>
+      <member refid="class_s_q_lite_1_1_notify_table_changed_event_args_1ad46678388a789010e9517a8cb1348a20" prot="public" virt="non-virtual"><scope>SQLite::NotifyTableChangedEventArgs</scope><name>Table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

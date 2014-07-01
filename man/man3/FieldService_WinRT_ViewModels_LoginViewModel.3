@@ -1,0 +1,86 @@
+.TH "FieldService.WinRT.ViewModels.LoginViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.LoginViewModel \- 
+.PP
+\fBWinRT\fP version of the \fBLoginViewModel\fP  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.LoginViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLoginViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBValidate\fP ()"
+.br
+.RI "\fIValidation logic \fP"
+.ti -1c
+.RI "override void \fBOnIsBusyChanged\fP ()"
+.br
+.RI "\fIOther viewmodels can override this if something should be done when busy \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBLoginCommand\fP\fC [get]\fP"
+.br
+.RI "\fILoginCommand for binding to a button \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBHelpCommand\fP\fC [get]\fP"
+.br
+.RI "\fIHelpCommand for binding to a button \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+\fBWinRT\fP version of the \fBLoginViewModel\fP 
+
+
+.IP "\(bu" 2
+We setup ICommand here 
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.LoginViewModel\&.LoginViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.LoginViewModel\&.OnIsBusyChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Other viewmodels can override this if something should be done when busy 
+.PP
+Reimplemented from \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.LoginViewModel\&.Validate ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Validation logic 
+.PP
+Reimplemented from \fBFieldService\&.ViewModels\&.LoginViewModel\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LoginViewModel\&.HelpCommand\fC [get]\fP"
+
+.PP
+HelpCommand for binding to a button 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LoginViewModel\&.LoginCommand\fC [get]\fP"
+
+.PP
+LoginCommand for binding to a button 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

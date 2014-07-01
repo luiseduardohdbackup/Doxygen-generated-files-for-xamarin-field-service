@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_5e6fcd050b04c7a0e086820d9470e12d" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master</compoundname>
+    <innerdir refid="dir_0805646289996cbb3b1183dd0e85e636">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/"/>
+  </compounddef>
+</doxygen>

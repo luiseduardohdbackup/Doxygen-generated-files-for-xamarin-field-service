@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_table_mapping" kind="class" prot="public">
+    <compoundname>SQLite::TableMapping</compoundname>
+    <innerclass refid="class_s_q_lite_1_1_table_mapping_1_1_column" prot="public">SQLite::TableMapping::Column</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1a33ac15671e4d3371a8fa2834d17fb8e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Type</type>
+        <definition>Type SQLite.TableMapping.MappedType</definition>
+        <argsstring></argsstring>
+        <name>MappedType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1672" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1aa4f8f4620985ceca6db33ab061649f29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.TableMapping.TableName</definition>
+        <argsstring></argsstring>
+        <name>TableName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1674" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1ae108c0714634387100fccf5001b73672" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref>[]</type>
+        <definition>Column [] SQLite.TableMapping.Columns</definition>
+        <argsstring></argsstring>
+        <name>Columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1676" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1a322b91d1a0085e98355a830c970aee05" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref></type>
+        <definition>Column SQLite.TableMapping.PK</definition>
+        <argsstring></argsstring>
+        <name>PK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1678" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1acf2d379f40ca0ac2cfa6204a1d50e201" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.TableMapping.GetByPrimaryKeySql</definition>
+        <argsstring></argsstring>
+        <name>GetByPrimaryKeySql</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1680" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1a93b2497900e37cb5ef4a32597934020e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.TableMapping.HasAutoIncPK</definition>
+        <argsstring></argsstring>
+        <name>HasAutoIncPK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1739" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1a07daa9501f45c3a52cd834cb65fa86a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref>[]</type>
+        <definition>Column [] SQLite.TableMapping.InsertColumns</definition>
+        <argsstring></argsstring>
+        <name>InsertColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1748" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_table_mapping_1ac88c964d9ed3ad2c6827ccfbe8765187" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref>[]</type>
+        <definition>Column [] SQLite.TableMapping.InsertOrReplaceColumns</definition>
+        <argsstring></argsstring>
+        <name>InsertOrReplaceColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1757" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1757" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_mapping_1a3629b29c2f2029b2fdf7444fb3edc0c9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref></type>
+        <definition>Column SQLite.TableMapping._autoPk</definition>
+        <argsstring></argsstring>
+        <name>_autoPk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1682" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_mapping_1a20de9b82f7922f762cf9e57635acdb79" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref>[]</type>
+        <definition>Column [] SQLite.TableMapping._insertColumns</definition>
+        <argsstring></argsstring>
+        <name>_insertColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1683" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_mapping_1aba3b32b6c8690704b20a9747b6271162" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref>[]</type>
+        <definition>Column [] SQLite.TableMapping._insertOrReplaceColumns</definition>
+        <argsstring></argsstring>
+        <name>_insertOrReplaceColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1684" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_table_mapping_1aedcc88770c8840e2dae5432e0bd83630" prot="private" static="no" mutable="no">
+        <type>ConcurrentDictionary&lt; string, <ref refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command" kindref="compound">PreparedSqlLiteInsertCommand</ref> &gt;</type>
+        <definition>ConcurrentDictionary&lt;string, PreparedSqlLiteInsertCommand&gt; SQLite.TableMapping._insertCommandMap</definition>
+        <argsstring></argsstring>
+        <name>_insertCommandMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1778" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1778" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a13e595aa07061915a33b2346497bd786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.TableMapping.TableMapping</definition>
+        <argsstring>(Type type, CreateFlags createFlags=CreateFlags.None)</argsstring>
+        <name>TableMapping</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a5ada328810363319c85c3e0c28c67479" kindref="member">CreateFlags</ref></type>
+          <declname>createFlags</declname>
+          <defval>CreateFlags.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1686" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1686" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a02f2ce7280201f572621b75e106add15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.TableMapping.SetAutoIncPK</definition>
+        <argsstring>(object obj, long id)</argsstring>
+        <name>SetAutoIncPK</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1741" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1741" bodyend="1746"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1ab71131c8ed49c2c5276a555af0d564f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref></type>
+        <definition>Column SQLite.TableMapping.FindColumnWithPropertyName</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>FindColumnWithPropertyName</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1766" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1766" bodyend="1770"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a1b6aca5cdaa9c0f8b6f5c1ecbb12affc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">Column</ref></type>
+        <definition>Column SQLite.TableMapping.FindColumn</definition>
+        <argsstring>(string columnName)</argsstring>
+        <name>FindColumn</name>
+        <param>
+          <type>string</type>
+          <declname>columnName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1772" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1772" bodyend="1776"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a858d8d3031d8fca47fbc24a0bc752177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command" kindref="compound">PreparedSqlLiteInsertCommand</ref></type>
+        <definition>PreparedSqlLiteInsertCommand SQLite.TableMapping.GetInsertCommand</definition>
+        <argsstring>(SQLiteConnection conn, string extra)</argsstring>
+        <name>GetInsertCommand</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1780" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1780" bodyend="1792"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a6c8174bc7dc3c6764408bc6e32593582" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command" kindref="compound">PreparedSqlLiteInsertCommand</ref></type>
+        <definition>PreparedSqlLiteInsertCommand SQLite.TableMapping.CreateInsertCommand</definition>
+        <argsstring>(SQLiteConnection conn, string extra)</argsstring>
+        <name>CreateInsertCommand</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extra</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1794" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1794" bodyend="1821"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_table_mapping_1a8127889cc7fbaff9233b1a6aa2057179" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.TableMapping.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1823" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1823" bodyend="1829"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1671" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1670" bodyend="1895"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a3629b29c2f2029b2fdf7444fb3edc0c9" prot="private" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>_autoPk</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a20de9b82f7922f762cf9e57635acdb79" prot="private" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>_insertColumns</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1aedcc88770c8840e2dae5432e0bd83630" prot="private" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>_insertCommandMap</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1aba3b32b6c8690704b20a9747b6271162" prot="private" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>_insertOrReplaceColumns</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1ae108c0714634387100fccf5001b73672" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>Columns</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a6c8174bc7dc3c6764408bc6e32593582" prot="private" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>CreateInsertCommand</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a8127889cc7fbaff9233b1a6aa2057179" prot="package" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a1b6aca5cdaa9c0f8b6f5c1ecbb12affc" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>FindColumn</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1ab71131c8ed49c2c5276a555af0d564f2" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>FindColumnWithPropertyName</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1acf2d379f40ca0ac2cfa6204a1d50e201" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>GetByPrimaryKeySql</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a858d8d3031d8fca47fbc24a0bc752177" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>GetInsertCommand</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a93b2497900e37cb5ef4a32597934020e" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>HasAutoIncPK</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a07daa9501f45c3a52cd834cb65fa86a2" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>InsertColumns</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1ac88c964d9ed3ad2c6827ccfbe8765187" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>InsertOrReplaceColumns</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a33ac15671e4d3371a8fa2834d17fb8e8" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>MappedType</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a322b91d1a0085e98355a830c970aee05" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>PK</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a02f2ce7280201f572621b75e106add15" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>SetAutoIncPK</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1a13e595aa07061915a33b2346497bd786" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>TableMapping</name></member>
+      <member refid="class_s_q_lite_1_1_table_mapping_1aa4f8f4620985ceca6db33ab061649f29" prot="public" virt="non-virtual"><scope>SQLite::TableMapping</scope><name>TableName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

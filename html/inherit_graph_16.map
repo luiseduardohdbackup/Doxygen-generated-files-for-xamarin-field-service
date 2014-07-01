@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog.html" title="Base dialog class, mainly for setting the CustomDialogTheme " alt="" coords="113,330,309,369"/>
+<area shape="rect" id="node3" href="$class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog.html" title="Dialog for adding labor entries " alt="" coords="371,393,567,431"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog.html" title="FieldService.Android.Dialogs.\lExpenseDialog" alt="" coords="371,142,567,181"/>
+<area shape="rect" id="node5" href="$class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog.html" title="Dialog for searching through items " alt="" coords="371,455,567,494"/>
+<area shape="rect" id="node6" href="$class_field_service_1_1_android_1_1_dialogs_1_1_photo_dialog.html" title="Dialog for the photos " alt="" coords="371,267,567,306"/>
+<area shape="rect" id="node7" href="$class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog.html" title="Dialog for capturing a signature " alt="" coords="371,330,567,369"/>
+<area shape="rect" id="node9" href="$class_field_service_1_1_android_1_1_assignments_adapter.html" title="Adapter for a list of assignments " alt="" coords="357,79,582,118"/>
+<area shape="rect" id="node11" href="$class_field_service_1_1_android_1_1_items_adapter.html" title="Adapter for a list of items " alt="" coords="379,205,560,243"/>
+<area shape="rect" id="node13" href="$class_field_service_1_1_android_1_1_labor_hours_adapter.html" title="Adapter for a list of labor entries " alt="" coords="378,7,560,46"/>
+</map>

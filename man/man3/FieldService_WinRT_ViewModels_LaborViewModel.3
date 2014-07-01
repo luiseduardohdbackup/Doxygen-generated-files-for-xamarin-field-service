@@ -1,0 +1,163 @@
+.TH "FieldService.WinRT.ViewModels.LaborViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.LaborViewModel \- 
+.PP
+\fBWinRT\fP version of the \fBLaborViewModel\fP  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.LaborViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLaborViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnPropertyChanged\fP (string propertyName)"
+.br
+.RI "\fIProtected method for firing PropertyChanged \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Popup \fBLaborPopUp\fP\fC [get]\fP"
+.br
+.RI "\fIFlyout panel for adding a labor item \fP"
+.ti -1c
+.RI "IEnumerable< \fBLabor\fP > \fBTopLaborHours\fP\fC [get]\fP"
+.br
+.RI "\fIlist of top 5 labor hour items \fP"
+.ti -1c
+.RI "string \fBAddLaborHeader\fP\fC [get, set]\fP"
+.br
+.RI "\fIheader for add labor \fP"
+.ti -1c
+.RI "bool \fBCanDelete\fP\fC [get, set]\fP"
+.br
+.RI "\fIbool value for delete visibilty \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBSaveAddLaborCommand\fP\fC [get]\fP"
+.br
+.RI "\fIsave new/edit labor item \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDeleteAddLaborCommand\fP\fC [get]\fP"
+.br
+.RI "\fIdelete the current labor item \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBCancelAddLaborCommand\fP\fC [get]\fP"
+.br
+.RI "\fIcancel labor flyout panel \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAddLaborCommand\fP\fC [get]\fP"
+.br
+.RI "\fIopen the labor flyout panel \fP"
+.ti -1c
+.RI "\fBLaborType\fP[] \fBLaborTypes\fP\fC [get]\fP"
+.br
+.RI "\fIarray of labor types for combo box \fP"
+.ti -1c
+.RI "override \fBLabor\fP \fBSelectedLabor\fP\fC [get, set]\fP"
+.br
+.RI "\fIselected labor item \fP"
+.ti -1c
+.RI "string \fBCurrentLaborHours\fP\fC [get, set]\fP"
+.br
+.RI "\fIformatted labor hours from selected labor \fP"
+.ti -1c
+.RI "bool \fBIsNotReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for not is history \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+\fBWinRT\fP version of the \fBLaborViewModel\fP 
+
+
+.IP "\(bu" 2
+We setup ICommand here 
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.LaborViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.OnPropertyChanged (stringpropertyName)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for firing PropertyChanged 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpropertyName\fP The name of the property that changed
+.RE
+.PP
+
+.PP
+Reimplemented from \fBFieldService\&.Data\&.PropertyChangedBase\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.AddLaborCommand\fC [get]\fP"
+
+.PP
+open the labor flyout panel 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.AddLaborHeader\fC [get]\fP, \fC [set]\fP"
+
+.PP
+header for add labor 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.CancelAddLaborCommand\fC [get]\fP"
+
+.PP
+cancel labor flyout panel 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.CanDelete\fC [get]\fP, \fC [set]\fP"
+
+.PP
+bool value for delete visibilty 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.CurrentLaborHours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+formatted labor hours from selected labor 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.DeleteAddLaborCommand\fC [get]\fP"
+
+.PP
+delete the current labor item 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.IsNotReadonly\fC [get]\fP"
+
+.PP
+Value for not is history 
+.SS "Popup FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.LaborPopUp\fC [get]\fP"
+
+.PP
+Flyout panel for adding a labor item 
+.SS "\fBLaborType\fP [] FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.LaborTypes\fC [get]\fP"
+
+.PP
+array of labor types for combo box 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.SaveAddLaborCommand\fC [get]\fP"
+
+.PP
+save new/edit labor item 
+.SS "override \fBLabor\fP FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.SelectedLabor\fC [get]\fP, \fC [set]\fP"
+
+.PP
+selected labor item 
+.SS "IEnumerable<\fBLabor\fP> FieldService\&.WinRT\&.ViewModels\&.LaborViewModel\&.TopLaborHours\fC [get]\fP"
+
+.PP
+list of top 5 labor hour items 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

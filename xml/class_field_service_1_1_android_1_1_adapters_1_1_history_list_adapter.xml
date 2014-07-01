@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::Adapters::HistoryListAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter&lt; AssignmentHistory &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1aae7e7263571b8d93a518ad401a3334b9" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt;</type>
+        <definition>IList&lt;AssignmentHistory&gt; FieldService.Android.Adapters.HistoryListAdapter.assignments</definition>
+        <argsstring></argsstring>
+        <name>assignments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1af82e596fffc537b11e88a6d81a9f01ad" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt;</type>
+        <definition>IList&lt;AssignmentHistory&gt; FieldService.Android.Adapters.HistoryListAdapter.non_filtered</definition>
+        <argsstring></argsstring>
+        <name>non_filtered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a45bc232c5424c1193df50ada3f847fbb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.Adapters.HistoryListAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a5eb165ed9d002384af0009445e3648ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Adapters.HistoryListAdapter.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a496b8e151dd68cf51e73decfd8eae66d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int FieldService.Android.Adapters.HistoryListAdapter.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <initializer>hh\:mm\:ss&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a8e6ddd6fd257d9e62735cd61db9ba1cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(Context context, int resourceId, List&lt; AssignmentHistory &gt; assignments)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt;</type>
+          <declname>assignments</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1aaf4f6d37ea7dcc70653e852d70dda325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Adapters.HistoryListAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="34" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1ac25dcbddede9a2ec9ff229e5f241e8d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Adapters.HistoryListAdapter.FilterItems</definition>
+        <argsstring>(string filter)</argsstring>
+        <name>FilterItems</name>
+        <param>
+          <type>string</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="90" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a00bdf7698dfe62c0da91b6f504978bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+        <definition>AssignmentHistory FieldService.Android.Adapters.HistoryListAdapter.GetAssignmentHistory</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetAssignmentHistory</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2271">
+        <label>FieldService.Android.Adapters.HistoryListAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter"/>
+        <childnode refid="2272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2272">
+        <label>ArrayAdapter&lt; AssignmentHistory &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2273">
+        <label>FieldService.Android.Adapters.HistoryListAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter"/>
+        <childnode refid="2274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2274">
+        <label>ArrayAdapter&lt; AssignmentHistory &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/HistoryListAdapter.cs" bodystart="15" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a5eb165ed9d002384af0009445e3648ac" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1aae7e7263571b8d93a518ad401a3334b9" prot="private" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>assignments</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a496b8e151dd68cf51e73decfd8eae66d" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>Count</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1ac25dcbddede9a2ec9ff229e5f241e8d2" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>FilterItems</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a00bdf7698dfe62c0da91b6f504978bfc" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>GetAssignmentHistory</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1aaf4f6d37ea7dcc70653e852d70dda325" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a8e6ddd6fd257d9e62735cd61db9ba1cf" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1af82e596fffc537b11e88a6d81a9f01ad" prot="private" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>non_filtered</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_history_list_adapter_1a45bc232c5424c1193df50ada3f847fbb" prot="private" virt="non-virtual"><scope>FieldService::Android::Adapters::HistoryListAdapter</scope><name>resourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

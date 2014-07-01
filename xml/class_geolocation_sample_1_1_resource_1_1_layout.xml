@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_resource_1_1_layout" kind="class" prot="public">
+    <compoundname>GeolocationSample::Resource::Layout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_layout_1ae0d2a23374ae123e56ce8fa4bd0abcc7" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Layout.Main</definition>
+        <argsstring></argsstring>
+        <name>Main</name>
+        <initializer>= 2130903040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_resource_1_1_layout_1a5e7b2d500021e9aedf0115648999cd4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.Resource.Layout.Layout</definition>
+        <argsstring>()</argsstring>
+        <name>Layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="92" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="92" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="86" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_layout_1a5e7b2d500021e9aedf0115648999cd4f" prot="private" virt="non-virtual"><scope>GeolocationSample::Resource::Layout</scope><name>Layout</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_layout_1ae0d2a23374ae123e56ce8fa4bd0abcc7" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Layout</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

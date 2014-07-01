@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_history_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::HistoryController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_history_controller_1_1_table_source" prot="private">FieldService::iOS::HistoryController::TableSource</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_history_controller_1a68e1720f923d4a453df292b9daf6e4d2" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_history_view_model" kindref="compound">HistoryViewModel</ref></type>
+        <definition>readonly HistoryViewModel FieldService.iOS.HistoryController.historyViewModel</definition>
+        <argsstring></argsstring>
+        <name>historyViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_history_controller_1a0cf3c5754627bbc2a78e2fe3d79415a4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.HistoryController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_history_controller_1ae9119085e038f21ade99c0a81f434d63" prot="private" static="no" mutable="no">
+        <type>UILabel</type>
+        <definition>UILabel FieldService.iOS.HistoryController.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_history_controller_1a3786fdc16c3471e8669d383de8a25fbe" prot="private" static="no" mutable="no">
+        <type>TableSource</type>
+        <definition>TableSource FieldService.iOS.HistoryController.tableSource</definition>
+        <argsstring></argsstring>
+        <name>tableSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_history_controller_1a0a9bbac259d1764adb85fa1d1eaad478" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.HistoryController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_history_controller_1ad48df772c13589d92119fc2eacd5ffa2" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITableView</type>
+        <definition>MonoTouch.UIKit.UITableView FieldService.iOS.HistoryController.tableView</definition>
+        <argsstring></argsstring>
+        <name>tableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_history_controller_1a0ed8eea2cd11ab6082cebc1f545231ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.HistoryController.HistoryController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>HistoryController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_history_controller_1ab9b6cb9f6ee31d2c82bb9ffa513dcdda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.HistoryController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="41" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_history_controller_1ae529a00dcee5fdde12ad0c2af4ce1d8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.HistoryController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_history_controller_1a0a5c5e77c9e9810e69b6057def322476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.HistoryController.ReloadHIstory</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadHIstory</name>
+        <briefdescription>
+<para>Reload history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="75" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_history_controller_1a9bdad935ff42e3770534a21329840e6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.HistoryController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.designer.cs" bodystart="20" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for the history section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2246">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2247">
+        <label>UIViewController</label>
+      </node>
+      <node id="2245">
+        <label>FieldService.iOS.HistoryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_history_controller"/>
+        <childnode refid="2246" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2249">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="2250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2250">
+        <label>UIViewController</label>
+      </node>
+      <node id="2248">
+        <label>FieldService.iOS.HistoryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_history_controller"/>
+        <childnode refid="2249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/HistoryController.cs" bodystart="28" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a0cf3c5754627bbc2a78e2fe3d79415a4" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a0ed8eea2cd11ab6082cebc1f545231ea" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>HistoryController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a68e1720f923d4a453df292b9daf6e4d2" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>historyViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::HistoryController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a9bdad935ff42e3770534a21329840e6e" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a0a5c5e77c9e9810e69b6057def322476" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>ReloadHIstory</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a3786fdc16c3471e8669d383de8a25fbe" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>tableSource</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1ad48df772c13589d92119fc2eacd5ffa2" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>tableView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1ae9119085e038f21ade99c0a81f434d63" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>title</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1a0a9bbac259d1764adb85fa1d1eaad478" prot="private" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1ab9b6cb9f6ee31d2c82bb9ffa513dcdda" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_history_controller_1ae529a00dcee5fdde12ad0c2af4ce1d8b" prot="public" virt="non-virtual"><scope>FieldService::iOS::HistoryController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

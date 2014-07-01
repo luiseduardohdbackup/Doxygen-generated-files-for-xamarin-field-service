@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_data" kind="namespace">
+    <compoundname>FieldService::Data</compoundname>
+    <innerclass refid="class_field_service_1_1_data_1_1_assignment" prot="public">FieldService::Data::Assignment</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_assignment_history" prot="public">FieldService::Data::AssignmentHistory</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_assignment_item" prot="public">FieldService::Data::AssignmentItem</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_database" prot="public">FieldService::Data::Database</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_document" prot="public">FieldService::Data::Document</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_expense" prot="public">FieldService::Data::Expense</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_expense_photo" prot="public">FieldService::Data::ExpensePhoto</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_item" prot="public">FieldService::Data::Item</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_labor" prot="public">FieldService::Data::Labor</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_photo" prot="public">FieldService::Data::Photo</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_property_changed_base" prot="public">FieldService::Data::PropertyChangedBase</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_sample_assignment_service" prot="public">FieldService::Data::SampleAssignmentService</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_sample_login_service" prot="public">FieldService::Data::SampleLoginService</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_signature" prot="public">FieldService::Data::Signature</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_test_data" prot="public">FieldService::Data::TestData</innerclass>
+    <innerclass refid="class_field_service_1_1_data_1_1_timer_entry" prot="public">FieldService::Data::TimerEntry</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263" prot="public" static="no">
+        <name>AssignmentStatus</name>
+        <enumvalue id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263a03c2e7e41ffc181a4e84080b4710e81e" prot="public">
+          <name>New</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The assignment is new, it has not been accepted yet </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263abcd8db575b47c838e5d551e3973db4ac" prot="public">
+          <name>Hold</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The assignment has been accepted, but not started </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263a4d3d769b812b6faa6b76e1a8abaece2d" prot="public">
+          <name>Active</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The user is enroute to the assignment </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263aae94f80b3ce82062a5dd7815daa04f9d" prot="public">
+          <name>Complete</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>The user completed the assignment </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263a616b5940be86c327aaa5090f50c061f5" prot="public">
+          <name>Declined</name>
+          <initializer>= 9999</initializer>
+          <briefdescription>
+<para>The assignment was declined by the user </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> status </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" bodystart="25" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" prot="public" static="no">
+        <name>LaborType</name>
+        <enumvalue id="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6a769cb50c95fd3a43c659aa73aba99e5b" prot="public">
+          <name>Hourly</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>The labor counts as standard hourly labor </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6a9afbbb6a5bfc89df3c34abd06946765f" prot="public">
+          <name>OverTime</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>The labor counts as over time </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6a3ad31d3472bf5241edd2aa17ff1375dc" prot="public">
+          <name>HolidayTime</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The labor counts as holiday time </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> types </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" bodystart="51" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" prot="public" static="no">
+        <name>ExpenseCategory</name>
+        <enumvalue id="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163a635459702f9817de29e608fa3395637c" prot="public">
+          <name>Gas</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> for gas and travel </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163a0a38e7286ebbb560354992b3ce62be67" prot="public">
+          <name>Food</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> for meals and food </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163a4fe81faeb707a537f2d4318aee43f241" prot="public">
+          <name>Supplies</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> for supplies </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163a6311ae17c1ee52b36e68aaf4ad066387" prot="public">
+          <name>Other</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Other expenses </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for <ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref> categories </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" bodystart="70" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_field_service_1_1_data_1a3f59e9016ae4f76b12fee13c8594ca72" prot="public" static="no">
+        <name>DocumentType</name>
+        <enumvalue id="namespace_field_service_1_1_data_1a3f59e9016ae4f76b12fee13c8594ca72af49498143b94e78415d06029763412b9" prot="public">
+          <name>Contract</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>A contract for the customer </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a3f59e9016ae4f76b12fee13c8594ca72ae2faf90818994741cfebee72269afb8f" prot="public">
+          <name>ServiceAgreement</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>SLA, or Service License Agreement </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1a3f59e9016ae4f76b12fee13c8594ca72ab36d2184563e1bcc51472085da9e4a72" prot="public">
+          <name>Specifications</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>A spec sheet </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for different types of Documents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" line="92" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" bodystart="92" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_field_service_1_1_data_1adab81adc38635c82c27eb6518365aa95" prot="public" static="no">
+        <name>AssignmentHistoryType</name>
+        <enumvalue id="namespace_field_service_1_1_data_1adab81adc38635c82c27eb6518365aa95af3b92fc0f97f128818cfb44321376bca" prot="public">
+          <name>Assignment</name>
+          <briefdescription>
+<para>History record represents an assignment </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_field_service_1_1_data_1adab81adc38635c82c27eb6518365aa95a4936f47a195c357f6fb0045499a229c6" prot="public">
+          <name>PhoneCall</name>
+          <briefdescription>
+<para>History record represents a phone call </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>An enumeration for different types of </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Enumerations.cs" bodystart="110" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="22" column="1"/>
+  </compounddef>
+</doxygen>

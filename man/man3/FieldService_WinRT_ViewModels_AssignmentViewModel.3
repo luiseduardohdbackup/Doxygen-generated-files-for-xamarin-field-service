@@ -1,0 +1,311 @@
+.TH "FieldService.WinRT.ViewModels.AssignmentViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.AssignmentViewModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.AssignmentViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignmentViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnIsBusyChanged\fP ()"
+.br
+.RI "\fIOther viewmodels can override this if something should be done when busy \fP"
+.ti -1c
+.RI "override void \fBOnHoursChanged\fP ()"
+.br
+.RI "\fICalled when Hours changes \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBHoursFormatted\fP\fC [get]\fP"
+.br
+.RI "\fIHours formatted for \fBWinRT\fP \fP"
+.ti -1c
+.RI "override \fBAssignment\fP \fBSelectedAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fISelected assignment \fP"
+.ti -1c
+.RI "\fBAssignment\fP \fBPreviousSelected\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBRecordCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for the record button \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBMapsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for navigating to the maps page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAssignmentMapsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for navigating to the maps page for a specific assignment \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBGoBackCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for navigating back \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBItemsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the items page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBLaborCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the labor page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBConfirmationsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the confirmations page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBCancelAddSignatureCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for cancel the add signature flyout\&. \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAddSignatureCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for opening signature flyout\&. \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBExpensesCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the expenses page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDocumentsCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the documents page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBHistoryCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for going to the documents page \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAcceptAssignmentCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for accepting assignments \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDeclineAssignmentCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for declining assignments \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBGoBackHistoryCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for navigating back from history screen \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBCompleteCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand for navigating back from history screen \fP"
+.ti -1c
+.RI "bool \fBIsNew\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing accept/decline \fP"
+.ti -1c
+.RI "bool \fBIsNotNew\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing combo box \fP"
+.ti -1c
+.RI "bool \fBIsTimerVisible\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing timer control \fP"
+.ti -1c
+.RI "bool \fBIsComplete\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing complete checkmark \fP"
+.ti -1c
+.RI "string \fBIsCompleteText\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing complete text \fP"
+.ti -1c
+.RI "bool \fBIsNotReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for not readonly \fP"
+.ti -1c
+.RI "bool \fBIsReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for readonly \fP"
+.ti -1c
+.RI "SolidColorBrush \fBIsCompleteColor\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing correct brush color \fP"
+.ti -1c
+.RI "SolidColorBrush \fBIsCompleteBottomColor\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing correct brush color \fP"
+.ti -1c
+.RI "BitmapImage \fBBackgroundImage\fP\fC [get]\fP"
+.br
+.RI "\fIvalue for showing background image \fP"
+.ti -1c
+.RI "string \fBAssignmentTitle\fP\fC [get]\fP"
+.br
+.RI "\fIValue for changing assignment title based on is history \fP"
+.ti -1c
+.RI "Popup \fBSignaturePopUp\fP\fC [get]\fP"
+.br
+.RI "\fIsignature pop up \fP"
+.ti -1c
+.RI "string \fBTotalAccumulated\fP\fC [get]\fP"
+.br
+.RI "\fIValue for showing total accumulated time \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.AssignmentViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.OnHoursChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Called when Hours changes 
+.PP
+Reimplemented from \fBFieldService\&.ViewModels\&.AssignmentViewModel\fP\&.
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.OnIsBusyChanged ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Other viewmodels can override this if something should be done when busy 
+.PP
+Reimplemented from \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.AcceptAssignmentCommand\fC [get]\fP"
+
+.PP
+Command for accepting assignments 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.AddSignatureCommand\fC [get]\fP"
+
+.PP
+Command for opening signature flyout\&. 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.AssignmentMapsCommand\fC [get]\fP"
+
+.PP
+Command for navigating to the maps page for a specific assignment 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.AssignmentTitle\fC [get]\fP"
+
+.PP
+Value for changing assignment title based on is history 
+.SS "BitmapImage FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.BackgroundImage\fC [get]\fP"
+
+.PP
+value for showing background image 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.CancelAddSignatureCommand\fC [get]\fP"
+
+.PP
+Command for cancel the add signature flyout\&. 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.CompleteCommand\fC [get]\fP"
+
+.PP
+Command for navigating back from history screen 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.ConfirmationsCommand\fC [get]\fP"
+
+.PP
+Command for going to the confirmations page 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.DeclineAssignmentCommand\fC [get]\fP"
+
+.PP
+Command for declining assignments 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.DocumentsCommand\fC [get]\fP"
+
+.PP
+Command for going to the documents page 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.ExpensesCommand\fC [get]\fP"
+
+.PP
+Command for going to the expenses page 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.GoBackCommand\fC [get]\fP"
+
+.PP
+Command for navigating back 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.GoBackHistoryCommand\fC [get]\fP"
+
+.PP
+Command for navigating back from history screen 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.HistoryCommand\fC [get]\fP"
+
+.PP
+Command for going to the documents page 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.HoursFormatted\fC [get]\fP"
+
+.PP
+Hours formatted for \fBWinRT\fP 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsComplete\fC [get]\fP"
+
+.PP
+Value for showing complete checkmark 
+.SS "SolidColorBrush FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsCompleteBottomColor\fC [get]\fP"
+
+.PP
+Value for showing correct brush color 
+.SS "SolidColorBrush FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsCompleteColor\fC [get]\fP"
+
+.PP
+Value for showing correct brush color 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsCompleteText\fC [get]\fP"
+
+.PP
+Value for showing complete text 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsNew\fC [get]\fP"
+
+.PP
+Value for showing accept/decline 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsNotNew\fC [get]\fP"
+
+.PP
+Value for showing combo box 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsNotReadonly\fC [get]\fP"
+
+.PP
+Value for not readonly 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsReadonly\fC [get]\fP"
+
+.PP
+Value for readonly 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.IsTimerVisible\fC [get]\fP"
+
+.PP
+Value for showing timer control 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.ItemsCommand\fC [get]\fP"
+
+.PP
+Command for going to the items page 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.LaborCommand\fC [get]\fP"
+
+.PP
+Command for going to the labor page 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.MapsCommand\fC [get]\fP"
+
+.PP
+Command for navigating to the maps page 
+.SS "\fBAssignment\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.PreviousSelected\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.RecordCommand\fC [get]\fP"
+
+.PP
+Command for the record button 
+.SS "override \fBAssignment\fP FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.SelectedAssignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Selected assignment 
+.SS "Popup FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.SignaturePopUp\fC [get]\fP"
+
+.PP
+signature pop up 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.AssignmentViewModel\&.TotalAccumulated\fC [get]\fP"
+
+.PP
+Value for showing total accumulated time 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

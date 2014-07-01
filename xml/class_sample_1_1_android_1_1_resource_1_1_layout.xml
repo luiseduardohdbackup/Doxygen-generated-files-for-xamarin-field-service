@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_resource_1_1_layout" kind="class" prot="public">
+    <compoundname>Sample::Android::Resource::Layout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_layout_1a06b925b5af27f1787b57055d7ac2889d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.Layout.Main</definition>
+        <argsstring></argsstring>
+        <name>Main</name>
+        <initializer>= 2130903040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1_1_layout_1acf939f7c1cec848b16fb477c1630f52a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.Android.Resource.Layout.Layout</definition>
+        <argsstring>()</argsstring>
+        <name>Layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="73" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="67" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_layout_1acf939f7c1cec848b16fb477c1630f52a" prot="private" virt="non-virtual"><scope>Sample::Android::Resource::Layout</scope><name>Layout</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_layout_1a06b925b5af27f1787b57055d7ac2889d" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::Layout</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

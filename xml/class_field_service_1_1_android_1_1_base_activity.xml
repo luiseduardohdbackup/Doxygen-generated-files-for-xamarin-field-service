@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_base_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::BaseActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_assignments_activity" prot="public" virt="non-virtual">FieldService.Android.AssignmentsActivity</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_assignment_tab_activity" prot="public" virt="non-virtual">FieldService.Android.AssignmentTabActivity</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_android_1_1_summary_activity" prot="public" virt="non-virtual">FieldService.Android.SummaryActivity</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_base_activity_1a22a47900a7aff303cd53859639cd366a" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.Android.BaseActivity.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <initializer>= ServiceContainer.Resolve&lt;<ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref>&gt; ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_base_activity_1af542e4692d0b1aa3ad174ed5854492e4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.BaseActivity.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_base_activity_1af7b6873bc81ed12458b1a935555b187d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.BaseActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" bodystart="29" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base activity for all activities, handles global OnPause/OnResume </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1865">
+        <label>Activity</label>
+      </node>
+      <node id="1867">
+        <label>FieldService.Android.AssignmentTabActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignment_tab_activity"/>
+        <childnode refid="1864" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1868">
+        <label>FieldService.Android.SummaryActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_summary_activity"/>
+        <childnode refid="1864" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1864">
+        <label>FieldService.Android.BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1865" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1866">
+        <label>FieldService.Android.AssignmentsActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignments_activity"/>
+        <childnode refid="1864" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1870">
+        <label>Activity</label>
+      </node>
+      <node id="1869">
+        <label>FieldService.Android.BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1870" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/BaseActivity.cs" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_base_activity_1a22a47900a7aff303cd53859639cd366a" prot="private" virt="non-virtual"><scope>FieldService::Android::BaseActivity</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_activity_1af542e4692d0b1aa3ad174ed5854492e4" prot="protected" virt="non-virtual"><scope>FieldService::Android::BaseActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_activity_1af7b6873bc81ed12458b1a935555b187d" prot="protected" virt="non-virtual"><scope>FieldService::Android::BaseActivity</scope><name>OnResume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

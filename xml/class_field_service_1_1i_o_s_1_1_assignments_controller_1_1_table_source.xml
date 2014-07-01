@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::AssignmentsController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a557c9a4822fddb5c3a468eb25b8f308c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_assignments_controller" kindref="compound">AssignmentsController</ref></type>
+        <definition>readonly AssignmentsController FieldService.iOS.AssignmentsController.TableSource.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="401" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a9ba9a31ab3beb80b5f0a93e1e00021ad" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.AssignmentsController.TableSource.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="402" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a5d40d7eb125d6d3e23374f9283b3e799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AssignmentsController.TableSource.TableSource</definition>
+        <argsstring>(AssignmentsController controller)</argsstring>
+        <name>TableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_assignments_controller" kindref="compound">AssignmentsController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="404" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="404" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a4a7521793667df11aa7dea3aea45057b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AssignmentsController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableView, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="410" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="410" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1af45577127da187647bdee1ac53576e02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.AssignmentsController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="415" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="415" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a0a38653fdd9c4e14b2248c25bf7ba6fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentsController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="423" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="423" bodyend="429"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_data" kindref="compound">Data</ref> source for the tableView of assignments </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3217">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3216">
+        <label>FieldService.iOS.AssignmentsController.TableSource</label>
+        <childnode refid="3217" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3219">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3218">
+        <label>FieldService.iOS.AssignmentsController.TableSource</label>
+        <childnode refid="3219" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" line="400" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentsController.cs" bodystart="399" bodyend="430"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a9ba9a31ab3beb80b5f0a93e1e00021ad" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a557c9a4822fddb5c3a468eb25b8f308c" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1af45577127da187647bdee1ac53576e02" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a0a38653fdd9c4e14b2248c25bf7ba6fa" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a4a7521793667df11aa7dea3aea45057b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignments_controller_1_1_table_source_1a5d40d7eb125d6d3e23374f9283b3e799" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentsController::TableSource</scope><name>TableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

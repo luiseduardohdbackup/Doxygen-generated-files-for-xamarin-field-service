@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_resource_1_1_string" kind="class" prot="public">
+    <compoundname>MediaPickerSample::Resource::String</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_resource_1_1_string_1a56f243f11b9d028d0c7e1844ac735548" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int MediaPickerSample.Resource.String.ApplicationName</definition>
+        <argsstring></argsstring>
+        <name>ApplicationName</name>
+        <initializer>= 2130968577</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_resource_1_1_string_1acdee215e3942f40549243c73ee38475c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int MediaPickerSample.Resource.String.Hello</definition>
+        <argsstring></argsstring>
+        <name>Hello</name>
+        <initializer>= 2130968576</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="89" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_resource_1_1_string_1af226700d02adc645985f2d1d864de8de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaPickerSample.Resource.String.String</definition>
+        <argsstring>()</argsstring>
+        <name>String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="91" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="83" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="82" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_resource_1_1_string_1a56f243f11b9d028d0c7e1844ac735548" prot="public" virt="non-virtual"><scope>MediaPickerSample::Resource::String</scope><name>ApplicationName</name></member>
+      <member refid="class_media_picker_sample_1_1_resource_1_1_string_1acdee215e3942f40549243c73ee38475c" prot="public" virt="non-virtual"><scope>MediaPickerSample::Resource::String</scope><name>Hello</name></member>
+      <member refid="class_media_picker_sample_1_1_resource_1_1_string_1af226700d02adc645985f2d1d864de8de" prot="private" virt="non-virtual"><scope>MediaPickerSample::Resource::String</scope><name>String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_60d9c0c1865d1920e3c19c26280ff2e0" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin</compoundname>
+    <innerdir refid="dir_4945f338967b1019e548898f4a9000f0">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/geolocation</innerdir>
+    <innerdir refid="dir_97dd7f5847393fc1ab391e3534226c2c">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/media</innerdir>
+    <innerfile refid="_async_query__1_8java">AsyncQuery_1.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/"/>
+  </compounddef>
+</doxygen>

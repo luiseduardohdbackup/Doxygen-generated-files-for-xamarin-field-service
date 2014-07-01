@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_android_1_1_fragments" kind="namespace">
+    <compoundname>FieldService::Android::Fragments</compoundname>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment" prot="public">FieldService::Android::Fragments::ConfirmationFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment" prot="public">FieldService::Android::Fragments::DocumentFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_expense_fragment" prot="public">FieldService::Android::Fragments::ExpenseFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment" prot="public">FieldService::Android::Fragments::HistoryFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment" prot="public">FieldService::Android::Fragments::ItemFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment" prot="public">FieldService::Android::Fragments::LaborHourFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_map_fragment" prot="public">FieldService::Android::Fragments::MapFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment" prot="public">FieldService::Android::Fragments::NavigationFragment</innerclass>
+    <innerclass refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment" prot="public">FieldService::Android::Fragments::SummaryFragment</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="33" column="1"/>
+  </compounddef>
+</doxygen>

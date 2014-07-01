@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_93837072420dd21fe3d18a8481b25261" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS</compoundname>
+    <innerdir refid="dir_4920755fec7524ba6a7c567f954b5081">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Controllers</innerdir>
+    <innerdir refid="dir_3c3cc0b144d1a254f8ed524b35de0e32">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/Views</innerdir>
+    <innerfile refid="_components_2signature-pad-1_82_2samples_2_sample_8i_o_s_2_app_delegate_8cs">AppDelegate.cs</innerfile>
+    <innerfile refid="_components_2signature-pad-1_82_2samples_2_sample_8i_o_s_2_main_8cs">Main.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.iOS/"/>
+  </compounddef>
+</doxygen>

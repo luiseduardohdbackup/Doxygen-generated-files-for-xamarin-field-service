@@ -1,0 +1,84 @@
+.TH "FieldService.ViewModels.PhotoViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.PhotoViewModel \- 
+.PP
+ViewModel for working with photos  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPhotoViewModel\fP ()"
+.br
+.ti -1c
+.RI "Task \fBLoadPhotosAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fILoads all the photos for an assignment \fP"
+.ti -1c
+.RI "Task \fBSavePhotoAsync\fP (\fBAssignment\fP assignment, \fBPhoto\fP photo)"
+.br
+.RI "\fISaves a photo \fP"
+.ti -1c
+.RI "Task \fBDeletePhotoAsync\fP (\fBAssignment\fP assignment, \fBPhoto\fP photo)"
+.br
+.RI "\fIDeletes a photo \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "List< \fBPhoto\fP > \fBPhotos\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of photos for an assignment \fP"
+.ti -1c
+.RI "virtual \fBPhoto\fP \fBSelectedPhoto\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe selected photo for use within the app \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+ViewModel for working with photos 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.PhotoViewModel\&.PhotoViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task FieldService\&.ViewModels\&.PhotoViewModel\&.DeletePhotoAsync (\fBAssignment\fPassignment, \fBPhoto\fPphoto)"
+
+.PP
+Deletes a photo 
+.SS "Task FieldService\&.ViewModels\&.PhotoViewModel\&.LoadPhotosAsync (\fBAssignment\fPassignment)"
+
+.PP
+Loads all the photos for an assignment 
+.SS "Task FieldService\&.ViewModels\&.PhotoViewModel\&.SavePhotoAsync (\fBAssignment\fPassignment, \fBPhoto\fPphoto)"
+
+.PP
+Saves a photo 
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBPhoto\fP> FieldService\&.ViewModels\&.PhotoViewModel\&.Photos\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of photos for an assignment 
+.SS "virtual \fBPhoto\fP FieldService\&.ViewModels\&.PhotoViewModel\&.SelectedPhoto\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The selected photo for use within the app 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

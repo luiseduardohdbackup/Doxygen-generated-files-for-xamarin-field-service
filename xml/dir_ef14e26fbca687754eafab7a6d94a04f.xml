@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_ef14e26fbca687754eafab7a6d94a04f" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android</compoundname>
+    <innerdir refid="dir_2920ed01d96ba4bfdb40f4eb278929e6">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities</innerdir>
+    <innerdir refid="dir_be5b53e43fb7f6a264558e54a42fc833">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters</innerdir>
+    <innerdir refid="dir_5ac8b7943a27093e19315d86193f084d">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs</innerdir>
+    <innerdir refid="dir_31f6616915fb4c4c8874eed2e486db46">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments</innerdir>
+    <innerdir refid="dir_863e77037942254e70e993ad2df1b864">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj</innerdir>
+    <innerdir refid="dir_b4ee2237fc2eebaf226594e5fb8bae71">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Properties</innerdir>
+    <innerdir refid="dir_48bd4b94b76490346655eddd591d77f7">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources</innerdir>
+    <innerdir refid="dir_03a86bac0e43ef3960527a7a9c0dd48e">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities</innerdir>
+    <innerfile refid="_application_8cs">Application.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/"/>
+  </compounddef>
+</doxygen>

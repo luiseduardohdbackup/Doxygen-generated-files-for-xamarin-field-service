@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_labor_cell" kind="class" prot="public">
+    <compoundname>FieldService::iOS::LaborCell</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewCell</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_labor_cell_1abf8581fe4b41bea6f3b66fc88f1f55a8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.LaborCell.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_labor_cell_1a49e6a15085e89bebdc705f7f3c3381e1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.LaborCell.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_labor_cell_1a2e045089df635be93ecb87434da3791d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.LaborCell.hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1a3043bd55fb20d32154f54f906a1bf511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.LaborCell.LaborCell</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>LaborCell</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1ae5aefbbbaa447e39ed74e80158da098a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LaborCell.SetLabor</definition>
+        <argsstring>(Labor labor)</argsstring>
+        <name>SetLabor</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <briefdescription>
+<para>Sets the labor hours on this cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1a0f7f9c7185b227abb57e7ada3efeedd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LaborCell.WillTransitionToState</definition>
+        <argsstring>(UITableViewCellState mask)</argsstring>
+        <name>WillTransitionToState</name>
+        <param>
+          <type>UITableViewCellState</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="55" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1aebf13bf5da19cc87251d2d802d4cd88d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LaborCell.DidTransitionToState</definition>
+        <argsstring>(UITableViewCellState mask)</argsstring>
+        <name>DidTransitionToState</name>
+        <param>
+          <type>UITableViewCellState</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="66" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1a283e96868bfd7b1ad89fd1c54f1fdcd1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.LaborCell.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_labor_cell_1ad03c9d11b2ccea5c5d2ef29190c6ee0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.LaborCell.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.designer.cs" bodystart="23" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table cell for labor hours </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2442">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="2441">
+        <label>FieldService.iOS.LaborCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_labor_cell"/>
+        <childnode refid="2442" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2444">
+        <label>UITableViewCell</label>
+      </node>
+      <node id="2443">
+        <label>FieldService.iOS.LaborCell</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_labor_cell"/>
+        <childnode refid="2444" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/LaborCell.cs" bodystart="27" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1a49e6a15085e89bebdc705f7f3c3381e1" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>description</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1aebf13bf5da19cc87251d2d802d4cd88d" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>DidTransitionToState</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1a283e96868bfd7b1ad89fd1c54f1fdcd1" prot="protected" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1a2e045089df635be93ecb87434da3791d" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>hours</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1a3043bd55fb20d32154f54f906a1bf511" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>LaborCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1ad03c9d11b2ccea5c5d2ef29190c6ee0e" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1ae5aefbbbaa447e39ed74e80158da098a" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>SetLabor</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1abf8581fe4b41bea6f3b66fc88f1f55a8" prot="private" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>type</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_labor_cell_1a0f7f9c7185b227abb57e7ada3efeedd8" prot="public" virt="non-virtual"><scope>FieldService::iOS::LaborCell</scope><name>WillTransitionToState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

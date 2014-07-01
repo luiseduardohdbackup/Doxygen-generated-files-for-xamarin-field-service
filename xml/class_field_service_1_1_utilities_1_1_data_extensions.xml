@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_utilities_1_1_data_extensions" kind="class" prot="public">
+    <compoundname>FieldService::Utilities::DataExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_data_extensions_1af63ba3bcc167f21dee7267d4a6918c6a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FieldService.Utilities.DataExtensions.ToUserString</definition>
+        <argsstring>(this LaborType type)</argsstring>
+        <name>ToUserString</name>
+        <param>
+          <type>this <ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" bodystart="21" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_data_extensions_1a0186780b3aa2aeee332fb52b8cca0bd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double FieldService.Utilities.DataExtensions.ToDouble</definition>
+        <argsstring>(this string text, IFormatProvider provider)</argsstring>
+        <name>ToDouble</name>
+        <param>
+          <type>this string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>IFormatProvider</type>
+          <declname>provider</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to safely convert a string to a double </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_data_extensions_1a41f0ad35628c976efff5e435497c4f46" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>static decimal FieldService.Utilities.DataExtensions.ToDecimal</definition>
+        <argsstring>(this string text, IFormatProvider provider)</argsstring>
+        <name>ToDecimal</name>
+        <param>
+          <type>this string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>IFormatProvider</type>
+          <declname>provider</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to safely convert a string to a decimal </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_utilities_1_1_data_extensions_1a22bfb11a230aa11a2744e177d8fe81ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FieldService.Utilities.DataExtensions.ToInt</definition>
+        <argsstring>(this string text, IFormatProvider provider)</argsstring>
+        <name>ToInt</name>
+        <param>
+          <type>this string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>IFormatProvider</type>
+          <declname>provider</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to safely convert a string to a int </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities/DataExtensions.cs" bodystart="20" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_utilities_1_1_data_extensions_1a41f0ad35628c976efff5e435497c4f46" prot="public" virt="non-virtual"><scope>FieldService::Utilities::DataExtensions</scope><name>ToDecimal</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_data_extensions_1a0186780b3aa2aeee332fb52b8cca0bd6" prot="public" virt="non-virtual"><scope>FieldService::Utilities::DataExtensions</scope><name>ToDouble</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_data_extensions_1a22bfb11a230aa11a2744e177d8fe81ef" prot="public" virt="non-virtual"><scope>FieldService::Utilities::DataExtensions</scope><name>ToInt</name></member>
+      <member refid="class_field_service_1_1_utilities_1_1_data_extensions_1af63ba3bcc167f21dee7267d4a6918c6a" prot="public" virt="non-virtual"><scope>FieldService::Utilities::DataExtensions</scope><name>ToUserString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

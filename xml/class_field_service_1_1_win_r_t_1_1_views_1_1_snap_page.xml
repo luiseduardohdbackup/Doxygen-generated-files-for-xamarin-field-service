@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::SnapPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page_1adb63b6aaf5600915e550547a049aac72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.SnapPage.SnapPage</definition>
+        <argsstring>()</argsstring>
+        <name>SnapPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page_1ad59c8d31c477174d2b647ad21735ef41" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.SnapPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" bodystart="43" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The page for when the app is in snap mode </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3049">
+        <label>Page</label>
+      </node>
+      <node id="3048">
+        <label>FieldService.WinRT.Views.SnapPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page"/>
+        <childnode refid="3049" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3051">
+        <label>Page</label>
+      </node>
+      <node id="3050">
+        <label>FieldService.WinRT.Views.SnapPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page"/>
+        <childnode refid="3051" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/SnapPage.xaml.cs" bodystart="34" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page_1ad59c8d31c477174d2b647ad21735ef41" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::SnapPage</scope><name>OnNavigatedTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_snap_page_1adb63b6aaf5600915e550547a049aac72" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::SnapPage</scope><name>SnapPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

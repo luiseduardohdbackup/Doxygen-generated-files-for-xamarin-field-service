@@ -1,0 +1,67 @@
+.TH "FieldService.Android.Fragments.ExpenseFragment" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Android.Fragments.ExpenseFragment \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Fragment\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override View \fBOnCreateView\fP (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBReloadSingleListItem\fP (int index)"
+.br
+.RI "\fIReload the view in the listview by itself without calling to reload the list\&. \fP"
+.ti -1c
+.RI "void \fBReloadExpenseData\fP ()"
+.br
+.RI "\fIReloads the expenses from the view model \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "List< \fBExpense\fP > \fBExpenses\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBAssignment\fP \fBAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fIselected assignment \fP"
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "override View FieldService\&.Android\&.Fragments\&.ExpenseFragment\&.OnCreateView (LayoutInflaterinflater, ViewGroupcontainer, BundlesavedInstanceState)"
+
+.SS "void FieldService\&.Android\&.Fragments\&.ExpenseFragment\&.ReloadExpenseData ()"
+
+.PP
+Reloads the expenses from the view model 
+.SS "void FieldService\&.Android\&.Fragments\&.ExpenseFragment\&.ReloadSingleListItem (intindex)"
+
+.PP
+Reload the view in the listview by itself without calling to reload the list\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindex\fP index of the list view item to reload
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBAssignment\fP FieldService\&.Android\&.Fragments\&.ExpenseFragment\&.Assignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+selected assignment 
+.SS "List<\fBExpense\fP> FieldService\&.Android\&.Fragments\&.ExpenseFragment\&.Expenses\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

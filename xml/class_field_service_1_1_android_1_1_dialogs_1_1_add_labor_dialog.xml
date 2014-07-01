@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog" kind="class" prot="public">
+    <compoundname>FieldService::Android::Dialogs::AddLaborDialog</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.BaseDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1af38e13a5f8c9e530708da769ecc5998c" prot="private" static="no" mutable="no">
+        <type>readonly Activity</type>
+        <definition>readonly Activity FieldService.Android.Dialogs.AddLaborDialog.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a7bf67f32b7f9efbb7e1cd0cca5f1ba4d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+        <definition>readonly LaborType [] FieldService.Android.Dialogs.AddLaborDialog.laborTypes</definition>
+        <argsstring></argsstring>
+        <name>laborTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a3d75839b93bbe80564fbc429673edbb4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>readonly LaborViewModel FieldService.Android.Dialogs.AddLaborDialog.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a66e4ae3687d73a976ef3e23a6cb64a60" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText FieldService.Android.Dialogs.AddLaborDialog.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a64f4146895a91dc40580054cd48594e9" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Dialogs.AddLaborDialog.hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ae9a548c869624d7947747822868a7bbd" prot="private" static="no" mutable="no">
+        <type>Spinner</type>
+        <definition>Spinner FieldService.Android.Dialogs.AddLaborDialog.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a97e7b609e16927c4313d403e64ed5ced" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Dialogs.AddLaborDialog.delete</definition>
+        <argsstring></argsstring>
+        <name>delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ae71d142ea9c1d444a703b56cdcb4658b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+        <definition>Labor FieldService.Android.Dialogs.AddLaborDialog.CurrentLabor</definition>
+        <argsstring></argsstring>
+        <name>CurrentLabor</name>
+        <briefdescription>
+<para>Selected labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ad165744da418abc55f4c649365d06791" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Dialogs.AddLaborDialog.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The selected assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="148" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a5ff3c74f895fab1bf17701c5e7d72771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Dialogs.AddLaborDialog.AddLaborDialog</definition>
+        <argsstring>(Activity activity)</argsstring>
+        <name>AddLaborDialog</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a3221a7720a4650c08834d0dcce39a3cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.AddLaborDialog.OnAttachedToWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OnAttachedToWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="124" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="124" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a830f65ae612dd3aa93238beaf935843c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.AddLaborDialog.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="56" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a6b28f6f30afbf1b53cfa70499a1a816b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.AddLaborDialog.DeleteLabor</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteLabor</name>
+        <briefdescription>
+<para>Deletes the labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="157" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="157" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1af53da82dc75a9683d31a0f86632c9b3a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.AddLaborDialog.SaveLabor</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLabor</name>
+        <briefdescription>
+<para>Saves the labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="173" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="173" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Dialog for adding labor entries </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1602">
+        <label>Dialog</label>
+      </node>
+      <node id="1600">
+        <label>FieldService.Android.Dialogs.AddLaborDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog"/>
+        <childnode refid="1601" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1601">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="1602" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1605">
+        <label>Dialog</label>
+      </node>
+      <node id="1603">
+        <label>FieldService.Android.Dialogs.AddLaborDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog"/>
+        <childnode refid="1604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1604">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="1605" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/AddLaborDialog.cs" bodystart="34" bodyend="189"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1af38e13a5f8c9e530708da769ecc5998c" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a5ff3c74f895fab1bf17701c5e7d72771" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>AddLaborDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ad165744da418abc55f4c649365d06791" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>BaseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ae71d142ea9c1d444a703b56cdcb4658b" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>CurrentLabor</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a97e7b609e16927c4313d403e64ed5ced" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>delete</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a6b28f6f30afbf1b53cfa70499a1a816b" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>DeleteLabor</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a66e4ae3687d73a976ef3e23a6cb64a60" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>description</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a64f4146895a91dc40580054cd48594e9" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>hours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a7bf67f32b7f9efbb7e1cd0cca5f1ba4d" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>laborTypes</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a3d75839b93bbe80564fbc429673edbb4" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a3221a7720a4650c08834d0dcce39a3cb" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>OnAttachedToWindow</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1a830f65ae612dd3aa93238beaf935843c" prot="protected" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1af53da82dc75a9683d31a0f86632c9b3a" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>SaveLabor</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog_1ae9a548c869624d7947747822868a7bbd" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::AddLaborDialog</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

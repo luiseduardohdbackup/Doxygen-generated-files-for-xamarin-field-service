@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_contacts_sample_1_1_main_page_view_model.html" title="ContactsSample.MainPageView\lModel" alt="" coords="220,165,431,203"/>
+<area shape="rect" id="node3" href="$class_field_service_1_1_data_1_1_property_changed_base.html" title="Base class for implementing INotifyPropertyChanged " alt="" coords="235,227,416,266"/>
+<area shape="rect" id="node23" href="$class_geolocation_sample_1_1_main_page_view_model.html" title="GeolocationSample.MainPage\lViewModel" alt="" coords="225,290,426,329"/>
+<area shape="rect" id="node24" href="$class_media_picker_sample_1_1_main_page_view_model.html" title="MediaPickerSample.MainPage\lViewModel" alt="" coords="224,353,427,391"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_data_1_1_assignment_item.html" title="Link from an item to an assignment " alt="" coords="480,206,706,231"/>
+<area shape="rect" id="node5" href="$class_field_service_1_1_view_models_1_1_view_model_base.html" title="Base class for all view models " alt="" coords="506,255,680,294"/>
+<area shape="rect" id="node6" href="$class_field_service_1_1_view_models_1_1_assignment_view_model.html" title="View model for assignments list " alt="" coords="754,5,928,43"/>
+<area shape="rect" id="node8" href="$class_field_service_1_1_view_models_1_1_document_view_model.html" title="ViewModel for managing documents " alt="" coords="754,67,928,106"/>
+<area shape="rect" id="node10" href="$class_field_service_1_1_view_models_1_1_expense_view_model.html" title="ViewModel for expense " alt="" coords="754,130,928,169"/>
+<area shape="rect" id="node12" href="$class_field_service_1_1_view_models_1_1_history_view_model.html" title="ViewModel for assignment history " alt="" coords="754,193,928,231"/>
+<area shape="rect" id="node14" href="$class_field_service_1_1_view_models_1_1_item_view_model.html" title="ViewModel for working with items " alt="" coords="754,255,928,294"/>
+<area shape="rect" id="node16" href="$class_field_service_1_1_view_models_1_1_labor_view_model.html" title="View model for labor hours " alt="" coords="754,318,928,357"/>
+<area shape="rect" id="node18" href="$class_field_service_1_1_view_models_1_1_login_view_model.html" title="ViewModel class for the Login screen " alt="" coords="754,381,928,419"/>
+<area shape="rect" id="node20" href="$class_field_service_1_1_view_models_1_1_menu_view_model.html" title="A simple ViewModel for coordinating menu changes within the app " alt="" coords="754,443,928,482"/>
+<area shape="rect" id="node21" href="$class_field_service_1_1_view_models_1_1_photo_view_model.html" title="ViewModel for working with photos " alt="" coords="754,506,928,545"/>
+<area shape="rect" id="node7" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model.html" title="FieldService.WinRT.ViewModels.\lAssignmentViewModel" alt="" coords="976,5,1192,43"/>
+<area shape="rect" id="node9" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model.html" title="FieldService.WinRT.ViewModels.\lDocumentViewModel" alt="" coords="976,67,1192,106"/>
+<area shape="rect" id="node11" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model.html" title="FieldService.WinRT.ViewModels.\lExpenseViewModel" alt="" coords="976,130,1192,169"/>
+<area shape="rect" id="node13" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model.html" title="FieldService.WinRT.ViewModels.\lHistoryViewModel" alt="" coords="976,193,1192,231"/>
+<area shape="rect" id="node15" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model.html" title="WinRT version of the ItemViewModel " alt="" coords="976,255,1192,294"/>
+<area shape="rect" id="node17" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model.html" title="WinRT version of the LaborViewModel " alt="" coords="976,318,1192,357"/>
+<area shape="rect" id="node19" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model.html" title="WinRT version of the LoginViewModel " alt="" coords="976,381,1192,419"/>
+<area shape="rect" id="node22" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model.html" title="FieldService.WinRT.ViewModels.\lPhotoViewModel" alt="" coords="976,506,1192,545"/>
+</map>

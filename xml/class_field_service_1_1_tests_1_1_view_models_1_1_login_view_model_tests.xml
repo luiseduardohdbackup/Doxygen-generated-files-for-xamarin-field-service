@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::LoginViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1acc7cc15b85714e80d1077b00b3479bab" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>LoginViewModel FieldService.Tests.ViewModels.LoginViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a7327f293d785b79b721a5da05fb1e9a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LoginViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a29dc14d74b784223a6d617e3b6af3529" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LoginViewModelTests.NoUsername</definition>
+        <argsstring>()</argsstring>
+        <name>NoUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a4f9a3fa2bdeca2646be0acd12cf0c035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LoginViewModelTests.NoPassword</definition>
+        <argsstring>()</argsstring>
+        <name>NoPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a11e73919421ef4937c77829ab3525553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LoginViewModelTests.Valid</definition>
+        <argsstring>()</argsstring>
+        <name>Valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a1be97d5a96db7f59341de6a0efa10d08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LoginViewModelTests.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="68" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Test for LoginViewModel </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LoginViewModelTests.cs" bodystart="31" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a1be97d5a96db7f59341de6a0efa10d08" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>Login</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a4f9a3fa2bdeca2646be0acd12cf0c035" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>NoPassword</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a29dc14d74b784223a6d617e3b6af3529" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>NoUsername</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a7327f293d785b79b721a5da05fb1e9a2" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1a11e73919421ef4937c77829ab3525553" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>Valid</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests_1acc7cc15b85714e80d1077b00b3479bab" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LoginViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_934f9eba6731e727c1db050cf93b7879" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources</compoundname>
+    <innerfile refid="_components_2xamarin_8mobile-0_86_81_2samples_2_xamarin_8_mobile_8_android_8_samples_2_geolocati70c310c330f4a850881b004033a4fa1f">Resource.designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/"/>
+  </compounddef>
+</doxygen>

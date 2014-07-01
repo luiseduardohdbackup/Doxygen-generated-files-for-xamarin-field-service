@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_geolocation_sample" kind="namespace">
+    <compoundname>GeolocationSample</compoundname>
+    <innerclass refid="class_geolocation_sample_1_1_app" prot="public">GeolocationSample::App</innerclass>
+    <innerclass refid="class_geolocation_sample_1_1_delegated_command" prot="public">GeolocationSample::DelegatedCommand</innerclass>
+    <innerclass refid="class_geolocation_sample_1_1_main_activity" prot="public">GeolocationSample::MainActivity</innerclass>
+    <innerclass refid="class_geolocation_sample_1_1_main_page" prot="public">GeolocationSample::MainPage</innerclass>
+    <innerclass refid="class_geolocation_sample_1_1_main_page_view_model" prot="public">GeolocationSample::MainPageViewModel</innerclass>
+    <innerclass refid="class_geolocation_sample_1_1_resource" prot="public">GeolocationSample::Resource</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/MainActivity.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_login_activity" kind="class" prot="public">
+    <compoundname>fieldservice::android::LoginActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnEditorActionListener</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_login_activity_1adefdf1c4319b48f38be533fce45c3e3f" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.LoginActivity.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_login_activity_1af529b763a5bfa7d5123d58b1404da141" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.LoginActivity.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1afd4cbc295f96abf3527d1b35a31f3d3b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LoginActivity.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a7863177905260150081cbe9940abc120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.LoginActivity.LoginActivity</definition>
+        <argsstring>()</argsstring>
+        <name>LoginActivity</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1ad875e15c1b696c0bb7d6a1194801c5e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LoginActivity.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a50088d61a35242a1f6fec5ba74cbf268" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LoginActivity.onBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>onBackPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1aeb230d68fc0ad71f302e1237ed4f02a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LoginActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a03508d08a8e280210e322c45e36a1b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean fieldservice.android.LoginActivity.onEditorAction</definition>
+        <argsstring>(android.widget.TextView p0, int p1, android.view.KeyEvent p2)</argsstring>
+        <name>onEditorAction</name>
+        <param>
+          <type>android.widget.TextView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.KeyEvent</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1ade106946cfa679b8073f745ae486388e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LoginActivity.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1ac932f9af5d696a1c96930c77ac98644b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.LoginActivity.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="69" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a904b341b81f7f38f9bb99d715ec7c411" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.LoginActivity.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a9378575a1fa959930c8fb2f5d9c21344" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.LoginActivity.n_onBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>n_onBackPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a2816f2a275cf33c7731753da120cb955" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.LoginActivity.n_onResume</definition>
+        <argsstring>()</argsstring>
+        <name>n_onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_login_activity_1a44b8b6240b2972d3e6e1f831050d02c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native boolean</type>
+        <definition>native boolean fieldservice.android.LoginActivity.n_onEditorAction</definition>
+        <argsstring>(android.widget.TextView p0, int p1, android.view.KeyEvent p2)</argsstring>
+        <name>n_onEditorAction</name>
+        <param>
+          <type>android.widget.TextView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.KeyEvent</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2562">
+        <label>Activity</label>
+      </node>
+      <node id="2561">
+        <label>fieldservice.android.LoginActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_login_activity"/>
+        <childnode refid="2562" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2563" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2564" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2564">
+        <label>android::widget::TextView::OnEditorActionListener</label>
+      </node>
+      <node id="2563">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2566">
+        <label>Activity</label>
+      </node>
+      <node id="2565">
+        <label>fieldservice.android.LoginActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_login_activity"/>
+        <childnode refid="2566" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2567" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2568" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2569" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2569">
+        <label>String</label>
+      </node>
+      <node id="2568">
+        <label>android::widget::TextView::OnEditorActionListener</label>
+      </node>
+      <node id="2567">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/LoginActivity.java" bodystart="4" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1afd4cbc295f96abf3527d1b35a31f3d3b" prot="package" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1adefdf1c4319b48f38be533fce45c3e3f" prot="package" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a7863177905260150081cbe9940abc120" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>LoginActivity</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1ade106946cfa679b8073f745ae486388e" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1ac932f9af5d696a1c96930c77ac98644b" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a9378575a1fa959930c8fb2f5d9c21344" prot="private" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>n_onBackPressed</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a904b341b81f7f38f9bb99d715ec7c411" prot="private" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a44b8b6240b2972d3e6e1f831050d02c8" prot="private" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>n_onEditorAction</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a2816f2a275cf33c7731753da120cb955" prot="private" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>n_onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a50088d61a35242a1f6fec5ba74cbf268" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>onBackPressed</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1ad875e15c1b696c0bb7d6a1194801c5e4" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1a03508d08a8e280210e322c45e36a1b91" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>onEditorAction</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1aeb230d68fc0ad71f302e1237ed4f02a7" prot="public" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1_login_activity_1af529b763a5bfa7d5123d58b1404da141" prot="package" virt="non-virtual"><scope>fieldservice::android::LoginActivity</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

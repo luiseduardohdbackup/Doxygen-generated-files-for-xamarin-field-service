@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_resource_1_1_id" kind="class" prot="public">
+    <compoundname>GeolocationSample::Resource::Id</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a09dfbb15e68dfd681259766207463b58" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.cancelPositionButton</definition>
+        <argsstring></argsstring>
+        <name>cancelPositionButton</name>
+        <initializer>= 2131034113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1aa0255ae2e02fa8824a0922184cb177b8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.getPositionButton</definition>
+        <argsstring></argsstring>
+        <name>getPositionButton</name>
+        <initializer>= 2131034112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a155911b232e6a77ccff5fcd231d6045f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.lAccuracy</definition>
+        <argsstring></argsstring>
+        <name>lAccuracy</name>
+        <initializer>= 2131034120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1acfc1712bda04f8ff90da627f9fb222f4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.lLatitude</definition>
+        <argsstring></argsstring>
+        <name>lLatitude</name>
+        <initializer>= 2131034122</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1ad449cd59afcc159d26b057975539f328" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.lLongitude</definition>
+        <argsstring></argsstring>
+        <name>lLongitude</name>
+        <initializer>= 2131034121</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a3213a0062b76ca46cefe01eb33a8af38" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.listenStatus</definition>
+        <argsstring></argsstring>
+        <name>listenStatus</name>
+        <initializer>= 2131034119</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a1aca12cfc3ed1f8db138bf005f7198e8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.pAccuracy</definition>
+        <argsstring></argsstring>
+        <name>pAccuracy</name>
+        <initializer>= 2131034115</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a66b68d4271f6b2761fbf7b261a0b8f4c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.pLatitude</definition>
+        <argsstring></argsstring>
+        <name>pLatitude</name>
+        <initializer>= 2131034117</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1af3b73175fd4d7cf7a4a1681315e6f3af" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.pLongitude</definition>
+        <argsstring></argsstring>
+        <name>pLongitude</name>
+        <initializer>= 2131034116</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a31f9e06f3aaa9196c4cea90e06201c7c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <initializer>= 2131034114</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_resource_1_1_id_1a768d752d2e063a7351c37f7c8231e382" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GeolocationSample.Resource.Id.toggleListeningButton</definition>
+        <argsstring></argsstring>
+        <name>toggleListeningButton</name>
+        <initializer>= 2131034118</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_resource_1_1_id_1a434ceba99b29e409b5b268eb9fbbd173" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.Resource.Id.Id</definition>
+        <argsstring>()</argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="81" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/GeolocationSample/Resources/Resource.designer.cs" bodystart="45" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a09dfbb15e68dfd681259766207463b58" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>cancelPositionButton</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1aa0255ae2e02fa8824a0922184cb177b8" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>getPositionButton</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a434ceba99b29e409b5b268eb9fbbd173" prot="private" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>Id</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a155911b232e6a77ccff5fcd231d6045f" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>lAccuracy</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a3213a0062b76ca46cefe01eb33a8af38" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>listenStatus</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1acfc1712bda04f8ff90da627f9fb222f4" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>lLatitude</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1ad449cd59afcc159d26b057975539f328" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>lLongitude</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a1aca12cfc3ed1f8db138bf005f7198e8" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>pAccuracy</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a66b68d4271f6b2761fbf7b261a0b8f4c" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>pLatitude</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1af3b73175fd4d7cf7a4a1681315e6f3af" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>pLongitude</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a31f9e06f3aaa9196c4cea90e06201c7c" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>status</name></member>
+      <member refid="class_geolocation_sample_1_1_resource_1_1_id_1a768d752d2e063a7351c37f7c8231e382" prot="public" virt="non-virtual"><scope>GeolocationSample::Resource::Id</scope><name>toggleListeningButton</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

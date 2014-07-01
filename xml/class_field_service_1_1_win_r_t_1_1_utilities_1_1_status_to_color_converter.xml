@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::StatusToColorConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter_1a3c4bb9425988c6c2589921670246b682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.StatusToColorConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" bodystart="25" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter_1a24bdeaf215ceaed50852fec28814924e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object FieldService.WinRT.Utilities.StatusToColorConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, string language)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>language</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Converter for converting an AssignmentStatus to a Brush </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3106">
+        <label>IValueConverter</label>
+      </node>
+      <node id="3105">
+        <label>FieldService.WinRT.Utilities.StatusToColorConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter"/>
+        <childnode refid="3106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3108">
+        <label>IValueConverter</label>
+      </node>
+      <node id="3107">
+        <label>FieldService.WinRT.Utilities.StatusToColorConverter</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter"/>
+        <childnode refid="3108" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/StatusToColorConverter.cs" bodystart="24" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter_1a3c4bb9425988c6c2589921670246b682" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::StatusToColorConverter</scope><name>Convert</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_status_to_color_converter_1a24bdeaf215ceaed50852fec28814924e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::StatusToColorConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

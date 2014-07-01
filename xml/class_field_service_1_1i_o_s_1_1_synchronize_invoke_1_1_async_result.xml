@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result" kind="class" prot="private">
+    <compoundname>FieldService::iOS::SynchronizeInvoke::AsyncResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IAsyncResult</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1af022a15ea4eb5ec02ca4ea026218d71b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>object</type>
+        <definition>object FieldService.iOS.SynchronizeInvoke.AsyncResult.AsyncState</definition>
+        <argsstring></argsstring>
+        <name>AsyncState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1aac748fcdc9fb608af033ba6a4290522a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>WaitHandle</type>
+        <definition>WaitHandle FieldService.iOS.SynchronizeInvoke.AsyncResult.AsyncWaitHandle</definition>
+        <argsstring></argsstring>
+        <name>AsyncWaitHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1ac117ee5760415764b456504936adef29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SynchronizeInvoke.AsyncResult.CompletedSynchronously</definition>
+        <argsstring></argsstring>
+        <name>CompletedSynchronously</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1a778206d159d310f096672ace146cfc70" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.SynchronizeInvoke.AsyncResult.IsCompleted</definition>
+        <argsstring></argsstring>
+        <name>IsCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>IAsyncResult implementation </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1834">
+        <label>FieldService.iOS.SynchronizeInvoke.AsyncResult</label>
+        <childnode refid="1835" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1835">
+        <label>IAsyncResult</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1836">
+        <label>FieldService.iOS.SynchronizeInvoke.AsyncResult</label>
+        <childnode refid="1837" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1837">
+        <label>IAsyncResult</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SynchronizeInvoke.cs" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1af022a15ea4eb5ec02ca4ea026218d71b" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke::AsyncResult</scope><name>AsyncState</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1aac748fcdc9fb608af033ba6a4290522a" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke::AsyncResult</scope><name>AsyncWaitHandle</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1ac117ee5760415764b456504936adef29" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke::AsyncResult</scope><name>CompletedSynchronously</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_synchronize_invoke_1_1_async_result_1a778206d159d310f096672ace146cfc70" prot="public" virt="non-virtual"><scope>FieldService::iOS::SynchronizeInvoke::AsyncResult</scope><name>IsCompleted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_assignments_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::AssignmentsActivity</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_base_activity" prot="public" virt="non-virtual">FieldService.Android.BaseActivity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a4f45ed35be22959cff114054ce2ff2b3" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.AssignmentsActivity.assignmentsListView</definition>
+        <argsstring></argsstring>
+        <name>assignmentsListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a5373c999f834d469e810babbf42d5eab" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.AssignmentsActivity.assignmentActiveLayout</definition>
+        <argsstring></argsstring>
+        <name>assignmentActiveLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a30fe42c6759151cc18f156086bb4363f" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.AssignmentsActivity.buttonLayout</definition>
+        <argsstring></argsstring>
+        <name>buttonLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a58b341c8c44cf4213ffea18d721bebbd" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.AssignmentsActivity.timerLayout</definition>
+        <argsstring></argsstring>
+        <name>timerLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a9fab0b91df13e2ab6385ee6e65025dc5" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.AssignmentsActivity.mapButton</definition>
+        <argsstring></argsstring>
+        <name>mapButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a2a04a4999b522dccf4a5eab319fccf33" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.AssignmentsActivity.phoneButton</definition>
+        <argsstring></argsstring>
+        <name>phoneButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a3d1c9f8feb45c8a902414311163cce7a" prot="private" static="no" mutable="no">
+        <type>ToggleButton</type>
+        <definition>ToggleButton FieldService.Android.AssignmentsActivity.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1abd23c000af45f93f68a01d9a5b6b7a28" prot="private" static="no" mutable="no">
+        <type>Spinner</type>
+        <definition>Spinner FieldService.Android.AssignmentsActivity.activeSpinner</definition>
+        <argsstring></argsstring>
+        <name>activeSpinner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a91c920122a51737fead077a951e3c188" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.AssignmentsActivity.assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1adf43ab0569feaef6371832ea7b398c91" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView FieldService.Android.AssignmentsActivity.spinnerImage</definition>
+        <argsstring></argsstring>
+        <name>spinnerImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a03951d97e4c904e0e75e1f296ff638f6" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1ab843942d4f9c1e2628ca0e6d6bf347d7" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1ae08bd643928d4b19795974221607d45e" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.job</definition>
+        <argsstring></argsstring>
+        <name>job</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a31835ddfa05b53638bead8f983b0f701" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.phone</definition>
+        <argsstring></argsstring>
+        <name>phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1a99c22b5fce2cd6fb202c4d8f7a714562" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1af3e49ab8e58afa41b07e8443ec36db9b" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.AssignmentsActivity.timerText</definition>
+        <argsstring></argsstring>
+        <name>timerText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1acadb14080789bec99513ea90d4a3b095" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.Android.AssignmentsActivity.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_assignments_activity_1aab5e1e1a5c2a243676b4ec134f855670" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_menu_view_model" kindref="compound">MenuViewModel</ref></type>
+        <definition>readonly MenuViewModel FieldService.Android.AssignmentsActivity.menuViewModel</definition>
+        <argsstring></argsstring>
+        <name>menuViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1a36f7e573d341081da26922edf8eed9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.AssignmentsActivity.AssignmentsActivity</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentsActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1af99461fd32e64b4fbadce4ad0491eb2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.AssignmentsActivity.ReloadAssignments</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadAssignments</name>
+        <briefdescription>
+<para>manual refreshing assignments list </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="187" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="187" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1a67e4ac127c3e414148a20e8986207a85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.AssignmentsActivity.ReloadSingleListItem</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ReloadSingleListItem</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Reload the view in the listview by itself without calling to reload the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the list view item to reload</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="205" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="205" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1abe1d6f336f02b0d5663b76b362adb459" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentsActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="62" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1ae999f4999d9a06a11cf7aa4012214532" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.AssignmentsActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+<para>Overrides resume so we can refresh the list when the activity is loaded. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="154" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="154" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1adf9d549034a8c33f271f5a1392268787" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.AssignmentsActivity.HoursChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>HoursChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="175" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="175" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1a0cc105f26b860dc845fe4a209353bef2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.AssignmentsActivity.SetActiveAssignmentVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>SetActiveAssignmentVisible</name>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>Set the active assignment at the top of the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boolean to set the layout visible or not</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="219" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="219" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_assignments_activity_1a4573a4811e7527147c9e7e8a2fa66b59" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.AssignmentsActivity.AssignmentSelected</definition>
+        <argsstring>(int index)</argsstring>
+        <name>AssignmentSelected</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Calls new intent to go to navigation </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="252" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="252" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Activity for the list of assignments </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1735">
+        <label>BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1736" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1736">
+        <label>Activity</label>
+      </node>
+      <node id="1734">
+        <label>FieldService.Android.AssignmentsActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignments_activity"/>
+        <childnode refid="1735" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1738">
+        <label>BaseActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_activity"/>
+        <childnode refid="1739" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1739">
+        <label>Activity</label>
+      </node>
+      <node id="1737">
+        <label>FieldService.Android.AssignmentsActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_assignments_activity"/>
+        <childnode refid="1738" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/AssignmentsActivity.cs" bodystart="35" bodyend="265"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1abd23c000af45f93f68a01d9a5b6b7a28" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>activeSpinner</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a99c22b5fce2cd6fb202c4d8f7a714562" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>address</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a91c920122a51737fead077a951e3c188" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a5373c999f834d469e810babbf42d5eab" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>assignmentActiveLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a36f7e573d341081da26922edf8eed9c0" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>AssignmentsActivity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a4573a4811e7527147c9e7e8a2fa66b59" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>AssignmentSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a4f45ed35be22959cff114054ce2ff2b3" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>assignmentsListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1acadb14080789bec99513ea90d4a3b095" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a30fe42c6759151cc18f156086bb4363f" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>buttonLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1adf9d549034a8c33f271f5a1392268787" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>HoursChanged</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1ae08bd643928d4b19795974221607d45e" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>job</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a9fab0b91df13e2ab6385ee6e65025dc5" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>mapButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1aab5e1e1a5c2a243676b4ec134f855670" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>menuViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1ab843942d4f9c1e2628ca0e6d6bf347d7" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>name</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a03951d97e4c904e0e75e1f296ff638f6" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>number</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1abe1d6f336f02b0d5663b76b362adb459" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_activity_1af542e4692d0b1aa3ad174ed5854492e4" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1ae999f4999d9a06a11cf7aa4012214532" prot="protected" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a31835ddfa05b53638bead8f983b0f701" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>phone</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a2a04a4999b522dccf4a5eab319fccf33" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>phoneButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1af99461fd32e64b4fbadce4ad0491eb2c" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>ReloadAssignments</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a67e4ac127c3e414148a20e8986207a85" prot="public" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>ReloadSingleListItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a0cc105f26b860dc845fe4a209353bef2" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>SetActiveAssignmentVisible</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1adf43ab0569feaef6371832ea7b398c91" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>spinnerImage</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a3d1c9f8feb45c8a902414311163cce7a" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>timer</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1a58b341c8c44cf4213ffea18d721bebbd" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>timerLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_assignments_activity_1af3e49ab8e58afa41b07e8443ec36db9b" prot="private" virt="non-virtual"><scope>FieldService::Android::AssignmentsActivity</scope><name>timerText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

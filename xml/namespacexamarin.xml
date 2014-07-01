@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespacexamarin" kind="namespace">
+    <compoundname>xamarin</compoundname>
+    <innerclass refid="classxamarin_1_1_async_query__1" prot="public">xamarin::AsyncQuery_1</innerclass>
+    <innernamespace refid="namespacexamarin_1_1geolocation">xamarin::geolocation</innernamespace>
+    <innernamespace refid="namespacexamarin_1_1media">xamarin::media</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/AsyncQuery_1.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

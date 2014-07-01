@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_prepared_sql_lite_insert_command" kind="class" prot="public">
+    <compoundname>SQLite::PreparedSqlLiteInsertCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a9bc93418687042e4ee5b0fde8291b388" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.PreparedSqlLiteInsertCommand.Initialized</definition>
+        <argsstring></argsstring>
+        <name>Initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2335" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1aef54b0acba4b83045e5e5fa17286bb27" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+        <definition>SQLiteConnection SQLite.PreparedSqlLiteInsertCommand.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2337" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a435ce4bcdc122f2f5b6b96a7d89b3a29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.PreparedSqlLiteInsertCommand.CommandText</definition>
+        <argsstring></argsstring>
+        <name>CommandText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2339" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a5b8cfa2ccca99c02f38538be5d089c2d" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+        <definition>Sqlite3Statement SQLite.PreparedSqlLiteInsertCommand.Statement</definition>
+        <argsstring></argsstring>
+        <name>Statement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2341" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a27b141093118a1d7762479a0bfee9f3b" prot="package" static="yes" mutable="no">
+        <type>readonly <ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+        <definition>readonly Sqlite3Statement SQLite.PreparedSqlLiteInsertCommand.NullStatement</definition>
+        <argsstring></argsstring>
+        <name>NullStatement</name>
+        <initializer>= default(<ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2342" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2342" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a2edf294edc999313e6d83a2e8e51bf45" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.PreparedSqlLiteInsertCommand.PreparedSqlLiteInsertCommand</definition>
+        <argsstring>(SQLiteConnection conn)</argsstring>
+        <name>PreparedSqlLiteInsertCommand</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2344" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2344" bodyend="2347"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a9f95629a1b978710741c23129d78fccc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.PreparedSqlLiteInsertCommand.ExecuteNonQuery</definition>
+        <argsstring>(object[] source)</argsstring>
+        <name>ExecuteNonQuery</name>
+        <param>
+          <type>object[]</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2349" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2349" bodyend="2385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a4569b8fb13658e105658b073937efead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.PreparedSqlLiteInsertCommand.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2393" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2393" bodyend="2397"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a207353ff88c74bc45cb076fe3cf463bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+        <definition>virtual Sqlite3Statement SQLite.PreparedSqlLiteInsertCommand.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2387" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2387" bodyend="2391"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1af270ebd2c7bb80ccd9c7ff9627661f71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.PreparedSqlLiteInsertCommand.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2399" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2399" bodyend="2409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a95eacbbae1f94a664afe4c0ab81e2a24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.PreparedSqlLiteInsertCommand.~PreparedSqlLiteInsertCommand</definition>
+        <argsstring>()</argsstring>
+        <name>~PreparedSqlLiteInsertCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2411" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2411" bodyend="2414"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Since the insert never changed, we only need to prepare once. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2922">
+        <label>IDisposable</label>
+      </node>
+      <node id="2921">
+        <label>SQLite.PreparedSqlLiteInsertCommand</label>
+        <link refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command"/>
+        <childnode refid="2922" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2924">
+        <label>IDisposable</label>
+      </node>
+      <node id="2923">
+        <label>SQLite.PreparedSqlLiteInsertCommand</label>
+        <link refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command"/>
+        <childnode refid="2924" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2334" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2333" bodyend="2415"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a435ce4bcdc122f2f5b6b96a7d89b3a29" prot="public" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>CommandText</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1aef54b0acba4b83045e5e5fa17286bb27" prot="protected" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Connection</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a4569b8fb13658e105658b073937efead" prot="public" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1af270ebd2c7bb80ccd9c7ff9627661f71" prot="private" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a9f95629a1b978710741c23129d78fccc" prot="public" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>ExecuteNonQuery</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a9bc93418687042e4ee5b0fde8291b388" prot="public" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Initialized</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a27b141093118a1d7762479a0bfee9f3b" prot="package" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>NullStatement</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a207353ff88c74bc45cb076fe3cf463bb" prot="protected" virt="virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Prepare</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a2edf294edc999313e6d83a2e8e51bf45" prot="package" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>PreparedSqlLiteInsertCommand</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a5b8cfa2ccca99c02f38538be5d089c2d" prot="protected" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>Statement</name></member>
+      <member refid="class_s_q_lite_1_1_prepared_sql_lite_insert_command_1a95eacbbae1f94a664afe4c0ab81e2a24" prot="private" virt="non-virtual"><scope>SQLite::PreparedSqlLiteInsertCommand</scope><name>~PreparedSqlLiteInsertCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

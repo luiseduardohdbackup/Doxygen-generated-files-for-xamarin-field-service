@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_s_q_lite_1_1i_o_s_1_1_sample" kind="namespace">
+    <compoundname>SQLite::iOS::Sample</compoundname>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate" prot="public">SQLite::iOS::Sample::AppDelegate</innerclass>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_application" prot="public">SQLite::iOS::Sample::Application</innerclass>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list" prot="public">SQLite::iOS::Sample::List</innerclass>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_item" prot="public">SQLite::iOS::Sample::ListItem</innerclass>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_task_lists_view_controller" prot="public">SQLite::iOS::Sample::TaskListsViewController</innerclass>
+    <innerclass refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller" prot="public">SQLite::iOS::Sample::TasksViewController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

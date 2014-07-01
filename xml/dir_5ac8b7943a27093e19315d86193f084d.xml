@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_5ac8b7943a27093e19315d86193f084d" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs</compoundname>
+    <innerfile refid="_add_labor_dialog_8cs">AddLaborDialog.cs</innerfile>
+    <innerfile refid="_base_dialog_8cs">BaseDialog.cs</innerfile>
+    <innerfile refid="_expense_dialog_8cs">ExpenseDialog.cs</innerfile>
+    <innerfile refid="_items_dialog_8cs">ItemsDialog.cs</innerfile>
+    <innerfile refid="_photo_dialog_8cs">PhotoDialog.cs</innerfile>
+    <innerfile refid="_signature_dialog_8cs">SignatureDialog.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/"/>
+  </compounddef>
+</doxygen>

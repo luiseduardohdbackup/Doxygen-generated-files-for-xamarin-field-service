@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::ConfirmationsPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a010b84ebde674d55879b43a543033d44" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.Views.ConfirmationsPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1aaa11f6437cc90b51810f76b40fa2e477" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>readonly PhotoViewModel FieldService.WinRT.Views.ConfirmationsPage.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a30f304450092b62d5f70cb24380dfc5c" prot="private" static="no" mutable="no">
+        <type>MediaPicker</type>
+        <definition>MediaPicker FieldService.WinRT.Views.ConfirmationsPage.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1ae6139a8032fb4208757e859c2af6cb14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.ConfirmationsPage.ConfirmationsPage</definition>
+        <argsstring>()</argsstring>
+        <name>ConfirmationsPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="36" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a57b0517834450c3e21a853175da72fc9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.ConfirmationsPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="61" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a03adad84023e97774c2d0fa06630e9ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void FieldService.WinRT.Views.ConfirmationsPage.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="65" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a28dfd2f4ff272790eed06308ca60d778" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.ConfirmationsPage.OnImageClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnImageClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="134" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="134" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Confirmations page for </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2005">
+        <label>Page</label>
+      </node>
+      <node id="2004">
+        <label>FieldService.WinRT.Views.ConfirmationsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page"/>
+        <childnode refid="2005" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2007">
+        <label>Page</label>
+      </node>
+      <node id="2006">
+        <label>FieldService.WinRT.Views.ConfirmationsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page"/>
+        <childnode refid="2007" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ConfirmationsPage.xaml.cs" bodystart="32" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a010b84ebde674d55879b43a543033d44" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1ae6139a8032fb4208757e859c2af6cb14" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>ConfirmationsPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a28dfd2f4ff272790eed06308ca60d778" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>OnImageClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a03adad84023e97774c2d0fa06630e9ec" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a57b0517834450c3e21a853175da72fc9" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>OnNavigatedTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1aaa11f6437cc90b51810f76b40fa2e477" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_confirmations_page_1a30f304450092b62d5f70cb24380dfc5c" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ConfirmationsPage</scope><name>picker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

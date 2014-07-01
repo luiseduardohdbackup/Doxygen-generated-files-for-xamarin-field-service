@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::LaborPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a9f52c9e0926ead45bd7573b6b8cbf9d1" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.Views.LaborPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ab35a8eef51da26a397bf6f644d5dd9d8" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>readonly LaborViewModel FieldService.WinRT.Views.LaborPage.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a405a737c49679cc3446f0d2268f4b83b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.LaborPage.LaborPage</definition>
+        <argsstring>()</argsstring>
+        <name>LaborPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="42" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ae927be4018f5292b5b54a626deeb6616" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.LaborPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a77371a266379cab0eff6478a3678cc82" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.LaborPage.OnNavigatedFrom</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedFrom</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is unloaded. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ae1328bb8ca684a53acf7f3d8fdaebdb0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.LaborPage.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Item click event for the labor list view </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The page for the labor hours </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2478">
+        <label>Page</label>
+      </node>
+      <node id="2477">
+        <label>FieldService.WinRT.Views.LaborPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page"/>
+        <childnode refid="2478" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2480">
+        <label>Page</label>
+      </node>
+      <node id="2479">
+        <label>FieldService.WinRT.Views.LaborPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page"/>
+        <childnode refid="2480" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/LaborPage.xaml.cs" bodystart="38" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a9f52c9e0926ead45bd7573b6b8cbf9d1" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a405a737c49679cc3446f0d2268f4b83b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>LaborPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ab35a8eef51da26a397bf6f644d5dd9d8" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ae1328bb8ca684a53acf7f3d8fdaebdb0" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1a77371a266379cab0eff6478a3678cc82" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>OnNavigatedFrom</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_labor_page_1ae927be4018f5292b5b54a626deeb6616" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::LaborPage</scope><name>OnNavigatedTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_assignment" kind="class" prot="public">
+    <compoundname>FieldService::Data::Assignment</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a4282ea97277a5b6f8832398809b6ebbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Assignment.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref> Id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a99aaf68d3cd77b538e8b2e45c0b7b14c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263" kindref="member">AssignmentStatus</ref></type>
+        <definition>AssignmentStatus FieldService.Data.Assignment.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+<para>The assignment&apos;s status </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a61e064d5b34c2e76593ad0afac067527" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.JobNumber</definition>
+        <argsstring></argsstring>
+        <name>JobNumber</name>
+        <briefdescription>
+<para>A job number </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1ad83cf9f23371713526a031bb300477e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.CompanyName</definition>
+        <argsstring></argsstring>
+        <name>CompanyName</name>
+        <briefdescription>
+<para>Company Name for the job </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a36ac0add7b96a5f3902a15e8a7131639" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Assignment.Priority</definition>
+        <argsstring></argsstring>
+        <name>Priority</name>
+        <briefdescription>
+<para>Priority for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a8c1fbaa2a0f8a1d736cdccd5671345a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>An extended description for the job </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a1760d94888dee49e2e13aac039540d23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.Assignment.StartDate</definition>
+        <argsstring></argsstring>
+        <name>StartDate</name>
+        <briefdescription>
+<para>Date and time the assignment should start </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a20fd1a8457f8294f8b54a80477efd32b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.Assignment.EndDate</definition>
+        <argsstring></argsstring>
+        <name>EndDate</name>
+        <briefdescription>
+<para>Date and time the assignment should end </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1abb0b1bb567dd689acb86b2d92b45e607" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.ContactName</definition>
+        <argsstring></argsstring>
+        <name>ContactName</name>
+        <briefdescription>
+<para>Name of the contact </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1af35effb86cc44cbea2ede60fd2b879e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.ContactPhone</definition>
+        <argsstring></argsstring>
+        <name>ContactPhone</name>
+        <briefdescription>
+<para>Phone number for the contact </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a886d3c71c11ae05b2dca152f02d3070e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+<para>Address for assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="81" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a3ed50f43dafb1448873406a4856b06c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <briefdescription>
+<para>City for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a16eb6a19c1c9fdb1792cff2ad0993120" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+<para>State of the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1ab8434715ad43a721ed1b7b53b9faeca1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.Zip</definition>
+        <argsstring></argsstring>
+        <name>Zip</name>
+        <briefdescription>
+<para>Zip code for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="96" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1aa14382e3a7da3b85825d3e6f7568106b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float FieldService.Data.Assignment.Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+<para>Latitude of assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="101" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1adee085d31938622d1d932efb03fb3233" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float FieldService.Data.Assignment.Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+<para>Longitude of assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="106" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a096d96eab35e3f6f410237e33945cd8d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan FieldService.Data.Assignment.TotalHours</definition>
+        <argsstring></argsstring>
+        <name>TotalHours</name>
+        <briefdescription>
+<para>Total labor hours for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a98568ec9c68653fd325f7088c1515565" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long FieldService.Data.Assignment.TotalTicks</definition>
+        <argsstring></argsstring>
+        <name>TotalTicks</name>
+        <briefdescription>
+<para>Total labor hours for the assignment (in ticks) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="121" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a1ebc0bb4efb6e07b750625f5f0275e02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Assignment.TotalItems</definition>
+        <argsstring></argsstring>
+        <name>TotalItems</name>
+        <briefdescription>
+<para>Total number of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="126" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a8bcbc11ac213fc8a664e4abad9e2372c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal FieldService.Data.Assignment.TotalExpenses</definition>
+        <argsstring></argsstring>
+        <name>TotalExpenses</name>
+        <briefdescription>
+<para>Total cost of expenses </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="131" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a8b2489531f212e5a9ace20b2198a413c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.Data.Assignment.IsHistory</definition>
+        <argsstring></argsstring>
+        <name>IsHistory</name>
+        <briefdescription>
+<para>If true, this is an assignment history record that is readonly </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a73c8154ab5178a78917d70350355cdca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.JobNumberFormatted</definition>
+        <argsstring></argsstring>
+        <name>JobNumberFormatted</name>
+        <briefdescription>
+<para>A formatted version of the job number for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="144" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a84d7b88bc21fba7b77d0f3924ae66c32" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.StartDateFormatted</definition>
+        <argsstring></argsstring>
+        <name>StartDateFormatted</name>
+        <briefdescription>
+<para>A formatted version of the start date for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="157" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a6460a1c1a2263373d55298ff6e66b746" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.TimesFormatted</definition>
+        <argsstring></argsstring>
+        <name>TimesFormatted</name>
+        <briefdescription>
+<para>A formatted version of the times for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="168" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a02c811e84c8dd8876e6e0a9b4f4981d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.StartTimeFormatted</definition>
+        <argsstring></argsstring>
+        <name>StartTimeFormatted</name>
+        <briefdescription>
+<para>A formatted version of the start time for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="183" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1aea3afae0bbc681381087b2f2678df4da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.EndTimeFormatted</definition>
+        <argsstring></argsstring>
+        <name>EndTimeFormatted</name>
+        <briefdescription>
+<para>A formatted version of the end time for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="191" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a2ec62817dbecfc9307d655c6f3dd016c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.AddressFormatted</definition>
+        <argsstring></argsstring>
+        <name>AddressFormatted</name>
+        <briefdescription>
+<para>A formatted version of the address for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="199" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1ae016207c39635002331756b6083dd5bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.TotalHoursFormatted</definition>
+        <argsstring></argsstring>
+        <name>TotalHoursFormatted</name>
+        <briefdescription>
+<para>Formatted version of total hours for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="212" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a8e86c4baa5f523a371239440149cf858" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Assignment.TotalExpensesFormatted</definition>
+        <argsstring></argsstring>
+        <name>TotalExpensesFormatted</name>
+        <briefdescription>
+<para>Formatted version of expenses for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="220" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a62ea5221113e69d186cd59f88c247d04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Data.Assignment.IsReadonly</definition>
+        <argsstring></argsstring>
+        <name>IsReadonly</name>
+        <briefdescription>
+<para>If true, this assignment is not editable - it is complete or a history record </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="228" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_assignment_1a4b8c35afb1178923213bed8490e25ec5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.Data.Assignment.CanComplete</definition>
+        <argsstring></argsstring>
+        <name>CanComplete</name>
+        <briefdescription>
+<para>If true, it&apos;s ok to complete this assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="236" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An assignment is the &quot;thing&quot; or &quot;job&quot; the user is going to work on </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Assignment.cs" bodystart="26" bodyend="242"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a886d3c71c11ae05b2dca152f02d3070e" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a2ec62817dbecfc9307d655c6f3dd016c" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>AddressFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a4b8c35afb1178923213bed8490e25ec5" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>CanComplete</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a3ed50f43dafb1448873406a4856b06c0" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>City</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1ad83cf9f23371713526a031bb300477e1" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>CompanyName</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1abb0b1bb567dd689acb86b2d92b45e607" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>ContactName</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1af35effb86cc44cbea2ede60fd2b879e2" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>ContactPhone</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a8c1fbaa2a0f8a1d736cdccd5671345a2" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Description</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a20fd1a8457f8294f8b54a80477efd32b" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>EndDate</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1aea3afae0bbc681381087b2f2678df4da" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>EndTimeFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a4282ea97277a5b6f8832398809b6ebbe" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Id</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a8b2489531f212e5a9ace20b2198a413c" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>IsHistory</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a62ea5221113e69d186cd59f88c247d04" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>IsReadonly</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a61e064d5b34c2e76593ad0afac067527" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>JobNumber</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a73c8154ab5178a78917d70350355cdca" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>JobNumberFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1aa14382e3a7da3b85825d3e6f7568106b" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Latitude</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1adee085d31938622d1d932efb03fb3233" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Longitude</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a36ac0add7b96a5f3902a15e8a7131639" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Priority</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a1760d94888dee49e2e13aac039540d23" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>StartDate</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a84d7b88bc21fba7b77d0f3924ae66c32" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>StartDateFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a02c811e84c8dd8876e6e0a9b4f4981d2" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>StartTimeFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a16eb6a19c1c9fdb1792cff2ad0993120" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>State</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a99aaf68d3cd77b538e8b2e45c0b7b14c" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Status</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a6460a1c1a2263373d55298ff6e66b746" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TimesFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a8bcbc11ac213fc8a664e4abad9e2372c" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalExpenses</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a8e86c4baa5f523a371239440149cf858" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalExpensesFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a096d96eab35e3f6f410237e33945cd8d" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalHours</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1ae016207c39635002331756b6083dd5bf" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalHoursFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a1ebc0bb4efb6e07b750625f5f0275e02" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalItems</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1a98568ec9c68653fd325f7088c1515565" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>TotalTicks</name></member>
+      <member refid="class_field_service_1_1_data_1_1_assignment_1ab8434715ad43a721ed1b7b53b9faeca1" prot="public" virt="non-virtual"><scope>FieldService::Data::Assignment</scope><name>Zip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

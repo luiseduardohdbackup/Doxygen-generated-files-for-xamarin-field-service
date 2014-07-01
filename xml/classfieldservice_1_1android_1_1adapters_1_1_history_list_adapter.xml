@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter" kind="class" prot="public">
+    <compoundname>fieldservice::android::adapters::HistoryListAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a4bdcb86b30ebb2216ed61f76b05ec645" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.adapters.HistoryListAdapter.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1aadcf76c614035f54bc09c25bd77c278d" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.adapters.HistoryListAdapter.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a651ff599c072db1cfd265dc3419bc79e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a94ff167b2d1b2f6994cba393acf732c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1ab2395bce068891d7294dc7c9f947dffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a43f101909db176479973f1020790cdf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.lang.Object[] p2)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a0f139c11cd4ce04878b40ccfec02d1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.lang.Object[] p3)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.lang.Object[]</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a9c7a0689546f6ca2895df003a5d9a06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, java.util.List p2)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="51" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a1559b3f2ef66070436988c62a24cf75b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.adapters.HistoryListAdapter.HistoryListAdapter</definition>
+        <argsstring>(android.content.Context p0, int p1, int p2, java.util.List p3)</argsstring>
+        <name>HistoryListAdapter</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>java.util.List</type>
+          <declname>p3</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a5ecc691bcea279b4a4eca0dd980a5c87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int fieldservice.android.adapters.HistoryListAdapter.getCount</definition>
+        <argsstring>()</argsstring>
+        <name>getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a73d7a4af0aad3135cca429cb86bfa719" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.adapters.HistoryListAdapter.getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a1aa947691bab63929934c2a2ff42b5a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.adapters.HistoryListAdapter.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="83" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a145267fffa08f4a509536403988f7769" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.adapters.HistoryListAdapter.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="90" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a95b32635cc78925710ddb283bc9a58fd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native int</type>
+        <definition>native int fieldservice.android.adapters.HistoryListAdapter.n_getCount</definition>
+        <argsstring>()</argsstring>
+        <name>n_getCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1ad5ebecf285ae37fd83a8a1d0e048c237" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.adapters.HistoryListAdapter.n_getView</definition>
+        <argsstring>(int p0, android.view.View p1, android.view.ViewGroup p2)</argsstring>
+        <name>n_getView</name>
+        <param>
+          <type>int</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2275">
+        <label>fieldservice.android.adapters.HistoryListAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter"/>
+        <childnode refid="2276" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2276">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2277">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2281">
+        <label>String</label>
+      </node>
+      <node id="2278">
+        <label>fieldservice.android.adapters.HistoryListAdapter</label>
+        <link refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter"/>
+        <childnode refid="2279" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2280" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2281" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2279">
+        <label>ArrayAdapter</label>
+      </node>
+      <node id="2280">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters/HistoryListAdapter.java" bodystart="4" bodyend="95"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a651ff599c072db1cfd265dc3419bc79e" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a4bdcb86b30ebb2216ed61f76b05ec645" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a5ecc691bcea279b4a4eca0dd980a5c87" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>getCount</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a73d7a4af0aad3135cca429cb86bfa719" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a94ff167b2d1b2f6994cba393acf732c0" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1ab2395bce068891d7294dc7c9f947dffa" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a43f101909db176479973f1020790cdf4" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a0f139c11cd4ce04878b40ccfec02d1fa" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a9c7a0689546f6ca2895df003a5d9a06b" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a1559b3f2ef66070436988c62a24cf75b" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>HistoryListAdapter</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a1aa947691bab63929934c2a2ff42b5a8" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a145267fffa08f4a509536403988f7769" prot="public" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1a95b32635cc78925710ddb283bc9a58fd" prot="private" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>n_getCount</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1ad5ebecf285ae37fd83a8a1d0e048c237" prot="private" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>n_getView</name></member>
+      <member refid="classfieldservice_1_1android_1_1adapters_1_1_history_list_adapter_1aadcf76c614035f54bc09c25bd77c278d" prot="package" virt="non-virtual"><scope>fieldservice::android::adapters::HistoryListAdapter</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

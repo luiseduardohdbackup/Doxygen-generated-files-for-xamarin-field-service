@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_text_button" kind="class" prot="public">
+    <compoundname>FieldService::iOS::TextButton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIButton</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_text_button_1a528679b65cd956bd74b0d1836cfc312a" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.TextButton.Spacing</definition>
+        <argsstring></argsstring>
+        <name>Spacing</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_text_button_1a299d8cf1c31add33f76ffb1d66d90caa" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.TextButton.IconBackgroundSize</definition>
+        <argsstring></argsstring>
+        <name>IconBackgroundSize</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_text_button_1a700efc4d7f6183fb748c5a8edf554a5b" prot="private" static="no" mutable="no">
+        <type>readonly UIButton</type>
+        <definition>readonly UIButton FieldService.iOS.TextButton.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_text_button_1a7647daf80507478a6a0d7b07c3d0bde4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UIImage</type>
+        <definition>UIImage FieldService.iOS.TextButton.IconImage</definition>
+        <argsstring></argsstring>
+        <name>IconImage</name>
+        <briefdescription>
+<para>Icon image used on the button to the left </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_text_button_1a7f7b25febb01096323e84c69a765bac1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UILabel</type>
+        <definition>UILabel FieldService.iOS.TextButton.TopLabel</definition>
+        <argsstring></argsstring>
+        <name>TopLabel</name>
+        <briefdescription>
+<para>Top label text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_text_button_1afc8f9bf0a4b798c479a3d2c04eb1e318" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UILabel</type>
+        <definition>UILabel FieldService.iOS.TextButton.BottomLabel</definition>
+        <argsstring></argsstring>
+        <name>BottomLabel</name>
+        <briefdescription>
+<para>Second label text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_text_button_1af2894452cd8de117f53b7a155de9f731" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.TextButton.Highlighted</definition>
+        <argsstring></argsstring>
+        <name>Highlighted</name>
+        <briefdescription>
+<para>Override Highlighted so that the child controls function correctly </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="85" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_text_button_1abd6f82daefac52ef41adda55f1c74440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.TextButton.TextButton</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>TextButton</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="31" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_text_button_1a215f013f0f3d3321e58a87fddfc1a590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.TextButton.LayoutSubviews</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutSubviews</name>
+        <briefdescription>
+<para>Set correct spacing for subviews </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="100" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="100" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_text_button_1ae314b69eb5799c37d8351bd78534a3e3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.TextButton.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="112" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_text_button_1aa12eaa928f0c27e1677e74e45dbc654b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.TextButton.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.designer.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a button for providing 2 lines of text and a nice icon to the left </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3279">
+        <label>FieldService.iOS.TextButton</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_text_button"/>
+        <childnode refid="3280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3280">
+        <label>UIButton</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3281">
+        <label>FieldService.iOS.TextButton</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_text_button"/>
+        <childnode refid="3282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3282">
+        <label>UIButton</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Views/TextButton.cs" bodystart="25" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1afc8f9bf0a4b798c479a3d2c04eb1e318" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>BottomLabel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1ae314b69eb5799c37d8351bd78534a3e3" prot="protected" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1af2894452cd8de117f53b7a155de9f731" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>Highlighted</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a700efc4d7f6183fb748c5a8edf554a5b" prot="private" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>icon</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a299d8cf1c31add33f76ffb1d66d90caa" prot="private" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>IconBackgroundSize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a7647daf80507478a6a0d7b07c3d0bde4" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>IconImage</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a215f013f0f3d3321e58a87fddfc1a590" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>LayoutSubviews</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1aa12eaa928f0c27e1677e74e45dbc654b" prot="private" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a528679b65cd956bd74b0d1836cfc312a" prot="private" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>Spacing</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1abd6f82daefac52ef41adda55f1c74440" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>TextButton</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_text_button_1a7f7b25febb01096323e84c69a765bac1" prot="public" virt="non-virtual"><scope>FieldService::iOS::TextButton</scope><name>TopLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_main_page_view_model" kind="class" prot="public">
+    <compoundname>MediaPickerSample::MainPageViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_media_picker_sample_1_1_main_page_view_model_1ac3ae42ebb490a069dc6cffc2badaeb0b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler MediaPickerSample.MainPageViewModel.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_main_page_view_model_1a10fe71e1982f5bce37d713a0ccc72121" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MediaPickerSample.MainPageViewModel.state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_main_page_view_model_1a08d578baa713a6c027144a86a89a8b97" prot="private" static="no" mutable="no">
+        <type>BitmapImage</type>
+        <definition>BitmapImage MediaPickerSample.MainPageViewModel.image</definition>
+        <argsstring></argsstring>
+        <name>image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_main_page_view_model_1acbce39ea192409c064b827e14fe3cc8d" prot="private" static="no" mutable="no">
+        <type>readonly MediaPicker</type>
+        <definition>readonly MediaPicker MediaPickerSample.MainPageViewModel.picker</definition>
+        <argsstring></argsstring>
+        <name>picker</name>
+        <initializer>= new MediaPicker()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_picker_sample_1_1_main_page_view_model_1abb23e3e231afa7eea999f0837eb4c35f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MediaPickerSample.MainPageViewModel.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_picker_sample_1_1_main_page_view_model_1aebd650f23e27062b938d30f8bf798e9f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand MediaPickerSample.MainPageViewModel.TakePhoto</definition>
+        <argsstring></argsstring>
+        <name>TakePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_picker_sample_1_1_main_page_view_model_1a1b77870c42aaf76d9df029eaec8409c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand MediaPickerSample.MainPageViewModel.PickPhoto</definition>
+        <argsstring></argsstring>
+        <name>PickPhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_media_picker_sample_1_1_main_page_view_model_1aa3153b932c6ca7496f295fe9c1d2042e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>BitmapImage</type>
+        <definition>BitmapImage MediaPickerSample.MainPageViewModel.Image</definition>
+        <argsstring></argsstring>
+        <name>Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_main_page_view_model_1aa51252662f474d6ac18c403aaa98a67f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaPickerSample.MainPageViewModel.MainPageViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainPageViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_main_page_view_model_1ac992bc2267b7618064427e42ce9427bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MediaPickerSample.MainPageViewModel.TakePhotoHandler</definition>
+        <argsstring>(object state)</argsstring>
+        <name>TakePhotoHandler</name>
+        <param>
+          <type>object</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="63" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_main_page_view_model_1a769e218f23e0941f3a35e9b3879fc040" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void MediaPickerSample.MainPageViewModel.PickPhotoHandler</definition>
+        <argsstring>(object state)</argsstring>
+        <name>PickPhotoHandler</name>
+        <param>
+          <type>object</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="84" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="84" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_main_page_view_model_1a07b4da6eb0fc177d6f003a96ff060e05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.MainPageViewModel.OnPropertyChanged</definition>
+        <argsstring>(string name)</argsstring>
+        <name>OnPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="105" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2642">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2641">
+        <label>MediaPickerSample.MainPageViewModel</label>
+        <link refid="class_media_picker_sample_1_1_main_page_view_model"/>
+        <childnode refid="2642" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2644">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2643">
+        <label>MediaPickerSample.MainPageViewModel</label>
+        <link refid="class_media_picker_sample_1_1_main_page_view_model"/>
+        <childnode refid="2644" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/MainPageViewModel.cs" bodystart="10" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1a08d578baa713a6c027144a86a89a8b97" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>image</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1aa3153b932c6ca7496f295fe9c1d2042e" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>Image</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1aa51252662f474d6ac18c403aaa98a67f" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>MainPageViewModel</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1a07b4da6eb0fc177d6f003a96ff060e05" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1acbce39ea192409c064b827e14fe3cc8d" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>picker</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1a1b77870c42aaf76d9df029eaec8409c4" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>PickPhoto</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1a769e218f23e0941f3a35e9b3879fc040" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>PickPhotoHandler</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1ac3ae42ebb490a069dc6cffc2badaeb0b" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1a10fe71e1982f5bce37d713a0ccc72121" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>state</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1abb23e3e231afa7eea999f0837eb4c35f" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>State</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1aebd650f23e27062b938d30f8bf798e9f" prot="public" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>TakePhoto</name></member>
+      <member refid="class_media_picker_sample_1_1_main_page_view_model_1ac992bc2267b7618064427e42ce9427bd" prot="private" virt="non-virtual"><scope>MediaPickerSample::MainPageViewModel</scope><name>TakePhotoHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

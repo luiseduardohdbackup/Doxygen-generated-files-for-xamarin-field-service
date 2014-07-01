@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_base_navigation_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::BaseNavigationController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UINavigationController</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1ab1c65649eddaae044c12c283bc9cc471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.BaseNavigationController.BaseNavigationController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>BaseNavigationController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a1e2d2f415ee2950cea2c34fca8fca87b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.BaseNavigationController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a598ee6d3d4916d084d0192ff5efa5e17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIStatusBarStyle</type>
+        <definition>override UIStatusBarStyle FieldService.iOS.BaseNavigationController.PreferredStatusBarStyle</definition>
+        <argsstring>()</argsstring>
+        <name>PreferredStatusBarStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1aa72c52249c57d879febf749d0c737c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.BaseNavigationController.ShouldAutorotate</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldAutorotate</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1aa5b0d7dcf2d06d50be315519d2a18046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIInterfaceOrientationMask</type>
+        <definition>override UIInterfaceOrientationMask FieldService.iOS.BaseNavigationController.GetSupportedInterfaceOrientations</definition>
+        <argsstring>()</argsstring>
+        <name>GetSupportedInterfaceOrientations</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a1fd6ad189e0f107b4e3619e92472726f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.BaseNavigationController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.designer.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base navigation controller, used in a couple places throughout our Storyboard file </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1938">
+        <label>UINavigationController</label>
+      </node>
+      <node id="1937">
+        <label>FieldService.iOS.BaseNavigationController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller"/>
+        <childnode refid="1938" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1940">
+        <label>UINavigationController</label>
+      </node>
+      <node id="1939">
+        <label>FieldService.iOS.BaseNavigationController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller"/>
+        <childnode refid="1940" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseNavigationController.cs" bodystart="25" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1ab1c65649eddaae044c12c283bc9cc471" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>BaseNavigationController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1aa5b0d7dcf2d06d50be315519d2a18046" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a598ee6d3d4916d084d0192ff5efa5e17" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>PreferredStatusBarStyle</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a1fd6ad189e0f107b4e3619e92472726f" prot="private" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1aa72c52249c57d879febf749d0c737c3e" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_navigation_controller_1a1e2d2f415ee2950cea2c34fca8fca87b" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseNavigationController</scope><name>ViewDidLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

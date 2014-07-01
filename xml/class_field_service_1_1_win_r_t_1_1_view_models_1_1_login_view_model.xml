@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::LoginViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_login_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.LoginViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1aa989d0d97315fbef91382759388868f7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LoginViewModel.loginCommand</definition>
+        <argsstring></argsstring>
+        <name>loginCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a31c9deb6f7118edff079eb9e5516a122" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LoginViewModel.helpCommand</definition>
+        <argsstring></argsstring>
+        <name>helpCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a7f538df7a720adab9196d2de3bb86b3a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LoginViewModel.LoginCommand</definition>
+        <argsstring></argsstring>
+        <name>LoginCommand</name>
+        <briefdescription>
+<para>LoginCommand for binding to a button </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a20034ce0dddad52ed6869669d432ea64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LoginViewModel.HelpCommand</definition>
+        <argsstring></argsstring>
+        <name>HelpCommand</name>
+        <briefdescription>
+<para>HelpCommand for binding to a button </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a11b7ee01cb39c54ae6c9b2f88eb06257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.ViewModels.LoginViewModel.LoginViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>LoginViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="29" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac068dc643a7e4c7b80b1668a69da6733" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.LoginViewModel.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <reimplements refid="class_field_service_1_1_view_models_1_1_login_view_model_1af979634e56bc7c5da542d0a1e38c7344">Validate</reimplements>
+        <briefdescription>
+<para>Validation logic </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="65" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac1775d35d062112b2537bdbf7e895ddd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.LoginViewModel.OnIsBusyChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnIsBusyChanged</name>
+        <reimplements refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54">OnIsBusyChanged</reimplements>
+        <briefdescription>
+<para>Other viewmodels can override this if something should be done when busy </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="73" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="73" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> version of the <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>We setup ICommand here </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2593">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2590">
+        <label>FieldService::ViewModels::LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2591" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2591">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2592" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2592">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2593" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2589">
+        <label>FieldService.WinRT.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2590" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2598">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2595">
+        <label>FieldService::ViewModels::LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2596" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2596">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2597" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2597">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2598" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2594">
+        <label>FieldService.WinRT.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2595" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LoginViewModel.cs" bodystart="25" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a20034ce0dddad52ed6869669d432ea64" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>HelpCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a31c9deb6f7118edff079eb9e5516a122" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>helpCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a896ce645e14190629e0feefb1a33b7e2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>IsInactive</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a0ae178c7e04dfbfcb641a2c164e2fb0f" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>LoginAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1aa989d0d97315fbef91382759388868f7" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>loginCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a7f538df7a720adab9196d2de3bb86b3a" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>LoginCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1a11b7ee01cb39c54ae6c9b2f88eb06257" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>LoginViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac1775d35d062112b2537bdbf7e895ddd" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1a1da03b3071aef0fcaea92f6c8f9518fe" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>Password</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1ab3244c476ac9cb58ced4ffe86b4b4ad6" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>ResetInactiveTime</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_login_view_model_1aba35afcb0fde385ffebc5bb8267e4218" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>Username</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_1ac068dc643a7e4c7b80b1668a69da6733" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LoginViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

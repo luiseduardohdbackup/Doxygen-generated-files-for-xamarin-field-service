@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_2920ed01d96ba4bfdb40f4eb278929e6" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities</compoundname>
+    <innerfile refid="_assignments_activity_8cs">AssignmentsActivity.cs</innerfile>
+    <innerfile refid="_assignment_tab_activity_8cs">AssignmentTabActivity.cs</innerfile>
+    <innerfile refid="_base_activity_8cs">BaseActivity.cs</innerfile>
+    <innerfile refid="_base_map_activity_8cs">BaseMapActivity.cs</innerfile>
+    <innerfile refid="_login_activity_8cs">LoginActivity.cs</innerfile>
+    <innerfile refid="_map_fragment_activity_8cs">MapFragmentActivity.cs</innerfile>
+    <innerfile refid="_map_view_activity_8cs">MapViewActivity.cs</innerfile>
+    <innerfile refid="_summary_activity_8cs">SummaryActivity.cs</innerfile>
+    <innerfile refid="_summary_history_activity_8cs">SummaryHistoryActivity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/"/>
+  </compounddef>
+</doxygen>

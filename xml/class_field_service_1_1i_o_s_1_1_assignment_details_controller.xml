@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_assignment_details_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::AssignmentDetailsController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afbf3477f419b5cf67a6daa8d7846b3ca" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.AssignmentDetailsController.StatusChanged</definition>
+        <argsstring></argsstring>
+        <name>StatusChanged</name>
+        <briefdescription>
+<para>Occurs when status is changed on the timer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a04329412a85bbaa87a5bab2e0eab2d5a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.iOS.AssignmentDetailsController.Completed</definition>
+        <argsstring></argsstring>
+        <name>Completed</name>
+        <briefdescription>
+<para>Occurs when status changes to completed </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a3ec97c2d7897cf4c205dc836e8b5fbf6" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_menu_view_model" kindref="compound">MenuViewModel</ref></type>
+        <definition>readonly MenuViewModel FieldService.iOS.AssignmentDetailsController.menuViewModel</definition>
+        <argsstring></argsstring>
+        <name>menuViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1aec6589d4c5325a5ecd4eb81668056097" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.AssignmentDetailsController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a5bf2b4ba2da6c25995a71bea20b7b75f" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.mapController</definition>
+        <argsstring></argsstring>
+        <name>mapController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1af601889026d7c403ddb50b2430b5708b" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.itemsController</definition>
+        <argsstring></argsstring>
+        <name>itemsController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a27524d46f3ec3047484afda9d932f6b5" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.laborController</definition>
+        <argsstring></argsstring>
+        <name>laborController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1adb13fa7bec8a142e6a6db9ab97c98aa6" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.expenseController</definition>
+        <argsstring></argsstring>
+        <name>expenseController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a41d8622ef12cb1b9d62a5734a5abf10f" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.documentController</definition>
+        <argsstring></argsstring>
+        <name>documentController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a902496f0ebfed9d8710c09858201b799" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.confirmationController</definition>
+        <argsstring></argsstring>
+        <name>confirmationController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a0ef6f1bca857e96040db2f4e3d2e3c14" prot="private" static="no" mutable="no">
+        <type>readonly Lazy&lt; UIViewController &gt;</type>
+        <definition>readonly Lazy&lt;UIViewController&gt; FieldService.iOS.AssignmentDetailsController.historyController</definition>
+        <argsstring></argsstring>
+        <name>historyController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a81c54b38a8b0cec595f4df2ca8092d4f" prot="private" static="no" mutable="no">
+        <type>UIViewController</type>
+        <definition>UIViewController FieldService.iOS.AssignmentDetailsController.lastChildController</definition>
+        <argsstring></argsstring>
+        <name>lastChildController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7e5bfcfefd459f1a9a1d6f93e13338e3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_summary_controller" kindref="compound">SummaryController</ref></type>
+        <definition>SummaryController FieldService.iOS.AssignmentDetailsController.summaryController</definition>
+        <argsstring></argsstring>
+        <name>summaryController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ad517e90714bf768b6e1054f012b24f55" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIView</type>
+        <definition>MonoTouch.UIKit.UIView FieldService.iOS.AssignmentDetailsController.container</definition>
+        <argsstring></argsstring>
+        <name>container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a637e4da0ac0b6424c6a1347fd6d79574" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AssignmentDetailsController.priorityBackground</definition>
+        <argsstring></argsstring>
+        <name>priorityBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a883396bf2e360e12fdbb6edabee49e1b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentDetailsController.priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a3547774c7c90da88627097613b62a5a0" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_text_button" kindref="compound">FieldService.iOS.TextButton</ref></type>
+        <definition>FieldService.iOS.TextButton FieldService.iOS.AssignmentDetailsController.contact</definition>
+        <argsstring></argsstring>
+        <name>contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a712b3ff0acbd99c1fbba43e5b909f30d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_text_button" kindref="compound">FieldService.iOS.TextButton</ref></type>
+        <definition>FieldService.iOS.TextButton FieldService.iOS.AssignmentDetailsController.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a98758552cd53e4f14352e60c0b266e62" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentDetailsController.numberAndDate</definition>
+        <argsstring></argsstring>
+        <name>numberAndDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a5b84c8219d37fd9099bf904b242bbcd1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentDetailsController.titleLabel</definition>
+        <argsstring></argsstring>
+        <name>titleLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a47415257d1b14f125b3d8415575fa41d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.AssignmentDetailsController.startAndEnd</definition>
+        <argsstring></argsstring>
+        <name>startAndEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7ae8cde1a39d908c1b0a4b7a96684496" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIImageView</type>
+        <definition>MonoTouch.UIKit.UIImageView FieldService.iOS.AssignmentDetailsController.assignmentBackground</definition>
+        <argsstring></argsstring>
+        <name>assignmentBackground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4c59c10a29f0aab4081fc8390f460b49" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_status_button" kindref="compound">FieldService.iOS.StatusButton</ref></type>
+        <definition>FieldService.iOS.StatusButton FieldService.iOS.AssignmentDetailsController.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4efca6c4b02caf97e405568c1e3345f8" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.AssignmentDetailsController.accept</definition>
+        <argsstring></argsstring>
+        <name>accept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a9d056f07317e3d8afcf2d1093c2572fa" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.AssignmentDetailsController.decline</definition>
+        <argsstring></argsstring>
+        <name>decline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a06faa2d417819881ae24d85e6d36aef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AssignmentDetailsController.AssignmentDetailsController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>AssignmentDetailsController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4ee2c39c5958c7a07bcf1f37e794e79b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentDetailsController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="61" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afa9a33b6f985b8f081942c33626387e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AssignmentDetailsController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="139" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a9142dec65b3188871903128680ad9a90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentDetailsController.SectionSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath, bool animated=true)</argsstring>
+        <name>SectionSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Called when a menu item in <ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref> is selected </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="149" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="149" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a2126c6fe1eab84b975224482951f2f5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentDetailsController.UpdateAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateAssignment</name>
+        <briefdescription>
+<para>Sets up the UI for the assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="213" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="213" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ae90a0168329b6b230f9c0e53274cc0ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Accept</definition>
+        <argsstring>()</argsstring>
+        <name>Accept</name>
+        <briefdescription>
+<para>Event when accept button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="259" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="259" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a8662c9eb3c8b48fa22d793234f11caa7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Decline</definition>
+        <argsstring>()</argsstring>
+        <name>Decline</name>
+        <briefdescription>
+<para>Event when decline button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="273" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a1b11882d2d8fc1dba22872c27fa51716" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Address</definition>
+        <argsstring>()</argsstring>
+        <name>Address</name>
+        <briefdescription>
+<para>Event when address is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="283" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="283" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7233f35fa1040f11cfe4387de75fe581" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentDetailsController.SaveAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignment</name>
+        <briefdescription>
+<para>Saves the assignment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="292" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="292" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ae90a0168329b6b230f9c0e53274cc0ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Accept</definition>
+        <argsstring>()</argsstring>
+        <name>Accept</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a8662c9eb3c8b48fa22d793234f11caa7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Decline</definition>
+        <argsstring>()</argsstring>
+        <name>Decline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a1b11882d2d8fc1dba22872c27fa51716" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.AssignmentDetailsController.Address</definition>
+        <argsstring>()</argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afb33e1f870d3c849ab6045455034c6f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AssignmentDetailsController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.designer.cs" bodystart="59" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for the assignment summary page </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1705">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1706" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1704">
+        <label>FieldService.iOS.AssignmentDetailsController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller"/>
+        <childnode refid="1705" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1706">
+        <label>UIViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1708">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1709" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1707">
+        <label>FieldService.iOS.AssignmentDetailsController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller"/>
+        <childnode refid="1708" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1709">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AssignmentDetailsController.cs" bodystart="29" bodyend="307"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4efca6c4b02caf97e405568c1e3345f8" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ae90a0168329b6b230f9c0e53274cc0ed" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ae90a0168329b6b230f9c0e53274cc0ed" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Accept</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a1b11882d2d8fc1dba22872c27fa51716" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a1b11882d2d8fc1dba22872c27fa51716" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a712b3ff0acbd99c1fbba43e5b909f30d" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>address</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7ae8cde1a39d908c1b0a4b7a96684496" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>assignmentBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a06faa2d417819881ae24d85e6d36aef0" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>AssignmentDetailsController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1aec6589d4c5325a5ecd4eb81668056097" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a04329412a85bbaa87a5bab2e0eab2d5a" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Completed</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a902496f0ebfed9d8710c09858201b799" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>confirmationController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a3547774c7c90da88627097613b62a5a0" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>contact</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1ad517e90714bf768b6e1054f012b24f55" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>container</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a8662c9eb3c8b48fa22d793234f11caa7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a8662c9eb3c8b48fa22d793234f11caa7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>Decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a9d056f07317e3d8afcf2d1093c2572fa" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>decline</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a41d8622ef12cb1b9d62a5734a5abf10f" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>documentController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1adb13fa7bec8a142e6a6db9ab97c98aa6" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>expenseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a0ef6f1bca857e96040db2f4e3d2e3c14" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>historyController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1af601889026d7c403ddb50b2430b5708b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>itemsController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a27524d46f3ec3047484afda9d932f6b5" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>laborController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a81c54b38a8b0cec595f4df2ca8092d4f" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>lastChildController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a5bf2b4ba2da6c25995a71bea20b7b75f" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>mapController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a3ec97c2d7897cf4c205dc836e8b5fbf6" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>menuViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a98758552cd53e4f14352e60c0b266e62" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>numberAndDate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a883396bf2e360e12fdbb6edabee49e1b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>priority</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a637e4da0ac0b6424c6a1347fd6d79574" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>priorityBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afb33e1f870d3c849ab6045455034c6f1" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7233f35fa1040f11cfe4387de75fe581" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>SaveAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a9142dec65b3188871903128680ad9a90" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>SectionSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a47415257d1b14f125b3d8415575fa41d" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>startAndEnd</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4c59c10a29f0aab4081fc8390f460b49" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>status</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afbf3477f419b5cf67a6daa8d7846b3ca" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>StatusChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a7e5bfcfefd459f1a9a1d6f93e13338e3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>summaryController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a5b84c8219d37fd9099bf904b242bbcd1" prot="private" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>titleLabel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a2126c6fe1eab84b975224482951f2f5b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>UpdateAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1a4ee2c39c5958c7a07bcf1f37e794e79b" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller_1afa9a33b6f985b8f081942c33626387e1" prot="public" virt="non-virtual"><scope>FieldService::iOS::AssignmentDetailsController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

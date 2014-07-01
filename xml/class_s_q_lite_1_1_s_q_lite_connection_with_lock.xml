@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection_with_lock" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteConnectionWithLock</compoundname>
+    <basecompoundref refid="class_s_q_lite_1_1_s_q_lite_connection" prot="public" virt="non-virtual">SQLite.SQLiteConnection</basecompoundref>
+    <innerclass refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1_1_lock_wrapper" prot="private">SQLite::SQLiteConnectionWithLock::LockWrapper</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1aabcf78fba2ed2efef0883fb8445113d9" prot="private" static="no" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object SQLite.SQLiteConnectionWithLock._lockPoint</definition>
+        <argsstring></argsstring>
+        <name>_lockPoint</name>
+        <initializer>= new object ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="474" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1ad30600291e3accc913d7bc2818f24d3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnectionWithLock.SQLiteConnectionWithLock</definition>
+        <argsstring>(SQLiteConnectionString connectionString, SQLiteOpenFlags openFlags)</argsstring>
+        <name>SQLiteConnectionWithLock</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_string" kindref="compound">SQLiteConnectionString</ref></type>
+          <declname>connectionString</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+          <declname>openFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="476" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="476" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1ad38e795a2b94ecd709b9b60e2c4d3e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDisposable</type>
+        <definition>IDisposable SQLite.SQLiteConnectionWithLock.Lock</definition>
+        <argsstring>()</argsstring>
+        <name>Lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="481" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="481" bodyend="484"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3092">
+        <label>IDisposable</label>
+      </node>
+      <node id="3091">
+        <label>SQLiteConnection</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection"/>
+        <childnode refid="3092" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3090">
+        <label>SQLite.SQLiteConnectionWithLock</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock"/>
+        <childnode refid="3091" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3095">
+        <label>IDisposable</label>
+      </node>
+      <node id="3094">
+        <label>SQLiteConnection</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection"/>
+        <childnode refid="3095" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3093">
+        <label>SQLite.SQLiteConnectionWithLock</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock"/>
+        <childnode refid="3094" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="473" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="472" bodyend="501"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1aabcf78fba2ed2efef0883fb8445113d9" prot="private" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>_lockPoint</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aba3becdb524808bd49f349587f1b7049" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>BeginTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abb2b70df282aa2f1af07789db65db1dd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>BusyTimeout</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a74160304a4a218b7508220106eeb10d0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Close</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a2c8187a19b5065f6b23c079e7cca29fe" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Commit</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a112ac999fccd302bda742992f044f3ee" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateCommand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a006cda01a29a2f202be1659cbf3810a8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a41bc451f0fed96a6cb79ae2d61ab3a11" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a91adc40b863214a5efc495b33ec9a351" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a30996f7f4a91d17d719ef4dd582b4cee" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a7283c295b89b54728d7201e0812ccaac" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateIndex&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abfd7ba959c93db259983427b5e7ee05a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateTable</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abc8fda93774fb74dd2f97e9549eb46b5" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>CreateTable&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a18b410ed380268c16bb9bdb47b5ad44b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>DatabasePath</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab359d97e7938a573e0a565d2c46aa401" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>DeferredQuery</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a334b139ead4620ad13b5e1d54e8077af" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>DeferredQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a55234164e36bc4abcb086e197f25e436" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Delete</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a0d4046198236b8c96b0bf50593f592a6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Delete&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1abed406a2cd17e1e360b79924a749b67c" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>DeleteAll&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ad9e1e281245e83dbe9c5303eaefe95f6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab5e33e84b34867c48d1578d2890ff7e7" prot="protected" virt="virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Dispose</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a783032226b2db2ebd6417f21abe9cd5a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>DropTable&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ae9cb05b6c85322d73dd70688182edb01" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>EnableLoadExtension</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a5fbb3e385d21cfbee95e4a2a71a3043b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Execute</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af88acbe7da213c81875c3a35a5d61337" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>ExecuteScalar&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a95729c5ebf5fad75631109db91e7c14b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Find</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1adfe66fe8c304aca8575f07fc1c05d9f5" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Find&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aeba2ae3cf5c1ffcb0c7eec7f8ccc64ca" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Find&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a17fdec8364635853d573e84530e1ab48" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a4034d4b62385b2ab7451c5404ffb5efa" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Get&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a0c0db552a653e0797cf772706148eb41" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>GetMapping</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1adf0ed08567e1ca36e4fda72c94ede544" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>GetMapping&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a695bad5670f4d38a9aae39e4aec85329" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>GetTableInfo</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a504b348bb83df3b51fb49937db4d7804" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Handle</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a937382b36e6726d12fe6d09f7bfb0ab6" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a19576a29af1c0891a646ff3e904f2cdc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a3ab0fde4b10c4b492b2f5f64535c6d66" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab88782cd2d5c77bb14d6a17baf7c49bc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Insert</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a920c3f7421ad1c967730228abb5915fc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a62b62415941ce6486f7dfa219a69f1f1" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a08e03803dd01aa67ee56a8e6d184c9d9" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>InsertAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1c16c3dda43037326b7f2afc6c822abd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>InsertOrReplace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a812215a88043259b6a107994756000ae" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>InsertOrReplace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a9450dfedb603c08eb75f57f36db41d9b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>IsInTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1ad38e795a2b94ecd709b9b60e2c4d3e4e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Lock</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a7535db6cca83fcde078fa4340b32e982" prot="protected" virt="virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>NewCommand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ada41a64830e77a1cdf870ae3d1416d8c" prot="package" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>NullHandle</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1aeac8a5ef1be5cfabc5bbf33f1fec01b0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Query</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ade363948abe65a6b97fe8574f943db91" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Query&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a6813c9dd152354284ccdc96353bcfbdd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Release</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a70cfe1d5799d71ce3a0a62c244bb7ea8" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Rollback</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a94674fbf861328e85a249dd8c14ef6ea" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>RollbackTo</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a9132bae9e577ae479ddc6b919547759f" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>RunInTransaction</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab571412a681990a95131ded731ad6c4a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>SaveTransactionPoint</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a21204da14d0e2a44039f3395bb4ff12d" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>SQLiteConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a5d0deb6299d3f479e53cf81899023457" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>SQLiteConnection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock_1ad30600291e3accc913d7bc2818f24d3b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>SQLiteConnectionWithLock</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1c24728cf622f060629aac155e2afcaa" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>StoreDateTimeAsTicks</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab44d5100216c3cdcea76e45c6f7d6246" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Table&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a17fd06674a40bf6bf7630b65503eafa9" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>TableChanged</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ac0c3b1e8f8060ef9777fac08751d159e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>TableMappings</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af925b9fddec261394ab29fbbaa25d9a0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>TimeExecution</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1af9e92ae222dba65b2ab761139531118a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Trace</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ae4effee772569a47256bcb5f8764eabc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Update</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1ab474a534faebfec1288672ef4e4f2140" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>Update</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1a1a95399fe5d61f8bbb56e36eac38d467" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionWithLock</scope><name>UpdateAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

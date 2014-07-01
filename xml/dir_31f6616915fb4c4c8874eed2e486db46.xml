@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_31f6616915fb4c4c8874eed2e486db46" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments</compoundname>
+    <innerfile refid="_confirmation_fragment_8cs">ConfirmationFragment.cs</innerfile>
+    <innerfile refid="_document_fragment_8cs">DocumentFragment.cs</innerfile>
+    <innerfile refid="_expense_fragment_8cs">ExpenseFragment.cs</innerfile>
+    <innerfile refid="_history_fragment_8cs">HistoryFragment.cs</innerfile>
+    <innerfile refid="_item_fragment_8cs">ItemFragment.cs</innerfile>
+    <innerfile refid="_labor_hour_fragment_8cs">LaborHourFragment.cs</innerfile>
+    <innerfile refid="_map_fragment_8cs">MapFragment.cs</innerfile>
+    <innerfile refid="_navigation_fragment_8cs">NavigationFragment.cs</innerfile>
+    <innerfile refid="_summary_fragment_8cs">SummaryFragment.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/"/>
+  </compounddef>
+</doxygen>

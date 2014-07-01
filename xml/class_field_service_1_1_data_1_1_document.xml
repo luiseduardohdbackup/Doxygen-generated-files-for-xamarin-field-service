@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_document" kind="class" prot="public">
+    <compoundname>FieldService::Data::Document</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_document_1af92a5f47393e199f8909bcf2aa0c13e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Document.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+<para>Title of the document </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_document_1aae4ed3cf3bd0a2a557f4d24579bb0112" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Document.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <briefdescription>
+<para>File path to the document </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_document_1aa7b74e1c242b948ff58daa73cd282d37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_field_service_1_1_data_1a3f59e9016ae4f76b12fee13c8594ca72" kindref="member">DocumentType</ref></type>
+        <definition>DocumentType FieldService.Data.Document.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+<para>The document type, this determines the color for the UI on some platforms </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class holding information about a document </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Document.cs" bodystart="25" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_document_1aae4ed3cf3bd0a2a557f4d24579bb0112" prot="public" virt="non-virtual"><scope>FieldService::Data::Document</scope><name>Path</name></member>
+      <member refid="class_field_service_1_1_data_1_1_document_1af92a5f47393e199f8909bcf2aa0c13e2" prot="public" virt="non-virtual"><scope>FieldService::Data::Document</scope><name>Title</name></member>
+      <member refid="class_field_service_1_1_data_1_1_document_1aa7b74e1c242b948ff58daa73cd282d37" prot="public" virt="non-virtual"><scope>FieldService::Data::Document</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content" kind="class" prot="package">
+    <compoundname>FieldService::Android::Fragments::HistoryFragment::TabContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ITabContentFactory</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1ad519f1c0835d6ee4fd44bf0a4aa45279" prot="private" static="no" mutable="no">
+        <type>View</type>
+        <definition>View FieldService.Android.Fragments.HistoryFragment.TabContent.view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" line="164" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1a7464439b317fabec7e9ef5c3aaee2b4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Fragments.HistoryFragment.TabContent.TabContent</definition>
+        <argsstring>(View view)</argsstring>
+        <name>TabContent</name>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" line="165" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1a70abdfd792631c58922c44e9d914590c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>View</type>
+        <definition>View FieldService.Android.Fragments.HistoryFragment.TabContent.CreateTabContent</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>CreateTabContent</name>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" line="170" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Custom class to create tabs for the history fragment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3188">
+        <label>TabHost::ITabContentFactory</label>
+      </node>
+      <node id="3187">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="3186">
+        <label>FieldService.Android.Fragments.HistoryFragment.TabContent</label>
+        <childnode refid="3187" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3188" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3191">
+        <label>TabHost::ITabContentFactory</label>
+      </node>
+      <node id="3190">
+        <label>Java::Lang::Object</label>
+      </node>
+      <node id="3189">
+        <label>FieldService.Android.Fragments.HistoryFragment.TabContent</label>
+        <childnode refid="3190" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3191" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" line="162" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/HistoryFragment.cs" bodystart="162" bodyend="174"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1a70abdfd792631c58922c44e9d914590c" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::HistoryFragment::TabContent</scope><name>CreateTabContent</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1a7464439b317fabec7e9ef5c3aaee2b4e" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::HistoryFragment::TabContent</scope><name>TabContent</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_history_fragment_1_1_tab_content_1ad519f1c0835d6ee4fd44bf0a4aa45279" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::HistoryFragment::TabContent</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

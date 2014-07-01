@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::DocumentViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a45b3f01c8d955c0b0da22776c201408a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_document_view_model" kindref="compound">DocumentViewModel</ref></type>
+        <definition>DocumentViewModel FieldService.Tests.ViewModels.DocumentViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a7e782ed659f643fbba48cd081033b4d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.DocumentViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a64671b44fd23a55be3c9253874965539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.DocumentViewModelTests.LoadDocuments</definition>
+        <argsstring>()</argsstring>
+        <name>LoadDocuments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/DocumentViewModelTests.cs" bodystart="13" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a64671b44fd23a55be3c9253874965539" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::DocumentViewModelTests</scope><name>LoadDocuments</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a7e782ed659f643fbba48cd081033b4d4" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::DocumentViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests_1a45b3f01c8d955c0b0da22776c201408a" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::DocumentViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

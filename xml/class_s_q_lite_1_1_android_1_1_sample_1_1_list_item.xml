@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item" kind="class" prot="public">
+    <compoundname>SQLite::Android::Sample::ListItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1ad274a4802c6ee194257b235ba353c4ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.Android.Sample.ListItem.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" line="6" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1ab3eeb5d601f7269d2c25aa9e4fbd110d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.Android.Sample.ListItem.ListId</definition>
+        <argsstring></argsstring>
+        <name>ListId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1adc0d9f441a49b46c2737e742afa424f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SQLite.Android.Sample.ListItem.Completed</definition>
+        <argsstring></argsstring>
+        <name>Completed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1a3c2b2b067af15209a65171f377eaba46" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.Android.Sample.ListItem.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" line="4" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/ListItem.cs" bodystart="3" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1adc0d9f441a49b46c2737e742afa424f4" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListItem</scope><name>Completed</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1ad274a4802c6ee194257b235ba353c4ab" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListItem</scope><name>Id</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1ab3eeb5d601f7269d2c25aa9e4fbd110d" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListItem</scope><name>ListId</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item_1a3c2b2b067af15209a65171f377eaba46" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::ListItem</scope><name>Text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

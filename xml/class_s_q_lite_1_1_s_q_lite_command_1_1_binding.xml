@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_command_1_1_binding" kind="class" prot="private">
+    <compoundname>SQLite::SQLiteCommand::Binding</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1a3dc64a7079f33dd99c8903856e82e7b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteCommand.Binding.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2264" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1af34c106ea3f241806f10bff57540d16f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>object</type>
+        <definition>object SQLite.SQLiteCommand.Binding.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2266" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1a93ec6c921d0a49489d533033522c15cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.SQLiteCommand.Binding.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2268" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2263" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2262" bodyend="2269"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1a93ec6c921d0a49489d533033522c15cb" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand::Binding</scope><name>Index</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1a3dc64a7079f33dd99c8903856e82e7b0" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand::Binding</scope><name>Name</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1_1_binding_1af34c106ea3f241806f10bff57540d16f" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand::Binding</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

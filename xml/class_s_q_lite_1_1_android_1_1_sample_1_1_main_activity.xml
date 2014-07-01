@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity" kind="class" prot="public">
+    <compoundname>SQLite::Android::Sample::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a0c6fb9a47e3716c55b8e9f235108606d" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+        <definition>SQLiteAsyncConnection SQLite.Android.Sample.MainActivity.DB</definition>
+        <argsstring></argsstring>
+        <name>DB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a659a4047868584ef684b938a293b689d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SQLite.Android.Sample.MainActivity.selectedId</definition>
+        <argsstring></argsstring>
+        <name>selectedId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a472d21765bbd0aa2a2cfaf73e436884a" prot="private" static="no" mutable="no">
+        <type>readonly TaskScheduler</type>
+        <definition>readonly TaskScheduler SQLite.Android.Sample.MainActivity.uiScheduler</definition>
+        <argsstring></argsstring>
+        <name>uiScheduler</name>
+        <initializer>= TaskScheduler.FromCurrentSynchronizationContext()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a2dd3e8ea4f8af71bb47078c06e76e819" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SQLite.Android.Sample.MainActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="20" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a96a3cdee56e1b1962096b0b6fcb08966" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SQLite.Android.Sample.MainActivity.OnSaveInstanceState</definition>
+        <argsstring>(Bundle outState)</argsstring>
+        <name>OnSaveInstanceState</name>
+        <param>
+          <type>Bundle</type>
+          <declname>outState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="97" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a113842ffc9924290617c28071fef0ce9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.MainActivity.LoadLists</definition>
+        <argsstring>()</argsstring>
+        <name>LoadLists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="44" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a4018ce7ff6b70599452fd6d93638f349" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionBar.Tab</type>
+        <definition>ActionBar.Tab SQLite.Android.Sample.MainActivity.AddListTab</definition>
+        <argsstring>(List list)</argsstring>
+        <name>AddListTab</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list" kindref="compound">List</ref></type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a2929274da97bddd800b8d10ce7801c4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionBar.Tab</type>
+        <definition>ActionBar.Tab SQLite.Android.Sample.MainActivity.AddListTab</definition>
+        <argsstring>(List list, bool select)</argsstring>
+        <name>AddListTab</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list" kindref="compound">List</ref></type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>select</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="82" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1abcfeb351a6ea86a6a5133191ea7fc8fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SQLite.Android.Sample.MainActivity.OnCreateClicked</definition>
+        <argsstring>(IMenuItem menuItem)</argsstring>
+        <name>OnCreateClicked</name>
+        <param>
+          <type>IMenuItem</type>
+          <declname>menuItem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="114" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="114" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a6a4c4c67bfb8c11c6d3da14fc13e150a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.Android.Sample.MainActivity.CreateList</definition>
+        <argsstring>(string name)</argsstring>
+        <name>CreateList</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a3daf2237cb8e12ad81b59b8620c53b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool SQLite.Android.Sample.MainActivity.OnCreateOptionsMenu</definition>
+        <argsstring>(IMenu menu)</argsstring>
+        <name>OnCreateOptionsMenu</name>
+        <param>
+          <type>IMenu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="105" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2606">
+        <label>Activity</label>
+      </node>
+      <node id="2605">
+        <label>SQLite.Android.Sample.MainActivity</label>
+        <link refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity"/>
+        <childnode refid="2606" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2608">
+        <label>Activity</label>
+      </node>
+      <node id="2607">
+        <label>SQLite.Android.Sample.MainActivity</label>
+        <link refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity"/>
+        <childnode refid="2608" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2609" relation="usage">
+          <edgelabel>DB</edgelabel>
+        </childnode>
+      </node>
+      <node id="2609">
+        <label>SQLite.SQLiteAsyncConnection</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_async_connection"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/MainActivity.cs" bodystart="14" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a4018ce7ff6b70599452fd6d93638f349" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>AddListTab</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a2929274da97bddd800b8d10ce7801c4b" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>AddListTab</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a6a4c4c67bfb8c11c6d3da14fc13e150a" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>CreateList</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a0c6fb9a47e3716c55b8e9f235108606d" prot="package" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>DB</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a113842ffc9924290617c28071fef0ce9" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>LoadLists</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a2dd3e8ea4f8af71bb47078c06e76e819" prot="protected" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>OnCreate</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1abcfeb351a6ea86a6a5133191ea7fc8fc" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>OnCreateClicked</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a3daf2237cb8e12ad81b59b8620c53b16" prot="public" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>OnCreateOptionsMenu</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a96a3cdee56e1b1962096b0b6fcb08966" prot="protected" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>OnSaveInstanceState</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a659a4047868584ef684b938a293b689d" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>selectedId</name></member>
+      <member refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity_1a472d21765bbd0aa2a2cfaf73e436884a" prot="private" virt="non-virtual"><scope>SQLite::Android::Sample::MainActivity</scope><name>uiScheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

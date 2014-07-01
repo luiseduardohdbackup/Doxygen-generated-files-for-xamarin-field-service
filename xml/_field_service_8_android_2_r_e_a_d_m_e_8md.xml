@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="_field_service_8_android_2_r_e_a_d_m_e_8md" kind="file">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#<sp/>Field<sp/>Service<sp/>-<sp/>Android</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">We<sp/>are<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Google<sp/>Maps<sp/>API<sp/>Key,<sp/>documentation<sp/>here:<sp/>https:</highlight><highlight class="comment">//developers.google.com/maps/documentation/android/v1/maps-api-signup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">Instructions<sp/>here:<sp/>http:</highlight><highlight class="comment">//docs.xamarin.com/Android/Guides/Platform_Features/Maps_and_Location/Obtaining_a_Google_Maps_API_Key</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">You<sp/>will<sp/>need<sp/>a<sp/>Google<sp/>Maps<sp/>API<sp/>here:<sp/>http:</highlight><highlight class="comment">//developer.android.com/sdk/installing/adding-packages.html</highlight></codeline>
+    </programlisting>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/README.md"/>
+  </compounddef>
+</doxygen>

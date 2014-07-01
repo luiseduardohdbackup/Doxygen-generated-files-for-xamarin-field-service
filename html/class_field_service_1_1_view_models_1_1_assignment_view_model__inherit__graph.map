@@ -1,0 +1,5 @@
+<map id="FieldService.ViewModels.AssignmentViewModel" name="FieldService.ViewModels.AssignmentViewModel">
+<area shape="rect" id="node5" href="$class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model.html" title="FieldService.WinRT.ViewModels.\lAssignmentViewModel" alt="" coords="5,318,221,357"/>
+<area shape="rect" id="node2" href="$class_field_service_1_1_view_models_1_1_view_model_base.html" title="Base class for all view models " alt="" coords="55,155,171,181"/>
+<area shape="rect" id="node3" href="$class_field_service_1_1_data_1_1_property_changed_base.html" title="Base class for implementing INotifyPropertyChanged " alt="" coords="35,81,191,106"/>
+</map>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_android_1_1_resource_1_1_drawable" kind="class" prot="public">
+    <compoundname>Sample::Android::Resource::Drawable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_android_1_1_resource_1_1_drawable_1a538184896d0746911c2063eec3338104" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sample.Android.Resource.Drawable.Icon</definition>
+        <argsstring></argsstring>
+        <name>Icon</name>
+        <initializer>= 2130837504</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_android_1_1_resource_1_1_drawable_1a4c8d75cf56e60078546eb6175f38b097" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.Android.Resource.Drawable.Drawable</definition>
+        <argsstring>()</argsstring>
+        <name>Drawable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="45" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Resources/Resource.designer.cs" bodystart="39" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_drawable_1a4c8d75cf56e60078546eb6175f38b097" prot="private" virt="non-virtual"><scope>Sample::Android::Resource::Drawable</scope><name>Drawable</name></member>
+      <member refid="class_sample_1_1_android_1_1_resource_1_1_drawable_1a538184896d0746911c2063eec3338104" prot="public" virt="non-virtual"><scope>Sample::Android::Resource::Drawable</scope><name>Icon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

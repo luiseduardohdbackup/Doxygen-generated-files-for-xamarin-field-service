@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_main_activity" kind="class" prot="public">
+    <compoundname>ContactsSample::MainActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ListActivity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_activity_1a8bd4d4c7f97f2cad5430e5288c69b777" prot="private" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; ContactsSample.MainActivity.contacts</definition>
+        <argsstring></argsstring>
+        <name>contacts</name>
+        <initializer>= new List&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_activity_1a0d130ed7072c13bd719dbd853c307f85" prot="private" static="no" mutable="no">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; ContactsSample.MainActivity.contactIDs</definition>
+        <argsstring></argsstring>
+        <name>contactIDs</name>
+        <initializer>= new List&lt;String&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_activity_1afe1039b93c41b2ea89bb75f3fa0579ad" prot="public" static="yes" mutable="no">
+        <type>readonly AddressBook</type>
+        <definition>readonly AddressBook ContactsSample.MainActivity.AddressBook</definition>
+        <argsstring></argsstring>
+        <name>AddressBook</name>
+        <initializer>= new AddressBook (Application.Context) { PreferContactAggregation = true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_activity_1a6022c7eac82bcc30b29b3d003a24fa42" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ContactsSample.MainActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" bodystart="25" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2615">
+        <label>ListActivity</label>
+      </node>
+      <node id="2614">
+        <label>ContactsSample.MainActivity</label>
+        <link refid="class_contacts_sample_1_1_main_activity"/>
+        <childnode refid="2615" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2618">
+        <label>AddressBook</label>
+      </node>
+      <node id="2617">
+        <label>ListActivity</label>
+      </node>
+      <node id="2616">
+        <label>ContactsSample.MainActivity</label>
+        <link refid="class_contacts_sample_1_1_main_activity"/>
+        <childnode refid="2617" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2618" relation="usage">
+          <edgelabel>AddressBook</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/MainActivity.cs" bodystart="18" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_main_activity_1afe1039b93c41b2ea89bb75f3fa0579ad" prot="public" virt="non-virtual"><scope>ContactsSample::MainActivity</scope><name>AddressBook</name></member>
+      <member refid="class_contacts_sample_1_1_main_activity_1a0d130ed7072c13bd719dbd853c307f85" prot="private" virt="non-virtual"><scope>ContactsSample::MainActivity</scope><name>contactIDs</name></member>
+      <member refid="class_contacts_sample_1_1_main_activity_1a8bd4d4c7f97f2cad5430e5288c69b777" prot="private" virt="non-virtual"><scope>ContactsSample::MainActivity</scope><name>contacts</name></member>
+      <member refid="class_contacts_sample_1_1_main_activity_1a6022c7eac82bcc30b29b3d003a24fa42" prot="protected" virt="non-virtual"><scope>ContactsSample::MainActivity</scope><name>OnCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

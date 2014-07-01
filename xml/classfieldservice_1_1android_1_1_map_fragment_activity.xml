@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_map_fragment_activity" kind="class" prot="public">
+    <compoundname>fieldservice::android::MapFragmentActivity</compoundname>
+    <basecompoundref refid="classfieldservice_1_1android_1_1_base_map_activity" prot="public" virt="non-virtual">fieldservice.android.BaseMapActivity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a8428102fdedf7737c2fc84b17605dc5a" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.MapFragmentActivity.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a3e215b56a1206e5d901f21000cfa7482" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.MapFragmentActivity.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a0b40e3f1964e913609b7cae7125f5256" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.MapFragmentActivity.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a0998d61464b5b0d14c2482fb04858d07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.MapFragmentActivity.MapFragmentActivity</definition>
+        <argsstring>()</argsstring>
+        <name>MapFragmentActivity</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1ac8d7fe469d6c01918c1fc42e1a2a09ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.MapFragmentActivity.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a015ea80651f7dfd5a6b6499446c4cab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.MapFragmentActivity.onResume</definition>
+        <argsstring>()</argsstring>
+        <name>onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a519ff04a905638fdf8ffdf8f9522130a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.MapFragmentActivity.onPause</definition>
+        <argsstring>()</argsstring>
+        <name>onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1af63834504c76024adb60f0a4e71c95c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.MapFragmentActivity.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="52" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a39793ab1ccaec8ac0838461fd9935dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.MapFragmentActivity.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="59" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1ac6f54084674d4f77e7cda690903ea556" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.MapFragmentActivity.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a05da268d6e768991de8fa4ef92800087" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.MapFragmentActivity.n_onResume</definition>
+        <argsstring>()</argsstring>
+        <name>n_onResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_map_fragment_activity_1a36b8dad44a02078ce344a72c9ae6eca5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.MapFragmentActivity.n_onPause</definition>
+        <argsstring>()</argsstring>
+        <name>n_onPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2688">
+        <label>com::google::android::maps::MapActivity</label>
+      </node>
+      <node id="2686">
+        <label>fieldservice.android.MapFragmentActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_map_fragment_activity"/>
+        <childnode refid="2687" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2689" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2687">
+        <label>fieldservice.android.BaseMapActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_base_map_activity"/>
+        <childnode refid="2688" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2689" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2689">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2694">
+        <label>String</label>
+      </node>
+      <node id="2692">
+        <label>com::google::android::maps::MapActivity</label>
+      </node>
+      <node id="2690">
+        <label>fieldservice.android.MapFragmentActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_map_fragment_activity"/>
+        <childnode refid="2691" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2693" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2694" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2691">
+        <label>fieldservice.android.BaseMapActivity</label>
+        <link refid="classfieldservice_1_1android_1_1_base_map_activity"/>
+        <childnode refid="2692" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2693" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2694" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2693">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/MapFragmentActivity.java" bodystart="4" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a0b40e3f1964e913609b7cae7125f5256" prot="package" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a8428102fdedf7737c2fc84b17605dc5a" prot="package" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1_base_map_activity_1ae1e8eea89d0bb2d720e9f23a1a14f10d" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>BaseMapActivity</name></member>
+      <member refid="classfieldservice_1_1android_1_1_base_map_activity_1aa7bfc190daac32d489c099024a318c22" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>isRouteDisplayed</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a0998d61464b5b0d14c2482fb04858d07" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>MapFragmentActivity</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1af63834504c76024adb60f0a4e71c95c1" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a39793ab1ccaec8ac0838461fd9935dab" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1ac6f54084674d4f77e7cda690903ea556" prot="private" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a36b8dad44a02078ce344a72c9ae6eca5" prot="private" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>n_onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a05da268d6e768991de8fa4ef92800087" prot="private" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>n_onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1ac8d7fe469d6c01918c1fc42e1a2a09ae" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a519ff04a905638fdf8ffdf8f9522130a" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>onPause</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a015ea80651f7dfd5a6b6499446c4cab0" prot="public" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>onResume</name></member>
+      <member refid="classfieldservice_1_1android_1_1_map_fragment_activity_1a3e215b56a1206e5d901f21000cfa7482" prot="package" virt="non-virtual"><scope>fieldservice::android::MapFragmentActivity</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

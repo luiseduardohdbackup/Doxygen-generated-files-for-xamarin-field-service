@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_4396d67101849e52a0994f3033ea648d" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views</compoundname>
+    <innerfile refid="_add_expense_flyout_panel_8xaml_8cs">AddExpenseFlyoutPanel.xaml.cs</innerfile>
+    <innerfile refid="_add_item_flyout_panel_8xaml_8cs">AddItemFlyoutPanel.xaml.cs</innerfile>
+    <innerfile refid="_add_labor_flyout_panel_8xaml_8cs">AddLaborFlyoutPanel.xaml.cs</innerfile>
+    <innerfile refid="_add_signature_flyout_panel_8xaml_8cs">AddSignatureFlyoutPanel.xaml.cs</innerfile>
+    <innerfile refid="_assignment_control_8xaml_8cs">AssignmentControl.xaml.cs</innerfile>
+    <innerfile refid="_assignment_history_page_8xaml_8cs">AssignmentHistoryPage.xaml.cs</innerfile>
+    <innerfile refid="_assignment_map_page_8xaml_8cs">AssignmentMapPage.xaml.cs</innerfile>
+    <innerfile refid="_assignment_page_8xaml_8cs">AssignmentPage.xaml.cs</innerfile>
+    <innerfile refid="_assignments_page_8xaml_8cs">AssignmentsPage.xaml.cs</innerfile>
+    <innerfile refid="_confirmations_page_8xaml_8cs">ConfirmationsPage.xaml.cs</innerfile>
+    <innerfile refid="_documents_page_8xaml_8cs">DocumentsPage.xaml.cs</innerfile>
+    <innerfile refid="_expenses_page_8xaml_8cs">ExpensesPage.xaml.cs</innerfile>
+    <innerfile refid="_images_page_8xaml_8cs">ImagesPage.xaml.cs</innerfile>
+    <innerfile refid="_items_page_8xaml_8cs">ItemsPage.xaml.cs</innerfile>
+    <innerfile refid="_labor_page_8xaml_8cs">LaborPage.xaml.cs</innerfile>
+    <innerfile refid="_login_page_8xaml_8cs">LoginPage.xaml.cs</innerfile>
+    <innerfile refid="_map_page_8xaml_8cs">MapPage.xaml.cs</innerfile>
+    <innerfile refid="_map_popup_8xaml_8cs">MapPopup.xaml.cs</innerfile>
+    <innerfile refid="_map_tile_8xaml_8cs">MapTile.xaml.cs</innerfile>
+    <innerfile refid="_snap_page_8xaml_8cs">SnapPage.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/"/>
+  </compounddef>
+</doxygen>

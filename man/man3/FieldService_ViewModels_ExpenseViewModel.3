@@ -1,0 +1,108 @@
+.TH "FieldService.ViewModels.ExpenseViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.ExpenseViewModel \- 
+.PP
+ViewModel for expense  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBExpenseViewModel\fP ()"
+.br
+.ti -1c
+.RI "Task \fBLoadExpensesAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fILoads the list of expenses \fP"
+.ti -1c
+.RI "Task \fBSaveExpenseAsync\fP (\fBAssignment\fP assignment, \fBExpense\fP expense)"
+.br
+.RI "\fISaves an expense report \fP"
+.ti -1c
+.RI "Task \fBDeleteExpenseAsync\fP (\fBAssignment\fP assignment, \fBExpense\fP expense)"
+.br
+.RI "\fIDeletes an expense report \fP"
+.ti -1c
+.RI "Task \fBLoadPhotoAsync\fP (\fBExpense\fP expense)"
+.br
+.RI "\fILoads the photo for an expense \fP"
+.ti -1c
+.RI "Task \fBSavePhotoAsync\fP ()"
+.br
+.RI "\fISaves the photo for an expense \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "List< \fBExpense\fP > \fBExpenses\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of expenses \fP"
+.ti -1c
+.RI "\fBExpensePhoto\fP \fBPhoto\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe photo for an expense \fP"
+.ti -1c
+.RI "virtual \fBExpense\fP \fBSelectedExpense\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe selected expense for use within the app \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+ViewModel for expense 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.ExpenseViewModel\&.ExpenseViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task FieldService\&.ViewModels\&.ExpenseViewModel\&.DeleteExpenseAsync (\fBAssignment\fPassignment, \fBExpense\fPexpense)"
+
+.PP
+Deletes an expense report 
+.SS "Task FieldService\&.ViewModels\&.ExpenseViewModel\&.LoadExpensesAsync (\fBAssignment\fPassignment)"
+
+.PP
+Loads the list of expenses 
+.SS "Task FieldService\&.ViewModels\&.ExpenseViewModel\&.LoadPhotoAsync (\fBExpense\fPexpense)"
+
+.PP
+Loads the photo for an expense 
+.SS "Task FieldService\&.ViewModels\&.ExpenseViewModel\&.SaveExpenseAsync (\fBAssignment\fPassignment, \fBExpense\fPexpense)"
+
+.PP
+Saves an expense report 
+.SS "Task FieldService\&.ViewModels\&.ExpenseViewModel\&.SavePhotoAsync ()"
+
+.PP
+Saves the photo for an expense 
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBExpense\fP> FieldService\&.ViewModels\&.ExpenseViewModel\&.Expenses\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of expenses 
+.SS "\fBExpensePhoto\fP FieldService\&.ViewModels\&.ExpenseViewModel\&.Photo\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The photo for an expense 
+.SS "virtual \fBExpense\fP FieldService\&.ViewModels\&.ExpenseViewModel\&.SelectedExpense\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The selected expense for use within the app 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

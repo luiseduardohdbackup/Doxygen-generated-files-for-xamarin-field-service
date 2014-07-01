@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_7baf241eb3b102e3934ef536802365f0" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels</compoundname>
+    <innerfile refid="_win_r_t_2_view_models_2_assignment_view_model_8cs">AssignmentViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_document_view_model_8cs">DocumentViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_expense_view_model_8cs">ExpenseViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_history_view_model_8cs">HistoryViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_item_view_model_8cs">ItemViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_labor_view_model_8cs">LaborViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_login_view_model_8cs">LoginViewModel.cs</innerfile>
+    <innerfile refid="_win_r_t_2_view_models_2_photo_view_model_8cs">PhotoViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/"/>
+  </compounddef>
+</doxygen>

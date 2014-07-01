@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_map_view_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::MapViewActivity</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_base_map_activity" prot="public" virt="non-virtual">FieldService.Android.BaseMapActivity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a257ef04ee905b2768ae6b683b1cb9a0b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.Android.MapViewActivity.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a93f337b9dedb5e9ec908639ccc4a5dca" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_menu_view_model" kindref="compound">MenuViewModel</ref></type>
+        <definition>readonly MenuViewModel FieldService.Android.MapViewActivity.menuViewModel</definition>
+        <argsstring></argsstring>
+        <name>menuViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a71a3edcbc30b83f6374961cb1adb17ab" prot="private" static="no" mutable="no">
+        <type>MapView</type>
+        <definition>MapView FieldService.Android.MapViewActivity.mapView</definition>
+        <argsstring></argsstring>
+        <name>mapView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1aac32ae3a8de2c3603f4fda423e486769" prot="private" static="no" mutable="no">
+        <type>MyLocationOverlay</type>
+        <definition>MyLocationOverlay FieldService.Android.MapViewActivity.myLocation</definition>
+        <argsstring></argsstring>
+        <name>myLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1abb84d3e6563fdb5d265a62b420a07ad8" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.MapViewActivity.assignmentMapViewLayout</definition>
+        <argsstring></argsstring>
+        <name>assignmentMapViewLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1aaa2f143b6e8d669d2b417389e2760142" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.MapViewActivity.buttonLayout</definition>
+        <argsstring></argsstring>
+        <name>buttonLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a25e977d0d49494a250c23544738983bc" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.MapViewActivity.timerLayout</definition>
+        <argsstring></argsstring>
+        <name>timerLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a911ed9789d00a4c77363997d7cdd0c85" prot="private" static="no" mutable="no">
+        <type>ToggleButton</type>
+        <definition>ToggleButton FieldService.Android.MapViewActivity.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a1fdc33ecf642dbf2d7763d76c99e1fc4" prot="private" static="no" mutable="no">
+        <type>Spinner</type>
+        <definition>Spinner FieldService.Android.MapViewActivity.activeSpinner</definition>
+        <argsstring></argsstring>
+        <name>activeSpinner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a1aa28cf072a94425df03cca7a358bd7b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.MapViewActivity.assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a26751869ef2e3c3a7eb3f219d8247aad" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView FieldService.Android.MapViewActivity.spinnerImage</definition>
+        <argsstring></argsstring>
+        <name>spinnerImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a1e060c845b504df34d17ccfacbc1369e" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a801875e2e852ff545733afcb91eafa89" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a33a62aa8a60efe0daddfb07ba0770a17" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.job</definition>
+        <argsstring></argsstring>
+        <name>job</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a492ed028ce36eb0cc42b9fd981515e19" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.phone</definition>
+        <argsstring></argsstring>
+        <name>phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a0343cd652c1538e16212a88ef200f621" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1adfa7affbd5d18ebcdc8c704314b37280" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.MapViewActivity.timerText</definition>
+        <argsstring></argsstring>
+        <name>timerText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a331f8864e60913398b98e07d27783b24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_assignment_tab_activity_1_1_map_data_wrapper" kindref="compound">AssignmentTabActivity.MapDataWrapper</ref></type>
+        <definition>AssignmentTabActivity.MapDataWrapper FieldService.Android.MapViewActivity.mapData</definition>
+        <argsstring></argsstring>
+        <name>mapData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1aaee1a7eee5c12cfea073de0ec71a9957" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.MapViewActivity.phoneButton</definition>
+        <argsstring></argsstring>
+        <name>phoneButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_map_view_activity_1a8e5c1c1417a9d3e79f5d94afcdd220e0" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.MapViewActivity.mapButton</definition>
+        <argsstring></argsstring>
+        <name>mapButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a528cc367f11234a4ab7ce3d73ecb7a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.MapViewActivity.MapViewActivity</definition>
+        <argsstring>()</argsstring>
+        <name>MapViewActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="60" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1aa75bbaa3f02c15b231fa1cb5157c9731" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.MapViewActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="67" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1afa7501050e6a0e2e664d06d028d8972e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.MapViewActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+<para>Enabling my location and setting active assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="180" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="180" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a471e56430a93c5a8f4d6b8a1cdd77104" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.MapViewActivity.OnSaveInstanceState</definition>
+        <argsstring>(Bundle outState)</argsstring>
+        <name>OnSaveInstanceState</name>
+        <param>
+          <type>Bundle</type>
+          <declname>outState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="253" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="253" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a98852729ad25a09691cdf267a25ea880" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.MapViewActivity.OnStop</definition>
+        <argsstring>()</argsstring>
+        <name>OnStop</name>
+        <briefdescription>
+<para>Clearing overlays on map, stopping my location, clearing active assignment in the layout. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="273" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a79a7aab439adec60b0bbc014d2beb1ad" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.MapViewActivity.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>Clearing overlay bubble when you leave the screen. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="283" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="283" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a56c7bd06d63debccea15eb1ae52f96f3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.MapViewActivity.UpdateLocations</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLocations</name>
+        <briefdescription>
+<para>Updates location pins on the map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="219" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="219" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1a89d14437005885419e1213c915dfda82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.MapViewActivity.HoursChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>HoursChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Hours Changed event for tracking time on active assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="294" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="294" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_map_view_activity_1abd8330999a487817aa0e1120a09b5732" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.MapViewActivity.SetAssignment</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>SetAssignment</name>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>Sets the current active assignment </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="307" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="307" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Activity for the map overview </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2727">
+        <label>FieldService.Android.MapViewActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_map_view_activity"/>
+        <childnode refid="2728" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2729">
+        <label>MapActivity</label>
+      </node>
+      <node id="2728">
+        <label>BaseMapActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_map_activity"/>
+        <childnode refid="2729" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2730">
+        <label>FieldService.Android.MapViewActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_map_view_activity"/>
+        <childnode refid="2731" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2732">
+        <label>MapActivity</label>
+      </node>
+      <node id="2731">
+        <label>BaseMapActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_base_map_activity"/>
+        <childnode refid="2732" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/MapViewActivity.cs" bodystart="38" bodyend="335"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a1fdc33ecf642dbf2d7763d76c99e1fc4" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>activeSpinner</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a0343cd652c1538e16212a88ef200f621" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>address</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a1aa28cf072a94425df03cca7a358bd7b" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1abb84d3e6563fdb5d265a62b420a07ad8" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>assignmentMapViewLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a257ef04ee905b2768ae6b683b1cb9a0b" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1aaa2f143b6e8d669d2b417389e2760142" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>buttonLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a89d14437005885419e1213c915dfda82" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>HoursChanged</name></member>
+      <member refid="class_field_service_1_1_android_1_1_base_map_activity_1a045d06e475e2fbad8de9344045e7f104" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>IsRouteDisplayed</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a33a62aa8a60efe0daddfb07ba0770a17" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>job</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a8e5c1c1417a9d3e79f5d94afcdd220e0" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>mapButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a331f8864e60913398b98e07d27783b24" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>mapData</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a71a3edcbc30b83f6374961cb1adb17ab" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>mapView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a528cc367f11234a4ab7ce3d73ecb7a7d" prot="public" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>MapViewActivity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a93f337b9dedb5e9ec908639ccc4a5dca" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>menuViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1aac32ae3a8de2c3603f4fda423e486769" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>myLocation</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a801875e2e852ff545733afcb91eafa89" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>name</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a1e060c845b504df34d17ccfacbc1369e" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>number</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1aa75bbaa3f02c15b231fa1cb5157c9731" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a79a7aab439adec60b0bbc014d2beb1ad" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1afa7501050e6a0e2e664d06d028d8972e" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a471e56430a93c5a8f4d6b8a1cdd77104" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>OnSaveInstanceState</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a98852729ad25a09691cdf267a25ea880" prot="protected" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>OnStop</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a492ed028ce36eb0cc42b9fd981515e19" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>phone</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1aaee1a7eee5c12cfea073de0ec71a9957" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>phoneButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1abd8330999a487817aa0e1120a09b5732" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>SetAssignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a26751869ef2e3c3a7eb3f219d8247aad" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>spinnerImage</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a911ed9789d00a4c77363997d7cdd0c85" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>timer</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a25e977d0d49494a250c23544738983bc" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>timerLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1adfa7affbd5d18ebcdc8c704314b37280" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>timerText</name></member>
+      <member refid="class_field_service_1_1_android_1_1_map_view_activity_1a56c7bd06d63debccea15eb1ae52f96f3" prot="private" virt="non-virtual"><scope>FieldService::Android::MapViewActivity</scope><name>UpdateLocations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

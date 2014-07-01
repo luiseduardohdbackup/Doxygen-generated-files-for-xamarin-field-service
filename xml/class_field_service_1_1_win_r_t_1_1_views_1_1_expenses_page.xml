@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::ExpensesPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a94c51253ca31a96ce44cd7e1a30be977" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.WinRT.Views.ExpensesPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a5766b3d4222e1db5133676872e0f292e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>ExpenseViewModel FieldService.WinRT.Views.ExpensesPage.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a5d7999c58bcbd1f884dc4a59ec7fd23d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.ExpensesPage.ExpensesPage</definition>
+        <argsstring>()</argsstring>
+        <name>ExpensesPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="42" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a40f1a04d6a683f1b577552ce83ea0ff3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.ExpensesPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a9fc9c07deaa07c1fb191c628eea33e2b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.Views.ExpensesPage.OnNavigatedFrom</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedFrom</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is unloaded. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="74" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a3c9c4cd524e58244476f75c28a33848b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.ExpensesPage.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Item click for the expense list view </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="88" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Page for displaying expenses </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2196">
+        <label>FieldService.WinRT.Views.ExpensesPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page"/>
+        <childnode refid="2197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2197">
+        <label>Page</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2198">
+        <label>FieldService.WinRT.Views.ExpensesPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page"/>
+        <childnode refid="2199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2199">
+        <label>Page</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/ExpensesPage.xaml.cs" bodystart="38" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a94c51253ca31a96ce44cd7e1a30be977" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a5d7999c58bcbd1f884dc4a59ec7fd23d" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>ExpensesPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a5766b3d4222e1db5133676872e0f292e" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a3c9c4cd524e58244476f75c28a33848b" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a9fc9c07deaa07c1fb191c628eea33e2b" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>OnNavigatedFrom</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_expenses_page_1a40f1a04d6a683f1b577552ce83ea0ff3" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::ExpensesPage</scope><name>OnNavigatedTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

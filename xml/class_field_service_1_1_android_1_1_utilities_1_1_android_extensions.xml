@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions" kind="class" prot="public">
+    <compoundname>FieldService::Android::Utilities::AndroidExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a1d8b33919ac045b76739e6a74850a8e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FieldService.Android.Utilities.AndroidExtensions.ToIntE6</definition>
+        <argsstring>(this float value)</argsstring>
+        <name>ToIntE6</name>
+        <param>
+          <type>this float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Converts a floating point longitude/latitude to what Google Maps requires </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a668b1c17ba64803581dcfbb312888cc7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FieldService.Android.Utilities.AndroidExtensions.ToSampleSize</definition>
+        <argsstring>(this byte[] bytes)</argsstring>
+        <name>ToSampleSize</name>
+        <param>
+          <type>this byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to get the sample size of the image for resampling. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1aab4ccfd4a406a470f212649e12963a10" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] FieldService.Android.Utilities.AndroidExtensions.ToByteArray</definition>
+        <argsstring>(this Bitmap bmp)</argsstring>
+        <name>ToByteArray</name>
+        <param>
+          <type>this Bitmap</type>
+          <declname>bmp</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to turn bmp image into byte array </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1ac70c623f64a68811886e51f4b0e1ec62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap FieldService.Android.Utilities.AndroidExtensions.ResizeBitmap</definition>
+        <argsstring>(this Bitmap input, int destWidth, int destHeight)</argsstring>
+        <name>ResizeBitmap</name>
+        <param>
+          <type>this Bitmap</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destHeight</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to resize the bitmap to a smaller image size </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="70" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a9b5bdea9c4b61f0727c08bf336ed3420" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.Android.Utilities.AndroidExtensions.MakePhoneCall</definition>
+        <argsstring>(this Activity activity, string number)</argsstring>
+        <name>MakePhoneCall</name>
+        <param>
+          <type>this Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+<para>Helper method to make a phone call from the device. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="98" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="98" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Set of extension methods for working with <ref refid="namespace_field_service_1_1_android" kindref="compound">Android</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/AndroidExtensions.cs" bodystart="28" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a9b5bdea9c4b61f0727c08bf336ed3420" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::AndroidExtensions</scope><name>MakePhoneCall</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1ac70c623f64a68811886e51f4b0e1ec62" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::AndroidExtensions</scope><name>ResizeBitmap</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1aab4ccfd4a406a470f212649e12963a10" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::AndroidExtensions</scope><name>ToByteArray</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a1d8b33919ac045b76739e6a74850a8e9" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::AndroidExtensions</scope><name>ToIntE6</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_android_extensions_1a668b1c17ba64803581dcfbb312888cc7" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::AndroidExtensions</scope><name>ToSampleSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

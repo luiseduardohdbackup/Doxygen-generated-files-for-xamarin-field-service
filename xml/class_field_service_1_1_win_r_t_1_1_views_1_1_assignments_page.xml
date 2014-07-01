@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::AssignmentsPage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a14970da2198863661ed4683e3be7f792" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.Views.AssignmentsPage.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a8c7dab04cf30045f32020f1dc3633b70" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.Views.AssignmentsPage.timerLoaded</definition>
+        <argsstring></argsstring>
+        <name>timerLoaded</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1abfb1260d62a8b11cfbf21a99f5748716" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.AssignmentsPage.AssignmentsPage</definition>
+        <argsstring>()</argsstring>
+        <name>AssignmentsPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1af62973148961e2e73833b260eec38217" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async override void</type>
+        <definition>async override void FieldService.WinRT.Views.AssignmentsPage.OnNavigatedTo</definition>
+        <argsstring>(NavigationEventArgs e)</argsstring>
+        <name>OnNavigatedTo</name>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Invoked when this page is about to be displayed in a Frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Event data that describes how this page was reached. The Parameter property is typically used to configure the page.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="45" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1ac213ac73ed7d29dec91910f5fdbde244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.AssignmentsPage.OnItemClick</definition>
+        <argsstring>(object sender, ItemClickEventArgs e)</argsstring>
+        <name>OnItemClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemClickEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a7e3d7b3fdf50c07544abd67beffe84b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void FieldService.WinRT.Views.AssignmentsPage.Status_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>Status_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="72" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="72" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a2133a3c20e6e54b1924814569411149b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.AssignmentsPage.ActiveAssignmentClick</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ActiveAssignmentClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="99" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The page with a list of assignments </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1775">
+        <label>Page</label>
+      </node>
+      <node id="1774">
+        <label>FieldService.WinRT.Views.AssignmentsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page"/>
+        <childnode refid="1775" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1777">
+        <label>Page</label>
+      </node>
+      <node id="1776">
+        <label>FieldService.WinRT.Views.AssignmentsPage</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page"/>
+        <childnode refid="1777" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AssignmentsPage.xaml.cs" bodystart="28" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a2133a3c20e6e54b1924814569411149b" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>ActiveAssignmentClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1abfb1260d62a8b11cfbf21a99f5748716" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>AssignmentsPage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a14970da2198863661ed4683e3be7f792" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1ac213ac73ed7d29dec91910f5fdbde244" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>OnItemClick</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1af62973148961e2e73833b260eec38217" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>OnNavigatedTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a7e3d7b3fdf50c07544abd67beffe84b9" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>Status_SelectionChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_assignments_page_1a8c7dab04cf30045f32020f1dc3633b70" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AssignmentsPage</scope><name>timerLoaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

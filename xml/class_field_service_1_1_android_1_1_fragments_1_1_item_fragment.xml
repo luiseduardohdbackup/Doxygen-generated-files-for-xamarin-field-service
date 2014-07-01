@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::ItemFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1af9fee0393de8e06929be0a0d5725f157" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Fragments.ItemFragment.itemsListView</definition>
+        <argsstring></argsstring>
+        <name>itemsListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1ae167a2b67c163d52837697c857b8751e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>ItemViewModel FieldService.Android.Fragments.ItemFragment.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a1642dd7b67b41927651295ad4fc4ec54" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Fragments.ItemFragment.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The currrent assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a7fb87c3e23b1ee6a3b241ca1a748b354" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt;</type>
+        <definition>List&lt;AssignmentItem&gt; FieldService.Android.Fragments.ItemFragment.AssignmentItems</definition>
+        <argsstring></argsstring>
+        <name>AssignmentItems</name>
+        <briefdescription>
+<para>List of assignment items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1adb6df6db1a42ab18cf26f2d189ad29ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.ItemFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a98f53ba8107409cf6bc226142f6e9e85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ItemFragment.DeleteItem</definition>
+        <argsstring>(AssignmentItem item)</argsstring>
+        <name>DeleteItem</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an AssignmentItem </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="83" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1aad46746b5d8f4ca53c1da48928d8b263" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ItemFragment.ReloadItems</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="95" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a419ddb4e72aff05d7f2fd0e3378402c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ItemFragment.ReloadAssignmentItems</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadAssignmentItems</name>
+        <briefdescription>
+<para>Reloads the assignment items in the Listview </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="53" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragment for the items section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2347">
+        <label>FieldService.Android.Fragments.ItemFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment"/>
+        <childnode refid="2348" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2348">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2349">
+        <label>FieldService.Android.Fragments.ItemFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment"/>
+        <childnode refid="2350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2350">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ItemFragment.cs" bodystart="32" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a1642dd7b67b41927651295ad4fc4ec54" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a7fb87c3e23b1ee6a3b241ca1a748b354" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>AssignmentItems</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a98f53ba8107409cf6bc226142f6e9e85" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>DeleteItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1af9fee0393de8e06929be0a0d5725f157" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>itemsListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1ae167a2b67c163d52837697c857b8751e" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1adb6df6db1a42ab18cf26f2d189ad29ae" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1a419ddb4e72aff05d7f2fd0e3378402c9" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>ReloadAssignmentItems</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_item_fragment_1aad46746b5d8f4ca53c1da48928d8b263" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ItemFragment</scope><name>ReloadItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_sample_1_1_sample_view_controller" kind="class" prot="public">
+    <compoundname>Sample::SampleViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_controller_1a684b7ed37f154b779872b34158b3493e" prot="private" static="no" mutable="no">
+        <type>Geolocator</type>
+        <definition>Geolocator Sample.SampleViewController.geolocator</definition>
+        <argsstring></argsstring>
+        <name>geolocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_controller_1a069c10ee8fe1c3dd0c5314011fe555f0" prot="private" static="no" mutable="no">
+        <type>TaskScheduler</type>
+        <definition>TaskScheduler Sample.SampleViewController.scheduler</definition>
+        <argsstring></argsstring>
+        <name>scheduler</name>
+        <initializer>= TaskScheduler.FromCurrentSynchronizationContext()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sample_1_1_sample_view_controller_1a9bdd405a23e11084a3fb96654e308454" prot="private" static="no" mutable="no">
+        <type>CancellationTokenSource</type>
+        <definition>CancellationTokenSource Sample.SampleViewController.cancelSource</definition>
+        <argsstring></argsstring>
+        <name>cancelSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1a96522097bc831e0fe86458cea3099f2b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton Sample.SampleViewController.PositionButton</definition>
+        <argsstring></argsstring>
+        <name>PositionButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1aced115c939aaa077a34210f6c885650b" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton Sample.SampleViewController.CancelButton</definition>
+        <argsstring></argsstring>
+        <name>CancelButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1ad001dea5d4f19b37f001e3626c134896" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton Sample.SampleViewController.ToggleListeningButton</definition>
+        <argsstring></argsstring>
+        <name>ToggleListeningButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1a5adbd19c1bfc6a8d06ed16d57e358a6d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.PositionStatus</definition>
+        <argsstring></argsstring>
+        <name>PositionStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1a1536d1038e7e93946319a75c7072bc49" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.PositionLatitude</definition>
+        <argsstring></argsstring>
+        <name>PositionLatitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1ab9efa02676f14008f0e3dc87b68ee3b5" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.PositionLongitude</definition>
+        <argsstring></argsstring>
+        <name>PositionLongitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1aa87a8b8f5c9dce7987146d724454d1e9" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.ListenStatus</definition>
+        <argsstring></argsstring>
+        <name>ListenStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1a24f0041ed4a5c622d700327c1c8deb51" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.ListenLongitude</definition>
+        <argsstring></argsstring>
+        <name>ListenLongitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sample_1_1_sample_view_controller_1aef0cee2741b50e2e05f64a3ed848a252" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel Sample.SampleViewController.ListenLatitude</definition>
+        <argsstring></argsstring>
+        <name>ListenLatitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a6871c634c33bce0fa91bf1b9d421e4f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sample.SampleViewController.SampleViewController</definition>
+        <argsstring>()</argsstring>
+        <name>SampleViewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a9bf86bf54c4df7ea24ffecc5bd7f9391" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sample.SampleViewController.DidReceiveMemoryWarning</definition>
+        <argsstring>()</argsstring>
+        <name>DidReceiveMemoryWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a14581dc48bb493e42a92444b0705e1bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sample.SampleViewController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a0efa9ef17fb4231615020a9c33a1a6fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sample.SampleViewController.ViewDidUnload</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidUnload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1aab1a71042204dd13ac68656b5d263198" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sample.SampleViewController.ShouldAutorotateToInterfaceOrientation</definition>
+        <argsstring>(UIInterfaceOrientation toInterfaceOrientation)</argsstring>
+        <name>ShouldAutorotateToInterfaceOrientation</name>
+        <param>
+          <type>UIInterfaceOrientation</type>
+          <declname>toInterfaceOrientation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a11f9fb88cbe18b3ad385bb9b79d7a699" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sample.SampleViewController.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="51" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a864de7537ed9ecca632ab3a6b7fa244f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.GetPosition</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>GetPosition</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="61" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a83438d166baa6e162cfbef3c1c6fcd82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.CancelPosition</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>CancelPosition</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a1506de98c4cb8ce6f7b979ba2418c21e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.ToggleListening</definition>
+        <argsstring>(NSObject sender)</argsstring>
+        <name>ToggleListening</name>
+        <param>
+          <type>NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="95" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1ac7175857e253585c46e69aac84de74d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sample.SampleViewController.OnListeningError</definition>
+        <argsstring>(object sender, PositionErrorEventArgs e)</argsstring>
+        <name>OnListeningError</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PositionErrorEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a000d4ae6a5ab6c1be4524badb2e891da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sample.SampleViewController.OnPositionChanged</definition>
+        <argsstring>(object sender, PositionEventArgs e)</argsstring>
+        <name>OnPositionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PositionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="119" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="119" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a95fb36a184d68cc2271d0b9f55a42ef6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.GetPosition</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>GetPosition</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a99300943057d19036468a5fc707b4ed4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.CancelPosition</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>CancelPosition</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sample_1_1_sample_view_controller_1a0f58d84d1b803ba3db46c4893ec24056" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Sample.SampleViewController.ToggleListening</definition>
+        <argsstring>(MonoTouch.Foundation.NSObject sender)</argsstring>
+        <name>ToggleListening</name>
+        <param>
+          <type>MonoTouch.Foundation.NSObject</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.designer.cs" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2983">
+        <label>UIViewController</label>
+      </node>
+      <node id="2982">
+        <label>Sample.SampleViewController</label>
+        <link refid="class_sample_1_1_sample_view_controller"/>
+        <childnode refid="2983" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2985">
+        <label>UIViewController</label>
+      </node>
+      <node id="2984">
+        <label>Sample.SampleViewController</label>
+        <link refid="class_sample_1_1_sample_view_controller"/>
+        <childnode refid="2985" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/Geolocation/SampleViewController.cs" bodystart="11" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_sample_1_1_sample_view_controller_1aced115c939aaa077a34210f6c885650b" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>CancelButton</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a83438d166baa6e162cfbef3c1c6fcd82" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>CancelPosition</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a99300943057d19036468a5fc707b4ed4" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>CancelPosition</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a9bdd405a23e11084a3fb96654e308454" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>cancelSource</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a9bf86bf54c4df7ea24ffecc5bd7f9391" prot="public" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>DidReceiveMemoryWarning</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a684b7ed37f154b779872b34158b3493e" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>geolocator</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a864de7537ed9ecca632ab3a6b7fa244f" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>GetPosition</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a95fb36a184d68cc2271d0b9f55a42ef6" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>GetPosition</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1aef0cee2741b50e2e05f64a3ed848a252" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ListenLatitude</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a24f0041ed4a5c622d700327c1c8deb51" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ListenLongitude</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1aa87a8b8f5c9dce7987146d724454d1e9" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ListenStatus</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1ac7175857e253585c46e69aac84de74d3" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>OnListeningError</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a000d4ae6a5ab6c1be4524badb2e891da" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>OnPositionChanged</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a96522097bc831e0fe86458cea3099f2b" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>PositionButton</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a1536d1038e7e93946319a75c7072bc49" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>PositionLatitude</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1ab9efa02676f14008f0e3dc87b68ee3b5" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>PositionLongitude</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a5adbd19c1bfc6a8d06ed16d57e358a6d" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>PositionStatus</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a6871c634c33bce0fa91bf1b9d421e4f2" prot="public" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>SampleViewController</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a069c10ee8fe1c3dd0c5314011fe555f0" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>scheduler</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a11f9fb88cbe18b3ad385bb9b79d7a699" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>Setup</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1aab1a71042204dd13ac68656b5d263198" prot="public" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ShouldAutorotateToInterfaceOrientation</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a1506de98c4cb8ce6f7b979ba2418c21e" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ToggleListening</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a0f58d84d1b803ba3db46c4893ec24056" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ToggleListening</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1ad001dea5d4f19b37f001e3626c134896" prot="private" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ToggleListeningButton</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a14581dc48bb493e42a92444b0705e1bd" prot="public" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_sample_1_1_sample_view_controller_1a0efa9ef17fb4231615020a9c33a1a6fe" prot="public" virt="non-virtual"><scope>Sample::SampleViewController</scope><name>ViewDidUnload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

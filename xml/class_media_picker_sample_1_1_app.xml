@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_app" kind="class" prot="public">
+    <compoundname>MediaPickerSample::App</compoundname>
+    <basecompoundref refid="class_media_picker_sample_1_1_application" prot="public" virt="non-virtual">MediaPickerSample.Application</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_media_picker_sample_1_1_app_1a2c27801d809bcaa917ae0bfec160e1fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>PhoneApplicationFrame</type>
+        <definition>PhoneApplicationFrame MediaPickerSample.App.RootFrame</definition>
+        <argsstring></argsstring>
+        <name>RootFrame</name>
+        <briefdescription>
+<para>Provides easy access to the root frame of the Phone <ref refid="class_media_picker_sample_1_1_application" kindref="compound">Application</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The root frame of the Phone <ref refid="class_media_picker_sample_1_1_application" kindref="compound">Application</ref>.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_media_picker_sample_1_1_app_1a80fde189f60435316bcb539b05ef5887" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MediaPickerSample.App.phoneApplicationInitialized</definition>
+        <argsstring></argsstring>
+        <name>phoneApplicationInitialized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a2e667452542181281f4e68835c6034a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaPickerSample.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+<para>Constructor for the <ref refid="class_media_picker_sample_1_1_application" kindref="compound">Application</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="29" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1af666aefa7573b965bae763167cf05eb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.Application_Launching</definition>
+        <argsstring>(object sender, LaunchingEventArgs e)</argsstring>
+        <name>Application_Launching</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>LaunchingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a60212177dce1bfc019d89d297ce72b1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.Application_Activated</definition>
+        <argsstring>(object sender, ActivatedEventArgs e)</argsstring>
+        <name>Application_Activated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ActivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1aa82b71139a28c9fd539acf84494b5731" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.Application_Deactivated</definition>
+        <argsstring>(object sender, DeactivatedEventArgs e)</argsstring>
+        <name>Application_Deactivated</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DeactivatedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a83a068a7cc88b7782c241e479d67f190" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.Application_Closing</definition>
+        <argsstring>(object sender, ClosingEventArgs e)</argsstring>
+        <name>Application_Closing</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ClosingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a41be108c021fff676fe7e535180b5af4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.RootFrame_NavigationFailed</definition>
+        <argsstring>(object sender, NavigationFailedEventArgs e)</argsstring>
+        <name>RootFrame_NavigationFailed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationFailedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="87" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a9663c7654967df08eea604f53e418646" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.Application_UnhandledException</definition>
+        <argsstring>(object sender, ApplicationUnhandledExceptionEventArgs e)</argsstring>
+        <name>Application_UnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ApplicationUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="97" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a02899e25cad1a5ebd7dd675fdbfffb25" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.InitializePhoneApplication</definition>
+        <argsstring>()</argsstring>
+        <name>InitializePhoneApplication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="112" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="112" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_media_picker_sample_1_1_app_1a64f29cc07bdfd8939fb5ea674075e3fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MediaPickerSample.App.CompleteInitializePhoneApplication</definition>
+        <argsstring>(object sender, NavigationEventArgs e)</argsstring>
+        <name>CompleteInitializePhoneApplication</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>NavigationEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1631">
+        <label>MediaPickerSample.App</label>
+        <link refid="class_media_picker_sample_1_1_app"/>
+        <childnode refid="1632" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1632">
+        <label>Application</label>
+        <link refid="class_media_picker_sample_1_1_application"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1633">
+        <label>MediaPickerSample.App</label>
+        <link refid="class_media_picker_sample_1_1_app"/>
+        <childnode refid="1634" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1634">
+        <label>Application</label>
+        <link refid="class_media_picker_sample_1_1_application"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/MediaPickerSample/App.xaml.cs" bodystart="18" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_app_1a2e667452542181281f4e68835c6034a5" prot="public" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>App</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a60212177dce1bfc019d89d297ce72b1f" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>Application_Activated</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a83a068a7cc88b7782c241e479d67f190" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>Application_Closing</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1aa82b71139a28c9fd539acf84494b5731" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>Application_Deactivated</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1af666aefa7573b965bae763167cf05eb5" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>Application_Launching</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a9663c7654967df08eea604f53e418646" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>Application_UnhandledException</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a64f29cc07bdfd8939fb5ea674075e3fe" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>CompleteInitializePhoneApplication</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a02899e25cad1a5ebd7dd675fdbfffb25" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>InitializePhoneApplication</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a80fde189f60435316bcb539b05ef5887" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>phoneApplicationInitialized</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a2c27801d809bcaa917ae0bfec160e1fe" prot="public" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>RootFrame</name></member>
+      <member refid="class_media_picker_sample_1_1_app_1a41be108c021fff676fe7e535180b5af4" prot="private" virt="non-virtual"><scope>MediaPickerSample::App</scope><name>RootFrame_NavigationFailed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

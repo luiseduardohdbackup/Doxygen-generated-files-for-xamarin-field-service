@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service" kind="namespace">
+    <compoundname>FieldService</compoundname>
+    <innerclass refid="class_field_service_1_1_catalog" prot="public">FieldService::Catalog</innerclass>
+    <innerclass refid="interface_field_service_1_1_i_assignment_service" prot="public">FieldService::IAssignmentService</innerclass>
+    <innerclass refid="interface_field_service_1_1_i_login_service" prot="public">FieldService::ILoginService</innerclass>
+    <innerclass refid="class_field_service_1_1_service_registrar" prot="public">FieldService::ServiceRegistrar</innerclass>
+    <innernamespace refid="namespace_field_service_1_1_android">FieldService::Android</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_data">FieldService::Data</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1i_o_s">FieldService::iOS</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_tests">FieldService::Tests</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_utilities">FieldService::Utilities</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_view_models">FieldService::ViewModels</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_win_r_t">FieldService::WinRT</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Catalog.cs" line="21" column="1"/>
+  </compounddef>
+</doxygen>

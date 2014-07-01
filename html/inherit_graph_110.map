@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_s_q_lite_1_1_prepared_sql_lite_insert_command.html" title="Since the insert never changed, we only need to prepare once. " alt="" coords="144,5,339,43"/>
+<area shape="rect" id="node3" href="$class_s_q_lite_1_1_s_q_lite_connection.html" title="Represents an open connection to a SQLite database. " alt="" coords="154,67,328,93"/>
+<area shape="rect" id="node4" href="$class_s_q_lite_1_1_s_q_lite_connection_with_lock.html" title="SQLite.SQLiteConnectionWithLock" alt="" coords="387,67,616,93"/>
+</map>

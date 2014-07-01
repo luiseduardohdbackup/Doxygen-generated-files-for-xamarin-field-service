@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_base_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::BaseController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_add_expense_controller" prot="public" virt="non-virtual">FieldService.iOS.AddExpenseController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_add_labor_controller" prot="public" virt="non-virtual">FieldService.iOS.AddLaborController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_add_photo_controller" prot="public" virt="non-virtual">FieldService.iOS.AddPhotoController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller" prot="public" virt="non-virtual">FieldService.iOS.AssignmentDetailsController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_assignments_controller" prot="public" virt="non-virtual">FieldService.iOS.AssignmentsController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" prot="public" virt="non-virtual">FieldService.iOS.ConfirmationController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_document_controller" prot="public" virt="non-virtual">FieldService.iOS.DocumentController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_expense_controller" prot="public" virt="non-virtual">FieldService.iOS.ExpenseController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_history_controller" prot="public" virt="non-virtual">FieldService.iOS.HistoryController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_items_view_controller" prot="public" virt="non-virtual">FieldService.iOS.ItemsViewController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_labor_controller" prot="public" virt="non-virtual">FieldService.iOS.LaborController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_login_controller" prot="public" virt="non-virtual">FieldService.iOS.LoginController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_main_map_controller" prot="public" virt="non-virtual">FieldService.iOS.MainMapController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_map_controller" prot="public" virt="non-virtual">FieldService.iOS.MapController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_split_controller" prot="public" virt="non-virtual">FieldService.iOS.SplitController</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1i_o_s_1_1_summary_controller" prot="public" virt="non-virtual">FieldService.iOS.SummaryController</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>virtual bool FieldService.iOS.BaseController.HandlesKeyboardNotifications</definition>
+        <argsstring></argsstring>
+        <name>HandlesKeyboardNotifications</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.BaseController.BaseController</definition>
+        <argsstring>()</argsstring>
+        <name>BaseController</name>
+        <briefdescription>
+<para>Constructor for use when controller is not in a storyboard </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1a6ca2574cf36d956fc646416198e05143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.BaseController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.BaseController.BaseController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>BaseController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+<para>Required constructor for Storyboard to work </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handle to Obj-C instance of object </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.BaseController.ShouldAutorotate</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldAutorotate</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIInterfaceOrientationMask</type>
+        <definition>override UIInterfaceOrientationMask FieldService.iOS.BaseController.GetSupportedInterfaceOrientations</definition>
+        <argsstring>()</argsstring>
+        <name>GetSupportedInterfaceOrientations</name>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="74" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1a35b0024f8f773053795ea4ab36e47a9e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.BaseController.OnKeyboardNotification</definition>
+        <argsstring>(NSNotification notification)</argsstring>
+        <name>OnKeyboardNotification</name>
+        <param>
+          <type>NSNotification</type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="79" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.iOS.BaseController.OnKeyboardChanged</definition>
+        <argsstring>(bool visible, float height)</argsstring>
+        <name>OnKeyboardChanged</name>
+        <reimplementedby refid="class_field_service_1_1i_o_s_1_1_login_controller_1a5071d7cae49acfa60a6c2fe6c78cf856">OnKeyboardChanged</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Override this method to apply custom logic when the keyboard is shown/hidden </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>visible</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the keyboard is visible </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Calculated height of the keyboard (width not generally needed here) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base controller for all controllers in application </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1892">
+        <label>FieldService.iOS.ItemsViewController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_items_view_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1885">
+        <label>FieldService.iOS.AddPhotoController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_photo_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1883">
+        <label>FieldService.iOS.AddExpenseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_expense_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1889">
+        <label>FieldService.iOS.DocumentController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_document_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1893">
+        <label>FieldService.iOS.LaborController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_labor_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1897">
+        <label>FieldService.iOS.SplitController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_split_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1884">
+        <label>FieldService.iOS.AddLaborController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_add_labor_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1894">
+        <label>FieldService.iOS.LoginController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_login_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1881">
+        <label>FieldService.iOS.BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1882" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1886">
+        <label>FieldService.iOS.AssignmentDetailsController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignment_details_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1882">
+        <label>UIViewController</label>
+      </node>
+      <node id="1898">
+        <label>FieldService.iOS.SummaryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_summary_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1895">
+        <label>FieldService.iOS.MainMapController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_main_map_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1888">
+        <label>FieldService.iOS.ConfirmationController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_confirmation_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1891">
+        <label>FieldService.iOS.HistoryController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_history_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1890">
+        <label>FieldService.iOS.ExpenseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_expense_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1896">
+        <label>FieldService.iOS.MapController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_map_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1887">
+        <label>FieldService.iOS.AssignmentsController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_assignments_controller"/>
+        <childnode refid="1881" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1899">
+        <label>FieldService.iOS.BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1900" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1900">
+        <label>UIViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/BaseController.cs" bodystart="24" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::BaseController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a35b0024f8f773053795ea4ab36e47a9e" prot="private" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>OnKeyboardNotification</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a6ca2574cf36d956fc646416198e05143" prot="public" virt="non-virtual"><scope>FieldService::iOS::BaseController</scope><name>ViewDidLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

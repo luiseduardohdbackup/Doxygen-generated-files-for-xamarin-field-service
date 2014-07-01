@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::Adapters::DocumentsAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter&lt; Document &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1ae60f1b5a2bc73dce568c0b0b09db0c73" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt;Document&gt; FieldService.Android.Adapters.DocumentsAdapter.documents</definition>
+        <argsstring></argsstring>
+        <name>documents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1af9b395796cdfcc6cff8b4f67359afcac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.Adapters.DocumentsAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1aeb072fca709e9149e9d4a3f45689ceb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Adapters.DocumentsAdapter.DocumentsAdapter</definition>
+        <argsstring>(Context context, int resourceId, List&lt; Document &gt; documents)</argsstring>
+        <name>DocumentsAdapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+          <declname>documents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1a54c2e7cfc3aacdb32147d88703646568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Adapters.DocumentsAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" bodystart="42" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2072">
+        <label>ArrayAdapter&lt; Document &gt;</label>
+      </node>
+      <node id="2071">
+        <label>FieldService.Android.Adapters.DocumentsAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter"/>
+        <childnode refid="2072" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2074">
+        <label>ArrayAdapter&lt; Document &gt;</label>
+      </node>
+      <node id="2073">
+        <label>FieldService.Android.Adapters.DocumentsAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter"/>
+        <childnode refid="2074" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/DocumentsAdapter.cs" bodystart="31" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1ae60f1b5a2bc73dce568c0b0b09db0c73" prot="private" virt="non-virtual"><scope>FieldService::Android::Adapters::DocumentsAdapter</scope><name>documents</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1aeb072fca709e9149e9d4a3f45689ceb3" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::DocumentsAdapter</scope><name>DocumentsAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1a54c2e7cfc3aacdb32147d88703646568" prot="public" virt="non-virtual"><scope>FieldService::Android::Adapters::DocumentsAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_adapters_1_1_documents_adapter_1af9b395796cdfcc6cff8b4f67359afcac" prot="private" virt="non-virtual"><scope>FieldService::Android::Adapters::DocumentsAdapter</scope><name>resourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

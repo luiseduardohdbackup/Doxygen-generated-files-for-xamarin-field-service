@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_app_delegate" kind="class" prot="public">
+    <compoundname>FieldService::iOS::AppDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIApplicationDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a654fa51863d6540d28f388a3462ba82c" prot="private" static="no" mutable="no">
+        <type>UIStoryboard</type>
+        <definition>UIStoryboard FieldService.iOS.AppDelegate.storyboard</definition>
+        <argsstring></argsstring>
+        <name>storyboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a6883baddd0624c065f47cb1772ee51f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_login_controller" kindref="compound">LoginController</ref></type>
+        <definition>LoginController FieldService.iOS.AppDelegate.loginController</definition>
+        <argsstring></argsstring>
+        <name>loginController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_app_delegate_1aad78e30996c7c8046d9a2335e66312af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override UIWindow</type>
+        <definition>override UIWindow FieldService.iOS.AppDelegate.Window</definition>
+        <argsstring></argsstring>
+        <name>Window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a429640d0dc81848f5e65bc529e72caeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.AppDelegate.FinishedLaunching</definition>
+        <argsstring>(UIApplication application, NSDictionary launchOptions)</argsstring>
+        <name>FinishedLaunching</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>application</declname>
+        </param>
+        <param>
+          <type>NSDictionary</type>
+          <declname>launchOptions</declname>
+        </param>
+        <briefdescription>
+<para>This the main entry point for the app on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="44" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a8bbd0b9ae949c8ad8f3392be93f5c58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIInterfaceOrientationMask</type>
+        <definition>override UIInterfaceOrientationMask FieldService.iOS.AppDelegate.GetSupportedInterfaceOrientations</definition>
+        <argsstring>(UIApplication application, UIWindow forWindow)</argsstring>
+        <name>GetSupportedInterfaceOrientations</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>application</declname>
+        </param>
+        <param>
+          <type>UIWindow</type>
+          <declname>forWindow</declname>
+        </param>
+        <briefdescription>
+<para>This is how orientation is setup on <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> 6 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="68" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a70cd7cfe1d0d189481beb34655aa9203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AppDelegate.DidEnterBackground</definition>
+        <argsstring>(UIApplication application)</argsstring>
+        <name>DidEnterBackground</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>application</declname>
+        </param>
+        <briefdescription>
+<para>Event when the app is backgrounded, or screen turned off </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="76" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_app_delegate_1a318f50c9f31b3177d2aa71503aa8f0fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AppDelegate.WillEnterForeground</definition>
+        <argsstring>(UIApplication application)</argsstring>
+        <name>WillEnterForeground</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>application</declname>
+        </param>
+        <briefdescription>
+<para>Event when the app is brought back to the foreground or screen unlocked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="86" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_field_service_1_1i_o_s_1_1_app_delegate" kindref="compound">AppDelegate</ref>, the main callback for application-level events in <ref refid="namespace_field_service_1_1i_o_s" kindref="compound">iOS</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1668">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1667">
+        <label>FieldService.iOS.AppDelegate</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_app_delegate"/>
+        <childnode refid="1668" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1670">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1669">
+        <label>FieldService.iOS.AppDelegate</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_app_delegate"/>
+        <childnode refid="1670" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/AppDelegate.cs" bodystart="31" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a70cd7cfe1d0d189481beb34655aa9203" prot="public" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>DidEnterBackground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a429640d0dc81848f5e65bc529e72caeb" prot="public" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>FinishedLaunching</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a8bbd0b9ae949c8ad8f3392be93f5c58a" prot="public" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a6883baddd0624c065f47cb1772ee51f3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>loginController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a654fa51863d6540d28f388a3462ba82c" prot="private" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>storyboard</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1a318f50c9f31b3177d2aa71503aa8f0fb" prot="public" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>WillEnterForeground</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_app_delegate_1aad78e30996c7c8046d9a2335e66312af" prot="public" virt="non-virtual"><scope>FieldService::iOS::AppDelegate</scope><name>Window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

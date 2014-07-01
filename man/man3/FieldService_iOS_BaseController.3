@@ -1,0 +1,110 @@
+.TH "FieldService.iOS.BaseController" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS.BaseController \- 
+.PP
+Base controller for all controllers in application  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits UIViewController\&.
+.PP
+Inherited by \fBFieldService\&.iOS\&.AddExpenseController\fP, \fBFieldService\&.iOS\&.AddLaborController\fP, \fBFieldService\&.iOS\&.AddPhotoController\fP, \fBFieldService\&.iOS\&.AssignmentDetailsController\fP, \fBFieldService\&.iOS\&.AssignmentsController\fP, \fBFieldService\&.iOS\&.ConfirmationController\fP, \fBFieldService\&.iOS\&.DocumentController\fP, \fBFieldService\&.iOS\&.ExpenseController\fP, \fBFieldService\&.iOS\&.HistoryController\fP, \fBFieldService\&.iOS\&.ItemsViewController\fP, \fBFieldService\&.iOS\&.LaborController\fP, \fBFieldService\&.iOS\&.LoginController\fP, \fBFieldService\&.iOS\&.MainMapController\fP, \fBFieldService\&.iOS\&.MapController\fP, \fBFieldService\&.iOS\&.SplitController\fP, and \fBFieldService\&.iOS\&.SummaryController\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBaseController\fP ()"
+.br
+.RI "\fIConstructor for use when controller is not in a storyboard \fP"
+.ti -1c
+.RI "override void \fBViewDidLoad\fP ()"
+.br
+.ti -1c
+.RI "\fBBaseController\fP (IntPtr handle)"
+.br
+.RI "\fIRequired constructor for Storyboard to work \fP"
+.ti -1c
+.RI "override bool \fBShouldAutorotate\fP ()"
+.br
+.RI "\fIThis is how orientation is setup on \fBiOS\fP 6 \fP"
+.ti -1c
+.RI "override UIInterfaceOrientationMask \fBGetSupportedInterfaceOrientations\fP ()"
+.br
+.RI "\fIThis is how orientation is setup on \fBiOS\fP 6 \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnKeyboardChanged\fP (bool visible, float height)"
+.br
+.RI "\fIOverride this method to apply custom logic when the keyboard is shown/hidden \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "virtual bool \fBHandlesKeyboardNotifications\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Base controller for all controllers in application 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.iOS\&.BaseController\&.BaseController ()"
+
+.PP
+Constructor for use when controller is not in a storyboard 
+.SS "FieldService\&.iOS\&.BaseController\&.BaseController (IntPtrhandle)"
+
+.PP
+Required constructor for Storyboard to work 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIhandle\fP Handle to Obj-C instance of object 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override UIInterfaceOrientationMask FieldService\&.iOS\&.BaseController\&.GetSupportedInterfaceOrientations ()"
+
+.PP
+This is how orientation is setup on \fBiOS\fP 6 
+.SS "virtual void FieldService\&.iOS\&.BaseController\&.OnKeyboardChanged (boolvisible, floatheight)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Override this method to apply custom logic when the keyboard is shown/hidden 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvisible\fP If the keyboard is visible 
+.br
+\fIheight\fP Calculated height of the keyboard (width not generally needed here) 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBFieldService\&.iOS\&.LoginController\fP\&.
+.SS "override bool FieldService\&.iOS\&.BaseController\&.ShouldAutorotate ()"
+
+.PP
+This is how orientation is setup on \fBiOS\fP 6 
+.SS "override void FieldService\&.iOS\&.BaseController\&.ViewDidLoad ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "virtual bool FieldService\&.iOS\&.BaseController\&.HandlesKeyboardNotifications\fC [get]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

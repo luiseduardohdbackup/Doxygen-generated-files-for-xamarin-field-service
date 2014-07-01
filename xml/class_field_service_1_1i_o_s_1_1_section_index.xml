@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_section_index" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SectionIndex</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1a62482d0a487d832003840ae007030093" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Summary</definition>
+        <argsstring></argsstring>
+        <name>Summary</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1a5626914368a3400ff34335621bdc9b89" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Maps</definition>
+        <argsstring></argsstring>
+        <name>Maps</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1a1c027e6efa0836d77de6c95071b3a006" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1af08e4da8c223b5686eb4495ddc2c221a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Labor</definition>
+        <argsstring></argsstring>
+        <name>Labor</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1ae84d1186869078663b5f7fd945043792" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Expenses</definition>
+        <argsstring></argsstring>
+        <name>Expenses</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1ab16290fe68c8b653ed6b74e9e1ceb6f4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1a1eb78aa09bb9ca5e5ae53d8bff5667bc" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.Confirmations</definition>
+        <argsstring></argsstring>
+        <name>Confirmations</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_section_index_1acfc2b885ee9b2c47e060cf46bbccb53a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.iOS.SectionIndex.History</definition>
+        <argsstring></argsstring>
+        <name>History</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Static class for holding section indexes for <ref refid="class_field_service_1_1i_o_s_1_1_menu_controller" kindref="compound">MenuController</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SectionIndex.cs" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1a1eb78aa09bb9ca5e5ae53d8bff5667bc" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Confirmations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1ab16290fe68c8b653ed6b74e9e1ceb6f4" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Documents</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1ae84d1186869078663b5f7fd945043792" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Expenses</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1acfc2b885ee9b2c47e060cf46bbccb53a" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>History</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1a1c027e6efa0836d77de6c95071b3a006" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Items</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1af08e4da8c223b5686eb4495ddc2c221a" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Labor</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1a5626914368a3400ff34335621bdc9b89" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Maps</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_section_index_1a62482d0a487d832003840ae007030093" prot="public" virt="non-virtual"><scope>FieldService::iOS::SectionIndex</scope><name>Summary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

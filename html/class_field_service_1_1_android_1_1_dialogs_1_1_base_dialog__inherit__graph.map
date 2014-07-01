@@ -1,0 +1,7 @@
+<map id="FieldService.Android.Dialogs.BaseDialog" name="FieldService.Android.Dialogs.BaseDialog">
+<area shape="rect" id="node3" href="$class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog.html" title="Dialog for adding labor entries " alt="" coords="358,5,554,43"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog.html" title="FieldService.Android.Dialogs.\lExpenseDialog" alt="" coords="358,67,554,106"/>
+<area shape="rect" id="node5" href="$class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog.html" title="Dialog for searching through items " alt="" coords="358,130,554,169"/>
+<area shape="rect" id="node6" href="$class_field_service_1_1_android_1_1_dialogs_1_1_photo_dialog.html" title="Dialog for the photos " alt="" coords="358,193,554,231"/>
+<area shape="rect" id="node7" href="$class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog.html" title="Dialog for capturing a signature " alt="" coords="358,255,554,294"/>
+</map>

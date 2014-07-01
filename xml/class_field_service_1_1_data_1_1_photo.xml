@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_photo" kind="class" prot="public">
+    <compoundname>FieldService::Data::Photo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1a42745ec1f6ca35ea720f9c83f8823cda" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Photo.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para><ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> Id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1aad1924d5c631bd0f7ad25e3f2625c806" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int FieldService.Data.Photo.AssignmentId</definition>
+        <argsstring></argsstring>
+        <name>AssignmentId</name>
+        <briefdescription>
+<para>Link to assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1a9569a230af280d0f6a1981b3ae052725" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte[]</type>
+        <definition>byte [] FieldService.Data.Photo.Image</definition>
+        <argsstring></argsstring>
+        <name>Image</name>
+        <briefdescription>
+<para>Actual image </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1a2f0b36e2a1b4829bf033140310fdc99d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime FieldService.Data.Photo.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+<para>Date image was saved </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1ab6f347068da6747beee125bd1e47c9aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.Data.Photo.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+<para>Description for photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1a338e84fca5f86bb0fdbb3962028cd960" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Photo.TimeFormatted</definition>
+        <argsstring></argsstring>
+        <name>TimeFormatted</name>
+        <briefdescription>
+<para>The time component of the DateTime on the photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_data_1_1_photo_1a97cb9c2da7a4d61a65647fd14a9fa9c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string FieldService.Data.Photo.DateFormatted</definition>
+        <argsstring></argsstring>
+        <name>DateFormatted</name>
+        <briefdescription>
+<para>The date component of the DateTime on the photo </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Holds a photo for an assignment </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/Photo.cs" bodystart="25" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_photo_1aad1924d5c631bd0f7ad25e3f2625c806" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>AssignmentId</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1a2f0b36e2a1b4829bf033140310fdc99d" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>Date</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1a97cb9c2da7a4d61a65647fd14a9fa9c7" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>DateFormatted</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1ab6f347068da6747beee125bd1e47c9aa" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>Description</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1a42745ec1f6ca35ea720f9c83f8823cda" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>Id</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1a9569a230af280d0f6a1981b3ae052725" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>Image</name></member>
+      <member refid="class_field_service_1_1_data_1_1_photo_1a338e84fca5f86bb0fdbb3962028cd960" prot="public" virt="non-virtual"><scope>FieldService::Data::Photo</scope><name>TimeFormatted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

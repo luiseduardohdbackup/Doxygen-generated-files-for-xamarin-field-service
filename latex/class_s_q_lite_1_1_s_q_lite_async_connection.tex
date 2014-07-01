@@ -1,0 +1,287 @@
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection}{\section{S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection Class Reference}
+\label{class_s_q_lite_1_1_s_q_lite_async_connection}\index{S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a6b26a70d833ede366339dcdf0ac4ddec}{S\+Q\+Lite\+Async\+Connection} (string database\+Path, bool store\+Date\+Time\+As\+Ticks=false)
+\item 
+\hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_abf2621d98094e8cc5702655eec267cec}{S\+Q\+Lite\+Async\+Connection} (string database\+Path, \hyperlink{namespace_s_q_lite_a9d72cc097c53dbc96a6f0eec530cc439}{S\+Q\+Lite\+Open\+Flags} open\+Flags, bool store\+Date\+Time\+As\+Ticks=false)
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a120dc02c80780a01f9158aa2dc4110e3}{Create\+Table\+Async$<$ T $>$} ()
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a1911c2250387bf7db96a05d4ab73bfe7}{Create\+Tables\+Async$<$ T, T2 $>$} ()
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a0d18028757d84c1d5ef6b4f0a2f31bf8}{Create\+Tables\+Async$<$ T, T2, T3 $>$} ()
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a36ed358566d4c64e0bf524c7d8c681a4}{Create\+Tables\+Async$<$ T, T2, T3, T4 $>$} ()
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a9b3c8584432d04508c89aebbbb1fedea}{Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$} ()
+\item 
+Task$<$ \hyperlink{class_s_q_lite_1_1_create_tables_result}{Create\+Tables\+Result} $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_af98ef3fd9628a9cda7b2b0532291f04b}{Create\+Tables\+Async} (params Type\mbox{[}$\,$\mbox{]} types)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a6781339fb664cde6494460e686f5cb60}{Drop\+Table\+Async$<$ T $>$} ()
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a7c621805c4f3185e9b064288b2b47d4a}{Insert\+Async} (object item)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a3950c4feb7a8d2964a42167d8a4516a0}{Update\+Async} (object item)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_ac34ee6c331f35dc8cbb73a0373315fb0}{Delete\+Async} (object item)
+\item 
+Task$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a59792569de902bd2e87b967a35154d4c}{Get\+Async$<$ T $>$} (object pk)
+\item 
+Task$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a4e09e6aacf646853516ab1befea4ac4b}{Find\+Async$<$ T $>$} (object pk)
+\item 
+Task$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_ad3e092c3fee0a61611570e8e86dbb88e}{Get\+Async$<$ T $>$} (Expression$<$ Func$<$ T, bool $>$$>$ predicate)
+\item 
+Task$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_ab3ee9b32ac49766e4ac20fa697e91f99}{Find\+Async$<$ T $>$} (Expression$<$ Func$<$ T, bool $>$$>$ predicate)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_aa61f9b65944e23c32cac8b0e2c39d597}{Execute\+Async} (string query, params object\mbox{[}$\,$\mbox{]} args)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a8caf48d01bf96785143e71ee6a12b6a0}{Insert\+All\+Async} (I\+Enumerable items)
+\item 
+Task$<$ int $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a42b8f062eb54f8649a2ccff9984b536e}{Update\+All\+Async} (I\+Enumerable items)
+\item 
+Task \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_affd521039f3a7da49746af600522c809}{Run\+In\+Transaction\+Async} (Action$<$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection}{S\+Q\+Lite\+Async\+Connection} $>$ action)
+\item 
+Task \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a0d8abe01ee8f0afe93b6a38423d77029}{Run\+In\+Transaction\+Async} (Action$<$ \hyperlink{class_s_q_lite_1_1_s_q_lite_connection}{S\+Q\+Lite\+Connection} $>$ action)
+\item 
+Async\+Table\+Query$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_ae222dcdcc5033294c43c9cef1b16fbe1}{Table$<$ T $>$} ()
+\item 
+Task$<$ T $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_adae67f753b244b754cc33be48cafbf67}{Execute\+Scalar\+Async$<$ T $>$} (string sql, params object\mbox{[}$\,$\mbox{]} args)
+\item 
+Task$<$ List$<$ T $>$ $>$ \hyperlink{class_s_q_lite_1_1_s_q_lite_async_connection_a8a81a54a5769d761562d9a3ce18b0f57}{Query\+Async$<$ T $>$} (string sql, params object\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a6b26a70d833ede366339dcdf0ac4ddec}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+Async\+Connection}}
+\index{S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+Async\+Connection}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{S\+Q\+Lite\+Async\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+S\+Q\+Lite\+Async\+Connection (
+\begin{DoxyParamCaption}
+\item[{string}]{database\+Path, }
+\item[{bool}]{store\+Date\+Time\+As\+Ticks = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a6b26a70d833ede366339dcdf0ac4ddec}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_abf2621d98094e8cc5702655eec267cec}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+Async\+Connection}}
+\index{S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+Async\+Connection}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{S\+Q\+Lite\+Async\+Connection}]{\setlength{\rightskip}{0pt plus 5cm}S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+S\+Q\+Lite\+Async\+Connection (
+\begin{DoxyParamCaption}
+\item[{string}]{database\+Path, }
+\item[{{\bf S\+Q\+Lite\+Open\+Flags}}]{open\+Flags, }
+\item[{bool}]{store\+Date\+Time\+As\+Ticks = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_abf2621d98094e8cc5702655eec267cec}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a120dc02c80780a01f9158aa2dc4110e3}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Table\+Async$<$ T $>$@{Create\+Table\+Async$<$ T $>$}}
+\index{Create\+Table\+Async$<$ T $>$@{Create\+Table\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Table\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Table\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a120dc02c80780a01f9158aa2dc4110e3}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_af98ef3fd9628a9cda7b2b0532291f04b}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Tables\+Async@{Create\+Tables\+Async}}
+\index{Create\+Tables\+Async@{Create\+Tables\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Tables\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Tables\+Async (
+\begin{DoxyParamCaption}
+\item[{params Type\mbox{[}$\,$\mbox{]}}]{types}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_af98ef3fd9628a9cda7b2b0532291f04b}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a1911c2250387bf7db96a05d4ab73bfe7}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Tables\+Async$<$ T, T2 $>$@{Create\+Tables\+Async$<$ T, T2 $>$}}
+\index{Create\+Tables\+Async$<$ T, T2 $>$@{Create\+Tables\+Async$<$ T, T2 $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Tables\+Async$<$ T, T2 $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ {\bf S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Tables\+Async}$<$ T, T2 $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a1911c2250387bf7db96a05d4ab73bfe7}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\item[{\em T2} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a0d18028757d84c1d5ef6b4f0a2f31bf8}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Tables\+Async$<$ T, T2, T3 $>$@{Create\+Tables\+Async$<$ T, T2, T3 $>$}}
+\index{Create\+Tables\+Async$<$ T, T2, T3 $>$@{Create\+Tables\+Async$<$ T, T2, T3 $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Tables\+Async$<$ T, T2, T3 $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ {\bf S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Tables\+Async}$<$ T, T2, T3 $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a0d18028757d84c1d5ef6b4f0a2f31bf8}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\item[{\em T2} : {\em new}]\item[{\em T3} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a36ed358566d4c64e0bf524c7d8c681a4}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Tables\+Async$<$ T, T2, T3, T4 $>$@{Create\+Tables\+Async$<$ T, T2, T3, T4 $>$}}
+\index{Create\+Tables\+Async$<$ T, T2, T3, T4 $>$@{Create\+Tables\+Async$<$ T, T2, T3, T4 $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Tables\+Async$<$ T, T2, T3, T4 $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ {\bf S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Tables\+Async}$<$ T, T2, T3, T4 $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a36ed358566d4c64e0bf524c7d8c681a4}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\item[{\em T2} : {\em new}]\item[{\em T3} : {\em new}]\item[{\em T4} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a9b3c8584432d04508c89aebbbb1fedea}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$@{Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$}}
+\index{Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$@{Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Create\+Tables\+Async$<$ T, T2, T3, T4, T5 $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<${\bf Create\+Tables\+Result}$>$ {\bf S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Create\+Tables\+Async}$<$ T, T2, T3, T4, T5 $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a9b3c8584432d04508c89aebbbb1fedea}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\item[{\em T2} : {\em new}]\item[{\em T3} : {\em new}]\item[{\em T4} : {\em new}]\item[{\em T5} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_ac34ee6c331f35dc8cbb73a0373315fb0}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Delete\+Async@{Delete\+Async}}
+\index{Delete\+Async@{Delete\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Delete\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Delete\+Async (
+\begin{DoxyParamCaption}
+\item[{object}]{item}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_ac34ee6c331f35dc8cbb73a0373315fb0}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a6781339fb664cde6494460e686f5cb60}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Drop\+Table\+Async$<$ T $>$@{Drop\+Table\+Async$<$ T $>$}}
+\index{Drop\+Table\+Async$<$ T $>$@{Drop\+Table\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Drop\+Table\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Drop\+Table\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a6781339fb664cde6494460e686f5cb60}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_aa61f9b65944e23c32cac8b0e2c39d597}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Execute\+Async@{Execute\+Async}}
+\index{Execute\+Async@{Execute\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Execute\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Execute\+Async (
+\begin{DoxyParamCaption}
+\item[{string}]{query, }
+\item[{params object\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_aa61f9b65944e23c32cac8b0e2c39d597}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_adae67f753b244b754cc33be48cafbf67}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Execute\+Scalar\+Async$<$ T $>$@{Execute\+Scalar\+Async$<$ T $>$}}
+\index{Execute\+Scalar\+Async$<$ T $>$@{Execute\+Scalar\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Execute\+Scalar\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Execute\+Scalar\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{string}]{sql, }
+\item[{params object\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_adae67f753b244b754cc33be48cafbf67}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a4e09e6aacf646853516ab1befea4ac4b}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Find\+Async$<$ T $>$@{Find\+Async$<$ T $>$}}
+\index{Find\+Async$<$ T $>$@{Find\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Find\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Find\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{object}]{pk}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a4e09e6aacf646853516ab1befea4ac4b}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_ab3ee9b32ac49766e4ac20fa697e91f99}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Find\+Async$<$ T $>$@{Find\+Async$<$ T $>$}}
+\index{Find\+Async$<$ T $>$@{Find\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Find\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Find\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, bool $>$$>$}]{predicate}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_ab3ee9b32ac49766e4ac20fa697e91f99}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a59792569de902bd2e87b967a35154d4c}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Get\+Async$<$ T $>$@{Get\+Async$<$ T $>$}}
+\index{Get\+Async$<$ T $>$@{Get\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Get\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Get\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{object}]{pk}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a59792569de902bd2e87b967a35154d4c}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new()}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_ad3e092c3fee0a61611570e8e86dbb88e}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Get\+Async$<$ T $>$@{Get\+Async$<$ T $>$}}
+\index{Get\+Async$<$ T $>$@{Get\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Get\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Get\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{Expression$<$ Func$<$ T, bool $>$$>$}]{predicate}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_ad3e092c3fee0a61611570e8e86dbb88e}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new()}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a8caf48d01bf96785143e71ee6a12b6a0}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Insert\+All\+Async@{Insert\+All\+Async}}
+\index{Insert\+All\+Async@{Insert\+All\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Insert\+All\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Insert\+All\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Enumerable}]{items}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a8caf48d01bf96785143e71ee6a12b6a0}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a7c621805c4f3185e9b064288b2b47d4a}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Insert\+Async@{Insert\+Async}}
+\index{Insert\+Async@{Insert\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Insert\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Insert\+Async (
+\begin{DoxyParamCaption}
+\item[{object}]{item}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a7c621805c4f3185e9b064288b2b47d4a}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a8a81a54a5769d761562d9a3ce18b0f57}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Query\+Async$<$ T $>$@{Query\+Async$<$ T $>$}}
+\index{Query\+Async$<$ T $>$@{Query\+Async$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Query\+Async$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$List$<$T$>$ $>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Query\+Async$<$ T $>$ (
+\begin{DoxyParamCaption}
+\item[{string}]{sql, }
+\item[{params object\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a8a81a54a5769d761562d9a3ce18b0f57}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_affd521039f3a7da49746af600522c809}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Run\+In\+Transaction\+Async@{Run\+In\+Transaction\+Async}}
+\index{Run\+In\+Transaction\+Async@{Run\+In\+Transaction\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Run\+In\+Transaction\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Run\+In\+Transaction\+Async (
+\begin{DoxyParamCaption}
+\item[{Action$<$ {\bf S\+Q\+Lite\+Async\+Connection} $>$}]{action}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_affd521039f3a7da49746af600522c809}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a0d8abe01ee8f0afe93b6a38423d77029}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Run\+In\+Transaction\+Async@{Run\+In\+Transaction\+Async}}
+\index{Run\+In\+Transaction\+Async@{Run\+In\+Transaction\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Run\+In\+Transaction\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Run\+In\+Transaction\+Async (
+\begin{DoxyParamCaption}
+\item[{Action$<$ {\bf S\+Q\+Lite\+Connection} $>$}]{action}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a0d8abe01ee8f0afe93b6a38423d77029}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_ae222dcdcc5033294c43c9cef1b16fbe1}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Table$<$ T $>$@{Table$<$ T $>$}}
+\index{Table$<$ T $>$@{Table$<$ T $>$}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Table$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}Async\+Table\+Query$<$T$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Table$<$ T $>$ (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_ae222dcdcc5033294c43c9cef1b16fbe1}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em new}]\end{description}
+\end{Desc}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a42b8f062eb54f8649a2ccff9984b536e}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Update\+All\+Async@{Update\+All\+Async}}
+\index{Update\+All\+Async@{Update\+All\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Update\+All\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Update\+All\+Async (
+\begin{DoxyParamCaption}
+\item[{I\+Enumerable}]{items}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a42b8f062eb54f8649a2ccff9984b536e}
+\hypertarget{class_s_q_lite_1_1_s_q_lite_async_connection_a3950c4feb7a8d2964a42167d8a4516a0}{\index{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}!Update\+Async@{Update\+Async}}
+\index{Update\+Async@{Update\+Async}!S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection@{S\+Q\+Lite\+::\+S\+Q\+Lite\+Async\+Connection}}
+\subsubsection[{Update\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task$<$int$>$ S\+Q\+Lite.\+S\+Q\+Lite\+Async\+Connection.\+Update\+Async (
+\begin{DoxyParamCaption}
+\item[{object}]{item}
+\end{DoxyParamCaption}
+)}}\label{class_s_q_lite_1_1_s_q_lite_async_connection_a3950c4feb7a8d2964a42167d8a4516a0}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Dependencies/sqlite-\/net/src/\hyperlink{_s_q_lite_async_8cs}{S\+Q\+Lite\+Async.\+cs}\end{DoxyCompactItemize}

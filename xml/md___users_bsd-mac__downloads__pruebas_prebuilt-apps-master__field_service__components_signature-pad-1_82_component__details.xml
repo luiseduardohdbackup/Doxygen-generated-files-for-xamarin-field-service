@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1_82_component__details" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_Components_signature-pad-1.2_component_Details</compoundname>
+    <title>Details</title>
+    <detaileddescription>
+<para>Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple.</para><para>Adding a <computeroutput>SignaturePadView</computeroutput> to your iOS app:</para><para>```csharp using SignaturePad; ...</para><para>public override void ViewDidLoad () { ... var signature = new SignaturePadView (View.Frame); View.AddSubview (signature); } ```</para><para>Adding a <computeroutput>SignaturePadView</computeroutput> to your Android app:</para><para>```csharp using SignaturePad; ...</para><para>protected override void OnCreate (Bundle bundle) { base.OnCreate (bundle);</para><para>var signature = new SignaturePadView (this); AddContentView (signature, new ViewGroup.LayoutParams (ViewGroup.LayoutParams.FillParent, ViewGroup.LayoutParams.FillParent)); } ```</para><para>To capture the user&apos;s signature as an image:</para><para>```csharp var image = signature.GetImage (); ```</para><para><emphasis>Screenshot created with <ulink url="http://placeit.breezi.com">PlaceIt</ulink>.</emphasis> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

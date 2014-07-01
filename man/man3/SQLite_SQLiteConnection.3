@@ -1,0 +1,1081 @@
+.TH "SQLite.SQLiteConnection" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.SQLiteConnection \- 
+.PP
+Represents an open connection to a \fBSQLite\fP database\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IDisposable\&.
+.PP
+Inherited by \fBSQLite\&.SQLiteConnectionWithLock\fP\&.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBColumnInfo\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSQLiteConnection\fP (string databasePath, bool storeDateTimeAsTicks=false)"
+.br
+.RI "\fIConstructs a new \fBSQLiteConnection\fP and opens a \fBSQLite\fP database specified by databasePath\&. \fP"
+.ti -1c
+.RI "\fBSQLiteConnection\fP (string databasePath, \fBSQLiteOpenFlags\fP openFlags, bool storeDateTimeAsTicks=false)"
+.br
+.RI "\fIConstructs a new \fBSQLiteConnection\fP and opens a \fBSQLite\fP database specified by databasePath\&. \fP"
+.ti -1c
+.RI "void \fBEnableLoadExtension\fP (int onoff)"
+.br
+.ti -1c
+.RI "\fBTableMapping\fP \fBGetMapping\fP (Type type, \fBCreateFlags\fP createFlags=CreateFlags\&.None)"
+.br
+.RI "\fIRetrieves the mapping that is automatically generated for the given type\&. \fP"
+.ti -1c
+.RI "\fBTableMapping\fP \fBGetMapping< T >\fP ()"
+.br
+.RI "\fIRetrieves the mapping that is automatically generated for the given type\&. \fP"
+.ti -1c
+.RI "int \fBDropTable< T >\fP ()"
+.br
+.RI "\fIExecutes a 'drop table' on the database\&. This is non-recoverable\&. \fP"
+.ti -1c
+.RI "int \fBCreateTable< T >\fP (\fBCreateFlags\fP createFlags=CreateFlags\&.None)"
+.br
+.RI "\fIExecutes a 'create table if not exists' on the database\&. It also creates any specified indexes on the columns of the table\&. It uses a schema automatically generated from the specified type\&. You can later access this schema by calling GetMapping\&. \fP"
+.ti -1c
+.RI "int \fBCreateTable\fP (Type ty, \fBCreateFlags\fP createFlags=CreateFlags\&.None)"
+.br
+.RI "\fIExecutes a 'create table if not exists' on the database\&. It also creates any specified indexes on the columns of the table\&. It uses a schema automatically generated from the specified type\&. You can later access this schema by calling GetMapping\&. \fP"
+.ti -1c
+.RI "int \fBCreateIndex\fP (string indexName, string tableName, string[] columnNames, bool unique=false)"
+.br
+.RI "\fICreates an index for the specified table and columns\&. \fP"
+.ti -1c
+.RI "int \fBCreateIndex\fP (string indexName, string tableName, string columnName, bool unique=false)"
+.br
+.RI "\fICreates an index for the specified table and column\&. \fP"
+.ti -1c
+.RI "int \fBCreateIndex\fP (string tableName, string columnName, bool unique=false)"
+.br
+.RI "\fICreates an index for the specified table and column\&. \fP"
+.ti -1c
+.RI "int \fBCreateIndex\fP (string tableName, string[] columnNames, bool unique=false)"
+.br
+.RI "\fICreates an index for the specified table and columns\&. \fP"
+.ti -1c
+.RI "void \fBCreateIndex< T >\fP (Expression< Func< T, object >> property, bool unique=false)"
+.br
+.RI "\fICreates an index for the specified object property\&. e\&.g\&. CreateIndex<Client>(c => c\&.Name); \fP"
+.ti -1c
+.RI "List< \fBColumnInfo\fP > \fBGetTableInfo\fP (string tableName)"
+.br
+.ti -1c
+.RI "\fBSQLiteCommand\fP \fBCreateCommand\fP (string cmdText, params object[] ps)"
+.br
+.RI "\fICreates a new \fBSQLiteCommand\fP given the command text with arguments\&. Place a '?' in the command text for each of the arguments\&. \fP"
+.ti -1c
+.RI "int \fBExecute\fP (string query, params object[] args)"
+.br
+.RI "\fICreates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. Use this method instead of Query when you don't expect rows back\&. Such cases include INSERTs, UPDATEs, and DELETEs\&. You can set the Trace or TimeExecution properties of the connection to profile execution\&. \fP"
+.ti -1c
+.RI "T \fBExecuteScalar< T >\fP (string query, params object[] args)"
+.br
+.ti -1c
+.RI "List< T > \fBQuery< T >\fP (string query, params object[] args)"
+.br
+.RI "\fICreates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the mapping automatically generated for the given type\&. \fP"
+.ti -1c
+.RI "IEnumerable< T > \fBDeferredQuery< T >\fP (string query, params object[] args)"
+.br
+.RI "\fICreates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the mapping automatically generated for the given type\&. \fP"
+.ti -1c
+.RI "List< object > \fBQuery\fP (\fBTableMapping\fP map, string query, params object[] args)"
+.br
+.RI "\fICreates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the specified mapping\&. This function is only used by libraries in order to query the database via introspection\&. It is normally not used\&. \fP"
+.ti -1c
+.RI "IEnumerable< object > \fBDeferredQuery\fP (\fBTableMapping\fP map, string query, params object[] args)"
+.br
+.RI "\fICreates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the specified mapping\&. This function is only used by libraries in order to query the database via introspection\&. It is normally not used\&. \fP"
+.ti -1c
+.RI "TableQuery< T > \fBTable< T >\fP ()"
+.br
+.RI "\fIReturns a queryable interface to the table represented by the given type\&. \fP"
+.ti -1c
+.RI "T \fBGet< T >\fP (object pk)"
+.br
+.RI "\fIAttempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. \fP"
+.ti -1c
+.RI "T \fBGet< T >\fP (Expression< Func< T, bool >> predicate)"
+.br
+.RI "\fIAttempts to retrieve the first object that matches the predicate from the table associated with the specified type\&. \fP"
+.ti -1c
+.RI "T \fBFind< T >\fP (object pk)"
+.br
+.RI "\fIAttempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. \fP"
+.ti -1c
+.RI "object \fBFind\fP (object pk, \fBTableMapping\fP map)"
+.br
+.RI "\fIAttempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. \fP"
+.ti -1c
+.RI "T \fBFind< T >\fP (Expression< Func< T, bool >> predicate)"
+.br
+.RI "\fIAttempts to retrieve the first object that matches the predicate from the table associated with the specified type\&. \fP"
+.ti -1c
+.RI "void \fBBeginTransaction\fP ()"
+.br
+.RI "\fIBegins a new transaction\&. Call \fBCommit\fP to end the transaction\&. \fP"
+.ti -1c
+.RI "string \fBSaveTransactionPoint\fP ()"
+.br
+.RI "\fICreates a savepoint in the database at the current point in the transaction timeline\&. Begins a new transaction if one is not in progress\&. \fP"
+.ti -1c
+.RI "void \fBRollback\fP ()"
+.br
+.RI "\fIRolls back the transaction that was begun by \fBBeginTransaction\fP or \fBSaveTransactionPoint\fP\&. \fP"
+.ti -1c
+.RI "void \fBRollbackTo\fP (string savepoint)"
+.br
+.RI "\fIRolls back the savepoint created by \fBBeginTransaction\fP or SaveTransactionPoint\&. \fP"
+.ti -1c
+.RI "void \fBRelease\fP (string savepoint)"
+.br
+.RI "\fIReleases a savepoint returned from \fBSaveTransactionPoint\fP\&. Releasing a savepoint makes changes since that savepoint permanent if the savepoint began the transaction, or otherwise the changes are permanent pending a call to \fBCommit\fP\&. \fP"
+.ti -1c
+.RI "void \fBCommit\fP ()"
+.br
+.RI "\fICommits the transaction that was begun by \fBBeginTransaction\fP\&. \fP"
+.ti -1c
+.RI "void \fBRunInTransaction\fP (Action action)"
+.br
+.RI "\fIExecutes 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIaction\fP within a (possibly nested) transaction by wrapping it in a SAVEPOINT\&. If an exception occurs the whole transaction is rolled back, not just the current savepoint\&. The exception is rethrown\&. 
+.RE
+.PP
+\fP"
+.ti -1c
+.RI "int \fBInsertAll\fP (System\&.Collections\&.IEnumerable objects)"
+.br
+.RI "\fIInserts all specified objects\&. \fP"
+.ti -1c
+.RI "int \fBInsertAll\fP (System\&.Collections\&.IEnumerable objects, string extra)"
+.br
+.RI "\fIInserts all specified objects\&. \fP"
+.ti -1c
+.RI "int \fBInsertAll\fP (System\&.Collections\&.IEnumerable objects, Type objType)"
+.br
+.RI "\fIInserts all specified objects\&. \fP"
+.ti -1c
+.RI "int \fBInsert\fP (object obj)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. \fP"
+.ti -1c
+.RI "int \fBInsertOrReplace\fP (object obj)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object\&. \fP"
+.ti -1c
+.RI "int \fBInsert\fP (object obj, Type objType)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. \fP"
+.ti -1c
+.RI "int \fBInsertOrReplace\fP (object obj, Type objType)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object\&. \fP"
+.ti -1c
+.RI "int \fBInsert\fP (object obj, string extra)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. \fP"
+.ti -1c
+.RI "int \fBInsert\fP (object obj, string extra, Type objType)"
+.br
+.RI "\fIInserts the given object and retrieves its auto incremented primary key if it has one\&. \fP"
+.ti -1c
+.RI "int \fBUpdate\fP (object obj)"
+.br
+.RI "\fIUpdates all of the columns of a table using the specified object except for its primary key\&. The object is required to have a primary key\&. \fP"
+.ti -1c
+.RI "int \fBUpdate\fP (object obj, Type objType)"
+.br
+.RI "\fIUpdates all of the columns of a table using the specified object except for its primary key\&. The object is required to have a primary key\&. \fP"
+.ti -1c
+.RI "int \fBUpdateAll\fP (System\&.Collections\&.IEnumerable objects)"
+.br
+.RI "\fIUpdates all specified objects\&. \fP"
+.ti -1c
+.RI "int \fBDelete\fP (object objectToDelete)"
+.br
+.RI "\fIDeletes the given object from the database using its primary key\&. \fP"
+.ti -1c
+.RI "int \fBDelete< T >\fP (object primaryKey)"
+.br
+.RI "\fIDeletes the object with the specified primary key\&. \fP"
+.ti -1c
+.RI "int \fBDeleteAll< T >\fP ()"
+.br
+.RI "\fIDeletes all the objects from the specified table\&. WARNING WARNING: Let me repeat\&. It deletes ALL the objects from the specified table\&. Do you really want to do that? \fP"
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.ti -1c
+.RI "void \fBClose\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBSQLiteCommand\fP \fBNewCommand\fP ()"
+.br
+.RI "\fICreates a new \fBSQLiteCommand\fP\&. Can be overridden to provide a sub-class\&. \fP"
+.ti -1c
+.RI "virtual void \fBDispose\fP (bool disposing)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBSqlite3DatabaseHandle\fP \fBHandle\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBDatabasePath\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBTimeExecution\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBTrace\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBStoreDateTimeAsTicks\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "TimeSpan \fBBusyTimeout\fP\fC [get, set]\fP"
+.br
+.RI "\fISets a busy handler to sleep the specified amount of time when a table is locked\&. The handler will sleep multiple times until a total time of \fBBusyTimeout\fP has accumulated\&. \fP"
+.ti -1c
+.RI "IEnumerable< \fBTableMapping\fP > \fBTableMappings\fP\fC [get]\fP"
+.br
+.RI "\fIReturns the mappings from types to tables that the connection currently understands\&. \fP"
+.ti -1c
+.RI "bool \fBIsInTransaction\fP\fC [get]\fP"
+.br
+.RI "\fIWhether \fBBeginTransaction\fP has been called and the database is waiting for a \fBCommit\fP\&. \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler
+.br
+< \fBNotifyTableChangedEventArgs\fP > \fBTableChanged\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents an open connection to a \fBSQLite\fP database\&. 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SQLite\&.SQLiteConnection\&.SQLiteConnection (stringdatabasePath, boolstoreDateTimeAsTicks = \fCfalse\fP)"
+
+.PP
+Constructs a new \fBSQLiteConnection\fP and opens a \fBSQLite\fP database specified by databasePath\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdatabasePath\fP Specifies the path to the database file\&. 
+.br
+\fIstoreDateTimeAsTicks\fP Specifies whether to store DateTime properties as ticks (true) or strings (false)\&. You absolutely do want to store them as Ticks in all new projects\&. The default of false is only here for backwards compatibility\&. There is a \fIsignificant\fP speed advantage, with no down sides, when setting storeDateTimeAsTicks = true\&. 
+.RE
+.PP
+
+.SS "SQLite\&.SQLiteConnection\&.SQLiteConnection (stringdatabasePath, \fBSQLiteOpenFlags\fPopenFlags, boolstoreDateTimeAsTicks = \fCfalse\fP)"
+
+.PP
+Constructs a new \fBSQLiteConnection\fP and opens a \fBSQLite\fP database specified by databasePath\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIdatabasePath\fP Specifies the path to the database file\&. 
+.br
+\fIstoreDateTimeAsTicks\fP Specifies whether to store DateTime properties as ticks (true) or strings (false)\&. You absolutely do want to store them as Ticks in all new projects\&. The default of false is only here for backwards compatibility\&. There is a \fIsignificant\fP speed advantage, with no down sides, when setting storeDateTimeAsTicks = true\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void SQLite\&.SQLiteConnection\&.BeginTransaction ()"
+
+.PP
+Begins a new transaction\&. Call \fBCommit\fP to end the transaction\&. Throws if a transaction has already begun\&.
+.SS "void SQLite\&.SQLiteConnection\&.Close ()"
+
+.SS "void SQLite\&.SQLiteConnection\&.Commit ()"
+
+.PP
+Commits the transaction that was begun by \fBBeginTransaction\fP\&. 
+.SS "\fBSQLiteCommand\fP SQLite\&.SQLiteConnection\&.CreateCommand (stringcmdText, params object[]ps)"
+
+.PP
+Creates a new \fBSQLiteCommand\fP given the command text with arguments\&. Place a '?' in the command text for each of the arguments\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcmdText\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the command text\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A \fBSQLiteCommand\fP 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.CreateIndex (stringindexName, stringtableName, string[]columnNames, boolunique = \fCfalse\fP)"
+
+.PP
+Creates an index for the specified table and columns\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindexName\fP Name of the index to create
+.br
+\fItableName\fP Name of the database table
+.br
+\fIcolumnNames\fP An array of column names to index
+.br
+\fIunique\fP Whether the index should be unique
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.CreateIndex (stringindexName, stringtableName, stringcolumnName, boolunique = \fCfalse\fP)"
+
+.PP
+Creates an index for the specified table and column\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindexName\fP Name of the index to create
+.br
+\fItableName\fP Name of the database table
+.br
+\fIcolumnName\fP Name of the column to index
+.br
+\fIunique\fP Whether the index should be unique
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.CreateIndex (stringtableName, stringcolumnName, boolunique = \fCfalse\fP)"
+
+.PP
+Creates an index for the specified table and column\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItableName\fP Name of the database table
+.br
+\fIcolumnName\fP Name of the column to index
+.br
+\fIunique\fP Whether the index should be unique
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.CreateIndex (stringtableName, string[]columnNames, boolunique = \fCfalse\fP)"
+
+.PP
+Creates an index for the specified table and columns\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItableName\fP Name of the database table
+.br
+\fIcolumnNames\fP An array of column names to index
+.br
+\fIunique\fP Whether the index should be unique
+.RE
+.PP
+
+.SS "void \fBSQLite\&.SQLiteConnection\&.CreateIndex\fP< T > (Expression< Func< T, object >>property, boolunique = \fCfalse\fP)"
+
+.PP
+Creates an index for the specified object property\&. e\&.g\&. CreateIndex<Client>(c => c\&.Name); 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Type to reflect to a database table\&.
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fIproperty\fP Property to index
+.br
+\fIunique\fP Whether the index should be unique
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.CreateTable (Typety, \fBCreateFlags\fPcreateFlags = \fCCreateFlags\&.None\fP)"
+
+.PP
+Executes a 'create table if not exists' on the database\&. It also creates any specified indexes on the columns of the table\&. It uses a schema automatically generated from the specified type\&. You can later access this schema by calling GetMapping\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIty\fP Type to reflect to a database table\&.
+.br
+\fIcreateFlags\fP Optional flags allowing implicit PK and indexes based on naming conventions\&.
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of entries added to the database schema\&. 
+.RE
+.PP
+
+.SS "int \fBSQLite\&.SQLiteConnection\&.CreateTable\fP< T > (\fBCreateFlags\fPcreateFlags = \fCCreateFlags\&.None\fP)"
+
+.PP
+Executes a 'create table if not exists' on the database\&. It also creates any specified indexes on the columns of the table\&. It uses a schema automatically generated from the specified type\&. You can later access this schema by calling GetMapping\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+The number of entries added to the database schema\&. 
+.RE
+.PP
+
+.SS "IEnumerable<object> SQLite\&.SQLiteConnection\&.DeferredQuery (\fBTableMapping\fPmap, stringquery, params object[]args)"
+
+.PP
+Creates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the specified mapping\&. This function is only used by libraries in order to query the database via introspection\&. It is normally not used\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImap\fP A \fBTableMapping\fP to use to convert the resulting rows into objects\&. 
+.br
+\fIquery\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the query\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+An enumerable with one result for each row returned by the query\&. The enumerator will call sqlite3_step on each call to MoveNext, so the database connection must remain open for the lifetime of the enumerator\&. 
+.RE
+.PP
+
+.SS "IEnumerable<T> \fBSQLite\&.SQLiteConnection\&.DeferredQuery\fP< T > (stringquery, params object[]args)"
+
+.PP
+Creates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the mapping automatically generated for the given type\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIquery\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the query\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+An enumerable with one result for each row returned by the query\&. The enumerator will call sqlite3_step on each call to MoveNext, so the database connection must remain open for the lifetime of the enumerator\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "int SQLite\&.SQLiteConnection\&.Delete (objectobjectToDelete)"
+
+.PP
+Deletes the given object from the database using its primary key\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjectToDelete\fP The object to delete\&. It must have a primary key designated using the \fBPrimaryKeyAttribute\fP\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows deleted\&. 
+.RE
+.PP
+
+.SS "int \fBSQLite\&.SQLiteConnection\&.Delete\fP< T > (objectprimaryKey)"
+
+.PP
+Deletes the object with the specified primary key\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIprimaryKey\fP The primary key of the object to delete\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of objects deleted\&. 
+.RE
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP The type of object\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.DeleteAll< T > ()"
+
+.PP
+Deletes all the objects from the specified table\&. WARNING WARNING: Let me repeat\&. It deletes ALL the objects from the specified table\&. Do you really want to do that? 
+.PP
+\fBReturns:\fP
+.RS 4
+The number of objects deleted\&. 
+.RE
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP The type of objects to delete\&. 
+.RE
+.PP
+
+.SS "void SQLite\&.SQLiteConnection\&.Dispose ()"
+
+.SS "virtual void SQLite\&.SQLiteConnection\&.Dispose (booldisposing)\fC [protected]\fP, \fC [virtual]\fP"
+
+.SS "int SQLite\&.SQLiteConnection\&.DropTable< T > ()"
+
+.PP
+Executes a 'drop table' on the database\&. This is non-recoverable\&. 
+.SS "void SQLite\&.SQLiteConnection\&.EnableLoadExtension (intonoff)"
+
+.SS "int SQLite\&.SQLiteConnection\&.Execute (stringquery, params object[]args)"
+
+.PP
+Creates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. Use this method instead of Query when you don't expect rows back\&. Such cases include INSERTs, UPDATEs, and DELETEs\&. You can set the Trace or TimeExecution properties of the connection to profile execution\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIquery\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the query\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows modified in the database as a result of this execution\&. 
+.RE
+.PP
+
+.SS "T SQLite\&.SQLiteConnection\&.ExecuteScalar< T > (stringquery, params object[]args)"
+
+.SS "object SQLite\&.SQLiteConnection\&.Find (objectpk, \fBTableMapping\fPmap)"
+
+.PP
+Attempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpk\fP The primary key\&. 
+.br
+\fImap\fP The \fBTableMapping\fP used to identify the object type\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The object with the given primary key or null if the object is not found\&. 
+.RE
+.PP
+
+.SS "T \fBSQLite\&.SQLiteConnection\&.Find\fP< T > (objectpk)"
+
+.PP
+Attempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpk\fP The primary key\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The object with the given primary key or null if the object is not found\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew\fP
+.SS "T \fBSQLite\&.SQLiteConnection\&.Find\fP< T > (Expression< Func< T, bool >>predicate)"
+
+.PP
+Attempts to retrieve the first object that matches the predicate from the table associated with the specified type\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpredicate\fP A predicate for which object to find\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The object that matches the given predicate or null if the object is not found\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "T SQLite\&.SQLiteConnection\&.Get< T > (objectpk)"
+
+.PP
+Attempts to retrieve an object with the given primary key from the table associated with the specified type\&. Use of this method requires that the given type have a designated PrimaryKey (using the \fBPrimaryKeyAttribute\fP)\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpk\fP The primary key\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The object with the given primary key\&. Throws a not found exception if the object is not found\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "T SQLite\&.SQLiteConnection\&.Get< T > (Expression< Func< T, bool >>predicate)"
+
+.PP
+Attempts to retrieve the first object that matches the predicate from the table associated with the specified type\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpredicate\fP A predicate for which object to find\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The object that matches the given predicate\&. Throws a not found exception if the object is not found\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "\fBTableMapping\fP SQLite\&.SQLiteConnection\&.GetMapping (Typetype, \fBCreateFlags\fPcreateFlags = \fCCreateFlags\&.None\fP)"
+
+.PP
+Retrieves the mapping that is automatically generated for the given type\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItype\fP The type whose mapping to the database is returned\&. 
+.br
+\fIcreateFlags\fP Optional flags allowing implicit PK and indexes based on naming conventions 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The mapping represents the schema of the columns of the database and contains methods to set and get properties of objects\&. 
+.RE
+.PP
+
+.SS "\fBTableMapping\fP \fBSQLite\&.SQLiteConnection\&.GetMapping\fP< T > ()"
+
+.PP
+Retrieves the mapping that is automatically generated for the given type\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+The mapping represents the schema of the columns of the database and contains methods to set and get properties of objects\&. 
+.RE
+.PP
+
+.SS "List<\fBColumnInfo\fP> SQLite\&.SQLiteConnection\&.GetTableInfo (stringtableName)"
+
+.SS "int SQLite\&.SQLiteConnection\&.Insert (objectobj)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.Insert (objectobj, TypeobjType)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.br
+\fIobjType\fP The type of object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.Insert (objectobj, stringextra)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.br
+\fIextra\fP Literal SQL code that gets placed into the command\&. INSERT {extra} INTO \&.\&.\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.Insert (objectobj, stringextra, TypeobjType)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.br
+\fIextra\fP Literal SQL code that gets placed into the command\&. INSERT {extra} INTO \&.\&.\&. 
+.br
+\fIobjType\fP The type of object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.InsertAll (System\&.Collections\&.IEnumerableobjects)"
+
+.PP
+Inserts all specified objects\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjects\fP An IEnumerable of the objects to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.InsertAll (System\&.Collections\&.IEnumerableobjects, stringextra)"
+
+.PP
+Inserts all specified objects\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjects\fP An IEnumerable of the objects to insert\&. 
+.br
+\fIextra\fP Literal SQL code that gets placed into the command\&. INSERT {extra} INTO \&.\&.\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.InsertAll (System\&.Collections\&.IEnumerableobjects, TypeobjType)"
+
+.PP
+Inserts all specified objects\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjects\fP An IEnumerable of the objects to insert\&. 
+.br
+\fIobjType\fP The type of object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows added to the table\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.InsertOrReplace (objectobj)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows modified\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.InsertOrReplace (objectobj, TypeobjType)"
+
+.PP
+Inserts the given object and retrieves its auto incremented primary key if it has one\&. If a UNIQUE constraint violation occurs with some pre-existing object, this function deletes the old object\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to insert\&. 
+.br
+\fIobjType\fP The type of object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows modified\&. 
+.RE
+.PP
+
+.SS "virtual \fBSQLiteCommand\fP SQLite\&.SQLiteConnection\&.NewCommand ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Creates a new \fBSQLiteCommand\fP\&. Can be overridden to provide a sub-class\&. 
+.PP
+\fBSee also:\fP
+.RS 4
+\fBSQLiteCommand\&.OnInstanceCreated\fP
+.PP
+.RE
+.PP
+
+.SS "List<object> SQLite\&.SQLiteConnection\&.Query (\fBTableMapping\fPmap, stringquery, params object[]args)"
+
+.PP
+Creates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the specified mapping\&. This function is only used by libraries in order to query the database via introspection\&. It is normally not used\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fImap\fP A \fBTableMapping\fP to use to convert the resulting rows into objects\&. 
+.br
+\fIquery\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the query\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+An enumerable with one result for each row returned by the query\&. 
+.RE
+.PP
+
+.SS "List<T> \fBSQLite\&.SQLiteConnection\&.Query\fP< T > (stringquery, params object[]args)"
+
+.PP
+Creates a \fBSQLiteCommand\fP given the command text (SQL) with arguments\&. Place a '?' in the command text for each of the arguments and then executes that command\&. It returns each row of the result using the mapping automatically generated for the given type\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIquery\fP The fully escaped SQL\&. 
+.br
+\fIargs\fP Arguments to substitute for the occurences of '?' in the query\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+An enumerable with one result for each row returned by the query\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "void SQLite\&.SQLiteConnection\&.Release (stringsavepoint)"
+
+.PP
+Releases a savepoint returned from \fBSaveTransactionPoint\fP\&. Releasing a savepoint makes changes since that savepoint permanent if the savepoint began the transaction, or otherwise the changes are permanent pending a call to \fBCommit\fP\&. The RELEASE command is like a COMMIT for a SAVEPOINT\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsavepoint\fP The name of the savepoint to release\&. The string should be the result of a call to \fBSaveTransactionPoint\fP
+.RE
+.PP
+
+.SS "void SQLite\&.SQLiteConnection\&.Rollback ()"
+
+.PP
+Rolls back the transaction that was begun by \fBBeginTransaction\fP or \fBSaveTransactionPoint\fP\&. 
+.SS "void SQLite\&.SQLiteConnection\&.RollbackTo (stringsavepoint)"
+
+.PP
+Rolls back the savepoint created by \fBBeginTransaction\fP or SaveTransactionPoint\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIsavepoint\fP The name of the savepoint to roll back to, as returned by \fBSaveTransactionPoint\fP\&. If savepoint is null or empty, this method is equivalent to a call to \fBRollback\fP
+.RE
+.PP
+
+.SS "void SQLite\&.SQLiteConnection\&.RunInTransaction (Actionaction)"
+
+.PP
+Executes 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIaction\fP within a (possibly nested) transaction by wrapping it in a SAVEPOINT\&. If an exception occurs the whole transaction is rolled back, not just the current savepoint\&. The exception is rethrown\&. 
+.RE
+.PP
+
+.PP
+\fBParameters:\fP
+.RS 4
+\fIaction\fP The Action to perform within a transaction\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIaction\fP can contain any number of operations on the connection but should never call \fBBeginTransaction\fP or \fBCommit\fP\&. 
+.RE
+.PP
+.RE
+.PP
+
+.SS "string SQLite\&.SQLiteConnection\&.SaveTransactionPoint ()"
+
+.PP
+Creates a savepoint in the database at the current point in the transaction timeline\&. Begins a new transaction if one is not in progress\&. Call \fBRollbackTo\fP to undo transactions since the returned savepoint\&. Call \fBRelease\fP to commit transactions after the savepoint returned here\&. Call \fBCommit\fP to end the transaction, committing all changes\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+A string naming the savepoint\&.
+.RE
+.PP
+
+.SS "TableQuery<T> SQLite\&.SQLiteConnection\&.Table< T > ()"
+
+.PP
+Returns a queryable interface to the table represented by the given type\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+A queryable object that is able to translate Where, OrderBy, and Take queries into native SQL\&. 
+.RE
+.PP
+
+.PP
+\fBType Constraints\fP
+.TP
+\fIT\fP : \fInew()\fP
+.SS "int SQLite\&.SQLiteConnection\&.Update (objectobj)"
+
+.PP
+Updates all of the columns of a table using the specified object except for its primary key\&. The object is required to have a primary key\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to update\&. It must have a primary key designated using the \fBPrimaryKeyAttribute\fP\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows updated\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.Update (objectobj, TypeobjType)"
+
+.PP
+Updates all of the columns of a table using the specified object except for its primary key\&. The object is required to have a primary key\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP The object to update\&. It must have a primary key designated using the \fBPrimaryKeyAttribute\fP\&. 
+.br
+\fIobjType\fP The type of object to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows updated\&. 
+.RE
+.PP
+
+.SS "int SQLite\&.SQLiteConnection\&.UpdateAll (System\&.Collections\&.IEnumerableobjects)"
+
+.PP
+Updates all specified objects\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobjects\fP An IEnumerable of the objects to insert\&. 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The number of rows modified\&. 
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "TimeSpan SQLite\&.SQLiteConnection\&.BusyTimeout\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Sets a busy handler to sleep the specified amount of time when a table is locked\&. The handler will sleep multiple times until a total time of \fBBusyTimeout\fP has accumulated\&. 
+.SS "string SQLite\&.SQLiteConnection\&.DatabasePath\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBSqlite3DatabaseHandle\fP SQLite\&.SQLiteConnection\&.Handle\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool SQLite\&.SQLiteConnection\&.IsInTransaction\fC [get]\fP"
+
+.PP
+Whether \fBBeginTransaction\fP has been called and the database is waiting for a \fBCommit\fP\&. 
+.SS "bool SQLite\&.SQLiteConnection\&.StoreDateTimeAsTicks\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<\fBTableMapping\fP> SQLite\&.SQLiteConnection\&.TableMappings\fC [get]\fP"
+
+.PP
+Returns the mappings from types to tables that the connection currently understands\&. 
+.SS "bool SQLite\&.SQLiteConnection\&.TimeExecution\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool SQLite\&.SQLiteConnection\&.Trace\fC [get]\fP, \fC [set]\fP"
+
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler<\fBNotifyTableChangedEventArgs\fP> SQLite\&.SQLiteConnection\&.TableChanged"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

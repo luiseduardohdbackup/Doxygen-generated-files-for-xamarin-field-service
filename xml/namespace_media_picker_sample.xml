@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_media_picker_sample" kind="namespace">
+    <compoundname>MediaPickerSample</compoundname>
+    <innerclass refid="class_media_picker_sample_1_1_app" prot="public">MediaPickerSample::App</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_app_delegate" prot="public">MediaPickerSample::AppDelegate</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_application" prot="public">MediaPickerSample::Application</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_delegated_command" prot="public">MediaPickerSample::DelegatedCommand</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_main_activity" prot="public">MediaPickerSample::MainActivity</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_main_page" prot="public">MediaPickerSample::MainPage</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_main_page_view_model" prot="public">MediaPickerSample::MainPageViewModel</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_media_picker_sample_view_controller" prot="public">MediaPickerSample::MediaPickerSampleViewController</innerclass>
+    <innerclass refid="class_media_picker_sample_1_1_resource" prot="public">MediaPickerSample::Resource</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/MainActivity.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

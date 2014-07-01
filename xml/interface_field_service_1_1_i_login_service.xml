@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="interface_field_service_1_1_i_login_service" kind="interface" prot="public">
+    <compoundname>FieldService::ILoginService</compoundname>
+    <derivedcompoundref refid="class_field_service_1_1_data_1_1_sample_login_service" prot="public" virt="non-virtual">FieldService.Data.SampleLoginService</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_field_service_1_1_i_login_service_1a1e82d7033555800002f016ddb020f6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; bool &gt;</type>
+        <definition>Task&lt;bool&gt; FieldService.ILoginService.LoginAsync</definition>
+        <argsstring>(string username, string password, CancellationToken cancellationToken=default(CancellationToken))</argsstring>
+        <name>LoginAsync</name>
+        <reimplementedby refid="class_field_service_1_1_data_1_1_sample_login_service_1a4287327af7e61c567acf1a6a806a17d4">LoginAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type><ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref></type>
+          <declname>cancellationToken</declname>
+          <defval>default(<ref refid="_view_models_2_assignment_view_model_8cs_1aba80ec766846c61f55644fd23860cb18" kindref="member">CancellationToken</ref>)</defval>
+        </param>
+        <briefdescription>
+<para>Asynchronous login </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ILoginService.cs" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface providing backend data to <ref refid="namespace_field_service_1_1_view_models" kindref="compound">ViewModels</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2328">
+        <label>FieldService.Data.SampleLoginService</label>
+        <link refid="class_field_service_1_1_data_1_1_sample_login_service"/>
+        <childnode refid="2327" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2327">
+        <label>FieldService.ILoginService</label>
+        <link refid="interface_field_service_1_1_i_login_service"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ILoginService.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ILoginService.cs" bodystart="28" bodyend="34"/>
+    <listofallmembers>
+      <member refid="interface_field_service_1_1_i_login_service_1a1e82d7033555800002f016ddb020f6df" prot="public" virt="non-virtual"><scope>FieldService::ILoginService</scope><name>LoginAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

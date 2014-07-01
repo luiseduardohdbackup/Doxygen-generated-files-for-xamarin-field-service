@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespacexamarin_1_1media" kind="namespace">
+    <compoundname>xamarin::media</compoundname>
+    <innerclass refid="classxamarin_1_1media_1_1_media_picker_activity" prot="public">xamarin::media::MediaPickerActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/xamarin/media/MediaPickerActivity.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

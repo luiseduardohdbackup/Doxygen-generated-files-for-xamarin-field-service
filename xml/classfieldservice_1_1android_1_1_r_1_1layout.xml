@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_r_1_1layout" kind="class" prot="public">
+    <compoundname>fieldservice::android::R::layout</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a07a47d7dd5a7450ddf85dcef31509d13" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::addexpensepopuplayout</definition>
+        <argsstring></argsstring>
+        <name>addexpensepopuplayout</name>
+        <initializer>=0x7f030000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="267" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a8f759910eb227e218501dbf1795ae423" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::addlaborpopuplayout</definition>
+        <argsstring></argsstring>
+        <name>addlaborpopuplayout</name>
+        <initializer>=0x7f030001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="268" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1afea0fd8d8f4f32daaa216e69046dae95" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::addphotopopuplayout</definition>
+        <argsstring></argsstring>
+        <name>addphotopopuplayout</name>
+        <initializer>=0x7f030002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="269" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a91735b289de4adf9a588fc788a9a4b76" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::addsignaturelayout</definition>
+        <argsstring></argsstring>
+        <name>addsignaturelayout</name>
+        <initializer>=0x7f030003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="270" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a24375fbe8462b8f515c2a12d0cc8e48c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::assignmenthistorylayout</definition>
+        <argsstring></argsstring>
+        <name>assignmenthistorylayout</name>
+        <initializer>=0x7f030004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="271" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a842dd4905239acdb16695c0e477d9b1d" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::assignmentitemlayout</definition>
+        <argsstring></argsstring>
+        <name>assignmentitemlayout</name>
+        <initializer>=0x7f030005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="272" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1ae49907fae12e2d97d3547685a29dce69" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::assignmentslayout</definition>
+        <argsstring></argsstring>
+        <name>assignmentslayout</name>
+        <initializer>=0x7f030006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="273" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1ab0be37c185d711de5d434e94ee7a2bc3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::assignmentstabslayout</definition>
+        <argsstring></argsstring>
+        <name>assignmentstabslayout</name>
+        <initializer>=0x7f030007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="274" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1ac24cb0cb627fed6ae7b0760e7320e579" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::confirmationslayout</definition>
+        <argsstring></argsstring>
+        <name>confirmationslayout</name>
+        <initializer>=0x7f030008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="275" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1afd1bbfeb206f4de2003bb6484d4294cb" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::documentfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>documentfragmentlayout</name>
+        <initializer>=0x7f030009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="276" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a22386fde0b87c67bd8931766872292ff" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::documentlistitemlayout</definition>
+        <argsstring></argsstring>
+        <name>documentlistitemlayout</name>
+        <initializer>=0x7f03000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a3d2765527acd91361d62aa1250bc22ab" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::expenselistitemlayout</definition>
+        <argsstring></argsstring>
+        <name>expenselistitemlayout</name>
+        <initializer>=0x7f03000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="278" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1aac37ffce5e76bcc3fdb18b836694690e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::expensesfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>expensesfragmentlayout</name>
+        <initializer>=0x7f03000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="279" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a161c77b16fd83ccce70ecc10d4e64ad0" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::historyfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>historyfragmentlayout</name>
+        <initializer>=0x7f03000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="280" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1adbc8e79cf13dc7c71eec231431aa895a" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::historyitemlayout</definition>
+        <argsstring></argsstring>
+        <name>historyitemlayout</name>
+        <initializer>=0x7f03000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="281" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a37cebbfe1c7eff609ca26129866b4adf" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::historytabs</definition>
+        <argsstring></argsstring>
+        <name>historytabs</name>
+        <initializer>=0x7f03000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="282" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a331fcd1c2b8cfd82f399ecfd54d5cc7b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::itemlayout</definition>
+        <argsstring></argsstring>
+        <name>itemlayout</name>
+        <initializer>=0x7f030010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="283" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1acb72972d23c82b951c6fef8d449b9633" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::itemsearchlistitemlayout</definition>
+        <argsstring></argsstring>
+        <name>itemsearchlistitemlayout</name>
+        <initializer>=0x7f030011</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="284" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a9b496ef16535ba8dd5ff8909ce4b5de3" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::itemsfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>itemsfragmentlayout</name>
+        <initializer>=0x7f030012</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="285" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a4a25dd77c4c445e33202d1471fa9642f" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::itemspopuplayout</definition>
+        <argsstring></argsstring>
+        <name>itemspopuplayout</name>
+        <initializer>=0x7f030013</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="286" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1acfb0e79d62f72ac06fa0fc24168de9b1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::laborhourslayout</definition>
+        <argsstring></argsstring>
+        <name>laborhourslayout</name>
+        <initializer>=0x7f030014</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="287" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1aeff63551395485c0ba18cee3c85695af" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::laborhourslistitemlayout</definition>
+        <argsstring></argsstring>
+        <name>laborhourslistitemlayout</name>
+        <initializer>=0x7f030015</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="288" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1ac394aff09a5b298d9f2d6f4cd989a783" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::loginlayout</definition>
+        <argsstring></argsstring>
+        <name>loginlayout</name>
+        <initializer>=0x7f030016</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="289" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1afc96b5c10b2e3e84e3b540a65597f29e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::mapfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>mapfragmentlayout</name>
+        <initializer>=0x7f030017</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="290" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a8ca039b36983a10e601da77995920918" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::mapoverlaylayout</definition>
+        <argsstring></argsstring>
+        <name>mapoverlaylayout</name>
+        <initializer>=0x7f030018</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="291" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a2980d88f08fb296b23bfd1b44b3ac140" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::mapviewlayout</definition>
+        <argsstring></argsstring>
+        <name>mapviewlayout</name>
+        <initializer>=0x7f030019</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="292" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a6cba23da536198b0a06033225db50fba" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::navigationlayout</definition>
+        <argsstring></argsstring>
+        <name>navigationlayout</name>
+        <initializer>=0x7f03001a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="293" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a8eea05e50283744538e25e9e4c16e5ca" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::navigationlistitemlayout</definition>
+        <argsstring></argsstring>
+        <name>navigationlistitemlayout</name>
+        <initializer>=0x7f03001b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="294" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a838eba7929bc8ffcda2203924237f792" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::photoitemlayout</definition>
+        <argsstring></argsstring>
+        <name>photoitemlayout</name>
+        <initializer>=0x7f03001c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="295" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1acf4c1b14f7af81b88542dbaeb03bc212" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::simplespinneritem</definition>
+        <argsstring></argsstring>
+        <name>simplespinneritem</name>
+        <initializer>=0x7f03001d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="296" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1af8b8e910f2b1531e2115f293f6bcfc5b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::summaryfragmentlayout</definition>
+        <argsstring></argsstring>
+        <name>summaryfragmentlayout</name>
+        <initializer>=0x7f03001e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="297" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1layout_1a6a0046edc6478aa0c57961a04b7e4d76" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.layout::summarylayout</definition>
+        <argsstring></argsstring>
+        <name>summarylayout</name>
+        <initializer>=0x7f03001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="298" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="266" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="266" bodyend="299"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a07a47d7dd5a7450ddf85dcef31509d13" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>addexpensepopuplayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a8f759910eb227e218501dbf1795ae423" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>addlaborpopuplayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1afea0fd8d8f4f32daaa216e69046dae95" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>addphotopopuplayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a91735b289de4adf9a588fc788a9a4b76" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>addsignaturelayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a24375fbe8462b8f515c2a12d0cc8e48c" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>assignmenthistorylayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a842dd4905239acdb16695c0e477d9b1d" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>assignmentitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1ae49907fae12e2d97d3547685a29dce69" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>assignmentslayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1ab0be37c185d711de5d434e94ee7a2bc3" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>assignmentstabslayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1ac24cb0cb627fed6ae7b0760e7320e579" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>confirmationslayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1afd1bbfeb206f4de2003bb6484d4294cb" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>documentfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a22386fde0b87c67bd8931766872292ff" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>documentlistitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a3d2765527acd91361d62aa1250bc22ab" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>expenselistitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1aac37ffce5e76bcc3fdb18b836694690e" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>expensesfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a161c77b16fd83ccce70ecc10d4e64ad0" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>historyfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1adbc8e79cf13dc7c71eec231431aa895a" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>historyitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a37cebbfe1c7eff609ca26129866b4adf" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>historytabs</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a331fcd1c2b8cfd82f399ecfd54d5cc7b" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>itemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1acb72972d23c82b951c6fef8d449b9633" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>itemsearchlistitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a9b496ef16535ba8dd5ff8909ce4b5de3" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>itemsfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a4a25dd77c4c445e33202d1471fa9642f" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>itemspopuplayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1acfb0e79d62f72ac06fa0fc24168de9b1" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>laborhourslayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1aeff63551395485c0ba18cee3c85695af" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>laborhourslistitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1ac394aff09a5b298d9f2d6f4cd989a783" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>loginlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1afc96b5c10b2e3e84e3b540a65597f29e" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>mapfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a8ca039b36983a10e601da77995920918" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>mapoverlaylayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a2980d88f08fb296b23bfd1b44b3ac140" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>mapviewlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a6cba23da536198b0a06033225db50fba" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>navigationlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a8eea05e50283744538e25e9e4c16e5ca" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>navigationlistitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a838eba7929bc8ffcda2203924237f792" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>photoitemlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1acf4c1b14f7af81b88542dbaeb03bc212" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>simplespinneritem</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1af8b8e910f2b1531e2115f293f6bcfc5b" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>summaryfragmentlayout</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1layout_1a6a0046edc6478aa0c57961a04b7e4d76" prot="public" virt="non-virtual"><scope>fieldservice::android::R::layout</scope><name>summarylayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

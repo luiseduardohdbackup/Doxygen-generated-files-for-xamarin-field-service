@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_sample_1_1_android" kind="namespace">
+    <compoundname>Sample::Android</compoundname>
+    <innerclass refid="class_sample_1_1_android_1_1_activity1" prot="public">Sample::Android::Activity1</innerclass>
+    <innerclass refid="class_sample_1_1_android_1_1_resource" prot="public">Sample::Android::Resource</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/signature-pad-1.2/samples/Sample.Android/Activity1.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog" kind="class" prot="public">
+    <compoundname>FieldService::Android::Dialogs::ItemsDialog</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.BaseDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a02775f54b5121ad3b23b225591ba617c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_android_1_1_summary_activity" kindref="compound">SummaryActivity</ref></type>
+        <definition>readonly SummaryActivity FieldService.Android.Dialogs.ItemsDialog.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a1c45a9a49a9087696048780593c176dc" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>readonly ItemViewModel FieldService.Android.Dialogs.ItemsDialog.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1aec0cb6beb2c69aa5410666819eb7a717" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Dialogs.ItemsDialog.itemsListView</definition>
+        <argsstring></argsstring>
+        <name>itemsListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a6a0c2b4237f079f4b1d9c5226799aa02" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_items_search_adapter" kindref="compound">ItemsSearchAdapter</ref></type>
+        <definition>ItemsSearchAdapter FieldService.Android.Dialogs.ItemsDialog.searchAdapter</definition>
+        <argsstring></argsstring>
+        <name>searchAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1acf190fcd4177dc635e304b39bc896e7d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Dialogs.ItemsDialog.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The selected assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1aa3278161400147e289507b5561a8de3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Dialogs.ItemsDialog.ItemsDialog</definition>
+        <argsstring>(SummaryActivity activity)</argsstring>
+        <name>ItemsDialog</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_android_1_1_summary_activity" kindref="compound">SummaryActivity</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1ac7ebb161b6bcced723d187e9a824ad89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ItemsDialog.OnClick</definition>
+        <argsstring>(View v)</argsstring>
+        <name>OnClick</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a1079fd015a477608c7a923ff7b2b71fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.ItemsDialog.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="44" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Dialog for searching through items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2384">
+        <label>Dialog</label>
+      </node>
+      <node id="2382">
+        <label>FieldService.Android.Dialogs.ItemsDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog"/>
+        <childnode refid="2383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2383">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="2384" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2387">
+        <label>Dialog</label>
+      </node>
+      <node id="2385">
+        <label>FieldService.Android.Dialogs.ItemsDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog"/>
+        <childnode refid="2386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2386">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="2387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ItemsDialog.cs" bodystart="30" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a02775f54b5121ad3b23b225591ba617c" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1acf190fcd4177dc635e304b39bc896e7d" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>BaseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1aa3278161400147e289507b5561a8de3e" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>ItemsDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1aec0cb6beb2c69aa5410666819eb7a717" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>itemsListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a1c45a9a49a9087696048780593c176dc" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1ac7ebb161b6bcced723d187e9a824ad89" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>OnClick</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a1079fd015a477608c7a923ff7b2b71fa" prot="protected" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_items_dialog_1a6a0c2b4237f079f4b1d9c5226799aa02" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ItemsDialog</scope><name>searchAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

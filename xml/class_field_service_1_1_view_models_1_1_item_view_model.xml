@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_item_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::ItemViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.ItemViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_item_view_model_1a5257530801b85296273ff76473b8e8e0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.ItemViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_item_view_model_1aef5cf654abbd08a538789d7399342ef9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt;</type>
+        <definition>List&lt;AssignmentItem&gt; FieldService.ViewModels.ItemViewModel.assignmentItems</definition>
+        <argsstring></argsstring>
+        <name>assignmentItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_item_view_model_1a48a5867730414df813ebf00749721777" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>List&lt;Item&gt; FieldService.ViewModels.ItemViewModel.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_item_view_model_1ac2cd5874b618e54115fc7977430d3804" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref> &gt;</type>
+        <definition>List&lt;AssignmentItem&gt; FieldService.ViewModels.ItemViewModel.AssignmentItems</definition>
+        <argsstring></argsstring>
+        <name>AssignmentItems</name>
+        <briefdescription>
+<para>List of items with an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_item_view_model_1a67045efde92e6b43b119ecf61951adda" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_item" kindref="compound">Item</ref> &gt;</type>
+        <definition>List&lt;Item&gt; FieldService.ViewModels.ItemViewModel.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+<para>List of items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_item_view_model_1a4f5022be311f8aa467b11f91e57cadaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.ItemViewModel.ItemViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>ItemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_item_view_model_1ac15c2d605619c52035a60f92edfbed8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.ItemViewModel.LoadItemsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LoadItemsAsync</name>
+        <briefdescription>
+<para>Loads all the available items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_item_view_model_1a2a88d75ca999a85fe345fa2274bf68aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.ItemViewModel.LoadAssignmentItemsAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>LoadAssignmentItemsAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Loads a list of items for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="69" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_item_view_model_1a818404a48afb5afca1e4524ba9549056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.ItemViewModel.SaveAssignmentItemAsync</definition>
+        <argsstring>(Assignment assignment, AssignmentItem item)</argsstring>
+        <name>SaveAssignmentItemAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Saves an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="79" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="79" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_item_view_model_1aad9649f5286fa6a4bc3a4b14f6732fce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.ItemViewModel.DeleteAssignmentItemAsync</definition>
+        <argsstring>(Assignment assignment, AssignmentItem item)</argsstring>
+        <name>DeleteAssignmentItemAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_item" kindref="compound">AssignmentItem</ref></type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Deletes an assignment item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewModel for working with items </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2421">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2419">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2420" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2422">
+        <label>FieldService.WinRT.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2420">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2421" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2418">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2419" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2426">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2424">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2425">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2423">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2424" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/ItemViewModel.cs" bodystart="28" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1aef5cf654abbd08a538789d7399342ef9" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>assignmentItems</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1ac2cd5874b618e54115fc7977430d3804" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>AssignmentItems</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1aad9649f5286fa6a4bc3a4b14f6732fce" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>DeleteAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a67045efde92e6b43b119ecf61951adda" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>Items</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a48a5867730414df813ebf00749721777" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a4f5022be311f8aa467b11f91e57cadaa" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>ItemViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a2a88d75ca999a85fe345fa2274bf68aa" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>LoadAssignmentItemsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1ac15c2d605619c52035a60f92edfbed8c" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>LoadItemsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a818404a48afb5afca1e4524ba9549056" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>SaveAssignmentItemAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_item_view_model_1a5257530801b85296273ff76473b8e8e0" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::ItemViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_application" kind="class" prot="public">
+    <compoundname>FieldService::Android::Application</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_application_1a57904bf7fa0cb4f28fa1c5adcfe41520" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Application.Application</definition>
+        <argsstring>(IntPtr javaReference, JniHandleOwnership transfer)</argsstring>
+        <name>Application</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>javaReference</declname>
+        </param>
+        <param>
+          <type>JniHandleOwnership</type>
+          <declname>transfer</declname>
+        </param>
+        <briefdescription>
+<para>Must implement this constructor for subclassing the application class. Will act as a global application class throughout the app. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>javaReference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to java</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transfer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transfer enumeration</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_application_1a92839c8c8d8467059a451215fcddc684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Application.OnCreate</definition>
+        <argsstring>()</argsstring>
+        <name>OnCreate</name>
+        <briefdescription>
+<para>Override on create to instantiate the service container to be persistant. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" bodystart="29" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1674">
+        <label>global::AndroidApp::Application</label>
+      </node>
+      <node id="1673">
+        <label>FieldService.Android.Application</label>
+        <link refid="class_field_service_1_1_android_1_1_application"/>
+        <childnode refid="1674" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1676">
+        <label>global::AndroidApp::Application</label>
+      </node>
+      <node id="1675">
+        <label>FieldService.Android.Application</label>
+        <link refid="class_field_service_1_1_android_1_1_application"/>
+        <childnode refid="1676" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Application.cs" bodystart="14" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_application_1a57904bf7fa0cb4f28fa1c5adcfe41520" prot="public" virt="non-virtual"><scope>FieldService::Android::Application</scope><name>Application</name></member>
+      <member refid="class_field_service_1_1_android_1_1_application_1a92839c8c8d8467059a451215fcddc684" prot="public" virt="non-virtual"><scope>FieldService::Android::Application</scope><name>OnCreate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

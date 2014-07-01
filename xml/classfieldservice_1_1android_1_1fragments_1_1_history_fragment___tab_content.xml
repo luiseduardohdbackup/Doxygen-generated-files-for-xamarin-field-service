@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::HistoryFragment_TabContent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">TabContentFactory</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a45d854de6237a15a258654ce962fe1e4" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.HistoryFragment_TabContent.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1add3526e3682370bb58390fa6afa4c139" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.HistoryFragment_TabContent.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a0470573c5aecfe84436b94e214615410" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.HistoryFragment_TabContent.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1ab6b3e1c2ba34c6582639dea742ed2496" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.HistoryFragment_TabContent.HistoryFragment_TabContent</definition>
+        <argsstring>()</argsstring>
+        <name>HistoryFragment_TabContent</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a441f35273739a1f8c9dddf428ec78852" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.HistoryFragment_TabContent.HistoryFragment_TabContent</definition>
+        <argsstring>(android.view.View p0)</argsstring>
+        <name>HistoryFragment_TabContent</name>
+        <param>
+          <type>android.view.View</type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a3c4e757c2af9e622c83e6bf71adb8dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.HistoryFragment_TabContent.createTabContent</definition>
+        <argsstring>(java.lang.String p0)</argsstring>
+        <name>createTabContent</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1aa3f0d77015760ba827e06092bcbb8937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.HistoryFragment_TabContent.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1ae50f9c18f7a05b65225b55e38c0cc623" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.HistoryFragment_TabContent.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="49" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1af586db99d87f7ee780ba050e1f81373d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.HistoryFragment_TabContent.n_createTabContent</definition>
+        <argsstring>(java.lang.String p0)</argsstring>
+        <name>n_createTabContent</name>
+        <param>
+          <type>java.lang.String</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2262">
+        <label>fieldservice.android.fragments.HistoryFragment_TabContent</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content"/>
+        <childnode refid="2263" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2264" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2263">
+        <label>java::lang::Object</label>
+      </node>
+      <node id="2265">
+        <label>android::widget::TabHost::TabContentFactory</label>
+      </node>
+      <node id="2264">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2270">
+        <label>String</label>
+      </node>
+      <node id="2266">
+        <label>fieldservice.android.fragments.HistoryFragment_TabContent</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content"/>
+        <childnode refid="2267" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2268" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2269" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2270" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2267">
+        <label>java::lang::Object</label>
+      </node>
+      <node id="2269">
+        <label>android::widget::TabHost::TabContentFactory</label>
+      </node>
+      <node id="2268">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/HistoryFragment_TabContent.java" bodystart="4" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a0470573c5aecfe84436b94e214615410" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a45d854de6237a15a258654ce962fe1e4" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a3c4e757c2af9e622c83e6bf71adb8dfc" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>createTabContent</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1ab6b3e1c2ba34c6582639dea742ed2496" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>HistoryFragment_TabContent</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1a441f35273739a1f8c9dddf428ec78852" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>HistoryFragment_TabContent</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1aa3f0d77015760ba827e06092bcbb8937" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1ae50f9c18f7a05b65225b55e38c0cc623" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1af586db99d87f7ee780ba050e1f81373d" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>n_createTabContent</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_history_fragment___tab_content_1add3526e3682370bb58390fa6afa4c139" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::HistoryFragment_TabContent</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+.TH "FieldService.iOS.SplitController" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS.SplitController \- 
+.PP
+The main split controller in the app, we couldn't use UISplitViewController because it must be the very root controller of the app NOTE: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.iOS\&.BaseController\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSplitController\fP (IntPtr handle)"
+.br
+.ti -1c
+.RI "override void \fBViewDidLoad\fP ()"
+.br
+.ti -1c
+.RI "override void \fBViewWillAppear\fP (bool animated)"
+.br
+.ti -1c
+.RI "override void \fBViewWillDisappear\fP (bool animated)"
+.br
+.ti -1c
+.RI "override void \fBWillRotate\fP (UIInterfaceOrientation toInterfaceOrientation, double duration)"
+.br
+.ti -1c
+.RI "void \fBShowPopover\fP ()"
+.br
+.RI "\fIShows the popover\&. \fP"
+.ti -1c
+.RI "void \fBHidePopover\fP ()"
+.br
+.RI "\fIHides the popover\&. \fP"
+.ti -1c
+.RI "override void \fBTouchesEnded\fP (NSSet touches, UIEvent evt)"
+.br
+.RI "\fIDismiss the popover \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+The main split controller in the app, we couldn't use UISplitViewController because it must be the very root controller of the app NOTE: there are 2 instances of this controller throughout the application, while the other controllers only have 1 instance 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.iOS\&.SplitController\&.SplitController (IntPtrhandle)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void FieldService\&.iOS\&.SplitController\&.HidePopover ()"
+
+.PP
+Hides the popover\&. 
+.SS "void FieldService\&.iOS\&.SplitController\&.ShowPopover ()"
+
+.PP
+Shows the popover\&. 
+.SS "override void FieldService\&.iOS\&.SplitController\&.TouchesEnded (NSSettouches, UIEventevt)"
+
+.PP
+Dismiss the popover 
+.SS "override void FieldService\&.iOS\&.SplitController\&.ViewDidLoad ()"
+
+.SS "override void FieldService\&.iOS\&.SplitController\&.ViewWillAppear (boolanimated)"
+
+.SS "override void FieldService\&.iOS\&.SplitController\&.ViewWillDisappear (boolanimated)"
+
+.SS "override void FieldService\&.iOS\&.SplitController\&.WillRotate (UIInterfaceOrientationtoInterfaceOrientation, doubleduration)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

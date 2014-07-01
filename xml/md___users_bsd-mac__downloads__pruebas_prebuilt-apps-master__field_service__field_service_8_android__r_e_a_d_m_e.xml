@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__field_service_8_android__r_e_a_d_m_e" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_FieldService.Android_README</compoundname>
+    <title>Field Service - Android</title>
+    <detaileddescription>
+<para>We are using Google Maps API Key, documentation here: <ulink url="https://developers.google.com/maps/documentation/android/v1/maps-api-signup">https://developers.google.com/maps/documentation/android/v1/maps-api-signup</ulink></para><para>Instructions here: <ulink url="http://docs.xamarin.com/Android/Guides/Platform_Features/Maps_and_Location/Obtaining_a_Google_Maps_API_Key">http://docs.xamarin.com/Android/Guides/Platform_Features/Maps_and_Location/Obtaining_a_Google_Maps_API_Key</ulink></para><para>You will need a Google Maps API here: <ulink url="http://developer.android.com/sdk/installing/adding-packages.html">http://developer.android.com/sdk/installing/adding-packages.html</ulink> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4" kind="class" prot="public">
+    <compoundname>SQLite::AsyncTableQuery&lt; T &gt;</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a5e585d4821c3ff594dad749271ac03ac" prot="private" static="no" mutable="no">
+        <type>TableQuery&lt; T &gt;</type>
+        <definition>TableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;._innerQuery</definition>
+        <argsstring></argsstring>
+        <name>_innerQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="310" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.AsyncTableQuery&lt; T &gt;.AsyncTableQuery</definition>
+        <argsstring>(TableQuery&lt; T &gt; innerQuery)</argsstring>
+        <name>AsyncTableQuery</name>
+        <param>
+          <type>TableQuery&lt; T &gt;</type>
+          <declname>innerQuery</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="312" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1afe04f8363082a033b984230c7a245dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" kindref="member">AsyncTableQuery</ref>&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.Where</definition>
+        <argsstring>(Expression&lt; Func&lt; T, bool &gt;&gt; predExpr)</argsstring>
+        <name>Where</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, bool &gt;&gt;</type>
+          <declname>predExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="317" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1ab1b8210413273abe6bc9383bc4f7ea9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" kindref="member">AsyncTableQuery</ref>&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.Skip</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Skip</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="322" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="322" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a6c47c652b3b8123e2d4961263c289af9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" kindref="member">AsyncTableQuery</ref>&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.Take</definition>
+        <argsstring>(int n)</argsstring>
+        <name>Take</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="327" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="327" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a41540b08c3c49c123b57de8a0a5e3aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" kindref="member">AsyncTableQuery</ref>&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.OrderBy&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>OrderBy&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="332" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a4a45b5c81ccf4459f17d66fba6a18c3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" kindref="member">AsyncTableQuery</ref>&lt; T &gt;</type>
+        <definition>AsyncTableQuery&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.OrderByDescending&lt; U &gt;</definition>
+        <argsstring>(Expression&lt; Func&lt; T, U &gt;&gt; orderExpr)</argsstring>
+        <name>OrderByDescending&lt; U &gt;</name>
+        <param>
+          <type>Expression&lt; Func&lt; T, U &gt;&gt;</type>
+          <declname>orderExpr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="337" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a7343ff525af21bdc055935f46a39ae72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; List&lt; T &gt; &gt;</type>
+        <definition>Task&lt;List&lt;T&gt; &gt; SQLite.AsyncTableQuery&lt; T &gt;.ToListAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ToListAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="342" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="342" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a70df4365834cfe29d0adb1c1841266b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; int &gt;</type>
+        <definition>Task&lt;int&gt; SQLite.AsyncTableQuery&lt; T &gt;.CountAsync</definition>
+        <argsstring>()</argsstring>
+        <name>CountAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="351" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="351" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1ade7303c76081c4b9cd80b4d25806ca30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.ElementAtAsync</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ElementAtAsync</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="360" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="360" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a2e3bae8cc7dc0b16abd95d4516d61971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.FirstAsync</definition>
+        <argsstring>()</argsstring>
+        <name>FirstAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="369" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="369" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1aac82a5fa254a7f1c6a1a08f534989604" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; T &gt;</type>
+        <definition>Task&lt;T&gt; SQLite.AsyncTableQuery&lt; T &gt;.FirstOrDefaultAsync</definition>
+        <argsstring>()</argsstring>
+        <name>FirstOrDefaultAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="378" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="378" bodyend="385"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="309" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="307" bodyend="386"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a5e585d4821c3ff594dad749271ac03ac" prot="private" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>_innerQuery</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a0255986ac768d5fca5b4e2c9840da35d" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>AsyncTableQuery</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a70df4365834cfe29d0adb1c1841266b0" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>CountAsync</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1ade7303c76081c4b9cd80b4d25806ca30" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>ElementAtAsync</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a2e3bae8cc7dc0b16abd95d4516d61971" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>FirstAsync</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1aac82a5fa254a7f1c6a1a08f534989604" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>FirstOrDefaultAsync</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a41540b08c3c49c123b57de8a0a5e3aea" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>OrderBy&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a4a45b5c81ccf4459f17d66fba6a18c3f" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>OrderByDescending&lt; U &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1ab1b8210413273abe6bc9383bc4f7ea9c" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>Skip</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a6c47c652b3b8123e2d4961263c289af9" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>Take</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1a7343ff525af21bdc055935f46a39ae72" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>ToListAsync</name></member>
+      <member refid="class_s_q_lite_1_1_async_table_query_3_01_t_01_4_1afe04f8363082a033b984230c7a245dea" prot="public" virt="non-virtual"><scope>SQLite::AsyncTableQuery&lt; T &gt;</scope><name>Where</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

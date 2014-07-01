@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_service_registrar" kind="class" prot="public">
+    <compoundname>FieldService::ServiceRegistrar</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_service_registrar_1a020bc1b6d5a6f801b108bcc857a14950" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.ServiceRegistrar.Startup</definition>
+        <argsstring>()</argsstring>
+        <name>Startup</name>
+        <briefdescription>
+<para>Call on startup of the app, it configures ServiceContainer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ServiceRegistrar.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ServiceRegistrar.cs" bodystart="33" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for registering services for the app </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ServiceRegistrar.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ServiceRegistrar.cs" bodystart="28" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_service_registrar_1a020bc1b6d5a6f801b108bcc857a14950" prot="public" virt="non-virtual"><scope>FieldService::ServiceRegistrar</scope><name>Startup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

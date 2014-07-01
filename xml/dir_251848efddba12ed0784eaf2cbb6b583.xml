@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_251848efddba12ed0784eaf2cbb6b583" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities</compoundname>
+    <innerfile refid="_boolean_to_visibility_converter_8cs">BooleanToVisibilityConverter.cs</innerfile>
+    <innerfile refid="_field_service_8_win_r_t_2_utilities_2_constants_8cs">Constants.cs</innerfile>
+    <innerfile refid="_delegate_command_8cs">DelegateCommand.cs</innerfile>
+    <innerfile refid="_document_subheader_color_converter_8cs">DocumentSubheaderColorConverter.cs</innerfile>
+    <innerfile refid="_document_type_to_color_converter_8cs">DocumentTypeToColorConverter.cs</innerfile>
+    <innerfile refid="_helpers_8cs">Helpers.cs</innerfile>
+    <innerfile refid="_photo_to_image_converter_8cs">PhotoToImageConverter.cs</innerfile>
+    <innerfile refid="_status_to_color_converter_8cs">StatusToColorConverter.cs</innerfile>
+    <innerfile refid="_timer_8cs">Timer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/"/>
+  </compounddef>
+</doxygen>

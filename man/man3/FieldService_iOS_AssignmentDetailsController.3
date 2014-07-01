@@ -1,0 +1,84 @@
+.TH "FieldService.iOS.AssignmentDetailsController" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS.AssignmentDetailsController \- 
+.PP
+Controller for the assignment summary page  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.iOS\&.BaseController\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignmentDetailsController\fP (IntPtr handle)"
+.br
+.ti -1c
+.RI "override void \fBViewDidLoad\fP ()"
+.br
+.ti -1c
+.RI "override void \fBViewWillAppear\fP (bool animated)"
+.br
+.ti -1c
+.RI "void \fBSectionSelected\fP (UITableView tableView, NSIndexPath indexPath, bool animated=true)"
+.br
+.RI "\fICalled when a menu item in \fBMenuController\fP is selected \fP"
+.ti -1c
+.RI "void \fBUpdateAssignment\fP ()"
+.br
+.RI "\fISets up the UI for the assignment \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler \fBStatusChanged\fP"
+.br
+.RI "\fIOccurs when status is changed on the timer \fP"
+.ti -1c
+.RI "EventHandler \fBCompleted\fP"
+.br
+.RI "\fIOccurs when status changes to completed \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+Controller for the assignment summary page 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.iOS\&.AssignmentDetailsController\&.AssignmentDetailsController (IntPtrhandle)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void FieldService\&.iOS\&.AssignmentDetailsController\&.SectionSelected (UITableViewtableView, NSIndexPathindexPath, boolanimated = \fCtrue\fP)"
+
+.PP
+Called when a menu item in \fBMenuController\fP is selected 
+.SS "void FieldService\&.iOS\&.AssignmentDetailsController\&.UpdateAssignment ()"
+
+.PP
+Sets up the UI for the assignment 
+.SS "override void FieldService\&.iOS\&.AssignmentDetailsController\&.ViewDidLoad ()"
+
+.SS "override void FieldService\&.iOS\&.AssignmentDetailsController\&.ViewWillAppear (boolanimated)"
+
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.iOS\&.AssignmentDetailsController\&.Completed"
+
+.PP
+Occurs when status changes to completed 
+.SS "EventHandler FieldService\&.iOS\&.AssignmentDetailsController\&.StatusChanged"
+
+.PP
+Occurs when status is changed on the timer 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

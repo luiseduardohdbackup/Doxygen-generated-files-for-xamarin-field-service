@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::SummaryFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a083deb3b8bc27cc5a22b3fb74a9fddab" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.SummaryFragment.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a3c8bb61b7185965541b2a0df42ccd5a9" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.SummaryFragment.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a98b17f041a0944432eb012991435470a" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.SummaryFragment.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a77d3fafd14e7c40b5e33c750d8db1240" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.SummaryFragment.SummaryFragment</definition>
+        <argsstring>()</argsstring>
+        <name>SummaryFragment</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a151d8d9e0af1ffb31690cc3c08f7c830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.SummaryFragment.onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1ad4c50d26cc5f97f2610358b6aa3814cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.SummaryFragment.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1aef6593aceede8120e4db8566ee0308fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.SummaryFragment.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1aff7aa4d3199c51c23e7c29c4bd03320e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.SummaryFragment.n_onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>n_onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3150">
+        <label>fieldservice.android.fragments.SummaryFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment"/>
+        <childnode refid="3151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3151">
+        <label>Fragment</label>
+      </node>
+      <node id="3152">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3156">
+        <label>String</label>
+      </node>
+      <node id="3153">
+        <label>fieldservice.android.fragments.SummaryFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment"/>
+        <childnode refid="3154" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3155" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3156" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="3154">
+        <label>Fragment</label>
+      </node>
+      <node id="3155">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/SummaryFragment.java" bodystart="4" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a98b17f041a0944432eb012991435470a" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a083deb3b8bc27cc5a22b3fb74a9fddab" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1ad4c50d26cc5f97f2610358b6aa3814cc" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1aef6593aceede8120e4db8566ee0308fb" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1aff7aa4d3199c51c23e7c29c4bd03320e" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>n_onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a151d8d9e0af1ffb31690cc3c08f7c830" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a3c8bb61b7185965541b2a0df42ccd5a9" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>refList</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_summary_fragment_1a77d3fafd14e7c40b5e33c750d8db1240" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::SummaryFragment</scope><name>SummaryFragment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

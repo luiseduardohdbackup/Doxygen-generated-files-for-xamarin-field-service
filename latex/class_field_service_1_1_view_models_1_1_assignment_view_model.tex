@@ -1,0 +1,291 @@
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model}{\section{Field\+Service.\+View\+Models.\+Assignment\+View\+Model Class Reference}
+\label{class_field_service_1_1_view_models_1_1_assignment_view_model}\index{Field\+Service.\+View\+Models.\+Assignment\+View\+Model@{Field\+Service.\+View\+Models.\+Assignment\+View\+Model}}
+}
+
+
+View model for assignments list  
+
+
+
+
+Inheritance diagram for Field\+Service.\+View\+Models.\+Assignment\+View\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_field_service_1_1_view_models_1_1_assignment_view_model__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+View\+Models.\+Assignment\+View\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_field_service_1_1_view_models_1_1_assignment_view_model__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a9cb65487d776beaa6b358bae1912bb44}{Assignment\+View\+Model} ()
+\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a90e64bf6cd2a0a7925670d029e248c9b}{Load\+Assignments\+Async} ()
+\begin{DoxyCompactList}\small\item\em Loads the assignments asynchronously \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_ac7215fe40870675e8a614e592549e0d5}{Load\+Timer\+Entry\+Async} ()
+\begin{DoxyCompactList}\small\item\em Loads the timer entry \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a32d10eedcb209fcfef586eecc30b081d}{Save\+Assignment\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment)
+\begin{DoxyCompactList}\small\item\em Saves an assignment, and applies any needed changes to the active one \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a912829fefd8d65c7961b124acf978260}{Save\+Signature\+Async} ()
+\begin{DoxyCompactList}\small\item\em Saves the current signature \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a49f98c2a456c5e68fad8a0ef5babd299}{Load\+Signature\+Async} (\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} assignment)
+\begin{DoxyCompactList}\small\item\em Loads the signature for an assignment \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_acbb68867f8c73a3bd5f2314a61faaf72}{Record\+Async} ()
+\begin{DoxyCompactList}\small\item\em Starts timer \end{DoxyCompactList}\item 
+Task \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a7fb4d1dd3b7f6ffb6e0d99dc3a9b738b}{Pause\+Async} ()
+\begin{DoxyCompactList}\small\item\em Pauses timer \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a9305af75c7777c8e9955b9f8326ed5ce}{On\+Recording\+Changed} ()
+\begin{DoxyCompactList}\small\item\em Called when Recording changes \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a714185393fd4448a94bbcafc3a2c9638}{On\+Hours\+Changed} ()
+\begin{DoxyCompactList}\small\item\em Called when Hours changes \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a5bbbd8f4c5594233117d7b9a3726940c}{Selected\+Assignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Selected assignment \end{DoxyCompactList}\item 
+\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a8e4b3bebf707937794a039f0bf7431b5}{Last\+Assignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The \char`\"{}last\char`\"{} assignment, used for when switching between history \end{DoxyCompactList}\item 
+\hyperlink{namespace_field_service_1_1_data_a87f0c66830f2bf43c90c245213fc3263}{Assignment\+Status}\mbox{[}$\,$\mbox{]} \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_ac4318df5ceb0e9bce053310d5cdd0e55}{Available\+Statuses}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em List of available statuses an assignment can be set to \end{DoxyCompactList}\item 
+bool \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a869d106839c37753e8996fffffddfe0a}{Recording}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the active assignment is recording hours \end{DoxyCompactList}\item 
+Time\+Span \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_af2ad8f0c8191aac2a29adb3dae4981c5}{Current\+Hours}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Number of hours for the current record session on the active assignment \end{DoxyCompactList}\item 
+Time\+Span \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a8c4cf62fb86d4dd82675479cd5735ed3}{Hours}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Number of accumulated hours on the active assignment \end{DoxyCompactList}\item 
+\hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a22d0c91898b0b8b2813c3d842df0c2b3}{Active\+Assignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The current active assignment, this can be null \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_field_service_1_1_data_1_1_assignment}{Assignment} $>$ \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_afdc84c2b2c77fd5dd1c7d27b8fb7f5fd}{Assignments}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em List of assignments \end{DoxyCompactList}\item 
+\hyperlink{class_field_service_1_1_data_1_1_signature}{Data.\+Signature} \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_ad24077c9d1898c16468350c01b4fe5f5}{Signature}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The current signature \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a842d1b418c92a8060edea574f510db80}{Hours\+Changed}
+\begin{DoxyCompactList}\small\item\em Event when Hours is updated \end{DoxyCompactList}\item 
+Event\+Handler \hyperlink{class_field_service_1_1_view_models_1_1_assignment_view_model_a68b2f44613d0793c8ad78c3b196f3745}{Recording\+Changed}
+\begin{DoxyCompactList}\small\item\em Event when Recording is changed \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+View model for assignments list 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a9cb65487d776beaa6b358bae1912bb44}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Assignment\+View\+Model@{Assignment\+View\+Model}}
+\index{Assignment\+View\+Model@{Assignment\+View\+Model}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Assignment\+View\+Model}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Assignment\+View\+Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a9cb65487d776beaa6b358bae1912bb44}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a90e64bf6cd2a0a7925670d029e248c9b}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Load\+Assignments\+Async@{Load\+Assignments\+Async}}
+\index{Load\+Assignments\+Async@{Load\+Assignments\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Load\+Assignments\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Load\+Assignments\+Async (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a90e64bf6cd2a0a7925670d029e248c9b}
+
+
+Loads the assignments asynchronously 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a49f98c2a456c5e68fad8a0ef5babd299}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Load\+Signature\+Async@{Load\+Signature\+Async}}
+\index{Load\+Signature\+Async@{Load\+Signature\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Load\+Signature\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Load\+Signature\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a49f98c2a456c5e68fad8a0ef5babd299}
+
+
+Loads the signature for an assignment 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_ac7215fe40870675e8a614e592549e0d5}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Load\+Timer\+Entry\+Async@{Load\+Timer\+Entry\+Async}}
+\index{Load\+Timer\+Entry\+Async@{Load\+Timer\+Entry\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Load\+Timer\+Entry\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Load\+Timer\+Entry\+Async (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_ac7215fe40870675e8a614e592549e0d5}
+
+
+Loads the timer entry 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a714185393fd4448a94bbcafc3a2c9638}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!On\+Hours\+Changed@{On\+Hours\+Changed}}
+\index{On\+Hours\+Changed@{On\+Hours\+Changed}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{On\+Hours\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+On\+Hours\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a714185393fd4448a94bbcafc3a2c9638}
+
+
+Called when Hours changes 
+
+
+
+Reimplemented in \hyperlink{class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model_a9c33381d84cb09938ac3c7f5434b9ff7}{Field\+Service.\+Win\+R\+T.\+View\+Models.\+Assignment\+View\+Model}.
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a9305af75c7777c8e9955b9f8326ed5ce}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!On\+Recording\+Changed@{On\+Recording\+Changed}}
+\index{On\+Recording\+Changed@{On\+Recording\+Changed}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{On\+Recording\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+On\+Recording\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a9305af75c7777c8e9955b9f8326ed5ce}
+
+
+Called when Recording changes 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a7fb4d1dd3b7f6ffb6e0d99dc3a9b738b}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Pause\+Async@{Pause\+Async}}
+\index{Pause\+Async@{Pause\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Pause\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Pause\+Async (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a7fb4d1dd3b7f6ffb6e0d99dc3a9b738b}
+
+
+Pauses timer 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_acbb68867f8c73a3bd5f2314a61faaf72}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Record\+Async@{Record\+Async}}
+\index{Record\+Async@{Record\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Record\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Record\+Async (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_acbb68867f8c73a3bd5f2314a61faaf72}
+
+
+Starts timer 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a32d10eedcb209fcfef586eecc30b081d}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Save\+Assignment\+Async@{Save\+Assignment\+Async}}
+\index{Save\+Assignment\+Async@{Save\+Assignment\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Save\+Assignment\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Save\+Assignment\+Async (
+\begin{DoxyParamCaption}
+\item[{{\bf Assignment}}]{assignment}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a32d10eedcb209fcfef586eecc30b081d}
+
+
+Saves an assignment, and applies any needed changes to the active one 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a912829fefd8d65c7961b124acf978260}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Save\+Signature\+Async@{Save\+Signature\+Async}}
+\index{Save\+Signature\+Async@{Save\+Signature\+Async}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Save\+Signature\+Async}]{\setlength{\rightskip}{0pt plus 5cm}Task Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Save\+Signature\+Async (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a912829fefd8d65c7961b124acf978260}
+
+
+Saves the current signature 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a22d0c91898b0b8b2813c3d842df0c2b3}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Active\+Assignment@{Active\+Assignment}}
+\index{Active\+Assignment@{Active\+Assignment}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Active\+Assignment}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Assignment} Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Active\+Assignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a22d0c91898b0b8b2813c3d842df0c2b3}
+
+
+The current active assignment, this can be null 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_afdc84c2b2c77fd5dd1c7d27b8fb7f5fd}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Assignments@{Assignments}}
+\index{Assignments@{Assignments}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Assignments}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Assignment}$>$ Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Assignments\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_afdc84c2b2c77fd5dd1c7d27b8fb7f5fd}
+
+
+List of assignments 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_ac4318df5ceb0e9bce053310d5cdd0e55}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Available\+Statuses@{Available\+Statuses}}
+\index{Available\+Statuses@{Available\+Statuses}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Available\+Statuses}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Assignment\+Status} \mbox{[}$\,$\mbox{]} Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Available\+Statuses\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_ac4318df5ceb0e9bce053310d5cdd0e55}
+
+
+List of available statuses an assignment can be set to 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_af2ad8f0c8191aac2a29adb3dae4981c5}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Current\+Hours@{Current\+Hours}}
+\index{Current\+Hours@{Current\+Hours}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Current\+Hours}]{\setlength{\rightskip}{0pt plus 5cm}Time\+Span Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Current\+Hours\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_af2ad8f0c8191aac2a29adb3dae4981c5}
+
+
+Number of hours for the current record session on the active assignment 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a8c4cf62fb86d4dd82675479cd5735ed3}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Hours@{Hours}}
+\index{Hours@{Hours}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Hours}]{\setlength{\rightskip}{0pt plus 5cm}Time\+Span Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Hours\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a8c4cf62fb86d4dd82675479cd5735ed3}
+
+
+Number of accumulated hours on the active assignment 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a8e4b3bebf707937794a039f0bf7431b5}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Last\+Assignment@{Last\+Assignment}}
+\index{Last\+Assignment@{Last\+Assignment}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Last\+Assignment}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Assignment} Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Last\+Assignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a8e4b3bebf707937794a039f0bf7431b5}
+
+
+The \char`\"{}last\char`\"{} assignment, used for when switching between history 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a869d106839c37753e8996fffffddfe0a}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Recording@{Recording}}
+\index{Recording@{Recording}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Recording}]{\setlength{\rightskip}{0pt plus 5cm}bool Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Recording\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a869d106839c37753e8996fffffddfe0a}
+
+
+True if the active assignment is recording hours 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a5bbbd8f4c5594233117d7b9a3726940c}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Selected\+Assignment@{Selected\+Assignment}}
+\index{Selected\+Assignment@{Selected\+Assignment}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Selected\+Assignment}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Assignment} Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Selected\+Assignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a5bbbd8f4c5594233117d7b9a3726940c}
+
+
+Selected assignment 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_ad24077c9d1898c16468350c01b4fe5f5}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Signature@{Signature}}
+\index{Signature@{Signature}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Signature}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Data.\+Signature} Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Signature\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_ad24077c9d1898c16468350c01b4fe5f5}
+
+
+The current signature 
+
+
+
+\subsection{Event Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a842d1b418c92a8060edea574f510db80}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Hours\+Changed@{Hours\+Changed}}
+\index{Hours\+Changed@{Hours\+Changed}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Hours\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Hours\+Changed}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a842d1b418c92a8060edea574f510db80}
+
+
+Event when Hours is updated 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_assignment_view_model_a68b2f44613d0793c8ad78c3b196f3745}{\index{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}!Recording\+Changed@{Recording\+Changed}}
+\index{Recording\+Changed@{Recording\+Changed}!Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model@{Field\+Service\+::\+View\+Models\+::\+Assignment\+View\+Model}}
+\subsubsection[{Recording\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+View\+Models.\+Assignment\+View\+Model.\+Recording\+Changed}}\label{class_field_service_1_1_view_models_1_1_assignment_view_model_a68b2f44613d0793c8ad78c3b196f3745}
+
+
+Event when Recording is changed 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service/\+View\+Models/\hyperlink{_view_models_2_assignment_view_model_8cs}{Assignment\+View\+Model.\+cs}\end{DoxyCompactItemize}

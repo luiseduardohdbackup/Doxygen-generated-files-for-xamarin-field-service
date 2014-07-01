@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['database_2ecs',['Database.cs',['../_database_8cs.html',1,'']]],
+  ['dataextensions_2ecs',['DataExtensions.cs',['../_data_extensions_8cs.html',1,'']]],
+  ['delegatecommand_2ecs',['DelegateCommand.cs',['../_delegate_command_8cs.html',1,'']]],
+  ['delegatedcommand_2ecs',['DelegatedCommand.cs',['../_geolocation_sample_2_delegated_command_8cs.html',1,'']]],
+  ['delegatedcommand_2ecs',['DelegatedCommand.cs',['../_media_picker_sample_2_delegated_command_8cs.html',1,'']]],
+  ['delegatedmenuitemlistener_2ecs',['DelegatedMenuItemListener.cs',['../_delegated_menu_item_listener_8cs.html',1,'']]],
+  ['detailcontactview_2ecs',['DetailContactView.cs',['../_detail_contact_view_8cs.html',1,'']]],
+  ['details_2emd',['Details.md',['../sqlite-net-1_80_81_2component_2_details_8md.html',1,'']]],
+  ['details_2emd',['Details.md',['../signature-pad-1_82_2component_2_details_8md.html',1,'']]],
+  ['details_2emd',['Details.md',['../xamarin_8mobile-0_86_81_2component_2_details_8md.html',1,'']]],
+  ['document_2ecs',['Document.cs',['../_document_8cs.html',1,'']]],
+  ['documentcell_2ecs',['DocumentCell.cs',['../_document_cell_8cs.html',1,'']]],
+  ['documentcontroller_2ecs',['DocumentController.cs',['../_document_controller_8cs.html',1,'']]],
+  ['documentcontroller_2edesigner_2ecs',['DocumentController.designer.cs',['../_document_controller_8designer_8cs.html',1,'']]],
+  ['documentfragment_2ecs',['DocumentFragment.cs',['../_document_fragment_8cs.html',1,'']]],
+  ['documentfragment_2ejava',['DocumentFragment.java',['../_document_fragment_8java.html',1,'']]],
+  ['documentsadapter_2ecs',['DocumentsAdapter.cs',['../_documents_adapter_8cs.html',1,'']]],
+  ['documentsadapter_2ejava',['DocumentsAdapter.java',['../_documents_adapter_8java.html',1,'']]],
+  ['documentspage_2examl_2ecs',['DocumentsPage.xaml.cs',['../_documents_page_8xaml_8cs.html',1,'']]],
+  ['documentsubheadercolorconverter_2ecs',['DocumentSubheaderColorConverter.cs',['../_document_subheader_color_converter_8cs.html',1,'']]],
+  ['documenttypetocolorconverter_2ecs',['DocumentTypeToColorConverter.cs',['../_document_type_to_color_converter_8cs.html',1,'']]],
+  ['documentviewmodel_2ecs',['DocumentViewModel.cs',['../_win_r_t_2_view_models_2_document_view_model_8cs.html',1,'']]],
+  ['documentviewmodel_2ecs',['DocumentViewModel.cs',['../_view_models_2_document_view_model_8cs.html',1,'']]],
+  ['documentviewmodeltests_2ecs',['DocumentViewModelTests.cs',['../_document_view_model_tests_8cs.html',1,'']]]
+];

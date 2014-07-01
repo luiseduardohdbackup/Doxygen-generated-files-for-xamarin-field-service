@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_login_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::LoginActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnEditorActionListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_login_activity_1a0221df901d8c7bc12bb7bef8ef1d0a71" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_login_view_model" kindref="compound">LoginViewModel</ref></type>
+        <definition>readonly LoginViewModel FieldService.Android.LoginActivity.loginViewModel</definition>
+        <argsstring></argsstring>
+        <name>loginViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_login_activity_1afad26bd745d3d6f2f811dc4b758320ac" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText FieldService.Android.LoginActivity.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_login_activity_1a9b6e6787ca4a4825f1214dd3136eec6c" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText FieldService.Android.LoginActivity.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_login_activity_1a59a3e7091b7aa0cea89dda19d5f24c59" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.LoginActivity.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_login_activity_1a911a040770ddba3570abb4b0b051c797" prot="private" static="no" mutable="no">
+        <type>ProgressBar</type>
+        <definition>ProgressBar FieldService.Android.LoginActivity.progressIndicator</definition>
+        <argsstring></argsstring>
+        <name>progressIndicator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a5a818f2099d45646562bb40eaac97137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.LoginActivity.LoginActivity</definition>
+        <argsstring>()</argsstring>
+        <name>LoginActivity</name>
+        <briefdescription>
+<para>Class constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="44" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a72a4d438265211e2c8d8416725184d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.LoginActivity.OnBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>OnBackPressed</name>
+        <briefdescription>
+<para>Override on back pressed so when the user is on the inactive login screen we don&apos;t let them back out of it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="104" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a3e77df55b1e1d2c15f10399a971e01e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieldService.Android.LoginActivity.OnEditorAction</definition>
+        <argsstring>(TextView v, ImeAction actionId, KeyEvent e)</argsstring>
+        <name>OnEditorAction</name>
+        <param>
+          <type>TextView</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>ImeAction</type>
+          <declname>actionId</declname>
+        </param>
+        <param>
+          <type>KeyEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Observes the TextView&apos;s ImeAction so an action can be taken on keypress. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="144" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="144" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a94f530b97498de4c35ae74dba9b6f0aa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.LoginActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="56" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a716f7942e4f0d5fe229d3a4a7611c029" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.LoginActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="130" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_login_activity_1a1998eb5ffdf6bb55f84c29cdcc3566d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.LoginActivity.Login</definition>
+        <argsstring>()</argsstring>
+        <name>Login</name>
+        <briefdescription>
+<para>Perform the login and dismiss the keyboard </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="113" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="113" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Activity for the login screen </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2556">
+        <label>Activity</label>
+      </node>
+      <node id="2555">
+        <label>FieldService.Android.LoginActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_login_activity"/>
+        <childnode refid="2556" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2557" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2557">
+        <label>TextView::IOnEditorActionListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2559">
+        <label>Activity</label>
+      </node>
+      <node id="2558">
+        <label>FieldService.Android.LoginActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_login_activity"/>
+        <childnode refid="2559" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2560">
+        <label>TextView::IOnEditorActionListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/LoginActivity.cs" bodystart="35" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a59a3e7091b7aa0cea89dda19d5f24c59" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>login</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a1998eb5ffdf6bb55f84c29cdcc3566d4" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>Login</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a5a818f2099d45646562bb40eaac97137" prot="public" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>LoginActivity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a0221df901d8c7bc12bb7bef8ef1d0a71" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>loginViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a72a4d438265211e2c8d8416725184d82" prot="public" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>OnBackPressed</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a94f530b97498de4c35ae74dba9b6f0aa" prot="protected" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a3e77df55b1e1d2c15f10399a971e01e3" prot="public" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>OnEditorAction</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a716f7942e4f0d5fe229d3a4a7611c029" prot="protected" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1afad26bd745d3d6f2f811dc4b758320ac" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>password</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a911a040770ddba3570abb4b0b051c797" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>progressIndicator</name></member>
+      <member refid="class_field_service_1_1_android_1_1_login_activity_1a9b6e6787ca4a4825f1214dd3136eec6c" prot="private" virt="non-virtual"><scope>FieldService::Android::LoginActivity</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="interface_field_service_1_1i_o_s_1_1_i_search_source" kind="interface" prot="public">
+    <compoundname>FieldService::iOS::ISearchSource</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_field_service_1_1i_o_s_1_1_i_search_source_1a2087d09332c44867b4d8c6e82a051967" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.iOS.ISearchSource.SearchText</definition>
+        <argsstring></argsstring>
+        <name>SearchText</name>
+        <briefdescription>
+<para>Gets or sets the search text the user entered </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ISearchSource.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ISearchSource.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A simple interface for supplying UISearchBar interaction </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ISearchSource.cs" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/ISearchSource.cs" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="interface_field_service_1_1i_o_s_1_1_i_search_source_1a2087d09332c44867b4d8c6e82a051967" prot="public" virt="non-virtual"><scope>FieldService::iOS::ISearchSource</scope><name>SearchText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

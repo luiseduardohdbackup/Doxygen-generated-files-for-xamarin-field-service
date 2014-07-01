@@ -1,0 +1,26 @@
+.TH "md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_xamarin.mobile-0.6.1_component__getting_started" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_xamarin.mobile-0.6.1_component__getting_started \- GettingStarted 
+Xamarin\&.Mobile is an API for accessing common platform features, such as reading the user's address book and using the camera, across iOS, Android, and Windows Phone\&.
+.PP
+.SS "Examples"
+.PP
+To access the address book:
+.PP
+```csharp using Xamarin\&.Contacts; \&.\&.\&.
+.PP
+var book = new AddressBook (); foreach (Contact contact in book\&.OrderBy (c => c\&.LastName)) { Console\&.WriteLine ('{0} {1}', contact\&.FirstName, contact\&.LastName); } ```
+.PP
+To get the user's location:
+.PP
+```csharp using Xamarin\&.Geolocation; \&.\&.\&.
+.PP
+var locator = new Geolocator { DesiredAccuracy = 50 }; locator\&.GetPositionAsync (timeout: 10000)\&.ContinueWith (t => { Console\&.WriteLine ('Position Status: {0}', t\&.Result\&.Timestamp); Console\&.WriteLine ('Position Latitude: {0}', t\&.Result\&.Latitude); Console\&.WriteLine ('Position Longitude: {0}', t\&.Result\&.Longitude); }); ```
+.PP
+To take a photo:
+.PP
+```csharp using Xamarin\&.Media; \&.\&.\&.
+.PP
+var picker = new MediaPicker (); picker\&.TakePhotoAsync (new StoreCameraMediaOptions { Name = 'test\&.jpg', Directory = 'MediaPickerSample' })\&.ContinueWith (t => { if (t\&.IsCanceled) { Console\&.WriteLine ('User canceled'); return; } Console\&.WriteLine (t\&.Result\&.Path); }); ``` 

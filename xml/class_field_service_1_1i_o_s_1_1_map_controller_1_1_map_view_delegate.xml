@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate" kind="class" prot="private">
+    <compoundname>FieldService::iOS::MapController::MapViewDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MKMapViewDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1ac1cc904828840ea4a12616216db1a765" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.MapController.MapViewDelegate.Identifier</definition>
+        <argsstring></argsstring>
+        <name>Identifier</name>
+        <initializer>= &quot;AssignmentAnnotation&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a21d3e52d4f638377f97fc8d25e0868c9" prot="private" static="no" mutable="no">
+        <type>readonly UIPopoverController</type>
+        <definition>readonly UIPopoverController FieldService.iOS.MapController.MapViewDelegate.popoverController</definition>
+        <argsstring></argsstring>
+        <name>popoverController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a9feed14a8c27d0b0dc01dc6ebc3694fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.MapController.MapViewDelegate.MapViewDelegate</definition>
+        <argsstring>()</argsstring>
+        <name>MapViewDelegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a5ea67635861af4855224a7672f812d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override MKAnnotationView</type>
+        <definition>override MKAnnotationView FieldService.iOS.MapController.MapViewDelegate.GetViewForAnnotation</definition>
+        <argsstring>(MKMapView mapView, NSObject annotation)</argsstring>
+        <name>GetViewForAnnotation</name>
+        <param>
+          <type>MKMapView</type>
+          <declname>mapView</declname>
+        </param>
+        <param>
+          <type>NSObject</type>
+          <declname>annotation</declname>
+        </param>
+        <briefdescription>
+<para>Returns our custom MKAnnotationView </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="89" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="89" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a2280e6807454b519614593332dac98c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MapController.MapViewDelegate.DidUpdateUserLocation</definition>
+        <argsstring>(MKMapView mapView, MKUserLocation userLocation)</argsstring>
+        <name>DidUpdateUserLocation</name>
+        <param>
+          <type>MKMapView</type>
+          <declname>mapView</declname>
+        </param>
+        <param>
+          <type>MKUserLocation</type>
+          <declname>userLocation</declname>
+        </param>
+        <briefdescription>
+<para>Callback for when the user&apos;s location is found, we want to zoom in when this happens </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="111" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="111" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a189a0467adb5c5b154630929cdbdb429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.MapController.MapViewDelegate.CalloutAccessoryControlTapped</definition>
+        <argsstring>(MKMapView mapView, MKAnnotationView view, UIControl control)</argsstring>
+        <name>CalloutAccessoryControlTapped</name>
+        <param>
+          <type>MKMapView</type>
+          <declname>mapView</declname>
+        </param>
+        <param>
+          <type>MKAnnotationView</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>UIControl</type>
+          <declname>control</declname>
+        </param>
+        <briefdescription>
+<para>This is the callback for when the detail disclosure is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="134" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="134" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1aee16d45fd7ebb2fdf549392de5a455a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.iOS.MapController.MapViewDelegate.GetAssignment</definition>
+        <argsstring>(MKPlacemark annotation)</argsstring>
+        <name>GetAssignment</name>
+        <param>
+          <type>MKPlacemark</type>
+          <declname>annotation</declname>
+        </param>
+        <briefdescription>
+<para>This pulls out an assignment we placed in a MKPlacemark </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="156" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Delegate for the map view </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2737">
+        <label>FieldService.iOS.MapController.MapViewDelegate</label>
+        <childnode refid="2738" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2738">
+        <label>MKMapViewDelegate</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2739">
+        <label>FieldService.iOS.MapController.MapViewDelegate</label>
+        <childnode refid="2740" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2740">
+        <label>MKMapViewDelegate</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" line="76" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/MapController.cs" bodystart="75" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a189a0467adb5c5b154630929cdbdb429" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>CalloutAccessoryControlTapped</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a2280e6807454b519614593332dac98c6" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>DidUpdateUserLocation</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1aee16d45fd7ebb2fdf549392de5a455a0" prot="private" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>GetAssignment</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a5ea67635861af4855224a7672f812d48" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>GetViewForAnnotation</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1ac1cc904828840ea4a12616216db1a765" prot="private" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>Identifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a9feed14a8c27d0b0dc01dc6ebc3694fe" prot="public" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>MapViewDelegate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_map_controller_1_1_map_view_delegate_1a21d3e52d4f638377f97fc8d25e0868c9" prot="private" virt="non-virtual"><scope>FieldService::iOS::MapController::MapViewDelegate</scope><name>popoverController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

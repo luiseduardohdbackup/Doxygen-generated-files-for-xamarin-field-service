@@ -1,0 +1,192 @@
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base}{\section{Field\+Service.\+View\+Models.\+View\+Model\+Base Class Reference}
+\label{class_field_service_1_1_view_models_1_1_view_model_base}\index{Field\+Service.\+View\+Models.\+View\+Model\+Base@{Field\+Service.\+View\+Models.\+View\+Model\+Base}}
+}
+
+
+Base class for all view models  
+
+
+
+
+Inheritance diagram for Field\+Service.\+View\+Models.\+View\+Model\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_field_service_1_1_view_models_1_1_view_model_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+View\+Models.\+View\+Model\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_field_service_1_1_view_models_1_1_view_model_base__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_aac15ea6fda5363b654314fc2060632d2}{View\+Model\+Base} ()
+\begin{DoxyCompactList}\small\item\em Default constructor \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a872d3f368bf241242ff6cff4589c54d8}{Validate} ()
+\begin{DoxyCompactList}\small\item\em Protected method for validating the View\+Model \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a814091201e60cc4fd3240a593cf26fd9}{Validate\+Property} (Func$<$ bool $>$ validate, string error)
+\begin{DoxyCompactList}\small\item\em Other viewmodels should call this when overriding Validate, to validate each property \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a6a7d9b80cff0d33e20451bccc7680e54}{On\+Is\+Busy\+Changed} ()
+\begin{DoxyCompactList}\small\item\em Other viewmodels can override this if something should be done when busy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a3eaef78dc011fb892e876d903adff375}{Is\+Valid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns true if the current state of the View\+Model is valid \end{DoxyCompactList}\item 
+List$<$ string $>$ \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_acfdcc60579dad2ed4235829744454c5e}{Errors}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em A list of errors if Is\+Valid is false \end{DoxyCompactList}\item 
+virtual string \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a0749e92a5aa2aef6e204e0825bf6a6fb}{Error}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em An aggregated error message \end{DoxyCompactList}\item 
+bool \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_ac79792fce62001ae8db6e7876ac0d837}{Is\+Busy}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Value inidicating if a spinner should be shown \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_a358450ebfc5f259f34a81ee8184ad1c2}{Is\+Busy\+Changed}
+\begin{DoxyCompactList}\small\item\em Event for when Is\+Busy changes \end{DoxyCompactList}\item 
+Event\+Handler \hyperlink{class_field_service_1_1_view_models_1_1_view_model_base_af6a683e5a53bba62a459ce847680c1a8}{Is\+Valid\+Changed}
+\begin{DoxyCompactList}\small\item\em Event for when Is\+Valid changes \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class for all view models 
+
+
+\begin{DoxyItemize}
+\item Implements I\+Notify\+Property\+Changed for \hyperlink{namespace_field_service_1_1_win_r_t}{Win\+R\+T}
+\item Implements some basic validation logic
+\item Implements some Is\+Busy logic 
+\end{DoxyItemize}
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_aac15ea6fda5363b654314fc2060632d2}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!View\+Model\+Base@{View\+Model\+Base}}
+\index{View\+Model\+Base@{View\+Model\+Base}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{View\+Model\+Base}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+View\+Models.\+View\+Model\+Base.\+View\+Model\+Base (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1_view_models_1_1_view_model_base_aac15ea6fda5363b654314fc2060632d2}
+
+
+Default constructor 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a6a7d9b80cff0d33e20451bccc7680e54}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!On\+Is\+Busy\+Changed@{On\+Is\+Busy\+Changed}}
+\index{On\+Is\+Busy\+Changed@{On\+Is\+Busy\+Changed}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{On\+Is\+Busy\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+View\+Models.\+View\+Model\+Base.\+On\+Is\+Busy\+Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a6a7d9b80cff0d33e20451bccc7680e54}
+
+
+Other viewmodels can override this if something should be done when busy 
+
+
+
+Reimplemented in \hyperlink{class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model_a777f81b7d56eabe3d582822b1584b4fe}{Field\+Service.\+Win\+R\+T.\+View\+Models.\+Assignment\+View\+Model}, and \hyperlink{class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_ac1775d35d062112b2537bdbf7e895ddd}{Field\+Service.\+Win\+R\+T.\+View\+Models.\+Login\+View\+Model}.
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a872d3f368bf241242ff6cff4589c54d8}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Validate@{Validate}}
+\index{Validate@{Validate}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Validate}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Validate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a872d3f368bf241242ff6cff4589c54d8}
+
+
+Protected method for validating the View\+Model 
+
+
+\begin{DoxyItemize}
+\item Fires Property\+Changed for Is\+Valid and Errors 
+\end{DoxyItemize}
+
+Reimplemented in \hyperlink{class_field_service_1_1_view_models_1_1_login_view_model_af979634e56bc7c5da542d0a1e38c7344}{Field\+Service.\+View\+Models.\+Login\+View\+Model}, and \hyperlink{class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model_ac068dc643a7e4c7b80b1668a69da6733}{Field\+Service.\+Win\+R\+T.\+View\+Models.\+Login\+View\+Model}.
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a814091201e60cc4fd3240a593cf26fd9}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Validate\+Property@{Validate\+Property}}
+\index{Validate\+Property@{Validate\+Property}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Validate\+Property}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Validate\+Property (
+\begin{DoxyParamCaption}
+\item[{Func$<$ bool $>$}]{validate, }
+\item[{string}]{error}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a814091201e60cc4fd3240a593cf26fd9}
+
+
+Other viewmodels should call this when overriding Validate, to validate each property 
+
+
+\begin{DoxyParams}{Parameters}
+{\em validate} & Func to determine if a value is valid\\
+\hline
+{\em error} & The error message to use if not valid\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a0749e92a5aa2aef6e204e0825bf6a6fb}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Error@{Error}}
+\index{Error@{Error}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual string Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Error\hspace{0.3cm}{\ttfamily [get]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a0749e92a5aa2aef6e204e0825bf6a6fb}
+
+
+An aggregated error message 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_acfdcc60579dad2ed4235829744454c5e}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Errors@{Errors}}
+\index{Errors@{Errors}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Errors}]{\setlength{\rightskip}{0pt plus 5cm}List$<$string$>$ Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Errors\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_acfdcc60579dad2ed4235829744454c5e}
+
+
+A list of errors if Is\+Valid is false 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_ac79792fce62001ae8db6e7876ac0d837}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Is\+Busy@{Is\+Busy}}
+\index{Is\+Busy@{Is\+Busy}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Is\+Busy}]{\setlength{\rightskip}{0pt plus 5cm}bool Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Is\+Busy\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_ac79792fce62001ae8db6e7876ac0d837}
+
+
+Value inidicating if a spinner should be shown 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a3eaef78dc011fb892e876d903adff375}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Is\+Valid@{Is\+Valid}}
+\index{Is\+Valid@{Is\+Valid}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Is\+Valid}]{\setlength{\rightskip}{0pt plus 5cm}bool Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Is\+Valid\hspace{0.3cm}{\ttfamily [get]}}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a3eaef78dc011fb892e876d903adff375}
+
+
+Returns true if the current state of the View\+Model is valid 
+
+
+
+\subsection{Event Documentation}
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_a358450ebfc5f259f34a81ee8184ad1c2}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Is\+Busy\+Changed@{Is\+Busy\+Changed}}
+\index{Is\+Busy\+Changed@{Is\+Busy\+Changed}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Is\+Busy\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Is\+Busy\+Changed}}\label{class_field_service_1_1_view_models_1_1_view_model_base_a358450ebfc5f259f34a81ee8184ad1c2}
+
+
+Event for when Is\+Busy changes 
+
+\hypertarget{class_field_service_1_1_view_models_1_1_view_model_base_af6a683e5a53bba62a459ce847680c1a8}{\index{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}!Is\+Valid\+Changed@{Is\+Valid\+Changed}}
+\index{Is\+Valid\+Changed@{Is\+Valid\+Changed}!Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base@{Field\+Service\+::\+View\+Models\+::\+View\+Model\+Base}}
+\subsubsection[{Is\+Valid\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+View\+Models.\+View\+Model\+Base.\+Is\+Valid\+Changed}}\label{class_field_service_1_1_view_models_1_1_view_model_base_af6a683e5a53bba62a459ce847680c1a8}
+
+
+Event for when Is\+Valid changes 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service/\+View\+Models/\hyperlink{_view_model_base_8cs}{View\+Model\+Base.\+cs}\end{DoxyCompactItemize}

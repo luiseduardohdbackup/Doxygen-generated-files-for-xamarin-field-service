@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_win_r_t" kind="namespace">
+    <compoundname>FieldService::WinRT</compoundname>
+    <innerclass refid="class_field_service_1_1_win_r_t_1_1_app" prot="public">FieldService::WinRT::App</innerclass>
+    <innernamespace refid="namespace_field_service_1_1_win_r_t_1_1_utilities">FieldService::WinRT::Utilities</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_win_r_t_1_1_view_models">FieldService::WinRT::ViewModels</innernamespace>
+    <innernamespace refid="namespace_field_service_1_1_win_r_t_1_1_views">FieldService::WinRT::Views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/App.xaml.cs" line="26" column="1"/>
+  </compounddef>
+</doxygen>

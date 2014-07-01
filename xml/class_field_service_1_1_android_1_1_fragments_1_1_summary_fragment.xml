@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::SummaryFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a7efde11f1e7ef6728a069c92aa30a1a5" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Fragments.SummaryFragment.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a601535805f950663313a716d3735a1a2" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Fragments.SummaryFragment.laborhours</definition>
+        <argsstring></argsstring>
+        <name>laborhours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a63de01634eb5d6d98314a8a5ce26f442" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Fragments.SummaryFragment.expenses</definition>
+        <argsstring></argsstring>
+        <name>expenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a18bd0f6fc327cb0cf287c2e0fbd90878" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Fragments.SummaryFragment.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a77edda7f1bf3f8e50154ce295e2426ca" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Fragments.SummaryFragment.descriptionHeader</definition>
+        <argsstring></argsstring>
+        <name>descriptionHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a0ece48fd67a88aa9973d6ed99f5f039b" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.Fragments.SummaryFragment.itemsLayout</definition>
+        <argsstring></argsstring>
+        <name>itemsLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a3227c5edca3274f08965c1fab7071dad" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.Fragments.SummaryFragment.expensesLayout</definition>
+        <argsstring></argsstring>
+        <name>expensesLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a900b10355918239f0795700e92d6f8c1" prot="private" static="no" mutable="no">
+        <type>RelativeLayout</type>
+        <definition>RelativeLayout FieldService.Android.Fragments.SummaryFragment.laborHoursLayout</definition>
+        <argsstring></argsstring>
+        <name>laborHoursLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a8ca6fdc8b7a9997f68353b19bf1fb702" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Fragments.SummaryFragment.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The selected assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a001b0ab992de7fa390d9ca435054e2a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.SummaryFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="38" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a23f1ee0455b2d69e59c794c2763c8030" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.SummaryFragment.SelectNavigation</definition>
+        <argsstring>(int index)</argsstring>
+        <name>SelectNavigation</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Call to the navigation fragment to select the correct value in the list view to change fragments </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="82" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragment for the summary screen </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3157">
+        <label>FieldService.Android.Fragments.SummaryFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment"/>
+        <childnode refid="3158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3158">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3159">
+        <label>FieldService.Android.Fragments.SummaryFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment"/>
+        <childnode refid="3160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3160">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/SummaryFragment.cs" bodystart="28" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a8ca6fdc8b7a9997f68353b19bf1fb702" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a18bd0f6fc327cb0cf287c2e0fbd90878" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>description</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a77edda7f1bf3f8e50154ce295e2426ca" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>descriptionHeader</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a63de01634eb5d6d98314a8a5ce26f442" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>expenses</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a3227c5edca3274f08965c1fab7071dad" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>expensesLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a7efde11f1e7ef6728a069c92aa30a1a5" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a0ece48fd67a88aa9973d6ed99f5f039b" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>itemsLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a601535805f950663313a716d3735a1a2" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>laborhours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a900b10355918239f0795700e92d6f8c1" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>laborHoursLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a001b0ab992de7fa390d9ca435054e2a4" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_summary_fragment_1a23f1ee0455b2d69e59c794c2763c8030" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::SummaryFragment</scope><name>SelectNavigation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

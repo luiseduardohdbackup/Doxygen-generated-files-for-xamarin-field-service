@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column" kind="struct" prot="private">
+    <compoundname>SQLite::SQLiteConnection::IndexedColumn</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column_1af538c0f2a841d07dcbe97b9eb268fc5b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.IndexedColumn.Order</definition>
+        <argsstring></argsstring>
+        <name>Order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="324" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column_1ae8e255ea2a66bf84b0a8545c5d52150e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.IndexedColumn.ColumnName</definition>
+        <argsstring></argsstring>
+        <name>ColumnName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="325" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="323" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="322" bodyend="326"/>
+    <listofallmembers>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column_1ae8e255ea2a66bf84b0a8545c5d52150e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexedColumn</scope><name>ColumnName</name></member>
+      <member refid="struct_s_q_lite_1_1_s_q_lite_connection_1_1_indexed_column_1af538c0f2a841d07dcbe97b9eb268fc5b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::IndexedColumn</scope><name>Order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

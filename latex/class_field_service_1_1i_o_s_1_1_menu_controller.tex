@@ -1,0 +1,142 @@
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller}{\section{Field\+Service.\+i\+O\+S.\+Menu\+Controller Class Reference}
+\label{class_field_service_1_1i_o_s_1_1_menu_controller}\index{Field\+Service.\+i\+O\+S.\+Menu\+Controller@{Field\+Service.\+i\+O\+S.\+Menu\+Controller}}
+}
+
+
+This controller holds the main menu for assignments  
+
+
+
+
+Inheritance diagram for Field\+Service.\+i\+O\+S.\+Menu\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{class_field_service_1_1i_o_s_1_1_menu_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+i\+O\+S.\+Menu\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{class_field_service_1_1i_o_s_1_1_menu_controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_aa381cc389506b647abd1e16a8bc3ec23}{Menu\+Controller} (Int\+Ptr handle)
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a68604c79f2e98ab71a54d152c98fd22e}{View\+Did\+Load} ()
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a23c22e08c2699811e5ecb7844877f53e}{View\+Will\+Appear} (bool animated)
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a9c0b5be54e7db0acc82d53dffd99528f}{View\+Did\+Appear} (bool animated)
+\item 
+void \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a13e6652edcfb8992c14ed6c6859027b0}{Update\+Assignment} ()
+\begin{DoxyCompactList}\small\item\em Sets up the U\+I for the active assignment \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a9b628d7091ba526a3986660be526372a}{Dispose} (bool disposing)
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Handler$<$ \hyperlink{class_field_service_1_1i_o_s_1_1_menu_event_args}{Menu\+Event\+Args} $>$ \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a9f0e68518e2f2b804f56b9b4abcf6474}{Menu\+Changed}
+\begin{DoxyCompactList}\small\item\em Occurs when the menu is changed \end{DoxyCompactList}\item 
+Event\+Handler \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a94847a3ca86ba4799e37d2a7ba7fe0cd}{Assignment\+Completed}
+\begin{DoxyCompactList}\small\item\em Occurs when the assignment is completed via the \hyperlink{class_field_service_1_1i_o_s_1_1_status_button}{Status\+Button} \end{DoxyCompactList}\item 
+Event\+Handler \hyperlink{class_field_service_1_1i_o_s_1_1_menu_controller_a7b1a40b58db1c202d3bbf84f4dbe5d67}{Status\+Changed}
+\begin{DoxyCompactList}\small\item\em Occurs when status is changed on the timer \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This controller holds the main menu for assignments 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_aa381cc389506b647abd1e16a8bc3ec23}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Menu\+Controller@{Menu\+Controller}}
+\index{Menu\+Controller@{Menu\+Controller}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Menu\+Controller}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Menu\+Controller (
+\begin{DoxyParamCaption}
+\item[{Int\+Ptr}]{handle}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_aa381cc389506b647abd1e16a8bc3ec23}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a9b628d7091ba526a3986660be526372a}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Dispose (
+\begin{DoxyParamCaption}
+\item[{bool}]{disposing}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a9b628d7091ba526a3986660be526372a}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a13e6652edcfb8992c14ed6c6859027b0}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Update\+Assignment@{Update\+Assignment}}
+\index{Update\+Assignment@{Update\+Assignment}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Update\+Assignment}]{\setlength{\rightskip}{0pt plus 5cm}void Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Update\+Assignment (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a13e6652edcfb8992c14ed6c6859027b0}
+
+
+Sets up the U\+I for the active assignment 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a9c0b5be54e7db0acc82d53dffd99528f}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!View\+Did\+Appear@{View\+Did\+Appear}}
+\index{View\+Did\+Appear@{View\+Did\+Appear}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{View\+Did\+Appear}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+View\+Did\+Appear (
+\begin{DoxyParamCaption}
+\item[{bool}]{animated}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a9c0b5be54e7db0acc82d53dffd99528f}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a68604c79f2e98ab71a54d152c98fd22e}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!View\+Did\+Load@{View\+Did\+Load}}
+\index{View\+Did\+Load@{View\+Did\+Load}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{View\+Did\+Load}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+View\+Did\+Load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a68604c79f2e98ab71a54d152c98fd22e}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a23c22e08c2699811e5ecb7844877f53e}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!View\+Will\+Appear@{View\+Will\+Appear}}
+\index{View\+Will\+Appear@{View\+Will\+Appear}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{View\+Will\+Appear}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+View\+Will\+Appear (
+\begin{DoxyParamCaption}
+\item[{bool}]{animated}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a23c22e08c2699811e5ecb7844877f53e}
+
+
+\subsection{Event Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a94847a3ca86ba4799e37d2a7ba7fe0cd}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Assignment\+Completed@{Assignment\+Completed}}
+\index{Assignment\+Completed@{Assignment\+Completed}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Assignment\+Completed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Assignment\+Completed}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a94847a3ca86ba4799e37d2a7ba7fe0cd}
+
+
+Occurs when the assignment is completed via the \hyperlink{class_field_service_1_1i_o_s_1_1_status_button}{Status\+Button} 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a9f0e68518e2f2b804f56b9b4abcf6474}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Menu\+Changed@{Menu\+Changed}}
+\index{Menu\+Changed@{Menu\+Changed}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Menu\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler$<${\bf Menu\+Event\+Args}$>$ Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Menu\+Changed}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a9f0e68518e2f2b804f56b9b4abcf6474}
+
+
+Occurs when the menu is changed 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_menu_controller_a7b1a40b58db1c202d3bbf84f4dbe5d67}{\index{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}!Status\+Changed@{Status\+Changed}}
+\index{Status\+Changed@{Status\+Changed}!Field\+Service\+::i\+O\+S\+::\+Menu\+Controller@{Field\+Service\+::i\+O\+S\+::\+Menu\+Controller}}
+\subsubsection[{Status\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}Event\+Handler Field\+Service.\+i\+O\+S.\+Menu\+Controller.\+Status\+Changed}}\label{class_field_service_1_1i_o_s_1_1_menu_controller_a7b1a40b58db1c202d3bbf84f4dbe5d67}
+
+
+Occurs when status is changed on the timer 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+i\+O\+S/\+Controllers/\hyperlink{_menu_controller_8cs}{Menu\+Controller.\+cs}\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+i\+O\+S/\+Controllers/\hyperlink{_menu_controller_8designer_8cs}{Menu\+Controller.\+designer.\+cs}\end{DoxyCompactItemize}

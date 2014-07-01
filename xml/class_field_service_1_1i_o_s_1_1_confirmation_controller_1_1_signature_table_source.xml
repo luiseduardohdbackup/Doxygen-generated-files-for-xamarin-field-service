@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::ConfirmationController::SignatureTableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1aeae3e9834f479c9c64b536ce5355aa27" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.ConfirmationController.SignatureTableSource.SignatureIdentifier</definition>
+        <argsstring></argsstring>
+        <name>SignatureIdentifier</name>
+        <initializer>= &quot;SignatureCell&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="195" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ae88d7fcd46e26cd969ae741efa1e2e68" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.iOS.ConfirmationController.SignatureTableSource.CompleteIdentifier</definition>
+        <argsstring></argsstring>
+        <name>CompleteIdentifier</name>
+        <initializer>= &quot;CompleteCell&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="196" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ab4785d3ce7b31cb6e70f2a60d47e09ff" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+        <definition>readonly ConfirmationController FieldService.iOS.ConfirmationController.SignatureTableSource.controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="197" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a8ef0ce164da40d954e7bf3a60136d9f0" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.ConfirmationController.SignatureTableSource.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="198" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ae9193f24f6ab517a8120bf8fe90ed46d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.ConfirmationController.SignatureTableSource.SignatureTableSource</definition>
+        <argsstring>(ConfirmationController controller)</argsstring>
+        <name>SignatureTableSource</name>
+        <param>
+          <type><ref refid="class_field_service_1_1i_o_s_1_1_confirmation_controller" kindref="compound">ConfirmationController</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="200" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="200" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ac98826fa18d2b0ca64194afe90f13b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UIView</type>
+        <definition>override UIView FieldService.iOS.ConfirmationController.SignatureTableSource.GetViewForHeader</definition>
+        <argsstring>(UITableView tableView, int section)</argsstring>
+        <name>GetViewForHeader</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="206" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a10da911a2374fe5d46b448391835ebc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.ConfirmationController.SignatureTableSource.NumberOfSections</definition>
+        <argsstring>(UITableView tableView)</argsstring>
+        <name>NumberOfSections</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="211" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1aee7ecbfde7aa4f0a64b8f581c9a33ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.ConfirmationController.SignatureTableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="216" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="216" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a94a5dab0bfc15758d09ca0a3b61396c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.ConfirmationController.SignatureTableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="221" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="221" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Table source for signature </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3045">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3044">
+        <label>FieldService.iOS.ConfirmationController.SignatureTableSource</label>
+        <childnode refid="3045" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3047">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3046">
+        <label>FieldService.iOS.ConfirmationController.SignatureTableSource</label>
+        <childnode refid="3047" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="194" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="193" bodyend="235"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a8ef0ce164da40d954e7bf3a60136d9f0" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ae88d7fcd46e26cd969ae741efa1e2e68" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>CompleteIdentifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ab4785d3ce7b31cb6e70f2a60d47e09ff" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>controller</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a94a5dab0bfc15758d09ca0a3b61396c5" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ac98826fa18d2b0ca64194afe90f13b7d" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>GetViewForHeader</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1a10da911a2374fe5d46b448391835ebc8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>NumberOfSections</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1aee7ecbfde7aa4f0a64b8f581c9a33ef8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1aeae3e9834f479c9c64b536ce5355aa27" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>SignatureIdentifier</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source_1ae9193f24f6ab517a8120bf8fe90ed46d" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController::SignatureTableSource</scope><name>SignatureTableSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

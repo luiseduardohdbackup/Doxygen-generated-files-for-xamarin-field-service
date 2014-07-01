@@ -1,0 +1,98 @@
+.TH "SQLite.TableMapping" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.TableMapping \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBColumn\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTableMapping\fP (Type type, \fBCreateFlags\fP createFlags=CreateFlags\&.None)"
+.br
+.ti -1c
+.RI "void \fBSetAutoIncPK\fP (object obj, long id)"
+.br
+.ti -1c
+.RI "\fBColumn\fP \fBFindColumnWithPropertyName\fP (string propertyName)"
+.br
+.ti -1c
+.RI "\fBColumn\fP \fBFindColumn\fP (string columnName)"
+.br
+.ti -1c
+.RI "\fBPreparedSqlLiteInsertCommand\fP \fBGetInsertCommand\fP (\fBSQLiteConnection\fP conn, string extra)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Type \fBMappedType\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBTableName\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBColumn\fP[] \fBColumns\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBColumn\fP \fBPK\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBGetByPrimaryKeySql\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBHasAutoIncPK\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBColumn\fP[] \fBInsertColumns\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "\fBColumn\fP[] \fBInsertOrReplaceColumns\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SQLite\&.TableMapping\&.TableMapping (Typetype, \fBCreateFlags\fPcreateFlags = \fCCreateFlags\&.None\fP)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBColumn\fP SQLite\&.TableMapping\&.FindColumn (stringcolumnName)"
+
+.SS "\fBColumn\fP SQLite\&.TableMapping\&.FindColumnWithPropertyName (stringpropertyName)"
+
+.SS "\fBPreparedSqlLiteInsertCommand\fP SQLite\&.TableMapping\&.GetInsertCommand (\fBSQLiteConnection\fPconn, stringextra)"
+
+.SS "void SQLite\&.TableMapping\&.SetAutoIncPK (objectobj, longid)"
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBColumn\fP [] SQLite\&.TableMapping\&.Columns\fC [get]\fP, \fC [set]\fP"
+
+.SS "string SQLite\&.TableMapping\&.GetByPrimaryKeySql\fC [get]\fP, \fC [set]\fP"
+
+.SS "bool SQLite\&.TableMapping\&.HasAutoIncPK\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBColumn\fP [] SQLite\&.TableMapping\&.InsertColumns\fC [get]\fP"
+
+.SS "\fBColumn\fP [] SQLite\&.TableMapping\&.InsertOrReplaceColumns\fC [get]\fP"
+
+.SS "Type SQLite\&.TableMapping\&.MappedType\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBColumn\fP SQLite\&.TableMapping\&.PK\fC [get]\fP, \fC [set]\fP"
+
+.SS "string SQLite\&.TableMapping\&.TableName\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

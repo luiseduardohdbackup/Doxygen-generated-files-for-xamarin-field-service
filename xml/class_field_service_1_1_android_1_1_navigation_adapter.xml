@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_navigation_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::NavigationAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter&lt; string &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_navigation_adapter_1a89b4114866de10ab5fec273a416dd16a" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.Android.NavigationAdapter.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_navigation_adapter_1ac03163860b924afd018415df3c62c437" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.NavigationAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_navigation_adapter_1adfd7bb11af2b095a086d274e7b1e0344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.NavigationAdapter.NavigationAdapter</definition>
+        <argsstring>(Context context, int resourceId, List&lt; string &gt; items)</argsstring>
+        <name>NavigationAdapter</name>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_navigation_adapter_1a07597a7c1a9e1462d4e14db0837e0274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.NavigationAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" bodystart="36" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adapter for the navigation options in the menu </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2794">
+        <label>ArrayAdapter&lt; string &gt;</label>
+      </node>
+      <node id="2793">
+        <label>FieldService.Android.NavigationAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_navigation_adapter"/>
+        <childnode refid="2794" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2796">
+        <label>ArrayAdapter&lt; string &gt;</label>
+      </node>
+      <node id="2795">
+        <label>FieldService.Android.NavigationAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_navigation_adapter"/>
+        <childnode refid="2796" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/NavigationAdapter.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_navigation_adapter_1a07597a7c1a9e1462d4e14db0837e0274" prot="public" virt="non-virtual"><scope>FieldService::Android::NavigationAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_navigation_adapter_1a89b4114866de10ab5fec273a416dd16a" prot="private" virt="non-virtual"><scope>FieldService::Android::NavigationAdapter</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_navigation_adapter_1adfd7bb11af2b095a086d274e7b1e0344" prot="public" virt="non-virtual"><scope>FieldService::Android::NavigationAdapter</scope><name>NavigationAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_navigation_adapter_1ac03163860b924afd018415df3c62c437" prot="private" virt="non-virtual"><scope>FieldService::Android::NavigationAdapter</scope><name>resourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

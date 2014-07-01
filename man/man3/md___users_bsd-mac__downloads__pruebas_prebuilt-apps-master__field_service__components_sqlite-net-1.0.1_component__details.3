@@ -1,0 +1,34 @@
+.TH "md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_sqlite-net-1.0.1_component__details" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_sqlite-net-1.0.1_component__details \- Details 
+SQLite\&.NET is an open source, minimal library to allow \&.NET and Mono applications to store data in \fCSQLite 3 databases\fP\&. SQLite\&.NET was designed as a quick and convenient database layer\&. Its design follows from these \fIgoals\fP:
+.PP
+.IP "\(bu" 2
+Very easy to integrate with existing projects and with Xamarin projects\&.
+.IP "\(bu" 2
+Thin wrapper over \fBSQLite\fP and should be fast and efficient\&. (The library should not be the performance bottleneck of your queries\&.)
+.IP "\(bu" 2
+Very simple methods for executing CRUD operations and queries safely (using parameters) and for retrieving the results of those query in a strongly typed fashion\&.
+.IP "\(bu" 2
+Works with your data model without forcing you to change your classes\&. (Contains a small reflection-driven ORM layer\&.)
+.PP
+.PP
+\fINon-goals\fP include:
+.PP
+.IP "\(bu" 2
+Not an ADO\&.NET implementation\&. This is not a full \fBSQLite\fP driver\&. If you need that, use \fCMono\&.Data\&.SQLite\fP or \fCcsharp-sqlite\fP\&.
+.PP
+.PP
+.SS "Example"
+.PP
+```csharp using \fBSQLite\fP; // \&.\&.\&.
+.PP
+public class Note { [PrimaryKey, AutoIncrement] public int Id { get; set; } public string Message { get; set; } }
+.PP
+// Create our connection string folder = Environment\&.GetFolderPath (Environment\&.SpecialFolder\&.Personal); var db = new SQLiteConnection (System\&.IO\&.Path\&.Combine (folder, 'notes\&.db')); db\&.CreateTable<Note>();
+.PP
+// Insert note into the database var note = new Note { Message = 'Test Note' }; db\&.Insert (note);
+.PP
+// Show the automatically set ID and message\&. Console\&.WriteLine ('{0}: {1}', note\&.Id, note\&.Message); ``` 

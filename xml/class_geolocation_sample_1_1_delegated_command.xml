@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_delegated_command" kind="class" prot="public">
+    <compoundname>GeolocationSample::DelegatedCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ICommand</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_geolocation_sample_1_1_delegated_command_1a8728d1df6541d43f2944e0edf336db25" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler GeolocationSample.DelegatedCommand.CanExecuteChanged</definition>
+        <argsstring></argsstring>
+        <name>CanExecuteChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_delegated_command_1aef7169bba2cb7fd2594513f8b2b5248f" prot="private" static="no" mutable="no">
+        <type>readonly Action&lt; object &gt;</type>
+        <definition>readonly Action&lt;object&gt; GeolocationSample.DelegatedCommand.execute</definition>
+        <argsstring></argsstring>
+        <name>execute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_delegated_command_1aa9a2fba47d1ffad3b8e5b853186991a5" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; object, bool &gt;</type>
+        <definition>readonly Func&lt;object, bool&gt; GeolocationSample.DelegatedCommand.canExecute</definition>
+        <argsstring></argsstring>
+        <name>canExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_delegated_command_1a19c6254a40b2c6766f028062bf4df507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.DelegatedCommand.DelegatedCommand</definition>
+        <argsstring>(Action&lt; object &gt; execute, Func&lt; object, bool &gt; canExecute)</argsstring>
+        <name>DelegatedCommand</name>
+        <param>
+          <type>Action&lt; object &gt;</type>
+          <declname>execute</declname>
+        </param>
+        <param>
+          <type>Func&lt; object, bool &gt;</type>
+          <declname>canExecute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="9" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_delegated_command_1a83cae9d9018d8610ff1b19d21ea0bfff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.DelegatedCommand.ChangeCanExecute</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeCanExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_delegated_command_1afd7c81e809e5cfe0fc29dbd326fde6c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GeolocationSample.DelegatedCommand.CanExecute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>CanExecute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_delegated_command_1ab50a3fe46414e686027deac5f7c215d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.DelegatedCommand.Execute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2034">
+        <label>GeolocationSample.DelegatedCommand</label>
+        <link refid="class_geolocation_sample_1_1_delegated_command"/>
+        <childnode refid="2035" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2035">
+        <label>ICommand</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2036">
+        <label>GeolocationSample.DelegatedCommand</label>
+        <link refid="class_geolocation_sample_1_1_delegated_command"/>
+        <childnode refid="2037" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2037">
+        <label>ICommand</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/DelegatedCommand.cs" bodystart="6" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1aa9a2fba47d1ffad3b8e5b853186991a5" prot="private" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>canExecute</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1afd7c81e809e5cfe0fc29dbd326fde6c8" prot="public" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>CanExecute</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1a8728d1df6541d43f2944e0edf336db25" prot="public" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>CanExecuteChanged</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1a83cae9d9018d8610ff1b19d21ea0bfff" prot="public" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>ChangeCanExecute</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1a19c6254a40b2c6766f028062bf4df507" prot="public" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>DelegatedCommand</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1ab50a3fe46414e686027deac5f7c215d2" prot="public" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>Execute</name></member>
+      <member refid="class_geolocation_sample_1_1_delegated_command_1aef7169bba2cb7fd2594513f8b2b5248f" prot="private" virt="non-virtual"><scope>GeolocationSample::DelegatedCommand</scope><name>execute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

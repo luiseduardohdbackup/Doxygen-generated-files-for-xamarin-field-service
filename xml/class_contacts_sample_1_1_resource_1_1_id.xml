@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_resource_1_1_id" kind="class" prot="public">
+    <compoundname>ContactsSample::Resource::Id</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_resource_1_1_id_1a23d680cedc818e7e9f0e02b3634ace88" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ContactsSample.Resource.Id.full_name</definition>
+        <argsstring></argsstring>
+        <name>full_name</name>
+        <initializer>= 2131034112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_resource_1_1_id_1a0a33d309f304cd3d92210b7f036a15b1" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int ContactsSample.Resource.Id.mobile_phone</definition>
+        <argsstring></argsstring>
+        <name>mobile_phone</name>
+        <initializer>= 2131034113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_resource_1_1_id_1ad445ef6831c5456ef7341284380d1a72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ContactsSample.Resource.Id.Id</definition>
+        <argsstring>()</argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/ContactsSample/Resources/Resource.Designer.cs" bodystart="45" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_resource_1_1_id_1a23d680cedc818e7e9f0e02b3634ace88" prot="public" virt="non-virtual"><scope>ContactsSample::Resource::Id</scope><name>full_name</name></member>
+      <member refid="class_contacts_sample_1_1_resource_1_1_id_1ad445ef6831c5456ef7341284380d1a72" prot="private" virt="non-virtual"><scope>ContactsSample::Resource::Id</scope><name>Id</name></member>
+      <member refid="class_contacts_sample_1_1_resource_1_1_id_1a0a33d309f304cd3d92210b7f036a15b1" prot="public" virt="non-virtual"><scope>ContactsSample::Resource::Id</scope><name>mobile_phone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_cd512ce260bf813ff5323505c02f26ac" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels</compoundname>
+    <innerfile refid="_assignment_view_model_tests_8cs">AssignmentViewModelTests.cs</innerfile>
+    <innerfile refid="_document_view_model_tests_8cs">DocumentViewModelTests.cs</innerfile>
+    <innerfile refid="_expense_view_model_tests_8cs">ExpenseViewModelTests.cs</innerfile>
+    <innerfile refid="_history_view_model_tests_8cs">HistoryViewModelTests.cs</innerfile>
+    <innerfile refid="_item_view_model_tests_8cs">ItemViewModelTests.cs</innerfile>
+    <innerfile refid="_labor_view_model_tests_8cs">LaborViewModelTests.cs</innerfile>
+    <innerfile refid="_login_view_model_tests_8cs">LoginViewModelTests.cs</innerfile>
+    <innerfile refid="_photo_view_model_tests_8cs">PhotoViewModelTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/"/>
+  </compounddef>
+</doxygen>

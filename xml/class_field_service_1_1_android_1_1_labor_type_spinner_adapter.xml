@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::LaborTypeSpinnerAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseAdapter</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISpinnerAdapter</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a8a409e221fa47d7d3cf420a640e188bb" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.Android.LaborTypeSpinnerAdapter.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a0d7785a3d0e596be182f4a9b9103b813" prot="private" static="no" mutable="no">
+        <type>Context</type>
+        <definition>Context FieldService.Android.LaborTypeSpinnerAdapter.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a85309e5175f3c3d3178950cc87993a30" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.LaborTypeSpinnerAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a9fedc13e8194e04934df26de54bb6621" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int FieldService.Android.LaborTypeSpinnerAdapter.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a4dcd5fd34ea5f510f67b2f87cb3b5b29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color FieldService.Android.LaborTypeSpinnerAdapter.TextColor</definition>
+        <argsstring></argsstring>
+        <name>TextColor</name>
+        <briefdescription>
+<para>Text color for the item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="62" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a64b78267d3126e4cbdf0b1a50ec6d1d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color FieldService.Android.LaborTypeSpinnerAdapter.Background</definition>
+        <argsstring></argsstring>
+        <name>Background</name>
+        <briefdescription>
+<para>Background color of the text view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a49e2bebf5a5ea38b3f6a2d66f73628c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.LaborTypeSpinnerAdapter.LaborTypeSpinnerAdapter</definition>
+        <argsstring>(LaborType[] items, Context context, int resourceId)</argsstring>
+        <name>LaborTypeSpinnerAdapter</name>
+        <param>
+          <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>Context</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="33" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1ab3f627fb9f5099e19c2d0ea968e27715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Java.Lang.Object</type>
+        <definition>override Java.Lang.Object FieldService.Android.LaborTypeSpinnerAdapter.GetItem</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a12e8c976952095aef123fbee7727c05d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override long</type>
+        <definition>override long FieldService.Android.LaborTypeSpinnerAdapter.GetItemId</definition>
+        <argsstring>(int position)</argsstring>
+        <name>GetItemId</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a30fe7d5aa8efe1ea748f0b9bde3b0088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.LaborTypeSpinnerAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="77" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a72c4d21b83a1d9c9267cd37b011aa841" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.LaborTypeSpinnerAdapter.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="98" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="98" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adapter for a spinner for selecting LaborType </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2483">
+        <label>ISpinnerAdapter</label>
+      </node>
+      <node id="2482">
+        <label>BaseAdapter</label>
+      </node>
+      <node id="2481">
+        <label>FieldService.Android.LaborTypeSpinnerAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter"/>
+        <childnode refid="2482" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2483" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2486">
+        <label>ISpinnerAdapter</label>
+      </node>
+      <node id="2485">
+        <label>BaseAdapter</label>
+      </node>
+      <node id="2484">
+        <label>FieldService.Android.LaborTypeSpinnerAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter"/>
+        <childnode refid="2485" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2486" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborTypeSpinnerAdapter.cs" bodystart="29" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a64b78267d3126e4cbdf0b1a50ec6d1d4" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>Background</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a0d7785a3d0e596be182f4a9b9103b813" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>context</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a9fedc13e8194e04934df26de54bb6621" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>Count</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a72c4d21b83a1d9c9267cd37b011aa841" prot="protected" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1ab3f627fb9f5099e19c2d0ea968e27715" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>GetItem</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a12e8c976952095aef123fbee7727c05d" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>GetItemId</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a30fe7d5aa8efe1ea748f0b9bde3b0088" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a8a409e221fa47d7d3cf420a640e188bb" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a49e2bebf5a5ea38b3f6a2d66f73628c5" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>LaborTypeSpinnerAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a85309e5175f3c3d3178950cc87993a30" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>resourceId</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_type_spinner_adapter_1a4dcd5fd34ea5f510f67b2f87cb3b5b29" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborTypeSpinnerAdapter</scope><name>TextColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

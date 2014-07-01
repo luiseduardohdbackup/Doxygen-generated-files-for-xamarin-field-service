@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_data_1_1_property_changed_base" kind="class" prot="public">
+    <compoundname>FieldService::Data::PropertyChangedBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_data_1_1_assignment_item" prot="public" virt="non-virtual">FieldService.Data.AssignmentItem</derivedcompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler FieldService.Data.PropertyChangedBase.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+<para>Event for INotifyPropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void FieldService.Data.PropertyChangedBase.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model_1aa2442739713b5660e32190dfb08bb095">OnPropertyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model_1a11fd2d66d52e6009d58ed917669f5799">OnPropertyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model_1a44fe6751c9c968a39e93d5484f0e821c">OnPropertyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model_1a04f564001759402cb74031112a33636d">OnPropertyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a4750a450d53285bb3987a2207eab9360">OnPropertyChanged</reimplementedby>
+        <reimplementedby refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model_1a6bf375b7117515d88f91a24d40917db1">OnPropertyChanged</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for implementing INotifyPropertyChanged </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2929">
+        <label>FieldService.Data.PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2930" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2937">
+        <label>FieldService.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2944">
+        <label>FieldService.WinRT.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2943" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2930">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2933">
+        <label>FieldService.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2943">
+        <label>FieldService.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2939">
+        <label>FieldService.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2932">
+        <label>FieldService.ViewModels.ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2929" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2940">
+        <label>FieldService.WinRT.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2939" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2931">
+        <label>FieldService.Data.AssignmentItem</label>
+        <link refid="class_field_service_1_1_data_1_1_assignment_item"/>
+        <childnode refid="2929" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2942">
+        <label>FieldService.WinRT.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2941" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2934">
+        <label>FieldService.WinRT.ViewModels.AssignmentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model"/>
+        <childnode refid="2933" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2945">
+        <label>FieldService.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2947">
+        <label>FieldService.ViewModels.MenuViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_menu_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2938">
+        <label>FieldService.WinRT.ViewModels.ExpenseViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_expense_view_model"/>
+        <childnode refid="2937" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2936">
+        <label>FieldService.WinRT.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2935" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2949">
+        <label>FieldService.WinRT.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="2948" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2935">
+        <label>FieldService.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2946">
+        <label>FieldService.WinRT.ViewModels.LoginViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_login_view_model"/>
+        <childnode refid="2945" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2948">
+        <label>FieldService.ViewModels.PhotoViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_photo_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2941">
+        <label>FieldService.ViewModels.ItemViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_item_view_model"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2950">
+        <label>FieldService.Data.PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2951" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2951">
+        <label>INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data/PropertyChangedBase.cs" bodystart="11" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::Data::PropertyChangedBase</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::Data::PropertyChangedBase</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

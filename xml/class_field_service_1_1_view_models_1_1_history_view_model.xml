@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_history_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::HistoryViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.HistoryViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_history_view_model_1a6e742ac2d1ec626920dc1c2c8b755776" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.HistoryViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_history_view_model_1a971225b362aa3c644595dcd082f87ba6" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt;</type>
+        <definition>List&lt;AssignmentHistory&gt; FieldService.ViewModels.HistoryViewModel.history</definition>
+        <argsstring></argsstring>
+        <name>history</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_history_view_model_1ad9c6bbf8ef4349761718001962294056" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.HistoryViewModel.assignment</definition>
+        <argsstring></argsstring>
+        <name>assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_history_view_model_1acce938bad001c9bc7424edc19f5e07a3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+        <definition>AssignmentHistory FieldService.ViewModels.HistoryViewModel.selectedAssignmentHistory</definition>
+        <argsstring></argsstring>
+        <name>selectedAssignmentHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_history_view_model_1af4b3327a152fbebc1e2d5536682248a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref> &gt;</type>
+        <definition>List&lt;AssignmentHistory&gt; FieldService.ViewModels.HistoryViewModel.History</definition>
+        <argsstring></argsstring>
+        <name>History</name>
+        <briefdescription>
+<para>List of assignment history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_history_view_model_1a36e22295da2e4552cca497791c15b4a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.ViewModels.HistoryViewModel.PastAssignment</definition>
+        <argsstring></argsstring>
+        <name>PastAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_history_view_model_1a21a83a23503f293c03b0efe4de7fcc82" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+        <definition>AssignmentHistory FieldService.ViewModels.HistoryViewModel.SelectedAssignmentHistory</definition>
+        <argsstring></argsstring>
+        <name>SelectedAssignmentHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_history_view_model_1a45027751a4251a263cbb6848b0708bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.HistoryViewModel.HistoryViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>HistoryViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_history_view_model_1a776d2d468a7a045d0020d52619474f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.HistoryViewModel.LoadHistoryAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>LoadHistoryAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Loads the assignment history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="49" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_history_view_model_1a502172061d53c07fcdb2b54b3c33c6cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.HistoryViewModel.LoadAssignmentFromHistory</definition>
+        <argsstring>(AssignmentHistory assignmentHistory)</argsstring>
+        <name>LoadAssignmentFromHistory</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+          <declname>assignmentHistory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="56" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ViewModel for assignment history </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2285">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2282">
+        <label>FieldService.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2283">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2284" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2286">
+        <label>FieldService.WinRT.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2284">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2285" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2290">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2287">
+        <label>FieldService.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2288" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2288">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2289">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2290" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/HistoryViewModel.cs" bodystart="14" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1ad9c6bbf8ef4349761718001962294056" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>assignment</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1af4b3327a152fbebc1e2d5536682248a7" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>History</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a971225b362aa3c644595dcd082f87ba6" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>history</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a45027751a4251a263cbb6848b0708bc9" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>HistoryViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a502172061d53c07fcdb2b54b3c33c6cf" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>LoadAssignmentFromHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a776d2d468a7a045d0020d52619474f15" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>LoadHistoryAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a36e22295da2e4552cca497791c15b4a3" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>PastAssignment</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a21a83a23503f293c03b0efe4de7fcc82" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>SelectedAssignmentHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1acce938bad001c9bc7424edc19f5e07a3" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>selectedAssignmentHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a6e742ac2d1ec626920dc1c2c8b755776" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::HistoryViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

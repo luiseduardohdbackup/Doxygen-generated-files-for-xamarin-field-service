@@ -1,0 +1,152 @@
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller}{\section{Field\+Service.\+i\+O\+S.\+Base\+Controller Class Reference}
+\label{class_field_service_1_1i_o_s_1_1_base_controller}\index{Field\+Service.\+i\+O\+S.\+Base\+Controller@{Field\+Service.\+i\+O\+S.\+Base\+Controller}}
+}
+
+
+Base controller for all controllers in application  
+
+
+
+
+Inheritance diagram for Field\+Service.\+i\+O\+S.\+Base\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_field_service_1_1i_o_s_1_1_base_controller__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Field\+Service.\+i\+O\+S.\+Base\+Controller\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_field_service_1_1i_o_s_1_1_base_controller__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_a33b403b02a8506f2cddc3eb73df9608c}{Base\+Controller} ()
+\begin{DoxyCompactList}\small\item\em Constructor for use when controller is not in a storyboard \end{DoxyCompactList}\item 
+override void \hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_a6ca2574cf36d956fc646416198e05143}{View\+Did\+Load} ()
+\item 
+\hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_aed19af307fcf23d335cae74e7aadc488}{Base\+Controller} (Int\+Ptr handle)
+\begin{DoxyCompactList}\small\item\em Required constructor for Storyboard to work \end{DoxyCompactList}\item 
+override bool \hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_ab91e9cccf9de7a6563c0709d00a985cf}{Should\+Autorotate} ()
+\begin{DoxyCompactList}\small\item\em This is how orientation is setup on \hyperlink{namespace_field_service_1_1i_o_s}{i\+O\+S} 6 \end{DoxyCompactList}\item 
+override U\+I\+Interface\+Orientation\+Mask \hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_a4aeb12a1d9bacfce8d1dd3611cea2684}{Get\+Supported\+Interface\+Orientations} ()
+\begin{DoxyCompactList}\small\item\em This is how orientation is setup on \hyperlink{namespace_field_service_1_1i_o_s}{i\+O\+S} 6 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_a98757c52390c2902d839b4f20468eea9}{On\+Keyboard\+Changed} (bool visible, float height)
+\begin{DoxyCompactList}\small\item\em Override this method to apply custom logic when the keyboard is shown/hidden \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{class_field_service_1_1i_o_s_1_1_base_controller_a3806100d43d0d9c0a8325d3301caac7b}{Handles\+Keyboard\+Notifications}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base controller for all controllers in application 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_a33b403b02a8506f2cddc3eb73df9608c}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!Base\+Controller@{Base\+Controller}}
+\index{Base\+Controller@{Base\+Controller}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{Base\+Controller}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+i\+O\+S.\+Base\+Controller.\+Base\+Controller (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_base_controller_a33b403b02a8506f2cddc3eb73df9608c}
+
+
+Constructor for use when controller is not in a storyboard 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_aed19af307fcf23d335cae74e7aadc488}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!Base\+Controller@{Base\+Controller}}
+\index{Base\+Controller@{Base\+Controller}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{Base\+Controller}]{\setlength{\rightskip}{0pt plus 5cm}Field\+Service.\+i\+O\+S.\+Base\+Controller.\+Base\+Controller (
+\begin{DoxyParamCaption}
+\item[{Int\+Ptr}]{handle}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_base_controller_aed19af307fcf23d335cae74e7aadc488}
+
+
+Required constructor for Storyboard to work 
+
+
+\begin{DoxyParams}{Parameters}
+{\em handle} & Handle to Obj-\/\+C instance of object \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_a4aeb12a1d9bacfce8d1dd3611cea2684}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!Get\+Supported\+Interface\+Orientations@{Get\+Supported\+Interface\+Orientations}}
+\index{Get\+Supported\+Interface\+Orientations@{Get\+Supported\+Interface\+Orientations}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{Get\+Supported\+Interface\+Orientations}]{\setlength{\rightskip}{0pt plus 5cm}override U\+I\+Interface\+Orientation\+Mask Field\+Service.\+i\+O\+S.\+Base\+Controller.\+Get\+Supported\+Interface\+Orientations (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_base_controller_a4aeb12a1d9bacfce8d1dd3611cea2684}
+
+
+This is how orientation is setup on \hyperlink{namespace_field_service_1_1i_o_s}{i\+O\+S} 6 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_a98757c52390c2902d839b4f20468eea9}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!On\+Keyboard\+Changed@{On\+Keyboard\+Changed}}
+\index{On\+Keyboard\+Changed@{On\+Keyboard\+Changed}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{On\+Keyboard\+Changed}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Field\+Service.\+i\+O\+S.\+Base\+Controller.\+On\+Keyboard\+Changed (
+\begin{DoxyParamCaption}
+\item[{bool}]{visible, }
+\item[{float}]{height}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_field_service_1_1i_o_s_1_1_base_controller_a98757c52390c2902d839b4f20468eea9}
+
+
+Override this method to apply custom logic when the keyboard is shown/hidden 
+
+
+\begin{DoxyParams}{Parameters}
+{\em visible} & If the keyboard is visible \\
+\hline
+{\em height} & Calculated height of the keyboard (width not generally needed here) \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{class_field_service_1_1i_o_s_1_1_login_controller_a5071d7cae49acfa60a6c2fe6c78cf856}{Field\+Service.\+i\+O\+S.\+Login\+Controller}.
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_ab91e9cccf9de7a6563c0709d00a985cf}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!Should\+Autorotate@{Should\+Autorotate}}
+\index{Should\+Autorotate@{Should\+Autorotate}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{Should\+Autorotate}]{\setlength{\rightskip}{0pt plus 5cm}override bool Field\+Service.\+i\+O\+S.\+Base\+Controller.\+Should\+Autorotate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_base_controller_ab91e9cccf9de7a6563c0709d00a985cf}
+
+
+This is how orientation is setup on \hyperlink{namespace_field_service_1_1i_o_s}{i\+O\+S} 6 
+
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_a6ca2574cf36d956fc646416198e05143}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!View\+Did\+Load@{View\+Did\+Load}}
+\index{View\+Did\+Load@{View\+Did\+Load}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{View\+Did\+Load}]{\setlength{\rightskip}{0pt plus 5cm}override void Field\+Service.\+i\+O\+S.\+Base\+Controller.\+View\+Did\+Load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_field_service_1_1i_o_s_1_1_base_controller_a6ca2574cf36d956fc646416198e05143}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_field_service_1_1i_o_s_1_1_base_controller_a3806100d43d0d9c0a8325d3301caac7b}{\index{Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}!Handles\+Keyboard\+Notifications@{Handles\+Keyboard\+Notifications}}
+\index{Handles\+Keyboard\+Notifications@{Handles\+Keyboard\+Notifications}!Field\+Service\+::i\+O\+S\+::\+Base\+Controller@{Field\+Service\+::i\+O\+S\+::\+Base\+Controller}}
+\subsubsection[{Handles\+Keyboard\+Notifications}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Field\+Service.\+i\+O\+S.\+Base\+Controller.\+Handles\+Keyboard\+Notifications\hspace{0.3cm}{\ttfamily [get]}}}\label{class_field_service_1_1i_o_s_1_1_base_controller_a3806100d43d0d9c0a8325d3301caac7b}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/bsd-\/mac/\+Downloads/\+Pruebas/prebuilt-\/apps-\/master/\+Field\+Service/\+Field\+Service.\+i\+O\+S/\+Controllers/\hyperlink{_base_controller_8cs}{Base\+Controller.\+cs}\end{DoxyCompactItemize}

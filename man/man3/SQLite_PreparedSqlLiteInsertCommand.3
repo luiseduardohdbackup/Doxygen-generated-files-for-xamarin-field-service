@@ -1,0 +1,73 @@
+.TH "SQLite.PreparedSqlLiteInsertCommand" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.PreparedSqlLiteInsertCommand \- 
+.PP
+Since the insert never changed, we only need to prepare once\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits IDisposable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBExecuteNonQuery\fP (object[] source)"
+.br
+.ti -1c
+.RI "void \fBDispose\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual \fBSqlite3Statement\fP \fBPrepare\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBInitialized\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBSQLiteConnection\fP \fBConnection\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBCommandText\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBSqlite3Statement\fP \fBStatement\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Since the insert never changed, we only need to prepare once\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void SQLite\&.PreparedSqlLiteInsertCommand\&.Dispose ()"
+
+.SS "int SQLite\&.PreparedSqlLiteInsertCommand\&.ExecuteNonQuery (object[]source)"
+
+.SS "virtual \fBSqlite3Statement\fP SQLite\&.PreparedSqlLiteInsertCommand\&.Prepare ()\fC [protected]\fP, \fC [virtual]\fP"
+
+.SH "Property Documentation"
+.PP 
+.SS "string SQLite\&.PreparedSqlLiteInsertCommand\&.CommandText\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBSQLiteConnection\fP SQLite\&.PreparedSqlLiteInsertCommand\&.Connection\fC [get]\fP, \fC [set]\fP, \fC [protected]\fP"
+
+.SS "bool SQLite\&.PreparedSqlLiteInsertCommand\&.Initialized\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBSqlite3Statement\fP SQLite\&.PreparedSqlLiteInsertCommand\&.Statement\fC [get]\fP, \fC [set]\fP, \fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

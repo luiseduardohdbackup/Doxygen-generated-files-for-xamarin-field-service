@@ -1,0 +1,128 @@
+.TH "SQLite.TableQuery< T >" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.TableQuery< T > \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSQLite\&.BaseTableQuery\fP, and IEnumerable< T >\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTableQuery\fP (\fBSQLiteConnection\fP conn)"
+.br
+.ti -1c
+.RI "TableQuery< U > \fBClone< U >\fP ()"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBWhere\fP (Expression< Func< T, bool >> predExpr)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBTake\fP (int n)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBSkip\fP (int n)"
+.br
+.ti -1c
+.RI "T \fBElementAt\fP (int index)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBDeferred\fP ()"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBOrderBy< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBOrderByDescending< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBThenBy< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "TableQuery< T > \fBThenByDescending< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "TableQuery< TResult > \fBJoin< TInner, TKey, TResult >\fP (TableQuery< TInner > inner, Expression< Func< T, TKey >> outerKeySelector, Expression< Func< TInner, TKey >> innerKeySelector, Expression< Func< T, TInner, TResult >> resultSelector)"
+.br
+.ti -1c
+.RI "TableQuery< TResult > \fBSelect< TResult >\fP (Expression< Func< T, TResult >> selector)"
+.br
+.ti -1c
+.RI "int \fBCount\fP ()"
+.br
+.ti -1c
+.RI "int \fBCount\fP (Expression< Func< T, bool >> predExpr)"
+.br
+.ti -1c
+.RI "IEnumerator< T > \fBGetEnumerator\fP ()"
+.br
+.ti -1c
+.RI "T \fBFirst\fP ()"
+.br
+.ti -1c
+.RI "T \fBFirstOrDefault\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBSQLiteConnection\fP \fBConnection\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBTableMapping\fP \fBTable\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SQLite\&.TableQuery< T >\&.TableQuery (\fBSQLiteConnection\fPconn)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "TableQuery<U> SQLite\&.TableQuery< T >\&.Clone< U > ()"
+
+.SS "int SQLite\&.TableQuery< T >\&.Count ()"
+
+.SS "int SQLite\&.TableQuery< T >\&.Count (Expression< Func< T, bool >>predExpr)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.Deferred ()"
+
+.SS "T SQLite\&.TableQuery< T >\&.ElementAt (intindex)"
+
+.SS "T SQLite\&.TableQuery< T >\&.First ()"
+
+.SS "T SQLite\&.TableQuery< T >\&.FirstOrDefault ()"
+
+.SS "IEnumerator<T> SQLite\&.TableQuery< T >\&.GetEnumerator ()"
+
+.SS "TableQuery<TResult> SQLite\&.TableQuery< T >\&.Join< TInner, TKey, TResult > (TableQuery< TInner >inner, Expression< Func< T, TKey >>outerKeySelector, Expression< Func< TInner, TKey >>innerKeySelector, Expression< Func< T, TInner, TResult >>resultSelector)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.OrderBy< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.OrderByDescending< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "TableQuery<TResult> SQLite\&.TableQuery< T >\&.Select< TResult > (Expression< Func< T, TResult >>selector)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.Skip (intn)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.Take (intn)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.ThenBy< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.ThenByDescending< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "TableQuery<T> SQLite\&.TableQuery< T >\&.Where (Expression< Func< T, bool >>predExpr)"
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBSQLiteConnection\fP SQLite\&.TableQuery< T >\&.Connection\fC [get]\fP, \fC [set]\fP"
+
+.SS "\fBTableMapping\fP SQLite\&.TableQuery< T >\&.Table\fC [get]\fP, \fC [set]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,122 @@
+.TH "FieldService.iOS.HoursField" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS.HoursField \- 
+.PP
+Custom view for entering hours  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits UIView\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHoursField\fP (IntPtr handle)"
+.br
+.ti -1c
+.RI "\fBHoursField\fP ()"
+.br
+.ti -1c
+.RI "\fBHoursField\fP (RectangleF frame)"
+.br
+.ti -1c
+.RI "override bool \fBBecomeFirstResponder\fP ()"
+.br
+.ti -1c
+.RI "override bool \fBResignFirstResponder\fP ()"
+.br
+.ti -1c
+.RI "override void \fBLayoutSubviews\fP ()"
+.br
+.RI "\fIWe've overridden this to auto-size the textField and stepper \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "UIColor \fBTextColor\fP\fC [get, set]\fP"
+.br
+.RI "\fIGets or sets the TextColor for the underlying UITextField \fP"
+.ti -1c
+.RI "double \fBStep\fP\fC [get, set]\fP"
+.br
+.RI "\fIGets or sets the step at which the up/down arrows work \fP"
+.ti -1c
+.RI "bool \fBEnabled\fP\fC [get, set]\fP"
+.br
+.RI "\fIGets or sets a value indicating whether this \fBFieldService\&.iOS\&.HoursField\fP is enabled\&. \fP"
+.ti -1c
+.RI "double \fBValue\fP\fC [get, set]\fP"
+.br
+.RI "\fIGets or sets the hours \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler \fBEditingDidBegin\fP"
+.br
+.ti -1c
+.RI "EventHandler \fBEditingDidEnd\fP"
+.br
+.ti -1c
+.RI "EventHandler \fBValueChanged\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Custom view for entering hours 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.iOS\&.HoursField\&.HoursField (IntPtrhandle)"
+
+.SS "FieldService\&.iOS\&.HoursField\&.HoursField ()"
+
+.SS "FieldService\&.iOS\&.HoursField\&.HoursField (RectangleFframe)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override bool FieldService\&.iOS\&.HoursField\&.BecomeFirstResponder ()"
+
+.SS "override void FieldService\&.iOS\&.HoursField\&.LayoutSubviews ()"
+
+.PP
+We've overridden this to auto-size the textField and stepper 
+.SS "override bool FieldService\&.iOS\&.HoursField\&.ResignFirstResponder ()"
+
+.SH "Property Documentation"
+.PP 
+.SS "bool FieldService\&.iOS\&.HoursField\&.Enabled\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Gets or sets a value indicating whether this \fBFieldService\&.iOS\&.HoursField\fP is enabled\&. 
+.SS "double FieldService\&.iOS\&.HoursField\&.Step\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Gets or sets the step at which the up/down arrows work 
+.SS "UIColor FieldService\&.iOS\&.HoursField\&.TextColor\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Gets or sets the TextColor for the underlying UITextField 
+.SS "double FieldService\&.iOS\&.HoursField\&.Value\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Gets or sets the hours 
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.iOS\&.HoursField\&.EditingDidBegin"
+
+.SS "EventHandler FieldService\&.iOS\&.HoursField\&.EditingDidEnd"
+
+.SS "EventHandler FieldService\&.iOS\&.HoursField\&.ValueChanged"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

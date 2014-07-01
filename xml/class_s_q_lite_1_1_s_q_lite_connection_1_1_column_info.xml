@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteConnection::ColumnInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1a6ff7d46bc88a8f3484f7b701732396fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteConnection.ColumnInfo.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="516" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1a598f5773a3b0c9c66f2d9c46c6eb53cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.SQLiteConnection.ColumnInfo.notnull</definition>
+        <argsstring></argsstring>
+        <name>notnull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="521" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="521" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1af1ba3d13d1ccc9d2389c086f4e64610c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string SQLite.SQLiteConnection.ColumnInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="527" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="527" bodyend="530"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="512" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="511" bodyend="531"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1a6ff7d46bc88a8f3484f7b701732396fe" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::ColumnInfo</scope><name>Name</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1a598f5773a3b0c9c66f2d9c46c6eb53cd" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::ColumnInfo</scope><name>notnull</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_1_1_column_info_1af1ba3d13d1ccc9d2389c086f4e64610c" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnection::ColumnInfo</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

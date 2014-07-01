@@ -1,0 +1,75 @@
+.TH "SQLite.AsyncTableQuery< T >" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite.AsyncTableQuery< T > \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBAsyncTableQuery\fP (TableQuery< T > innerQuery)"
+.br
+.ti -1c
+.RI "\fBAsyncTableQuery\fP< T > \fBWhere\fP (Expression< Func< T, bool >> predExpr)"
+.br
+.ti -1c
+.RI "\fBAsyncTableQuery\fP< T > \fBSkip\fP (int n)"
+.br
+.ti -1c
+.RI "\fBAsyncTableQuery\fP< T > \fBTake\fP (int n)"
+.br
+.ti -1c
+.RI "\fBAsyncTableQuery\fP< T > \fBOrderBy< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "\fBAsyncTableQuery\fP< T > \fBOrderByDescending< U >\fP (Expression< Func< T, U >> orderExpr)"
+.br
+.ti -1c
+.RI "Task< List< T > > \fBToListAsync\fP ()"
+.br
+.ti -1c
+.RI "Task< int > \fBCountAsync\fP ()"
+.br
+.ti -1c
+.RI "Task< T > \fBElementAtAsync\fP (int index)"
+.br
+.ti -1c
+.RI "Task< T > \fBFirstAsync\fP ()"
+.br
+.ti -1c
+.RI "Task< T > \fBFirstOrDefaultAsync\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SQLite\&.AsyncTableQuery< T >\&.AsyncTableQuery (TableQuery< T >innerQuery)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task<int> SQLite\&.AsyncTableQuery< T >\&.CountAsync ()"
+
+.SS "Task<T> SQLite\&.AsyncTableQuery< T >\&.ElementAtAsync (intindex)"
+
+.SS "Task<T> SQLite\&.AsyncTableQuery< T >\&.FirstAsync ()"
+
+.SS "Task<T> SQLite\&.AsyncTableQuery< T >\&.FirstOrDefaultAsync ()"
+
+.SS "\fBAsyncTableQuery\fP<T> SQLite\&.AsyncTableQuery< T >\&.OrderBy< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "\fBAsyncTableQuery\fP<T> SQLite\&.AsyncTableQuery< T >\&.OrderByDescending< U > (Expression< Func< T, U >>orderExpr)"
+
+.SS "\fBAsyncTableQuery\fP<T> SQLite\&.AsyncTableQuery< T >\&.Skip (intn)"
+
+.SS "\fBAsyncTableQuery\fP<T> SQLite\&.AsyncTableQuery< T >\&.Take (intn)"
+
+.SS "Task<List<T> > SQLite\&.AsyncTableQuery< T >\&.ToListAsync ()"
+
+.SS "\fBAsyncTableQuery\fP<T> SQLite\&.AsyncTableQuery< T >\&.Where (Expression< Func< T, bool >>predExpr)"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::DocumentFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a0ca5a9ca7bc8b9795c7ab08b44efb7dc" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Fragments.DocumentFragment.documentListView</definition>
+        <argsstring></argsstring>
+        <name>documentListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a4fd9c5eec85fd1e10bf81de0c027b342" prot="private" static="no" mutable="no">
+        <type>File</type>
+        <definition>File FieldService.Android.Fragments.DocumentFragment.file</definition>
+        <argsstring></argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a8dbf584b8597e3d0ef1f6ecf57339c5d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>List&lt;Document&gt; FieldService.Android.Fragments.DocumentFragment.Documents</definition>
+        <argsstring></argsstring>
+        <name>Documents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1aa145ca6f0a39fdb5a459be142c2aaa09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.DocumentFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="46" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a9dec7769b78e1e7a127e2a6f63d6e28e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.DocumentFragment.CopyReadAsset</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>CopyReadAsset</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Helper function to copy the pdf to the android file system for viewing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="82" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2060">
+        <label>FieldService.Android.Fragments.DocumentFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment"/>
+        <childnode refid="2061" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2061">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2062">
+        <label>FieldService.Android.Fragments.DocumentFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment"/>
+        <childnode refid="2063" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2063">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/DocumentFragment.cs" bodystart="36" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a9dec7769b78e1e7a127e2a6f63d6e28e" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::DocumentFragment</scope><name>CopyReadAsset</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a0ca5a9ca7bc8b9795c7ab08b44efb7dc" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::DocumentFragment</scope><name>documentListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a8dbf584b8597e3d0ef1f6ecf57339c5d" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::DocumentFragment</scope><name>Documents</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1a4fd9c5eec85fd1e10bf81de0c027b342" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::DocumentFragment</scope><name>file</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_document_fragment_1aa145ca6f0a39fdb5a459be142c2aaa09" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::DocumentFragment</scope><name>OnCreateView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

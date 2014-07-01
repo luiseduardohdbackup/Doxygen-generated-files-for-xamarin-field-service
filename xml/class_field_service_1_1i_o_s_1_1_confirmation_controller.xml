@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_confirmation_controller" kind="class" prot="public">
+    <compoundname>FieldService::iOS::ConfirmationController</compoundname>
+    <basecompoundref refid="class_field_service_1_1i_o_s_1_1_base_controller" prot="public" virt="non-virtual">FieldService.iOS.BaseController</basecompoundref>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_photo_table_source" prot="private">FieldService::iOS::ConfirmationController::PhotoTableSource</innerclass>
+    <innerclass refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1_1_signature_table_source" prot="private">FieldService::iOS::ConfirmationController::SignatureTableSource</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a24805cc222e661ffd76c48e16e919d18" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.iOS.ConfirmationController.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a4f93e130e5c9139638f07eb08c3e2cc6" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>readonly PhotoViewModel FieldService.iOS.ConfirmationController.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1ae374f5ec039a84883dfb01de5dfcbc78" prot="private" static="no" mutable="no">
+        <type>readonly SizeF</type>
+        <definition>readonly SizeF FieldService.iOS.ConfirmationController.photoSize</definition>
+        <argsstring></argsstring>
+        <name>photoSize</name>
+        <initializer>= new SizeF(475, 410)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a36f950442981fe384eca27a429f65bdc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1i_o_s_1_1_photo_alert_sheet" kindref="compound">PhotoAlertSheet</ref></type>
+        <definition>PhotoAlertSheet FieldService.iOS.ConfirmationController.photoSheet</definition>
+        <argsstring></argsstring>
+        <name>photoSheet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a638f1ab84a9319b6f1220013b0a7d3d0" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIButton</type>
+        <definition>MonoTouch.UIKit.UIButton FieldService.iOS.ConfirmationController.addPhoto</definition>
+        <argsstring></argsstring>
+        <name>addPhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1aba398bc84cd383e399f36b98c73ab9bd" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.ConfirmationController.note</definition>
+        <argsstring></argsstring>
+        <name>note</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1af93595afbc5d9021d9b7d70d0a296a44" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.ConfirmationController.photos</definition>
+        <argsstring></argsstring>
+        <name>photos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9066b5295d72c084e683ebc57b3c98e9" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITableView</type>
+        <definition>MonoTouch.UIKit.UITableView FieldService.iOS.ConfirmationController.photoTableView</definition>
+        <argsstring></argsstring>
+        <name>photoTableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9d03090dade3507e392da0db0ba35b95" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.ConfirmationController.requirement</definition>
+        <argsstring></argsstring>
+        <name>requirement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1afaf0737d989ebea169778866421e0a16" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UILabel</type>
+        <definition>MonoTouch.UIKit.UILabel FieldService.iOS.ConfirmationController.signature</definition>
+        <argsstring></argsstring>
+        <name>signature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a291f26307ca7185a783cc5dc0aecd3bc" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UITableView</type>
+        <definition>MonoTouch.UIKit.UITableView FieldService.iOS.ConfirmationController.signatureTableView</definition>
+        <argsstring></argsstring>
+        <name>signatureTableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a04c532bd7bb535c12c6a0cfa00d1b871" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MonoTouch.UIKit.UIToolbar</type>
+        <definition>MonoTouch.UIKit.UIToolbar FieldService.iOS.ConfirmationController.toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a10bf43d53269faf8348f0eaafc2f00d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.ConfirmationController.ConfirmationController</definition>
+        <argsstring>(IntPtr handle)</argsstring>
+        <name>ConfirmationController</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1af03e04a927d3a017ce98d25022669fe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ConfirmationController.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="46" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a89af6bd7137d7ba3c0e000cb946093cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.ConfirmationController.ViewWillAppear</definition>
+        <argsstring>(bool animated)</argsstring>
+        <name>ViewWillAppear</name>
+        <param>
+          <type>bool</type>
+          <declname>animated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="109" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="109" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a3044bb4ae69eb883b946bf5cf22927f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ConfirmationController.ReloadConfirmation</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadConfirmation</name>
+        <briefdescription>
+<para>Loads the confirmation screen&apos;s info </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="119" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="119" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1acb006da9d2d332eba990445348baf7e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.ConfirmationController.AddPhoto</definition>
+        <argsstring>()</argsstring>
+        <name>AddPhoto</name>
+        <briefdescription>
+<para>Event when the &quot;add photo&quot; button is clicked </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="136" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="136" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1acb006da9d2d332eba990445348baf7e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void FieldService.iOS.ConfirmationController.AddPhoto</definition>
+        <argsstring>()</argsstring>
+        <name>AddPhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9eb71e977c5388e2456a98c1abd3b1a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.ConfirmationController.ReleaseDesignerOutlets</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseDesignerOutlets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.designer.cs" bodystart="42" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Controller for the confirmation screen </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1988">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1989" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1989">
+        <label>UIViewController</label>
+      </node>
+      <node id="1987">
+        <label>FieldService.iOS.ConfirmationController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_confirmation_controller"/>
+        <childnode refid="1988" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1991">
+        <label>BaseController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_base_controller"/>
+        <childnode refid="1992" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1992">
+        <label>UIViewController</label>
+      </node>
+      <node id="1990">
+        <label>FieldService.iOS.ConfirmationController</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_confirmation_controller"/>
+        <childnode refid="1991" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/ConfirmationController.cs" bodystart="28" bodyend="236"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a638f1ab84a9319b6f1220013b0a7d3d0" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>addPhoto</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1acb006da9d2d332eba990445348baf7e5" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>AddPhoto</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1acb006da9d2d332eba990445348baf7e5" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>AddPhoto</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a24805cc222e661ffd76c48e16e919d18" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a33b403b02a8506f2cddc3eb73df9608c" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1aed19af307fcf23d335cae74e7aadc488" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>BaseController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a10bf43d53269faf8348f0eaafc2f00d8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ConfirmationController</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a4aeb12a1d9bacfce8d1dd3611cea2684" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>GetSupportedInterfaceOrientations</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a3806100d43d0d9c0a8325d3301caac7b" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>HandlesKeyboardNotifications</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1aba398bc84cd383e399f36b98c73ab9bd" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>note</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1a98757c52390c2902d839b4f20468eea9" prot="protected" virt="virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>OnKeyboardChanged</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1af93595afbc5d9021d9b7d70d0a296a44" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>photos</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a36f950442981fe384eca27a429f65bdc" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>photoSheet</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1ae374f5ec039a84883dfb01de5dfcbc78" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>photoSize</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9066b5295d72c084e683ebc57b3c98e9" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>photoTableView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a4f93e130e5c9139638f07eb08c3e2cc6" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9eb71e977c5388e2456a98c1abd3b1a7" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ReleaseDesignerOutlets</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a3044bb4ae69eb883b946bf5cf22927f8" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ReloadConfirmation</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a9d03090dade3507e392da0db0ba35b95" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>requirement</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_base_controller_1ab91e9cccf9de7a6563c0709d00a985cf" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ShouldAutorotate</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1afaf0737d989ebea169778866421e0a16" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>signature</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a291f26307ca7185a783cc5dc0aecd3bc" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>signatureTableView</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a04c532bd7bb535c12c6a0cfa00d1b871" prot="private" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>toolbar</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1af03e04a927d3a017ce98d25022669fe4" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ViewDidLoad</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_confirmation_controller_1a89af6bd7137d7ba3c0e000cb946093cd" prot="public" virt="non-virtual"><scope>FieldService::iOS::ConfirmationController</scope><name>ViewWillAppear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

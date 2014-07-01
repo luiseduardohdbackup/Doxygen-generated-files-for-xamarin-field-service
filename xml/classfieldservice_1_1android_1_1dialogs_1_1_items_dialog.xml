@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog" kind="class" prot="public">
+    <compoundname>fieldservice::android::dialogs::ItemsDialog</compoundname>
+    <basecompoundref refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog" prot="public" virt="non-virtual">fieldservice.android.dialogs.BaseDialog</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a230e9837c7f4087e32abc81659feb677" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.dialogs.ItemsDialog.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a96bbd945b543a1d492fbb086a5de2806" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.dialogs.ItemsDialog.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a3defd3ff8a98d307043265551ae3d2f8" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.ItemsDialog.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1ad1e8f18066db5c642db2fefe16845908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.ItemsDialog.ItemsDialog</definition>
+        <argsstring>(android.content.Context p0)</argsstring>
+        <name>ItemsDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1afb207509af6e923850cc6b89d6178d12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.ItemsDialog.ItemsDialog</definition>
+        <argsstring>(android.content.Context p0, boolean p1, android.content.DialogInterface.OnCancelListener p2)</argsstring>
+        <name>ItemsDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.content.DialogInterface.OnCancelListener</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a61e6ce388d6ad602f74b45c7c952e912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.ItemsDialog.ItemsDialog</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>ItemsDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1ac80c3cbdfb64997aa90ad79e1db7ba6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.ItemsDialog.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a9e79759c0e727aa35915171339390130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.ItemsDialog.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a4f6e3878cb2adaac9527ab237deb8eae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.ItemsDialog.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1aa1fb7aba9ce8952df24fbd17c1c313c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.dialogs.ItemsDialog.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2389">
+        <label>fieldservice.android.dialogs.BaseDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog"/>
+        <childnode refid="2390" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2391" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2390">
+        <label>android::app::Dialog</label>
+      </node>
+      <node id="2388">
+        <label>fieldservice.android.dialogs.ItemsDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog"/>
+        <childnode refid="2389" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2391" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2391">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2396">
+        <label>String</label>
+      </node>
+      <node id="2393">
+        <label>fieldservice.android.dialogs.BaseDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog"/>
+        <childnode refid="2394" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2396" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2394">
+        <label>android::app::Dialog</label>
+      </node>
+      <node id="2392">
+        <label>fieldservice.android.dialogs.ItemsDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog"/>
+        <childnode refid="2393" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2396" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2395">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/ItemsDialog.java" bodystart="4" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a3defd3ff8a98d307043265551ae3d2f8" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a230e9837c7f4087e32abc81659feb677" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1aadd6a3adecbdd3cf87939cf6bd6fa42f" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1a3c9033c6d58107a2b48f36b72ca3bcfb" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1ac0a9268a400edf10aadf12d2f567c8fd" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1ad1e8f18066db5c642db2fefe16845908" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>ItemsDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1afb207509af6e923850cc6b89d6178d12" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>ItemsDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a61e6ce388d6ad602f74b45c7c952e912" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>ItemsDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a9e79759c0e727aa35915171339390130" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a4f6e3878cb2adaac9527ab237deb8eae" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1aa1fb7aba9ce8952df24fbd17c1c313c4" prot="private" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1ac80c3cbdfb64997aa90ad79e1db7ba6b" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_items_dialog_1a96bbd945b543a1d492fbb086a5de2806" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::ItemsDialog</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

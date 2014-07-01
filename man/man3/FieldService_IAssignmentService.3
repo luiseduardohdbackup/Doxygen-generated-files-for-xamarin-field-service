@@ -1,0 +1,286 @@
+.TH "FieldService.IAssignmentService" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.IAssignmentService \- 
+.PP
+Service for returning and saving assignment information  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "Task< List< \fBAssignment\fP > > \fBGetAssignmentsAsync\fP (\fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a list of assignments \fP"
+.ti -1c
+.RI "Task< List< \fBItem\fP > > \fBGetItemsAsync\fP (\fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a list of items \fP"
+.ti -1c
+.RI "Task< List< \fBAssignmentItem\fP > > \fBGetItemsForAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a list of items for an assignment \fP"
+.ti -1c
+.RI "Task< List< \fBLabor\fP > > \fBGetLaborForAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a list of labor hours for an assignment \fP"
+.ti -1c
+.RI "Task< List< \fBExpense\fP > > \fBGetExpensesForAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a list of expenses for an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBSaveAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBSaveSignatureAsync\fP (\fBData\&.Signature\fP signature, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves a signature for an assignment \fP"
+.ti -1c
+.RI "Task< \fBData\&.Signature\fP > \fBGetSignatureAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets a signature for an assignment or null if none \fP"
+.ti -1c
+.RI "Task< int > \fBSaveAssignmentItemAsync\fP (\fBAssignmentItem\fP assignmentItem, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves an assignment item \fP"
+.ti -1c
+.RI "Task< int > \fBSaveLaborAsync\fP (\fBLabor\fP labor, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves a labor entry \fP"
+.ti -1c
+.RI "Task< int > \fBSaveExpenseAsync\fP (\fBExpense\fP expense, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves an expense entry \fP"
+.ti -1c
+.RI "Task< int > \fBSaveExpensePhotoAsync\fP (\fBExpensePhoto\fP photo, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves a photo for an expense \fP"
+.ti -1c
+.RI "Task< \fBExpensePhoto\fP > \fBGetExpensePhotoAsync\fP (\fBExpense\fP expense, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets an expense photo for an expense or null if there is none \fP"
+.ti -1c
+.RI "Task< int > \fBDeleteAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBDeleteAssignmentItemAsync\fP (\fBAssignmentItem\fP \fBAssignmentItem\fP, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes an assignment item \fP"
+.ti -1c
+.RI "Task< int > \fBDeleteLaborAsync\fP (\fBLabor\fP labor, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes a labor entry \fP"
+.ti -1c
+.RI "Task< int > \fBDeleteExpenseAsync\fP (\fBExpense\fP expense, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes an expense entry \fP"
+.ti -1c
+.RI "Task< int > \fBSaveTimerEntryAsync\fP (\fBTimerEntry\fP entry, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves a timer entry to record an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBDeleteTimerEntryAsync\fP (\fBTimerEntry\fP entry, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes a timer entry to stop recording an assignment \fP"
+.ti -1c
+.RI "Task< \fBTimerEntry\fP > \fBGetTimerEntryAsync\fP (\fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIRetrieves the stored timer entry if there was one \fP"
+.ti -1c
+.RI "Task< List< \fBPhoto\fP > > \fBGetPhotosForAssignmentAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIRetrieves all the photos for an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBSavePhotoAsync\fP (\fBPhoto\fP photo, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fISaves a photo for an assignment \fP"
+.ti -1c
+.RI "Task< int > \fBDeletePhotoAsync\fP (\fBPhoto\fP photo, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIDeletes a photo \fP"
+.ti -1c
+.RI "Task< List< \fBDocument\fP > > \fBGetDocumentsAsync\fP (\fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets the list of available documents \fP"
+.ti -1c
+.RI "Task< List< \fBAssignmentHistory\fP > > \fBGetAssignmentHistoryAsync\fP (\fBAssignment\fP assignment, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets the history for an assignment \fP"
+.ti -1c
+.RI "Task< List< \fBAssignment\fP > > \fBGetAssignmentFromHistory\fP (\fBAssignmentHistory\fP assignmentHistory, \fBCancellationToken\fP cancellationToken=default(\fBCancellationToken\fP))"
+.br
+.RI "\fIGets the past assignment \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Service for returning and saving assignment information 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeleteAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes an assignment 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeleteAssignmentItemAsync (\fBAssignmentItem\fPAssignmentItem, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes an assignment item 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeleteExpenseAsync (\fBExpense\fPexpense, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes an expense entry 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeleteLaborAsync (\fBLabor\fPlabor, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes a labor entry 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeletePhotoAsync (\fBPhoto\fPphoto, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes a photo 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.DeleteTimerEntryAsync (\fBTimerEntry\fPentry, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Deletes a timer entry to stop recording an assignment 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<List<\fBAssignment\fP> > FieldService\&.IAssignmentService\&.GetAssignmentFromHistory (\fBAssignmentHistory\fPassignmentHistory, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets the past assignment 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<List<\fBAssignmentHistory\fP> > FieldService\&.IAssignmentService\&.GetAssignmentHistoryAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets the history for an assignment 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<List<\fBAssignment\fP> > FieldService\&.IAssignmentService\&.GetAssignmentsAsync (\fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a list of assignments 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<List<\fBDocument\fP> > FieldService\&.IAssignmentService\&.GetDocumentsAsync (\fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets the list of available documents 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<\fBExpensePhoto\fP> FieldService\&.IAssignmentService\&.GetExpensePhotoAsync (\fBExpense\fPexpense, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets an expense photo for an expense or null if there is none 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<List<\fBExpense\fP> > FieldService\&.IAssignmentService\&.GetExpensesForAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a list of expenses for an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<List<\fBItem\fP> > FieldService\&.IAssignmentService\&.GetItemsAsync (\fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a list of items 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<List<\fBAssignmentItem\fP> > FieldService\&.IAssignmentService\&.GetItemsForAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a list of items for an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<List<\fBLabor\fP> > FieldService\&.IAssignmentService\&.GetLaborForAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a list of labor hours for an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<List<\fBPhoto\fP> > FieldService\&.IAssignmentService\&.GetPhotosForAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Retrieves all the photos for an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<\fBData\&.Signature\fP> FieldService\&.IAssignmentService\&.GetSignatureAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Gets a signature for an assignment or null if none 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<\fBTimerEntry\fP> FieldService\&.IAssignmentService\&.GetTimerEntryAsync (\fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Retrieves the stored timer entry if there was one 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveAssignmentAsync (\fBAssignment\fPassignment, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveAssignmentItemAsync (\fBAssignmentItem\fPassignmentItem, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves an assignment item 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveExpenseAsync (\fBExpense\fPexpense, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves an expense entry 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveExpensePhotoAsync (\fBExpensePhoto\fPphoto, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves a photo for an expense 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveLaborAsync (\fBLabor\fPlabor, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves a labor entry 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SavePhotoAsync (\fBPhoto\fPphoto, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves a photo for an assignment 
+.PP
+Implemented in \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP, and \fBFieldService\&.Data\&.SampleAssignmentService\fP\&.
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveSignatureAsync (\fBData\&.Signature\fPsignature, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves a signature for an assignment 
+.SS "Task<int> FieldService\&.IAssignmentService\&.SaveTimerEntryAsync (\fBTimerEntry\fPentry, \fBCancellationToken\fPcancellationToken = \fCdefault(\fBCancellationToken\fP)\fP)"
+
+.PP
+Saves a timer entry to record an assignment 
+.PP
+Implemented in \fBFieldService\&.Data\&.SampleAssignmentService\fP, and \fBFieldService\&.Tests\&.Mocks\&.MockAssignmentService\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

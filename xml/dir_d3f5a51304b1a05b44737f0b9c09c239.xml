@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_d3f5a51304b1a05b44737f0b9c09c239" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments</compoundname>
+    <innerfile refid="_confirmation_fragment_8java">ConfirmationFragment.java</innerfile>
+    <innerfile refid="_document_fragment_8java">DocumentFragment.java</innerfile>
+    <innerfile refid="_expense_fragment_8java">ExpenseFragment.java</innerfile>
+    <innerfile refid="_history_fragment_8java">HistoryFragment.java</innerfile>
+    <innerfile refid="_history_fragment___tab_content_8java">HistoryFragment_TabContent.java</innerfile>
+    <innerfile refid="_item_fragment_8java">ItemFragment.java</innerfile>
+    <innerfile refid="_labor_hour_fragment_8java">LaborHourFragment.java</innerfile>
+    <innerfile refid="_map_fragment_8java">MapFragment.java</innerfile>
+    <innerfile refid="_navigation_fragment_8java">NavigationFragment.java</innerfile>
+    <innerfile refid="_navigation_fragment___navigation_item_selector_listener_8java">NavigationFragment_NavigationItemSelectorListener.java</innerfile>
+    <innerfile refid="_summary_fragment_8java">SummaryFragment.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/"/>
+  </compounddef>
+</doxygen>

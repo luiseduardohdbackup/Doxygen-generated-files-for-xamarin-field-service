@@ -1,0 +1,4 @@
+<map id="FieldService.Android.BaseMapActivity" name="FieldService.Android.BaseMapActivity">
+<area shape="rect" id="node3" href="$class_field_service_1_1_android_1_1_map_fragment_activity.html" title="&quot;Fragment&quot; for the map &#45; it is required to be an activity although used as a fragment ..." alt="" coords="5,169,179,207"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_android_1_1_map_view_activity.html" title="Activity for the map overview " alt="" coords="202,169,376,207"/>
+</map>

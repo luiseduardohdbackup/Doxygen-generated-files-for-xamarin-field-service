@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::LaborViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_labor_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.LaborViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aefcfcdb65a06ccea5dfdb5a5a193fb75" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.WinRT.ViewModels.LaborViewModel.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ac2cf5684f3b4bd5d12b1c0d219cd1f81" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.cancelAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>cancelAddLaborCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a6ca9a5dda38748747226dabf42337c64" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.saveAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>saveAddLaborCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1af15ebc426b436c84d880b52f9fe6f733" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.deleteAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>deleteAddLaborCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a18512827271c425f20518fc519ad1e32" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>readonly DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.addLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>addLaborCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aad46e2e9058cace53361dbef0f5b3fc7" prot="private" static="no" mutable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.LaborViewModel.addLaborPopUp</definition>
+        <argsstring></argsstring>
+        <name>addLaborPopUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a06ffd5686af0940d2d200ed84ebae3cb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+        <definition>Labor FieldService.WinRT.ViewModels.LaborViewModel.selectedLabor</definition>
+        <argsstring></argsstring>
+        <name>selectedLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ada70ef996354925ca03520cdbd0156f9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.LaborViewModel.canDelete</definition>
+        <argsstring></argsstring>
+        <name>canDelete</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a4ba2bcdccb5d59c9bd5385fe7358f075" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.LaborViewModel.currentLaborHours</definition>
+        <argsstring></argsstring>
+        <name>currentLaborHours</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a6c56183964be00f352a59c29cfeb1191" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.LaborViewModel.addLaborHeader</definition>
+        <argsstring></argsstring>
+        <name>addLaborHeader</name>
+        <initializer>= &quot;Add <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a5c8ea4e61a9c63761a9487205080532a" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+        <definition>LaborType [] FieldService.WinRT.ViewModels.LaborViewModel.laborTypes</definition>
+        <argsstring></argsstring>
+        <name>laborTypes</name>
+        <initializer>= new <ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref> [] { LaborType.Hourly, LaborType.OverTime, LaborType.HolidayTime }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a2e946b2cbc80eaf53d69e9d705ed46d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Popup</type>
+        <definition>Popup FieldService.WinRT.ViewModels.LaborViewModel.LaborPopUp</definition>
+        <argsstring></argsstring>
+        <name>LaborPopUp</name>
+        <briefdescription>
+<para>Flyout panel for adding a labor item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="91" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aaf06d26d7e7ef699a754d44dfb43a8ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+        <definition>IEnumerable&lt;Labor&gt; FieldService.WinRT.ViewModels.LaborViewModel.TopLaborHours</definition>
+        <argsstring></argsstring>
+        <name>TopLaborHours</name>
+        <briefdescription>
+<para>list of top 5 labor hour items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="99" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ab92617f31839467e858408f8ffe7d455" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.LaborViewModel.AddLaborHeader</definition>
+        <argsstring></argsstring>
+        <name>AddLaborHeader</name>
+        <briefdescription>
+<para>header for add labor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="113" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a5288b36677ea9a09de70c897d78e1245" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.LaborViewModel.CanDelete</definition>
+        <argsstring></argsstring>
+        <name>CanDelete</name>
+        <briefdescription>
+<para>bool value for delete visibilty </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="122" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a21b4370b03b586c9bf26e95d11b9b4e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.SaveAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>SaveAddLaborCommand</name>
+        <briefdescription>
+<para>save new/edit labor item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="131" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a2915a39aca10ff5e1116a179245f7e50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.DeleteAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>DeleteAddLaborCommand</name>
+        <briefdescription>
+<para>delete the current labor item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a145347d9840f8e0a3147ae4707332766" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.CancelAddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>CancelAddLaborCommand</name>
+        <briefdescription>
+<para>cancel labor flyout panel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a541af1cc093fb0d2faa9efbc92a2b262" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_delegate_command" kindref="compound">DelegateCommand</ref></type>
+        <definition>DelegateCommand FieldService.WinRT.ViewModels.LaborViewModel.AddLaborCommand</definition>
+        <argsstring></argsstring>
+        <name>AddLaborCommand</name>
+        <briefdescription>
+<para>open the labor flyout panel </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="155" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a8b8b67bc1de70f6d486a9ebeee28e071" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+        <definition>LaborType [] FieldService.WinRT.ViewModels.LaborViewModel.LaborTypes</definition>
+        <argsstring></argsstring>
+        <name>LaborTypes</name>
+        <briefdescription>
+<para>array of labor types for combo box </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="163" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a9846440c9cd2d7fe810368b92518f8b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+        <definition>override Labor FieldService.WinRT.ViewModels.LaborViewModel.SelectedLabor</definition>
+        <argsstring></argsstring>
+        <name>SelectedLabor</name>
+        <briefdescription>
+<para>selected labor item </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="171" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ab3e9a5cdd552f2cd0fff8b6f99d4ac7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string FieldService.WinRT.ViewModels.LaborViewModel.CurrentLaborHours</definition>
+        <argsstring></argsstring>
+        <name>CurrentLaborHours</name>
+        <briefdescription>
+<para>formatted labor hours from selected labor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="188" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a58275e86b676bfa0e5325ef8e5fbfa33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.ViewModels.LaborViewModel.IsNotReadonly</definition>
+        <argsstring></argsstring>
+        <name>IsNotReadonly</name>
+        <briefdescription>
+<para>Value for not is history </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="197" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a47a6f9600f753467dd0f4a674524465b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.ViewModels.LaborViewModel.LaborViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>LaborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="43" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a4750a450d53285bb3987a2207eab9360" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.LaborViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplements refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2">OnPropertyChanged</reimplements>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="202" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="202" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> version of the <ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>We setup ICommand here </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2512">
+        <label>FieldService::ViewModels::LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2511">
+        <label>FieldService.WinRT.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2512" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2515">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2513">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2514">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2515" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2517">
+        <label>FieldService::ViewModels::LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2518" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2516">
+        <label>FieldService.WinRT.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2517" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2520">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2518">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2519" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2520" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/LaborViewModel.cs" bodystart="33" bodyend="211"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a18512827271c425f20518fc519ad1e32" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>addLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a541af1cc093fb0d2faa9efbc92a2b262" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>AddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a6c56183964be00f352a59c29cfeb1191" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>addLaborHeader</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ab92617f31839467e858408f8ffe7d455" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>AddLaborHeader</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aad46e2e9058cace53361dbef0f5b3fc7" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>addLaborPopUp</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aefcfcdb65a06ccea5dfdb5a5a193fb75" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a145347d9840f8e0a3147ae4707332766" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>CancelAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ac2cf5684f3b4bd5d12b1c0d219cd1f81" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>cancelAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ada70ef996354925ca03520cdbd0156f9" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>canDelete</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a5288b36677ea9a09de70c897d78e1245" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>CanDelete</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a4ba2bcdccb5d59c9bd5385fe7358f075" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>currentLaborHours</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1ab3e9a5cdd552f2cd0fff8b6f99d4ac7f" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>CurrentLaborHours</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1af15ebc426b436c84d880b52f9fe6f733" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>deleteAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a2915a39aca10ff5e1116a179245f7e50" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>DeleteAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a644eb58bfd4329e46ae337e4173d0bcc" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>DeleteLaborAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a58275e86b676bfa0e5325ef8e5fbfa33" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>IsNotReadonly</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a72ceb99c3b31a853e22dd5843b74875f" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>LaborHours</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a2e946b2cbc80eaf53d69e9d705ed46d4" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>LaborPopUp</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a8b8b67bc1de70f6d486a9ebeee28e071" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>LaborTypes</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a5c8ea4e61a9c63761a9487205080532a" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>laborTypes</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a47a6f9600f753467dd0f4a674524465b" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>LaborViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1ac2a9b008a606a302132dc071c3f2b625" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>LoadLaborHoursAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a4750a450d53285bb3987a2207eab9360" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a21b4370b03b586c9bf26e95d11b9b4e5" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>SaveAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a6ca9a5dda38748747226dabf42337c64" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>saveAddLaborCommand</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1aa625a08d7499884778b27c83ed43f932" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>SaveLaborAsync</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a06ffd5686af0940d2d200ed84ebae3cb" prot="private" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>selectedLabor</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1a9846440c9cd2d7fe810368b92518f8b8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>SelectedLabor</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model_1aaf06d26d7e7ef699a754d44dfb43a8ca" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>TopLaborHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::LaborViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

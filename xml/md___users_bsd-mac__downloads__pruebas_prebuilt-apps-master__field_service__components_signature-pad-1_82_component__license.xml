@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1_82_component__license" kind="page">
+    <compoundname>md__Users_bsd-mac_Downloads_Pruebas_prebuilt-apps-master_FieldService_Components_signature-pad-1.2_component_License</compoundname>
+    <title>License</title>
+    <detaileddescription>
+<para>Copyright 2011 Timothy Risi (<ulink url="http://risiapps.blogspot.com">http://risiapps.blogspot.com</ulink>)</para><para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>    http://www.apache.org/licenses/LICENSE-2.0
+</verbatim></para><para>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

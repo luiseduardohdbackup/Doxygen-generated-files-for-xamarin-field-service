@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::MapTile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1ae3186cfefb88eb9d7a627356fa0dc3d5" prot="private" static="no" mutable="no">
+        <type>readonly Pushpin</type>
+        <definition>readonly Pushpin FieldService.WinRT.Views.MapTile.pin</definition>
+        <argsstring></argsstring>
+        <name>pin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1a472982181ea0c762a6027176c8d3baf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.MapTile.MapTile</definition>
+        <argsstring>()</argsstring>
+        <name>MapTile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" bodystart="27" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1ae3468dcaed1f56c3b8b5b369555022b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.MapTile.OnLoaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>OnLoaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" bodystart="39" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1a225e6841d2c77e283997b0edef36ecd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.WinRT.Views.MapTile.OnPinTapped</definition>
+        <argsstring>(object sender, TappedRoutedEventArgs e)</argsstring>
+        <name>OnPinTapped</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>TappedRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2714">
+        <label>FieldService.WinRT.Views.MapTile</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile"/>
+        <childnode refid="2715" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2715">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2716">
+        <label>FieldService.WinRT.Views.MapTile</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile"/>
+        <childnode refid="2717" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2717">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/MapTile.xaml.cs" bodystart="24" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1a472982181ea0c762a6027176c8d3baf9" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::MapTile</scope><name>MapTile</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1ae3468dcaed1f56c3b8b5b369555022b7" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapTile</scope><name>OnLoaded</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1a225e6841d2c77e283997b0edef36ecd7" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapTile</scope><name>OnPinTapped</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_map_tile_1ae3186cfefb88eb9d7a627356fa0dc3d5" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::MapTile</scope><name>pin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+.TH "DelegateCommand" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+DelegateCommand \- 
+.PP
+Simple ICommand implementation to help with MVVM design pattern  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits ICommand\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDelegateCommand\fP (Action< object > execute)"
+.br
+.RI "\fIDefault constructor \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP (Action< object > execute, Predicate< object > canExecute)"
+.br
+.RI "\fIConstructor providing a second callback for CanExecute \fP"
+.ti -1c
+.RI "void \fBInvoke\fP (object parameter=null)"
+.br
+.RI "\fIInvokes the command manually from code, checking CanExecute \fP"
+.ti -1c
+.RI "void \fBRaiseCanExecuteChanged\fP ()"
+.br
+.RI "\fIMethod for invalidating CanExecute \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Simple ICommand implementation to help with MVVM design pattern 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "DelegateCommand\&.DelegateCommand (Action< object >execute)"
+
+.PP
+Default constructor 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIexecute\fP An action for when the command is executed
+.RE
+.PP
+
+.SS "DelegateCommand\&.DelegateCommand (Action< object >execute, Predicate< object >canExecute)"
+
+.PP
+Constructor providing a second callback for CanExecute 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIexecute\fP An action for when the command is executed
+.br
+\fIcanExecute\fP A predicate to determine if the command can be executed
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void DelegateCommand\&.Invoke (objectparameter = \fCnull\fP)"
+
+.PP
+Invokes the command manually from code, checking CanExecute 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIparameter\fP Optional parameter to ICommand
+.RE
+.PP
+
+.SS "void DelegateCommand\&.RaiseCanExecuteChanged ()"
+
+.PP
+Method for invalidating CanExecute 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

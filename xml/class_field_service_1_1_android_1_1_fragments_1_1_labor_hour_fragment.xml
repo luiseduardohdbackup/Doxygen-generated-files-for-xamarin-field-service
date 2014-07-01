@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::LaborHourFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a572e789f74b428438dee20127d4da95f" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Fragments.LaborHourFragment.laborListView</definition>
+        <argsstring></argsstring>
+        <name>laborListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1ad3e2bab895c640f4f9808a4688870ed8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_add_labor_dialog" kindref="compound">AddLaborDialog</ref></type>
+        <definition>AddLaborDialog FieldService.Android.Fragments.LaborHourFragment.laborDialog</definition>
+        <argsstring></argsstring>
+        <name>laborDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a115b2ba64ebf8469036bbbc9d0dd4686" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>LaborViewModel FieldService.Android.Fragments.LaborHourFragment.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a49baef3a7993fa89b08cfb30363a3b33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Fragments.LaborHourFragment.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The current assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a19d1a9881ed77b524b4cb1c86fde0e91" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+        <definition>List&lt;Labor&gt; FieldService.Android.Fragments.LaborHourFragment.LaborHours</definition>
+        <argsstring></argsstring>
+        <name>LaborHours</name>
+        <briefdescription>
+<para>The list of labor hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="127" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1ae01a9d37f40d21377b50aa991f8cd6c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.LaborHourFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="37" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1aca01399a75565246a010896c4d53af94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.LaborHourFragment.ReloadSingleListItem</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ReloadSingleListItem</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Reload the view in the listview by itself without calling to reload the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the list view item to reload</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="64" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a2a77ab016ca8c51976cde66e5b2796e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.LaborHourFragment.ReloadHours</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadHours</name>
+        <briefdescription>
+<para>Reloads the labor hours from the view model </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="90" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a7fa32b898536af5bfc7f4ec17520dd3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.LaborHourFragment.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>Dismiss any child dialogs </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="105" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="105" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1afb363a6a9aa24edf5675b7da00b33244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.LaborHourFragment.ReloadLaborHours</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadLaborHours</name>
+        <briefdescription>
+<para>Reloads the labor hours in the ListView </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragment for the labor hours section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2459">
+        <label>Fragment</label>
+      </node>
+      <node id="2458">
+        <label>FieldService.Android.Fragments.LaborHourFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment"/>
+        <childnode refid="2459" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2461">
+        <label>Fragment</label>
+      </node>
+      <node id="2460">
+        <label>FieldService.Android.Fragments.LaborHourFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment"/>
+        <childnode refid="2461" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/LaborHourFragment.cs" bodystart="32" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a49baef3a7993fa89b08cfb30363a3b33" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1ad3e2bab895c640f4f9808a4688870ed8" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>laborDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a19d1a9881ed77b524b4cb1c86fde0e91" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>LaborHours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a572e789f74b428438dee20127d4da95f" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>laborListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a115b2ba64ebf8469036bbbc9d0dd4686" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1ae01a9d37f40d21377b50aa991f8cd6c0" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a7fa32b898536af5bfc7f4ec17520dd3d" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1a2a77ab016ca8c51976cde66e5b2796e8" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>ReloadHours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1afb363a6a9aa24edf5675b7da00b33244" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>ReloadLaborHours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment_1aca01399a75565246a010896c4d53af94" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::LaborHourFragment</scope><name>ReloadSingleListItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

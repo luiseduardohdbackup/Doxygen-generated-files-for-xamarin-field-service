@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment" kind="class" prot="public">
+    <compoundname>FieldService::Android::Fragments::ConfirmationFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a4e95bb22a2395576f794b0bbb6ea8c8e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.Android.Fragments.ConfirmationFragment.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a750ef2345e70efd6a0ee031ec11ac813" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>PhotoViewModel FieldService.Android.Fragments.ConfirmationFragment.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a47a889619ad8c0e6d0eb6c58fb78d837" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog" kindref="compound">SignatureDialog</ref></type>
+        <definition>SignatureDialog FieldService.Android.Fragments.ConfirmationFragment.signatureDialog</definition>
+        <argsstring></argsstring>
+        <name>signatureDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae9ac3059e53f05b8534e3c7aa20b89e4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_photo_dialog" kindref="compound">PhotoDialog</ref></type>
+        <definition>PhotoDialog FieldService.Android.Fragments.ConfirmationFragment.photoDialog</definition>
+        <argsstring></argsstring>
+        <name>photoDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a1c20cd15cea08b1eb14792af5bb2ecf5" prot="private" static="no" mutable="no">
+        <type>ListView</type>
+        <definition>ListView FieldService.Android.Fragments.ConfirmationFragment.photoListView</definition>
+        <argsstring></argsstring>
+        <name>photoListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a1530d3bed2e5c2bba3fc664b945f1595" prot="private" static="no" mutable="no">
+        <type>MediaPicker</type>
+        <definition>MediaPicker FieldService.Android.Fragments.ConfirmationFragment.mediaPicker</definition>
+        <argsstring></argsstring>
+        <name>mediaPicker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae567f905a75dc21c4241af5d23be9e40" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView FieldService.Android.Fragments.ConfirmationFragment.signatureImage</definition>
+        <argsstring></argsstring>
+        <name>signatureImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1af6f4fa7e57cb6ca06c33e13319d5659c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_photo" kindref="compound">Photo</ref> &gt;</type>
+        <definition>List&lt;Photo&gt; FieldService.Android.Fragments.ConfirmationFragment.Photos</definition>
+        <argsstring></argsstring>
+        <name>Photos</name>
+        <briefdescription>
+<para>List of photos </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="194" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a705b54cca438073dd71c47fa84b8cddc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Fragments.ConfirmationFragment.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The current assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="203" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1aa3c6e81280c63e45b5721237ab3a43ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.ConfirmationFragment.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a6e255cfcc5e2006f1e76362d33d2d17e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.Fragments.ConfirmationFragment.OnCreateView</definition>
+        <argsstring>(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)</argsstring>
+        <name>OnCreateView</name>
+        <param>
+          <type>LayoutInflater</type>
+          <declname>inflater</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="55" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae7784150fa7a058ec6ee9794463cd798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Fragments.ConfirmationFragment.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+<para>Dismiss the signature dialog if shown </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="212" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="212" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a714060095eb3de3492f7e474582c95f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ConfirmationFragment.ReloadConfirmation</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadConfirmation</name>
+        <briefdescription>
+<para>Reload Confirmation fragment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="226" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="226" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1afee487357f7ae3d6843966115c137142" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ConfirmationFragment.ReloadListView</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadListView</name>
+        <briefdescription>
+<para>Reloads the list view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="168" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="168" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ad90d6823f7c198b7f8f01d13170b11eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Fragments.ConfirmationFragment.ReloadSignature</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadSignature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="175" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="175" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fragment for the confirmation section </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1993">
+        <label>FieldService.Android.Fragments.ConfirmationFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment"/>
+        <childnode refid="1994" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1994">
+        <label>Fragment</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1995">
+        <label>FieldService.Android.Fragments.ConfirmationFragment</label>
+        <link refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment"/>
+        <childnode refid="1996" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1996">
+        <label>Fragment</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Fragments/ConfirmationFragment.cs" bodystart="37" bodyend="238"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a705b54cca438073dd71c47fa84b8cddc" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a4e95bb22a2395576f794b0bbb6ea8c8e" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a1530d3bed2e5c2bba3fc664b945f1595" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>mediaPicker</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1aa3c6e81280c63e45b5721237ab3a43ce" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a6e255cfcc5e2006f1e76362d33d2d17e" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>OnCreateView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae7784150fa7a058ec6ee9794463cd798" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae9ac3059e53f05b8534e3c7aa20b89e4" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>photoDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a1c20cd15cea08b1eb14792af5bb2ecf5" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>photoListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1af6f4fa7e57cb6ca06c33e13319d5659c" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>Photos</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a750ef2345e70efd6a0ee031ec11ac813" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a714060095eb3de3492f7e474582c95f8" prot="public" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>ReloadConfirmation</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1afee487357f7ae3d6843966115c137142" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>ReloadListView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ad90d6823f7c198b7f8f01d13170b11eb" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>ReloadSignature</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1a47a889619ad8c0e6d0eb6c58fb78d837" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>signatureDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_fragments_1_1_confirmation_fragment_1ae567f905a75dc21c4241af5d23be9e40" prot="private" virt="non-virtual"><scope>FieldService::Android::Fragments::ConfirmationFragment</scope><name>signatureImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

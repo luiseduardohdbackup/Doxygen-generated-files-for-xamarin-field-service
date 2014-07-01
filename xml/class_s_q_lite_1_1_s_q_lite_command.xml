@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_command" kind="class" prot="public">
+    <compoundname>SQLite::SQLiteCommand</compoundname>
+    <innerclass refid="class_s_q_lite_1_1_s_q_lite_command_1_1_binding" prot="private">SQLite::SQLiteCommand::Binding</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_command_1afdb91d27df7fdb1a18db898f06e9668f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+        <definition>SQLiteConnection SQLite.SQLiteCommand._conn</definition>
+        <argsstring></argsstring>
+        <name>_conn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2028" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2028" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_command_1a550c107cd397ab5cb804caa4c5580293" prot="private" static="no" mutable="no">
+        <type>List&lt; Binding &gt;</type>
+        <definition>List&lt;Binding&gt; SQLite.SQLiteCommand._bindings</definition>
+        <argsstring></argsstring>
+        <name>_bindings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2029" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2029" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_command_1aa0d35069590226d88b5c0e9c484160db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.SQLiteCommand.CommandText</definition>
+        <argsstring></argsstring>
+        <name>CommandText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2031" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2031" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1_s_q_lite_command_1a868b0a1554d020f7e31166d13e7cd635" prot="package" static="yes" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr SQLite.SQLiteCommand.NegativePointer</definition>
+        <argsstring></argsstring>
+        <name>NegativePointer</name>
+        <initializer>= new IntPtr (-1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2216" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a6876b9e9f6611886a6049100912afad0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteCommand.SQLiteCommand</definition>
+        <argsstring>(SQLiteConnection conn)</argsstring>
+        <name>SQLiteCommand</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection" kindref="compound">SQLiteConnection</ref></type>
+          <declname>conn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2033" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2033" bodyend="2038"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a7a2b9afd67f691520b73bfb0efb18b9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SQLite.SQLiteCommand.ExecuteNonQuery</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteNonQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2040" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2040" bodyend="2064"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a28f64ff5f495468d9f480bd5d1b4338d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>IEnumerable&lt;T&gt; SQLite.SQLiteCommand.ExecuteDeferredQuery&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteDeferredQuery&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2066" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2066" bodyend="2069"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a6aa1993738e35a863eea4c5d7cee212e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt;T&gt; SQLite.SQLiteCommand.ExecuteQuery&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteQuery&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2071" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2071" bodyend="2074"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a89a1919e9f583731eaabaf12e1982e39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt;T&gt; SQLite.SQLiteCommand.ExecuteQuery&lt; T &gt;</definition>
+        <argsstring>(TableMapping map)</argsstring>
+        <name>ExecuteQuery&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2076" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2076" bodyend="2079"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a092913169afcc6c9fdd9ae5e5ca7cf96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>IEnumerable&lt;T&gt; SQLite.SQLiteCommand.ExecuteDeferredQuery&lt; T &gt;</definition>
+        <argsstring>(TableMapping map)</argsstring>
+        <name>ExecuteDeferredQuery&lt; T &gt;</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2098" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2098" bodyend="2131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a3ce415ca55779eaf3d1851060eff05cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T SQLite.SQLiteCommand.ExecuteScalar&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteScalar&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2133" bodyend="2163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1adc2e4047e52cc3da0307a74e74e276f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteCommand.Bind</definition>
+        <argsstring>(string name, object val)</argsstring>
+        <name>Bind</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2165" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2165" bodyend="2171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1afd03d0602268aef6f9300d60f6102265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteCommand.Bind</definition>
+        <argsstring>(object val)</argsstring>
+        <name>Bind</name>
+        <param>
+          <type>object</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2173" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2173" bodyend="2176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a6d1c61aa253c05e163506aec881bfb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string SQLite.SQLiteCommand.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2178" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2178" bodyend="2188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a4761647a6b02f398aa1d7bbd1f090828" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void SQLite.SQLiteCommand.OnInstanceCreated</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>OnInstanceCreated</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Invoked every time an instance is loaded from the database. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>obj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The newly created object. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>This can be overridden in combination with the <ref refid="class_s_q_lite_1_1_s_q_lite_connection_1a7535db6cca83fcde078fa4340b32e982" kindref="member">SQLiteConnection.NewCommand</ref> method to hook into the life-cycle of objects.</para><para>Type safety is not possible because MonoTouch does not support virtual generic methods. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2093" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2093" bodyend="2096"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1afbd7862b9b2f83419ce6d078fda02a6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+        <definition>Sqlite3Statement SQLite.SQLiteCommand.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2190" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2190" bodyend="2195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1ac9af635a4aa9128e7df39d5102f2fd49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteCommand.Finalize</definition>
+        <argsstring>(Sqlite3Statement stmt)</argsstring>
+        <name>Finalize</name>
+        <param>
+          <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2197" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2197" bodyend="2200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a3e3132348ca9954376cba68b880106aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteCommand.BindAll</definition>
+        <argsstring>(Sqlite3Statement stmt)</argsstring>
+        <name>BindAll</name>
+        <param>
+          <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2202" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2202" bodyend="2214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1a09fa5368819b263c7dfddd384ef1af6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object SQLite.SQLiteCommand.ReadCol</definition>
+        <argsstring>(Sqlite3Statement stmt, int index, SQLite3.ColType type, Type clrType)</argsstring>
+        <name>ReadCol</name>
+        <param>
+          <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>SQLite3.ColType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>clrType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2271" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2271" bodyend="2327"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_command_1aa77012d2fd80393a772707a07676f3e8" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SQLite.SQLiteCommand.BindParameter</definition>
+        <argsstring>(Sqlite3Statement stmt, int index, object value, bool storeDateTimeAsTicks)</argsstring>
+        <name>BindParameter</name>
+        <param>
+          <type><ref refid="_s_q_lite_8cs_1ab557efa2a7318f6132dd96d8ee66bf7c" kindref="member">Sqlite3Statement</ref></type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDateTimeAsTicks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2218" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2218" bodyend="2260"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2027" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2026" bodyend="2328"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a550c107cd397ab5cb804caa4c5580293" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>_bindings</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1afdb91d27df7fdb1a18db898f06e9668f" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>_conn</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1adc2e4047e52cc3da0307a74e74e276f7" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>Bind</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1afd03d0602268aef6f9300d60f6102265" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>Bind</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a3e3132348ca9954376cba68b880106aa" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>BindAll</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1aa77012d2fd80393a772707a07676f3e8" prot="package" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>BindParameter</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1aa0d35069590226d88b5c0e9c484160db" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>CommandText</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a28f64ff5f495468d9f480bd5d1b4338d" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteDeferredQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a092913169afcc6c9fdd9ae5e5ca7cf96" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteDeferredQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a7a2b9afd67f691520b73bfb0efb18b9b" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteNonQuery</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a6aa1993738e35a863eea4c5d7cee212e" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a89a1919e9f583731eaabaf12e1982e39" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteQuery&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a3ce415ca55779eaf3d1851060eff05cc" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ExecuteScalar&lt; T &gt;</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1ac9af635a4aa9128e7df39d5102f2fd49" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>Finalize</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a868b0a1554d020f7e31166d13e7cd635" prot="package" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>NegativePointer</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a4761647a6b02f398aa1d7bbd1f090828" prot="protected" virt="virtual"><scope>SQLite::SQLiteCommand</scope><name>OnInstanceCreated</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1afbd7862b9b2f83419ce6d078fda02a6c" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>Prepare</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a09fa5368819b263c7dfddd384ef1af6a" prot="private" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ReadCol</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a6876b9e9f6611886a6049100912afad0" prot="package" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>SQLiteCommand</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_command_1a6d1c61aa253c05e163506aec881bfb49" prot="public" virt="non-virtual"><scope>SQLite::SQLiteCommand</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

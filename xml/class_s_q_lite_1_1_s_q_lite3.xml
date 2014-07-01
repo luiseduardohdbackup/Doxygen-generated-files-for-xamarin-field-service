@@ -1,0 +1,1699 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite3" kind="class" prot="public">
+    <compoundname>SQLite::SQLite3</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732" prot="public" static="no">
+        <name>Result</name>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732ae0aa021e21dddbd6d8cecec71e9cf564" prot="public">
+          <name>OK</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732aafbf0897a5a83fdd873dfb032ec695d3" prot="public">
+          <name>Internal</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732af263a995390567b6ba090d0a4fb067d2" prot="public">
+          <name>Perm</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a727b63583e01fa2b3952dab580c84dc2" prot="public">
+          <name>Abort</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732ad8a942ef2b04672adfafef0ad817a407" prot="public">
+          <name>Busy</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732ad0f2e5376298c880665077b565ffd7dd" prot="public">
+          <name>Locked</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732aa71b351348ee0a1c46b265061fc62bc1" prot="public">
+          <name>NoMem</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a131fb182a881796e7606ed6da27f1197" prot="public">
+          <name>ReadOnly</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a1ce92afa20b1c7f6a4e5d0dc73e5c92a" prot="public">
+          <name>Interrupt</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a5206bd7472156351d2d9a99633ac9580" prot="public">
+          <name>IOError</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a6e25aa27fcd893613fac13b0312fe36d" prot="public">
+          <name>Corrupt</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a38c300f4fc9ce8a77aad4a30de05cad8" prot="public">
+          <name>NotFound</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732abbd47109890259c0127154db1af26c75" prot="public">
+          <name>Full</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a6e4dfd502f069becb74e2b53cc47ca6e" prot="public">
+          <name>CannotOpen</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a598fb3d1a024c91a5292bc960196c011" prot="public">
+          <name>LockErr</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732ace2c8aed9c2fa0cfbed56cbda4d8bf07" prot="public">
+          <name>Empty</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a6ce07fb5cf8b591af13647b278910dbb" prot="public">
+          <name>SchemaChngd</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732acf62b04bcfe3a8f8be1b68b0f897712f" prot="public">
+          <name>TooBig</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a5573c74299e0af37fd558445022c4b15" prot="public">
+          <name>Constraint</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a5b0a8637935072d1ec30e60bb2cae1e6" prot="public">
+          <name>Mismatch</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a9e62d4d4e65b5237916d85a2fb27d323" prot="public">
+          <name>Misuse</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732aa3cdeb2083e4b12d634a261f264b63ff" prot="public">
+          <name>NotImplementedLFS</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732acbcc0759909213e7cdba1f0cbf253126" prot="public">
+          <name>AccessDenied</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a520d0db389f362bf79ef56ca0af3dcab" prot="public">
+          <name>Format</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a87ba2ecc8b6915e8bd6f5089918229fd" prot="public">
+          <name>Range</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732ace1e6fc4f3707753c6f784995c55bd98" prot="public">
+          <name>NonDBFile</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a24efa7ee4511563b16144f39706d594f" prot="public">
+          <name>Notice</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732a0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732aa70367aa7cb74e510f4f9413ccf059d3" prot="public">
+          <name>Row</name>
+          <initializer>= 100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732af92965e2c8a7afb3c1b9a5c09a263636" prot="public">
+          <name>Done</name>
+          <initializer>= 101</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2891" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2890" bodyend="2923"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76ea" prot="public" static="no">
+        <name>ExtendedResult</name>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaacae2d9323ebdeba50dbebbf1d2a56cf3" prot="public">
+          <name>IOErrorRead</name>
+          <initializer>= (Result.IOError | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa1d1414010c807d13abad1172ca3ab24a" prot="public">
+          <name>IOErrorShortRead</name>
+          <initializer>= (Result.IOError | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaad31980690902a56a36f91645f6eac539" prot="public">
+          <name>IOErrorWrite</name>
+          <initializer>= (Result.IOError | (3 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaab7727df8b244b6a1d23acb3b90d71830" prot="public">
+          <name>IOErrorFsync</name>
+          <initializer>= (Result.IOError | (4 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa3057418ac1b517455fb49055d1e9c68a" prot="public">
+          <name>IOErrorDirFSync</name>
+          <initializer>= (Result.IOError | (5 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaae052feb8ddfbcdd0c75412bdcd90d477" prot="public">
+          <name>IOErrorTruncate</name>
+          <initializer>= (Result.IOError | (6 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaae71c6d67b3d4a2d2ed9db5fe68ef9d35" prot="public">
+          <name>IOErrorFStat</name>
+          <initializer>= (Result.IOError | (7 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaaa3ad64518ed656203b38cee07d0d47ae" prot="public">
+          <name>IOErrorUnlock</name>
+          <initializer>= (Result.IOError | (8 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa51641a17dbe0820459f1e62b51804ac3" prot="public">
+          <name>IOErrorRdlock</name>
+          <initializer>= (Result.IOError | (9 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaada1df26d03f4284f16cf57d63cab2cdd" prot="public">
+          <name>IOErrorDelete</name>
+          <initializer>= (Result.IOError | (10 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa77f758040e53180fd932881d6c33cb52" prot="public">
+          <name>IOErrorBlocked</name>
+          <initializer>= (Result.IOError | (11 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa1c0e3c25aeba7a322178ec948cf6af37" prot="public">
+          <name>IOErrorNoMem</name>
+          <initializer>= (Result.IOError | (12 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa452f9bcd539c8f10f23eb6a09d1ab100" prot="public">
+          <name>IOErrorAccess</name>
+          <initializer>= (Result.IOError | (13 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa9ebae21e0bc039e7bc084595b4fe5f2c" prot="public">
+          <name>IOErrorCheckReservedLock</name>
+          <initializer>= (Result.IOError | (14 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa2ad5bc5ed7b663d15c9edb4bf1779752" prot="public">
+          <name>IOErrorLock</name>
+          <initializer>= (Result.IOError | (15 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa1bc666dca6588ee9cd5ebd40f9305359" prot="public">
+          <name>IOErrorClose</name>
+          <initializer>= (Result.IOError | (16 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa55a4ff35b54def0b07ae860d12fdd251" prot="public">
+          <name>IOErrorDirClose</name>
+          <initializer>= (Result.IOError | (17 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa11c752ce7fb50be8a8e6842b186384a2" prot="public">
+          <name>IOErrorSHMOpen</name>
+          <initializer>= (Result.IOError | (18 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa5a18a92a47c33204e9387749fc6ea6a4" prot="public">
+          <name>IOErrorSHMSize</name>
+          <initializer>= (Result.IOError | (19 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa0db2ce9839f8689081713410b370e802" prot="public">
+          <name>IOErrorSHMLock</name>
+          <initializer>= (Result.IOError | (20 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa8164090cd9576a2ac37b592017ca4bda" prot="public">
+          <name>IOErrorSHMMap</name>
+          <initializer>= (Result.IOError | (21 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaac8502e681ef949786a9be394a81028a6" prot="public">
+          <name>IOErrorSeek</name>
+          <initializer>= (Result.IOError | (22 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa00a3000be5a448222c7586fc8bef8a95" prot="public">
+          <name>IOErrorDeleteNoEnt</name>
+          <initializer>= (Result.IOError | (23 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa1dd530eb7ad4a404e46309d8cea495b2" prot="public">
+          <name>IOErrorMMap</name>
+          <initializer>= (Result.IOError | (24 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa673e6f3dcc0d22e30c60febb816f16c0" prot="public">
+          <name>LockedSharedcache</name>
+          <initializer>= (Result.Locked | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa353ac50482e20b263c610066483809a7" prot="public">
+          <name>BusyRecovery</name>
+          <initializer>= (Result.Busy | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaaf33c9fbc373ce89d1046e0a0ec35c9d7" prot="public">
+          <name>CannottOpenNoTempDir</name>
+          <initializer>= (Result.CannotOpen | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaafaf449938b5f6de64219297382450ea3" prot="public">
+          <name>CannotOpenIsDir</name>
+          <initializer>= (Result.CannotOpen | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa365abeeba5d3c6fbd8b6730f1d8888a5" prot="public">
+          <name>CannotOpenFullPath</name>
+          <initializer>= (Result.CannotOpen | (3 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaaa934a83bf76783311ea85b730887bbcf" prot="public">
+          <name>CorruptVTab</name>
+          <initializer>= (Result.Corrupt | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa7b1d06538318a7e626706a4483930434" prot="public">
+          <name>ReadonlyRecovery</name>
+          <initializer>= (Result.ReadOnly | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa5c73e3ac915635a7f591b5d7491a20cb" prot="public">
+          <name>ReadonlyCannotLock</name>
+          <initializer>= (Result.ReadOnly | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa3d4b186463dd5457d66d7f1b4d2dfc8a" prot="public">
+          <name>ReadonlyRollback</name>
+          <initializer>= (Result.ReadOnly | (3 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa759bb3170c94b07aaf5a8b28902ad7d5" prot="public">
+          <name>AbortRollback</name>
+          <initializer>= (Result.Abort | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa5cef6a188df0d1dd6ebbaa4c09d216c2" prot="public">
+          <name>ConstraintCheck</name>
+          <initializer>= (Result.Constraint | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa796e1bbb6088588bac194888b4f69c33" prot="public">
+          <name>ConstraintCommitHook</name>
+          <initializer>= (Result.Constraint | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaaa81e46a138273058904e0e1e5674fb35" prot="public">
+          <name>ConstraintForeignKey</name>
+          <initializer>= (Result.Constraint | (3 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaab38fb72e0daa72ed0005a5259214bfb9" prot="public">
+          <name>ConstraintFunction</name>
+          <initializer>= (Result.Constraint | (4 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa4c329b6d8398dc2aa15ae39ef8a48980" prot="public">
+          <name>ConstraintNotNull</name>
+          <initializer>= (Result.Constraint | (5 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa532fbf1b11eec83e252332e255d348fd" prot="public">
+          <name>ConstraintPrimaryKey</name>
+          <initializer>= (Result.Constraint | (6 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaaefaf5d48e8f2bb85ad12778ab2764bc2" prot="public">
+          <name>ConstraintTrigger</name>
+          <initializer>= (Result.Constraint | (7 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaab6eabcff00c7a90b88dbd9aff6c29055" prot="public">
+          <name>ConstraintUnique</name>
+          <initializer>= (Result.Constraint | (8 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaac2407afb09fd501d9a03a2c097fc2465" prot="public">
+          <name>ConstraintVTab</name>
+          <initializer>= (Result.Constraint | (9 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaa7c811adc7b4af70d1630476f5bf3d691" prot="public">
+          <name>NoticeRecoverWAL</name>
+          <initializer>= (Result.Notice | (1 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76eaacf2334f0a0939cdd350b2cd425b54d0b" prot="public">
+          <name>NoticeRecoverRollback</name>
+          <initializer>= (Result.Notice | (2 &lt;&lt; 8))</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2926" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2925" bodyend="2972"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_s_q_lite_1_1_s_q_lite3_1a1b868498215ae2491a6ecf1f1669c4db" prot="public" static="no">
+        <name>ConfigOption</name>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1b868498215ae2491a6ecf1f1669c4dba8096cbefe1715cf50962916d1d852588" prot="public">
+          <name>SingleThread</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1b868498215ae2491a6ecf1f1669c4dbad16cca1cc43da16cb76fba5a25b24ce6" prot="public">
+          <name>MultiThread</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a1b868498215ae2491a6ecf1f1669c4dba2b59321169346822ab33b2c61dbb9975" prot="public">
+          <name>Serialized</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2976" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2975" bodyend="2980"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273a" prot="public" static="no">
+        <name>ColType</name>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273aaa0faef0851b4294c06f2b94bb1cb2044" prot="public">
+          <name>Integer</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273aa22ae0e2b89e5e3d477f988cc36d3272b" prot="public">
+          <name>Float</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273aa9dffbf69ffba8bc38bc4e01abf4b1675" prot="public">
+          <name>Text</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273aae8016c85ada38bdc5fac616ec1318047" prot="public">
+          <name>Blob</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273aabbb93ef26e3c101ff11cdd21cab08a94" prot="public">
+          <name>Null</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3339" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3338" bodyend="3345"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a38853605efb9b9e26396f42c2d193596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.Threadsafe</definition>
+        <argsstring>()</argsstring>
+        <name>Threadsafe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2984" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a6b62d2f68d18c3abc207da20b8b3d002" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Open</definition>
+        <argsstring>([MarshalAs(UnmanagedType.LPStr)] string filename, out IntPtr db)</argsstring>
+        <name>Open</name>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPStr)]</attributes>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2987" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a696f85d193cc02a0488aa7adc8e3f019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Open</definition>
+        <argsstring>([MarshalAs(UnmanagedType.LPStr)] string filename, out IntPtr db, int flags, IntPtr zvfs)</argsstring>
+        <name>Open</name>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPStr)]</attributes>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zvfs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2990" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ac777f9c98d722494954bd49f5b1d7449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Open</definition>
+        <argsstring>(byte[] filename, out IntPtr db, int flags, IntPtr zvfs)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>byte[]</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>zvfs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2993" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a3d4cd4cdb18dea35ce0aa6f1f11b7c51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Open16</definition>
+        <argsstring>([MarshalAs(UnmanagedType.LPWStr)] string filename, out IntPtr db)</argsstring>
+        <name>Open16</name>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPWStr)]</attributes>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2996" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ac9a1d1167afd700bfc1e791b38aa447b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.EnableLoadExtension</definition>
+        <argsstring>(IntPtr db, int onoff)</argsstring>
+        <name>EnableLoadExtension</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>onoff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2999" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a90b133c6785c4df7137d4644fe7d1023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Close</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>Close</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3002" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1abc473a2ccfc8d9580919e2850f2c263d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3005" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a0e68d8a5088502a311ea97cdc5aef073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Shutdown</definition>
+        <argsstring>()</argsstring>
+        <name>Shutdown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3008" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ae8adc1bdcc32742254a7571637c4a0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Config</definition>
+        <argsstring>(ConfigOption option)</argsstring>
+        <name>Config</name>
+        <param>
+          <type>ConfigOption</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3011" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a6bbb4e5fbaadd6ea84321e14d82a52e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.SetDirectory</definition>
+        <argsstring>(uint directoryType, string directoryPath)</argsstring>
+        <name>SetDirectory</name>
+        <param>
+          <type>uint</type>
+          <declname>directoryType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>directoryPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3014" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ad2a50c3f3c4e2bb4fd44fad7657bded6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.BusyTimeout</definition>
+        <argsstring>(IntPtr db, int milliseconds)</argsstring>
+        <name>BusyTimeout</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>milliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3017" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a7fb06076507a473bcb48bb6e54ecb28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.Changes</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>Changes</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3020" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a55e984640c4e69792b2c5003c7649862" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Prepare2</definition>
+        <argsstring>(IntPtr db, [MarshalAs(UnmanagedType.LPStr)] string sql, int numBytes, out IntPtr stmt, IntPtr pzTail)</argsstring>
+        <name>Prepare2</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPStr)]</attributes>
+          <type>string</type>
+          <declname>sql</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBytes</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pzTail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3023" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a39aad9b1b6a78224ce2ee2ac056895e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Step</definition>
+        <argsstring>(IntPtr stmt)</argsstring>
+        <name>Step</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3046" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a3efc5458273d41eea3d9720027acacc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Reset</definition>
+        <argsstring>(IntPtr stmt)</argsstring>
+        <name>Reset</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3049" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ac5fe02e5746ebb1362056bf8ebcfcbfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Result</type>
+        <definition>static Result SQLite.SQLite3.Finalize</definition>
+        <argsstring>(IntPtr stmt)</argsstring>
+        <name>Finalize</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3052" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ade94d4d3e7fc884b9603ae7bab8c540d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>static long SQLite.SQLite3.LastInsertRowid</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>LastInsertRowid</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3055" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a65d259368cd29811c7ba18701066bb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.Errmsg</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>Errmsg</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3058" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a72302977de64b5a79ee9e16fa2b21325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindParameterIndex</definition>
+        <argsstring>(IntPtr stmt, [MarshalAs(UnmanagedType.LPStr)] string name)</argsstring>
+        <name>BindParameterIndex</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPStr)]</attributes>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3066" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1aba3b41c77e59804b1bb56802eed8e2d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindNull</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>BindNull</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3069" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1adef3ce3984ef1c397d1314f05ba5384d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindInt</definition>
+        <argsstring>(IntPtr stmt, int index, int val)</argsstring>
+        <name>BindInt</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3072" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a1b36bf33c928765524d404421855855f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindInt64</definition>
+        <argsstring>(IntPtr stmt, int index, long val)</argsstring>
+        <name>BindInt64</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3075" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ae288906b14eb9e995ca23603b18810e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindDouble</definition>
+        <argsstring>(IntPtr stmt, int index, double val)</argsstring>
+        <name>BindDouble</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3078" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a5b0f3983371dd9dcd466af59eaaee010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindText</definition>
+        <argsstring>(IntPtr stmt, int index, [MarshalAs(UnmanagedType.LPWStr)] string val, int n, IntPtr free)</argsstring>
+        <name>BindText</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPWStr)]</attributes>
+          <type>string</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>free</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3081" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a61b53b1fe12443d04997a751319932d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.BindBlob</definition>
+        <argsstring>(IntPtr stmt, int index, byte[] val, int n, IntPtr free)</argsstring>
+        <name>BindBlob</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>free</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3084" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1acf297f85c6c099e228750e6e5b48b3fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.ColumnCount</definition>
+        <argsstring>(IntPtr stmt)</argsstring>
+        <name>ColumnCount</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3087" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1af2ac75f647b70bedb3cc17b27baa272a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.ColumnName</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnName</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3090" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a545c8e2118f1fd1ea278c61b9459d3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ColType</type>
+        <definition>static ColType SQLite.SQLite3.ColumnType</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnType</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a2435da531f4d63167321e20ffac165f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.ColumnInt</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnInt</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a6d5f0adcb8605f74180acd6fb8fbb6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>static long SQLite.SQLite3.ColumnInt64</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnInt64</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a6a0dff1b003363e2e330e1d1f15b577c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SQLite.SQLite3.ColumnDouble</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnDouble</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a43c5845f1e79a5628340a0f1deb86ec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.ColumnText</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnText</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a36ca61ff0b5462432f974c0ae2905d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.ColumnText16</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnText16</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1ab90df6fef1242e5399a900ef7aa7e74b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.ColumnBlob</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnBlob</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a4f08cd4bbe3aac3144f379b7165156f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.ColumnBytes</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnBytes</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a0fdaa401dbf716d7746b0fa8f24c4b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ExtendedResult</type>
+        <definition>static ExtendedResult SQLite.SQLite3.ExtendedErrCode</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>ExtendedErrCode</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1abcfd9b1f388a817710aebf6d5eae12e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SQLite.SQLite3.LibVersionNumber</definition>
+        <argsstring>()</argsstring>
+        <name>LibVersionNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3141" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a89dee8d36b455dda9cf587f12ce541ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.Prepare2</definition>
+        <argsstring>(IntPtr db, string query)</argsstring>
+        <name>Prepare2</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3030" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3030" bodyend="3043"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1aa4394a53972fa5a57d1980d72771d2f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.SQLite3.GetErrmsg</definition>
+        <argsstring>(IntPtr db)</argsstring>
+        <name>GetErrmsg</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3060" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3060" bodyend="3063"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1aa866cecf10c391ec23b6902a85883905" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.SQLite3.ColumnName16</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnName16</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3094" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3094" bodyend="3097"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a56f191689378e3ef6a0bf0266855a760" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string SQLite.SQLite3.ColumnString</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnString</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3123" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3123" bodyend="3126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a0af56f45546b2b3ed833ebb867494932" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] SQLite.SQLite3.ColumnByteArray</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnByteArray</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3128" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="3128" bodyend="3135"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite3_1a8986395d47091590f42b5b917f150aa2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr SQLite.SQLite3.ColumnName16Internal</definition>
+        <argsstring>(IntPtr stmt, int index)</argsstring>
+        <name>ColumnName16Internal</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>stmt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="3093" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2889" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2888" bodyend="3346"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a61b53b1fe12443d04997a751319932d9" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindBlob</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ae288906b14eb9e995ca23603b18810e9" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindDouble</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1adef3ce3984ef1c397d1314f05ba5384d" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindInt</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a1b36bf33c928765524d404421855855f" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindInt64</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1aba3b41c77e59804b1bb56802eed8e2d4" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindNull</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a72302977de64b5a79ee9e16fa2b21325" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindParameterIndex</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a5b0f3983371dd9dcd466af59eaaee010" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BindText</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ad2a50c3f3c4e2bb4fd44fad7657bded6" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>BusyTimeout</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a7fb06076507a473bcb48bb6e54ecb28a" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Changes</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a90b133c6785c4df7137d4644fe7d1023" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Close</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a05b95fc7fa35a5d8a13847a9abc9273a" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColType</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ab90df6fef1242e5399a900ef7aa7e74b" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnBlob</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a0af56f45546b2b3ed833ebb867494932" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnByteArray</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a4f08cd4bbe3aac3144f379b7165156f1" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnBytes</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1acf297f85c6c099e228750e6e5b48b3fb" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnCount</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a6a0dff1b003363e2e330e1d1f15b577c" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnDouble</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a2435da531f4d63167321e20ffac165f9" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnInt</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a6d5f0adcb8605f74180acd6fb8fbb6f0" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnInt64</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1af2ac75f647b70bedb3cc17b27baa272a" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnName</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1aa866cecf10c391ec23b6902a85883905" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnName16</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a8986395d47091590f42b5b917f150aa2" prot="private" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnName16Internal</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a56f191689378e3ef6a0bf0266855a760" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnString</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a43c5845f1e79a5628340a0f1deb86ec6" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnText</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a36ca61ff0b5462432f974c0ae2905d79" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnText16</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a545c8e2118f1fd1ea278c61b9459d3c3" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ColumnType</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ae8adc1bdcc32742254a7571637c4a0c9" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Config</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a1b868498215ae2491a6ecf1f1669c4db" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ConfigOption</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ac9a1d1167afd700bfc1e791b38aa447b" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>EnableLoadExtension</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a65d259368cd29811c7ba18701066bb2c" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Errmsg</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a0fdaa401dbf716d7746b0fa8f24c4b53" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ExtendedErrCode</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a414bd89a1ac4cb7d27eb43ba1d6c76ea" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>ExtendedResult</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ac5fe02e5746ebb1362056bf8ebcfcbfd" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Finalize</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1aa4394a53972fa5a57d1980d72771d2f8" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>GetErrmsg</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1abc473a2ccfc8d9580919e2850f2c263d" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Initialize</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ade94d4d3e7fc884b9603ae7bab8c540d" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>LastInsertRowid</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1abcfd9b1f388a817710aebf6d5eae12e2" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>LibVersionNumber</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a6b62d2f68d18c3abc207da20b8b3d002" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Open</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a696f85d193cc02a0488aa7adc8e3f019" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Open</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1ac777f9c98d722494954bd49f5b1d7449" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Open</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a3d4cd4cdb18dea35ce0aa6f1f11b7c51" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Open16</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a55e984640c4e69792b2c5003c7649862" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Prepare2</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a89dee8d36b455dda9cf587f12ce541ec" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Prepare2</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a3efc5458273d41eea3d9720027acacc9" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Reset</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a1bb344641cee231bb4d07bbc26905732" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Result</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a6bbb4e5fbaadd6ea84321e14d82a52e4" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>SetDirectory</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a0e68d8a5088502a311ea97cdc5aef073" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Shutdown</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a39aad9b1b6a78224ce2ee2ac056895e4" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Step</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite3_1a38853605efb9b9e26396f42c2d193596" prot="public" virt="non-virtual"><scope>SQLite::SQLite3</scope><name>Threadsafe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

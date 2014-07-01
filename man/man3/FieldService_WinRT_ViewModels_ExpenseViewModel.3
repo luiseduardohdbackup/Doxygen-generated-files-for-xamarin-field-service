@@ -1,0 +1,147 @@
+.TH "FieldService.WinRT.ViewModels.ExpenseViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.WinRT.ViewModels.ExpenseViewModel \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ExpenseViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBExpenseViewModel\fP ()"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBOnPropertyChanged\fP (string propertyName)"
+.br
+.RI "\fIProtected method for firing PropertyChanged \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "Popup \fBExpensePopUp\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "string \fBAddExpenseHeader\fP\fC [get, set]\fP"
+.br
+.RI "\fIheader for the expense flyout \fP"
+.ti -1c
+.RI "bool \fBCanDelete\fP\fC [get, set]\fP"
+.br
+.RI "\fIbool value for the delete being visible \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAddExpenseCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to show add expense flyout \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBDeleteExpenseCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to delete expense \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBSaveExpenseCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to save expense \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBCancelExpenseCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to hide add expense flyout \fP"
+.ti -1c
+.RI "\fBDelegateCommand\fP \fBAddImageCommand\fP\fC [get]\fP"
+.br
+.RI "\fICommand to get an image for the expense \fP"
+.ti -1c
+.RI "IEnumerable< \fBExpense\fP > \fBTopExpenses\fP\fC [get]\fP"
+.br
+.RI "\fIlist of top 5 labor hour items \fP"
+.ti -1c
+.RI "override \fBExpense\fP \fBSelectedExpense\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBExpenseCategory\fP[] \fBExpenseTypes\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "string \fBExpenseCost\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBIsNotReadonly\fP\fC [get]\fP"
+.br
+.RI "\fIValue for not is history \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.ExpenseViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.OnPropertyChanged (stringpropertyName)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for firing PropertyChanged 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpropertyName\fP The name of the property that changed
+.RE
+.PP
+
+.PP
+Reimplemented from \fBFieldService\&.Data\&.PropertyChangedBase\fP\&.
+.SH "Property Documentation"
+.PP 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.AddExpenseCommand\fC [get]\fP"
+
+.PP
+Command to show add expense flyout 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.AddExpenseHeader\fC [get]\fP, \fC [set]\fP"
+
+.PP
+header for the expense flyout 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.AddImageCommand\fC [get]\fP"
+
+.PP
+Command to get an image for the expense 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.CancelExpenseCommand\fC [get]\fP"
+
+.PP
+Command to hide add expense flyout 
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.CanDelete\fC [get]\fP, \fC [set]\fP"
+
+.PP
+bool value for the delete being visible 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.DeleteExpenseCommand\fC [get]\fP"
+
+.PP
+Command to delete expense 
+.SS "string FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.ExpenseCost\fC [get]\fP, \fC [set]\fP"
+
+.SS "Popup FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.ExpensePopUp\fC [get]\fP"
+
+.SS "\fBExpenseCategory\fP [] FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.ExpenseTypes\fC [get]\fP"
+
+.SS "bool FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.IsNotReadonly\fC [get]\fP"
+
+.PP
+Value for not is history 
+.SS "\fBDelegateCommand\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.SaveExpenseCommand\fC [get]\fP"
+
+.PP
+Command to save expense 
+.SS "override \fBExpense\fP FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.SelectedExpense\fC [get]\fP, \fC [set]\fP"
+
+.SS "IEnumerable<\fBExpense\fP> FieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\&.TopExpenses\fC [get]\fP"
+
+.PP
+list of top 5 labor hour items 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

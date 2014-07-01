@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate" kind="class" prot="public">
+    <compoundname>SQLite::iOS::Sample::AppDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIApplicationDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1ab9f935421f717cbbfc5fea94a8577d1b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+        <definition>readonly SQLiteAsyncConnection SQLite.iOS.Sample.AppDelegate.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer>= new <ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref> (Path.Combine (Environment.GetFolderPath (Environment.SpecialFolder.Personal), &quot;todo.db&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1af32677bfcb441504c4b6d1b78401cb36" prot="private" static="no" mutable="no">
+        <type>UIWindow</type>
+        <definition>UIWindow SQLite.iOS.Sample.AppDelegate.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1addbf9f9f4ed548bbd58ad06b870679d0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int SQLite.iOS.Sample.AppDelegate.busy</definition>
+        <argsstring></argsstring>
+        <name>busy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1acc03e5730a814a9d60a1896718545661" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool SQLite.iOS.Sample.AppDelegate.FinishedLaunching</definition>
+        <argsstring>(UIApplication app, NSDictionary options)</argsstring>
+        <name>FinishedLaunching</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>NSDictionary</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="16" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1a46822459f74138ce8bba5e9e0ae45368" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SQLite.iOS.Sample.AppDelegate.AddActivity</definition>
+        <argsstring>()</argsstring>
+        <name>AddActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1a9a215893824a585a62e5e372210618cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SQLite.iOS.Sample.AppDelegate.FinishActivity</definition>
+        <argsstring>()</argsstring>
+        <name>FinishActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1656">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1655">
+        <label>SQLite.iOS.Sample.AppDelegate</label>
+        <link refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate"/>
+        <childnode refid="1656" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1658">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1657">
+        <label>SQLite.iOS.Sample.AppDelegate</label>
+        <link refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate"/>
+        <childnode refid="1658" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/AppDelegate.cs" bodystart="12" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1a46822459f74138ce8bba5e9e0ae45368" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>AddActivity</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1addbf9f9f4ed548bbd58ad06b870679d0" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>busy</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1ab9f935421f717cbbfc5fea94a8577d1b" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>db</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1a9a215893824a585a62e5e372210618cb" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>FinishActivity</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1acc03e5730a814a9d60a1896718545661" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>FinishedLaunching</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_app_delegate_1af32677bfcb441504c4b6d1b78401cb36" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::AppDelegate</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

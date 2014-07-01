@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry" kind="class" prot="private">
+    <compoundname>SQLite::SQLiteConnectionPool::Entry</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1ac82b51368d7454adab54d279b1c15874" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_string" kindref="compound">SQLiteConnectionString</ref></type>
+        <definition>SQLiteConnectionString SQLite.SQLiteConnectionPool.Entry.ConnectionString</definition>
+        <argsstring></argsstring>
+        <name>ConnectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="402" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a79f9db1e79e1a7243c0eb9ef5a898341" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_with_lock" kindref="compound">SQLiteConnectionWithLock</ref></type>
+        <definition>SQLiteConnectionWithLock SQLite.SQLiteConnectionPool.Entry.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="403" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a139eec5d785a5677bdd1aa35ae27b00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.SQLiteConnectionPool.Entry.Entry</definition>
+        <argsstring>(SQLiteConnectionString connectionString, SQLiteOpenFlags openFlags)</argsstring>
+        <name>Entry</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_connection_string" kindref="compound">SQLiteConnectionString</ref></type>
+          <declname>connectionString</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_s_q_lite_1a9d72cc097c53dbc96a6f0eec530cc439" kindref="member">SQLiteOpenFlags</ref></type>
+          <declname>openFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="405" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="405" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a6abeb54ddb93f23736e2266b0a01dc6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.SQLiteConnectionPool.Entry.OnApplicationSuspended</definition>
+        <argsstring>()</argsstring>
+        <name>OnApplicationSuspended</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="411" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="411" bodyend="415"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="401" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="400" bodyend="416"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a79f9db1e79e1a7243c0eb9ef5a898341" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool::Entry</scope><name>Connection</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1ac82b51368d7454adab54d279b1c15874" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool::Entry</scope><name>ConnectionString</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a139eec5d785a5677bdd1aa35ae27b00a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool::Entry</scope><name>Entry</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_connection_pool_1_1_entry_1a6abeb54ddb93f23736e2266b0a01dc6a" prot="public" virt="non-virtual"><scope>SQLite::SQLiteConnectionPool::Entry</scope><name>OnApplicationSuspended</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

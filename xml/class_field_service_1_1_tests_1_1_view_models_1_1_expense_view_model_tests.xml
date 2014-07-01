@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::ExpenseViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1a7807dab419e22c98be5c723c66c1bb20" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>ExpenseViewModel FieldService.Tests.ViewModels.ExpenseViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1ae9721745778a34c469f953f4a16fcc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ExpenseViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1a89ff701fa6ea40d3570554d23f9a08cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ExpenseViewModelTests.LoadExpenses</definition>
+        <argsstring>()</argsstring>
+        <name>LoadExpenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1af3e565a89a07a1fd73057ed8aeaa33c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ExpenseViewModelTests.SaveExpense</definition>
+        <argsstring>()</argsstring>
+        <name>SaveExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="37" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1ac861f5363b3bd9133acf8fe5bc3a9654" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.ExpenseViewModelTests.DeleteExpense</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="52" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/ExpenseViewModelTests.cs" bodystart="13" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1ac861f5363b3bd9133acf8fe5bc3a9654" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ExpenseViewModelTests</scope><name>DeleteExpense</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1a89ff701fa6ea40d3570554d23f9a08cd" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ExpenseViewModelTests</scope><name>LoadExpenses</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1af3e565a89a07a1fd73057ed8aeaa33c2" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ExpenseViewModelTests</scope><name>SaveExpense</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1ae9721745778a34c469f953f4a16fcc30" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ExpenseViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests_1a7807dab419e22c98be5c723c66c1bb20" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::ExpenseViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

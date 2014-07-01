@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_d6d12e56df20a9ffb869f55afbd0c33f" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService</compoundname>
+    <innerdir refid="dir_37f127f694124a6d51211373337fbfee">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Data</innerdir>
+    <innerdir refid="dir_1bfb81929baee7a25b3caed9ed423ebf">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/obj</innerdir>
+    <innerdir refid="dir_d8b3be8d61034849ffd7e8d677808ba8">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Properties</innerdir>
+    <innerdir refid="dir_f47de295792bac9b82efe87935d9767c">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/Utilities</innerdir>
+    <innerdir refid="dir_e6ed919c23120ae54ba8548234c85fe4">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels</innerdir>
+    <innerfile refid="_catalog_8cs">Catalog.cs</innerfile>
+    <innerfile refid="_i_assignment_service_8cs">IAssignmentService.cs</innerfile>
+    <innerfile refid="_i_login_service_8cs">ILoginService.cs</innerfile>
+    <innerfile refid="_service_registrar_8cs">ServiceRegistrar.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/"/>
+  </compounddef>
+</doxygen>

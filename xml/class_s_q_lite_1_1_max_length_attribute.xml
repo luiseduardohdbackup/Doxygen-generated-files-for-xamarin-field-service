@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_max_length_attribute" kind="class" prot="public">
+    <compoundname>SQLite::MaxLengthAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_max_length_attribute_1afef968d0d949c2f95b78a07975284f5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SQLite.MaxLengthAttribute.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1646" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1646" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_max_length_attribute_1ade550746d23ce2d766d0e1debe57c606" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.MaxLengthAttribute.MaxLengthAttribute</definition>
+        <argsstring>(int length)</argsstring>
+        <name>MaxLengthAttribute</name>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1648" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1648" bodyend="1651"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2742">
+        <label>Attribute</label>
+      </node>
+      <node id="2741">
+        <label>SQLite.MaxLengthAttribute</label>
+        <link refid="class_s_q_lite_1_1_max_length_attribute"/>
+        <childnode refid="2742" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2744">
+        <label>Attribute</label>
+      </node>
+      <node id="2743">
+        <label>SQLite.MaxLengthAttribute</label>
+        <link refid="class_s_q_lite_1_1_max_length_attribute"/>
+        <childnode refid="2744" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1645" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1644" bodyend="1652"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_max_length_attribute_1ade550746d23ce2d766d0e1debe57c606" prot="public" virt="non-virtual"><scope>SQLite::MaxLengthAttribute</scope><name>MaxLengthAttribute</name></member>
+      <member refid="class_s_q_lite_1_1_max_length_attribute_1afef968d0d949c2f95b78a07975284f5e" prot="public" virt="non-virtual"><scope>SQLite::MaxLengthAttribute</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::DocumentFragment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Fragment</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a315f030c3b6754e30d77d34d6e796bef" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.DocumentFragment.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a0eb7ec19c4b0937d2014bc4f124fb2eb" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.DocumentFragment.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1ad6e066e7487aedf87545957cb32bdb74" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.DocumentFragment.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a194b4141c4d9eb820dd78ab98058e5ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.DocumentFragment.DocumentFragment</definition>
+        <argsstring>()</argsstring>
+        <name>DocumentFragment</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1abecc7f99f8743b634db6b613cad1fd02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>android.view.View</type>
+        <definition>android.view.View fieldservice.android.fragments.DocumentFragment.onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a9e41616c5fdaea476e7731b799e94aa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.DocumentFragment.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a3af51878a4de452fd5f701a6191a2d47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.DocumentFragment.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1aaeaec82bb98119fbf345d4d88ec728a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native android.view.View</type>
+        <definition>native android.view.View fieldservice.android.fragments.DocumentFragment.n_onCreateView</definition>
+        <argsstring>(android.view.LayoutInflater p0, android.view.ViewGroup p1, android.os.Bundle p2)</argsstring>
+        <name>n_onCreateView</name>
+        <param>
+          <type>android.view.LayoutInflater</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.ViewGroup</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2064">
+        <label>fieldservice.android.fragments.DocumentFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment"/>
+        <childnode refid="2065" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2066" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2065">
+        <label>Fragment</label>
+      </node>
+      <node id="2066">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2070">
+        <label>String</label>
+      </node>
+      <node id="2067">
+        <label>fieldservice.android.fragments.DocumentFragment</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment"/>
+        <childnode refid="2068" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2069" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2070" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2068">
+        <label>Fragment</label>
+      </node>
+      <node id="2069">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/DocumentFragment.java" bodystart="4" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1ad6e066e7487aedf87545957cb32bdb74" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a315f030c3b6754e30d77d34d6e796bef" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a194b4141c4d9eb820dd78ab98058e5ab" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>DocumentFragment</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a9e41616c5fdaea476e7731b799e94aa1" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a3af51878a4de452fd5f701a6191a2d47" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1aaeaec82bb98119fbf345d4d88ec728a3" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>n_onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1abecc7f99f8743b634db6b613cad1fd02" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>onCreateView</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_document_fragment_1a0eb7ec19c4b0937d2014bc4f124fb2eb" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::DocumentFragment</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

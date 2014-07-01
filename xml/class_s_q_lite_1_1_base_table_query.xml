@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_base_table_query" kind="class" prot="public">
+    <compoundname>SQLite::BaseTableQuery</compoundname>
+    <derivedcompoundref refid="class_s_q_lite_1_1_table_query_3_01_t_01_4" prot="public" virt="non-virtual">SQLite.TableQuery&lt; T &gt;</derivedcompoundref>
+    <innerclass refid="class_s_q_lite_1_1_base_table_query_1_1_ordering" prot="protected">SQLite::BaseTableQuery::Ordering</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1942">
+        <label>SQLite.TableQuery&lt; T &gt;</label>
+        <link refid="class_s_q_lite_1_1_table_query_3_01_t_01_4"/>
+        <childnode refid="1941" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1941">
+        <label>SQLite.BaseTableQuery</label>
+        <link refid="class_s_q_lite_1_1_base_table_query"/>
+      </node>
+    </inheritancegraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="2418" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="2417" bodyend="2424"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

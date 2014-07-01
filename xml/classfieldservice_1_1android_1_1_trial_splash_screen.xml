@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_trial_splash_screen" kind="class" prot="public">
+    <compoundname>fieldservice::android::TrialSplashScreen</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_trial_splash_screen_1af2ef2dda5c8132226974326c0740d394" prot="private" static="no" mutable="no">
+        <type>TimerTask</type>
+        <definition>TimerTask fieldservice.android.TrialSplashScreen.task</definition>
+        <argsstring></argsstring>
+        <name>task</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_trial_splash_screen_1a24c5989f56b05d959e92bf5e27485df4" prot="private" static="no" mutable="no">
+        <type>Bundle</type>
+        <definition>Bundle fieldservice.android.TrialSplashScreen.initial_bundle</definition>
+        <argsstring></argsstring>
+        <name>initial_bundle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1_trial_splash_screen_1a83dc1beb6919109cbc0d83eb6be1c937" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.TrialSplashScreen.onCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" bodystart="20" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3290">
+        <label>Activity</label>
+      </node>
+      <node id="3289">
+        <label>fieldservice.android.TrialSplashScreen</label>
+        <link refid="classfieldservice_1_1android_1_1_trial_splash_screen"/>
+        <childnode refid="3290" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3292">
+        <label>Activity</label>
+      </node>
+      <node id="3291">
+        <label>fieldservice.android.TrialSplashScreen</label>
+        <link refid="classfieldservice_1_1android_1_1_trial_splash_screen"/>
+        <childnode refid="3292" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/mono/TrialSplashScreen.java" bodystart="15" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_trial_splash_screen_1a24c5989f56b05d959e92bf5e27485df4" prot="private" virt="non-virtual"><scope>fieldservice::android::TrialSplashScreen</scope><name>initial_bundle</name></member>
+      <member refid="classfieldservice_1_1android_1_1_trial_splash_screen_1a83dc1beb6919109cbc0d83eb6be1c937" prot="protected" virt="non-virtual"><scope>fieldservice::android::TrialSplashScreen</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1_trial_splash_screen_1af2ef2dda5c8132226974326c0740d394" prot="private" virt="non-virtual"><scope>fieldservice::android::TrialSplashScreen</scope><name>task</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

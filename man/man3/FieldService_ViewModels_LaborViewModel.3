@@ -1,0 +1,84 @@
+.TH "FieldService.ViewModels.LaborViewModel" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.ViewModels.LaborViewModel \- 
+.PP
+View model for labor hours  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.PP
+Inherited by \fBFieldService\&.WinRT\&.ViewModels\&.LaborViewModel\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBLaborViewModel\fP ()"
+.br
+.ti -1c
+.RI "Task \fBLoadLaborHoursAsync\fP (\fBAssignment\fP assignment)"
+.br
+.RI "\fILoads the list of labor hours \fP"
+.ti -1c
+.RI "Task \fBSaveLaborAsync\fP (\fBAssignment\fP assignment, \fBLabor\fP labor)"
+.br
+.RI "\fISaves a labor entry \fP"
+.ti -1c
+.RI "Task \fBDeleteLaborAsync\fP (\fBAssignment\fP assignment, \fBLabor\fP labor)"
+.br
+.RI "\fIDeletes a labor entry \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "List< \fBLabor\fP > \fBLaborHours\fP\fC [get, set]\fP"
+.br
+.RI "\fIList of labor hours \fP"
+.ti -1c
+.RI "virtual \fBLabor\fP \fBSelectedLabor\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe selected labor hour for use within the app \fP"
+.in -1c
+.SS "Additional Inherited Members"
+.SH "Detailed Description"
+.PP 
+View model for labor hours 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.ViewModels\&.LaborViewModel\&.LaborViewModel ()"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "Task FieldService\&.ViewModels\&.LaborViewModel\&.DeleteLaborAsync (\fBAssignment\fPassignment, \fBLabor\fPlabor)"
+
+.PP
+Deletes a labor entry 
+.SS "Task FieldService\&.ViewModels\&.LaborViewModel\&.LoadLaborHoursAsync (\fBAssignment\fPassignment)"
+
+.PP
+Loads the list of labor hours 
+.SS "Task FieldService\&.ViewModels\&.LaborViewModel\&.SaveLaborAsync (\fBAssignment\fPassignment, \fBLabor\fPlabor)"
+
+.PP
+Saves a labor entry 
+.SH "Property Documentation"
+.PP 
+.SS "List<\fBLabor\fP> FieldService\&.ViewModels\&.LaborViewModel\&.LaborHours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+List of labor hours 
+.SS "virtual \fBLabor\fP FieldService\&.ViewModels\&.LaborViewModel\&.SelectedLabor\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The selected labor hour for use within the app 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

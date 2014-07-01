@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespacefieldservice_1_1android_1_1activities" kind="namespace">
+    <compoundname>fieldservice::android::activities</compoundname>
+    <innerclass refid="classfieldservice_1_1android_1_1activities_1_1_summary_history_activity" prot="public">fieldservice::android::activities::SummaryHistoryActivity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/activities/SummaryHistoryActivity.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

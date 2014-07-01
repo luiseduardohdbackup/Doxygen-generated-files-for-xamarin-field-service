@@ -1,0 +1,33 @@
+Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple.
+
+\subsection*{Examples}
+
+\subsubsection*{Displaying a signature pad}
+
+On i\+O\+S\+:
+
+```csharp using Signature\+Pad; ...
+
+public override void View\+Did\+Load () \{ ... var signature = new Signature\+Pad\+View (View.\+Frame) \{ Line\+Width = 3f \}; View.\+Add\+Subview (signature); \} ```
+
+On Android\+:
+
+```csharp using Signature\+Pad; ...
+
+protected override void On\+Create (Bundle bundle) \{ base.\+On\+Create (bundle);
+
+var signature = new Signature\+Pad\+View (this) \{ Line\+Width = 3f \}; Add\+Content\+View (signature, new View\+Group.\+Layout\+Params (View\+Group.\+Layout\+Params.\+Fill\+Parent, View\+Group.\+Layout\+Params.\+Fill\+Parent)); \} ```
+
+\subsubsection*{Getting the signature as an image}
+
+```csharp // on i\+O\+S\+: U\+I\+Image image = signature.\+Get\+Image ();
+
+// on Android\+: Bitmap image = signature.\+Get\+Image (); ```
+
+\subsubsection*{Getting the signature as a point array}
+
+```csharp // Discontinuous lines are separated by Point\+F.\+Empty Point\+F\mbox{[}\mbox{]} points = signature.\+Points; ```
+
+\subsubsection*{Loading a signature from a point array}
+
+```csharp signature.\+Load\+Points (points); ``` 

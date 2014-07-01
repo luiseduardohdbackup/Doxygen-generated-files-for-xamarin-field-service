@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Views::AddLaborFlyoutPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel_1ac4177c4722ed4a6b299aa2515a73ed49" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>LaborViewModel FieldService.WinRT.Views.AddLaborFlyoutPanel.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel_1a8606fb6cb27d9bee3140da817f1b1ef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Views.AddLaborFlyoutPanel.AddLaborFlyoutPanel</definition>
+        <argsstring>()</argsstring>
+        <name>AddLaborFlyoutPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Add labor hour flyout panel </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1615">
+        <label>FieldService.WinRT.Views.AddLaborFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel"/>
+        <childnode refid="1616" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1616">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1617">
+        <label>FieldService.WinRT.Views.AddLaborFlyoutPanel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel"/>
+        <childnode refid="1618" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1618">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Views/AddLaborFlyoutPanel.xaml.cs" bodystart="36" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel_1a8606fb6cb27d9bee3140da817f1b1ef1" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Views::AddLaborFlyoutPanel</scope><name>AddLaborFlyoutPanel</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_views_1_1_add_labor_flyout_panel_1ac4177c4722ed4a6b299aa2515a73ed49" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Views::AddLaborFlyoutPanel</scope><name>laborViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

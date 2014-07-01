@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_56dc2986552121c525e48f15403ea96b" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample</compoundname>
+    <innerdir refid="dir_b4ec5d18574f64abedce4907656214a1">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/Properties</innerdir>
+    <innerfile refid="_delegated_menu_item_listener_8cs">DelegatedMenuItemListener.cs</innerfile>
+    <innerfile refid="_s_q_lite_8_android_8_sample_2_list_8cs">List.cs</innerfile>
+    <innerfile refid="_list_fragment_8cs">ListFragment.cs</innerfile>
+    <innerfile refid="_s_q_lite_8_android_8_sample_2_list_item_8cs">ListItem.cs</innerfile>
+    <innerfile refid="sqlite-net-1_80_81_2samples_2_s_q_lite_8_android_8_sample_2_main_activity_8cs">MainActivity.cs</innerfile>
+    <innerfile refid="_tab_listener_8cs">TabListener.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/"/>
+  </compounddef>
+</doxygen>

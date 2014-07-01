@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_media_picker_sample_1_1_resource_1_1_attribute" kind="class" prot="public">
+    <compoundname>MediaPickerSample::Resource::Attribute</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_media_picker_sample_1_1_resource_1_1_attribute_1ab9e0c93d06a345711ee66d7dfcdab0fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MediaPickerSample.Resource.Attribute.Attribute</definition>
+        <argsstring>()</argsstring>
+        <name>Attribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.Android.Samples/MediaPickerSample/Resources/Resource.Designer.cs" bodystart="26" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_media_picker_sample_1_1_resource_1_1_attribute_1ab9e0c93d06a345711ee66d7dfcdab0fd" prot="private" virt="non-virtual"><scope>MediaPickerSample::Resource::Attribute</scope><name>Attribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

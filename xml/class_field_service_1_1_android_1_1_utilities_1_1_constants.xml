@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_utilities_1_1_constants" kind="class" prot="public">
+    <compoundname>FieldService::Android::Utilities::Constants</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1ac6ac461deba24299688deb31b489d6b3" prot="public" static="yes" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.Android.Utilities.Constants.Navigation</definition>
+        <argsstring></argsstring>
+        <name>Navigation</name>
+        <initializer>= new List&lt;string&gt; () { &quot;Summary&quot;, &quot;Map&quot;, &quot;Items&quot;, &quot;Labor Hours&quot;, &quot;Expenses&quot;, &quot;History&quot;, &quot;Documents&quot;, &quot;Confirmations&quot; }</initializer>
+        <briefdescription>
+<para>List of navigation items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a0476767ced238426d028363a3f0f6114" prot="public" static="yes" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; FieldService.Android.Utilities.Constants.HistoryNavigation</definition>
+        <argsstring></argsstring>
+        <name>HistoryNavigation</name>
+        <initializer>= new List&lt;string&gt; () { &quot;Summary&quot;, &quot;Map&quot;, &quot;Items&quot;, &quot;Labor Hours&quot;, &quot;Expenses&quot;, &quot;Documents&quot;, &quot;Confirmations&quot; }</initializer>
+        <briefdescription>
+<para>List of navigation items </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1af5cbe521057c6762bea070ce9f7fd20d" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Android.Utilities.Constants.Confirmations</definition>
+        <argsstring></argsstring>
+        <name>Confirmations</name>
+        <initializer>= &quot;Confirmations&quot;</initializer>
+        <briefdescription>
+<para>Constants string for getting navigation index </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a8945cafc42243b5426f34941961bf205" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Android.Utilities.Constants.PdfFile</definition>
+        <argsstring></argsstring>
+        <name>PdfFile</name>
+        <initializer>= &quot;FieldServiceDoc.pdf&quot;</initializer>
+        <briefdescription>
+<para>Constants string for document pdf </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aabd727fe59aa8953ecdbf6e3fefd5d8d" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Android.Utilities.Constants.LogTag</definition>
+        <argsstring></argsstring>
+        <name>LogTag</name>
+        <initializer>= &quot;FieldService&quot;</initializer>
+        <briefdescription>
+<para>Constants string for log tag </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aec9d06eac4e39d8479bc67e352848373" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Android.Utilities.Constants.BundleIndex</definition>
+        <argsstring></argsstring>
+        <name>BundleIndex</name>
+        <initializer>= &quot;index&quot;</initializer>
+        <briefdescription>
+<para>Key for PutExtra </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aff1b571c8f2d06db46e090fc5a0a9d40" prot="public" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string FieldService.Android.Utilities.Constants.CurrentTab</definition>
+        <argsstring></argsstring>
+        <name>CurrentTab</name>
+        <initializer>= &quot;currentTab&quot;</initializer>
+        <briefdescription>
+<para>Key for PutInt </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a29e4755b0398ac394eba1a8eee7b1f25" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Utilities.Constants.MaxWidth</definition>
+        <argsstring></argsstring>
+        <name>MaxWidth</name>
+        <initializer>= 400</initializer>
+        <briefdescription>
+<para>Maximum width for images </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a5057e32a1350509c43eb0eda625cdd0c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Utilities.Constants.MaxHeight</definition>
+        <argsstring></argsstring>
+        <name>MaxHeight</name>
+        <initializer>= 400</initializer>
+        <briefdescription>
+<para>Maximum height for images </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains a few constants used throughout the app </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Utilities/Constants.cs" bodystart="17" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aec9d06eac4e39d8479bc67e352848373" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>BundleIndex</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1af5cbe521057c6762bea070ce9f7fd20d" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>Confirmations</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aff1b571c8f2d06db46e090fc5a0a9d40" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>CurrentTab</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a0476767ced238426d028363a3f0f6114" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>HistoryNavigation</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1aabd727fe59aa8953ecdbf6e3fefd5d8d" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>LogTag</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a5057e32a1350509c43eb0eda625cdd0c" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>MaxHeight</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a29e4755b0398ac394eba1a8eee7b1f25" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>MaxWidth</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1ac6ac461deba24299688deb31b489d6b3" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>Navigation</name></member>
+      <member refid="class_field_service_1_1_android_1_1_utilities_1_1_constants_1a8945cafc42243b5426f34941961bf205" prot="public" virt="non-virtual"><scope>FieldService::Android::Utilities::Constants</scope><name>PdfFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

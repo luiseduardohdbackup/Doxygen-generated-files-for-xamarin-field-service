@@ -1,0 +1,86 @@
+.TH "FieldService.Android.Fragments.LaborHourFragment" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Android.Fragments.LaborHourFragment \- 
+.PP
+Fragment for the labor hours section  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Fragment\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override View \fBOnCreateView\fP (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)"
+.br
+.ti -1c
+.RI "void \fBReloadSingleListItem\fP (int index)"
+.br
+.RI "\fIReload the view in the listview by itself without calling to reload the list\&. \fP"
+.ti -1c
+.RI "void \fBReloadHours\fP ()"
+.br
+.RI "\fIReloads the labor hours from the view model \fP"
+.ti -1c
+.RI "override void \fBOnPause\fP ()"
+.br
+.RI "\fIDismiss any child dialogs \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "\fBAssignment\fP \fBAssignment\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe current assignment \fP"
+.ti -1c
+.RI "List< \fBLabor\fP > \fBLaborHours\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe list of labor hours \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Fragment for the labor hours section 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override View FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.OnCreateView (LayoutInflaterinflater, ViewGroupcontainer, BundlesavedInstanceState)"
+
+.SS "override void FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.OnPause ()"
+
+.PP
+Dismiss any child dialogs 
+.SS "void FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.ReloadHours ()"
+
+.PP
+Reloads the labor hours from the view model 
+.SS "void FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.ReloadSingleListItem (intindex)"
+
+.PP
+Reload the view in the listview by itself without calling to reload the list\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIindex\fP index of the list view item to reload
+.RE
+.PP
+
+.SH "Property Documentation"
+.PP 
+.SS "\fBAssignment\fP FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.Assignment\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The current assignment 
+.SS "List<\fBLabor\fP> FieldService\&.Android\&.Fragments\&.LaborHourFragment\&.LaborHours\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The list of labor hours 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,177 @@
+.TH "SQLite" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SQLite \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "package \fBAndroid\fP"
+.br
+.ti -1c
+.RI "package \fBiOS\fP"
+.br
+.in -1c
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBAsyncTableQuery< T >\fP"
+.br
+.ti -1c
+.RI "class \fBAutoIncrementAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBBaseTableQuery\fP"
+.br
+.ti -1c
+.RI "class \fBCollationAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBColumnAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBCreateTablesResult\fP"
+.br
+.ti -1c
+.RI "class \fBIgnoreAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBIndexedAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBMaxLengthAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBNotifyTableChangedEventArgs\fP"
+.br
+.ti -1c
+.RI "class \fBNotNullAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBNotNullConstraintViolationException\fP"
+.br
+.ti -1c
+.RI "class \fBOrm\fP"
+.br
+.ti -1c
+.RI "class \fBPreparedSqlLiteInsertCommand\fP"
+.br
+.RI "\fISince the insert never changed, we only need to prepare once\&. \fP"
+.ti -1c
+.RI "class \fBPrimaryKeyAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBSQLite3\fP"
+.br
+.ti -1c
+.RI "class \fBSQLiteAsyncConnection\fP"
+.br
+.ti -1c
+.RI "class \fBSQLiteCommand\fP"
+.br
+.ti -1c
+.RI "class \fBSQLiteConnection\fP"
+.br
+.RI "\fIRepresents an open connection to a \fBSQLite\fP database\&. \fP"
+.ti -1c
+.RI "class \fBSQLiteConnectionPool\fP"
+.br
+.ti -1c
+.RI "class \fBSQLiteConnectionString\fP"
+.br
+.RI "\fIRepresents a parsed connection string\&. \fP"
+.ti -1c
+.RI "class \fBSQLiteConnectionWithLock\fP"
+.br
+.ti -1c
+.RI "class \fBSQLiteException\fP"
+.br
+.ti -1c
+.RI "class \fBTableAttribute\fP"
+.br
+.ti -1c
+.RI "class \fBTableMapping\fP"
+.br
+.ti -1c
+.RI "class \fBTableQuery< T >\fP"
+.br
+.ti -1c
+.RI "class \fBUniqueAttribute\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBSQLiteOpenFlags\fP { \fBSQLiteOpenFlags\&.ReadOnly\fP = 1, \fBSQLiteOpenFlags\&.ReadWrite\fP = 2, \fBSQLiteOpenFlags\&.Create\fP = 4, \fBSQLiteOpenFlags\&.NoMutex\fP = 0x8000, \fBSQLiteOpenFlags\&.FullMutex\fP = 0x10000, \fBSQLiteOpenFlags\&.SharedCache\fP = 0x20000, \fBSQLiteOpenFlags\&.PrivateCache\fP = 0x40000, \fBSQLiteOpenFlags\&.ProtectionComplete\fP = 0x00100000, \fBSQLiteOpenFlags\&.ProtectionCompleteUnlessOpen\fP = 0x00200000, \fBSQLiteOpenFlags\&.ProtectionCompleteUntilFirstUserAuthentication\fP = 0x00300000, \fBSQLiteOpenFlags\&.ProtectionNone\fP = 0x00400000 }"
+.br
+.ti -1c
+.RI "enum \fBCreateFlags\fP { \fBCreateFlags\&.None\fP = 0, \fBCreateFlags\&.ImplicitPK\fP = 1, \fBCreateFlags\&.ImplicitIndex\fP = 2, \fBCreateFlags\&.AllImplicit\fP = 3, \fBCreateFlags\&.AutoIncPK\fP = 4 }"
+.br
+.ti -1c
+.RI "enum \fBNotifyTableChangedAction\fP { \fBNotifyTableChangedAction\&.Insert\fP, \fBNotifyTableChangedAction\&.Update\fP, \fBNotifyTableChangedAction\&.Delete\fP }"
+.br
+.in -1c
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBSQLite\&.CreateFlags\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fINone \fP\fP
+.TP
+\fB\fIImplicitPK \fP\fP
+.TP
+\fB\fIImplicitIndex \fP\fP
+.TP
+\fB\fIAllImplicit \fP\fP
+.TP
+\fB\fIAutoIncPK \fP\fP
+.SS "enum \fBSQLite\&.NotifyTableChangedAction\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIInsert \fP\fP
+.TP
+\fB\fIUpdate \fP\fP
+.TP
+\fB\fIDelete \fP\fP
+.SS "enum \fBSQLite\&.SQLiteOpenFlags\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIReadOnly \fP\fP
+.TP
+\fB\fIReadWrite \fP\fP
+.TP
+\fB\fICreate \fP\fP
+.TP
+\fB\fINoMutex \fP\fP
+.TP
+\fB\fIFullMutex \fP\fP
+.TP
+\fB\fISharedCache \fP\fP
+.TP
+\fB\fIPrivateCache \fP\fP
+.TP
+\fB\fIProtectionComplete \fP\fP
+.TP
+\fB\fIProtectionCompleteUnlessOpen \fP\fP
+.TP
+\fB\fIProtectionCompleteUntilFirstUserAuthentication \fP\fP
+.TP
+\fB\fIProtectionNone \fP\fP
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1_r_1_1color" kind="class" prot="public">
+    <compoundname>fieldservice::android::R::color</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a4b5a357f0173838ac46d7f7c409236d1" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::assignmentblue</definition>
+        <argsstring></argsstring>
+        <name>assignmentblue</name>
+        <initializer>=0x7f050006</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a32e02f4bbca36836f7b80f2e2f6d82f4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::assignmentgrey</definition>
+        <argsstring></argsstring>
+        <name>assignmentgrey</name>
+        <initializer>=0x7f050007</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1aada0523c3920cbe37c78eb2e03d839fe" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::assignmentoffwhite</definition>
+        <argsstring></argsstring>
+        <name>assignmentoffwhite</name>
+        <initializer>=0x7f050005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a8940d991bd7abf321c06213726d624fd" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::blueassignmentbutton</definition>
+        <argsstring></argsstring>
+        <name>blueassignmentbutton</name>
+        <initializer>=0x7f050001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a2818f096bf0a4e14adddf44f50afa464" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::blueclick</definition>
+        <argsstring></argsstring>
+        <name>blueclick</name>
+        <initializer>=0x7f050000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a27d3a3e573b90a29cb0015d037818bbe" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::confirmationborder</definition>
+        <argsstring></argsstring>
+        <name>confirmationborder</name>
+        <initializer>=0x7f05000a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1acbbde382775382cc94997686ad66683e" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::disabledtext</definition>
+        <argsstring></argsstring>
+        <name>disabledtext</name>
+        <initializer>=0x7f05000d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a0c5652df8558976f4e19049ac461f649" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::greybutton</definition>
+        <argsstring></argsstring>
+        <name>greybutton</name>
+        <initializer>=0x7f050002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a8d5388dd2909362d51cf8a0cbe600745" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::greyheadertext</definition>
+        <argsstring></argsstring>
+        <name>greyheadertext</name>
+        <initializer>=0x7f050004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1affde47312f90d8661d5248da0a2715a4" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::greyspinnertext</definition>
+        <argsstring></argsstring>
+        <name>greyspinnertext</name>
+        <initializer>=0x7f050003</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="23" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1ae6514e3b7a9dc552a1939e8298179798" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::historycolor</definition>
+        <argsstring></argsstring>
+        <name>historycolor</name>
+        <initializer>=0x7f05000c</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a57ec5799f7661108c683ffa002b705f7" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::itemssearchcolor</definition>
+        <argsstring></argsstring>
+        <name>itemssearchcolor</name>
+        <initializer>=0x7f050009</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a32210585454c61647ffb6143da7d280c" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::listviewdivider</definition>
+        <argsstring></argsstring>
+        <name>listviewdivider</name>
+        <initializer>=0x7f05000b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a68e79943c23e670ff52842327100c931" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::navigationitemselected</definition>
+        <argsstring></argsstring>
+        <name>navigationitemselected</name>
+        <initializer>=0x7f050008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1_r_1_1color_1a2218d934ebf49ea1b771dabd9223ff8b" prot="public" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>static final int fieldservice.android.R.color::radio_selector_color</definition>
+        <argsstring></argsstring>
+        <name>radio_selector_color</name>
+        <initializer>=0x7f05000e</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/fieldservice/android/R.java" bodystart="13" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a4b5a357f0173838ac46d7f7c409236d1" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>assignmentblue</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a32e02f4bbca36836f7b80f2e2f6d82f4" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>assignmentgrey</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1aada0523c3920cbe37c78eb2e03d839fe" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>assignmentoffwhite</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a8940d991bd7abf321c06213726d624fd" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>blueassignmentbutton</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a2818f096bf0a4e14adddf44f50afa464" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>blueclick</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a27d3a3e573b90a29cb0015d037818bbe" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>confirmationborder</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1acbbde382775382cc94997686ad66683e" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>disabledtext</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a0c5652df8558976f4e19049ac461f649" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>greybutton</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a8d5388dd2909362d51cf8a0cbe600745" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>greyheadertext</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1affde47312f90d8661d5248da0a2715a4" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>greyspinnertext</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1ae6514e3b7a9dc552a1939e8298179798" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>historycolor</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a57ec5799f7661108c683ffa002b705f7" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>itemssearchcolor</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a32210585454c61647ffb6143da7d280c" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>listviewdivider</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a68e79943c23e670ff52842327100c931" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>navigationitemselected</name></member>
+      <member refid="classfieldservice_1_1android_1_1_r_1_1color_1a2218d934ebf49ea1b771dabd9223ff8b" prot="public" virt="non-virtual"><scope>fieldservice::android::R::color</scope><name>radio_selector_color</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

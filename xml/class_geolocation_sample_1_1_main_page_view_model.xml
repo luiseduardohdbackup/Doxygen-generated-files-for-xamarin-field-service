@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_geolocation_sample_1_1_main_page_view_model" kind="class" prot="public">
+    <compoundname>GeolocationSample::MainPageViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_geolocation_sample_1_1_main_page_view_model_1af5ec22b2b5b6eb455e14117617e25428" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler GeolocationSample.MainPageViewModel.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1a5c58078d0f22655893c883cea05af6ca" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GeolocationSample.MainPageViewModel.showProgress</definition>
+        <argsstring></argsstring>
+        <name>showProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="31" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1aa0cc7529ba0d95bee25618af5a4ae1ea" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GeolocationSample.MainPageViewModel.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1a010138be7abb3a80b9f22411a248a94e" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_geolocation_sample_1_1_delegated_command" kindref="compound">DelegatedCommand</ref></type>
+        <definition>readonly DelegatedCommand GeolocationSample.MainPageViewModel.getPosition</definition>
+        <argsstring></argsstring>
+        <name>getPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1aac6f0b0c7b2ac0505547497b21e1760f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_geolocation_sample_1_1_delegated_command" kindref="compound">DelegatedCommand</ref></type>
+        <definition>readonly DelegatedCommand GeolocationSample.MainPageViewModel.toggleListening</definition>
+        <argsstring></argsstring>
+        <name>toggleListening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="65" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1ac9a8c82ec272758ccb8f08b7e71a0d77" prot="private" static="no" mutable="no">
+        <type>Position</type>
+        <definition>Position GeolocationSample.MainPageViewModel.currentPosition</definition>
+        <argsstring></argsstring>
+        <name>currentPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1a8a9f3c9117239a1e102f24fd8fb80714" prot="private" static="no" mutable="no">
+        <type>readonly Geolocator</type>
+        <definition>readonly Geolocator GeolocationSample.MainPageViewModel.geolocator</definition>
+        <argsstring></argsstring>
+        <name>geolocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="85" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_geolocation_sample_1_1_main_page_view_model_1afc867e0c8c17d5d45c77b93477810e88" prot="private" static="no" mutable="no">
+        <type>readonly SynchronizationContext</type>
+        <definition>readonly SynchronizationContext GeolocationSample.MainPageViewModel.sync</definition>
+        <argsstring></argsstring>
+        <name>sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_geolocation_sample_1_1_main_page_view_model_1a7abb0a294d8fba398f1a6dfe848a41c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool GeolocationSample.MainPageViewModel.ShowProgress</definition>
+        <argsstring></argsstring>
+        <name>ShowProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_geolocation_sample_1_1_main_page_view_model_1ac8fa387c6811dca5ed7af6f78d25c241" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string GeolocationSample.MainPageViewModel.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_geolocation_sample_1_1_main_page_view_model_1a6a4de6f48931b508f42b90c016d45c3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand GeolocationSample.MainPageViewModel.GetPosition</definition>
+        <argsstring></argsstring>
+        <name>GetPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_geolocation_sample_1_1_main_page_view_model_1ad7f76b80c25153377754e616e8ff1a61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand GeolocationSample.MainPageViewModel.ToggleListening</definition>
+        <argsstring></argsstring>
+        <name>ToggleListening</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_geolocation_sample_1_1_main_page_view_model_1ac5be3fba2cf4dcfcc9160bc1985d9e9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Position</type>
+        <definition>Position GeolocationSample.MainPageViewModel.CurrentPosition</definition>
+        <argsstring></argsstring>
+        <name>CurrentPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="72" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1a2418182978b24e063f7590871473f196" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GeolocationSample.MainPageViewModel.MainPageViewModel</definition>
+        <argsstring>(Geolocator geolocator, SynchronizationContext syncContext)</argsstring>
+        <name>MainPageViewModel</name>
+        <param>
+          <type>Geolocator</type>
+          <declname>geolocator</declname>
+        </param>
+        <param>
+          <type>SynchronizationContext</type>
+          <declname>syncContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1aac0f7ff57dc8bc6452201bc6d79582aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void GeolocationSample.MainPageViewModel.GetPositionHandler</definition>
+        <argsstring>(object state)</argsstring>
+        <name>GetPositionHandler</name>
+        <param>
+          <type>object</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="88" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1aa686ab54e13604176a99df7ac70c105f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.MainPageViewModel.ToggleListeningHandler</definition>
+        <argsstring>(object o)</argsstring>
+        <name>ToggleListeningHandler</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="117" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="117" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1ade597311bb9a3d3dc79f334210c952e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.MainPageViewModel.GeolocatorOnPositionError</definition>
+        <argsstring>(object sender, PositionErrorEventArgs e)</argsstring>
+        <name>GeolocatorOnPositionError</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PositionErrorEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1a93dd2a5750091e1f411a057634b584fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.MainPageViewModel.GeolocatorOnPositionChanged</definition>
+        <argsstring>(object sender, PositionEventArgs e)</argsstring>
+        <name>GeolocatorOnPositionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PositionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="142" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geolocation_sample_1_1_main_page_view_model_1ae4560a99d35c4d23f079145a62870721" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GeolocationSample.MainPageViewModel.OnPropertyChanged</definition>
+        <argsstring>(string name)</argsstring>
+        <name>OnPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="147" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="147" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2650">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2649">
+        <label>GeolocationSample.MainPageViewModel</label>
+        <link refid="class_geolocation_sample_1_1_main_page_view_model"/>
+        <childnode refid="2650" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2652">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2651">
+        <label>GeolocationSample.MainPageViewModel</label>
+        <link refid="class_geolocation_sample_1_1_main_page_view_model"/>
+        <childnode refid="2652" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/GeolocationSample/MainPageViewModel.cs" bodystart="10" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ac9a8c82ec272758ccb8f08b7e71a0d77" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>currentPosition</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ac5be3fba2cf4dcfcc9160bc1985d9e9c" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>CurrentPosition</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a8a9f3c9117239a1e102f24fd8fb80714" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>geolocator</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a93dd2a5750091e1f411a057634b584fa" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>GeolocatorOnPositionChanged</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ade597311bb9a3d3dc79f334210c952e3" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>GeolocatorOnPositionError</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a010138be7abb3a80b9f22411a248a94e" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>getPosition</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a6a4de6f48931b508f42b90c016d45c3e" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>GetPosition</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1aac0f7ff57dc8bc6452201bc6d79582aa" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>GetPositionHandler</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a2418182978b24e063f7590871473f196" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>MainPageViewModel</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ae4560a99d35c4d23f079145a62870721" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1af5ec22b2b5b6eb455e14117617e25428" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a5c58078d0f22655893c883cea05af6ca" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>showProgress</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1a7abb0a294d8fba398f1a6dfe848a41c3" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>ShowProgress</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1aa0cc7529ba0d95bee25618af5a4ae1ea" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>status</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ac8fa387c6811dca5ed7af6f78d25c241" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>Status</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1afc867e0c8c17d5d45c77b93477810e88" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>sync</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1aac6f0b0c7b2ac0505547497b21e1760f" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>toggleListening</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1ad7f76b80c25153377754e616e8ff1a61" prot="public" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>ToggleListening</name></member>
+      <member refid="class_geolocation_sample_1_1_main_page_view_model_1aa686ab54e13604176a99df7ac70c105f" prot="private" virt="non-virtual"><scope>GeolocationSample::MainPageViewModel</scope><name>ToggleListeningHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

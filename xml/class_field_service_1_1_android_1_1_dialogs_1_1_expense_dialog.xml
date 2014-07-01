@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog" kind="class" prot="public">
+    <compoundname>FieldService::Android::Dialogs::ExpenseDialog</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.BaseDialog</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnClickListener</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnItemSelectedListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a7b6647906c838490a446ba9faca6521c" prot="private" static="no" mutable="no">
+        <type>readonly Activity</type>
+        <definition>readonly Activity FieldService.Android.Dialogs.ExpenseDialog.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a86d60d957b708a8f4ae2e267680b64fb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>readonly ExpenseViewModel FieldService.Android.Dialogs.ExpenseDialog.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ad9f5f260a96429d960861e28fbaeeb68" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a6565a839d23a4c941ba4a771c1e22163" kindref="member">ExpenseCategory</ref>[]</type>
+        <definition>ExpenseCategory [] FieldService.Android.Dialogs.ExpenseDialog.expenseTypes</definition>
+        <argsstring></argsstring>
+        <name>expenseTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a5c9f76bf7f0d89ca9bc9cfce05596c88" prot="private" static="no" mutable="no">
+        <type>Spinner</type>
+        <definition>Spinner FieldService.Android.Dialogs.ExpenseDialog.expenseType</definition>
+        <argsstring></argsstring>
+        <name>expenseType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a189d80e3262b606a22301fb078373ec2" prot="private" static="no" mutable="no">
+        <type>EditText</type>
+        <definition>EditText FieldService.Android.Dialogs.ExpenseDialog.expenseDescription</definition>
+        <argsstring></argsstring>
+        <name>expenseDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="39" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ab291085e2978c9fab0ad2feccfba2059" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Dialogs.ExpenseDialog.expenseAmount</definition>
+        <argsstring></argsstring>
+        <name>expenseAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a2a6b0bde7e55bef0abd72042253f4e39" prot="private" static="no" mutable="no">
+        <type>ImageView</type>
+        <definition>ImageView FieldService.Android.Dialogs.ExpenseDialog.expensePhoto</definition>
+        <argsstring></argsstring>
+        <name>expensePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a3c773ca2bc29535df732a20c6a2351bb" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Dialogs.ExpenseDialog.expenseAddPhoto</definition>
+        <argsstring></argsstring>
+        <name>expenseAddPhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a24f94964d730e5d610fd9b4a18f91f5c" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Dialogs.ExpenseDialog.deleteExpense</definition>
+        <argsstring></argsstring>
+        <name>deleteExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a6d31ef96af2ce428da1b5e820a202a4f" prot="private" static="no" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap FieldService.Android.Dialogs.ExpenseDialog.imageBitmap</definition>
+        <argsstring></argsstring>
+        <name>imageBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ac0b134ce1d8c3c8be197e3ce01d83860" prot="private" static="no" mutable="no">
+        <type>MediaPicker</type>
+        <definition>MediaPicker FieldService.Android.Dialogs.ExpenseDialog.mediaPicker</definition>
+        <argsstring></argsstring>
+        <name>mediaPicker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a8b6fe53d7ba45aedf0833a347f22a631" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Dialogs.ExpenseDialog.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>fragment&apos;s current assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="194" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a54fd32107d409cd178a44e8810538c61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_expense" kindref="compound">Expense</ref></type>
+        <definition>Expense FieldService.Android.Dialogs.ExpenseDialog.CurrentExpense</definition>
+        <argsstring></argsstring>
+        <name>CurrentExpense</name>
+        <briefdescription>
+<para>current expense that is being edited </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="203" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1aac2145dc270d3a551b3c912eac4cef3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Dialogs.ExpenseDialog.ExpenseDialog</definition>
+        <argsstring>(Activity activity)</argsstring>
+        <name>ExpenseDialog</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="47" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a464e6a37071ce245a25022632ee71029" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.ExpenseDialog.OnAttachedToWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OnAttachedToWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="99" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="99" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1af98a8a3121f95760ded5418ebf5dc3f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.ExpenseDialog.OnDetachedFromWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OnDetachedFromWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="133" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a63804c18162f9060fb63b9444d83130e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ExpenseDialog.OnClick</definition>
+        <argsstring>(View v)</argsstring>
+        <name>OnClick</name>
+        <param>
+          <type>View</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="209" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="209" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a8c2f02d9a4031fc53e8b9b979f8fb184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ExpenseDialog.OnItemSelected</definition>
+        <argsstring>(AdapterView parent, View view, int position, long id)</argsstring>
+        <name>OnItemSelected</name>
+        <param>
+          <type>AdapterView</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="273" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="273" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a656532b256e4f39868667c98e502b2b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ExpenseDialog.OnNothingSelected</definition>
+        <argsstring>(AdapterView parent)</argsstring>
+        <name>OnNothingSelected</name>
+        <param>
+          <type>AdapterView</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="280" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="280" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a29be985a144e627eec5ae8efe575e624" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.ExpenseDialog.OnCreate</definition>
+        <argsstring>(Bundle savedInstanceState)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>savedInstanceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="63" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a6cfcc368c561ce8db367704195a22ee1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ExpenseDialog.SaveExpense</definition>
+        <argsstring>()</argsstring>
+        <name>SaveExpense</name>
+        <briefdescription>
+<para>save current expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="151" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="151" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ab0ccbe74c83585f5e9a5b6fe004b0213" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Dialogs.ExpenseDialog.DeleteExpense</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteExpense</name>
+        <briefdescription>
+<para>delete current expense </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="179" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="179" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2152">
+        <label>View::IOnClickListener</label>
+      </node>
+      <node id="2151">
+        <label>Dialog</label>
+      </node>
+      <node id="2149">
+        <label>FieldService.Android.Dialogs.ExpenseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog"/>
+        <childnode refid="2150" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2152" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2153">
+        <label>AdapterView::IOnItemSelectedListener</label>
+      </node>
+      <node id="2150">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="2151" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2157">
+        <label>View::IOnClickListener</label>
+      </node>
+      <node id="2156">
+        <label>Dialog</label>
+      </node>
+      <node id="2154">
+        <label>FieldService.Android.Dialogs.ExpenseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog"/>
+        <childnode refid="2155" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2157" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2158">
+        <label>AdapterView::IOnItemSelectedListener</label>
+      </node>
+      <node id="2155">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="2156" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/ExpenseDialog.cs" bodystart="34" bodyend="284"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a7b6647906c838490a446ba9faca6521c" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a8b6fe53d7ba45aedf0833a347f22a631" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>BaseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a54fd32107d409cd178a44e8810538c61" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>CurrentExpense</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ab0ccbe74c83585f5e9a5b6fe004b0213" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>DeleteExpense</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a24f94964d730e5d610fd9b4a18f91f5c" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>deleteExpense</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a3c773ca2bc29535df732a20c6a2351bb" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseAddPhoto</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ab291085e2978c9fab0ad2feccfba2059" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseAmount</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a189d80e3262b606a22301fb078373ec2" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseDescription</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1aac2145dc270d3a551b3c912eac4cef3f" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>ExpenseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a2a6b0bde7e55bef0abd72042253f4e39" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expensePhoto</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a5c9f76bf7f0d89ca9bc9cfce05596c88" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseType</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ad9f5f260a96429d960861e28fbaeeb68" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseTypes</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a86d60d957b708a8f4ae2e267680b64fb" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a6d31ef96af2ce428da1b5e820a202a4f" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>imageBitmap</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1ac0b134ce1d8c3c8be197e3ce01d83860" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>mediaPicker</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a464e6a37071ce245a25022632ee71029" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnAttachedToWindow</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a63804c18162f9060fb63b9444d83130e" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnClick</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a29be985a144e627eec5ae8efe575e624" prot="protected" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1af98a8a3121f95760ded5418ebf5dc3f0" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnDetachedFromWindow</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a8c2f02d9a4031fc53e8b9b979f8fb184" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnItemSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a656532b256e4f39868667c98e502b2b2" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>OnNothingSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_expense_dialog_1a6cfcc368c561ce8db367704195a22ee1" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::ExpenseDialog</scope><name>SaveExpense</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

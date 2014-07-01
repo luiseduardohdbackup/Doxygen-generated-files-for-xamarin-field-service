@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::Timer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1ab1490c941a619a3767e138ec28459fee" prot="private" static="no" mutable="no">
+        <type>readonly DispatcherTimer</type>
+        <definition>readonly DispatcherTimer FieldService.WinRT.Utilities.Timer.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <initializer>= new DispatcherTimer ()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1ac1ff06cf638c00b1eb9c9c4479207fc3" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler FieldService.WinRT.Utilities.Timer.Elapsed</definition>
+        <argsstring></argsstring>
+        <name>Elapsed</name>
+        <briefdescription>
+<para>Event fired when Tick is fired </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1a682b237a7c4880d87d592486334d9edb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.Utilities.Timer.Enabled</definition>
+        <argsstring></argsstring>
+        <name>Enabled</name>
+        <briefdescription>
+<para>Calls Start() and Stop() appropriately </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1a689221788c2c078ee3607219136e9414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Utilities.Timer.Timer</definition>
+        <argsstring>()</argsstring>
+        <name>Timer</name>
+        <briefdescription>
+<para>Default constructor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="30" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1aaee53e24de414fa75149365dc3aeb329" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.WinRT.Utilities.Timer.Timer</definition>
+        <argsstring>(int interval)</argsstring>
+        <name>Timer</name>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <briefdescription>
+<para>Constructor providing an interval of milliseconds </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="43" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a wrapper around DispatcherTimer for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> It is for exposing methods identical to System.Timers.Timer, to make code simpler in view models using it </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Timer.cs" bodystart="24" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1ac1ff06cf638c00b1eb9c9c4479207fc3" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Timer</scope><name>Elapsed</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1a682b237a7c4880d87d592486334d9edb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Timer</scope><name>Enabled</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1a689221788c2c078ee3607219136e9414" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Timer</scope><name>Timer</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1aaee53e24de414fa75149365dc3aeb329" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Timer</scope><name>Timer</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_timer_1ab1490c941a619a3767e138ec28459fee" prot="private" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Timer</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_search_display" kind="class" prot="public">
+    <compoundname>FieldService::iOS::SearchDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UISearchDisplayDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_search_display_1ab684275bfa7c052fe34d09fe49286e64" prot="private" static="no" mutable="no">
+        <type>readonly UITableView</type>
+        <definition>readonly UITableView FieldService.iOS.SearchDisplay.tableView</definition>
+        <argsstring></argsstring>
+        <name>tableView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_search_display_1ab134a2554d79fb0c4e9a11ffd4be9250" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1i_o_s_1_1_i_search_source" kindref="compound">ISearchSource</ref></type>
+        <definition>readonly ISearchSource FieldService.iOS.SearchDisplay.dataSource</definition>
+        <argsstring></argsstring>
+        <name>dataSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_search_display_1a3e62d903eb0fd8f5b22e06c78a6728d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.SearchDisplay.SearchDisplay</definition>
+        <argsstring>(UITableView tableView, ISearchSource dataSource)</argsstring>
+        <name>SearchDisplay</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_field_service_1_1i_o_s_1_1_i_search_source" kindref="compound">ISearchSource</ref></type>
+          <declname>dataSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_search_display_1a9e9d4a257b66e8d4b90a249ec2145ec7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.iOS.SearchDisplay.ShouldReloadForSearchString</definition>
+        <argsstring>(UISearchDisplayController controller, string forSearchString)</argsstring>
+        <name>ShouldReloadForSearchString</name>
+        <param>
+          <type>UISearchDisplayController</type>
+          <declname>controller</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>forSearchString</declname>
+        </param>
+        <briefdescription>
+<para>Sets <ref refid="interface_field_service_1_1i_o_s_1_1_i_search_source_1a2087d09332c44867b4d8c6e82a051967" kindref="member">ISearchSource.SearchText</ref> and reloads the UITableView </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A really simple UISearchDisplayDelegate that could be used throughout the app on multiple UITableViews </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2986">
+        <label>FieldService.iOS.SearchDisplay</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_search_display"/>
+        <childnode refid="2987" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2987">
+        <label>UISearchDisplayDelegate</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2988">
+        <label>FieldService.iOS.SearchDisplay</label>
+        <link refid="class_field_service_1_1i_o_s_1_1_search_display"/>
+        <childnode refid="2989" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2989">
+        <label>UISearchDisplayDelegate</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/SearchDisplay.cs" bodystart="23" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_search_display_1ab134a2554d79fb0c4e9a11ffd4be9250" prot="private" virt="non-virtual"><scope>FieldService::iOS::SearchDisplay</scope><name>dataSource</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_search_display_1a3e62d903eb0fd8f5b22e06c78a6728d0" prot="public" virt="non-virtual"><scope>FieldService::iOS::SearchDisplay</scope><name>SearchDisplay</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_search_display_1a9e9d4a257b66e8d4b90a249ec2145ec7" prot="public" virt="non-virtual"><scope>FieldService::iOS::SearchDisplay</scope><name>ShouldReloadForSearchString</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_search_display_1ab684275bfa7c052fe34d09fe49286e64" prot="private" virt="non-virtual"><scope>FieldService::iOS::SearchDisplay</scope><name>tableView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

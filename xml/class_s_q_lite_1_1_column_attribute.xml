@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_column_attribute" kind="class" prot="public">
+    <compoundname>SQLite::ColumnAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_column_attribute_1af2e6c8ab9f0b1ce7f10ea75346f9b3c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.ColumnAttribute.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1593" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1593" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_column_attribute_1aa7ecb3d322d1fde710f51558b314ad6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.ColumnAttribute.ColumnAttribute</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ColumnAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1595" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1595" bodyend="1598"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1976">
+        <label>Attribute</label>
+      </node>
+      <node id="1975">
+        <label>SQLite.ColumnAttribute</label>
+        <link refid="class_s_q_lite_1_1_column_attribute"/>
+        <childnode refid="1976" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1978">
+        <label>Attribute</label>
+      </node>
+      <node id="1977">
+        <label>SQLite.ColumnAttribute</label>
+        <link refid="class_s_q_lite_1_1_column_attribute"/>
+        <childnode refid="1978" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1592" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1591" bodyend="1599"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_column_attribute_1aa7ecb3d322d1fde710f51558b314ad6f" prot="public" virt="non-virtual"><scope>SQLite::ColumnAttribute</scope><name>ColumnAttribute</name></member>
+      <member refid="class_s_q_lite_1_1_column_attribute_1af2e6c8ab9f0b1ce7f10ea75346f9b3c8" prot="public" virt="non-virtual"><scope>SQLite::ColumnAttribute</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

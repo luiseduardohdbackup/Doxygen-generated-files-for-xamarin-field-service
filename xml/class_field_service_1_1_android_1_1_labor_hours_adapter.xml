@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_labor_hours_adapter" kind="class" prot="public">
+    <compoundname>FieldService::Android::LaborHoursAdapter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ArrayAdapter&lt; Labor &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnItemSelectedListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a8ed2051c58371edb5ce6f78d665c7c8c" prot="private" static="no" mutable="no">
+        <type>readonly Activity</type>
+        <definition>readonly Activity FieldService.Android.LaborHoursAdapter.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a3188fcae1df9d3a122f20df99e9102b7" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>readonly LaborViewModel FieldService.Android.LaborHoursAdapter.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a34e3dbbe4736763b46b69c25ae46a8ac" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+        <definition>List&lt;Labor&gt; FieldService.Android.LaborHoursAdapter.laborHours</definition>
+        <argsstring></argsstring>
+        <name>laborHours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a0fd6c09923590f8af537dd3ed180d2c4" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_field_service_1_1_data_1a20c89d9b67c465f840b3ef27a026afd6" kindref="member">LaborType</ref>[]</type>
+        <definition>LaborType [] FieldService.Android.LaborHoursAdapter.laborTypes</definition>
+        <argsstring></argsstring>
+        <name>laborTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a214766ec4ba9447df686759b0e0c9215" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FieldService.Android.LaborHoursAdapter.resourceId</definition>
+        <argsstring></argsstring>
+        <name>resourceId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a943e4717a90006b9d56ae2b219c1ded3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.LaborHoursAdapter.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a0fb50dfdcce9895beb298878ed251baa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_android_1_1_fragments_1_1_labor_hour_fragment" kindref="compound">LaborHourFragment</ref></type>
+        <definition>LaborHourFragment FieldService.Android.LaborHoursAdapter.Fragment</definition>
+        <argsstring></argsstring>
+        <name>Fragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1aeac984ea0320ab9b522ddf2642e71ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.LaborHoursAdapter.LaborHoursAdapter</definition>
+        <argsstring>(Activity activity, int resourceId, List&lt; Labor &gt; laborHours)</argsstring>
+        <name>LaborHoursAdapter</name>
+        <param>
+          <type>Activity</type>
+          <declname>activity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resourceId</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+          <declname>laborHours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="40" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1ab814ea2672b83b3de1d39310b7c4cd0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override View</type>
+        <definition>override View FieldService.Android.LaborHoursAdapter.GetView</definition>
+        <argsstring>(int position, View convertView, ViewGroup parent)</argsstring>
+        <name>GetView</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>convertView</declname>
+        </param>
+        <param>
+          <type>ViewGroup</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="67" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a33993fec5bf22252ff4fb56a812cd6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.LaborHoursAdapter.OnItemSelected</definition>
+        <argsstring>(AdapterView parent, View view, int position, long id)</argsstring>
+        <name>OnItemSelected</name>
+        <param>
+          <type>AdapterView</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>View</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="107" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="107" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_labor_hours_adapter_1a75e12c1f2a28a0a47404b10be38c4120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.LaborHoursAdapter.OnNothingSelected</definition>
+        <argsstring>(AdapterView parent)</argsstring>
+        <name>OnNothingSelected</name>
+        <param>
+          <type>AdapterView</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="122" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="122" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adapter for a list of labor entries </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2471">
+        <label>FieldService.Android.LaborHoursAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_labor_hours_adapter"/>
+        <childnode refid="2472" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>ArrayAdapter&lt; Labor &gt;</label>
+      </node>
+      <node id="2473">
+        <label>AdapterView::IOnItemSelectedListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2474">
+        <label>FieldService.Android.LaborHoursAdapter</label>
+        <link refid="class_field_service_1_1_android_1_1_labor_hours_adapter"/>
+        <childnode refid="2475" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2475">
+        <label>ArrayAdapter&lt; Labor &gt;</label>
+      </node>
+      <node id="2476">
+        <label>AdapterView::IOnItemSelectedListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Adapters/LaborHoursAdapter.cs" bodystart="33" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a8ed2051c58371edb5ce6f78d665c7c8c" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a943e4717a90006b9d56ae2b219c1ded3" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a0fb50dfdcce9895beb298878ed251baa" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>Fragment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1ab814ea2672b83b3de1d39310b7c4cd0a" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>GetView</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a34e3dbbe4736763b46b69c25ae46a8ac" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>laborHours</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1aeac984ea0320ab9b522ddf2642e71ba8" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>LaborHoursAdapter</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a0fd6c09923590f8af537dd3ed180d2c4" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>laborTypes</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a3188fcae1df9d3a122f20df99e9102b7" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a33993fec5bf22252ff4fb56a812cd6e7" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>OnItemSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a75e12c1f2a28a0a47404b10be38c4120" prot="public" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>OnNothingSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_labor_hours_adapter_1a214766ec4ba9447df686759b0e0c9215" prot="private" virt="non-virtual"><scope>FieldService::Android::LaborHoursAdapter</scope><name>resourceId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

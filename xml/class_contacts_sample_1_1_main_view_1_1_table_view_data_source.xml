@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source" kind="class" prot="private">
+    <compoundname>ContactsSample::MainView::TableViewDataSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewDataSource</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a3b90223ee0810020133973004825679a" prot="private" static="yes" mutable="no">
+        <type>NSString</type>
+        <definition>NSString ContactsSample.MainView.TableViewDataSource.cellIdentifier</definition>
+        <argsstring></argsstring>
+        <name>cellIdentifier</name>
+        <initializer>=
+				new NSString (&quot;contactIdentifier&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="114" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a75795b597494b19fe15d6630a4f3eb8e" prot="private" static="no" mutable="no">
+        <type>List&lt; Contact &gt;</type>
+        <definition>List&lt;Contact&gt; ContactsSample.MainView.TableViewDataSource.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="116" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a074d1ca3767b82f9dfa1edc2d6961061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ContactsSample.MainView.TableViewDataSource.TableViewDataSource</definition>
+        <argsstring>(List&lt; Contact &gt; list)</argsstring>
+        <name>TableViewDataSource</name>
+        <param>
+          <type>List&lt; Contact &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="118" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a35101df6190247b249fee24de1be41c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int ContactsSample.MainView.TableViewDataSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="123" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1ad6b6a93f4f6314d27a734d170627378f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell ContactsSample.MainView.TableViewDataSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="129" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="129" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3253">
+        <label>UITableViewDataSource</label>
+      </node>
+      <node id="3252">
+        <label>ContactsSample.MainView.TableViewDataSource</label>
+        <childnode refid="3253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3255">
+        <label>UITableViewDataSource</label>
+      </node>
+      <node id="3254">
+        <label>ContactsSample.MainView.TableViewDataSource</label>
+        <childnode refid="3255" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" line="113" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/MainView.cs" bodystart="112" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a3b90223ee0810020133973004825679a" prot="private" virt="non-virtual"><scope>ContactsSample::MainView::TableViewDataSource</scope><name>cellIdentifier</name></member>
+      <member refid="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1ad6b6a93f4f6314d27a734d170627378f" prot="public" virt="non-virtual"><scope>ContactsSample::MainView::TableViewDataSource</scope><name>GetCell</name></member>
+      <member refid="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a75795b597494b19fe15d6630a4f3eb8e" prot="private" virt="non-virtual"><scope>ContactsSample::MainView::TableViewDataSource</scope><name>list</name></member>
+      <member refid="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a35101df6190247b249fee24de1be41c3" prot="public" virt="non-virtual"><scope>ContactsSample::MainView::TableViewDataSource</scope><name>RowsInSection</name></member>
+      <member refid="class_contacts_sample_1_1_main_view_1_1_table_view_data_source_1a074d1ca3767b82f9dfa1edc2d6961061" prot="public" virt="non-virtual"><scope>ContactsSample::MainView::TableViewDataSource</scope><name>TableViewDataSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

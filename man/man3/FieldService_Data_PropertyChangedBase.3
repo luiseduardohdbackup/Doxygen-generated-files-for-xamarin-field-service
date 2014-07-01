@@ -1,0 +1,61 @@
+.TH "FieldService.Data.PropertyChangedBase" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Data.PropertyChangedBase \- 
+.PP
+Base class for implementing INotifyPropertyChanged  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits INotifyPropertyChanged\&.
+.PP
+Inherited by \fBFieldService\&.Data\&.AssignmentItem\fP, and \fBFieldService\&.ViewModels\&.ViewModelBase\fP\&.
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnPropertyChanged\fP (string propertyName)"
+.br
+.RI "\fIProtected method for firing PropertyChanged \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "PropertyChangedEventHandler \fBPropertyChanged\fP"
+.br
+.RI "\fIEvent for INotifyPropertyChanged \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Base class for implementing INotifyPropertyChanged 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "virtual void FieldService\&.Data\&.PropertyChangedBase\&.OnPropertyChanged (stringpropertyName)\fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Protected method for firing PropertyChanged 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIpropertyName\fP The name of the property that changed
+.RE
+.PP
+
+.PP
+Reimplemented in \fBFieldService\&.WinRT\&.ViewModels\&.ExpenseViewModel\fP, \fBFieldService\&.WinRT\&.ViewModels\&.LaborViewModel\fP, \fBFieldService\&.WinRT\&.ViewModels\&.ItemViewModel\fP, \fBFieldService\&.WinRT\&.ViewModels\&.PhotoViewModel\fP, \fBFieldService\&.WinRT\&.ViewModels\&.DocumentViewModel\fP, and \fBFieldService\&.WinRT\&.ViewModels\&.HistoryViewModel\fP\&.
+.SH "Event Documentation"
+.PP 
+.SS "PropertyChangedEventHandler FieldService\&.Data\&.PropertyChangedBase\&.PropertyChanged"
+
+.PP
+Event for INotifyPropertyChanged 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

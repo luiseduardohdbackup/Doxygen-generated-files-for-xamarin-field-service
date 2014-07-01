@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity" kind="class" prot="public">
+    <compoundname>FieldService::Android::Activities::SummaryHistoryActivity</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Activity</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IOnMenuItemClickListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a11519589b4e793664276f42fb3bf97eb" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_item_view_model" kindref="compound">ItemViewModel</ref></type>
+        <definition>readonly ItemViewModel FieldService.Android.Activities.SummaryHistoryActivity.itemViewModel</definition>
+        <argsstring></argsstring>
+        <name>itemViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a4e01724052038107d2b0134e4ecbfbfc" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>readonly LaborViewModel FieldService.Android.Activities.SummaryHistoryActivity.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad552ebd1ab0700f7178facfe9bc5d071" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_photo_view_model" kindref="compound">PhotoViewModel</ref></type>
+        <definition>readonly PhotoViewModel FieldService.Android.Activities.SummaryHistoryActivity.photoViewModel</definition>
+        <argsstring></argsstring>
+        <name>photoViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a2bf6ea740439b61519445185442483e4" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_expense_view_model" kindref="compound">ExpenseViewModel</ref></type>
+        <definition>readonly ExpenseViewModel FieldService.Android.Activities.SummaryHistoryActivity.expenseViewModel</definition>
+        <argsstring></argsstring>
+        <name>expenseViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="43" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad37b0d828e96d2060b15d66d25dda2ae" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_document_view_model" kindref="compound">DocumentViewModel</ref></type>
+        <definition>readonly DocumentViewModel FieldService.Android.Activities.SummaryHistoryActivity.documentViewModel</definition>
+        <argsstring></argsstring>
+        <name>documentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="44" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a0f58c315ef48e19f779f21622c034d3b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_history_view_model" kindref="compound">HistoryViewModel</ref></type>
+        <definition>readonly HistoryViewModel FieldService.Android.Activities.SummaryHistoryActivity.historyViewModel</definition>
+        <argsstring></argsstring>
+        <name>historyViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a068084ca6e7475f11a65df50fb7df77c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_menu_view_model" kindref="compound">MenuViewModel</ref></type>
+        <definition>readonly MenuViewModel FieldService.Android.Activities.SummaryHistoryActivity.menuViewModel</definition>
+        <argsstring></argsstring>
+        <name>menuViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1abd3da05926dc14db9e06952d037344af" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_android_1_1_fragments_1_1_navigation_fragment" kindref="compound">NavigationFragment</ref></type>
+        <definition>NavigationFragment FieldService.Android.Activities.SummaryHistoryActivity.navigationFragment</definition>
+        <argsstring></argsstring>
+        <name>navigationFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a3e1fe4cb7425bf507c316f3247bd287b" prot="private" static="no" mutable="no">
+        <type>FrameLayout</type>
+        <definition>FrameLayout FieldService.Android.Activities.SummaryHistoryActivity.navigationFragmentContainer</definition>
+        <argsstring></argsstring>
+        <name>navigationFragmentContainer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ae46ee3c39ee182f6dcc491f9a46bb655" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Activities.SummaryHistoryActivity.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a898bec5cc2620385c39f51c67173cb87" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Activities.SummaryHistoryActivity.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1aea9795b35aeb0f152c6567f10722f336" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Activities.SummaryHistoryActivity.phone</definition>
+        <argsstring></argsstring>
+        <name>phone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ab125fdf0a053477e672ceb5814de800d" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Activities.SummaryHistoryActivity.address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a82b2d2973e5aae5c00c0bab730eaf8f7" prot="private" static="no" mutable="no">
+        <type>TextView</type>
+        <definition>TextView FieldService.Android.Activities.SummaryHistoryActivity.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a6c1152f6ce6adc3af609a6fdf4471f4d" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Activities.SummaryHistoryActivity.addItems</definition>
+        <argsstring></argsstring>
+        <name>addItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a2601307999d4f64b0478b797526187ff" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Activities.SummaryHistoryActivity.addLabor</definition>
+        <argsstring></argsstring>
+        <name>addLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a42a3deb6fe15fb87aa51101c1592425e" prot="private" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button FieldService.Android.Activities.SummaryHistoryActivity.addExpense</definition>
+        <argsstring></argsstring>
+        <name>addExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1addedb296148096e03dd8152cdfa8099b" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.Activities.SummaryHistoryActivity.mapButton</definition>
+        <argsstring></argsstring>
+        <name>mapButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a6bca51dbe64c41f73451ff847f846980" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.Activities.SummaryHistoryActivity.phoneButton</definition>
+        <argsstring></argsstring>
+        <name>phoneButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af1cade355df50afc0a05e0006b6b99d1" prot="private" static="no" mutable="no">
+        <type>LinearLayout</type>
+        <definition>LinearLayout FieldService.Android.Activities.SummaryHistoryActivity.selectedAssignmentLayout</definition>
+        <argsstring></argsstring>
+        <name>selectedAssignmentLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad0236efbb4e322d8b4ccb1665cb3c79e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+        <definition>AssignmentHistory FieldService.Android.Activities.SummaryHistoryActivity.assignmentHistory</definition>
+        <argsstring></argsstring>
+        <name>assignmentHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a82f9835f29e0cd408806ced16096f4b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Activities.SummaryHistoryActivity.SummaryHistoryActivity</definition>
+        <argsstring>()</argsstring>
+        <name>SummaryHistoryActivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="54" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ac0ee2d26e465da2d767e6313f0246283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.Android.Activities.SummaryHistoryActivity.OnCreateOptionsMenu</definition>
+        <argsstring>(IMenu menu)</argsstring>
+        <name>OnCreateOptionsMenu</name>
+        <param>
+          <type>IMenu</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="299" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="299" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af25a786207029ce9bbe678950cf01f39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool FieldService.Android.Activities.SummaryHistoryActivity.OnOptionsItemSelected</definition>
+        <argsstring>(IMenuItem item)</argsstring>
+        <name>OnOptionsItemSelected</name>
+        <param>
+          <type>IMenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="309" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="309" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a36bb8ca41977eacd78c2233ec06f575d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FieldService.Android.Activities.SummaryHistoryActivity.OnMenuItemClick</definition>
+        <argsstring>(IMenuItem item)</argsstring>
+        <name>OnMenuItemClick</name>
+        <param>
+          <type>IMenuItem</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="324" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="324" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af52f8c4b1bf93f7eff2ced161164a638" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Activities.SummaryHistoryActivity.OnBackPressed</definition>
+        <argsstring>()</argsstring>
+        <name>OnBackPressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="333" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="333" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a7ea3f146fd0ba6fee3f14fb30d427411" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Activities.SummaryHistoryActivity.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="67" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a5a23c0fab1d06779b1859c3c23a7486d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Activities.SummaryHistoryActivity.OnResume</definition>
+        <argsstring>()</argsstring>
+        <name>OnResume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="130" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="130" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1abe7c8fbcc50d683ca32cdff80debead1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Activities.SummaryHistoryActivity.OnPause</definition>
+        <argsstring>()</argsstring>
+        <name>OnPause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="140" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a332256c2d4d22a96148c4d8679b608ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Activities.SummaryHistoryActivity.NavigationSelected</definition>
+        <argsstring>(object sender, EventArgs&lt; int &gt; e)</argsstring>
+        <name>NavigationSelected</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs&lt; int &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="148" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="148" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a71cf2d11dd78a84916051ebef0f40fdc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Android.Activities.SummaryHistoryActivity.SetFrameFragment</definition>
+        <argsstring>(int index)</argsstring>
+        <name>SetFrameFragment</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Sets the child fragment for when each navigation item is selected </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="162" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="162" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>History Activity </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3171">
+        <label>Activity</label>
+      </node>
+      <node id="3170">
+        <label>FieldService.Android.Activities.SummaryHistoryActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity"/>
+        <childnode refid="3171" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3172">
+        <label>PopupMenu::IOnMenuItemClickListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3174">
+        <label>Activity</label>
+      </node>
+      <node id="3173">
+        <label>FieldService.Android.Activities.SummaryHistoryActivity</label>
+        <link refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity"/>
+        <childnode refid="3174" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3175">
+        <label>PopupMenu::IOnMenuItemClickListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Activities/SummaryHistoryActivity.cs" bodystart="38" bodyend="337"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a42a3deb6fe15fb87aa51101c1592425e" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>addExpense</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a6c1152f6ce6adc3af609a6fdf4471f4d" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>addItems</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a2601307999d4f64b0478b797526187ff" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>addLabor</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ab125fdf0a053477e672ceb5814de800d" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>address</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad0236efbb4e322d8b4ccb1665cb3c79e" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>assignmentHistory</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad37b0d828e96d2060b15d66d25dda2ae" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>documentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a2bf6ea740439b61519445185442483e4" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>expenseViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a0f58c315ef48e19f779f21622c034d3b" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>historyViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a82b2d2973e5aae5c00c0bab730eaf8f7" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>items</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a11519589b4e793664276f42fb3bf97eb" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>itemViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a4e01724052038107d2b0134e4ecbfbfc" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1addedb296148096e03dd8152cdfa8099b" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>mapButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a068084ca6e7475f11a65df50fb7df77c" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>menuViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a898bec5cc2620385c39f51c67173cb87" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>name</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1abd3da05926dc14db9e06952d037344af" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>navigationFragment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a3e1fe4cb7425bf507c316f3247bd287b" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>navigationFragmentContainer</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a332256c2d4d22a96148c4d8679b608ba" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>NavigationSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ae46ee3c39ee182f6dcc491f9a46bb655" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>number</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af52f8c4b1bf93f7eff2ced161164a638" prot="public" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnBackPressed</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a7ea3f146fd0ba6fee3f14fb30d427411" prot="protected" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ac0ee2d26e465da2d767e6313f0246283" prot="public" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnCreateOptionsMenu</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a36bb8ca41977eacd78c2233ec06f575d" prot="public" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnMenuItemClick</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af25a786207029ce9bbe678950cf01f39" prot="public" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnOptionsItemSelected</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1abe7c8fbcc50d683ca32cdff80debead1" prot="protected" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnPause</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a5a23c0fab1d06779b1859c3c23a7486d" prot="protected" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>OnResume</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1aea9795b35aeb0f152c6567f10722f336" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>phone</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a6bca51dbe64c41f73451ff847f846980" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>phoneButton</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1ad552ebd1ab0700f7178facfe9bc5d071" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>photoViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1af1cade355df50afc0a05e0006b6b99d1" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>selectedAssignmentLayout</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a71cf2d11dd78a84916051ebef0f40fdc" prot="private" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>SetFrameFragment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_activities_1_1_summary_history_activity_1a82f9835f29e0cd408806ced16096f4b1" prot="public" virt="non-virtual"><scope>FieldService::Android::Activities::SummaryHistoryActivity</scope><name>SummaryHistoryActivity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

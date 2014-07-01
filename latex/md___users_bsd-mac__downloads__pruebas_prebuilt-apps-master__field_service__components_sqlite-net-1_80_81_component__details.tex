@@ -1,0 +1,28 @@
+S\+Q\+Lite.\+N\+E\+T is an open source, minimal library to allow .N\+E\+T and Mono applications to store data in \href{http://www.sqlite.org}{\tt S\+Q\+Lite 3 databases}. S\+Q\+Lite.\+N\+E\+T was designed as a quick and convenient database layer. Its design follows from these {\itshape goals}\+:
+
+
+\begin{DoxyItemize}
+\item Very easy to integrate with existing projects and with Xamarin projects.
+\item Thin wrapper over \hyperlink{namespace_s_q_lite}{S\+Q\+Lite} and should be fast and efficient. (The library should not be the performance bottleneck of your queries.)
+\item Very simple methods for executing C\+R\+U\+D operations and queries safely (using parameters) and for retrieving the results of those query in a strongly typed fashion.
+\item Works with your data model without forcing you to change your classes. (Contains a small reflection-\/driven O\+R\+M layer.)
+\end{DoxyItemize}
+
+{\itshape Non-\/goals} include\+:
+
+
+\begin{DoxyItemize}
+\item Not an A\+D\+O.\+N\+E\+T implementation. This is not a full \hyperlink{namespace_s_q_lite}{S\+Q\+Lite} driver. If you need that, use \href{http://www.mono-project.com/SQLite}{\tt Mono.\+Data.\+S\+Q\+Lite} or \href{http://code.google.com/p/csharp-sqlite/}{\tt csharp-\/sqlite}.
+\end{DoxyItemize}
+
+\subsection*{Example}
+
+```csharp using \hyperlink{namespace_s_q_lite}{S\+Q\+Lite}; // ...
+
+public class Note \{ \mbox{[}Primary\+Key, Auto\+Increment\mbox{]} public int Id \{ get; set; \} public string Message \{ get; set; \} \}
+
+// Create our connection string folder = Environment.\+Get\+Folder\+Path (Environment.\+Special\+Folder.\+Personal); var db = new S\+Q\+Lite\+Connection (System.\+I\+O.\+Path.\+Combine (folder, \char`\"{}notes.\+db\char`\"{})); db.\+Create\+Table$<$\+Note$>$();
+
+// Insert note into the database var note = new Note \{ Message = \char`\"{}\+Test Note\char`\"{} \}; db.\+Insert (note);
+
+// Show the automatically set I\+D and message. Console.\+Write\+Line (\char`\"{}\{0\}\+: \{1\}\char`\"{}, note.\+Id, note.\+Message); ``` 

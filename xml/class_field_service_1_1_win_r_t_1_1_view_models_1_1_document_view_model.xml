@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::DocumentViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_document_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.DocumentViewModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model_1a3447e34c86144bb37bc693742c34d2b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_field_service_1_1_data_1_1_document" kindref="compound">Document</ref> &gt;</type>
+        <definition>IEnumerable&lt;Document&gt; FieldService.WinRT.ViewModels.DocumentViewModel.TopDocuments</definition>
+        <argsstring></argsstring>
+        <name>TopDocuments</name>
+        <briefdescription>
+<para>List of the top documents </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model_1a11fd2d66d52e6009d58ed917669f5799" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.DocumentViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplements refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2">OnPropertyChanged</reimplements>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2107">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2104">
+        <label>FieldService::ViewModels::DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2105" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2105">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2106">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2103">
+        <label>FieldService.WinRT.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2112">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2109">
+        <label>FieldService::ViewModels::DocumentViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2110">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2111">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2108">
+        <label>FieldService.WinRT.ViewModels.DocumentViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model"/>
+        <childnode refid="2109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" line="21" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/DocumentViewModel.cs" bodystart="21" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1a808fe9edb51b193c727cce909135ea7c" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>Documents</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1a604167c882b35aafc386b35aad6e197e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>DocumentViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_document_view_model_1ae79f1abe88610667e547cfd5dd6f6f9d" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>LoadDocumentsAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model_1a11fd2d66d52e6009d58ed917669f5799" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_document_view_model_1a3447e34c86144bb37bc693742c34d2b3" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>TopDocuments</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::DocumentViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

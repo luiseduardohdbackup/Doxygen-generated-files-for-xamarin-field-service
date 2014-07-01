@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_create_tables_result" kind="class" prot="public">
+    <compoundname>SQLite::CreateTablesResult</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_create_tables_result_1a570a918ea3d12d83f8dd1e2116c818c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; Type, int &gt;</type>
+        <definition>Dictionary&lt;Type, int&gt; SQLite.CreateTablesResult.Results</definition>
+        <argsstring></argsstring>
+        <name>Results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="390" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_create_tables_result_1a8c367857d5681bd0578778d8d8ac7ce9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.CreateTablesResult.CreateTablesResult</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTablesResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="392" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="392" bodyend="395"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" line="389" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLiteAsync.cs" bodystart="388" bodyend="396"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_create_tables_result_1a8c367857d5681bd0578778d8d8ac7ce9" prot="package" virt="non-virtual"><scope>SQLite::CreateTablesResult</scope><name>CreateTablesResult</name></member>
+      <member refid="class_s_q_lite_1_1_create_tables_result_1a570a918ea3d12d83f8dd1e2116c818c5" prot="public" virt="non-virtual"><scope>SQLite::CreateTablesResult</scope><name>Results</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

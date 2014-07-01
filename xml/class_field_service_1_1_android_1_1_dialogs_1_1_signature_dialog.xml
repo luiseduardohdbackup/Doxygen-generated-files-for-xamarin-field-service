@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog" kind="class" prot="public">
+    <compoundname>FieldService::Android::Dialogs::SignatureDialog</compoundname>
+    <basecompoundref refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog" prot="public" virt="non-virtual">FieldService.Android.Dialogs.BaseDialog</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a70e68764760834007ff27a4a4e22f4cd" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a266b81d93f063bf3872a59c2625b53fd" kindref="member">Activity</ref></type>
+        <definition>readonly Activity FieldService.Android.Dialogs.SignatureDialog.activity</definition>
+        <argsstring></argsstring>
+        <name>activity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a0eddf0d3e390da7d429b47f1c7fe7f0f" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>readonly AssignmentViewModel FieldService.Android.Dialogs.SignatureDialog.assignmentViewModel</definition>
+        <argsstring></argsstring>
+        <name>assignmentViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a1e1b4f92ba45abb2eaf27933efb0156b" prot="private" static="no" mutable="no">
+        <type>SignaturePadView</type>
+        <definition>SignaturePadView FieldService.Android.Dialogs.SignatureDialog.signatureView</definition>
+        <argsstring></argsstring>
+        <name>signatureView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a266b81d93f063bf3872a59c2625b53fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Activity</type>
+        <definition>Activity FieldService.Android.Dialogs.SignatureDialog.Activity</definition>
+        <argsstring></argsstring>
+        <name>Activity</name>
+        <briefdescription>
+<para>The activity holding this dialog </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a4a9650b542756aa1937638c19c61d4d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+        <definition>Assignment FieldService.Android.Dialogs.SignatureDialog.Assignment</definition>
+        <argsstring></argsstring>
+        <name>Assignment</name>
+        <briefdescription>
+<para>The current assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="103" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1ac6930ff1a9975dc66acf8fdfd5b59656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Dialogs.SignatureDialog.SignatureDialog</definition>
+        <argsstring>(Activity activity)</argsstring>
+        <name>SignatureDialog</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a266b81d93f063bf3872a59c2625b53fd" kindref="member">Activity</ref></type>
+          <declname>activity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="38" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="38" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1ac56b89c5b575b795bd4d82e608f83c72" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.Android.Dialogs.SignatureDialog.OnCreate</definition>
+        <argsstring>(Bundle bundle)</argsstring>
+        <name>OnCreate</name>
+        <param>
+          <type>Bundle</type>
+          <declname>bundle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="45" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Dialog for capturing a signature </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3033">
+        <label>Dialog</label>
+      </node>
+      <node id="3031">
+        <label>FieldService.Android.Dialogs.SignatureDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog"/>
+        <childnode refid="3032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3032">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="3033" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3036">
+        <label>Dialog</label>
+      </node>
+      <node id="3034">
+        <label>FieldService.Android.Dialogs.SignatureDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog"/>
+        <childnode refid="3035" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3035">
+        <label>BaseDialog</label>
+        <link refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog"/>
+        <childnode refid="3036" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Dialogs/SignatureDialog.cs" bodystart="33" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a70e68764760834007ff27a4a4e22f4cd" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a266b81d93f063bf3872a59c2625b53fd" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>Activity</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a4a9650b542756aa1937638c19c61d4d9" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>Assignment</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a0eddf0d3e390da7d429b47f1c7fe7f0f" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>assignmentViewModel</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_base_dialog_1ab5340ab491eff0d868017eeb32976455" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>BaseDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1ac56b89c5b575b795bd4d82e608f83c72" prot="protected" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>OnCreate</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1ac6930ff1a9975dc66acf8fdfd5b59656" prot="public" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>SignatureDialog</name></member>
+      <member refid="class_field_service_1_1_android_1_1_dialogs_1_1_signature_dialog_1a1e1b4f92ba45abb2eaf27933efb0156b" prot="private" virt="non-virtual"><scope>FieldService::Android::Dialogs::SignatureDialog</scope><name>signatureView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

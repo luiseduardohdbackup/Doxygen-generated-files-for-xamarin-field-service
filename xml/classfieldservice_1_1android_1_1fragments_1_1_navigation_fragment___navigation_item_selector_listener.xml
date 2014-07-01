@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener" kind="class" prot="public">
+    <compoundname>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">OnItemClickListener</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1afbfb93052be495078a7ca7fbb4e29c25" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a32f742d34cef0884ea40bbe5bad02de5" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="41" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a5934234d5d248269237380c37f0cf95f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1ac966fbd47dd16983f7fc9b02b9e14830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.NavigationFragment_NavigationItemSelectorListener</definition>
+        <argsstring>()</argsstring>
+        <name>NavigationFragment_NavigationItemSelectorListener</name>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a48949a060c42dc6dc270a9b0b6cd21bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.NavigationFragment_NavigationItemSelectorListener</definition>
+        <argsstring>(fieldservice.android.fragments.NavigationFragment p0)</argsstring>
+        <name>NavigationFragment_NavigationItemSelectorListener</name>
+        <param>
+          <type><ref refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment" kindref="compound">fieldservice.android.fragments.NavigationFragment</ref></type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1abe1a65fb45d8c28bc9708c8299e83d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.onItemClick</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>onItemClick</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a93e18eb55754dc7ea290cc6e72efb7f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a8d6df1f07c910891147b513c5f405323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="49" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1af7d401b9e15f49e03645e66c77c6db9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener.n_onItemClick</definition>
+        <argsstring>(android.widget.AdapterView p0, android.view.View p1, int p2, long p3)</argsstring>
+        <name>n_onItemClick</name>
+        <param>
+          <type>android.widget.AdapterView</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>android.view.View</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2816">
+        <label>Object</label>
+      </node>
+      <node id="2818">
+        <label>android::widget::AdapterView::OnItemClickListener</label>
+      </node>
+      <node id="2815">
+        <label>fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener"/>
+        <childnode refid="2816" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2817" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2818" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2817">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2823">
+        <label>String</label>
+      </node>
+      <node id="2820">
+        <label>Object</label>
+      </node>
+      <node id="2822">
+        <label>android::widget::AdapterView::OnItemClickListener</label>
+      </node>
+      <node id="2819">
+        <label>fieldservice.android.fragments.NavigationFragment_NavigationItemSelectorListener</label>
+        <link refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener"/>
+        <childnode refid="2820" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2821" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2822" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2823" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="2821">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments/NavigationFragment_NavigationItemSelectorListener.java" bodystart="4" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a5934234d5d248269237380c37f0cf95f" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1afbfb93052be495078a7ca7fbb4e29c25" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a93e18eb55754dc7ea290cc6e72efb7f8" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a8d6df1f07c910891147b513c5f405323" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1af7d401b9e15f49e03645e66c77c6db9a" prot="private" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>n_onItemClick</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1ac966fbd47dd16983f7fc9b02b9e14830" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>NavigationFragment_NavigationItemSelectorListener</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a48949a060c42dc6dc270a9b0b6cd21bd" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>NavigationFragment_NavigationItemSelectorListener</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1abe1a65fb45d8c28bc9708c8299e83d80" prot="public" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>onItemClick</name></member>
+      <member refid="classfieldservice_1_1android_1_1fragments_1_1_navigation_fragment___navigation_item_selector_listener_1a32f742d34cef0884ea40bbe5bad02de5" prot="package" virt="non-virtual"><scope>fieldservice::android::fragments::NavigationFragment_NavigationItemSelectorListener</scope><name>refList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

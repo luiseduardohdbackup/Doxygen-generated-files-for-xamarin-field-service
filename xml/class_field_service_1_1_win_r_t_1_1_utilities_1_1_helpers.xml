@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::Utilities::Helpers</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a80b56b68656cae203bd52de1795536fe" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool FieldService.WinRT.Utilities.Helpers.CanGoBack</definition>
+        <argsstring></argsstring>
+        <name>CanGoBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a019bf0e2991676a187dbfcb164f3e289" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.WinRT.Utilities.Helpers.NavigateTo</definition>
+        <argsstring>(Type type, object parameter=null)</argsstring>
+        <name>NavigateTo</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Helper method to navigate to a particular page </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a7edd19abb74f41239797f8dc5695abf8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.WinRT.Utilities.Helpers.NavigateTo&lt; T &gt;</definition>
+        <argsstring>(object parameter=null)</argsstring>
+        <name>NavigateTo&lt; T &gt;</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Helper method to navigate to a particular page </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="46" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a73465b044f89738b69a78164e39ad980" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.WinRT.Utilities.Helpers.GoBack</definition>
+        <argsstring>()</argsstring>
+        <name>GoBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="61" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a207b617a9014f12b21b6f39794758f42" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SolidColorBrush</type>
+        <definition>static SolidColorBrush FieldService.WinRT.Utilities.Helpers.GetBrushForStatus</definition>
+        <argsstring>(this AssignmentStatus status)</argsstring>
+        <name>GetBrushForStatus</name>
+        <param>
+          <type>this <ref refid="namespace_field_service_1_1_data_1a87f0c66830f2bf43c90c245213fc3263" kindref="member">AssignmentStatus</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="67" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="67" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a18f3bf5632dc1dd40c09fce4478711c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitmapImage</type>
+        <definition>static BitmapImage FieldService.WinRT.Utilities.Helpers.LoadImage</definition>
+        <argsstring>(this byte[] bytes)</argsstring>
+        <name>LoadImage</name>
+        <param>
+          <type>this byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="84" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="84" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1ac11f41ece4e283960895bb4e00bcf38e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; byte[]&gt;</type>
+        <definition>static async Task&lt;byte []&gt; FieldService.WinRT.Utilities.Helpers.LoadBytes</definition>
+        <argsstring>(this Stream stream)</argsstring>
+        <name>LoadBytes</name>
+        <param>
+          <type>this Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="99" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="99" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Set of helper methods for <ref refid="namespace_field_service_1_1_win_r_t" kindref="compound">WinRT</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" line="30" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/Utilities/Helpers.cs" bodystart="30" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a80b56b68656cae203bd52de1795536fe" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>CanGoBack</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a207b617a9014f12b21b6f39794758f42" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>GetBrushForStatus</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a73465b044f89738b69a78164e39ad980" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>GoBack</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1ac11f41ece4e283960895bb4e00bcf38e" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>LoadBytes</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a18f3bf5632dc1dd40c09fce4478711c7" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>LoadImage</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a019bf0e2991676a187dbfcb164f3e289" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>NavigateTo</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_utilities_1_1_helpers_1a7edd19abb74f41239797f8dc5695abf8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::Utilities::Helpers</scope><name>NavigateTo&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

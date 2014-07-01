@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_main_page_view_model" kind="class" prot="public">
+    <compoundname>ContactsSample::MainPageViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_contacts_sample_1_1_main_page_view_model_1a0ee559bd8ce93df57d4874195b802a92" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ContactsSample.MainPageViewModel.SelectedContact</definition>
+        <argsstring></argsstring>
+        <name>SelectedContact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_contacts_sample_1_1_main_page_view_model_1a01d924a5942f6d98ffdc2c7b93a62a2f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler ContactsSample.MainPageViewModel.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_page_view_model_1a4e124d868df52abaec3ee1a508bdb8a3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ContactsSample.MainPageViewModel.showProgress</definition>
+        <argsstring></argsstring>
+        <name>showProgress</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_page_view_model_1a0c8ba77abb31b82ac0c22493a9b3c377" prot="private" static="no" mutable="no">
+        <type>BitmapImage</type>
+        <definition>BitmapImage ContactsSample.MainPageViewModel.thumb</definition>
+        <argsstring></argsstring>
+        <name>thumb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_page_view_model_1a0f0543c706054c708d1989d40f385ad1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" kindref="member">Contact</ref></type>
+        <definition>Contact ContactsSample.MainPageViewModel.contact</definition>
+        <argsstring></argsstring>
+        <name>contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="59" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_main_page_view_model_1aab37ba7cc670996543befd5890ca9627" prot="private" static="no" mutable="no">
+        <type>AddressBook</type>
+        <definition>AddressBook ContactsSample.MainPageViewModel.addressBook</definition>
+        <argsstring></argsstring>
+        <name>addressBook</name>
+        <initializer>= new AddressBook()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_contacts_sample_1_1_main_page_view_model_1a004ab0ab3d4b5eef76b6ffcc94ca2bec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ContactsSample.MainPageViewModel.ShowProgress</definition>
+        <argsstring></argsstring>
+        <name>ShowProgress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_contacts_sample_1_1_main_page_view_model_1aa63a55b11a56dc587651b2cd1c3758c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>IEnumerable&lt; <ref refid="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" kindref="member">Contact</ref> &gt;</type>
+        <definition>IEnumerable&lt;Contact&gt; ContactsSample.MainPageViewModel.Contacts</definition>
+        <argsstring></argsstring>
+        <name>Contacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_contacts_sample_1_1_main_page_view_model_1aa6b779686582de0f706bab870acc3ebd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>BitmapImage</type>
+        <definition>BitmapImage ContactsSample.MainPageViewModel.Thumbnail</definition>
+        <argsstring></argsstring>
+        <name>Thumbnail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="48" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Contact</type>
+        <definition>Contact ContactsSample.MainPageViewModel.Contact</definition>
+        <argsstring></argsstring>
+        <name>Contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="60" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_page_view_model_1a4a5e070f05f093ca39bfc16552b271fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ContactsSample.MainPageViewModel.MainPageViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainPageViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_page_view_model_1ad9c4a5d15edffd220e9822d05a9febbe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ContactsSample.MainPageViewModel.Setup</definition>
+        <argsstring>()</argsstring>
+        <name>Setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_page_view_model_1a6d3be03b0bf0993cf979d74820394b0c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" kindref="member">Contact</ref> &gt;</type>
+        <definition>IEnumerable&lt;Contact&gt; ContactsSample.MainPageViewModel.FinishWhenIterated</definition>
+        <argsstring>(IEnumerable&lt; Contact &gt; contacts)</argsstring>
+        <name>FinishWhenIterated</name>
+        <param>
+          <type>IEnumerable&lt; <ref refid="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" kindref="member">Contact</ref> &gt;</type>
+          <declname>contacts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_page_view_model_1ad0913e62cc0eaa06597083dc00504247" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ContactsSample.MainPageViewModel.OnPropertyChanged</definition>
+        <argsstring>(string name)</argsstring>
+        <name>OnPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="88" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_main_page_view_model_1a4b150ef64430e383da033d7570d23f71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ContactsSample.MainPageViewModel.OnSelectedContact</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnSelectedContact</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2646">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2645">
+        <label>ContactsSample.MainPageViewModel</label>
+        <link refid="class_contacts_sample_1_1_main_page_view_model"/>
+        <childnode refid="2646" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2648">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2647">
+        <label>ContactsSample.MainPageViewModel</label>
+        <link refid="class_contacts_sample_1_1_main_page_view_model"/>
+        <childnode refid="2648" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.WP.Samples/ContactsSample/MainPageViewModel.cs" bodystart="11" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1aab37ba7cc670996543befd5890ca9627" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>addressBook</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a0f0543c706054c708d1989d40f385ad1" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>contact</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a938860a07ac6c612bd8ade06511e94bf" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>Contact</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1aa63a55b11a56dc587651b2cd1c3758c3" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>Contacts</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a6d3be03b0bf0993cf979d74820394b0c" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>FinishWhenIterated</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a4a5e070f05f093ca39bfc16552b271fe" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>MainPageViewModel</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1ad0913e62cc0eaa06597083dc00504247" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a4b150ef64430e383da033d7570d23f71" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>OnSelectedContact</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a01d924a5942f6d98ffdc2c7b93a62a2f" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a0ee559bd8ce93df57d4874195b802a92" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>SelectedContact</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1ad9c4a5d15edffd220e9822d05a9febbe" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>Setup</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a004ab0ab3d4b5eef76b6ffcc94ca2bec" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>ShowProgress</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a4e124d868df52abaec3ee1a508bdb8a3" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>showProgress</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1a0c8ba77abb31b82ac0c22493a9b3c377" prot="private" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>thumb</name></member>
+      <member refid="class_contacts_sample_1_1_main_page_view_model_1aa6b779686582de0f706bab870acc3ebd" prot="public" virt="non-virtual"><scope>ContactsSample::MainPageViewModel</scope><name>Thumbnail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

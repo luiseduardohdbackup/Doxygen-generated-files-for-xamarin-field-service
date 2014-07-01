@@ -1,0 +1,5 @@
+<map id="FieldService.Android.BaseActivity" name="FieldService.Android.BaseActivity">
+<area shape="rect" id="node3" href="$class_field_service_1_1_android_1_1_assignments_activity.html" title="Activity for the list of assignments " alt="" coords="344,5,568,43"/>
+<area shape="rect" id="node4" href="$class_field_service_1_1_android_1_1_assignment_tab_activity.html" title="Activity for the tab bar between &quot;Assignments&quot; and &quot;Map Overview&quot; " alt="" coords="347,67,565,106"/>
+<area shape="rect" id="node5" href="$class_field_service_1_1_android_1_1_summary_activity.html" title="Activity for the summary screen " alt="" coords="353,130,559,169"/>
+</map>

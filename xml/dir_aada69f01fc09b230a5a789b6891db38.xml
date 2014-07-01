@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_aada69f01fc09b230a5a789b6891db38" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers</compoundname>
+    <innerfile refid="_add_expense_controller_8cs">AddExpenseController.cs</innerfile>
+    <innerfile refid="_add_expense_controller_8designer_8cs">AddExpenseController.designer.cs</innerfile>
+    <innerfile refid="_add_item_controller_8cs">AddItemController.cs</innerfile>
+    <innerfile refid="_add_item_controller_8designer_8cs">AddItemController.designer.cs</innerfile>
+    <innerfile refid="_add_labor_controller_8cs">AddLaborController.cs</innerfile>
+    <innerfile refid="_add_labor_controller_8designer_8cs">AddLaborController.designer.cs</innerfile>
+    <innerfile refid="_add_photo_controller_8cs">AddPhotoController.cs</innerfile>
+    <innerfile refid="_add_photo_controller_8designer_8cs">AddPhotoController.designer.cs</innerfile>
+    <innerfile refid="_assignment_details_controller_8cs">AssignmentDetailsController.cs</innerfile>
+    <innerfile refid="_assignment_details_controller_8designer_8cs">AssignmentDetailsController.designer.cs</innerfile>
+    <innerfile refid="_assignments_controller_8cs">AssignmentsController.cs</innerfile>
+    <innerfile refid="_assignments_controller_8designer_8cs">AssignmentsController.designer.cs</innerfile>
+    <innerfile refid="_base_controller_8cs">BaseController.cs</innerfile>
+    <innerfile refid="_base_navigation_controller_8cs">BaseNavigationController.cs</innerfile>
+    <innerfile refid="_base_navigation_controller_8designer_8cs">BaseNavigationController.designer.cs</innerfile>
+    <innerfile refid="_confirmation_controller_8cs">ConfirmationController.cs</innerfile>
+    <innerfile refid="_confirmation_controller_8designer_8cs">ConfirmationController.designer.cs</innerfile>
+    <innerfile refid="_document_controller_8cs">DocumentController.cs</innerfile>
+    <innerfile refid="_document_controller_8designer_8cs">DocumentController.designer.cs</innerfile>
+    <innerfile refid="_expense_controller_8cs">ExpenseController.cs</innerfile>
+    <innerfile refid="_expense_controller_8designer_8cs">ExpenseController.designer.cs</innerfile>
+    <innerfile refid="_history_controller_8cs">HistoryController.cs</innerfile>
+    <innerfile refid="_history_controller_8designer_8cs">HistoryController.designer.cs</innerfile>
+    <innerfile refid="_items_view_controller_8cs">ItemsViewController.cs</innerfile>
+    <innerfile refid="_items_view_controller_8designer_8cs">ItemsViewController.designer.cs</innerfile>
+    <innerfile refid="_labor_controller_8cs">LaborController.cs</innerfile>
+    <innerfile refid="_labor_controller_8designer_8cs">LaborController.designer.cs</innerfile>
+    <innerfile refid="_login_controller_8cs">LoginController.cs</innerfile>
+    <innerfile refid="_login_controller_8designer_8cs">LoginController.designer.cs</innerfile>
+    <innerfile refid="_main_map_controller_8cs">MainMapController.cs</innerfile>
+    <innerfile refid="_main_map_controller_8designer_8cs">MainMapController.designer.cs</innerfile>
+    <innerfile refid="_map_controller_8cs">MapController.cs</innerfile>
+    <innerfile refid="_menu_controller_8cs">MenuController.cs</innerfile>
+    <innerfile refid="_menu_controller_8designer_8cs">MenuController.designer.cs</innerfile>
+    <innerfile refid="_signature_controller_8cs">SignatureController.cs</innerfile>
+    <innerfile refid="_split_controller_8cs">SplitController.cs</innerfile>
+    <innerfile refid="_split_controller_8designer_8cs">SplitController.designer.cs</innerfile>
+    <innerfile refid="_summary_controller_8cs">SummaryController.cs</innerfile>
+    <innerfile refid="_summary_controller_8designer_8cs">SummaryController.designer.cs</innerfile>
+    <innerfile refid="_tab_controller_8cs">TabController.cs</innerfile>
+    <innerfile refid="_tab_controller_8designer_8cs">TabController.designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/"/>
+  </compounddef>
+</doxygen>

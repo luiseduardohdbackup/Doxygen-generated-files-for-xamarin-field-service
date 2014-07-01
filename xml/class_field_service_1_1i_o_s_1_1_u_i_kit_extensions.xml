@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions" kind="class" prot="public">
+    <compoundname>FieldService::iOS::UIKitExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1afa3fbe1f98a6642223b9bb693d24b96b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.iOS.UIKitExtensions.SetDidChangeNotification</definition>
+        <argsstring>(this UITextField textField, Action&lt; UITextField &gt; callback)</argsstring>
+        <name>SetDidChangeNotification</name>
+        <param>
+          <type>this UITextField</type>
+          <declname>textField</declname>
+        </param>
+        <param>
+          <type>Action&lt; UITextField &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Sets a callback for registering text changed notifications on a UITextField </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a25ad10809027a52b7caa998b6f4387e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.iOS.UIKitExtensions.SetDidChangeNotification</definition>
+        <argsstring>(this UITextView textView, Action&lt; UITextView &gt; callback)</argsstring>
+        <name>SetDidChangeNotification</name>
+        <param>
+          <type>this UITextView</type>
+          <declname>textView</declname>
+        </param>
+        <param>
+          <type>Action&lt; UITextView &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+<para>Sets a callback for registering text changed notifications on a UITextField </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="47" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a8f913039837c24d8d0e7be5164133422" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FieldService.iOS.UIKitExtensions.IsLandscape</definition>
+        <argsstring>(this UIInterfaceOrientation orientation)</argsstring>
+        <name>IsLandscape</name>
+        <param>
+          <type>this UIInterfaceOrientation</type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if is landscape </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="58" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a0b7558778d2fded3664a2bef8a6087d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool FieldService.iOS.UIKitExtensions.IsPortrait</definition>
+        <argsstring>(this UIInterfaceOrientation orientation)</argsstring>
+        <name>IsPortrait</name>
+        <param>
+          <type>this UIInterfaceOrientation</type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if is portrait </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="66" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a59a6387f87e77b14a94cb253eda6ecd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MKPlacemark</type>
+        <definition>static MKPlacemark FieldService.iOS.UIKitExtensions.ToPlacemark</definition>
+        <argsstring>(this Assignment assignment)</argsstring>
+        <name>ToPlacemark</name>
+        <param>
+          <type>this <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Creates an MKPlacemark for an assignment </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="74" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a7114b18077290b3317d0998444d4c582" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FieldService.iOS.UIKitExtensions.ClearPlacemarks</definition>
+        <argsstring>(this MKMapView mapView)</argsstring>
+        <name>ClearPlacemarks</name>
+        <param>
+          <type>this MKMapView</type>
+          <declname>mapView</declname>
+        </param>
+        <briefdescription>
+<para>Clears all MKPlacemarks for a map view </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="89" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a4587f425c1fff5ee1ca3907200dee33e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UIImage</type>
+        <definition>static UIImage FieldService.iOS.UIKitExtensions.ToUIImage</definition>
+        <argsstring>(this byte[] bytes)</argsstring>
+        <name>ToUIImage</name>
+        <param>
+          <type>this byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+<para>Loads a UIImage from a byte array </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="97" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="97" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a7af7fe44d050ffd37d07418b527258de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UIImage</type>
+        <definition>static UIImage FieldService.iOS.UIKitExtensions.ToUIImage</definition>
+        <argsstring>(this System.IO.Stream stream)</argsstring>
+        <name>ToUIImage</name>
+        <param>
+          <type>this System.IO.Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Loads a UIImage from a Stream </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="110" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="110" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1abab5093299246082a80ea575f971b9ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] FieldService.iOS.UIKitExtensions.ToByteArray</definition>
+        <argsstring>(this UIImage image)</argsstring>
+        <name>ToByteArray</name>
+        <param>
+          <type>this UIImage</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>Converts a UIImage to a byte array </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="123" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="123" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a869161674bb9dec041330ffc5b0897e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UIImage</type>
+        <definition>static UIImage FieldService.iOS.UIKitExtensions.ToImage</definition>
+        <argsstring>(this UIColor color)</argsstring>
+        <name>ToImage</name>
+        <param>
+          <type>this UIColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Creates a 1x1 image that is a certain color </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="140" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="140" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a09cf6ba092a8f132a5dc4649d8ae4ba6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T FieldService.iOS.UIKitExtensions.InstantiateViewController&lt; T &gt;</definition>
+        <argsstring>(this UIStoryboard storyboard)</argsstring>
+        <name>InstantiateViewController&lt; T &gt;</name>
+        <param>
+          <type>this UIStoryboard</type>
+          <declname>storyboard</declname>
+        </param>
+        <briefdescription>
+<para>Awesome helper method to instantiate a view controller and use the type name for the id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="159" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a4d1839c93acaf3d10079ebf1119056a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string FieldService.iOS.UIKitExtensions.FormatStartEndDates</definition>
+        <argsstring>(this Assignment assignment)</argsstring>
+        <name>FormatStartEndDates</name>
+        <param>
+          <type>this <ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="165" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="165" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class with extension methods </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Utilities/UIKitExtensions.cs" bodystart="31" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a7114b18077290b3317d0998444d4c582" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ClearPlacemarks</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a4d1839c93acaf3d10079ebf1119056a5" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>FormatStartEndDates</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a09cf6ba092a8f132a5dc4649d8ae4ba6" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>InstantiateViewController&lt; T &gt;</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a8f913039837c24d8d0e7be5164133422" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>IsLandscape</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a0b7558778d2fded3664a2bef8a6087d4" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>IsPortrait</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1afa3fbe1f98a6642223b9bb693d24b96b" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>SetDidChangeNotification</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a25ad10809027a52b7caa998b6f4387e7" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>SetDidChangeNotification</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1abab5093299246082a80ea575f971b9ce" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ToByteArray</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a869161674bb9dec041330ffc5b0897e1" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ToImage</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a59a6387f87e77b14a94cb253eda6ecd7" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ToPlacemark</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a4587f425c1fff5ee1ca3907200dee33e" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ToUIImage</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_u_i_kit_extensions_1a7af7fe44d050ffd37d07418b527258de" prot="public" virt="non-virtual"><scope>FieldService::iOS::UIKitExtensions</scope><name>ToUIImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

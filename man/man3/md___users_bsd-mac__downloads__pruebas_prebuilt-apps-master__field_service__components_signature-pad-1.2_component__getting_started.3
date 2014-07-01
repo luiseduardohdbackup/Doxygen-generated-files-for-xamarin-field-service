@@ -1,0 +1,38 @@
+.TH "md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1.2_component__getting_started" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md___users_bsd-mac__downloads__pruebas_prebuilt-apps-master__field_service__components_signature-pad-1.2_component__getting_started \- GettingStarted 
+Signature Pad makes capturing, saving, exporting, and displaying signatures extremely simple\&.
+.PP
+.SS "Examples"
+.PP
+.SS "Displaying a signature pad"
+.PP
+On iOS:
+.PP
+```csharp using SignaturePad; \&.\&.\&.
+.PP
+public override void ViewDidLoad () { \&.\&.\&. var signature = new SignaturePadView (View\&.Frame) { LineWidth = 3f }; View\&.AddSubview (signature); } ```
+.PP
+On Android:
+.PP
+```csharp using SignaturePad; \&.\&.\&.
+.PP
+protected override void OnCreate (Bundle bundle) { base\&.OnCreate (bundle);
+.PP
+var signature = new SignaturePadView (this) { LineWidth = 3f }; AddContentView (signature, new ViewGroup\&.LayoutParams (ViewGroup\&.LayoutParams\&.FillParent, ViewGroup\&.LayoutParams\&.FillParent)); } ```
+.PP
+.SS "Getting the signature as an image"
+.PP
+```csharp // on iOS: UIImage image = signature\&.GetImage ();
+.PP
+// on Android: Bitmap image = signature\&.GetImage (); ```
+.PP
+.SS "Getting the signature as a point array"
+.PP
+```csharp // Discontinuous lines are separated by PointF\&.Empty PointF[] points = signature\&.Points; ```
+.PP
+.SS "Loading a signature from a point array"
+.PP
+```csharp signature\&.LoadPoints (points); ``` 

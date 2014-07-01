@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_3a4881fbf26f6d9cd92aa6590ed3630f" kind="dir">
+    <compoundname>/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android</compoundname>
+    <innerdir refid="dir_dbaf44451f4be051fc498b465a0b7f56">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/activities</innerdir>
+    <innerdir refid="dir_e55a4b135850a1aef5ea9aeb9f4ae100">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/adapters</innerdir>
+    <innerdir refid="dir_7309a432764ea342b3124454cf3145b1">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs</innerdir>
+    <innerdir refid="dir_d3f5a51304b1a05b44737f0b9c09c239">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/fragments</innerdir>
+    <innerdir refid="dir_f4d1462760705ec1fd53e6fefc6fe419">/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/utilities</innerdir>
+    <innerfile refid="_application_8java">Application.java</innerfile>
+    <innerfile refid="_assignments_activity_8java">AssignmentsActivity.java</innerfile>
+    <innerfile refid="_assignments_adapter_8java">AssignmentsAdapter.java</innerfile>
+    <innerfile refid="_assignment_tab_activity_8java">AssignmentTabActivity.java</innerfile>
+    <innerfile refid="_assignment_tab_activity___map_data_wrapper_8java">AssignmentTabActivity_MapDataWrapper.java</innerfile>
+    <innerfile refid="_base_activity_8java">BaseActivity.java</innerfile>
+    <innerfile refid="_base_map_activity_8java">BaseMapActivity.java</innerfile>
+    <innerfile refid="_expenses_adapter_8java">ExpensesAdapter.java</innerfile>
+    <innerfile refid="_items_adapter_8java">ItemsAdapter.java</innerfile>
+    <innerfile refid="_items_search_adapter_8java">ItemsSearchAdapter.java</innerfile>
+    <innerfile refid="_labor_hours_adapter_8java">LaborHoursAdapter.java</innerfile>
+    <innerfile refid="_labor_type_spinner_adapter_8java">LaborTypeSpinnerAdapter.java</innerfile>
+    <innerfile refid="_login_activity_8java">LoginActivity.java</innerfile>
+    <innerfile refid="_map_fragment_activity_8java">MapFragmentActivity.java</innerfile>
+    <innerfile refid="_map_view_activity_8java">MapViewActivity.java</innerfile>
+    <innerfile refid="_navigation_adapter_8java">NavigationAdapter.java</innerfile>
+    <innerfile refid="_photos_adapter_8java">PhotosAdapter.java</innerfile>
+    <innerfile refid="src_2fieldservice_2android_2_r_8java">R.java</innerfile>
+    <innerfile refid="_spinner_adapter__1_8java">SpinnerAdapter_1.java</innerfile>
+    <innerfile refid="_summary_activity_8java">SummaryActivity.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/"/>
+  </compounddef>
+</doxygen>

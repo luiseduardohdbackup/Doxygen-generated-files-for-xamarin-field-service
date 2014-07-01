@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::Data::SampleAssignmentServiceTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1abab074bf61537fe200c5356984c522b7" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>IAssignmentService FieldService.Tests.Data.SampleAssignmentServiceTests.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="29" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9243bd220540222a36bb044f179b3bab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aef3c2f0d5a93bedc0daedb55826f02af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignments</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="40" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="40" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9a8c075563c0838228dbd3690deda12c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentAndCheckTotalHours</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentAndCheckTotalHours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="51" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="51" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9717d43f5336c4b98ef7e23e0229cc41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentAndCheckTotalItems</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentAndCheckTotalItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="63" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="63" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ab5ee03da6202c843dd53316681f82767" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentAndCheckTotalExpenses</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentAndCheckTotalExpenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="75" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="75" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aa053103ca3acad7d735fdf6d34b68089" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="87" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="87" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a641ce35ec154be1c3b71ec1cca42ce53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveAssignmentItemInsert</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignmentItemInsert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="102" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="102" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a8e9901d2f42c31dc3e5988787170ee12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveAssignmentItemUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignmentItemUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="115" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="115" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a7c34dc5f87735db6b1dc7edd421dd103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveLaborInsert</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLaborInsert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="133" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9d62f16a5f4f05a1f3d0f4e9eaeaa996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveLaborUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLaborUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="145" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="145" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a47e78e82650b20f5449846876374c33f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveExpenseInsert</definition>
+        <argsstring>()</argsstring>
+        <name>SaveExpenseInsert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="161" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="161" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a835b1e932f9a8f75619ba0e535472bc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveExpenseUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>SaveExpenseUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="173" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="173" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1af36aff06c0d512de7271504710518a4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetItems</definition>
+        <argsstring>()</argsstring>
+        <name>GetItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="189" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="189" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ad3834c1c61e4fddc08a630e6d340c4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentItems</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="200" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="200" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a3ad46e0b4ae918fb01ddc584ea1f05a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentLabor</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="220" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="220" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9739f1a62a4bb4bb8f5d0e2d573747c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetAssignmentExpenses</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssignmentExpenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="240" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="240" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a33d5cba0e12654c2fde49d5244ae440a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeleteAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="260" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="260" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ac84c98fce3feaa01109c912a7611e7f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeleteAssignmentItem</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteAssignmentItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="277" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="277" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a088ba51f4b0958da06aaee9ee32184c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeleteLabor</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="289" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="289" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a944c109d481f157bc4d7ba4795b2cb7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeleteExpense</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteExpense</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="303" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="303" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a79d5a0413013d4d13529780d23b69288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SaveTimerEntry</definition>
+        <argsstring>()</argsstring>
+        <name>SaveTimerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="317" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="317" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ada885463fb9363804ae35e376aba8692" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.UpdateTimerEntry</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTimerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="343" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="343" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aad32a3401a374f46af09bd3aac9fc43a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetTimerEntry</definition>
+        <argsstring>()</argsstring>
+        <name>GetTimerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="364" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="364" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a23994c417f57a6fba22423c1c861dcc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeleteTimerEntry</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteTimerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="381" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="381" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a6bf20d318ab0e8951b0dfb71dcd52cf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetPhotos</definition>
+        <argsstring>()</argsstring>
+        <name>GetPhotos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="396" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="396" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a6206c606c045be3f7ee61b7a19bd0a06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.SavePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>SavePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="407" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="407" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a8d9ca1aab3df6a586215e245248013f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.DeletePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>DeletePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="423" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="423" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a2be6bf261d0911dd2ceb83a16ecfebcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetHistory</definition>
+        <argsstring>()</argsstring>
+        <name>GetHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="444" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="444" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1add02b285e69b7abcb6bcec5be6a26889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetSignature</definition>
+        <argsstring>()</argsstring>
+        <name>GetSignature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="464" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="464" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a31065f3fa0e2450531cd78fa0c99e0aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.Data.SampleAssignmentServiceTests.GetExpensePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>GetExpensePhoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="486" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="486" bodyend="509"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" line="28" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/Data/SampleAssignmentServiceTests.cs" bodystart="28" bodyend="510"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a33d5cba0e12654c2fde49d5244ae440a" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeleteAssignment</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ac84c98fce3feaa01109c912a7611e7f6" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeleteAssignmentItem</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a944c109d481f157bc4d7ba4795b2cb7b" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeleteExpense</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a088ba51f4b0958da06aaee9ee32184c1" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeleteLabor</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a8d9ca1aab3df6a586215e245248013f0" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeletePhoto</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a23994c417f57a6fba22423c1c861dcc9" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>DeleteTimerEntry</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ab5ee03da6202c843dd53316681f82767" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentAndCheckTotalExpenses</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9a8c075563c0838228dbd3690deda12c" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentAndCheckTotalHours</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9717d43f5336c4b98ef7e23e0229cc41" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentAndCheckTotalItems</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9739f1a62a4bb4bb8f5d0e2d573747c4" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentExpenses</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ad3834c1c61e4fddc08a630e6d340c4a8" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentItems</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a3ad46e0b4ae918fb01ddc584ea1f05a4" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignmentLabor</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aef3c2f0d5a93bedc0daedb55826f02af" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetAssignments</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a31065f3fa0e2450531cd78fa0c99e0aa" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetExpensePhoto</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a2be6bf261d0911dd2ceb83a16ecfebcc" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetHistory</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1af36aff06c0d512de7271504710518a4d" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetItems</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a6bf20d318ab0e8951b0dfb71dcd52cf8" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetPhotos</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1add02b285e69b7abcb6bcec5be6a26889" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetSignature</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aad32a3401a374f46af09bd3aac9fc43a" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>GetTimerEntry</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1aa053103ca3acad7d735fdf6d34b68089" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveAssignment</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a641ce35ec154be1c3b71ec1cca42ce53" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveAssignmentItemInsert</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a8e9901d2f42c31dc3e5988787170ee12" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveAssignmentItemUpdate</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a47e78e82650b20f5449846876374c33f" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveExpenseInsert</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a835b1e932f9a8f75619ba0e535472bc6" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveExpenseUpdate</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a7c34dc5f87735db6b1dc7edd421dd103" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveLaborInsert</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9d62f16a5f4f05a1f3d0f4e9eaeaa996" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveLaborUpdate</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a6206c606c045be3f7ee61b7a19bd0a06" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SavePhoto</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a79d5a0413013d4d13529780d23b69288" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SaveTimerEntry</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1abab074bf61537fe200c5356984c522b7" prot="private" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1a9243bd220540222a36bb044f179b3bab" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_data_1_1_sample_assignment_service_tests_1ada885463fb9363804ae35e376aba8692" prot="public" virt="non-virtual"><scope>FieldService::Tests::Data::SampleAssignmentServiceTests</scope><name>UpdateTimerEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

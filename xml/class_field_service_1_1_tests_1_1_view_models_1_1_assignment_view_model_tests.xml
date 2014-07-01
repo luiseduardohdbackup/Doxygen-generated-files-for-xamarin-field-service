@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::AssignmentViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a09b42623ae3a2668dd61edd2152765aa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_assignment_view_model" kindref="compound">AssignmentViewModel</ref></type>
+        <definition>AssignmentViewModel FieldService.Tests.ViewModels.AssignmentViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="33" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a97f1eb5c25f63cf6b14d6e6e8a3a4e6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1aaff355b01ff615fc3f96328f75ca1cb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.Load</definition>
+        <argsstring>()</argsstring>
+        <name>Load</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a502718b1f28799819586a7c66fb320e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.SaveAssignment</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="56" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="56" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1af9ff9afe650c30e509c648aadb2270cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.SaveAssignmentAsActive</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAssignmentAsActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="71" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="71" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a7b3a9cc9fcc68ac7ea444264ede6f519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.Record</definition>
+        <argsstring>()</argsstring>
+        <name>Record</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="90" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="90" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a3b8c9ab3b10f1aa5a46b441f40c39085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.Pause</definition>
+        <argsstring>()</argsstring>
+        <name>Pause</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="107" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="107" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a3e192657f8ad1817522acee981bec849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.AssignmentViewModelTests.LoadTimerEntry</definition>
+        <argsstring>()</argsstring>
+        <name>LoadTimerEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="129" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="129" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_field_service_1_1_tests" kindref="compound">Tests</ref> for AssignmentViewModel </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="32" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" bodystart="32" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1aaff355b01ff615fc3f96328f75ca1cb4" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>Load</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a3e192657f8ad1817522acee981bec849" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>LoadTimerEntry</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a3b8c9ab3b10f1aa5a46b441f40c39085" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>Pause</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a7b3a9cc9fcc68ac7ea444264ede6f519" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>Record</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a502718b1f28799819586a7c66fb320e1" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>SaveAssignment</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1af9ff9afe650c30e509c648aadb2270cf" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>SaveAssignmentAsActive</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a97f1eb5c25f63cf6b14d6e6e8a3a4e6a" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests_1a09b42623ae3a2668dd61edd2152765aa" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::AssignmentViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

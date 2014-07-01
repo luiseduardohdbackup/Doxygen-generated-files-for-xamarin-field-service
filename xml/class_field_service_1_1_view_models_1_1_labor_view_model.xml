@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_view_models_1_1_labor_view_model" kind="class" prot="public">
+    <compoundname>FieldService::ViewModels::LaborViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_view_model_base" prot="public" virt="non-virtual">FieldService.ViewModels.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model" prot="public" virt="non-virtual">FieldService.WinRT.ViewModels.LaborViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_labor_view_model_1ac9b32d8547efc4934af194040fbf8c75" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_field_service_1_1_i_assignment_service" kindref="compound">IAssignmentService</ref></type>
+        <definition>readonly IAssignmentService FieldService.ViewModels.LaborViewModel.service</definition>
+        <argsstring></argsstring>
+        <name>service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_labor_view_model_1a9e968bc8411921e9745cd8b07abd0bdd" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+        <definition>List&lt;Labor&gt; FieldService.ViewModels.LaborViewModel.laborHours</definition>
+        <argsstring></argsstring>
+        <name>laborHours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_view_models_1_1_labor_view_model_1ad589bb74bbb3c768cba3354face8cfa8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+        <definition>Labor FieldService.ViewModels.LaborViewModel.selectedLabor</definition>
+        <argsstring></argsstring>
+        <name>selectedLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_labor_view_model_1a72ceb99c3b31a853e22dd5843b74875f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref> &gt;</type>
+        <definition>List&lt;Labor&gt; FieldService.ViewModels.LaborViewModel.LaborHours</definition>
+        <argsstring></argsstring>
+        <name>LaborHours</name>
+        <briefdescription>
+<para>List of labor hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_field_service_1_1_view_models_1_1_labor_view_model_1aabbeb138468e4e718cda010d38f5d9e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+        <definition>virtual Labor FieldService.ViewModels.LaborViewModel.SelectedLabor</definition>
+        <argsstring></argsstring>
+        <name>SelectedLabor</name>
+        <briefdescription>
+<para>The selected labor hour for use within the app </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="36" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_labor_view_model_1a40df2f8a2f8ebdfc0232e163b93eb07a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.ViewModels.LaborViewModel.LaborViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>LaborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_labor_view_model_1ac2a9b008a606a302132dc071c3f2b625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.LaborViewModel.LoadLaborHoursAsync</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>LoadLaborHoursAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Loads the list of labor hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="45" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_labor_view_model_1aa625a08d7499884778b27c83ed43f932" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.LaborViewModel.SaveLaborAsync</definition>
+        <argsstring>(Assignment assignment, Labor labor)</argsstring>
+        <name>SaveLaborAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <briefdescription>
+<para>Saves a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="55" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="55" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_labor_view_model_1a644eb58bfd4329e46ae337e4173d0bcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task FieldService.ViewModels.LaborViewModel.DeleteLaborAsync</definition>
+        <argsstring>(Assignment assignment, Labor labor)</argsstring>
+        <name>DeleteLaborAsync</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_labor" kindref="compound">Labor</ref></type>
+          <declname>labor</declname>
+        </param>
+        <briefdescription>
+<para>Deletes a labor entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="70" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="70" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_view_models_1_1_labor_view_model_1a8ab2cff4fb92ac31bd92112b40e13125" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.ViewModels.LaborViewModel.CalculateHours</definition>
+        <argsstring>(Assignment assignment)</argsstring>
+        <name>CalculateHours</name>
+        <param>
+          <type><ref refid="class_field_service_1_1_data_1_1_assignment" kindref="compound">Assignment</ref></type>
+          <declname>assignment</declname>
+        </param>
+        <briefdescription>
+<para>Just a quick method to re-sum the hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="82" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>View model for labor hours </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2506">
+        <label>FieldService.WinRT.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2502" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2505">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2502">
+        <label>FieldService.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2503" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2503">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2504" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2504">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2505" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2510">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2507">
+        <label>FieldService.ViewModels.LaborViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_labor_view_model"/>
+        <childnode refid="2508" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2508">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2509">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2510" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService/ViewModels/LaborViewModel.cs" bodystart="14" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a8ab2cff4fb92ac31bd92112b40e13125" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>CalculateHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a644eb58bfd4329e46ae337e4173d0bcc" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>DeleteLaborAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a72ceb99c3b31a853e22dd5843b74875f" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>LaborHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a9e968bc8411921e9745cd8b07abd0bdd" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>laborHours</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1a40df2f8a2f8ebdfc0232e163b93eb07a" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>LaborViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1ac2a9b008a606a302132dc071c3f2b625" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>LoadLaborHoursAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1aa625a08d7499884778b27c83ed43f932" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>SaveLaborAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1aabbeb138468e4e718cda010d38f5d9e1" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>SelectedLabor</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1ad589bb74bbb3c768cba3354face8cfa8" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>selectedLabor</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_labor_view_model_1ac9b32d8547efc4934af194040fbf8c75" prot="private" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>service</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::ViewModels::LaborViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

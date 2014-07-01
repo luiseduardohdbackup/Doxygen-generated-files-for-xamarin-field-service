@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source" kind="class" prot="private">
+    <compoundname>FieldService::iOS::AddLaborController::TableSource</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UITableViewSource</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a995c164c59f2adaf9d6d756d5b25ae8b" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>readonly LaborViewModel FieldService.iOS.AddLaborController.TableSource.laborViewModel</definition>
+        <argsstring></argsstring>
+        <name>laborViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="132" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a26c9e43db1fb764b920939ddba252ef7" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddLaborController.TableSource.typeCell</definition>
+        <argsstring></argsstring>
+        <name>typeCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a40b7d0ba481ba7acb53cf89ac774704a" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddLaborController.TableSource.hoursCell</definition>
+        <argsstring></argsstring>
+        <name>hoursCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a6ccca8a2508dc7c43b9574d3b794bc34" prot="private" static="no" mutable="no">
+        <type>readonly UITableViewCell</type>
+        <definition>readonly UITableViewCell FieldService.iOS.AddLaborController.TableSource.descriptionCell</definition>
+        <argsstring></argsstring>
+        <name>descriptionCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="133" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a63c47c31563e5869bae414f73b4afeea" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_labor_type_text_field" kindref="compound">LaborTypeTextField</ref></type>
+        <definition>readonly LaborTypeTextField FieldService.iOS.AddLaborController.TableSource.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="134" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a47447ffda542b0a3a9dfc9568a038ad3" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_placeholder_text_view" kindref="compound">PlaceholderTextView</ref></type>
+        <definition>readonly PlaceholderTextView FieldService.iOS.AddLaborController.TableSource.description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="135" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a2c7a2b15e49da6c4aeb596370c2869bf" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_field_service_1_1i_o_s_1_1_hours_field" kindref="compound">HoursField</ref></type>
+        <definition>readonly HoursField FieldService.iOS.AddLaborController.TableSource.hours</definition>
+        <argsstring></argsstring>
+        <name>hours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="136" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a745fc037a84e903cbd05177aad71cf29" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FieldService.iOS.AddLaborController.TableSource.enabled</definition>
+        <argsstring></argsstring>
+        <name>enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="137" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1aae3ca60405ef2f87a1def6a038fb45a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.iOS.AddLaborController.TableSource.TableSource</definition>
+        <argsstring>()</argsstring>
+        <name>TableSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="139" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="139" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ab454837c6eef7cf5b7463118484c56e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.iOS.AddLaborController.TableSource.Load</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="179" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="179" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a4ce57c686d169adfb4ecb1a127dc53e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float FieldService.iOS.AddLaborController.TableSource.GetHeightForRow</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetHeightForRow</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="196" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ad11a000cf81d7451540b49c910978709" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddLaborController.TableSource.NumberOfSections</definition>
+        <argsstring>(UITableView tableView)</argsstring>
+        <name>NumberOfSections</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="201" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="201" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ab413742fc1199ebf3363727d98aba1b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int FieldService.iOS.AddLaborController.TableSource.RowsInSection</definition>
+        <argsstring>(UITableView tableview, int section)</argsstring>
+        <name>RowsInSection</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableview</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="206" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="206" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ae71e1bf83f65ab9cf07040d11d253b02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddLaborController.TableSource.RowSelected</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>RowSelected</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="211" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="211" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1aea7b4c78205c0fd2d04866efa6adfeb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override UITableViewCell</type>
+        <definition>override UITableViewCell FieldService.iOS.AddLaborController.TableSource.GetCell</definition>
+        <argsstring>(UITableView tableView, NSIndexPath indexPath)</argsstring>
+        <name>GetCell</name>
+        <param>
+          <type>UITableView</type>
+          <declname>tableView</declname>
+        </param>
+        <param>
+          <type>NSIndexPath</type>
+          <declname>indexPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="229" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="229" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ae169a1fe683d7030e80a6a55cc8e44e1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void FieldService.iOS.AddLaborController.TableSource.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="238" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="238" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The table source - has static cells </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3229">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3228">
+        <label>FieldService.iOS.AddLaborController.TableSource</label>
+        <childnode refid="3229" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3231">
+        <label>UITableViewSource</label>
+      </node>
+      <node id="3230">
+        <label>FieldService.iOS.AddLaborController.TableSource</label>
+        <childnode refid="3231" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" line="131" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.iOS/Controllers/AddLaborController.cs" bodystart="130" bodyend="249"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a47447ffda542b0a3a9dfc9568a038ad3" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>description</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a6ccca8a2508dc7c43b9574d3b794bc34" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>descriptionCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ae169a1fe683d7030e80a6a55cc8e44e1" prot="protected" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>Dispose</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a745fc037a84e903cbd05177aad71cf29" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>enabled</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1aea7b4c78205c0fd2d04866efa6adfeb7" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>GetCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a4ce57c686d169adfb4ecb1a127dc53e8" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>GetHeightForRow</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a2c7a2b15e49da6c4aeb596370c2869bf" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>hours</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a40b7d0ba481ba7acb53cf89ac774704a" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>hoursCell</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a995c164c59f2adaf9d6d756d5b25ae8b" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>laborViewModel</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ab454837c6eef7cf5b7463118484c56e4" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>Load</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ad11a000cf81d7451540b49c910978709" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>NumberOfSections</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ae71e1bf83f65ab9cf07040d11d253b02" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>RowSelected</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1ab413742fc1199ebf3363727d98aba1b4" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>RowsInSection</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1aae3ca60405ef2f87a1def6a038fb45a3" prot="public" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>TableSource</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a63c47c31563e5869bae414f73b4afeea" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>type</name></member>
+      <member refid="class_field_service_1_1i_o_s_1_1_add_labor_controller_1_1_table_source_1a26c9e43db1fb764b920939ddba252ef7" prot="private" virt="non-virtual"><scope>FieldService::iOS::AddLaborController::TableSource</scope><name>typeCell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

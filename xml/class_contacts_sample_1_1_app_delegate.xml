@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_app_delegate" kind="class" prot="public">
+    <compoundname>ContactsSample::AppDelegate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIApplicationDelegate</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_app_delegate_1a716de18b19667a17dfb114cc2a350c73" prot="private" static="no" mutable="no">
+        <type>UIWindow</type>
+        <definition>UIWindow ContactsSample.AppDelegate.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_app_delegate_1a26b39a33c746d6628fe26c392eec90d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_contacts_sample_1_1_main_view" kindref="compound">MainView</ref></type>
+        <definition>MainView ContactsSample.AppDelegate.viewController</definition>
+        <argsstring></argsstring>
+        <name>viewController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_app_delegate_1a0583940f2420fdd93471761381764985" prot="private" static="no" mutable="no">
+        <type>UINavigationController</type>
+        <definition>UINavigationController ContactsSample.AppDelegate.navController</definition>
+        <argsstring></argsstring>
+        <name>navController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_app_delegate_1ab8caf2a71e9143848e49a1ae9e9761a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ContactsSample.AppDelegate.FinishedLaunching</definition>
+        <argsstring>(UIApplication app, NSDictionary options)</argsstring>
+        <name>FinishedLaunching</name>
+        <param>
+          <type>UIApplication</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>NSDictionary</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" bodystart="27" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1660">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1659">
+        <label>ContactsSample.AppDelegate</label>
+        <link refid="class_contacts_sample_1_1_app_delegate"/>
+        <childnode refid="1660" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1662">
+        <label>UIApplicationDelegate</label>
+      </node>
+      <node id="1661">
+        <label>ContactsSample.AppDelegate</label>
+        <link refid="class_contacts_sample_1_1_app_delegate"/>
+        <childnode refid="1662" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/AppDelegate.cs" bodystart="13" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_app_delegate_1ab8caf2a71e9143848e49a1ae9e9761a1" prot="public" virt="non-virtual"><scope>ContactsSample::AppDelegate</scope><name>FinishedLaunching</name></member>
+      <member refid="class_contacts_sample_1_1_app_delegate_1a0583940f2420fdd93471761381764985" prot="private" virt="non-virtual"><scope>ContactsSample::AppDelegate</scope><name>navController</name></member>
+      <member refid="class_contacts_sample_1_1_app_delegate_1a26b39a33c746d6628fe26c392eec90d4" prot="private" virt="non-virtual"><scope>ContactsSample::AppDelegate</scope><name>viewController</name></member>
+      <member refid="class_contacts_sample_1_1_app_delegate_1a716de18b19667a17dfb114cc2a350c73" prot="private" virt="non-virtual"><scope>ContactsSample::AppDelegate</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

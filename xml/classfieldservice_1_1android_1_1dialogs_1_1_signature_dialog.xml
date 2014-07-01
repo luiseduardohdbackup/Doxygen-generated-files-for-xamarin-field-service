@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog" kind="class" prot="public">
+    <compoundname>fieldservice::android::dialogs::SignatureDialog</compoundname>
+    <basecompoundref refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog" prot="public" virt="non-virtual">fieldservice.android.dialogs.BaseDialog</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IGCUserPeer</basecompoundref>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a6504b7b7cd11872078032c61296078c3" prot="package" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String fieldservice.android.dialogs.SignatureDialog.__md_methods</definition>
+        <argsstring></argsstring>
+        <name>__md_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="9" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1aebaa0bd793125c8e68ba7e164ccd22f4" prot="package" static="no" mutable="no">
+        <type>java.util.ArrayList</type>
+        <definition>java.util.ArrayList fieldservice.android.dialogs.SignatureDialog.refList</definition>
+        <argsstring></argsstring>
+        <name>refList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="49" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a92e464c07bfdb97f3091af48bff5f4bc" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.SignatureDialog.[static initializer]</definition>
+        <argsstring></argsstring>
+        <name>[static initializer]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="9" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1abf94406655eb5a23ebb70a65bb71e0ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.SignatureDialog.SignatureDialog</definition>
+        <argsstring>(android.content.Context p0)</argsstring>
+        <name>SignatureDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1aca7b4f797e021c81771f60beed641243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.SignatureDialog.SignatureDialog</definition>
+        <argsstring>(android.content.Context p0, boolean p1, android.content.DialogInterface.OnCancelListener p2)</argsstring>
+        <name>SignatureDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>android.content.DialogInterface.OnCancelListener</type>
+          <declname>p2</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="26" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a0f3908805918736252ab6e3c09ca53f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>fieldservice.android.dialogs.SignatureDialog.SignatureDialog</definition>
+        <argsstring>(android.content.Context p0, int p1)</argsstring>
+        <name>SignatureDialog</name>
+        <param>
+          <type>android.content.Context</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p1</declname>
+        </param>
+        <exceptions> throws java.lang.Throwable 	</exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="34" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a5749efdd9520c94adb85e6842479bb33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.SignatureDialog.onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="42" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1abc9cdaf9db6717c6e8184e8e4b10a73d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.SignatureDialog.monodroidAddReference</definition>
+        <argsstring>(java.lang.Object obj)</argsstring>
+        <name>monodroidAddReference</name>
+        <param>
+          <type>java.lang.Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="50" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a03fb20495b41289ce127c114944c3154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void fieldservice.android.dialogs.SignatureDialog.monodroidClearReferences</definition>
+        <argsstring>()</argsstring>
+        <name>monodroidClearReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="57" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a5ebf10a16d86a0444cfb4d19e1e8534f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>native void</type>
+        <definition>native void fieldservice.android.dialogs.SignatureDialog.n_onCreate</definition>
+        <argsstring>(android.os.Bundle p0)</argsstring>
+        <name>n_onCreate</name>
+        <param>
+          <type>android.os.Bundle</type>
+          <declname>p0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3023">
+        <label>fieldservice.android.dialogs.BaseDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog"/>
+        <childnode refid="3024" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3022">
+        <label>fieldservice.android.dialogs.SignatureDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog"/>
+        <childnode refid="3023" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3024">
+        <label>android::app::Dialog</label>
+      </node>
+      <node id="3025">
+        <label>IGCUserPeer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3030">
+        <label>String</label>
+      </node>
+      <node id="3027">
+        <label>fieldservice.android.dialogs.BaseDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog"/>
+        <childnode refid="3028" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3029" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3030" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="3026">
+        <label>fieldservice.android.dialogs.SignatureDialog</label>
+        <link refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog"/>
+        <childnode refid="3027" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3029" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3030" relation="usage">
+          <edgelabel>__md_methods</edgelabel>
+        </childnode>
+      </node>
+      <node id="3028">
+        <label>android::app::Dialog</label>
+      </node>
+      <node id="3029">
+        <label>IGCUserPeer</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" line="8" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/obj/Debug/android/src/fieldservice/android/dialogs/SignatureDialog.java" bodystart="4" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a92e464c07bfdb97f3091af48bff5f4bc" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>[static initializer]</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a6504b7b7cd11872078032c61296078c3" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>__md_methods</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1aadd6a3adecbdd3cf87939cf6bd6fa42f" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1a3c9033c6d58107a2b48f36b72ca3bcfb" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_base_dialog_1ac0a9268a400edf10aadf12d2f567c8fd" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>BaseDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1abc9cdaf9db6717c6e8184e8e4b10a73d" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>monodroidAddReference</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a03fb20495b41289ce127c114944c3154" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>monodroidClearReferences</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a5ebf10a16d86a0444cfb4d19e1e8534f" prot="private" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>n_onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a5749efdd9520c94adb85e6842479bb33" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>onCreate</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1aebaa0bd793125c8e68ba7e164ccd22f4" prot="package" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>refList</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1abf94406655eb5a23ebb70a65bb71e0ac" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>SignatureDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1aca7b4f797e021c81771f60beed641243" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>SignatureDialog</name></member>
+      <member refid="classfieldservice_1_1android_1_1dialogs_1_1_signature_dialog_1a0f3908805918736252ab6e3c09ca53f7" prot="public" virt="non-virtual"><scope>fieldservice::android::dialogs::SignatureDialog</scope><name>SignatureDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

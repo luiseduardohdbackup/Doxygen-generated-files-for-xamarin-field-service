@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_not_null_constraint_violation_exception" kind="class" prot="public">
+    <compoundname>SQLite::NotNullConstraintViolationException</compoundname>
+    <basecompoundref refid="class_s_q_lite_1_1_s_q_lite_exception" prot="public" virt="non-virtual">SQLite.SQLiteException</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a21258090a43872e564b7e7c9faacc920" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IEnumerable&lt; <ref refid="class_s_q_lite_1_1_table_mapping_1_1_column" kindref="compound">TableMapping.Column</ref> &gt;</type>
+        <definition>IEnumerable&lt;TableMapping.Column&gt; SQLite.NotNullConstraintViolationException.Columns</definition>
+        <argsstring></argsstring>
+        <name>Columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="78" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a6c1cdcfe9c9289aefb428bc42861a376" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.NotNullConstraintViolationException.NotNullConstraintViolationException</definition>
+        <argsstring>(SQLite3.Result r, string message)</argsstring>
+        <name>NotNullConstraintViolationException</name>
+        <param>
+          <type>SQLite3.Result</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="80" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="80" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a1323d85e646b1eb71943d03619291677" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.NotNullConstraintViolationException.NotNullConstraintViolationException</definition>
+        <argsstring>(SQLite3.Result r, string message, TableMapping mapping, object obj)</argsstring>
+        <name>NotNullConstraintViolationException</name>
+        <param>
+          <type>SQLite3.Result</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="86" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="86" bodyend="94"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a7989030e3242311aaca6b3d184184396" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new <ref refid="class_s_q_lite_1_1_not_null_constraint_violation_exception" kindref="compound">NotNullConstraintViolationException</ref></type>
+        <definition>static new NotNullConstraintViolationException SQLite.NotNullConstraintViolationException.New</definition>
+        <argsstring>(SQLite3.Result r, string message)</argsstring>
+        <name>New</name>
+        <param>
+          <type>SQLite3.Result</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="96" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1ac25b33dde04a9b12bd6984038e4b2972" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_not_null_constraint_violation_exception" kindref="compound">NotNullConstraintViolationException</ref></type>
+        <definition>static NotNullConstraintViolationException SQLite.NotNullConstraintViolationException.New</definition>
+        <argsstring>(SQLite3.Result r, string message, TableMapping mapping, object obj)</argsstring>
+        <name>New</name>
+        <param>
+          <type>SQLite3.Result</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="101" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a25c290bafcea136ebd06b2959bf20c3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_s_q_lite_1_1_not_null_constraint_violation_exception" kindref="compound">NotNullConstraintViolationException</ref></type>
+        <definition>static NotNullConstraintViolationException SQLite.NotNullConstraintViolationException.New</definition>
+        <argsstring>(SQLiteException exception, TableMapping mapping, object obj)</argsstring>
+        <name>New</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_exception" kindref="compound">SQLiteException</ref></type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_table_mapping" kindref="compound">TableMapping</ref></type>
+          <declname>mapping</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="106" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2839">
+        <label>SQLiteException</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_exception"/>
+        <childnode refid="2840" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2840">
+        <label>Exception</label>
+      </node>
+      <node id="2838">
+        <label>SQLite.NotNullConstraintViolationException</label>
+        <link refid="class_s_q_lite_1_1_not_null_constraint_violation_exception"/>
+        <childnode refid="2839" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2842">
+        <label>SQLiteException</label>
+        <link refid="class_s_q_lite_1_1_s_q_lite_exception"/>
+        <childnode refid="2843" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2843">
+        <label>Exception</label>
+      </node>
+      <node id="2841">
+        <label>SQLite.NotNullConstraintViolationException</label>
+        <link refid="class_s_q_lite_1_1_not_null_constraint_violation_exception"/>
+        <childnode refid="2842" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="77" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="76" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a21258090a43872e564b7e7c9faacc920" prot="public" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>Columns</name></member>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a7989030e3242311aaca6b3d184184396" prot="public" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>New</name></member>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1ac25b33dde04a9b12bd6984038e4b2972" prot="public" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>New</name></member>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a25c290bafcea136ebd06b2959bf20c3c" prot="public" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>New</name></member>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a6c1cdcfe9c9289aefb428bc42861a376" prot="protected" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>NotNullConstraintViolationException</name></member>
+      <member refid="class_s_q_lite_1_1_not_null_constraint_violation_exception_1a1323d85e646b1eb71943d03619291677" prot="protected" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>NotNullConstraintViolationException</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_exception_1a973d7bbe93363a91182d852fed38f5f3" prot="public" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>Result</name></member>
+      <member refid="class_s_q_lite_1_1_s_q_lite_exception_1a360138124608a44ec47ab94e6bb988f8" prot="protected" virt="non-virtual"><scope>SQLite::NotNullConstraintViolationException</scope><name>SQLiteException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

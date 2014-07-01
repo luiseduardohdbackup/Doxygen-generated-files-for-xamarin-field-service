@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller" kind="class" prot="public">
+    <compoundname>SQLite::iOS::Sample::TasksViewController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DialogViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a20e7518dd36fdeca2dc55bb599755773" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+        <definition>readonly SQLiteAsyncConnection SQLite.iOS.Sample.TasksViewController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="11" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1ab87a0d95f8ef4a322c0a52bcce9a96ef" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list" kindref="compound">List</ref></type>
+        <definition>readonly List SQLite.iOS.Sample.TasksViewController.list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="12" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a702add974f0ebc8f2ee5d687dc2a5d67" prot="private" static="no" mutable="no">
+        <type>readonly TaskScheduler</type>
+        <definition>readonly TaskScheduler SQLite.iOS.Sample.TasksViewController.uiScheduler</definition>
+        <argsstring></argsstring>
+        <name>uiScheduler</name>
+        <initializer>= TaskScheduler.FromCurrentSynchronizationContext()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aa413ce6c6888782772a891ab8d89b3d8" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView SQLite.iOS.Sample.TasksViewController.create</definition>
+        <argsstring></argsstring>
+        <name>create</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="94" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aac373baa015012ddf3eaf768bab42c75" prot="private" static="no" mutable="no">
+        <type>UIAlertView</type>
+        <definition>UIAlertView SQLite.iOS.Sample.TasksViewController.alert</definition>
+        <argsstring></argsstring>
+        <name>alert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="113" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1afa4a67d93d9e2a1afb7e3ddb35ea387b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.iOS.Sample.TasksViewController.TasksViewController</definition>
+        <argsstring>(SQLiteAsyncConnection connection, List list)</argsstring>
+        <name>TasksViewController</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1_s_q_lite_async_connection" kindref="compound">SQLiteAsyncConnection</ref></type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list" kindref="compound">List</ref></type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="15" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a0c5eb6c712e3990fac297f2dd1cd3319" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.iOS.Sample.TasksViewController.CreateItem</definition>
+        <argsstring>(string text)</argsstring>
+        <name>CreateItem</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="37" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aa273e3598f02d3c924234e2da14de5c4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.iOS.Sample.TasksViewController.Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="53" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="53" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a8c9e14aeaa6a8e3c8a097ee4fbecec16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.iOS.Sample.TasksViewController.OnTap</definition>
+        <argsstring>(ListItem task)</argsstring>
+        <name>OnTap</name>
+        <param>
+          <type><ref refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_list_item" kindref="compound">ListItem</ref></type>
+          <declname>task</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="82" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="82" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a3ddae839a4be773fd23607850d89432f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.iOS.Sample.TasksViewController.OnAddItem</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnAddItem</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="95" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="95" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1abb799c066f18e0b397d93dd78d0c0904" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SQLite.iOS.Sample.TasksViewController.ShowError</definition>
+        <argsstring>(Exception exception)</argsstring>
+        <name>ShowError</name>
+        <param>
+          <type>Exception</type>
+          <declname>exception</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="114" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="114" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3272">
+        <label>SQLite.iOS.Sample.TasksViewController</label>
+        <link refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller"/>
+        <childnode refid="3273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3273">
+        <label>DialogViewController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3274">
+        <label>SQLite.iOS.Sample.TasksViewController</label>
+        <link refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller"/>
+        <childnode refid="3275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3275">
+        <label>DialogViewController</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" line="10" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.iOS.Sample/TasksViewController.cs" bodystart="9" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aac373baa015012ddf3eaf768bab42c75" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>alert</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aa413ce6c6888782772a891ab8d89b3d8" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>create</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a0c5eb6c712e3990fac297f2dd1cd3319" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>CreateItem</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a20e7518dd36fdeca2dc55bb599755773" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>db</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1ab87a0d95f8ef4a322c0a52bcce9a96ef" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>list</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a3ddae839a4be773fd23607850d89432f" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>OnAddItem</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a8c9e14aeaa6a8e3c8a097ee4fbecec16" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>OnTap</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1aa273e3598f02d3c924234e2da14de5c4" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>Refresh</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1abb799c066f18e0b397d93dd78d0c0904" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>ShowError</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1afa4a67d93d9e2a1afb7e3ddb35ea387b" prot="public" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>TasksViewController</name></member>
+      <member refid="class_s_q_lite_1_1i_o_s_1_1_sample_1_1_tasks_view_controller_1a702add974f0ebc8f2ee5d687dc2a5d67" prot="private" virt="non-virtual"><scope>SQLite::iOS::Sample::TasksViewController</scope><name>uiScheduler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

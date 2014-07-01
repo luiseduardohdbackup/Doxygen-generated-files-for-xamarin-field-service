@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_s_q_lite_1_1_collation_attribute" kind="class" prot="public">
+    <compoundname>SQLite::CollationAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_s_q_lite_1_1_collation_attribute_1af43921410271a15d87f6c97cf42971b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SQLite.CollationAttribute.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1657" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1657" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_s_q_lite_1_1_collation_attribute_1a741b7b18adbbefa4c7922d254c8a3afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SQLite.CollationAttribute.CollationAttribute</definition>
+        <argsstring>(string collation)</argsstring>
+        <name>CollationAttribute</name>
+        <param>
+          <type>string</type>
+          <declname>collation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1659" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1659" bodyend="1662"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1966">
+        <label>Attribute</label>
+      </node>
+      <node id="1965">
+        <label>SQLite.CollationAttribute</label>
+        <link refid="class_s_q_lite_1_1_collation_attribute"/>
+        <childnode refid="1966" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1968">
+        <label>Attribute</label>
+      </node>
+      <node id="1967">
+        <label>SQLite.CollationAttribute</label>
+        <link refid="class_s_q_lite_1_1_collation_attribute"/>
+        <childnode refid="1968" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" line="1656" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Dependencies/sqlite-net/src/SQLite.cs" bodystart="1655" bodyend="1663"/>
+    <listofallmembers>
+      <member refid="class_s_q_lite_1_1_collation_attribute_1a741b7b18adbbefa4c7922d254c8a3afc" prot="public" virt="non-virtual"><scope>SQLite::CollationAttribute</scope><name>CollationAttribute</name></member>
+      <member refid="class_s_q_lite_1_1_collation_attribute_1af43921410271a15d87f6c97cf42971b3" prot="public" virt="non-virtual"><scope>SQLite::CollationAttribute</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

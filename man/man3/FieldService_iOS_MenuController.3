@@ -1,0 +1,97 @@
+.TH "FieldService.iOS.MenuController" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.iOS.MenuController \- 
+.PP
+This controller holds the main menu for assignments  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits UIViewController\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMenuController\fP (IntPtr handle)"
+.br
+.ti -1c
+.RI "override void \fBViewDidLoad\fP ()"
+.br
+.ti -1c
+.RI "override void \fBViewWillAppear\fP (bool animated)"
+.br
+.ti -1c
+.RI "override void \fBViewDidAppear\fP (bool animated)"
+.br
+.ti -1c
+.RI "void \fBUpdateAssignment\fP ()"
+.br
+.RI "\fISets up the UI for the active assignment \fP"
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override void \fBDispose\fP (bool disposing)"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "EventHandler< \fBMenuEventArgs\fP > \fBMenuChanged\fP"
+.br
+.RI "\fIOccurs when the menu is changed \fP"
+.ti -1c
+.RI "EventHandler \fBAssignmentCompleted\fP"
+.br
+.RI "\fIOccurs when the assignment is completed via the \fBStatusButton\fP \fP"
+.ti -1c
+.RI "EventHandler \fBStatusChanged\fP"
+.br
+.RI "\fIOccurs when status is changed on the timer \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+This controller holds the main menu for assignments 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "FieldService\&.iOS\&.MenuController\&.MenuController (IntPtrhandle)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "override void FieldService\&.iOS\&.MenuController\&.Dispose (booldisposing)\fC [protected]\fP"
+
+.SS "void FieldService\&.iOS\&.MenuController\&.UpdateAssignment ()"
+
+.PP
+Sets up the UI for the active assignment 
+.SS "override void FieldService\&.iOS\&.MenuController\&.ViewDidAppear (boolanimated)"
+
+.SS "override void FieldService\&.iOS\&.MenuController\&.ViewDidLoad ()"
+
+.SS "override void FieldService\&.iOS\&.MenuController\&.ViewWillAppear (boolanimated)"
+
+.SH "Event Documentation"
+.PP 
+.SS "EventHandler FieldService\&.iOS\&.MenuController\&.AssignmentCompleted"
+
+.PP
+Occurs when the assignment is completed via the \fBStatusButton\fP 
+.SS "EventHandler<\fBMenuEventArgs\fP> FieldService\&.iOS\&.MenuController\&.MenuChanged"
+
+.PP
+Occurs when the menu is changed 
+.SS "EventHandler FieldService\&.iOS\&.MenuController\&.StatusChanged"
+
+.PP
+Occurs when status is changed on the timer 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model" kind="class" prot="public">
+    <compoundname>FieldService::WinRT::ViewModels::HistoryViewModel</compoundname>
+    <basecompoundref refid="class_field_service_1_1_view_models_1_1_history_view_model" prot="public" virt="non-virtual">FieldService.ViewModels.HistoryViewModel</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model_1a859bff3fef3349721f15989cc91c2531" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_field_service_1_1_data_1_1_assignment_history" kindref="compound">AssignmentHistory</ref></type>
+        <definition>AssignmentHistory FieldService.WinRT.ViewModels.HistoryViewModel.RecentHistory</definition>
+        <argsstring></argsstring>
+        <name>RecentHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" line="24" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model_1aa2442739713b5660e32190dfb08bb095" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void FieldService.WinRT.ViewModels.HistoryViewModel.OnPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>OnPropertyChanged</name>
+        <reimplements refid="class_field_service_1_1_data_1_1_property_changed_base_1a069360ac47dcfc0db74160822443edf2">OnPropertyChanged</reimplements>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Protected method for firing PropertyChanged </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the property that changed</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" line="35" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2295">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2293">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2294" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2291">
+        <label>FieldService.WinRT.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2292" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2294">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2292">
+        <label>FieldService::ViewModels::HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2300">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="2298">
+        <label>ViewModelBase</label>
+        <link refid="class_field_service_1_1_view_models_1_1_view_model_base"/>
+        <childnode refid="2299" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2296">
+        <label>FieldService.WinRT.ViewModels.HistoryViewModel</label>
+        <link refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2297" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2299">
+        <label>PropertyChangedBase</label>
+        <link refid="class_field_service_1_1_data_1_1_property_changed_base"/>
+        <childnode refid="2300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2297">
+        <label>FieldService::ViewModels::HistoryViewModel</label>
+        <link refid="class_field_service_1_1_view_models_1_1_history_view_model"/>
+        <childnode refid="2298" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" line="22" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.WinRT/ViewModels/HistoryViewModel.cs" bodystart="22" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a0749e92a5aa2aef6e204e0825bf6a6fb" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>Error</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1acfdcc60579dad2ed4235829744454c5e" prot="protected" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>Errors</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1af4b3327a152fbebc1e2d5536682248a7" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>History</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a45027751a4251a263cbb6848b0708bc9" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>HistoryViewModel</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1ac79792fce62001ae8db6e7876ac0d837" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>IsBusy</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a358450ebfc5f259f34a81ee8184ad1c2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>IsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a3eaef78dc011fb892e876d903adff375" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>IsValid</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1af6a683e5a53bba62a459ce847680c1a8" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>IsValidChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a502172061d53c07fcdb2b54b3c33c6cf" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>LoadAssignmentFromHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a776d2d468a7a045d0020d52619474f15" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>LoadHistoryAsync</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a6a7d9b80cff0d33e20451bccc7680e54" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>OnIsBusyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model_1aa2442739713b5660e32190dfb08bb095" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>OnPropertyChanged</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a36e22295da2e4552cca497791c15b4a3" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>PastAssignment</name></member>
+      <member refid="class_field_service_1_1_data_1_1_property_changed_base_1a4e280ec984d9d0584222d973895ff3ed" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_field_service_1_1_win_r_t_1_1_view_models_1_1_history_view_model_1a859bff3fef3349721f15989cc91c2531" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>RecentHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_history_view_model_1a21a83a23503f293c03b0efe4de7fcc82" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>SelectedAssignmentHistory</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a872d3f368bf241242ff6cff4589c54d8" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>Validate</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1a814091201e60cc4fd3240a593cf26fd9" prot="protected" virt="virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>ValidateProperty</name></member>
+      <member refid="class_field_service_1_1_view_models_1_1_view_model_base_1aac15ea6fda5363b654314fc2060632d2" prot="public" virt="non-virtual"><scope>FieldService::WinRT::ViewModels::HistoryViewModel</scope><name>ViewModelBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

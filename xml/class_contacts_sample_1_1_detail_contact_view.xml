@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_contacts_sample_1_1_detail_contact_view" kind="class" prot="public">
+    <compoundname>ContactsSample::DetailContactView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UIViewController</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_contacts_sample_1_1_detail_contact_view_1a173d12fc81ec4c19a18fb0b52faa8eb9" prot="private" static="no" mutable="no">
+        <type>Contact</type>
+        <definition>Contact ContactsSample.DetailContactView.contact</definition>
+        <argsstring></argsstring>
+        <name>contact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_detail_contact_view_1a88ab8847cdb8c722061e0299817e065b" prot="private" static="no" mutable="no">
+        <type>UIImageView</type>
+        <definition>UIImageView ContactsSample.DetailContactView.contactImage</definition>
+        <argsstring></argsstring>
+        <name>contactImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="16" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_detail_contact_view_1a7b00aaafc6130ca8420a4423e03aef3f" prot="private" static="no" mutable="no">
+        <type>UILabel</type>
+        <definition>UILabel ContactsSample.DetailContactView.nameLabel</definition>
+        <argsstring></argsstring>
+        <name>nameLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="17" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_detail_contact_view_1a8370f08088b4e2e89bdf612905682a57" prot="private" static="no" mutable="no">
+        <type>UILabel</type>
+        <definition>UILabel ContactsSample.DetailContactView.phoneLabel</definition>
+        <argsstring></argsstring>
+        <name>phoneLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_contacts_sample_1_1_detail_contact_view_1a7b46d95ec0481fa36d5722b5dbc4adeb" prot="private" static="no" mutable="no">
+        <type>UILabel</type>
+        <definition>UILabel ContactsSample.DetailContactView.emailLabel</definition>
+        <argsstring></argsstring>
+        <name>emailLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="19" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_contacts_sample_1_1_detail_contact_view_1a24621f0d7863009ef48fcbf2b0e5b3fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ContactsSample.DetailContactView.DetailContactView</definition>
+        <argsstring>(Contact c)</argsstring>
+        <name>DetailContactView</name>
+        <param>
+          <type>Contact</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="20" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_contacts_sample_1_1_detail_contact_view_1ad8cb4d2071f2ccdcfa029191e0922646" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ContactsSample.DetailContactView.ViewDidLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ViewDidLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="25" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="25" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Detail contact view. This view displays the details of a contact. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2045">
+        <label>UIViewController</label>
+      </node>
+      <node id="2044">
+        <label>ContactsSample.DetailContactView</label>
+        <link refid="class_contacts_sample_1_1_detail_contact_view"/>
+        <childnode refid="2045" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2047">
+        <label>UIViewController</label>
+      </node>
+      <node id="2046">
+        <label>ContactsSample.DetailContactView</label>
+        <link refid="class_contacts_sample_1_1_detail_contact_view"/>
+        <childnode refid="2047" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" line="14" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/xamarin.mobile-0.6.1/samples/Xamarin.Mobile.iOS.Samples/ContactsSample/DetailContactView.cs" bodystart="13" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a173d12fc81ec4c19a18fb0b52faa8eb9" prot="private" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>contact</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a88ab8847cdb8c722061e0299817e065b" prot="private" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>contactImage</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a24621f0d7863009ef48fcbf2b0e5b3fe" prot="public" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>DetailContactView</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a7b46d95ec0481fa36d5722b5dbc4adeb" prot="private" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>emailLabel</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a7b00aaafc6130ca8420a4423e03aef3f" prot="private" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>nameLabel</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1a8370f08088b4e2e89bdf612905682a57" prot="private" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>phoneLabel</name></member>
+      <member refid="class_contacts_sample_1_1_detail_contact_view_1ad8cb4d2071f2ccdcfa029191e0922646" prot="public" virt="non-virtual"><scope>ContactsSample::DetailContactView</scope><name>ViewDidLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

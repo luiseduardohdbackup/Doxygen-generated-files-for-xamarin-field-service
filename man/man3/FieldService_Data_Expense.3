@@ -1,0 +1,87 @@
+.TH "FieldService.Data.Expense" 3 "Tue Jul 1 2014" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FieldService.Data.Expense \- 
+.PP
+An expense associated with an assignment  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBId\fP\fC [get, set]\fP"
+.br
+.RI "\fIId of the item \fP"
+.ti -1c
+.RI "\fBExpenseCategory\fP \fBCategory\fP\fC [get, set]\fP"
+.br
+.RI "\fIA category to identify the expense \fP"
+.ti -1c
+.RI "string \fBDescription\fP\fC [get, set]\fP"
+.br
+.RI "\fIAn extended description of the expense \fP"
+.ti -1c
+.RI "decimal \fBCost\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe cost of the expense \fP"
+.ti -1c
+.RI "bool \fBHasPhoto\fP\fC [get, set]\fP"
+.br
+.RI "\fIThe expense has a photo attached to it \fP"
+.ti -1c
+.RI "int \fBAssignmentId\fP\fC [get, set]\fP"
+.br
+.RI "\fILink to an assignment \fP"
+.ti -1c
+.RI "string \fBCategoryAsString\fP\fC [get]\fP"
+.br
+.RI "\fIA nicely string formatted version of Type \fP"
+.ti -1c
+.RI "string \fBCostFormatted\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+An expense associated with an assignment 
+
+
+.SH "Property Documentation"
+.PP 
+.SS "int FieldService\&.Data\&.Expense\&.AssignmentId\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Link to an assignment 
+.SS "\fBExpenseCategory\fP FieldService\&.Data\&.Expense\&.Category\fC [get]\fP, \fC [set]\fP"
+
+.PP
+A category to identify the expense 
+.SS "string FieldService\&.Data\&.Expense\&.CategoryAsString\fC [get]\fP"
+
+.PP
+A nicely string formatted version of Type 
+.SS "decimal FieldService\&.Data\&.Expense\&.Cost\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The cost of the expense 
+.SS "string FieldService\&.Data\&.Expense\&.CostFormatted\fC [get]\fP"
+
+.SS "string FieldService\&.Data\&.Expense\&.Description\fC [get]\fP, \fC [set]\fP"
+
+.PP
+An extended description of the expense 
+.SS "bool FieldService\&.Data\&.Expense\&.HasPhoto\fC [get]\fP, \fC [set]\fP"
+
+.PP
+The expense has a photo attached to it 
+.SS "int FieldService\&.Data\&.Expense\&.Id\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Id of the item 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My Project from the source code\&.

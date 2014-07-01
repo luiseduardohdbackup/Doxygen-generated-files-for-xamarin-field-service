@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_field_service_1_1_tests_1_1_view_models" kind="namespace">
+    <compoundname>FieldService::Tests::ViewModels</compoundname>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_assignment_view_model_tests" prot="public">FieldService::Tests::ViewModels::AssignmentViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_document_view_model_tests" prot="public">FieldService::Tests::ViewModels::DocumentViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_expense_view_model_tests" prot="public">FieldService::Tests::ViewModels::ExpenseViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_history_view_model_tests" prot="public">FieldService::Tests::ViewModels::HistoryViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_item_view_model_tests" prot="public">FieldService::Tests::ViewModels::ItemViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests" prot="public">FieldService::Tests::ViewModels::LaborViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_login_view_model_tests" prot="public">FieldService::Tests::ViewModels::LoginViewModelTests</innerclass>
+    <innerclass refid="class_field_service_1_1_tests_1_1_view_models_1_1_photo_view_model_tests" prot="public">FieldService::Tests::ViewModels::PhotoViewModelTests</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/AssignmentViewModelTests.cs" line="27" column="1"/>
+  </compounddef>
+</doxygen>

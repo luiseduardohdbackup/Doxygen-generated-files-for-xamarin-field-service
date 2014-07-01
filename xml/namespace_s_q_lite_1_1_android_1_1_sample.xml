@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="namespace_s_q_lite_1_1_android_1_1_sample" kind="namespace">
+    <compoundname>SQLite::Android::Sample</compoundname>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_delegated_menu_item_listener" prot="public">SQLite::Android::Sample::DelegatedMenuItemListener</innerclass>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list" prot="public">SQLite::Android::Sample::List</innerclass>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_fragment" prot="public">SQLite::Android::Sample::ListFragment</innerclass>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_list_item" prot="public">SQLite::Android::Sample::ListItem</innerclass>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_main_activity" prot="public">SQLite::Android::Sample::MainActivity</innerclass>
+    <innerclass refid="class_s_q_lite_1_1_android_1_1_sample_1_1_tab_listener_3_01_t_01_4" prot="public">SQLite::Android::Sample::TabListener&lt; T &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/Components/sqlite-net-1.0.1/samples/SQLite.Android.Sample/DelegatedMenuItemListener.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

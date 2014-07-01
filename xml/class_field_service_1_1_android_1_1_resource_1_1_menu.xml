@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_android_1_1_resource_1_1_menu" kind="class" prot="public">
+    <compoundname>FieldService::Android::Resource::Menu</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_menu_1aa187f9835aa1e6542af329aaac6128bf" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Menu.FragmentNavigationMenu</definition>
+        <argsstring></argsstring>
+        <name>FragmentNavigationMenu</name>
+        <initializer>= 2131165184</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="939" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_field_service_1_1_android_1_1_resource_1_1_menu_1aae37127ca3678f60d772c8abfb76793f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int FieldService.Android.Resource.Menu.SummaryMenu</definition>
+        <argsstring></argsstring>
+        <name>SummaryMenu</name>
+        <initializer>= 2131165185</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="942" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="942" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_menu_1ab43dedea9c452d723abb05cef5dabe48" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static FieldService.Android.Resource.Menu.Menu</definition>
+        <argsstring>()</argsstring>
+        <name>Menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="944" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="944" bodyend="947"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_field_service_1_1_android_1_1_resource_1_1_menu_1a901d237822e1fd162633bb657d77e75c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FieldService.Android.Resource.Menu.Menu</definition>
+        <argsstring>()</argsstring>
+        <name>Menu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="949" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="949" bodyend="951"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" line="936" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Android/Resources/Resource.Designer.cs" bodystart="935" bodyend="952"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_menu_1aa187f9835aa1e6542af329aaac6128bf" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Menu</scope><name>FragmentNavigationMenu</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_menu_1ab43dedea9c452d723abb05cef5dabe48" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Menu</scope><name>Menu</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_menu_1a901d237822e1fd162633bb657d77e75c" prot="private" virt="non-virtual"><scope>FieldService::Android::Resource::Menu</scope><name>Menu</name></member>
+      <member refid="class_field_service_1_1_android_1_1_resource_1_1_menu_1aae37127ca3678f60d772c8abfb76793f" prot="public" virt="non-virtual"><scope>FieldService::Android::Resource::Menu</scope><name>SummaryMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests" kind="class" prot="public">
+    <compoundname>FieldService::Tests::ViewModels::LaborViewModelTests</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1a0038d1515699738525e315b7b5b8ba20" prot="private" static="no" mutable="no">
+        <type><ref refid="class_field_service_1_1_view_models_1_1_labor_view_model" kindref="compound">LaborViewModel</ref></type>
+        <definition>LaborViewModel FieldService.Tests.ViewModels.LaborViewModelTests.viewModel</definition>
+        <argsstring></argsstring>
+        <name>viewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="15" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1abba76f38df875db1e01e0186050fe564" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LaborViewModelTests.SetUp</definition>
+        <argsstring>()</argsstring>
+        <name>SetUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="18" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1ad202df0b435409f7bc1fb40d16b5e4dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LaborViewModelTests.LoadLaborHours</definition>
+        <argsstring>()</argsstring>
+        <name>LoadLaborHours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="27" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1ad0c6e11ee5b2104357707d0fe0d1bcfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LaborViewModelTests.SaveLabor</definition>
+        <argsstring>()</argsstring>
+        <name>SaveLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="37" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="37" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1aebda5fec2725dfb64dfc6cd4191ce0f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FieldService.Tests.ViewModels.LaborViewModelTests.DeleteLabor</definition>
+        <argsstring>()</argsstring>
+        <name>DeleteLabor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="52" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="52" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" line="13" column="1" bodyfile="/Users/bsd-mac/Downloads/Pruebas/prebuilt-apps-master/FieldService/FieldService.Tests/ViewModels/LaborViewModelTests.cs" bodystart="13" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1aebda5fec2725dfb64dfc6cd4191ce0f7" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LaborViewModelTests</scope><name>DeleteLabor</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1ad202df0b435409f7bc1fb40d16b5e4dd" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LaborViewModelTests</scope><name>LoadLaborHours</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1ad0c6e11ee5b2104357707d0fe0d1bcfe" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LaborViewModelTests</scope><name>SaveLabor</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1abba76f38df875db1e01e0186050fe564" prot="public" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LaborViewModelTests</scope><name>SetUp</name></member>
+      <member refid="class_field_service_1_1_tests_1_1_view_models_1_1_labor_view_model_tests_1a0038d1515699738525e315b7b5b8ba20" prot="private" virt="non-virtual"><scope>FieldService::Tests::ViewModels::LaborViewModelTests</scope><name>viewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
